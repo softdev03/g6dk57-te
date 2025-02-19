@@ -1,0 +1,157 @@
+{{ 'tradies.css' | asset_url | stylesheet_tag }}
+{%- style -%}
+  #shopify-section-{{ section.id }} {
+    padding-top: {{ section.settings.desktop_padding_top }}px;
+    padding-bottom: {{ section.settings.desktop_padding_bottom }}px;
+  }
+  @media screen and (max-width: 749px) {
+    #shopify-section-{{ section.id }} {
+      padding-top: {{ section.settings.mobile_padding_top }}px;
+      padding-bottom: {{ section.settings.mobile_padding_bottom }}px;
+    }
+  }
+{%- endstyle -%}
+<div class="shopify-section-tradies page-width">
+  {%- if section.settings.heading != blank -%}
+    <h1 class="heading m-0">{{ section.settings.heading }}</h1>
+  {%- endif -%}
+  {%- if section.settings.text != blank -%}
+    <p class="text m-0">{{ section.settings.text }}</p>
+  {%- endif -%}
+  {%- if section.blocks.size > 0 -%}
+    <div class="tradies-items-wrapper">
+      {%- for block in section.blocks -%}
+        <div class="tradies-item">
+          {%- if block.settings.image != blank -%}
+            <div class="image">
+              <img src="{{ block.settings.image |  img_url: '500x' }}" alt="" width="500px" height="auto">
+            </div>
+            <div class="tradies-detail accordion">
+              <div class="accordion-heading">
+                {{ block.settings.detail_info_heading }}
+                {%- if block.settings.icon != blank -%}
+                  <img src="{{ block.settings.icon |  img_url: '20x' }}" alt="" width="18px" height="auto">
+                {%- endif -%}
+              </div>
+              <div class="accordion-content">
+                {%- if block.settings.detail_info_text != blank -%}
+                  <div class="text-content">{{ block.settings.detail_info_text }}</div>
+                {%- endif -%}
+                {%- if block.settings.detail_button_link != blank and block.settings.detail_info_text != blank -%}
+                  <a href="{{ block.settings.detail_button_link }}" class="detail_link">{{ block.settings.detail_button_text }}</a>
+                {%- endif -%}
+              </div>
+            </div>
+          {%- endif -%}
+        </div>
+      {%- endfor -%}
+    </div>
+  {%- endif -%}
+</div>
+{% schema %}
+{
+  "name": "Tradies",
+  "tag": "section",
+  "class": "shopify-section--tradies",
+  "settings": [
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "Heading"
+    },
+    {
+      "type": "text",
+      "id": "text",
+      "label": "Text"
+    },
+    {
+      "type": "header",
+      "content": "Padding Settings"
+    },
+    {
+      "type": "range",
+      "id": "desktop_padding_top",
+      "min": 0,
+      "max": 200,
+      "step": 2,
+      "unit": "px",
+      "label": "Desktop Padding Top",
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "desktop_padding_bottom",
+      "min": 0,
+      "max": 200,
+      "step": 2,
+      "unit": "px",
+      "label": "Desktop Padding Bottom",
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "mobile_padding_top",
+      "min": 0,
+      "max": 200,
+      "step": 2,
+      "unit": "px",
+      "label": "Mobile Padding Top",
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "mobile_padding_bottom",
+      "min": 0,
+      "max": 200,
+      "step": 2,
+      "unit": "px",
+      "label": "Mobile Padding Bottom",
+      "default": 0
+    }
+  ],
+  "blocks": [
+    {
+      "type": "tradies-item",
+      "name": "Tradies Item",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image"
+        },
+        {
+          "type": "text",
+          "id": "detail_info_heading",
+          "label": "Detail Info Heading"
+        },
+        {
+          "type": "richtext",
+          "id": "detail_info_text",
+          "label": "Detail Info Text"
+        },
+        {
+          "type": "image_picker",
+          "id": "icon",
+          "label": "Icon"
+        },
+        {
+          "type": "url",
+          "id": "detail_button_link",
+          "label": "Detail Button Link"
+        },
+        {
+          "type": "text",
+          "id": "detail_button_text",
+          "label": "Detail Button Text"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Tradies",
+      "settings": {}
+    }
+  ]
+}
+{% endschema %}

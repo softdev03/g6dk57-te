@@ -1,0 +1,194 @@
+{{ 'business-call.css' | asset_url | stylesheet_tag }}
+{%- style -%}
+  #shopify-section-{{ section.id }} {
+    padding-top: {{ section.settings.desktop_padding_top }}px;
+    padding-bottom: {{ section.settings.desktop_padding_bottom }}px;
+    margin-top: {{ section.settings.desktop_margin_top }}px;
+    margin-bottom: {{ section.settings.desktop_margin_bottom }}px;
+    background-image: url("{{ section.settings.bg_image |  img_url: 'master' }}");
+    background-size: 45% auto;
+    background-repeat: no-repeat;
+  }
+  @media screen and (max-width: 749px) {
+    #shopify-section-{{ section.id }} {
+      padding-top: {{ section.settings.mobile_padding_top }}px;
+      padding-bottom: {{ section.settings.mobile_padding_bottom }}px;
+      margin-top: {{ section.settings.mobile_margin_top }}px;
+      margin-bottom: {{ section.settings.mobile_margin_bottom }}px;
+    }
+  }
+{%- endstyle -%}
+<div class="shopify-section-business-call page-width">
+  <div class="text-content">
+    {%- if section.settings.heading_1 != blnak -%}
+      <h1 class="heading first-heading m-0">{{ section.settings.heading_1 }}</h1>
+    {%- endif -%}
+    {%- if section.settings.heading_2 != blank -%}
+      <h1 class="heading second-heading m-0">{{ section.settings.heading_2 }}</h1>
+    {%- endif -%}
+    {%- if section.settings.sub_heading != blank -%}
+      <h2 class="sub_heading">{{ section.settings.sub_heading }}</h2>
+    {%- endif -%}
+    <div class="button-list">
+      {%- if section.settings.request_callback_link != blank and section.settings.request_callback_text != blank -%}
+        <a href="{{ section.settings.request_callback_link }}" class="request-callback">
+          {{- section.settings.request_callback_text -}}
+        </a>
+      {%- endif -%}
+      {%- if section.settings.phone_number != blank and section.settings.call_button_text != blank -%}
+        <a href="tel:{{ section.settings.phone_number }}" class="call-button">
+          {{- section.settings.call_button_text -}}
+        </a>
+      {%- endif -%}
+    </div>
+  </div>
+  <div class="image">
+    {%- if section.settings.main_image != blank -%}
+      <img src="{{ section.settings.main_image |  img_url: '1000x' }}" alt="" width="1000px" height="auto">
+    {%- endif -%}
+  </div>
+</div>
+{% schema %}
+{
+  "name": "Business Call",
+  "tag": "section",
+  "class": "shopify-section--business-call",
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "bg_image",
+      "label": "Background Image"
+    },
+    {
+      "type": "image_picker",
+      "id": "main_image",
+      "label": "Main Image"
+    },
+    {
+      "type": "text",
+      "id": "heading_1",
+      "label": "Heading 1"
+    },
+    {
+      "type": "text",
+      "id": "heading_2",
+      "label": "Heading 2"
+    },
+    {
+      "type": "text",
+      "id": "sub_heading",
+      "label": "Sub Heading"
+    },
+    {
+      "type": "url",
+      "id": "request_callback_link",
+      "label": "Request Callback Link"
+    },
+    {
+      "type": "text",
+      "id": "request_callback_text",
+      "label": "Request Callback Text"
+    },
+    {
+      "type": "text",
+      "id": "phone_number",
+      "label": "Phone Number"
+    },
+    {
+      "type": "text",
+      "id": "call_button_text",
+      "label": "Call Button Text"
+    },
+    {
+      "type": "header",
+      "content": "Padding Settings"
+    },
+    {
+      "type": "range",
+      "id": "desktop_padding_top",
+      "min": 0,
+      "max": 200,
+      "step": 2,
+      "unit": "px",
+      "label": "Desktop Padding Top",
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "desktop_padding_bottom",
+      "min": 0,
+      "max": 200,
+      "step": 2,
+      "unit": "px",
+      "label": "Desktop Padding Bottom",
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "mobile_padding_top",
+      "min": 0,
+      "max": 200,
+      "step": 2,
+      "unit": "px",
+      "label": "Mobile Padding Top",
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "mobile_padding_bottom",
+      "min": 0,
+      "max": 200,
+      "step": 2,
+      "unit": "px",
+      "label": "Mobile Padding Bottom",
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "desktop_margin_top",
+      "min": 0,
+      "max": 200,
+      "step": 2,
+      "unit": "px",
+      "label": "Desktop Margin Top",
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "desktop_margin_bottom",
+      "min": 0,
+      "max": 200,
+      "step": 2,
+      "unit": "px",
+      "label": "Desktop Margin Bottom",
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "mobile_margin_top",
+      "min": 0,
+      "max": 200,
+      "step": 2,
+      "unit": "px",
+      "label": "Mobile Margin Top",
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "mobile_margin_bottom",
+      "min": 0,
+      "max": 200,
+      "step": 2,
+      "unit": "px",
+      "label": "Mobile Margin Bottom",
+      "default": 0
+    }
+  ],
+  "presets": [
+    {
+      "name": "Business Call",
+      "settings": {}
+    }
+  ]
+}
+{% endschema %}

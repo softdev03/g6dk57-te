@@ -1,0 +1,50 @@
+.shopify-section-business-call {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.shopify-section-business-call .text-content {
+  width: 60%;
+}
+.shopify-section-business-call .heading {
+  font-weight: 700;
+  font-size: 80px;
+  color: #282821;
+  line-height: 90px;
+}
+.shopify-section-business-call .heading.second-heading {
+  color: #f4a72c;
+  white-space: nowrap;
+}
+.shopify-section-business-call .sub_heading {
+  font-weight: 700;
+  font-size: 30px;
+  color: #282821;
+}
+.shopify-section-business-call .button-list {
+  display: flex;
+  column-gap: 10px;
+  align-items: center;
+}
+.shopify-section-business-call .button-list a {
+  text-decoration: none;
+  background-color: black;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 100px;
+  text-align: center;
+  font-weight: 600;
+}
+.shopify-section-business-call .button-list .call-button {
+  background-color: #f4a72c;
+}
+.shopify-section-business-call .button-list a:hover {
+  color: #282821;
+  background-color: #ffd22f;
+}
+.shopify-section-business-call .image {
+  width: 40%;
+}
+.shopify-section-business-call .image img {
+  width: 100%;
+}

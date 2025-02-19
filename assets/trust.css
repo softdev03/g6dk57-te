@@ -1,0 +1,98 @@
+.shopify-section-trust .heading {
+  font-size: 32px;
+  line-height: 1.3;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.shopify-section-trust .text {
+  display: flex;
+  flex-direction: column;
+  row-gap: 15px;
+  margin-bottom: 35px;
+  font-size: 16px;
+  line-height: 1.3;
+}
+.shopify-section-trust .text p {
+  margin: 0px;
+}
+.shopify-section-trust .trust-items-wrapper {
+  padding: 30px;
+  border: solid 1px #efefef;
+  border-radius: 5px;
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+  row-gap: 20px;
+}
+.shopify-section-trust .trust-item {
+  width: 33.33%;
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+}
+.shopify-section-trust .trust-item:not(:last-child) {
+  border-right: 1px solid #efefef;
+}
+
+.shopify-section-trust .item-heading {
+  font-size: 20px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  line-height: 1.5;
+  font-weight: 500;
+}
+.shopify-section-trust .main-text {
+  font-size: 16px;
+  line-height: 1.7;
+  padding-bottom: 20px;
+}
+.shopify-section-trust .accordion {
+  border-top: 1px solid #efefef;
+}
+.shopify-section-trust .accordion-heading {
+  font-size: 16px;
+  line-height: 1;
+  padding-top: 15px;
+}
+.shopify-section-trust .accordion-content {
+  font-size: 16px;
+  line-height: 1.3;
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+.shopify-section-trust .accordion-content p {
+  margin: 0px;
+}
+.shopify-section-trust .trust-image {
+  max-width: 100%;
+  width: 450px;
+  margin-inline: auto;
+  display: block;
+}
+.shopify-section-trust .trust-image img {
+  width: 100%;
+  height: auto;
+}
+
+@media screen and (max-width: 749px) {
+  .shopify-section-trust .heading {
+    font-size: 24px;
+  }
+  .shopify-section-trust .item-heading {
+    font-size: 18px;
+  }
+  .shopify-section-trust .text, .shopify-section-trust .main-text, .shopify-section-trust .accordion-heading,.shopify-section-trust .accordion-content {
+    font-size: 14px;
+  }
+  .shopify-section-trust .trust-items-wrapper {
+    padding: 20px;
+  }
+  .shopify-section-trust .trust-item {
+    width: 100%;
+    padding: 15px;
+  }
+  .shopify-section-trust .trust-item:not(:last-child) {
+    border: none;
+  }
+}

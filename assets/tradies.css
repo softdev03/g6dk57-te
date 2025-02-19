@@ -1,0 +1,93 @@
+.shopify-section-tradies * {
+  color: #14133b;
+}
+.shopify-section-tradies .heading {
+  font-size: 48px;
+  line-height: 1.3;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.shopify-section-tradies .text {
+  text-align: center;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.7;
+  margin-bottom: 70px;
+  max-width: 564px;
+  margin-inline: auto;
+}
+.shopify-section-tradies .tradies-items-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  row-gap: 40px;
+}
+.shopify-section-tradies .tradies-item {
+  width: calc((100% - 40px) / 3);
+}
+.shopify-section-tradies .image {
+  line-height: 0;
+}
+.shopify-section-tradies .image img {
+  width: 100%;
+  height: auto;
+}
+.shopify-section-tradies .tradies-detail {
+  padding: 20px 40px;
+  box-shadow: 0 4px 4px #ededf8;
+}
+.shopify-section-tradies .accordion-heading {
+  font-size: 20px;
+  line-height: 1.2;
+}
+.shopify-section-tradies .text-content {
+  margin-bottom: 20px;
+  font-size: 14px;
+  line-height: 1.7;
+}
+.shopify-section-tradies .text-content p {
+  margin: 0px;
+}
+.shopify-section-tradies .detail_link {
+  width: 100%;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  color: #394fb7;
+  border: 1px solid #394fb7;
+  border-radius: 5px;
+  padding: 10px;
+  box-sizing: border-box;
+  box-shadow: 0px 5px 10px rgba(16, 2, 87, 0.1);
+  font-size: 17px;
+}
+
+@media screen and (max-width: 1023px) {
+    .shopify-section-tradies .tradies-item {
+        width: calc(50% - 10px);
+    }
+}
+@media screen and (max-width: 749px) {
+    .shopify-section-tradies .tradies-item {
+        width: 100%;
+    }
+    .shopify-section-tradies .tradies-detail {
+        padding: 20px;
+    }
+    .shopify-section-tradies .heading {
+        font-size: 32px;
+    }
+    .shopify-section-tradies .text {
+        font-size: 16px;
+        margin-bottom: 50px;
+    }
+    .shopify-section-tradies .accordion-heading {
+        font-size: 18px;
+    }
+    .shopify-section-tradies .text-content {
+        font-size: 13px;
+    }
+    .shopify-section-tradies .detail_link {
+        font-size: 15px;
+    }
+}

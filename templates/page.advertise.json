@@ -37,6 +37,26 @@
         "mobile_padding_bottom": 40
       }
     },
+    "phone_ring_MzFcJr": {
+      "type": "phone-ring",
+      "settings": {
+        "image": "shopify://shop_images/MTS-Incoming-Call_png.webp",
+        "heading_1": "We get",
+        "heading_2": "Your phone ringing",
+        "sub_heading": "We’re for the tradies who want less fuss and more enquiries.",
+        "text": "For the business owners who need action and experience, not plans and broken promises. And for the companies who want noticeable business growth, not questionable results. If you’re serious about getting digital marketing results for your trade business, we want to hear from you.",
+        "phone_button_text": "0499226600",
+        "phone_number": "0499226600",
+        "enquire_button_text": "Enquire Now",
+        "enquire_button_link": "#",
+        "image_right": true,
+        "text_align": "left",
+        "desktop_padding_top": 100,
+        "desktop_padding_bottom": 100,
+        "mobile_padding_top": 60,
+        "mobile_padding_bottom": 40
+      }
+    },
     "advertise_KLNL33": {
       "type": "advertise",
       "settings": {
@@ -58,7 +78,7 @@
         "button_text": "Help Grow My Business",
         "image_right": false,
         "text_align": "left",
-        "background_color": "#fff",
+        "background_color": "#ffffff",
         "desktop_padding_top": 60,
         "desktop_padding_bottom": 60,
         "mobile_padding_top": 40,
@@ -86,7 +106,56 @@
         "button_text": "Help Grow My Business",
         "image_right": true,
         "text_align": "left",
-        "background_color": "#fff",
+        "background_color": "#ffffff",
+        "desktop_padding_top": 60,
+        "desktop_padding_bottom": 60,
+        "mobile_padding_top": 40,
+        "mobile_padding_bottom": 40
+      }
+    },
+    "trust_Q37M3R": {
+      "type": "trust",
+      "blocks": {
+        "trust_item_KtaqTQ": {
+          "type": "trust_item",
+          "settings": {
+            "heading": "Decades of experience",
+            "main_text": "<p>Our <a href=\"#\" title=\"#\">team of web experts </a>has been working in web design for decades. We bring this experience and knowledge of the ever-changing web design...</p>",
+            "button_text": "Read More",
+            "additional_text": "<p>...industry to our client's websites so you get the best result possible.</p>",
+            "accordion_image": "shopify://shop_images/yellow-arrow.svg"
+          }
+        },
+        "trust_item_YFytD9": {
+          "type": "trust_item",
+          "settings": {
+            "heading": "We get you, mate",
+            "main_text": "<p>Our website packages for tradies are hyper-focused on the Australian tradie market. We know the industry well and what your potential customers...</p>",
+            "button_text": "Read More",
+            "additional_text": "<p>...are looking for when they're deciding who to book for their jobs. The best clients want to see your business displayed clearly, with the right information and high-quality visuals. We've been building websites for tradies for decades.</p>",
+            "accordion_image": "shopify://shop_images/yellow-arrow.svg"
+          }
+        },
+        "trust_item_JfVUzV": {
+          "type": "trust_item",
+          "settings": {
+            "heading": "100% Aussie",
+            "main_text": "<p>We work with local Australian companies only, and we are proudly a 100% Australian-owned and operated business. We care about keeping it local...</p>",
+            "button_text": "Read More",
+            "additional_text": "<p>...and supporting local small and medium tradie businesses.</p><p>Tradiemate does all of the work to develop a website tailored to your specific business, your industry, and the local market.</p><p>We'll handle all of the design, content creation site upkeep, so you never have to worry about it.</p><p>We'll create a website that's visually appealing, user-friendly, and optimised to get you high on search results, so potential customers will reach out for a quote.</p>",
+            "accordion_image": "shopify://shop_images/yellow-arrow.svg"
+          }
+        }
+      },
+      "block_order": [
+        "trust_item_KtaqTQ",
+        "trust_item_YFytD9",
+        "trust_item_JfVUzV"
+      ],
+      "settings": {
+        "heading": "Tradie Mate: An Australian Web Design Company You Can Trust",
+        "text": "<p>With so many other website developers and designers, why choose us? Why not even build it for yourself? For one, that's probably the last thing you want to do. Plus, even with do-it-yourself website builders, there are a lot of technical aspects to web design that needs to be done by someone who knows the craft. Not only that, they need to understand the trade business.</p><p>Tradie Mate is your best bet. There's no point in us trying to be humble about it. Here's what we've got going for us.</p>",
+        "trust_image": "shopify://shop_images/review-bar-green.svg",
         "desktop_padding_top": 60,
         "desktop_padding_bottom": 60,
         "mobile_padding_top": 40,
@@ -114,7 +183,7 @@
         "button_text": "Help Grow My Business",
         "image_right": false,
         "text_align": "left",
-        "background_color": "#fff",
+        "background_color": "#ffffff",
         "desktop_padding_top": 60,
         "desktop_padding_bottom": 60,
         "mobile_padding_top": 40,
@@ -141,7 +210,7 @@
         "button_text": "Help Grow My Business",
         "image_right": true,
         "text_align": "left",
-        "background_color": "#fff",
+        "background_color": "#ffffff",
         "desktop_padding_top": 60,
         "desktop_padding_bottom": 60,
         "mobile_padding_top": 40,
@@ -175,14 +244,239 @@
         "mobile_padding_top": 40,
         "mobile_padding_bottom": 40
       }
+    },
+    "tradies_D9qHzj": {
+      "type": "Tradies",
+      "blocks": {
+        "tradies_item_YQarCg": {
+          "type": "tradies-item",
+          "settings": {
+            "image": "shopify://shop_images/electrician-website.webp",
+            "detail_info_heading": "Electricians",
+            "detail_info_text": "<p>Tradiemate's <a href=\"#\" title=\"#\">web design for electricians </a>emphasises their expertise and professionalism, with easy-to-use navigation and clear calls-to-action for services and appointments. Testimonials from satisfied customers help build trust. </p>",
+            "icon": "shopify://shop_images/yellow-arrow.svg",
+            "detail_button_link": "#",
+            "detail_button_text": "Free Quote"
+          }
+        },
+        "tradies_item_TMkHRR": {
+          "type": "tradies-item",
+          "settings": {
+            "image": "shopify://shop_images/plumbing-websites.webp",
+            "detail_info_heading": "Plumbers",
+            "detail_info_text": "<p>Tradiemate's <a href=\"https://www.tradiemate.au/websites-for-plumbers/\">web design for plumbers </a>highlights their experience, qualifications and competitive pricing. Clear and concise information on services, testimonials, and easy contact options help customers get the assistance they need.</p>",
+            "icon": "shopify://shop_images/yellow-arrow.svg",
+            "detail_button_link": "#",
+            "detail_button_text": "Free Quote"
+          }
+        },
+        "tradies_item_yT7wgX": {
+          "type": "tradies-item",
+          "settings": {
+            "image": "shopify://shop_images/carpenter-websites.webp",
+            "detail_info_heading": "Carpenters",
+            "detail_info_text": "<p>Tradiemate's web design for carpenters showcases their skill and craftsmanship, with stunning visuals and a user-friendly interface. Customers can easily explore services, view past projects and request a quote.</p>",
+            "icon": "shopify://shop_images/yellow-arrow.svg",
+            "detail_button_link": "#",
+            "detail_button_text": "Free Quote"
+          }
+        },
+        "tradies_item_X3Db9y": {
+          "type": "tradies-item",
+          "settings": {
+            "image": "shopify://shop_images/pest-control-website-development-1.webp",
+            "detail_info_heading": "Pest Control",
+            "detail_info_text": "<p>Tradiemate's web design for pest controllers highlights their experience in dealing with a range of pests, with a focus on safety and effectiveness. Customers can easily schedule appointments and request additional information on services.</p>",
+            "icon": "shopify://shop_images/yellow-arrow.svg",
+            "detail_button_link": "#",
+            "detail_button_text": "Free Quote"
+          }
+        },
+        "tradies_item_6qHYz4": {
+          "type": "tradies-item",
+          "settings": {
+            "image": "shopify://shop_images/cleaning-website-design.webp",
+            "detail_info_heading": "Cleaning",
+            "detail_info_text": "<p>Tradiemate's web design for cleaners is focused on showcasing their services, customer testimonials and highlighting their professionalism. A clear call-to-action and easy-to-navigate design ensures potential customers can easily get in touch.</p>",
+            "icon": "shopify://shop_images/yellow-arrow.svg",
+            "detail_button_link": "#",
+            "detail_button_text": "Free Quote"
+          }
+        },
+        "tradies_item_tDB4YR": {
+          "type": "tradies-item",
+          "settings": {
+            "image": "shopify://shop_images/general-tradies-websites.webp",
+            "detail_info_heading": "All Other Tradies",
+            "detail_info_text": "<p>Tradiemate's web design for tradies is tailored to their specific service offerings, with easy-to-use navigation and clear calls-to-action to generate leads and drive business growth.</p>",
+            "icon": "shopify://shop_images/yellow-arrow.svg",
+            "detail_button_link": "#",
+            "detail_button_text": "Free Quote"
+          }
+        }
+      },
+      "block_order": [
+        "tradies_item_YQarCg",
+        "tradies_item_TMkHRR",
+        "tradies_item_yT7wgX",
+        "tradies_item_X3Db9y",
+        "tradies_item_6qHYz4",
+        "tradies_item_tDB4YR"
+      ],
+      "settings": {
+        "heading": "Tradies we work with",
+        "text": "Looking for an affordable and effective web design service for your tradie business in Australia? We've got you.",
+        "desktop_padding_top": 60,
+        "desktop_padding_bottom": 60,
+        "mobile_padding_top": 40,
+        "mobile_padding_bottom": 40
+      }
+    },
+    "faq_cYAhKJ": {
+      "type": "faq",
+      "blocks": {
+        "faq_item_rrnAHz": {
+          "type": "faq_item",
+          "settings": {
+            "question": "Can I advertise new services for my Tradie Business by email?",
+            "answer": "Yes, advertising your new services through email is a great strategy to bring in new and returning customers. Email marketing campaigns help you reach out to potential clients and keep your existing and past clients up-to-date with your latest services.",
+            "icon": "shopify://shop_images/yellow-arrow.svg"
+          }
+        },
+        "faq_item_AdgFRX": {
+          "type": "faq_item",
+          "settings": {
+            "question": "Do most Tradies market their business by email?",
+            "answer": "Although it is recommended for tradies to have an email marketing plan, most local Aussie tradies don't. Bigger tradie companies have email campaigns, and that is helping contribute to their success in winning larger clients and booking higher-paid jobs. That's because they're staying top-of-mind with existing and potential clients, and they have a consistent way of sharing contact details for their services and offers with potential clients.",
+            "icon": "shopify://shop_images/yellow-arrow.svg"
+          }
+        },
+        "faq_item_E6VP9h": {
+          "type": "faq_item",
+          "settings": {
+            "question": "Does email marketing work for Tradies?",
+            "answer": "Absolutely. When tradies have a targeted email strategy, they can reach their audience directly and attract more interest in their services. By sharing helpful information and showcasing their business, past success stories, and offers tradies can get more customers and increase their revenue.",
+            "icon": "shopify://shop_images/yellow-arrow.svg"
+          }
+        },
+        "faq_item_akFz96": {
+          "type": "faq_item",
+          "settings": {
+            "question": "What are the benefits of email marketing for tradespeople?",
+            "answer": "Affordable Marketing - it's a cost-effective method to reach out to potential clients and stay connected with existing clients. Targeted messaging - tradies can create targeted campaigns that speak directly to their audience's needs. This is a convincing way to turn this audience into paying customers. Better customer engagement - by sending regular email campaigns, tradies can keep their brand top-of-mind with their audience and encourage them to book more jobs. Higher ROI - with the right strategy, email marketing can help tradies generate leads, nurture relationships, and increase their revenue, as it is a cost-effective marketing technique.",
+            "icon": "shopify://shop_images/yellow-arrow.svg"
+          }
+        },
+        "faq_item_jdQR46": {
+          "type": "faq_item",
+          "settings": {
+            "question": "How to attract clients through email marketing?",
+            "answer": "Having a targeted email campaign created with the right messaging to pinpoint potential clients' needs and wants is the foundation of a tradie businesses' great email campaign. To capture the right clients, and tradies need to understand their potential clients' challenges, desires, and decision-making processes. That allows tradies to create emails that resonate with them and encourage them to get a quote and become paying customers.",
+            "icon": "shopify://shop_images/yellow-arrow.svg"
+          }
+        },
+        "faq_item_nyFTVE": {
+          "type": "faq_item",
+          "settings": {
+            "question": "How do I nurture leads with email?",
+            "answer": "Nurturing leads is about having consistent, valuable interactions with your potential clients. Tradies can use email marketing to nurture potential customers with a sequence of emails that share information, social proof, and other key messaging that are all focused on capturing these leads as clients. They want to trust in your business and be convinced that you will deliver the best possible service.",
+            "icon": "shopify://shop_images/yellow-arrow.svg"
+          }
+        }
+      },
+      "block_order": [
+        "faq_item_rrnAHz",
+        "faq_item_AdgFRX",
+        "faq_item_E6VP9h",
+        "faq_item_akFz96",
+        "faq_item_jdQR46",
+        "faq_item_nyFTVE"
+      ],
+      "settings": {
+        "heading": "Frequently Asked Questions",
+        "bg_color": "#f9f9f9",
+        "max_width": 684,
+        "desktop_padding_top": 60,
+        "desktop_padding_bottom": 60,
+        "mobile_padding_top": 40,
+        "mobile_padding_bottom": 40
+      }
+    },
+    "partner_with_U86NgH": {
+      "type": "partner-with",
+      "blocks": {
+        "partner_item_Am8rMX": {
+          "type": "partner_item",
+          "settings": {
+            "image": "shopify://shop_images/semrush-agency-partner.webp",
+            "link": "#"
+          }
+        },
+        "partner_item_gQr6pr": {
+          "type": "partner_item",
+          "settings": {
+            "image": "shopify://shop_images/Tradify.webp",
+            "link": ""
+          }
+        },
+        "partner_item_peizWL": {
+          "type": "partner_item",
+          "settings": {
+            "image": "shopify://shop_images/servicem8-partner.webp",
+            "link": ""
+          }
+        },
+        "partner_item_gizEVP": {
+          "type": "partner_item",
+          "settings": {
+            "image": "shopify://shop_images/evnex-partner.webp",
+            "link": ""
+          }
+        },
+        "partner_item_nMMzBY": {
+          "type": "partner_item",
+          "settings": {
+            "image": "shopify://shop_images/google-partner.webp",
+            "link": ""
+          }
+        },
+        "partner_item_ppj4Q9": {
+          "type": "partner_item",
+          "settings": {
+            "image": "shopify://shop_images/meta-for-business-partner.webp",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "partner_item_Am8rMX",
+        "partner_item_gQr6pr",
+        "partner_item_peizWL",
+        "partner_item_gizEVP",
+        "partner_item_nMMzBY",
+        "partner_item_ppj4Q9"
+      ],
+      "settings": {
+        "heading": "Partnered With",
+        "bg_color": "#fbfbfb",
+        "desktop_padding_top": 30,
+        "desktop_padding_bottom": 30,
+        "mobile_padding_top": 30,
+        "mobile_padding_bottom": 30
+      }
     }
   },
   "order": [
     "advertise_xMT9mA",
+    "phone_ring_MzFcJr",
     "advertise_KLNL33",
     "advertise_qQYPyj",
+    "trust_Q37M3R",
     "advertise_PAQGf7",
     "advertise_DnFdqE",
-    "advertise_JebRqW"
+    "advertise_JebRqW",
+    "tradies_D9qHzj",
+    "faq_cYAhKJ",
+    "partner_with_U86NgH"
   ]
 }
