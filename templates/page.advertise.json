@@ -1,0 +1,43 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "advertise_xMT9mA": {
+      "type": "advertise",
+      "settings": {
+        "main_image": "shopify://shop_images/seo-for-trades.webp",
+        "secondary_image": "shopify://shop_images/get-found-on-the-web-right.svg",
+        "secondary_image_roate_angle": 8,
+        "desktop_left": -90,
+        "desktop_top": -1,
+        "desktop_right": -1,
+        "desktop_bottom": 20,
+        "mobile_left": 0,
+        "mobile_top": -1,
+        "mobile_right": -1,
+        "mobile_bottom": -26,
+        "heading": "Websites and Marketing For Electricians",
+        "sub_heading": "How Tradiemate Can Help You Stand Out Online",
+        "text": "<p>If you're like most tradies, finding small jobs isn't hard. Your phone rings consistently, and you book the jobs. The problem is winning those larger, higher-paying clients. Residential and commercial contracts aren't won the same way. The clients that care more about the quality of your service than price are tough to reach.</p><p>Let's face it: bigger businesses are beating you to those better-paying clients.</p><p>If you're an electrician looking to book consistent, high-paying jobs, getting online should be your top priority. A great website and a solid marketing plan elevate your brand so you attract more quality leads, get out of the rat race of third-party platforms, and turn your business into a sellable asset.</p><p>Tradiemate helps you get in front of more people with our comprehensive marketing, branding, and website services for electricians.</p>",
+        "button_link": "#",
+        "button_text": "Speak To Our Team",
+        "image_right": false,
+        "text_align": "left",
+        "desktop_padding_top": 60,
+        "desktop_padding_bottom": 60,
+        "mobile_padding_top": 30,
+        "mobile_padding_bottom": 30
+      }
+    }
+  },
+  "order": [
+    "advertise_xMT9mA"
+  ]
+}
