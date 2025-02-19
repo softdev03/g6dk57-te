@@ -1,9 +1,12 @@
+.shopify-section--advertise {
+  overflow: hidden;
+}
 .shopify-section-advertise {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
   align-items: center;
-  row-gap: 60px;
+  row-gap: 80px;
 }
 .shopify-section-advertise.image-right {
   flex-direction: row-reverse;
