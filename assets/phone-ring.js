@@ -10,9 +10,9 @@ document.addEventListener('DOMContentLoaded', () => {
         const rect = phoneRing.getBoundingClientRect();
         if (isInScreen(rect)) {
           if (rect.top < 0) {
-            phoneRing.querySelector('img').style.top = `${rect.top / 3}px`;
+            phoneRing.querySelector('img').style.top = `${rect.top}px`;
           } else if (rect.bottom > window.innerHeight) {
-            phoneRing.querySelector('img').style.top = `${(rect.bottom - window.innerHeight) / 3}px`;
+            phoneRing.querySelector('img').style.top = `${(rect.bottom - window.innerHeight)}px`;
           }
         }
       });
