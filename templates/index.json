@@ -37,6 +37,84 @@
         "heading1_mobile_margin": 6,
         "heading2_desktop_margin": 40,
         "heading2_mobile_margin": 30,
+        "desktop_padding_top": 80,
+        "desktop_padding_bottom": 60,
+        "mobile_padding_top": 50,
+        "mobile_padding_bottom": 50
+      }
+    },
+    "card_list_C4T6Dr": {
+      "type": "card-list",
+      "blocks": {
+        "card_mf3emz": {
+          "type": "card",
+          "settings": {
+            "card_image": "shopify://shop_images/feature_1.svg",
+            "heading": "Web Development",
+            "text": "Fully tailored Shopify stores that reflect your brand and are optimised for conversions",
+            "bg_color": "#e6e6e6",
+            "hover_bg_color": "#d9e021",
+            "border_color": "#000000",
+            "border_width": 2,
+            "show_border": true,
+            "border_radius": 25,
+            "top_when_hover": -16
+          }
+        },
+        "card_apCgEM": {
+          "type": "card",
+          "settings": {
+            "card_image": "shopify://shop_images/feature_2.svg",
+            "heading": "Social Media Ads",
+            "text": "Drive targeted traffic to your store with expertly managed social media campaigns",
+            "bg_color": "#e6e6e6",
+            "hover_bg_color": "#d9e021",
+            "border_color": "#000000",
+            "border_width": 2,
+            "show_border": true,
+            "border_radius": 25,
+            "top_when_hover": -16
+          }
+        },
+        "card_FLpTpi": {
+          "type": "card",
+          "settings": {
+            "card_image": "shopify://shop_images/feature_3.svg",
+            "heading": "Google Ads Management",
+            "text": "Maximise your ad spend with our precision-targeted Google Ads services.",
+            "bg_color": "#e6e6e6",
+            "hover_bg_color": "#d9e021",
+            "border_color": "#000000",
+            "border_width": 2,
+            "show_border": true,
+            "border_radius": 25,
+            "top_when_hover": -16
+          }
+        },
+        "card_MgjVtx": {
+          "type": "card",
+          "settings": {
+            "card_image": "shopify://shop_images/feature_4.svg",
+            "heading": "Email Marketing",
+            "text": "Nurture your leads and turn them into loyal customers with strategic email campaigns.",
+            "bg_color": "#e6e6e6",
+            "hover_bg_color": "#d9e021",
+            "border_color": "#000000",
+            "border_width": 2,
+            "show_border": true,
+            "border_radius": 25,
+            "top_when_hover": -16
+          }
+        }
+      },
+      "block_order": [
+        "card_mf3emz",
+        "card_apCgEM",
+        "card_FLpTpi",
+        "card_MgjVtx"
+      ],
+      "settings": {
+        "heading": "Grow Your Business With Us",
         "desktop_padding_top": 60,
         "desktop_padding_bottom": 60,
         "mobile_padding_top": 40,
@@ -46,6 +124,7 @@
   },
   "order": [
     "overview_dWdQCg",
-    "text_heading_cKjFAQ"
+    "text_heading_cKjFAQ",
+    "card_list_C4T6Dr"
   ]
 }
