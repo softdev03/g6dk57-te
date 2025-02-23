@@ -1,0 +1,68 @@
+.shopify-section-overview {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  row-gap: 40px;
+}
+.shopify-section-overview > div {
+  width: calc(50% - 40px);
+}
+.shopify-section-overview .text-content {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+.shopify-section-overview .heading {
+  font-size: 40px;
+  line-height: 1.2;
+  text-transform: capitalize;
+}
+.shopify-section-overview .text {
+  font-size: 20px;
+  line-height: 1.2;
+}
+.shopify-section-overview .image-content {
+  position: relative;
+  padding-top: 50%;
+}
+.shopify-section-overview .image-content > div {
+  position: absolute;
+  top: 0px;
+  width: 100%;
+  line-height: 0px;
+  transition: transform .4s;
+}
+.shopify-section-overview .image-content img {
+  width: 100%;
+  height: auto;
+}
+.shopify-section-overview .left-image {
+  z-index: 1;
+}
+.shopify-section-overview .clap-image {
+  z-index: -1;
+}
+.shopify-section-overview .payment-app-image {
+  z-index: 2;
+}
+@media screen and (max-width: 749px) {
+  .shopify-section-overview  {
+    flex-direction: column-reverse;
+  }
+  .shopify-section-overview > div {
+    width: 100%;
+  }
+  .shopify-section-overview .text-content {
+    text-align: center;
+  }
+  .shopify-section-overview .heading {
+    font-size: 32px;
+  }
+  .shopify-section-overview .text {
+    font-size: 16px;
+  }
+  .shopify-section-overview .image-content {
+    padding-top: 100%;
+  }
+}

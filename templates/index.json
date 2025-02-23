@@ -9,76 +9,43 @@
  */
 {
   "sections": {
-    "image_banner": {
-      "type": "image-banner",
-      "blocks": {
-        "heading": {
-          "type": "heading",
-          "settings": {
-            "heading": "Browse our latest products",
-            "heading_size": "h0"
-          }
-        },
-        "button": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "Shop all",
-            "button_link_1": "shopify://collections/all",
-            "button_style_secondary_1": true,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "heading",
-        "button"
-      ],
+    "overview_dWdQCg": {
+      "type": "overview",
       "settings": {
-        "image_overlay_opacity": 40,
-        "image_height": "large",
-        "desktop_content_position": "bottom-center",
-        "show_text_box": false,
-        "image_behavior": "none",
-        "desktop_content_alignment": "center",
-        "color_scheme": "scheme-3",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": false,
-        "show_text_below": false
+        "heading": "We create beautiful websites that convert",
+        "text": "We build websites that make your competitors jealous",
+        "left_image": "shopify://shop_images/Payment-app-hero-img-3c.svg",
+        "right_image": "shopify://shop_images/Payment-app-hero-img-4.svg",
+        "clap_hand_result": "shopify://shop_images/Payment-app-hero-img-1b.svg",
+        "payment_app": "shopify://shop_images/Payment-app-hero-img-1.svg",
+        "desktop_padding_top": 150,
+        "desktop_padding_bottom": 150,
+        "mobile_padding_top": 80,
+        "mobile_padding_bottom": 80
       }
     },
-    "featured_collection": {
-      "type": "featured-collection",
+    "text_heading_cKjFAQ": {
+      "type": "text_heading",
       "settings": {
-        "title": "Featured products",
-        "heading_size": "h2",
-        "description": "",
-        "show_description": false,
-        "description_style": "body",
-        "collection": "all",
-        "products_to_show": 8,
-        "columns_desktop": 4,
-        "color_scheme": "scheme-1",
-        "full_width": false,
-        "show_view_all": true,
-        "view_all_style": "solid",
-        "enable_desktop_slider": false,
-        "swipe_on_mobile": false,
-        "image_ratio": "adapt",
-        "image_shape": "default",
-        "show_secondary_image": true,
-        "show_vendor": false,
-        "show_rating": false,
-        "quick_add": "none",
-        "columns_mobile": "2",
-        "padding_top": 44,
-        "padding_bottom": 36
+        "heading1": "Let’s get straight to it—",
+        "heading2": "a digital marketing agency’s job is to make you money.",
+        "text": "<p>At <strong>An Agency</strong>, we mean business. Every business needs a reliable stream of sales, and that’s exactly what we help you build. We’ve partnered with businesses of all sizes across Australia, helping them modernise their digital strategies and succeed online. We create conversion campaigns that actually work. We’re a boutique digital marketing agency, hungry for success. We think big but stay close to you, offering tailored, hands-on marketing solutions. If you’re ready for real growth, let’s get to work and start driving results!</p>",
+        "heading1_align": "center",
+        "heading2_align": "center",
+        "text_align": "center",
+        "heading1_desktop_margin": 10,
+        "heading1_mobile_margin": 6,
+        "heading2_desktop_margin": 40,
+        "heading2_mobile_margin": 30,
+        "desktop_padding_top": 60,
+        "desktop_padding_bottom": 60,
+        "mobile_padding_top": 40,
+        "mobile_padding_bottom": 40
       }
     }
   },
   "order": [
-    "image_banner",
-    "featured_collection"
+    "overview_dWdQCg",
+    "text_heading_cKjFAQ"
   ]
 }

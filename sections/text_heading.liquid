@@ -1,0 +1,210 @@
+{{ 'heading-text-only.css' | asset_url | stylesheet_tag }}
+{%- style -%}
+  #shopify-section-{{ section.id }} {
+    padding-top: {{ section.settings.desktop_padding_top }}px;
+    padding-bottom: {{ section.settings.desktop_padding_bottom }}px;
+  }
+  #shopify-section-{{ section.id }} .heading.first {
+    margin-bottom: {{ section.settings.heading1_desktop_margin }}px;
+  }
+  #shopify-section-{{ section.id }} .heading.second {
+    margin-bottom: {{ section.settings.heading2_desktop_margin }}px;
+  }
+  @media screen and (max-width: 749px) {
+    #shopify-section-{{ section.id }} {
+      padding-top: {{ section.settings.mobile_padding_top }}px;
+      padding-bottom: {{ section.settings.mobile_padding_bottom }}px;
+    }
+    #shopify-section-{{ section.id }} .heading.first {
+      margin-bottom: {{ section.settings.heading1_mobile_margin }}px;
+    }
+    #shopify-section-{{ section.id }} .heading.second {
+      margin-bottom: {{ section.settings.heading2_mobile_margin }}px;
+    }
+  }
+{%- endstyle -%}
+<div class="shopify-section-heaing-text-only page-width">
+  {%- if section.settings.heading1 != blank -%}
+    <h1 class="heading first m-0 text-{{ section.settings.heading1_align }}">{{ section.settings.heading1 }}</h1>
+  {%- endif -%}
+  {%- if section.settings.heading2 != blank -%}
+    <h1 class="heading second m-0 text-{{ section.settings.heading2_align }}">{{ section.settings.heading2 }}</h1>
+  {%- endif -%}
+  {%- if section.settings.text != blank -%}
+    <div class="text m-0 text-{{ section.settings.text_align }}">{{ section.settings.text }}</div>
+  {%- endif -%}
+</div>
+{% schema %}
+{
+  "name": "Heading and Text Only",
+  "tag": "section",
+  "class": "shopify-section--heading-text-only",
+  "settings": [
+    {
+      "type": "text",
+      "id": "heading1",
+      "label": "Heading1"
+    },
+    {
+      "type": "text",
+      "id": "heading2",
+      "label": "Heading2"
+    },
+    {
+      "type": "richtext",
+      "id": "text",
+      "label": "Text"
+    },
+    {
+      "type": "select",
+      "id": "heading1_align",
+      "label": "Heading1 Align",
+      "options": [
+        {
+          "value": "left",
+          "label": "Left"
+        },
+        {
+          "value": "center",
+          "label": "Center"
+        },
+        {
+          "value": "right",
+          "label": "Right"
+        }
+      ],
+      "default": "left"
+    },
+    {
+      "type": "select",
+      "id": "heading2_align",
+      "label": "Heading2 Align",
+      "options": [
+        {
+          "value": "left",
+          "label": "Left"
+        },
+        {
+          "value": "center",
+          "label": "Center"
+        },
+        {
+          "value": "right",
+          "label": "Right"
+        }
+      ],
+      "default": "left"
+    },
+    {
+      "type": "select",
+      "id": "text_align",
+      "label": "Text Align",
+      "options": [
+        {
+          "value": "left",
+          "label": "Left"
+        },
+        {
+          "value": "center",
+          "label": "Center"
+        },
+        {
+          "value": "right",
+          "label": "Right"
+        }
+      ],
+      "default": "left"
+    },
+    {
+      "type": "range",
+      "id": "heading1_desktop_margin",
+      "min": 0,
+      "max": 200,
+      "step": 2,
+      "unit": "px",
+      "label": "Heading1 Desktop Margin",
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "heading1_mobile_margin",
+      "min": 0,
+      "max": 200,
+      "step": 2,
+      "unit": "px",
+      "label": "Heading1 Mobile Margin",
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "heading2_desktop_margin",
+      "min": 0,
+      "max": 200,
+      "step": 2,
+      "unit": "px",
+      "label": "Heading2 Desktop Margin",
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "heading2_mobile_margin",
+      "min": 0,
+      "max": 200,
+      "step": 2,
+      "unit": "px",
+      "label": "Heading2 Mobile Margin",
+      "default": 0
+    },
+    {
+      "type": "header",
+      "content": "Padding Settings"
+    },
+    {
+      "type": "range",
+      "id": "desktop_padding_top",
+      "min": 0,
+      "max": 200,
+      "step": 2,
+      "unit": "px",
+      "label": "Desktop Padding Top",
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "desktop_padding_bottom",
+      "min": 0,
+      "max": 200,
+      "step": 2,
+      "unit": "px",
+      "label": "Desktop Padding Bottom",
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "mobile_padding_top",
+      "min": 0,
+      "max": 200,
+      "step": 2,
+      "unit": "px",
+      "label": "Mobile Padding Top",
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "mobile_padding_bottom",
+      "min": 0,
+      "max": 200,
+      "step": 2,
+      "unit": "px",
+      "label": "Mobile Padding Bottom",
+      "default": 0
+    }
+  ],
+  "presets": [
+    {
+      "name": "Heading and Text Only",
+      "settings": {}
+    }
+  ]
+}
+{% endschema %}
