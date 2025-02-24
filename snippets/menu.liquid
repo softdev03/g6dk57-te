@@ -1,0 +1,38 @@
+{%- assign megamenu_blocks = section.blocks |  where: 'type', 'mega_menu' -%}
+{%- assign isMegamenu = false -%}
+<nav class="header__inline-menu">
+  <ul class="list-menu list-menu--inline" role="list">
+    {%- for link in section.settings.menu.links -%}
+      <li>
+        {%- if link.links != blank -%}
+          <header-menu>
+            {%- for block in megamenu_blocks -%}
+              {%- if block.settings.handle == link.handle -%}
+                {%- render 'header-mega-menu',link: link -%}
+                {%- assign isMegamenu = true -%}
+                {%- break -%}
+              {%- endif -%}
+            {%- endfor -%}
+            {%- unless isMegamenu == true -%}
+              {%- render 'header-dropdown-menu',link: link -%}
+            {%- endunless -%}
+            {%- assign isMegamenu = false -%}
+          </header-menu>
+        {% else %}
+          <a
+            id="HeaderMenu-{{ link.handle }}"
+            href="{{ link.url }}"
+            class="header__menu-item list-menu__item link link--text focus-inset"
+            {% if link.current %}
+              aria-current="page"
+            {% endif %}
+          >
+            <span>
+              {{- link.title | escape -}}
+            </span>
+          </a>
+        {% endif %}
+      </li>
+    {%- endfor -%}
+  </ul>
+</nav>

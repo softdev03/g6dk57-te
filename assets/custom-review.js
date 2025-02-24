@@ -34,6 +34,5 @@ const parallex = (reviewList) => {
     evenCustomReviewItems.forEach(reviewItem=>{
       reviewItem.style.transform = `translateY(${evenTop}px)`;
     });
-    console.log(oddTop,evenTop);
   }
 }

@@ -1,6 +1,7 @@
 document.addEventListener('DOMContentLoaded', () => {
   const overview = document.querySelector('.shopify-section-overview');
   if (overview) {
+    const imageContent = overview.querySelector('.image-content');
     const overviewLeftImages = document.querySelectorAll('.shopify-section-overview .left-image');
     const overviewRightImages = document.querySelectorAll('.shopify-section-overview .right-image');
     const overviewClapImages = document.querySelectorAll('.shopify-section-overview .clap-image');
@@ -8,25 +9,40 @@ document.addEventListener('DOMContentLoaded', () => {
     document.addEventListener('mouseover', (e) => {
       const xRatio = e.clientX / window.innerWidth;
       const yRatio = e.clientY / window.innerHeight;
-      effectImages(xRatio,yRatio,{
+      effectImages(xRatio, yRatio, {
         leftImage: overviewLeftImages,
         rightImage: overviewRightImages,
         clapImage: overviewClapImages,
         paymentAppImage: overviewPaymentAppImages
       });
     });
+    const showImages = () => {
+      const rect = imageContent.getBoundingClientRect();
+      if (rect.top < window.innerHeight || rect.bottom > 0) {
+        document.removeEventListener('scroll', showImages);
+        imageContent?.classList.remove('not');
+        let hTime = setInterval(() => {
+          clearInterval(hTime);
+          imageContent?.querySelector('.clap-image')?.classList.add('show');
+        }, 450);
+        return true;
+      }
+      return false;
+    }
+    if (!showImages()) {
+      document.addEventListener('scroll', showImages);
+    }
   }
 })
 
-
-const effectImages = (xRatio,yRatio,{leftImage,rightImage,clapImage,paymentAppImage})=> {
-  const {leftImageTransform,rightImageTransform,clapImageTransform,paymentAppTransform} = prepareTransform(xRatio,yRatio);
-  effectImage(leftImage,leftImageTransform);
-  effectImage(rightImage,rightImageTransform);
-  effectImage(clapImage,clapImageTransform);
-  effectImage(paymentAppImage,paymentAppTransform);
+const effectImages = (xRatio, yRatio, { leftImage, rightImage, clapImage, paymentAppImage }) => {
+  const { leftImageTransform, rightImageTransform, clapImageTransform, paymentAppTransform } = prepareTransform(xRatio, yRatio);
+  effectImage(leftImage, leftImageTransform);
+  effectImage(rightImage, rightImageTransform);
+  effectImage(clapImage, clapImageTransform);
+  effectImage(paymentAppImage, paymentAppTransform);
 }
-const prepareTransform = (xRatio,yRatio) => {
+const prepareTransform = (xRatio, yRatio) => {
   const paymentAppTransform = {
     translateX: (xRatio * (-30) + 15),
     translateY: (yRatio * (-30) + 15),
@@ -52,11 +68,11 @@ const prepareTransform = (xRatio,yRatio) => {
     rotateY: (xRatio - 0.5)
   }
   return {
-    leftImageTransform,rightImageTransform,paymentAppTransform,clapImageTransform
+    leftImageTransform, rightImageTransform, paymentAppTransform, clapImageTransform
   };
 }
-const effectImage = (imageList,transform) => {
-  if(imageList && transform) {
+const effectImage = (imageList, transform) => {
+  if (imageList && transform) {
     imageList.forEach(item => {
       item.style.transform = `translateX(${transform.translateX}px) translateY(${transform.translateY}px) rotateX(${transform.rotateX}deg) rotateY(${transform.rotateY}deg)`;
     });

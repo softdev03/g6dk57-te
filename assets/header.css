@@ -1,0 +1,65 @@
+.header-wrapper {
+  background-color: #ffff41;
+  box-shadow: 0px 0px 3px 0px black;
+}
+.header .phone-number {
+  margin-left: auto;
+  display: block;
+  text-decoration: none;
+  color: white;
+  background-color: black;
+  padding: 10px 20px;
+  border: 1px solid black;
+  text-align: center;
+  border-radius: 3px;
+}
+.header .phone-number:hover {
+  color: black;
+  background-color: white;
+}
+.header .menu-drawer .phone-number {
+  display: none;
+}
+.header__submenu.list-menu {
+  width: auto;
+  background-color: #ffff8c;
+}
+.header__submenu.list-menu .header__submenu {
+  position: absolute;
+  left: 100%;
+  top: 0px;
+  background-color: #ffff60;
+  box-shadow: 0px 0px 3px 0px #dbdbdb;
+}
+.header__submenu .header__menu-item {
+  white-space: nowrap;
+}
+
+.header-wrapper .header {
+  grid-template-columns: 2fr auto 0.63fr;
+}
+.header .mega-menu__list {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+.list-menu__item:hover, .mega-menu__link:hover {
+  color: black;
+  text-decoration: none;
+}
+details[open]>.header__menu-item {
+  text-decoration: none;
+}
+details:has(.header__menu-item:hover) .header__submenu {
+  opacity: 1;
+  transform: translateY(0);
+}
+@media screen and (max-width: 989px) {
+  .header .phone-number {
+    display: none;
+  }
+  .header .menu-drawer .phone-number {
+    display: block;
+  }
+  .header-wrapper .header {
+    grid-template-columns: 1fr auto 1fr;
+  }
+}

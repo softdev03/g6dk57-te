@@ -25,23 +25,43 @@
 .shopify-section-overview .image-content {
   position: relative;
   padding-top: 50%;
+  overflow: hidden;
 }
 .shopify-section-overview .image-content > div {
   position: absolute;
   top: 0px;
   width: 100%;
   line-height: 0px;
-  transition: transform .4s;
+  transition: all .4s;
 }
 .shopify-section-overview .image-content img {
   width: 100%;
   height: auto;
 }
+.shopify-section-overview .image-content.not .left-image {
+  left: -400px;
+  opacity: 0;
+}
 .shopify-section-overview .left-image {
   z-index: 1;
+  left: 0px;
+  opacity: 1;
+}
+.shopify-section-overview .image-content.not .right-image  {
+  opacity: 0;
+  left: 300px;
+}
+.shopify-section-overview .right-image {
+  left: 0px;
+  opacity: 1;
+}
+.shopify-section-overview .clap-image:not(.show) {
+  opacity: 0;
 }
 .shopify-section-overview .clap-image {
   z-index: -1;
+  opacity: 1;
+  transition: all .45s;
 }
 .shopify-section-overview .payment-app-image {
   z-index: 2;

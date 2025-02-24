@@ -81,6 +81,11 @@
   min-width: 20px;
   height: auto;
 }
+.shopify-section-footer .list-social {
+  display: flex;
+  justify-content: flex-end;
+  column-gap: 15px;
+}
 @media screen and (max-width: 1023px) {
   .shopify-section-footer .logo-wrapper {
     width: calc((100% - 60px) * 0.6);
