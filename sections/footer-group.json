@@ -12,20 +12,44 @@
   "type": "footer",
   "sections": {
     "footer": {
-      "type": "footer",
+      "type": "foooter-new",
+      "blocks": {
+        "menu_item_i3e3YD": {
+          "type": "menu_item",
+          "settings": {
+            "heading": "Quick Links",
+            "menu": "quick-links"
+          }
+        },
+        "menu_item_8br9iQ": {
+          "type": "menu_item",
+          "settings": {
+            "heading": "Services",
+            "menu": "service"
+          }
+        },
+        "menu_item_q4xe3n": {
+          "type": "menu_item",
+          "settings": {
+            "heading": "Legal",
+            "menu": "legal"
+          }
+        }
+      },
+      "block_order": [
+        "menu_item_i3e3YD",
+        "menu_item_8br9iQ",
+        "menu_item_q4xe3n"
+      ],
       "settings": {
-        "color_scheme": "scheme-1",
-        "newsletter_enable": true,
-        "newsletter_heading": "Subscribe to our emails",
-        "enable_follow_on_shop": true,
-        "show_social": true,
-        "enable_country_selector": true,
-        "enable_language_selector": true,
-        "payment_enable": true,
-        "show_policy": true,
-        "margin_top": 0,
-        "padding_top": 36,
-        "padding_bottom": 36
+        "logo": "shopify://shop_images/630dfa066671aa05b471b964_anagency.svg",
+        "footer_text": "Start a business and design the life you want – all in one place. Let’s grow together.",
+        "bottom_text": "© An Agency. All Rights Reserved.",
+        "show_social_icons": true,
+        "desktop_padding_top": 60,
+        "desktop_padding_bottom": 60,
+        "mobile_padding_top": 40,
+        "mobile_padding_bottom": 40
       }
     }
   },
