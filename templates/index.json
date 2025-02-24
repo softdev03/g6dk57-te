@@ -18,8 +18,8 @@
         "right_image": "shopify://shop_images/Payment-app-hero-img-4.svg",
         "clap_hand_result": "shopify://shop_images/Payment-app-hero-img-1b.svg",
         "payment_app": "shopify://shop_images/Payment-app-hero-img-1.svg",
-        "desktop_padding_top": 150,
-        "desktop_padding_bottom": 150,
+        "desktop_padding_top": 100,
+        "desktop_padding_bottom": 100,
         "mobile_padding_top": 80,
         "mobile_padding_bottom": 80
       }
@@ -54,9 +54,9 @@
             "text": "Fully tailored Shopify stores that reflect your brand and are optimised for conversions",
             "bg_color": "#e6e6e6",
             "hover_bg_color": "#d9e021",
+            "show_border": true,
             "border_color": "#000000",
             "border_width": 2,
-            "show_border": true,
             "border_radius": 25,
             "top_when_hover": -16
           }
@@ -69,9 +69,9 @@
             "text": "Drive targeted traffic to your store with expertly managed social media campaigns",
             "bg_color": "#e6e6e6",
             "hover_bg_color": "#d9e021",
+            "show_border": true,
             "border_color": "#000000",
             "border_width": 2,
-            "show_border": true,
             "border_radius": 25,
             "top_when_hover": -16
           }
@@ -84,9 +84,9 @@
             "text": "Maximise your ad spend with our precision-targeted Google Ads services.",
             "bg_color": "#e6e6e6",
             "hover_bg_color": "#d9e021",
+            "show_border": true,
             "border_color": "#000000",
             "border_width": 2,
-            "show_border": true,
             "border_radius": 25,
             "top_when_hover": -16
           }
@@ -99,9 +99,9 @@
             "text": "Nurture your leads and turn them into loyal customers with strategic email campaigns.",
             "bg_color": "#e6e6e6",
             "hover_bg_color": "#d9e021",
+            "show_border": true,
             "border_color": "#000000",
             "border_width": 2,
-            "show_border": true,
             "border_radius": 25,
             "top_when_hover": -16
           }
@@ -120,11 +120,182 @@
         "mobile_padding_top": 40,
         "mobile_padding_bottom": 40
       }
+    },
+    "review": {
+      "type": "custom-review",
+      "blocks": {
+        "review_item_wXmDN6": {
+          "type": "review_item",
+          "settings": {
+            "review_text": "<p>“An agency best in the market for all your website and advertising needs definitely high quality of work and are with you step by step in scaling your business”</p>",
+            "author_avatar": "shopify://shop_images/testimonials-pc1.svg",
+            "author_name": "Emad",
+            "author_info_text": "Store front & online Store, SYD",
+            "bg_color": "#e6e6e6",
+            "show_border": true,
+            "border_color": "#000000",
+            "border_width": 2,
+            "border_radius": 25
+          }
+        },
+        "review_item_m66Wyz": {
+          "type": "review_item",
+          "settings": {
+            "review_text": "<p>“The quality of work is consistently high, showcasing their expertise and commitment to excellence. Overall, An Agency is a reliable partner that exceeds expectations and fosters strong client relationships.”</p>",
+            "author_avatar": "shopify://shop_images/testimonials-pc2.svg",
+            "author_name": "Warren",
+            "author_info_text": "online Store, VIC",
+            "bg_color": "#e6e6e6",
+            "show_border": true,
+            "border_color": "#000000",
+            "border_width": 2,
+            "border_radius": 25
+          }
+        },
+        "review_item_idzjpe": {
+          "type": "review_item",
+          "settings": {
+            "review_text": "<p>“I found out about Shopify and found An Agency on there. The moment I reached out to Mahmoud and the team, they were nothing but amazing! ”</p>",
+            "author_avatar": "shopify://shop_images/testimonials-pc3.svg",
+            "author_name": "Sara",
+            "author_info_text": "online Store, VIC",
+            "bg_color": "#e6e6e6",
+            "show_border": true,
+            "border_color": "#000000",
+            "border_width": 2,
+            "border_radius": 25
+          }
+        }
+      },
+      "block_order": [
+        "review_item_wXmDN6",
+        "review_item_m66Wyz",
+        "review_item_idzjpe"
+      ],
+      "settings": {
+        "heading": "Our Clients Love Us—See Their Reviews",
+        "desktop_padding_top": 80,
+        "desktop_padding_bottom": 80,
+        "mobile_padding_top": 60,
+        "mobile_padding_bottom": 60
+      }
+    },
+    "support_jzem6W": {
+      "type": "support",
+      "blocks": {
+        "icon_with_text_7NYRQn": {
+          "type": "icon_with_text",
+          "settings": {
+            "text": "Expertise. Certified Shopify Experts with over 100 successful store launches."
+          }
+        },
+        "icon_with_text_jCEyqH": {
+          "type": "icon_with_text",
+          "settings": {
+            "text": "Speed. Get your store launched in as little as 30 days."
+          }
+        },
+        "icon_with_text_GRjJJh": {
+          "type": "icon_with_text",
+          "settings": {
+            "text": "Results. Proven track record of increasing sales by up to 300%."
+          }
+        },
+        "icon_with_text_TGk36x": {
+          "type": "icon_with_text",
+          "settings": {
+            "text": "Support. Ongoing support and optimisation services to ensure your store’s success."
+          }
+        }
+      },
+      "block_order": [
+        "icon_with_text_7NYRQn",
+        "icon_with_text_jCEyqH",
+        "icon_with_text_GRjJJh",
+        "icon_with_text_TGk36x"
+      ],
+      "settings": {
+        "heading": "why Us?",
+        "text": "We’re young, we’re fun, and we know what you want. Since 2006, our team has been on a mission to bring effortless, simple Shopify mobile first website designs and effective low cost paid ads to the masses in australia in a modern way. No BS, just bulky wallets for our clients.",
+        "bg_color": "#d9e021",
+        "show_border": true,
+        "border_color": "#000000",
+        "border_width": 2,
+        "border_radius": 25,
+        "desktop_padding_top": 60,
+        "desktop_padding_bottom": 60,
+        "mobile_padding_top": 40,
+        "mobile_padding_bottom": 40
+      }
+    },
+    "service_list_HXKjt7": {
+      "type": "service-list",
+      "blocks": {
+        "service_item_qm9bAF": {
+          "type": "service_item",
+          "settings": {
+            "heading1": "Step 1:",
+            "heading2": "Free Consultation",
+            "text": "We discuss your goals and how we can help you achieve them.",
+            "logo": "shopify://shop_images/benefits_3.svg"
+          }
+        },
+        "service_item_KHcehC": {
+          "type": "service_item",
+          "settings": {
+            "heading1": "Step 2:",
+            "heading2": "Custom Design& Development",
+            "text": "We create a unique Shopify store tailored to your brand and audience.",
+            "logo": "shopify://shop_images/benefits2.svg"
+          }
+        },
+        "service_item_LVw6nz": {
+          "type": "service_item",
+          "settings": {
+            "heading1": "",
+            "heading2": "Step 3: Launch & Optimisation",
+            "text": "Your store goes live, and we continue to optimise for maximum conversions",
+            "logo": "shopify://shop_images/benefits1.svg"
+          }
+        }
+      },
+      "block_order": [
+        "service_item_qm9bAF",
+        "service_item_KHcehC",
+        "service_item_LVw6nz"
+      ],
+      "settings": {
+        "heading": "How It Works",
+        "desktop_padding_top": 60,
+        "desktop_padding_bottom": 60,
+        "mobile_padding_top": 40,
+        "mobile_padding_bottom": 40
+      }
+    },
+    "home_advertise_aTKgK6": {
+      "type": "home-advertise",
+      "settings": {
+        "heading": "You’re Our #1—Let’s Grow Your Shopify Store",
+        "text": "No obligation, just expert advice on how to take your online business to the next level.",
+        "button_text": "Chat with a Shopify Expert",
+        "button_link": "shopify://pages/contact",
+        "main_image": "shopify://shop_images/best-mobile-app3.svg",
+        "hole_image": "shopify://shop_images/best-mobile-app2.svg",
+        "bg_color": "#ffff41",
+        "desktop_padding_top": 380,
+        "desktop_padding_bottom": 80,
+        "mobile_padding_top": 200,
+        "mobile_padding_bottom": 50
+      }
     }
   },
   "order": [
     "overview_dWdQCg",
     "text_heading_cKjFAQ",
-    "card_list_C4T6Dr"
+    "card_list_C4T6Dr",
+    "review",
+    "support_jzem6W",
+    "service_list_HXKjt7",
+    "home_advertise_aTKgK6"
   ]
 }

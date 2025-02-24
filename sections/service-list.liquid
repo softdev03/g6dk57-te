@@ -1,0 +1,133 @@
+{{ 'service-list.css' |  asset_url |  stylesheet_tag }}
+{%- style -%}
+  #shopify-section-{{ section.id }} {
+  	padding-top: {{ section.settings.desktop_padding_top }}px;
+  	padding-bottom: {{ section.settings.desktop_padding_bottom }}px;
+  }
+  @media screen and (max-width: 749px) {
+  	#shopify-section-{{ section.id }} {
+  		padding-top: {{ section.settings.mobile_padding_top }}px;
+  		padding-bottom: {{ section.settings.mobile_padding_bottom }}px;
+  	}
+  }
+{%- endstyle -%}
+<div class="shopify-section-service-list page-width">
+  {%- if section.settings.heading != blank -%}
+    <h1 class="heading m-0">{{ section.settings.heading }}</h1>
+  {%- endif -%}
+  {%- if section.blocks.size > 0 -%}
+    <div class="service-list">
+      {%- for block in section.blocks -%}
+        <div class="service-item">
+          {%- if block.settings.logo != blank -%}
+            <div class="image">
+              <img src="{{ block.settings.logo |  img_url: '150x' }}" alt="" width="150px" height="auto">
+            </div>
+            {%- if block.settings.heading1 != blank -%}
+              <h2 class="service-item-heading m-0">{{ block.settings.heading1 }}</h2>
+            {%- endif -%}
+            {%- if block.settings.heading2 != blank -%}
+              <h2 class="service-item-heading second m-0">{{ block.settings.heading2 }}</h2>
+            {%- endif -%}
+            {%- if block.settings.text != blank -%}
+              <p class="service-item-text m-0">{{ block.settings.text }}</p>
+            {%- endif -%}
+          {%- endif -%}
+        </div>
+      {%- endfor -%}
+    </div>
+  {%- endif -%}
+</div>
+{% schema %}
+{
+  "name": "Service List",
+  "tag": "section",
+  "class": "shopify-section--service-list",
+  "settings": [
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "Heading"
+    },
+    {
+      "type": "header",
+      "content": "Padding Settings"
+    },
+    {
+      "type": "range",
+      "id": "desktop_padding_top",
+      "min": 0,
+      "max": 200,
+      "step": 2,
+      "unit": "px",
+      "label": "Desktop Padding Top",
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "desktop_padding_bottom",
+      "min": 0,
+      "max": 200,
+      "step": 2,
+      "unit": "px",
+      "label": "Desktop Padding Bottom",
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "mobile_padding_top",
+      "min": 0,
+      "max": 200,
+      "step": 2,
+      "unit": "px",
+      "label": "Mobile Padding Top",
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "mobile_padding_bottom",
+      "min": 0,
+      "max": 200,
+      "step": 2,
+      "unit": "px",
+      "label": "Mobile Padding Bottom",
+      "default": 0
+    }
+  ],
+  "blocks": [
+    {
+      "type": "service_item",
+      "name": "Service Item",
+      "limit": 3,
+      "settings":[
+        {
+          "type": "text",
+          "id": "heading1",
+          "label": "Heading1"
+        },
+        {
+          "type": "text",
+          "id": "heading2",
+          "label": "Heading2"
+        },
+        {
+          "type": "text",
+          "id": "text",
+          "label": "Text"
+        },
+        {
+          "type": "image_picker",
+          "id": "logo",
+          "label": "Logo"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Service List",
+      "settings": {}
+    }
+  ]
+}
+{% endschema %}

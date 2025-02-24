@@ -1,0 +1,125 @@
+.shopify-section-home-advertise .advertise-card {
+  padding: 80px 40px;
+  border: 2px solid;
+  border-radius: 25px;
+}
+.shopify-section-home-advertise .image-content {
+  max-width: 600px;
+  margin-inline: auto;
+  margin-bottom: 50px;
+}
+.shopify-section-home-advertise .image-content > svg {
+  margin-inline: auto;
+  display: block;
+  margin-top: -24px;
+  width: 100%;
+  position: relative;
+  z-index: 1;
+}
+.shopify-section-home-advertise .image-wrapper {
+  margin-top: -360px;
+  position: relative;
+  overflow: hidden;
+  max-width: calc(100% - 140px);
+  margin-left: auto;
+  margin-right: auto;
+	padding-top: 50px;
+}
+.shopify-section-home-advertise .image {
+  z-index: 1;
+  position: relative;
+  bottom: -30px;
+  line-height: 0;
+}
+.shopify-section-home-advertise .image-wrapper img {
+  width: 100%;
+}
+.shopify-section-home-advertise .image-wrapper > img {
+  position: absolute;
+  bottom: 0px;
+}
+.shopify-section-home-advertise .heading {
+  font-size: 40px;
+  text-align: center;
+  max-width: 800px;
+  margin-bottom: 40px;
+  line-height: 1.2;
+  margin-inline: auto;
+}
+.shopify-section-home-advertise .text {
+  text-align: center;
+  max-width: 560px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+}
+.shopify-section-home-advertise .link {
+  display: block;
+  text-decoration: none;
+  padding: 20px 40px;
+  background-color: black;
+  color: white;
+  text-align: center;
+  width: fit-content;
+  margin-inline: auto;
+  border-radius: 6px;
+  font-size: 16px;
+}
+.shopify-section-home-advertise .link:hover {
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+}
+
+@media screen and (max-width: 799px) {
+  .shopify-section-home-advertise .image-content {
+    max-width: 400px;
+  }
+  .shopify-section-home-advertise .image-wrapper {
+    max-width: calc(100% - 93px);
+    margin-top: -330px;
+  }
+  .shopify-section-home-advertise .image-content > svg {
+    margin-top: -20px;
+  }
+}
+@media screen and (max-width: 749px) {
+  .shopify-section-home-advertise .image-content {
+    margin-bottom: 30px;
+  }
+	.shopify-section-home-advertise .heading {
+		font-size: 28px;
+		margin-bottom: 30px;
+	}
+	.shopify-section-home-advertise .text {
+		font-size: 14px;
+		margin-bottom: 20px;
+	}
+  .shopify-section-home-advertise .link {
+    font-size: 14px;
+    white-space: nowrap;
+    max-width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 500px) {
+  .shopify-section-home-advertise .advertise-card {
+    padding-inline: 20px;
+    padding-bottom: 30px;
+  }
+  .shopify-section-home-advertise .image-content {
+    max-width: 245px;
+  }
+  .shopify-section-home-advertise .image-wrapper {
+    max-width: calc(100% - 58px);
+    margin-top: -260px;
+  }
+	.shopify-section-home-advertise .image {
+		bottom: -50px;
+	}
+  .shopify-section-home-advertise .image-content > svg {
+    margin-top: -17px;
+  }
+}
