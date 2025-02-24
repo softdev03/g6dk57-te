@@ -38,6 +38,17 @@
     },
     "header": {
       "type": "header",
+      "blocks": {
+        "mega_menu_RMTENt": {
+          "type": "mega_menu",
+          "settings": {
+            "handle": "services"
+          }
+        }
+      },
+      "block_order": [
+        "mega_menu_RMTENt"
+      ],
       "settings": {
         "logo_position": "middle-center",
         "menu": "main-menu-1",
