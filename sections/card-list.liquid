@@ -35,11 +35,19 @@
       {%- for block in section.blocks -%}
         <div class="card-item" id="card-{{ block.id }}">
           {%- if block.settings.card_image != blank -%}
-            <div class="image-wrapper">
-              <div class="image">
-                <img src="{{ block.settings.card_image|  img_url: '400x' }}" alt="" width="400px" height="auto">
+            {%- if block.settings.card_link != blank -%}
+              <a class="image-wrapper" href="{{ block.settings.card_link }}">
+                <div class="image">
+                  <img src="{{ block.settings.card_image|  img_url: '400x' }}" alt="" width="400px" height="auto">
+                </div>
+              </a>
+            {%- else -%}
+              <div class="image-wrapper">
+                <div class="image">
+                  <img src="{{ block.settings.card_image|  img_url: '400x' }}" alt="" width="400px" height="auto">
+                </div>
               </div>
-            </div>
+            {%- endif -%}
           {%- endif -%}
           <div class="text-content">
             {%- if block.settings.heading != blank -%}
@@ -119,6 +127,11 @@
           "type": "image_picker",
           "id": "card_image",
           "label": "Card Image"
+        },
+        {
+          "type": "url",
+          "id": "card_link",
+          "label": "Card Link"
         },
         {
           "type": "text",

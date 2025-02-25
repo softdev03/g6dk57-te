@@ -50,6 +50,7 @@
           "type": "card",
           "settings": {
             "card_image": "shopify://shop_images/feature_1.svg",
+            "card_link": "",
             "heading": "Web Development",
             "text": "Fully tailored Shopify stores that reflect your brand and are optimised for conversions",
             "bg_color": "#e6e6e6",
@@ -65,6 +66,7 @@
           "type": "card",
           "settings": {
             "card_image": "shopify://shop_images/feature_2.svg",
+            "card_link": "",
             "heading": "Social Media Ads",
             "text": "Drive targeted traffic to your store with expertly managed social media campaigns",
             "bg_color": "#e6e6e6",
@@ -80,6 +82,7 @@
           "type": "card",
           "settings": {
             "card_image": "shopify://shop_images/feature_3.svg",
+            "card_link": "",
             "heading": "Google Ads Management",
             "text": "Maximise your ad spend with our precision-targeted Google Ads services.",
             "bg_color": "#e6e6e6",
@@ -95,6 +98,7 @@
           "type": "card",
           "settings": {
             "card_image": "shopify://shop_images/feature_4.svg",
+            "card_link": "",
             "heading": "Email Marketing",
             "text": "Nurture your leads and turn them into loyal customers with strategic email campaigns.",
             "bg_color": "#e6e6e6",
@@ -119,6 +123,88 @@
         "desktop_padding_bottom": 60,
         "mobile_padding_top": 40,
         "mobile_padding_bottom": 40
+      }
+    },
+    "card_list_VB3J6F": {
+      "type": "card-list",
+      "blocks": {
+        "card_ptBaFr": {
+          "type": "card",
+          "settings": {
+            "card_image": "shopify://shop_images/Screenshot_22.png",
+            "card_link": "#",
+            "heading": "SEO Report",
+            "text": "An SEO Report analyzes your website's performance and identifies areas for improvement in search engine optimization. It provides insights on keyword usage, backlinks, site structure, and more, helping you enhance your online visibility.",
+            "bg_color": "#ffff41",
+            "hover_bg_color": "#d9e021",
+            "show_border": true,
+            "border_color": "#000000",
+            "border_width": 2,
+            "border_radius": 25,
+            "top_when_hover": -16
+          }
+        },
+        "card_RhKR3j": {
+          "type": "card",
+          "settings": {
+            "card_image": "shopify://shop_images/Screenshot_23.png",
+            "card_link": "#",
+            "heading": "Image Upscaler",
+            "text": "The Image Upscaler enhances the quality of your images by increasing their resolution without losing detail. Ideal for improving the appearance of graphics and photos, it utilizes advanced algorithms to ensure clarity and sharpness.",
+            "bg_color": "#ffff41",
+            "hover_bg_color": "#d9e021",
+            "show_border": true,
+            "border_color": "#000000",
+            "border_width": 2,
+            "border_radius": 25,
+            "top_when_hover": -16
+          }
+        },
+        "card_ri3qAa": {
+          "type": "card",
+          "settings": {
+            "card_image": "shopify://shop_images/Screenshot_24.png",
+            "card_link": "#",
+            "heading": "Business Name Generator",
+            "text": "The Business Name Generator helps entrepreneurs brainstorm unique and catchy names for their businesses. By inputting keywords or themes, it generates a variety of creative name options tailored to your brand identity.",
+            "bg_color": "#ffff41",
+            "hover_bg_color": "#d9e021",
+            "show_border": true,
+            "border_color": "#000000",
+            "border_width": 2,
+            "border_radius": 25,
+            "top_when_hover": -16
+          }
+        },
+        "card_CM8kUw": {
+          "type": "card",
+          "settings": {
+            "card_image": "shopify://shop_images/Screenshot_25.png",
+            "card_link": "#",
+            "heading": "Free Custom Ad Creatives & Copy Generator",
+            "text": "The Free Custom Ad Creatives & Copy Generator creates tailored advertisements and compelling copy for your marketing campaigns. It combines eye-catching visuals with persuasive text, streamlining the process of crafting effective ads.",
+            "bg_color": "#ffff41",
+            "hover_bg_color": "#d9e021",
+            "show_border": true,
+            "border_color": "#000000",
+            "border_width": 2,
+            "border_radius": 25,
+            "top_when_hover": -16
+          }
+        }
+      },
+      "block_order": [
+        "card_ptBaFr",
+        "card_RhKR3j",
+        "card_ri3qAa",
+        "card_CM8kUw"
+      ],
+      "settings": {
+        "heading": "Overview for AI Tools",
+        "desktop_padding_top": 100,
+        "desktop_padding_bottom": 100,
+        "mobile_padding_top": 60,
+        "mobile_padding_bottom": 60
       }
     },
     "review": {
@@ -293,6 +379,7 @@
     "overview_dWdQCg",
     "text_heading_cKjFAQ",
     "card_list_C4T6Dr",
+    "card_list_VB3J6F",
     "review",
     "support_jzem6W",
     "service_list_HXKjt7",

@@ -18,7 +18,9 @@
     justify-self: start;
     margin-left: -1.2rem;
   }
-
+  .header-wrapper {
+    background-color: {{ section.settings.bg_color }};
+  }
   {%- if section.settings.sticky_header_type == 'reduce-logo-size' -%}
     .scrolled-past-header .header__heading-logo-wrapper {
       width: 75%;
@@ -537,6 +539,12 @@
       "id": "menu_color_scheme",
       "label": "t:sections.header.settings.menu_color_scheme.label",
       "default": "scheme-1"
+    },
+    {
+      "type": "color",
+      "id": "bg_color",
+      "label": "Background Color",
+      "default": "#000000"
     },
     {
       "type": "header",

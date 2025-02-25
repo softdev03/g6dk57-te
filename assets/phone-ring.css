@@ -67,9 +67,11 @@
 }
 .shopify-section-phone-ring .button-list .enquire-button {
   background-color: #feda15;
+  color: black;
 }
 .shopify-section-phone-ring .button-list a:hover {
-  color: black;
+  color: white;
+  background-color: black;
 }
 .shopify-section-phone-ring .image {
   width: calc((100% - 50px) * 0.35);

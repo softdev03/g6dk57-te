@@ -32,9 +32,12 @@
   padding-right: 10px;
   top: 0px;
   width: 100%;
+  aspect-ratio: 1;
 }
 .shopify-section-card-list .image img {
   width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 .shopify-section-card-list .text-content {
   display: flex;
