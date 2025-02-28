@@ -80,6 +80,9 @@
   .shopify-section-advertise .secondary-image {
     width: 120px;
   }
+  .shopify-section-advertise .heading {
+    font-size: 30px;
+  }
   .shopify-section-advertise .sub-heading {
     font-size: 25px;
   }

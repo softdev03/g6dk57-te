@@ -15,7 +15,7 @@
         "main_image": "shopify://shop_images/seo-for-trades.webp",
         "secondary_image": "shopify://shop_images/get-found-on-the-web-right.svg",
         "secondary_image_roate_angle": 8,
-        "desktop_left": -48,
+        "desktop_left": -90,
         "desktop_top": -1,
         "desktop_right": -1,
         "desktop_bottom": 20,
@@ -23,9 +23,9 @@
         "mobile_top": -1,
         "mobile_right": -1,
         "mobile_bottom": -26,
-        "heading": "Websites and Marketing For Electricians",
-        "sub_heading": "How Tradiemate Can Help You Stand Out Online",
-        "text": "<p>If you're like most tradies, finding small jobs isn't hard. Your phone rings consistently, and you book the jobs. The problem is winning those larger, higher-paying clients. Residential and commercial contracts aren't won the same way. The clients that care more about the quality of your service than price are tough to reach.</p><p>Let's face it: bigger businesses are beating you to those better-paying clients.</p><p>If you're an electrician looking to book consistent, high-paying jobs, getting online should be your top priority. A great website and a solid marketing plan elevate your brand so you attract more quality leads, get out of the rat race of third-party platforms, and turn your business into a sellable asset.</p><p>Tradiemate helps you get in front of more people with our comprehensive marketing, branding, and website services for electricians.</p>",
+        "heading": "Websites and Marketing For Tradies",
+        "sub_heading": "How An Agency Helps You Stand Out Online",
+        "text": "<p>If you're like most tradies, landing small jobs isn’t the problem—your phone’s always buzzing. The real challenge is scoring those bigger, high-paying gigs. Residential and commercial contracts need a different approach since the folks who care more about quality than price aren’t easy to reach.</p><p>Let's be real: the bigger players are nabbing those top jobs before you even get a shot.</p><p>If you’re an electrician aiming for steady, well-paid work, getting online is a must. A solid website and smart marketing plan boost your brand, draw in quality leads, free you from third-party platforms, and even make your business more valuable.</p><p>An Agency is here to help you connect with more customers through our all-in-one website, branding, and marketing services for electricians.</p>",
         "button_link": "#",
         "button_text": "Speak To Our Team",
         "image_right": false,
@@ -41,10 +41,10 @@
       "type": "phone-ring",
       "settings": {
         "image": "shopify://shop_images/MTS-Incoming-Call_png.webp",
-        "heading_1": "We get",
-        "heading_2": "Your phone ringing",
-        "sub_heading": "We’re for the tradies who want less fuss and more enquiries.",
-        "text": "For the business owners who need action and experience, not plans and broken promises. And for the companies who want noticeable business growth, not questionable results. If you’re serious about getting digital marketing results for your trade business, we want to hear from you.",
+        "heading_1": "We Make",
+        "heading_2": "Your Phone Ring.",
+        "sub_heading": "We’re here for tradies who want less hassle and more enquiries.",
+        "text": "For business owners who need real action and proven know-how—not endless plans and empty promises.And for companies looking for solid growth instead of uncertain results.If you're serious about digital marketing that really works for your trade business, let's have a chat.",
         "phone_button_text": "0499226600",
         "phone_number": "0499226600",
         "enquire_button_text": "Enquire Now",
@@ -63,7 +63,7 @@
         "main_image": "shopify://shop_images/get-more-leads-for-your-trade.webp",
         "secondary_image": "shopify://shop_images/this-could-be-you.svg",
         "secondary_image_roate_angle": 8,
-        "desktop_left": -48,
+        "desktop_left": -80,
         "desktop_top": -1,
         "desktop_right": -1,
         "desktop_bottom": 82,
@@ -71,9 +71,9 @@
         "mobile_top": -1,
         "mobile_right": -1,
         "mobile_bottom": -30,
-        "heading": "Digital Marketing for Electricians Matters",
-        "sub_heading": "How Tradiemate Can Help You Stand Out Online",
-        "text": "<p>You setting your business up for long-term success with the right marketing. You need a dynamic strategy to build an online presence. This includes an optimised website (to get found fast by high-level clients) and a lead generation machine with profitable advertising methods.</p><p>But, digital marketing only goes as far as how well the business is branded.</p><p>Your branding shows your business's professionalism and what they can expect from your work. From your website landing page to business cards and a car wrap, you want to be proud of the image you're putting forward. Tradie Mate's branding team for electricians helps you build a solid foundation for the rest of your digital marketing.</p>",
+        "heading": "Digital Marketing for Tradesmen Matters",
+        "sub_heading": "How An Agency Helps You Stand Out Online",
+        "text": "<p>Setting up your business for long-term success starts with the right marketing. You need a smart strategy to build your online presence—this means an optimized website that helps high-level clients find you fast, plus a lead generation system that works with proven advertising. Whether you're an electrician, plumber, carpenter, builder, roofer, or painter, getting noticed by the right clients is key.</p><p>But digital marketing only goes so far without solid branding.</p><p>Your branding shows your professionalism and what your clients can expect from your work. From your website landing page to your business cards and even your van wrap, you want to be proud of the image you're putting out there. An Agency's branding team for tradesmen builds the strong foundation you need for all your digital marketing efforts.</p>",
         "button_link": "#",
         "button_text": "Help Grow My Business",
         "image_right": false,
@@ -93,15 +93,15 @@
         "secondary_image_roate_angle": 0,
         "desktop_left": -1,
         "desktop_top": 160,
-        "desktop_right": -48,
+        "desktop_right": -90,
         "desktop_bottom": -1,
         "mobile_left": -1,
         "mobile_top": -25,
         "mobile_right": 0,
         "mobile_bottom": -1,
-        "heading": "Advertising Solutions For Aussie Electricians",
+        "heading": "Advertising Solutions For Aussie Tradesmen",
         "sub_heading": "Profitable advertising that works",
-        "text": "<p>For local electrician businesses, targeting the right people through your advertising is key to not blowing your budget or bringing in clients who you don't want to work with or can't afford your services.</p><p>Tradie Mate uses hyper-focused targeting in our campaigns because we know the Australian market inside-out. We set the right parameters in the ads to ensure you’re not spending money on the wrong things. </p><p>We’ll manage your ad campaigns by regularly tracking their progress and adjusting your ads to get the most bang for your buck. Get found in just a few clicks, land high-paying clients, and be found for urgent job requests in your service area with targeted ads.</p>",
+        "text": "<p>For local tradesmen, targeting the right people with your ads is crucial. You don't want to waste your budget or attract clients who aren't the right fit for your services.</p><p>At An Agency, we use hyper-focused targeting in our campaigns because we know the Aussie market inside-out. We set the right parameters so you only spend money where it counts.</p><p>We'll manage your ad campaigns by keeping a close eye on progress and fine-tuning your ads to get the most bang for your buck. Get found in just a few clicks, land high-paying jobs, and be there when urgent requests come in—all thanks to targeted ads.</p>",
         "button_link": "#",
         "button_text": "Help Grow My Business",
         "image_right": true,
@@ -120,9 +120,9 @@
           "type": "trust_item",
           "settings": {
             "heading": "Decades of experience",
-            "main_text": "<p>Our <a href=\"#\" title=\"#\">team of web experts </a>has been working in web design for decades. We bring this experience and knowledge of the ever-changing web design...</p>",
+            "main_text": "<p>Our team of web experts has spent decades in the game, building websites that don’t just look good—they perform. We’ve seen trends come and go, and we know what works.</p><p></p>",
             "button_text": "Read More",
-            "additional_text": "<p>...industry to our client's websites so you get the best result possible.</p>",
+            "additional_text": "<p>…We bring this deep experience and understanding of the ever-changing web design industry to every project, making sure your website is built to get results.</p>",
             "accordion_image": "shopify://shop_images/yellow-arrow.svg"
           }
         },
@@ -130,9 +130,9 @@
           "type": "trust_item",
           "settings": {
             "heading": "We get you, mate",
-            "main_text": "<p>Our website packages for tradies are hyper-focused on the Australian tradie market. We know the industry well and what your potential customers...</p>",
+            "main_text": "<p>Our website packages are built specifically for Aussie tradies. We know the industry, we know your market, and we know what makes customers pick up the phone.</p><p></p>",
             "button_text": "Read More",
-            "additional_text": "<p>...are looking for when they're deciding who to book for their jobs. The best clients want to see your business displayed clearly, with the right information and high-quality visuals. We've been building websites for tradies for decades.</p>",
+            "additional_text": "<p>…Your best clients want to see a business that looks professional, with clear information and high-quality visuals. We make sure your website ticks all the right boxes. With decades of experience building sites for tradies, we know what works.</p>",
             "accordion_image": "shopify://shop_images/yellow-arrow.svg"
           }
         },
@@ -140,9 +140,9 @@
           "type": "trust_item",
           "settings": {
             "heading": "100% Aussie",
-            "main_text": "<p>We work with local Australian companies only, and we are proudly a 100% Australian-owned and operated business. We care about keeping it local...</p>",
+            "main_text": "<p>We’re proudly Australian-owned and operated, working exclusively with local businesses. We believe in keeping it local and supporting Aussie tradies.</p><p></p>",
             "button_text": "Read More",
-            "additional_text": "<p>...and supporting local small and medium tradie businesses.</p><p>Tradiemate does all of the work to develop a website tailored to your specific business, your industry, and the local market.</p><p>We'll handle all of the design, content creation site upkeep, so you never have to worry about it.</p><p>We'll create a website that's visually appealing, user-friendly, and optimised to get you high on search results, so potential customers will reach out for a quote.</p>",
+            "additional_text": "<p>…An Agency handles everything—design, content, and site upkeep—so you don’t have to stress. Your website will be built specifically for your trade, industry, and the local market.</p><p>We’ll create a site that looks great, is easy to use, and is optimised to rank high in search results—so more customers find you and reach out for a quote.</p>",
             "accordion_image": "shopify://shop_images/yellow-arrow.svg"
           }
         }
@@ -153,8 +153,8 @@
         "trust_item_JfVUzV"
       ],
       "settings": {
-        "heading": "Tradie Mate: An Australian Web Design Company You Can Trust",
-        "text": "<p>With so many other website developers and designers, why choose us? Why not even build it for yourself? For one, that's probably the last thing you want to do. Plus, even with do-it-yourself website builders, there are a lot of technical aspects to web design that needs to be done by someone who knows the craft. Not only that, they need to understand the trade business.</p><p>Tradie Mate is your best bet. There's no point in us trying to be humble about it. Here's what we've got going for us.</p>",
+        "heading": "An Agency: An Australian Web Design Company You Can Trust",
+        "text": "<p>With so many website developers and designers out there, you might ask, why us? Maybe you could even build it yourself. But let’s be honest—that’s probably the last thing you want to do. Even those DIY website builders miss the mark on the technical details, not to mention understanding the unique needs of the trades industry.</p><p>That’s where An Agency comes in. We know what it takes to create a website that not only looks great but also works for tradies. We get the trade business and the hard work you put in every day. No need to be modest about it—here’s what sets us apart.</p>",
         "trust_image": "shopify://shop_images/review-bar-green.svg",
         "desktop_padding_top": 60,
         "desktop_padding_bottom": 60,
@@ -168,7 +168,7 @@
         "main_image": "shopify://shop_images/website-design-and-dev-for-tradies.png",
         "secondary_image": "shopify://shop_images/get-the-work-you-want.svg",
         "secondary_image_roate_angle": 0,
-        "desktop_left": -48,
+        "desktop_left": -80,
         "desktop_top": -1,
         "desktop_right": -1,
         "desktop_bottom": 82,
@@ -177,8 +177,8 @@
         "mobile_right": -1,
         "mobile_bottom": -30,
         "heading": "SEO To Boost Your Online Presence",
-        "sub_heading": "Build authority and credibility. Show that you're an expert",
-        "text": "<p>SEO is a cost-effective solution to advertise your sparky business so you can get found by the right people that'll go from strangers to paying customers. </p><p>SEO brings in organic traffic, which means people find you through a Google search without you having to pay per click for advertising. The cost of making those deals and sales is much lower, even if you are also blending it with an advertising strategy.</p><p>Your ideal clients are looking for quality and credibility. High-level clients are more likely to go with an electrician company whose website shows up organically, as they know this company has authority. Our local SEO service includes an in-depth website audit, content creation, keyword and market research, and backlink management.</p>",
+        "sub_heading": "Build Authority. Get Found. Win More Jobs.",
+        "text": "<p>SEO is a cost-effective way to get your trade business in front of the right people—turning strangers into paying customers without burning through your ad budget.</p><p>With strong SEO, your website ranks higher on Google, bringing in organic traffic without the need to pay per click. Even if you’re running ads, a solid SEO strategy lowers your overall cost to land new jobs.</p><p>Your best clients want quality and credibility. The businesses that show up at the top of search results are seen as the go-to experts. Our local SEO service covers everything—website audits, content creation, keyword research, and backlink management—so you stand out and get the work you deserve.</p>",
         "button_link": "#",
         "button_text": "Help Grow My Business",
         "image_right": false,
@@ -203,9 +203,9 @@
         "mobile_top": -1,
         "mobile_right": -1,
         "mobile_bottom": -1,
-        "heading": "How To Get More Leads as an Electrician",
-        "sub_heading": "Professional branding and email marketing are essential",
-        "text": "<p>Book yourself out so you never have to worry about chasing up new jobs or old clients. With automated email marketing built into your digital marketing strategy, you'll have a way to nurture leads, capture new clients, and stay top of mind for existing and past clients.</p><p>With a professionally branded website, targeted advertising strategies, and a great email strategy, you'll have a multi-channel plan for attracting more leads for your electrical service.</p><p>We'll help you get on top of Google search results with SEO, run retargeted ads for interested clients, and reach out to previous clients for online reviews to help win you more jobs.</p>",
+        "heading": "How To Get More Leads as a Tradie",
+        "sub_heading": "Professional Branding & Smart Email Marketing",
+        "text": "<p>Book yourself out so you’re never stressing about chasing new jobs or following up with old clients. With automated email marketing, you can nurture leads, bring in new customers, and stay top of mind with past clients—all without lifting a finger.</p><p>A professional website, targeted ads, and a solid email strategy give you a multi-channel system to keep leads rolling in.</p><p>We’ll help you climb Google search results with SEO, run retargeted ads for interested customers, and get previous clients to leave online reviews—so you stand out and win more jobs.</p>",
         "button_link": "#",
         "button_text": "Help Grow My Business",
         "image_right": true,
@@ -225,15 +225,15 @@
         "secondary_image_roate_angle": 0,
         "desktop_left": -1,
         "desktop_top": 160,
-        "desktop_right": -48,
+        "desktop_right": -90,
         "desktop_bottom": -1,
         "mobile_left": -1,
         "mobile_top": -25,
         "mobile_right": 0,
         "mobile_bottom": -1,
-        "heading": "The Challenge of Marketing for Electricians",
-        "sub_heading": "Not only are you up against a crowded market, but your expertise is as an electrician, not a marketing and branding expert.",
-        "text": "<p><strong>Without understanding how effective marketing works, especially digital marketing in the modern world, you won't be found by your idea clients.</strong></p><p>That's where we come in. Tradiemate has years of experience marketing for local Aussie electrician businesses. We understand what marketing Tradie services are needed for local Australian businesses; thankfully, we know what works.</p>",
+        "heading": "The Challenge of Marketing for Tradies",
+        "sub_heading": "You’re up against a crowded market, and let’s be real—your expertise is in your trade, not marketing.",
+        "text": "<p><strong>If you’re not using the right strategies, your ideal clients won’t find you. In today’s digital world, being good at what you do isn’t enough—you need to be seen.</strong></p><p>That’s where we come in. An Agency has years of experience helping Aussie tradies grow their businesses. We know what works, what doesn’t, and how to get real results—so you can focus on the job while we handle the marketing.</p>",
         "button_link": "#",
         "button_text": "Get More High-Quality Leads",
         "image_right": true,
@@ -253,7 +253,7 @@
           "settings": {
             "image": "shopify://shop_images/electrician-website.webp",
             "detail_info_heading": "Electricians",
-            "detail_info_text": "<p>Tradiemate's <a href=\"#\" title=\"#\">web design for electricians </a>emphasises their expertise and professionalism, with easy-to-use navigation and clear calls-to-action for services and appointments. Testimonials from satisfied customers help build trust. </p>",
+            "detail_info_text": "<p>Customers don’t just want a sparky—they want a reliable expert. We design electrician websites that make it easy for clients to see your services, book a job, and trust your work. Whether it’s rewires, switchboard upgrades, or commercial fit-outs, we showcase your skills with a clean, professional website that helps you stand out.</p><p></p><p></p>",
             "icon": "shopify://shop_images/yellow-arrow.svg",
             "detail_button_link": "#",
             "detail_button_text": "Free Quote"
@@ -264,7 +264,7 @@
           "settings": {
             "image": "shopify://shop_images/plumbing-websites.webp",
             "detail_info_heading": "Plumbers",
-            "detail_info_text": "<p>Tradiemate's <a href=\"https://www.tradiemate.au/websites-for-plumbers/\">web design for plumbers </a>highlights their experience, qualifications and competitive pricing. Clear and concise information on services, testimonials, and easy contact options help customers get the assistance they need.</p>",
+            "detail_info_text": "<p>Blocked drains, burst pipes, hot water installs—your customers want help fast. We build plumbing websites that make it easy for people to find your services, get a quick quote, and book a job on the spot. Plus, we highlight your experience and qualifications so customers know they’re in good hands.</p><p></p><p></p>",
             "icon": "shopify://shop_images/yellow-arrow.svg",
             "detail_button_link": "#",
             "detail_button_text": "Free Quote"
@@ -275,7 +275,7 @@
           "settings": {
             "image": "shopify://shop_images/carpenter-websites.webp",
             "detail_info_heading": "Carpenters",
-            "detail_info_text": "<p>Tradiemate's web design for carpenters showcases their skill and craftsmanship, with stunning visuals and a user-friendly interface. Customers can easily explore services, view past projects and request a quote.</p>",
+            "detail_info_text": "<p>Your work speaks for itself—your website should too. Whether you’re crafting custom furniture, framing houses, or handling detailed renovations, we create carpenter websites that showcase your best projects, highlight your craftsmanship, and bring in high-paying clients.</p><p></p><p></p>",
             "icon": "shopify://shop_images/yellow-arrow.svg",
             "detail_button_link": "#",
             "detail_button_text": "Free Quote"
@@ -286,7 +286,7 @@
           "settings": {
             "image": "shopify://shop_images/pest-control-website-development-1.webp",
             "detail_info_heading": "Pest Control",
-            "detail_info_text": "<p>Tradiemate's web design for pest controllers highlights their experience in dealing with a range of pests, with a focus on safety and effectiveness. Customers can easily schedule appointments and request additional information on services.</p>",
+            "detail_info_text": "<p>Customers need to trust their pest control expert. We design websites that clearly show your experience in dealing with termites, rodents, and everything in between. We make it easy for clients to book inspections, learn about your methods, and understand why your service is the best choice for keeping their home pest-free.</p><p></p><p></p>",
             "icon": "shopify://shop_images/yellow-arrow.svg",
             "detail_button_link": "#",
             "detail_button_text": "Free Quote"
@@ -297,7 +297,7 @@
           "settings": {
             "image": "shopify://shop_images/cleaning-website-design.webp",
             "detail_info_heading": "Cleaning",
-            "detail_info_text": "<p>Tradiemate's web design for cleaners is focused on showcasing their services, customer testimonials and highlighting their professionalism. A clear call-to-action and easy-to-navigate design ensures potential customers can easily get in touch.</p>",
+            "detail_info_text": "<p>Whether you’re running a commercial cleaning business or handling end-of-lease deep cleans, a strong website helps you get more bookings. We highlight your services, customer testimonials, and guarantees, with a simple contact system that makes it easy for clients to reach out and book a clean.</p><p></p><p></p>",
             "icon": "shopify://shop_images/yellow-arrow.svg",
             "detail_button_link": "#",
             "detail_button_text": "Free Quote"
@@ -308,7 +308,7 @@
           "settings": {
             "image": "shopify://shop_images/general-tradies-websites.webp",
             "detail_info_heading": "All Other Tradies",
-            "detail_info_text": "<p>Tradiemate's web design for tradies is tailored to their specific service offerings, with easy-to-use navigation and clear calls-to-action to generate leads and drive business growth.</p>",
+            "detail_info_text": "<p>No matter your trade, we build websites that work for you. From builders and tilers to landscapers and painters, we design sites that show off your skills, bring in more work, and make booking you a no-brainer.</p><p></p><p></p>",
             "icon": "shopify://shop_images/yellow-arrow.svg",
             "detail_button_link": "#",
             "detail_button_text": "Free Quote"
@@ -325,7 +325,7 @@
       ],
       "settings": {
         "heading": "Tradies we work with",
-        "text": "Looking for an affordable and effective web design service for your tradie business in Australia? We've got you.",
+        "text": "Looking for an affordable and effective web design service for your trade business in Australia? We’ve got you.",
         "desktop_padding_top": 60,
         "desktop_padding_bottom": 60,
         "mobile_padding_top": 40,
@@ -338,48 +338,80 @@
         "faq_item_rrnAHz": {
           "type": "faq_item",
           "settings": {
-            "question": "Can I advertise new services for my Tradie Business by email?",
-            "answer": "Yes, advertising your new services through email is a great strategy to bring in new and returning customers. Email marketing campaigns help you reach out to potential clients and keep your existing and past clients up-to-date with your latest services.",
+            "question": "What experience does An Agency have working with tradesmen?",
+            "answer": "As a team led by an ex-tradesman, we understand the unique challenges and needs of the trade industry. We've successfully partnered with numerous Australian tradies, delivering tailored website designs, effective SEO strategies, and targeted paid advertising campaigns that generate quality leads.",
             "icon": "shopify://shop_images/yellow-arrow.svg"
           }
         },
         "faq_item_AdgFRX": {
           "type": "faq_item",
           "settings": {
-            "question": "Do most Tradies market their business by email?",
-            "answer": "Although it is recommended for tradies to have an email marketing plan, most local Aussie tradies don't. Bigger tradie companies have email campaigns, and that is helping contribute to their success in winning larger clients and booking higher-paid jobs. That's because they're staying top-of-mind with existing and potential clients, and they have a consistent way of sharing contact details for their services and offers with potential clients.",
+            "question": "How long does it take to see results from SEO efforts?",
+            "answer": "SEO is a long-term investment. While some improvements can be seen within a few months, it typically takes 6 to 12 months to achieve significant results. Our team implements proven strategies to enhance your online visibility and attract the right clients over time.",
             "icon": "shopify://shop_images/yellow-arrow.svg"
           }
         },
         "faq_item_E6VP9h": {
           "type": "faq_item",
           "settings": {
-            "question": "Does email marketing work for Tradies?",
-            "answer": "Absolutely. When tradies have a targeted email strategy, they can reach their audience directly and attract more interest in their services. By sharing helpful information and showcasing their business, past success stories, and offers tradies can get more customers and increase their revenue.",
+            "question": "Will I have a dedicated point of contact at An Agency?",
+            "answer": "Absolutely. We assign a dedicated account manager to each client, ensuring clear communication and personalized service. Your account manager will keep you updated on progress, answer your questions, and ensure your marketing goals are met.",
             "icon": "shopify://shop_images/yellow-arrow.svg"
           }
         },
         "faq_item_akFz96": {
           "type": "faq_item",
           "settings": {
-            "question": "What are the benefits of email marketing for tradespeople?",
-            "answer": "Affordable Marketing - it's a cost-effective method to reach out to potential clients and stay connected with existing clients. Targeted messaging - tradies can create targeted campaigns that speak directly to their audience's needs. This is a convincing way to turn this audience into paying customers. Better customer engagement - by sending regular email campaigns, tradies can keep their brand top-of-mind with their audience and encourage them to book more jobs. Higher ROI - with the right strategy, email marketing can help tradies generate leads, nurture relationships, and increase their revenue, as it is a cost-effective marketing technique.",
+            "question": "Do you provide regular reports on campaign performance?",
+            "answer": "Yes, transparency is key to our approach. We provide detailed monthly reports outlining the performance of your website, SEO, and advertising campaigns. These reports include key metrics and insights to keep you informed and confident in our services.",
             "icon": "shopify://shop_images/yellow-arrow.svg"
           }
         },
         "faq_item_jdQR46": {
           "type": "faq_item",
           "settings": {
-            "question": "How to attract clients through email marketing?",
-            "answer": "Having a targeted email campaign created with the right messaging to pinpoint potential clients' needs and wants is the foundation of a tradie businesses' great email campaign. To capture the right clients, and tradies need to understand their potential clients' challenges, desires, and decision-making processes. That allows tradies to create emails that resonate with them and encourage them to get a quote and become paying customers.",
+            "question": "Can you guarantee specific results with your services?",
+            "answer": "No agency can promise exact rankings or lead numbers—but here’s what we can guarantee: if you don’t get any leads, inquiries, or phone calls in the first 30 days, we’ll refund your marketing money, no questions asked. That’s how confident we are in what we do.We’re not just making bold claims—we have the track record to back it up. We have never worked with a tradie who didn’t get inquiries or phone calls within their first 30 days. In most cases, you’ll start seeing results within the first two weeks, and it only gets better from there as the algorithm learns and optimizes.We don’t just set up campaigns—we build systems that bring in real work.",
             "icon": "shopify://shop_images/yellow-arrow.svg"
           }
         },
         "faq_item_nyFTVE": {
           "type": "faq_item",
           "settings": {
-            "question": "How do I nurture leads with email?",
-            "answer": "Nurturing leads is about having consistent, valuable interactions with your potential clients. Tradies can use email marketing to nurture potential customers with a sequence of emails that share information, social proof, and other key messaging that are all focused on capturing these leads as clients. They want to trust in your business and be convinced that you will deliver the best possible service.",
+            "question": "What ongoing support does An Agency offer?",
+            "answer": "We offer continuous support to ensure your marketing efforts remain effective. This includes regular performance reviews, updates to your website and campaigns as needed, and ongoing consultation to adapt strategies in line with your business goals.Partner with An Agency and experience the difference that a confident, knowledgeable, and dedicated marketing team can make for your trade business.",
+            "icon": "shopify://shop_images/yellow-arrow.svg"
+          }
+        },
+        "faq_item_XN9Db9": {
+          "type": "faq_item",
+          "settings": {
+            "question": "How do you ensure the quality of leads generated?",
+            "answer": "Through precise targeting, compelling ad copy, and strategic SEO practices, we attract clients who are actively seeking your services. Our approach focuses on quality over quantity, ensuring the leads generated are a good fit for your business.",
+            "icon": "shopify://shop_images/yellow-arrow.svg"
+          }
+        },
+        "faq_item_C7MHEi": {
+          "type": "faq_item",
+          "settings": {
+            "question": "What types of paid advertising do you manage?",
+            "answer": "We manage various paid advertising channels, including Google Ads, social media advertising (Facebook, Instagram), and display advertising. Our team develops targeted campaigns to reach your ideal clients, maximize your return on investment, and keep your phone ringing with new business.",
+            "icon": "shopify://shop_images/yellow-arrow.svg"
+          }
+        },
+        "faq_item_Htp8HR": {
+          "type": "faq_item",
+          "settings": {
+            "question": "How do you approach website design for tradesmen?",
+            "answer": "We create custom, responsive websites that reflect your brand and appeal to your target audience. Our designs are user-friendly, mobile-optimized, and built with SEO best practices to ensure your site ranks well and converts visitors into clients.",
+            "icon": "shopify://shop_images/yellow-arrow.svg"
+          }
+        },
+        "faq_item_Fb4Rdq": {
+          "type": "faq_item",
+          "settings": {
+            "question": "What sets An Agency apart from other marketing agencies?",
+            "answer": "Our deep understanding of the trades industry, combined with our comprehensive service offerings—including website design, SEO, and paid advertising—sets us apart. Being Australian-owned and operated, we know the local market and are dedicated to helping fellow Aussie tradies succeed.",
             "icon": "shopify://shop_images/yellow-arrow.svg"
           }
         }
@@ -390,7 +422,11 @@
         "faq_item_E6VP9h",
         "faq_item_akFz96",
         "faq_item_jdQR46",
-        "faq_item_nyFTVE"
+        "faq_item_nyFTVE",
+        "faq_item_XN9Db9",
+        "faq_item_C7MHEi",
+        "faq_item_Htp8HR",
+        "faq_item_Fb4Rdq"
       ],
       "settings": {
         "heading": "Frequently Asked Questions",
