@@ -25,8 +25,14 @@
 }
 .shopify-sectin-iwt-list .iwt-item .sub-heading {
   flex: 1;
+  text-transform: capitalize;
 }
-
+.shopify-sectin-iwt-list .image {
+  aspect-ratio: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 @media screen and (max-width: 899px) {
   .shopify-sectin-iwt-list .iwt-item {
     width: 100%;

@@ -22,6 +22,7 @@
   font-weight: 500;
   color: black;
   line-height: 1.2;
+  text-transform: capitalize;
 }
 .shopify-section-service-form .accordion-heading svg {
   width: 20px;
