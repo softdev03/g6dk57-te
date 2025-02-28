@@ -40,8 +40,6 @@
   text-align: right;
 }
 .shopify-section-advertise .heading {
-  font-size: 40px;
-  font-weight: 800;
   line-height: 1.2;
 }
 .shopify-section-advertise .sub-heading {
@@ -81,9 +79,6 @@
 @media screen and (max-width: 749px) {
   .shopify-section-advertise .secondary-image {
     width: 120px;
-  }
-  .shopify-section-advertise .heading {
-    font-size: 30px;
   }
   .shopify-section-advertise .sub-heading {
     font-size: 25px;

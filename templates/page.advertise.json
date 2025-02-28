@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "advertise_xMT9mA": {
@@ -6,7 +15,7 @@
         "main_image": "shopify://shop_images/seo-for-trades.webp",
         "secondary_image": "shopify://shop_images/get-found-on-the-web-right.svg",
         "secondary_image_roate_angle": 8,
-        "desktop_left": -90,
+        "desktop_left": -48,
         "desktop_top": -1,
         "desktop_right": -1,
         "desktop_bottom": 20,
@@ -54,7 +63,7 @@
         "main_image": "shopify://shop_images/get-more-leads-for-your-trade.webp",
         "secondary_image": "shopify://shop_images/this-could-be-you.svg",
         "secondary_image_roate_angle": 8,
-        "desktop_left": -80,
+        "desktop_left": -48,
         "desktop_top": -1,
         "desktop_right": -1,
         "desktop_bottom": 82,
@@ -84,7 +93,7 @@
         "secondary_image_roate_angle": 0,
         "desktop_left": -1,
         "desktop_top": 160,
-        "desktop_right": -90,
+        "desktop_right": -48,
         "desktop_bottom": -1,
         "mobile_left": -1,
         "mobile_top": -25,
@@ -159,7 +168,7 @@
         "main_image": "shopify://shop_images/website-design-and-dev-for-tradies.png",
         "secondary_image": "shopify://shop_images/get-the-work-you-want.svg",
         "secondary_image_roate_angle": 0,
-        "desktop_left": -80,
+        "desktop_left": -48,
         "desktop_top": -1,
         "desktop_right": -1,
         "desktop_bottom": 82,
@@ -216,7 +225,7 @@
         "secondary_image_roate_angle": 0,
         "desktop_left": -1,
         "desktop_top": 160,
-        "desktop_right": -90,
+        "desktop_right": -48,
         "desktop_bottom": -1,
         "mobile_left": -1,
         "mobile_top": -25,

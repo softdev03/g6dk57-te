@@ -1,0 +1,109 @@
+.shopify-section-service-form {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  row-gap: 50px;
+}
+.shopify-section-service-form > * {
+  width: calc(50% - 40px);
+}
+.shopify-section-service-form .heading {
+  margin-bottom: 30px;
+}
+.shopify-section-service-form .text:not(.accordion-content) {
+  margin-bottom: 45px;
+}
+.shopify-section-service-form .faq {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+.shopify-section-service-form .accordion-heading {
+  font-weight: 500;
+  color: black;
+  line-height: 1.2;
+}
+.shopify-section-service-form .accordion-heading svg {
+  width: 20px;
+  transition: all 0.3s;
+}
+.shopify-section-service-form .accordion.open svg {
+  transform: rotate(45deg);
+}
+.shopify-section-service-form .accordion.open .accordion-heading {
+  color: #00a0ff;
+}
+
+.shopify-section-service-form form {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  padding: 60px 40px;
+  height: fit-content;
+}
+.shopify-section-service-form .form-heading {
+  margin-bottom: 20px;
+}
+.shopify-section-service-form form .button {
+  color: black;
+  background-color: white;
+  min-width: 200px;
+}
+.shopify-section-service-form form .button:hover {
+  background-color: black;
+  color: white;
+}
+.shopify-section-service-form form .button:focus {
+  outline: none;
+  box-shadow: none;
+}
+.shopify-section-service-form input:focus,.shopify-section-service-form textarea:focus {
+  outline: none;
+  box-shadow: none;
+}
+.shopify-section-service-form .elementor-field-option p {
+  margin: 0px;
+  display: inline;
+}
+.shopify-section-service-form .elementor-field-option p:not(:last-child) {
+  margin-bottom: 15px;
+}
+
+@media screen and (max-width: 1023px) {
+  .shopify-section-service-form>* {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 749px) {
+  .shopify-section-service-form .heading {
+    font-size: 24px;
+  }
+  .shopify-section-service-form .accordion-heading {
+    font-size: 14px;
+  }
+  .shopify-section-service-form .accordion-heading svg {
+    width: 15px;
+  }
+  .shopify-section-service-form form {
+    padding: 40px 30px;
+  }
+  .shopify-section-service-form .form-heading {
+    font-size: 20px;
+  }
+  .shopify-section-service-form form input,.shopify-section-service-form form textarea {
+    font-size: 14px;
+  }
+  .shopify-section-service-form .elementor-field-subgroup {
+    font-size: 14px;
+  }
+  .shopify-section-service-form .contact__button {
+    display: flex;
+    justify-content: center;
+  }
+  .shopify-section-service-form .g-recaptcha > div {
+    max-width: 100%;
+  }
+  .shopify-section-service-form .g-recaptcha iframe {
+    max-width: 100%;
+  }
+}

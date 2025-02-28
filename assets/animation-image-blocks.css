@@ -1,0 +1,79 @@
+.shopify-section-aib-list .heading:not(.item-heading) {
+  max-width: 1000px;
+  text-align: center;
+  margin-inline: auto;
+  text-transform: capitalize;
+  margin-bottom: 60px;
+}
+.shopify-section-aib-list .animation-image-list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  row-gap: 50px;
+}
+.shopify-section-aib-list .block-sub-list {
+  width: calc(50% - 30px);
+  display: flex;
+  flex-direction: column;
+  row-gap: 50px;
+}
+.shopify-section-aib-list .block {
+  display: flex;
+  flex-direction: column;
+  row-gap: 30px;
+}
+.shopify-section-aib-list .block .heading {
+  font-size: 36px;
+}
+.shopify-section-aib-list .image-wrapper {
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.shopify-section-aib-list .image-wrapper img {
+  width: 100%;
+}
+.shopify-section-aib-list .image {
+  position: relative;
+  width: 70%;
+  transition: all .5s;
+  top: 0px;
+}
+.shopify-section-aib-list .payment-app-image, .shopify-section-aib-list .first-circle-image,.shopify-section-aib-list .second-circle-image,.shopify-section-aib-list .third-circle-image {
+	position: absolute;
+	transition: all .5s;
+  line-height: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.shopify-section-aib-list .circle-image {
+  aspect-ratio: 1;
+}
+.shopify-section-aib-list .circle-image img {
+  transition: all .3s;
+}
+.shopify-section-aib-list .circle-image.effect img {
+  width: 0px;
+}
+.shopify-section-aib-list .payment-app-image {
+  transform: rotateY(180deg);
+}
+
+@media screen and (min-width: 750px) {
+  .shopify-section-aib-list .animation-image-list.mobile {
+    display: none;
+  }
+}
+@media screen and (max-width: 749px) {
+  .shopify-section-aib-list .animation-image-list.desktop {
+    display: none;
+  }
+  .shopify-section-aib-list .block {
+    text-align: center;
+    width: 100%;
+    row-gap: 15px;
+  }
+}

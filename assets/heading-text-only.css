@@ -1,5 +1,4 @@
 .shopify-section-heaing-text-only .heading {
-  font-size: 40px;
   line-height: 1.2;
   text-transform: capitalize;
   margin-bottom: 40px;
@@ -16,7 +15,6 @@
 }
 @media screen and (max-width: 749px) {
   .shopify-section-heaing-text-only .heading {
-    font-size: 28px;
     margin-bottom: 30px;
   }
   .shopify-section-heaing-text-only .text {
