@@ -41,6 +41,14 @@
   padding: 60px 40px;
   height: fit-content;
 }
+.shopify-section-service-form form select {
+  padding: 15px;
+  font-size: 16px;
+}
+.shopify-section-service-form form select:focus {
+  outline: none;
+  box-shadow: none;
+}
 .shopify-section-service-form .form-heading {
   margin-bottom: 20px;
 }

@@ -1,14 +1,770 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
         "padding_top": 28,
         "padding_bottom": 28
       }
+    },
+    "text_heading_dEBy3q": {
+      "type": "text_heading",
+      "settings": {
+        "heading1": "Grow Your Business with the Shopify Experts.",
+        "heading2": "",
+        "text": "<p>We do more than just build online stores—we grow brands. As former e-commerce owners, we’ve faced the same challenges as you. Partnering with Shopify Plus and our expert team gives you the tools and strategy needed to scale your business 10X. We tailor every solution to your unique needs.</p>",
+        "bg_color": "#aeddf9",
+        "heading1_align": "center",
+        "heading2_align": "left",
+        "text_align": "center",
+        "heading1_desktop_margin": 40,
+        "heading1_mobile_margin": 30,
+        "heading2_desktop_margin": 0,
+        "heading2_mobile_margin": 0,
+        "desktop_padding_top": 80,
+        "desktop_padding_bottom": 80,
+        "mobile_padding_top": 60,
+        "mobile_padding_bottom": 60
+      }
+    },
+    "service_form_fPcdTN": {
+      "type": "service-form",
+      "blocks": {
+        "form_item_TiKeyL": {
+          "type": "form_item",
+          "settings": {
+            "field_type": "text",
+            "field_name": "First Name",
+            "placeholder": "First Name*",
+            "options": "",
+            "pattern": ""
+          }
+        },
+        "form_item_LEcWyR": {
+          "type": "form_item",
+          "settings": {
+            "field_type": "text",
+            "field_name": "Last Name",
+            "placeholder": "Last Name*",
+            "options": "",
+            "pattern": ""
+          }
+        },
+        "form_item_qKKUUd": {
+          "type": "form_item",
+          "settings": {
+            "field_type": "email",
+            "field_name": "Work Email",
+            "placeholder": "Work Email*",
+            "options": "",
+            "pattern": ""
+          }
+        },
+        "form_item_67qhJp": {
+          "type": "form_item",
+          "settings": {
+            "field_type": "text",
+            "field_name": "Company Name",
+            "placeholder": "Company Name*",
+            "options": "",
+            "pattern": ""
+          }
+        },
+        "form_item_LT9NrD": {
+          "type": "form_item",
+          "settings": {
+            "field_type": "text",
+            "field_name": "Phone Number",
+            "placeholder": "Phone Number",
+            "options": "",
+            "pattern": ""
+          }
+        },
+        "form_item_kfQTWd": {
+          "type": "form_item",
+          "settings": {
+            "field_type": "select",
+            "field_name": "Current Platform",
+            "placeholder": "What platforms are you migrating from?",
+            "options": "WooCommerce|Magento|BigCommerce|Wordpress|Other",
+            "pattern": ""
+          }
+        },
+        "form_item_EmUpEM": {
+          "type": "form_item",
+          "settings": {
+            "field_type": "text",
+            "field_name": "Domain",
+            "placeholder": "Please provide your current domain name.",
+            "options": "",
+            "pattern": ""
+          }
+        },
+        "form_item_6prRCd": {
+          "type": "form_item",
+          "settings": {
+            "field_type": "select",
+            "field_name": "Reason",
+            "placeholder": "Choose a reason for reaching out.",
+            "options": "Choose a reason for reaching out|Interested in Shopify Plus Development|Migrating to Shopify Plus|Custom Shopify Plus Features|Shopify Plus Consultation|General Inquiry About Shopify Plus",
+            "pattern": ""
+          }
+        },
+        "form_item_fqQPj7": {
+          "type": "form_item",
+          "settings": {
+            "field_type": "textarea",
+            "field_name": "Message",
+            "placeholder": "Message",
+            "options": "",
+            "pattern": ""
+          }
+        },
+        "faq_item_j4WCkb": {
+          "type": "faq_item",
+          "settings": {
+            "question": "Custom Shopify Development Services",
+            "answer": "<p>As a Shopify-exclusive agency, we excel in developing powerful solutions:</p><ul><li>Shopify Plus Development</li><li>Shopify Theme Development</li><li>Shopify App Development</li><li>Shopify Speed Optimisation</li><li>Shopify Headless E-commerce</li><li>Shopify B2B / Wholesale Channel</li></ul>"
+          }
+        },
+        "faq_item_t4KACJ": {
+          "type": "faq_item",
+          "settings": {
+            "question": "Migration to Shopify",
+            "answer": "<p>We ensure a <strong>stress-free</strong> migration to Shopify:</p><ul><li>WooCommerce, Magento, BigCommerce, Shopware, WordPress migrations</li></ul>"
+          }
+        },
+        "faq_item_xDhDVE": {
+          "type": "faq_item",
+          "settings": {
+            "question": "Shopify Integrations",
+            "answer": "<p>We create custom integrations that sync seamlessly with Shopify and Shopify Plus:</p><ul><li><strong>Australian Shipping Carriers:</strong> Toll, AusPost, Transdirect – We enable calculated carrier rates for location-based shipping across Australia.</li><li><strong>Shopify eBay Integration</strong></li><li>Shopify ERP, PIM, and CRM Integrations</li><li>Shopify Amazon Integration</li><li>DHL, DPD, UPS, TNT, GLS, FedEx, Przelewy24, InPost</li></ul>"
+          }
+        },
+        "faq_item_fgCMyK": {
+          "type": "faq_item",
+          "settings": {
+            "question": "Growth",
+            "answer": "<p>Accelerate growth with expert optimisation:</p><ul><li>Shopify Conversion Rate Optimisation</li><li>Shopify Site Maintenance</li><li>Shopify UX/Usability Audits</li><li>Shopify SEO Optimisation</li></ul>"
+          }
+        },
+        "faq_item_KaJ7kM": {
+          "type": "faq_item",
+          "settings": {
+            "question": "Ongoing Support",
+            "answer": "<p>Full access to dedicated Shopify Plus support alongside our in-house team of Shopify experts who guide you through every challenge.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "form_item_TiKeyL",
+        "form_item_LEcWyR",
+        "form_item_qKKUUd",
+        "form_item_67qhJp",
+        "form_item_LT9NrD",
+        "form_item_kfQTWd",
+        "form_item_EmUpEM",
+        "form_item_6prRCd",
+        "form_item_fqQPj7",
+        "faq_item_j4WCkb",
+        "faq_item_t4KACJ",
+        "faq_item_xDhDVE",
+        "faq_item_fgCMyK",
+        "faq_item_KaJ7kM"
+      ],
+      "settings": {
+        "heading": "What Our Expert Shopify Plus Service Looks Like",
+        "text": "<p>With over <strong>10 years of experience</strong> running our own eCommerce stores, you’re in good hands with us. We know exactly what your business needs for a successful launch. So, what are we especially good at?</p>",
+        "form_heading": "Discover how we can help your business scale. Let's talk.",
+        "form_text": "<p>You agree to be contacted by ANAGENCY.COM.AU PTY LTD and/or Shopify about their respective services. Your personal information will be processed in accordance with Shopify’s <a href=\"/policies/privacy-policy\" target=\"_blank\" title=\"Privacy Policy\">Privacy Policy</a>and the <a href=\"/policies/privacy-policy\" target=\"_blank\" title=\"Privacy Policy\">privacy policy of ANAGENCY.COM.AU PTY LTD</a>, respectively.</p>",
+        "submit_button_text": "Send",
+        "form_bg_color": "#d9e021",
+        "form_border_color": "#000000",
+        "form_border_width": 2,
+        "form_border_radius": 25,
+        "show_reCAPTCHA_widget": true,
+        "desktop_padding_top": 80,
+        "desktop_padding_bottom": 80,
+        "mobile_padding_top": 50,
+        "mobile_padding_bottom": 50
+      }
+    },
+    "image_with_text_list_UbLeD4": {
+      "type": "image-with-text-list",
+      "blocks": {
+        "image_with_text_item_rNFGPY": {
+          "type": "image_with_text_item",
+          "settings": {
+            "heading": "We Know e-Commerce:",
+            "text": "<p>As former Shopify Plus store owners, we understand the hurdles you face and provide proven solutions to help you overcome them. We’ve been there, and we know how to drive growth and efficiency with Shopify Plus.</p>",
+            "image": "shopify://shop_images/image1_6f31ccba-2b7c-4d60-b889-898e5dbbb915.svg"
+          }
+        },
+        "image_with_text_item_CVbrWU": {
+          "type": "image_with_text_item",
+          "settings": {
+            "heading": "Shopify Partners and Experts:",
+            "text": "<p>As official Shopify Partners, we are constantly up to date with the latest Shopify Plus innovations, features, and best practices, allowing us to deliver unparalleled service to your business.</p>",
+            "image": "shopify://shop_images/image2_f2f3d8ab-63fb-402b-a6dc-dd7786f8bff1.svg"
+          }
+        },
+        "image_with_text_item_4WKAQF": {
+          "type": "image_with_text_item",
+          "settings": {
+            "heading": "Proven Track Record:",
+            "text": "<p>We’ve helped numerous brands scale their businesses on Shopify Plus, improving performance and driving revenue growth through customised development and data-driven strategies.</p>",
+            "image": "shopify://shop_images/image3_8b3a0d78-de95-43e5-8b6d-5f213e26bda1.svg"
+          }
+        }
+      },
+      "block_order": [
+        "image_with_text_item_rNFGPY",
+        "image_with_text_item_CVbrWU",
+        "image_with_text_item_4WKAQF"
+      ],
+      "settings": {
+        "heading": "Why Choose Us for Shopify Plus?",
+        "text": "<p>With years of experience scaling our own eCommerce businesses on Shopify Plus, we know the exact strategies that work.</p>",
+        "desktop_padding_top": 80,
+        "desktop_padding_bottom": 80,
+        "mobile_padding_top": 60,
+        "mobile_padding_bottom": 60
+      }
+    },
+    "animation_image_block_z8pJwH": {
+      "type": "animation-image-block",
+      "blocks": {
+        "image_block_3Pc7ne": {
+          "type": "image_block",
+          "settings": {
+            "show_on_desktop": true,
+            "show_on_mobile": true,
+            "mobile_order": 0,
+            "main_image": "shopify://shop_images/Website-Creator-bro_0f5d937f-78df-4d75-86f8-49e58c28e3d0.svg",
+            "top_when_hover": -21,
+            "main_image_z_index": 0,
+            "payment_app_image": "shopify://shop_images/featuresAsset-23sendrecive_c.svg",
+            "payment_app_image_width_on_desktop": 200,
+            "payment_app_image_width_on_mobile": 146,
+            "payment_app_image_pos_as_top": 80,
+            "start_left": 60,
+            "end_left": 30,
+            "payment_app_image_pos_when_hover": 30,
+            "payment_image_z_index": 0,
+            "first_circle_image": "shopify://shop_images/iconAsset-19tap-pay-element3.svg",
+            "first_circle_image_width_on_desktop": 90,
+            "first_circle_image_width_on_mobile": 50,
+            "first_circle_image_init_angle": -90,
+            "first_circle_image_target_angle": 90,
+            "first_circle_image_desktop_pos_as_x": 20,
+            "first_circle_image_desktop_pos_as_y": 80,
+            "first_circle_image_mobile_pos_as_x": 15,
+            "first_circle_image_mobile_pos_as_y": 78,
+            "first_circle_image_z_index": 0,
+            "first_image_effect": false,
+            "second_circle_image": "shopify://shop_images/iconAsset-19tap-pay-element3.svg",
+            "second_circle_image_width_on_desktop": 72,
+            "second_circle_image_width_on_mobile": 36,
+            "second_circle_image_init_angle": 180,
+            "second_circle_image_target_angle": -90,
+            "second_circle_image_desktop_pos_as_x": 80,
+            "second_circle_image_desktop_pos_as_y": 60,
+            "second_circle_image_mobile_pos_as_x": 68,
+            "second_circle_image_mobile_pos_as_y": 63,
+            "second_circle_image_z_index": 0,
+            "second_image_effect": false,
+            "third_circle_image_width_on_desktop": 30,
+            "third_circle_image_width_on_mobile": 30,
+            "third_circle_image_init_angle": 0,
+            "third_circle_image_target_angle": 0,
+            "third_circle_image_desktop_pos_as_x": 0,
+            "third_circle_image_desktop_pos_as_y": 0,
+            "third_circle_image_mobile_pos_as_x": 0,
+            "third_circle_image_mobile_pos_as_y": 0,
+            "third_circle_image_z_index": 0,
+            "third_image_effect": false
+          }
+        },
+        "text_block_iM3fiT": {
+          "type": "text_block",
+          "settings": {
+            "show_on_desktop": true,
+            "show_on_mobile": true,
+            "mobile_order": 3,
+            "heading": "Automation Features:",
+            "text": "<p>Use Shopify Flow to automate repetitive tasks like inventory management, customer segmentation, and marketing campaigns, freeing up time to focus on scaling your business.</p>"
+          }
+        },
+        "image_block_TpyiEn": {
+          "type": "image_block",
+          "settings": {
+            "show_on_desktop": true,
+            "show_on_mobile": true,
+            "mobile_order": 4,
+            "main_image": "shopify://shop_images/Server-amico_52d7c206-5807-4ff9-a719-06a0f73a2481.svg",
+            "top_when_hover": -21,
+            "main_image_z_index": 0,
+            "payment_app_image": "shopify://shop_images/featuresAsset-23sendrecive_c.svg",
+            "payment_app_image_width_on_desktop": 200,
+            "payment_app_image_width_on_mobile": 102,
+            "payment_app_image_pos_as_top": 85,
+            "start_left": 60,
+            "end_left": 36,
+            "payment_app_image_pos_when_hover": 30,
+            "payment_image_z_index": 0,
+            "first_circle_image": "shopify://shop_images/iconAsset-19tap-pay-element3.svg",
+            "first_circle_image_width_on_desktop": 68,
+            "first_circle_image_width_on_mobile": 46,
+            "first_circle_image_init_angle": -90,
+            "first_circle_image_target_angle": 90,
+            "first_circle_image_desktop_pos_as_x": 30,
+            "first_circle_image_desktop_pos_as_y": 85,
+            "first_circle_image_mobile_pos_as_x": 26,
+            "first_circle_image_mobile_pos_as_y": 80,
+            "first_circle_image_z_index": 0,
+            "first_image_effect": false,
+            "second_circle_image": "shopify://shop_images/iconAsset-19tap-pay-element3.svg",
+            "second_circle_image_width_on_desktop": 64,
+            "second_circle_image_width_on_mobile": 28,
+            "second_circle_image_init_angle": 0,
+            "second_circle_image_target_angle": 540,
+            "second_circle_image_desktop_pos_as_x": 70,
+            "second_circle_image_desktop_pos_as_y": 30,
+            "second_circle_image_mobile_pos_as_x": 70,
+            "second_circle_image_mobile_pos_as_y": 30,
+            "second_circle_image_z_index": 0,
+            "second_image_effect": false,
+            "third_circle_image_width_on_desktop": 30,
+            "third_circle_image_width_on_mobile": 30,
+            "third_circle_image_init_angle": 0,
+            "third_circle_image_target_angle": 0,
+            "third_circle_image_desktop_pos_as_x": 0,
+            "third_circle_image_desktop_pos_as_y": 0,
+            "third_circle_image_mobile_pos_as_x": 0,
+            "third_circle_image_mobile_pos_as_y": 0,
+            "third_circle_image_z_index": 0,
+            "third_image_effect": false
+          }
+        },
+        "text_block_i7LDtU": {
+          "type": "text_block",
+          "settings": {
+            "show_on_desktop": true,
+            "show_on_mobile": true,
+            "mobile_order": 7,
+            "heading": "Lower Transaction Fees:",
+            "text": "<p>Shopify Plus offers reduced transaction fees, helping you save as your revenue increases.</p>"
+          }
+        },
+        "text_block_QPUAzX": {
+          "type": "text_block",
+          "settings": {
+            "show_on_desktop": true,
+            "show_on_mobile": true,
+            "mobile_order": 1,
+            "heading": "Advanced Customisation Options:",
+            "text": "<p>With Shopify Plus, you gain access to more flexible design options, custom scripts, and APIs that allow for tailored checkout experiences and unique customer journeys.</p>"
+          }
+        },
+        "image_block_dRFUzi": {
+          "type": "image_block",
+          "settings": {
+            "show_on_desktop": true,
+            "show_on_mobile": true,
+            "mobile_order": 2,
+            "main_image": "shopify://shop_images/User-flow-amico_63b25145-588f-46cc-9139-7c58a3e4056c.svg",
+            "top_when_hover": -21,
+            "main_image_z_index": 0,
+            "payment_app_image_width_on_desktop": 100,
+            "payment_app_image_width_on_mobile": 100,
+            "payment_app_image_pos_as_top": 0,
+            "start_left": 0,
+            "end_left": 0,
+            "payment_app_image_pos_when_hover": 30,
+            "payment_image_z_index": 0,
+            "first_circle_image": "shopify://shop_images/featuresAsset-24collecting-money-C.svg",
+            "first_circle_image_width_on_desktop": 106,
+            "first_circle_image_width_on_mobile": 60,
+            "first_circle_image_init_angle": 0,
+            "first_circle_image_target_angle": -40,
+            "first_circle_image_desktop_pos_as_x": 50,
+            "first_circle_image_desktop_pos_as_y": 80,
+            "first_circle_image_mobile_pos_as_x": 50,
+            "first_circle_image_mobile_pos_as_y": 75,
+            "first_circle_image_z_index": 1,
+            "first_image_effect": true,
+            "second_circle_image": "shopify://shop_images/iconAsset-19tap-pay-element3.svg",
+            "second_circle_image_width_on_desktop": 10,
+            "second_circle_image_width_on_mobile": 32,
+            "second_circle_image_init_angle": 0,
+            "second_circle_image_target_angle": 90,
+            "second_circle_image_desktop_pos_as_x": 58,
+            "second_circle_image_desktop_pos_as_y": 90,
+            "second_circle_image_mobile_pos_as_x": 20,
+            "second_circle_image_mobile_pos_as_y": 80,
+            "second_circle_image_z_index": -1,
+            "second_image_effect": false,
+            "third_circle_image": "shopify://shop_images/iconAsset-19tap-pay-element3.svg",
+            "third_circle_image_width_on_desktop": 30,
+            "third_circle_image_width_on_mobile": 30,
+            "third_circle_image_init_angle": -50,
+            "third_circle_image_target_angle": 180,
+            "third_circle_image_desktop_pos_as_x": 55,
+            "third_circle_image_desktop_pos_as_y": 90,
+            "third_circle_image_mobile_pos_as_x": 56,
+            "third_circle_image_mobile_pos_as_y": 90,
+            "third_circle_image_z_index": -1,
+            "third_image_effect": false
+          }
+        },
+        "text_block_jkBLxd": {
+          "type": "text_block",
+          "settings": {
+            "show_on_desktop": true,
+            "show_on_mobile": true,
+            "mobile_order": 5,
+            "heading": "Scalable Infrastructure:",
+            "text": "<p>Shopify Plus can handle high-volume traffic and transactions, perfect for growing brands that need enterprise-level performance without compromising speed.</p>"
+          }
+        },
+        "image_block_VwMQAh": {
+          "type": "image_block",
+          "settings": {
+            "show_on_desktop": true,
+            "show_on_mobile": true,
+            "mobile_order": 6,
+            "main_image": "shopify://shop_images/E-Wallet-pana_7caa6c07-dbd2-4daf-9d6e-81a28d4b300b.svg",
+            "top_when_hover": -21,
+            "main_image_z_index": 0,
+            "payment_app_image_width_on_desktop": 100,
+            "payment_app_image_width_on_mobile": 100,
+            "payment_app_image_pos_as_top": 0,
+            "start_left": 0,
+            "end_left": 0,
+            "payment_app_image_pos_when_hover": 30,
+            "payment_image_z_index": 0,
+            "first_circle_image": "shopify://shop_images/featuresAsset-24collecting-money-C.svg",
+            "first_circle_image_width_on_desktop": 80,
+            "first_circle_image_width_on_mobile": 80,
+            "first_circle_image_init_angle": -40,
+            "first_circle_image_target_angle": 80,
+            "first_circle_image_desktop_pos_as_x": 52,
+            "first_circle_image_desktop_pos_as_y": 80,
+            "first_circle_image_mobile_pos_as_x": 54,
+            "first_circle_image_mobile_pos_as_y": 65,
+            "first_circle_image_z_index": 0,
+            "first_image_effect": false,
+            "second_circle_image": "shopify://shop_images/iconAsset-19tap-pay-element3.svg",
+            "second_circle_image_width_on_desktop": 30,
+            "second_circle_image_width_on_mobile": 24,
+            "second_circle_image_init_angle": 0,
+            "second_circle_image_target_angle": 180,
+            "second_circle_image_desktop_pos_as_x": 56,
+            "second_circle_image_desktop_pos_as_y": 90,
+            "second_circle_image_mobile_pos_as_x": 63,
+            "second_circle_image_mobile_pos_as_y": 89,
+            "second_circle_image_z_index": -1,
+            "second_image_effect": false,
+            "third_circle_image_width_on_desktop": 30,
+            "third_circle_image_width_on_mobile": 30,
+            "third_circle_image_init_angle": 0,
+            "third_circle_image_target_angle": 0,
+            "third_circle_image_desktop_pos_as_x": 0,
+            "third_circle_image_desktop_pos_as_y": 0,
+            "third_circle_image_mobile_pos_as_x": 0,
+            "third_circle_image_mobile_pos_as_y": 0,
+            "third_circle_image_z_index": 0,
+            "third_image_effect": false
+          }
+        }
+      },
+      "block_order": [
+        "image_block_3Pc7ne",
+        "text_block_iM3fiT",
+        "image_block_TpyiEn",
+        "text_block_i7LDtU",
+        "text_block_QPUAzX",
+        "image_block_dRFUzi",
+        "text_block_jkBLxd",
+        "image_block_VwMQAh"
+      ],
+      "settings": {
+        "heading": "The Benefits of Upgrading to Shopify Plus",
+        "second_line_index": 5,
+        "desktop_padding_top": 80,
+        "desktop_padding_bottom": 80,
+        "mobile_padding_top": 60,
+        "mobile_padding_bottom": 60
+      }
+    },
+    "effect_form_qaDNzY": {
+      "type": "effect-form",
+      "blocks": {
+        "circle_image_TCDjn3": {
+          "type": "circle_image",
+          "settings": {
+            "desktop_width": 60,
+            "mobile_width": 60,
+            "desktop_pos_x": 0,
+            "desktop_pos_y": 0,
+            "mobile_pos_x": 0,
+            "mobile_pos_y": 0,
+            "init_angle": 0,
+            "target_angle": 0
+          }
+        },
+        "circle_image_yhYMMw": {
+          "type": "circle_image",
+          "settings": {
+            "desktop_width": 60,
+            "mobile_width": 60,
+            "desktop_pos_x": 0,
+            "desktop_pos_y": 0,
+            "mobile_pos_x": 0,
+            "mobile_pos_y": 0,
+            "init_angle": 0,
+            "target_angle": 0
+          }
+        },
+        "circle_image_hAj7VH": {
+          "type": "circle_image",
+          "settings": {
+            "desktop_width": 60,
+            "mobile_width": 60,
+            "desktop_pos_x": 0,
+            "desktop_pos_y": 0,
+            "mobile_pos_x": 0,
+            "mobile_pos_y": 0,
+            "init_angle": 0,
+            "target_angle": 0
+          }
+        },
+        "circle_image_YX79nQ": {
+          "type": "circle_image",
+          "settings": {
+            "desktop_width": 60,
+            "mobile_width": 60,
+            "desktop_pos_x": 0,
+            "desktop_pos_y": 0,
+            "mobile_pos_x": 0,
+            "mobile_pos_y": 0,
+            "init_angle": 0,
+            "target_angle": 0
+          }
+        },
+        "circle_image_7PJKbm": {
+          "type": "circle_image",
+          "settings": {
+            "desktop_width": 60,
+            "mobile_width": 60,
+            "desktop_pos_x": 0,
+            "desktop_pos_y": 0,
+            "mobile_pos_x": 0,
+            "mobile_pos_y": 0,
+            "init_angle": 0,
+            "target_angle": 0
+          }
+        },
+        "payment_app_image_h6RTz3": {
+          "type": "payment_app_image",
+          "settings": {
+            "desktop_width": 60,
+            "mobile_width": 60,
+            "desktop_pos_x": 0,
+            "desktop_pos_y": 0,
+            "mobile_pos_x": 0,
+            "mobile_pos_y": 0,
+            "desktop_translate_x": 0,
+            "desktop_translate_y": 0,
+            "desktop_rotate_x": 0,
+            "desktop_rotate_y": 0,
+            "desktop_max_x": 0,
+            "desktop_max_y": 0,
+            "mobile_translate_x": 0,
+            "mobile_translate_y": 0,
+            "mobile_rotate_x": 0,
+            "mobile_rotate_y": 0,
+            "mobile_max_x": 0,
+            "mobile_max_y": 0
+          }
+        },
+        "payment_app_image_VkdyLm": {
+          "type": "payment_app_image",
+          "settings": {
+            "desktop_width": 60,
+            "mobile_width": 60,
+            "desktop_pos_x": 0,
+            "desktop_pos_y": 0,
+            "mobile_pos_x": 0,
+            "mobile_pos_y": 0,
+            "desktop_translate_x": 0,
+            "desktop_translate_y": 0,
+            "desktop_rotate_x": 0,
+            "desktop_rotate_y": 0,
+            "desktop_max_x": 0,
+            "desktop_max_y": 0,
+            "mobile_translate_x": 0,
+            "mobile_translate_y": 0,
+            "mobile_rotate_x": 0,
+            "mobile_rotate_y": 0,
+            "mobile_max_x": 0,
+            "mobile_max_y": 0
+          }
+        }
+      },
+      "block_order": [
+        "circle_image_TCDjn3",
+        "circle_image_yhYMMw",
+        "circle_image_hAj7VH",
+        "circle_image_YX79nQ",
+        "circle_image_7PJKbm",
+        "payment_app_image_h6RTz3",
+        "payment_app_image_VkdyLm"
+      ],
+      "settings": {
+        "first_heading": "Let’s get started",
+        "second_heading": "With Shopify Plus!",
+        "text": "<p>Are you ready to unlock the full potential of Shopify Plus for your business? As Shopify Partners and eCommerce experts, we’re here to guide you through every step of the journey.</p>",
+        "email_placeholder_text": "Enter your email to start.",
+        "submit_button_text": "Get Started!",
+        "bg_color": "#d9e021",
+        "card_border_width": 2,
+        "card_border_color": "#000000",
+        "card_border_radius": 24,
+        "desktop_card_padding_top": 80,
+        "desktop_card_padding_bottom": 80,
+        "mobile_card_padding_top": 60,
+        "mobile_card_padding_bottom": 60,
+        "desktop_padding_top": 80,
+        "desktop_padding_bottom": 80,
+        "mobile_padding_top": 60,
+        "mobile_padding_bottom": 60
+      }
+    },
+    "faq_rkKRaA": {
+      "type": "faq",
+      "blocks": {
+        "faq_item_BC3LDG": {
+          "type": "faq_item",
+          "settings": {
+            "question": "What is Shopify Plus, and how does it differ from Shopify?",
+            "answer": "<p>Shopify Plus is the enterprise-level version of Shopify, offering more customisation, higher scalability, advanced automation tools, and reduced transaction fees. It’s designed for high-growth businesses looking to scale.</p>",
+            "icon": "shopify://shop_images/yellow-arrow.svg"
+          }
+        },
+        "faq_item_Vgm473": {
+          "type": "faq_item",
+          "settings": {
+            "question": "Can Shopify Plus handle international selling?",
+            "answer": "<p>Yes, Shopify Plus supports multiple currencies, languages, and global shipping integrations, making it easy to sell internationally. You can also customise pricing and content based on the customer’s location.</p>",
+            "icon": "shopify://shop_images/yellow-arrow.svg"
+          }
+        },
+        "faq_item_WjF6GQ": {
+          "type": "faq_item",
+          "settings": {
+            "question": "How long does it take to migrate to Shopify Plus?",
+            "answer": "<p>Migration timelines vary depending on your store size and complexity, but typically it takes between <strong>4-8 weeks</strong>. We ensure a smooth transition without any downtime.</p>",
+            "icon": "shopify://shop_images/yellow-arrow.svg"
+          }
+        },
+        "faq_item_q7RrA6": {
+          "type": "faq_item",
+          "settings": {
+            "question": "How does Shopify Plus improve checkout experiences?",
+            "answer": "<p>Shopify Plus offers a fully customisable checkout experience with Shopify Scripts, allowing you to create discounts, promotions, and dynamic checkout flows tailored to specific customers.</p>",
+            "icon": "shopify://shop_images/yellow-arrow.svg"
+          }
+        },
+        "faq_item_AHbHUF": {
+          "type": "faq_item",
+          "settings": {
+            "question": "What custom features can Shopify Plus offer?",
+            "answer": "<p>With Shopify Plus, you can create custom checkout experiences, add more flexible scripts, and leverage APIs to build unique customer flows, ensuring a personalised shopping experience.</p>",
+            "icon": "shopify://shop_images/yellow-arrow.svg"
+          }
+        },
+        "faq_item_3n9QJT": {
+          "type": "faq_item",
+          "settings": {
+            "question": "What’s the difference between Shopify and Shopify Plus?",
+            "answer": "<p>Shopify Plus offers more advanced features, higher scalability, automation tools, and customisation options compared to standard Shopify plans, making it ideal for high-growth businesses.</p>",
+            "icon": "shopify://shop_images/yellow-arrow.svg"
+          }
+        },
+        "faq_item_GakeXT": {
+          "type": "faq_item",
+          "settings": {
+            "question": "Can Shopify Plus handle high-volume traffic?",
+            "answer": "<p>Yes, Shopify Plus is built to handle high-volume transactions and site traffic. It’s the ideal solution for fast-growing businesses that need robust, scalable infrastructure.</p>",
+            "icon": "shopify://shop_images/yellow-arrow.svg"
+          }
+        },
+        "faq_item_aXPyx3": {
+          "type": "faq_item",
+          "settings": {
+            "question": "How does Shopify Plus help with B2B sales?",
+            "answer": "<p>Shopify Plus offers a B2B/Wholesale Channel that allows you to create separate pricing, accounts, and experiences for wholesale customers, all within the same store environment.</p>",
+            "icon": "shopify://shop_images/yellow-arrow.svg"
+          }
+        },
+        "faq_item_PQmCGi": {
+          "type": "faq_item",
+          "settings": {
+            "question": "How does Shopify Plus help automate tasks?",
+            "answer": "<p>With Shopify Flow, you can automate key processes like order management, inventory updates, and customer communication, allowing you to focus on growth rather than manual tasks.</p>",
+            "icon": "shopify://shop_images/yellow-arrow.svg"
+          }
+        },
+        "faq_item_AL6jWg": {
+          "type": "faq_item",
+          "settings": {
+            "question": "Can Shopify Plus integrate with my existing ERP system?",
+            "answer": "<p>Yes, Shopify Plus supports custom ERP integrations, including systems like NetSuite, Microsoft Dynamics, and others, allowing seamless data flow between your store and back-office operations.</p>",
+            "icon": "shopify://shop_images/yellow-arrow.svg"
+          }
+        }
+      },
+      "block_order": [
+        "faq_item_BC3LDG",
+        "faq_item_Vgm473",
+        "faq_item_WjF6GQ",
+        "faq_item_q7RrA6",
+        "faq_item_AHbHUF",
+        "faq_item_3n9QJT",
+        "faq_item_GakeXT",
+        "faq_item_aXPyx3",
+        "faq_item_PQmCGi",
+        "faq_item_AL6jWg"
+      ],
+      "settings": {
+        "heading": "Frequently Asked Questions",
+        "bg_color": "#efefef",
+        "max_width": 1200,
+        "desktop_padding_top": 80,
+        "desktop_padding_bottom": 80,
+        "mobile_padding_top": 60,
+        "mobile_padding_bottom": 60
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "text_heading_dEBy3q",
+    "service_form_fPcdTN",
+    "image_with_text_list_UbLeD4",
+    "animation_image_block_z8pJwH",
+    "effect_form_qaDNzY",
+    "faq_rkKRaA"
   ]
 }

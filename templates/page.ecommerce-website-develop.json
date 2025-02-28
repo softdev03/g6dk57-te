@@ -72,7 +72,9 @@
           "type": "form_item",
           "settings": {
             "field_type": "text",
-            "field_name": "Name",
+            "field_name": "First Name",
+            "placeholder": "First Name*",
+            "options": "",
             "pattern": ""
           }
         },
@@ -81,6 +83,8 @@
           "settings": {
             "field_type": "Email",
             "field_name": "Email",
+            "placeholder": "Email*",
+            "options": "",
             "pattern": ""
           }
         },
@@ -89,6 +93,8 @@
           "settings": {
             "field_type": "Phone",
             "field_name": "Phone",
+            "placeholder": "Phone Number",
+            "options": "",
             "pattern": "[0-9\\-]*"
           }
         },
@@ -97,6 +103,8 @@
           "settings": {
             "field_type": "textarea",
             "field_name": "Message",
+            "placeholder": "Message",
+            "options": "",
             "pattern": ""
           }
         }

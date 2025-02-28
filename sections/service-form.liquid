@@ -111,7 +111,7 @@
               aria-invalid="true"
               aria-describedby="ContactForm-email-error"
             {% endif %}
-            placeholder="{{ 'templates.contact.form.email' | t }}"
+            placeholder="{{ block.settings.placeholder }}"
           >
           <label class="field__label" for="ContactForm-email">
             {{- 'templates.contact.form.email' | t }}
@@ -137,27 +137,35 @@
             id="ContactForm-body"
             class="text-area field__input"
             name="contact[{{ block.settings.field_name }}]"
-            placeholder="{{ block.settings.field_name }}"
+            placeholder="{{ block.settings.placeholder }}"
           >
             {{- form.body -}}
           </textarea>
           <label class="form__label field__label" for="ContactForm-body">
-            {{- block.settings.field_name -}}
+            {{- block.settings.placeholder -}}
           </label>
         </div>
+      {%- elsif block.settings.field_type == 'select' -%}
+        <select name="contact[{{downcase_name}}]" id="ContactForm-{{ downcase_name |  remove: ' '  }}">
+          <option value="" selected disabled>{{ block.settings.placeholder }}</option>
+          {%- assign options = block.settings.options |  split: '|' -%}
+          {%- for option in options -%}
+            <option value="{{ option }}">{{ option }}</option>
+          {%- endfor -%}
+        </select>
       {%- else -%}
         <div class="field">
           <input
             type="{{ block.settings.field_type }}"
-            id="ContactForm-{{ downcase_name }}"
+            id="ContactForm-{{ downcase_name |  remove: ' '  }}"
             class="field__input"
             autocomplete="{{ block.settings.field_type }}"
             name="contact[{{ downcase_name }}]"
             pattern="{{ block.settings.pattern }}"
             value="{% if form[downcase_name] %}{{ form[downcase_name] }}{% elsif customer %}{{ customer[downcase_name] }}{% endif %}"
-            placeholder="{{ block.settings.field_name }}"
+            placeholder="{{ block.settings.placeholder }}"
           >
-          <label class="field__label" for="ContactForm-{{ downcase_name }}">{{ block.settings.field_name }}</label>
+          <label class="field__label" for="ContactForm-{{ downcase_name }}">{{ block.settings.placeholder }}</label>
         </div>
       {%- endif -%}
     {%- endfor -%}
@@ -337,6 +345,16 @@
           "type": "text",
           "id": "field_name",
           "label": "Field Name"
+        },
+        {
+          "type": "text",
+          "id": "placeholder",
+          "label": "PlaceHolder"
+        },
+        {
+          "type": "text",
+          "id": "options",
+          "label": "Options(only for select)"
         },
         {
           "type": "text",

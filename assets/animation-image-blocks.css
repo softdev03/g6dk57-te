@@ -1,3 +1,6 @@
+.shopify-section--animation-image-blocks {
+  overflow: hidden;
+}
 .shopify-section-aib-list .heading:not(.item-heading) {
   max-width: 1000px;
   text-align: center;
