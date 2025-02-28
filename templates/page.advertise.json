@@ -339,7 +339,7 @@
           "type": "faq_item",
           "settings": {
             "question": "What experience does An Agency have working with tradesmen?",
-            "answer": "As a team led by an ex-tradesman, we understand the unique challenges and needs of the trade industry. We've successfully partnered with numerous Australian tradies, delivering tailored website designs, effective SEO strategies, and targeted paid advertising campaigns that generate quality leads.",
+            "answer": "<p>As a team led by an ex-tradesman, we understand the unique challenges and needs of the trade industry. We've successfully partnered with numerous Australian tradies, delivering tailored website designs, effective SEO strategies, and targeted paid advertising campaigns that generate quality leads.</p>",
             "icon": "shopify://shop_images/yellow-arrow.svg"
           }
         },
@@ -347,7 +347,7 @@
           "type": "faq_item",
           "settings": {
             "question": "How long does it take to see results from SEO efforts?",
-            "answer": "SEO is a long-term investment. While some improvements can be seen within a few months, it typically takes 6 to 12 months to achieve significant results. Our team implements proven strategies to enhance your online visibility and attract the right clients over time.",
+            "answer": "<p>SEO is a long-term investment. While some improvements can be seen within a few months, it typically takes 6 to 12 months to achieve significant results. Our team implements proven strategies to enhance your online visibility and attract the right clients over time.</p>",
             "icon": "shopify://shop_images/yellow-arrow.svg"
           }
         },
@@ -355,7 +355,7 @@
           "type": "faq_item",
           "settings": {
             "question": "Will I have a dedicated point of contact at An Agency?",
-            "answer": "Absolutely. We assign a dedicated account manager to each client, ensuring clear communication and personalized service. Your account manager will keep you updated on progress, answer your questions, and ensure your marketing goals are met.",
+            "answer": "<p>Absolutely. We assign a dedicated account manager to each client, ensuring clear communication and personalized service. Your account manager will keep you updated on progress, answer your questions, and ensure your marketing goals are met.</p>",
             "icon": "shopify://shop_images/yellow-arrow.svg"
           }
         },
@@ -363,7 +363,7 @@
           "type": "faq_item",
           "settings": {
             "question": "Do you provide regular reports on campaign performance?",
-            "answer": "Yes, transparency is key to our approach. We provide detailed monthly reports outlining the performance of your website, SEO, and advertising campaigns. These reports include key metrics and insights to keep you informed and confident in our services.",
+            "answer": "<p>Yes, transparency is key to our approach. We provide detailed monthly reports outlining the performance of your website, SEO, and advertising campaigns. These reports include key metrics and insights to keep you informed and confident in our services.</p>",
             "icon": "shopify://shop_images/yellow-arrow.svg"
           }
         },
@@ -371,7 +371,7 @@
           "type": "faq_item",
           "settings": {
             "question": "Can you guarantee specific results with your services?",
-            "answer": "No agency can promise exact rankings or lead numbers—but here’s what we can guarantee: if you don’t get any leads, inquiries, or phone calls in the first 30 days, we’ll refund your marketing money, no questions asked. That’s how confident we are in what we do.We’re not just making bold claims—we have the track record to back it up. We have never worked with a tradie who didn’t get inquiries or phone calls within their first 30 days. In most cases, you’ll start seeing results within the first two weeks, and it only gets better from there as the algorithm learns and optimizes.We don’t just set up campaigns—we build systems that bring in real work.",
+            "answer": "<p>No agency can promise exact rankings or lead numbers—but here’s what we can guarantee: if you don’t get any leads, inquiries, or phone calls in the first 30 days, we’ll refund your marketing money, no questions asked. That’s how confident we are in what we do.We’re not just making bold claims—we have the track record to back it up. We have never worked with a tradie who didn’t get inquiries or phone calls within their first 30 days. In most cases, you’ll start seeing results within the first two weeks, and it only gets better from there as the algorithm learns and optimizes.We don’t just set up campaigns—we build systems that bring in real work.</p>",
             "icon": "shopify://shop_images/yellow-arrow.svg"
           }
         },
@@ -379,7 +379,7 @@
           "type": "faq_item",
           "settings": {
             "question": "What ongoing support does An Agency offer?",
-            "answer": "We offer continuous support to ensure your marketing efforts remain effective. This includes regular performance reviews, updates to your website and campaigns as needed, and ongoing consultation to adapt strategies in line with your business goals.Partner with An Agency and experience the difference that a confident, knowledgeable, and dedicated marketing team can make for your trade business.",
+            "answer": "<p>We offer continuous support to ensure your marketing efforts remain effective. This includes regular performance reviews, updates to your website and campaigns as needed, and ongoing consultation to adapt strategies in line with your business goals.Partner with An Agency and experience the difference that a confident, knowledgeable, and dedicated marketing team can make for your trade business.</p>",
             "icon": "shopify://shop_images/yellow-arrow.svg"
           }
         },
@@ -387,7 +387,7 @@
           "type": "faq_item",
           "settings": {
             "question": "How do you ensure the quality of leads generated?",
-            "answer": "Through precise targeting, compelling ad copy, and strategic SEO practices, we attract clients who are actively seeking your services. Our approach focuses on quality over quantity, ensuring the leads generated are a good fit for your business.",
+            "answer": "<p>Through precise targeting, compelling ad copy, and strategic SEO practices, we attract clients who are actively seeking your services. Our approach focuses on quality over quantity, ensuring the leads generated are a good fit for your business.</p>",
             "icon": "shopify://shop_images/yellow-arrow.svg"
           }
         },
@@ -395,7 +395,7 @@
           "type": "faq_item",
           "settings": {
             "question": "What types of paid advertising do you manage?",
-            "answer": "We manage various paid advertising channels, including Google Ads, social media advertising (Facebook, Instagram), and display advertising. Our team develops targeted campaigns to reach your ideal clients, maximize your return on investment, and keep your phone ringing with new business.",
+            "answer": "<p>We manage various paid advertising channels, including Google Ads, social media advertising (Facebook, Instagram), and display advertising. Our team develops targeted campaigns to reach your ideal clients, maximize your return on investment, and keep your phone ringing with new business.</p>",
             "icon": "shopify://shop_images/yellow-arrow.svg"
           }
         },
@@ -403,7 +403,7 @@
           "type": "faq_item",
           "settings": {
             "question": "How do you approach website design for tradesmen?",
-            "answer": "We create custom, responsive websites that reflect your brand and appeal to your target audience. Our designs are user-friendly, mobile-optimized, and built with SEO best practices to ensure your site ranks well and converts visitors into clients.",
+            "answer": "<p>We create custom, responsive websites that reflect your brand and appeal to your target audience. Our designs are user-friendly, mobile-optimized, and built with SEO best practices to ensure your site ranks well and converts visitors into clients.</p>",
             "icon": "shopify://shop_images/yellow-arrow.svg"
           }
         },
@@ -411,7 +411,7 @@
           "type": "faq_item",
           "settings": {
             "question": "What sets An Agency apart from other marketing agencies?",
-            "answer": "Our deep understanding of the trades industry, combined with our comprehensive service offerings—including website design, SEO, and paid advertising—sets us apart. Being Australian-owned and operated, we know the local market and are dedicated to helping fellow Aussie tradies succeed.",
+            "answer": "<p>Our deep understanding of the trades industry, combined with our comprehensive service offerings—including website design, SEO, and paid advertising—sets us apart. Being Australian-owned and operated, we know the local market and are dedicated to helping fellow Aussie tradies succeed.</p>",
             "icon": "shopify://shop_images/yellow-arrow.svg"
           }
         }
