@@ -1,0 +1,810 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "text-list",
+      "blocks": {
+        "text_wf66tG": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pricing that's simple, predictable, and built to scale.</p>",
+            "desktop_margin": 40,
+            "mobile_margin": 26,
+            "desktop_align": "center",
+            "mobile_align": "center",
+            "desktop_font_size": 70,
+            "mobile_font_size": 32,
+            "desktop_font_weight": "600",
+            "mobile_font_weight": "600",
+            "desktop_line_height": 1,
+            "mobile_line_height": 1.2,
+            "desktop_letter_spacing": -1,
+            "mobile_letter_spacing": -1,
+            "desktop_text_transform": "capitalize",
+            "mobile_text_transform": "capitalize",
+            "desktop_max_width": 1000,
+            "mobile_max_width": 1000
+          }
+        },
+        "text_aCpejk": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Scroll down to view our services and pricing packages for Shopify, WordPress and Webflow in AUD. </p>",
+            "desktop_margin": 40,
+            "mobile_margin": 26,
+            "desktop_align": "center",
+            "mobile_align": "center",
+            "desktop_font_size": 20,
+            "mobile_font_size": 18,
+            "desktop_font_weight": "600",
+            "mobile_font_weight": "600",
+            "desktop_line_height": 1.2,
+            "mobile_line_height": 1.2,
+            "desktop_letter_spacing": -1,
+            "mobile_letter_spacing": 1,
+            "desktop_text_transform": "none",
+            "mobile_text_transform": "default",
+            "desktop_max_width": 1000,
+            "mobile_max_width": 1000
+          }
+        },
+        "text_JLqTja": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Explore our fully built Shopify stores and marketing services tailored to help you succeed.</p>",
+            "desktop_margin": 0,
+            "mobile_margin": 0,
+            "desktop_align": "center",
+            "mobile_align": "center",
+            "desktop_font_size": 20,
+            "mobile_font_size": 18,
+            "desktop_font_weight": "400",
+            "mobile_font_weight": "400",
+            "desktop_line_height": 1.2,
+            "mobile_line_height": 1.2,
+            "desktop_letter_spacing": 0.6,
+            "mobile_letter_spacing": 0.7,
+            "desktop_text_transform": "none",
+            "mobile_text_transform": "default",
+            "desktop_max_width": 1000,
+            "mobile_max_width": 1000
+          }
+        }
+      },
+      "block_order": [
+        "text_wf66tG",
+        "text_aCpejk",
+        "text_JLqTja"
+      ],
+      "settings": {
+        "bg_color": "#aeddf9",
+        "desktop_padding_top": 50,
+        "desktop_padding_bottom": 50,
+        "mobile_padding_top": 30,
+        "mobile_padding_bottom": 30
+      }
+    },
+    "text_list_dimgRF": {
+      "type": "text-list",
+      "blocks": {
+        "text_iq9MiQ": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Shopify Packages</p>",
+            "desktop_margin": 10,
+            "mobile_margin": 6,
+            "desktop_align": "center",
+            "mobile_align": "center",
+            "desktop_font_size": 50,
+            "mobile_font_size": 32,
+            "desktop_font_weight": "600",
+            "mobile_font_weight": "600",
+            "desktop_line_height": 1.2,
+            "mobile_line_height": 1.2,
+            "desktop_letter_spacing": 1,
+            "mobile_letter_spacing": 1,
+            "desktop_text_transform": "none",
+            "mobile_text_transform": "default",
+            "desktop_max_width": 1000,
+            "mobile_max_width": 1000
+          }
+        },
+        "text_QCL79U": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Choose one of our packages crafted as a base to start with so you can easily launch within weeks, not months or years!</p>",
+            "desktop_margin": 0,
+            "mobile_margin": 0,
+            "desktop_align": "center",
+            "mobile_align": "center",
+            "desktop_font_size": 16,
+            "mobile_font_size": 14,
+            "desktop_font_weight": "400",
+            "mobile_font_weight": "400",
+            "desktop_line_height": 1.2,
+            "mobile_line_height": 1.2,
+            "desktop_letter_spacing": 1,
+            "mobile_letter_spacing": 1,
+            "desktop_text_transform": "none",
+            "mobile_text_transform": "default",
+            "desktop_max_width": 1400,
+            "mobile_max_width": 1400
+          }
+        }
+      },
+      "block_order": [
+        "text_iq9MiQ",
+        "text_QCL79U"
+      ],
+      "settings": {
+        "bg_color": "#ffffff",
+        "desktop_padding_top": 100,
+        "desktop_padding_bottom": 40,
+        "mobile_padding_top": 60,
+        "mobile_padding_bottom": 20
+      }
+    },
+    "service_pricing_wn6PH8": {
+      "type": "service-pricing",
+      "blocks": {
+        "service_item_hpMPjq": {
+          "type": "service_item",
+          "settings": {
+            "heading": "Launch",
+            "sub_heading": "Shopify Design & Development",
+            "badge_text": "",
+            "price_symbol": "$",
+            "price": "3500",
+            "payment_method": "Once Off Payment",
+            "pricing_items": "pricing-item-ihgwkbnh",
+            "button_text": "Get Started",
+            "button_link": "#",
+            "text": "Designed for entrepreneurs ready to start strong. Get your store online fast with essential Shopify setup and design.",
+            "header_color": "#ffffff",
+            "header_bg_color": "#000000",
+            "badge_bg_color": "#000000",
+            "badge_color": "#000000",
+            "button_text_color": "#ffffff",
+            "button_bg_color": "#000000",
+            "card_bg_color": "#f9fafa",
+            "card_text_color": "#000000"
+          }
+        },
+        "service_item_86m9EU": {
+          "type": "service_item",
+          "settings": {
+            "heading": "Scale",
+            "sub_heading": "Shopify Design & Development",
+            "badge_text": "Popular",
+            "price_symbol": "$",
+            "price": "7000",
+            "payment_method": "Once Off Payment",
+            "pricing_items": "pricing-item-mev568ht",
+            "button_text": "Get Started",
+            "button_link": "#",
+            "text": "For businesses eager to grow. Custom Shopify designs with added features to fuel your brand’s growth and expansion.",
+            "header_color": "#ffffff",
+            "header_bg_color": "#000000",
+            "badge_bg_color": "#d9e021",
+            "badge_color": "#ffffff",
+            "button_text_color": "#ffffff",
+            "button_bg_color": "#d9e021",
+            "card_bg_color": "#f9fafa",
+            "card_text_color": "#000000"
+          }
+        },
+        "service_item_p7QthF": {
+          "type": "service_item",
+          "settings": {
+            "heading": "Enterprise",
+            "sub_heading": "Shopify Design & Development",
+            "badge_text": "",
+            "price_symbol": "$",
+            "price": "20,000",
+            "payment_method": "Once Off Payment",
+            "pricing_items": "pricing-item-rrg8r8ft",
+            "button_text": "Get Started",
+            "button_link": "#",
+            "text": "Premium, high-end service for visionary entrepreneurs. Fully bespoke designs with advanced features to build your eCommerce empire.",
+            "header_color": "#ffffff",
+            "header_bg_color": "#000000",
+            "badge_bg_color": "#000000",
+            "badge_color": "#000000",
+            "button_text_color": "#ffffff",
+            "button_bg_color": "#000000",
+            "card_bg_color": "#f9fafa",
+            "card_text_color": "#000000"
+          }
+        }
+      },
+      "block_order": [
+        "service_item_hpMPjq",
+        "service_item_86m9EU",
+        "service_item_p7QthF"
+      ],
+      "settings": {
+        "border_width": 100,
+        "border_color": "#646464",
+        "desktop_border_margin": 50,
+        "mobile_border_margin": 32,
+        "desktop_padding_top": 0,
+        "desktop_padding_bottom": 60,
+        "mobile_padding_top": 0,
+        "mobile_padding_bottom": 32
+      }
+    },
+    "text_list_Hmc64m": {
+      "type": "text-list",
+      "blocks": {
+        "text_zRTAam": {
+          "type": "text",
+          "settings": {
+            "text": "<p>WordPress Packages</p>",
+            "desktop_margin": 10,
+            "mobile_margin": 6,
+            "desktop_align": "center",
+            "mobile_align": "center",
+            "desktop_font_size": 50,
+            "mobile_font_size": 32,
+            "desktop_font_weight": "600",
+            "mobile_font_weight": "600",
+            "desktop_line_height": 1.2,
+            "mobile_line_height": 1.2,
+            "desktop_letter_spacing": 1,
+            "mobile_letter_spacing": 1,
+            "desktop_text_transform": "none",
+            "mobile_text_transform": "default",
+            "desktop_max_width": 1400,
+            "mobile_max_width": 1000
+          }
+        },
+        "text_9Ry4Fq": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Fast turnaround and unique to your brand</strong></p>",
+            "desktop_margin": 10,
+            "mobile_margin": 6,
+            "desktop_align": "center",
+            "mobile_align": "center",
+            "desktop_font_size": 16,
+            "mobile_font_size": 14,
+            "desktop_font_weight": "400",
+            "mobile_font_weight": "400",
+            "desktop_line_height": 1.2,
+            "mobile_line_height": 1.2,
+            "desktop_letter_spacing": 1,
+            "mobile_letter_spacing": 1,
+            "desktop_text_transform": "none",
+            "mobile_text_transform": "default",
+            "desktop_max_width": 1400,
+            "mobile_max_width": 1000
+          }
+        },
+        "text_hziMtQ": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Choose one of our packages crafted as a base to start with, so you can easily launch within weeks, not months or years!</p>",
+            "desktop_margin": 0,
+            "mobile_margin": 0,
+            "desktop_align": "center",
+            "mobile_align": "center",
+            "desktop_font_size": 16,
+            "mobile_font_size": 14,
+            "desktop_font_weight": "400",
+            "mobile_font_weight": "400",
+            "desktop_line_height": 1.2,
+            "mobile_line_height": 1.2,
+            "desktop_letter_spacing": 1,
+            "mobile_letter_spacing": 1,
+            "desktop_text_transform": "none",
+            "mobile_text_transform": "default",
+            "desktop_max_width": 1400,
+            "mobile_max_width": 1000
+          }
+        }
+      },
+      "block_order": [
+        "text_zRTAam",
+        "text_9Ry4Fq",
+        "text_hziMtQ"
+      ],
+      "settings": {
+        "bg_color": "#ffffff",
+        "desktop_padding_top": 100,
+        "desktop_padding_bottom": 40,
+        "mobile_padding_top": 60,
+        "mobile_padding_bottom": 26
+      }
+    },
+    "service_pricing_KYVkBg": {
+      "type": "service-pricing",
+      "blocks": {
+        "service_item_LnHrUU": {
+          "type": "service_item",
+          "settings": {
+            "heading": "Essentials Package",
+            "sub_heading": "WordPress Design & Development​",
+            "badge_text": "",
+            "price_symbol": "$",
+            "price": "3,000",
+            "payment_method": "(One-Off Payment)",
+            "pricing_items": "pricing-item-bb9hkide",
+            "button_text": "Get Started",
+            "button_link": "#",
+            "text": "Designed for businesses needing a simple, clean website. Get your site online fast with essential WordPress setup and design.",
+            "header_color": "#ffffff",
+            "header_bg_color": "#000000",
+            "badge_bg_color": "#000000",
+            "badge_color": "#000000",
+            "button_text_color": "#ffffff",
+            "button_bg_color": "#000000",
+            "card_bg_color": "#f9fafa",
+            "card_text_color": "#000000"
+          }
+        },
+        "service_item_WPYmBP": {
+          "type": "service_item",
+          "settings": {
+            "heading": "Pro Package",
+            "sub_heading": "WordPress Design & Development​",
+            "badge_text": "Popular",
+            "price_symbol": "$",
+            "price": "5,500",
+            "payment_method": "(Once Off Payment)",
+            "pricing_items": "pricing-item-bcggkyqk",
+            "button_text": "Get Started",
+            "button_link": "#",
+            "text": "Built for businesses ready to grow. Achieve a professional, responsive website with advanced SEO and content that drives results.",
+            "header_color": "#ffffff",
+            "header_bg_color": "#000000",
+            "badge_bg_color": "#d9e021",
+            "badge_color": "#ffffff",
+            "button_text_color": "#ffffff",
+            "button_bg_color": "#d9e021",
+            "card_bg_color": "#f9fafa",
+            "card_text_color": "#000000"
+          }
+        },
+        "service_item_Q8Ag3R": {
+          "type": "service_item",
+          "settings": {
+            "heading": "Business Plus Package",
+            "sub_heading": "WordPress Design & Development​",
+            "badge_text": "",
+            "price_symbol": "$",
+            "price": "8,000",
+            "payment_method": "(One-Off Payment)",
+            "pricing_items": "pricing-item-iyknhs2s",
+            "button_text": "Get Started",
+            "button_link": "#",
+            "text": "Tailored for larger businesses with complex needs. A full WordPress solution designed to handle high traffic, eCommerce, and long-term growth.",
+            "header_color": "#ffffff",
+            "header_bg_color": "#000000",
+            "badge_bg_color": "#000000",
+            "badge_color": "#000000",
+            "button_text_color": "#ffffff",
+            "button_bg_color": "#000000",
+            "card_bg_color": "#f9fafa",
+            "card_text_color": "#000000"
+          }
+        }
+      },
+      "block_order": [
+        "service_item_LnHrUU",
+        "service_item_WPYmBP",
+        "service_item_Q8Ag3R"
+      ],
+      "settings": {
+        "border_width": 100,
+        "border_color": "#646464",
+        "desktop_border_margin": 50,
+        "mobile_border_margin": 32,
+        "desktop_padding_top": 0,
+        "desktop_padding_bottom": 60,
+        "mobile_padding_top": 0,
+        "mobile_padding_bottom": 32
+      }
+    },
+    "text_list_VAGTRy": {
+      "type": "text-list",
+      "blocks": {
+        "text_wrcLeK": {
+          "type": "text",
+          "settings": {
+            "text": "<p>WebFlow Packages</p>",
+            "desktop_margin": 10,
+            "mobile_margin": 6,
+            "desktop_align": "center",
+            "mobile_align": "center",
+            "desktop_font_size": 50,
+            "mobile_font_size": 32,
+            "desktop_font_weight": "600",
+            "mobile_font_weight": "600",
+            "desktop_line_height": 1.2,
+            "mobile_line_height": 1.2,
+            "desktop_letter_spacing": 1,
+            "mobile_letter_spacing": 1,
+            "desktop_text_transform": "none",
+            "mobile_text_transform": "default",
+            "desktop_max_width": 1400,
+            "mobile_max_width": 1000
+          }
+        },
+        "text_GYmHzr": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Tailored designs and seamless functionality</strong></p>",
+            "desktop_margin": 10,
+            "mobile_margin": 6,
+            "desktop_align": "center",
+            "mobile_align": "center",
+            "desktop_font_size": 16,
+            "mobile_font_size": 14,
+            "desktop_font_weight": "400",
+            "mobile_font_weight": "400",
+            "desktop_line_height": 1.2,
+            "mobile_line_height": 1.2,
+            "desktop_letter_spacing": 1,
+            "mobile_letter_spacing": 1,
+            "desktop_text_transform": "none",
+            "mobile_text_transform": "default",
+            "desktop_max_width": 1400,
+            "mobile_max_width": 1000
+          }
+        },
+        "text_HahHQJ": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Choose one of our packages crafted as a base to start with, so you can easily launch within weeks, not months or years!</p>",
+            "desktop_margin": 0,
+            "mobile_margin": 0,
+            "desktop_align": "center",
+            "mobile_align": "center",
+            "desktop_font_size": 16,
+            "mobile_font_size": 14,
+            "desktop_font_weight": "400",
+            "mobile_font_weight": "400",
+            "desktop_line_height": 1.2,
+            "mobile_line_height": 1.2,
+            "desktop_letter_spacing": 1,
+            "mobile_letter_spacing": 1,
+            "desktop_text_transform": "none",
+            "mobile_text_transform": "default",
+            "desktop_max_width": 1400,
+            "mobile_max_width": 1000
+          }
+        }
+      },
+      "block_order": [
+        "text_wrcLeK",
+        "text_GYmHzr",
+        "text_HahHQJ"
+      ],
+      "settings": {
+        "bg_color": "#ffffff",
+        "desktop_padding_top": 100,
+        "desktop_padding_bottom": 40,
+        "mobile_padding_top": 60,
+        "mobile_padding_bottom": 18
+      }
+    },
+    "service_pricing_aJKCf4": {
+      "type": "service-pricing",
+      "blocks": {
+        "service_item_kFaQd6": {
+          "type": "service_item",
+          "settings": {
+            "heading": "Startup Package",
+            "sub_heading": "WebFlow Design & Development​",
+            "badge_text": "",
+            "price_symbol": "$",
+            "price": "2,500",
+            "payment_method": "(One-Off Payment)",
+            "pricing_items": "pricing-item-amivtoxh",
+            "button_text": "Get Started",
+            "button_link": "#",
+            "text": "Built for small businesses and startups needing a polished Webflow site that’s quick to launch and easy to manage.",
+            "header_color": "#ffffff",
+            "header_bg_color": "#000000",
+            "badge_bg_color": "#000000",
+            "badge_color": "#000000",
+            "button_text_color": "#ffffff",
+            "button_bg_color": "#000000",
+            "card_bg_color": "#f9fafa",
+            "card_text_color": "#000000"
+          }
+        },
+        "service_item_w3e9Pf": {
+          "type": "service_item",
+          "settings": {
+            "heading": "Growth Package",
+            "sub_heading": "WebFlow Design & Development​",
+            "badge_text": "Popular",
+            "price_symbol": "$",
+            "price": "4,500",
+            "payment_method": "(Once Off Payment)",
+            "pricing_items": "pricing-item-srz8keeh",
+            "button_text": "Get Started",
+            "button_link": "#",
+            "text": "Designed for growing businesses, this package delivers a fully customised Webflow website with advanced features to support expansion.",
+            "header_color": "#ffffff",
+            "header_bg_color": "#000000",
+            "badge_bg_color": "#d9e021",
+            "badge_color": "#ffffff",
+            "button_text_color": "#ffffff",
+            "button_bg_color": "#d9e021",
+            "card_bg_color": "#f9fafa",
+            "card_text_color": "#000000"
+          }
+        },
+        "service_item_BWJMqQ": {
+          "type": "service_item",
+          "settings": {
+            "heading": "Enterprise Package",
+            "sub_heading": "WebFlow Design & Development​",
+            "badge_text": "",
+            "price_symbol": "$",
+            "price": "7,000",
+            "payment_method": "(One-Off Payment)",
+            "pricing_items": "pricing-item-w4usjnot",
+            "button_text": "Get Started",
+            "button_link": "#",
+            "text": "Tailored for large companies or agencies that need complex integrations and a fully custom Webflow solution with ongoing support.",
+            "header_color": "#ffffff",
+            "header_bg_color": "#000000",
+            "badge_bg_color": "#000000",
+            "badge_color": "#000000",
+            "button_text_color": "#ffffff",
+            "button_bg_color": "#000000",
+            "card_bg_color": "#f9fafa",
+            "card_text_color": "#000000"
+          }
+        }
+      },
+      "block_order": [
+        "service_item_kFaQd6",
+        "service_item_w3e9Pf",
+        "service_item_BWJMqQ"
+      ],
+      "settings": {
+        "border_width": 80,
+        "border_color": "#646464",
+        "desktop_border_margin": 50,
+        "mobile_border_margin": 32,
+        "desktop_padding_top": 0,
+        "desktop_padding_bottom": 60,
+        "mobile_padding_top": 0,
+        "mobile_padding_bottom": 32
+      }
+    },
+    "text_list_3FHC7j": {
+      "type": "text-list",
+      "blocks": {
+        "text_Hq6eX4": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Marketing Packages</p>",
+            "desktop_margin": 10,
+            "mobile_margin": 6,
+            "desktop_align": "center",
+            "mobile_align": "center",
+            "desktop_font_size": 50,
+            "mobile_font_size": 32,
+            "desktop_font_weight": "600",
+            "mobile_font_weight": "600",
+            "desktop_line_height": 1.2,
+            "mobile_line_height": 1.2,
+            "desktop_letter_spacing": 1,
+            "mobile_letter_spacing": 1,
+            "desktop_text_transform": "none",
+            "mobile_text_transform": "default",
+            "desktop_max_width": 1400,
+            "mobile_max_width": 1000
+          }
+        },
+        "text_zRjxeB": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Get expert-managed ad campaigns and tailored strategies to grow your business and reach the right audience.</p>",
+            "desktop_margin": 0,
+            "mobile_margin": 0,
+            "desktop_align": "center",
+            "mobile_align": "center",
+            "desktop_font_size": 16,
+            "mobile_font_size": 14,
+            "desktop_font_weight": "400",
+            "mobile_font_weight": "400",
+            "desktop_line_height": 1.2,
+            "mobile_line_height": 1.2,
+            "desktop_letter_spacing": 1,
+            "mobile_letter_spacing": 1,
+            "desktop_text_transform": "none",
+            "mobile_text_transform": "default",
+            "desktop_max_width": 1400,
+            "mobile_max_width": 1000
+          }
+        }
+      },
+      "block_order": [
+        "text_Hq6eX4",
+        "text_zRjxeB"
+      ],
+      "settings": {
+        "bg_color": "#ffffff",
+        "desktop_padding_top": 50,
+        "desktop_padding_bottom": 40,
+        "mobile_padding_top": 30,
+        "mobile_padding_bottom": 20
+      }
+    },
+    "service_pricing_Fb3LWf": {
+      "type": "service-pricing",
+      "blocks": {
+        "service_item_YBpMxb": {
+          "type": "service_item",
+          "settings": {
+            "heading": "Google Ads",
+            "sub_heading": "",
+            "badge_text": "",
+            "price_symbol": "$",
+            "price": "1,200",
+            "payment_method": "Monthly",
+            "pricing_items": "pricing-item-otf2td7m",
+            "button_text": "Get Started",
+            "button_link": "#",
+            "text": "This package is perfect for eCommerce brands looking to increase visibility and sales through precise targeting and regular optimisation. Ideal for those ready to scale their marketing efforts with expert management and measurable results.",
+            "header_color": "#ffffff",
+            "header_bg_color": "#000000",
+            "badge_bg_color": "#000000",
+            "badge_color": "#000000",
+            "button_text_color": "#ffffff",
+            "button_bg_color": "#000000",
+            "card_bg_color": "#f9fafa",
+            "card_text_color": "#000000"
+          }
+        },
+        "service_item_DKVaUb": {
+          "type": "service_item",
+          "settings": {
+            "heading": "E-Commerce Coaching",
+            "sub_heading": "",
+            "badge_text": "",
+            "price_symbol": "$",
+            "price": "1500",
+            "payment_method": "Monthly",
+            "pricing_items": "pricing-item-qfvfjxls",
+            "button_text": "Get Started",
+            "button_link": "#",
+            "text": "Designed for entrepreneurs who want hands-on guidance to grow their business. Get tailored coaching with actionable strategies, product launch support, and regular feedback to accelerate your growth journey.",
+            "header_color": "#ffffff",
+            "header_bg_color": "#000000",
+            "badge_bg_color": "#000000",
+            "badge_color": "#000000",
+            "button_text_color": "#ffffff",
+            "button_bg_color": "#d9e021",
+            "card_bg_color": "#f9fafa",
+            "card_text_color": "#000000"
+          }
+        },
+        "service_item_zPrq8k": {
+          "type": "service_item",
+          "settings": {
+            "heading": "Facebook Ads",
+            "sub_heading": "",
+            "badge_text": "",
+            "price_symbol": "$",
+            "price": "1100",
+            "payment_method": "Monthly",
+            "pricing_items": "pricing-item-oumkdjuw",
+            "button_text": "Get Started",
+            "button_link": "#",
+            "text": "Tailored for brands looking to harness the power of Facebook’s vast audience. This package delivers high-performing ad campaigns with a focus on engagement, conversions, and optimising ad spend to maximise ROI.",
+            "header_color": "#ffffff",
+            "header_bg_color": "#000000",
+            "badge_bg_color": "#000000",
+            "badge_color": "#000000",
+            "button_text_color": "#ffffff",
+            "button_bg_color": "#000000",
+            "card_bg_color": "#f9fafa",
+            "card_text_color": "#000000"
+          }
+        }
+      },
+      "block_order": [
+        "service_item_YBpMxb",
+        "service_item_DKVaUb",
+        "service_item_zPrq8k"
+      ],
+      "settings": {
+        "border_width": 0,
+        "border_color": "#000000",
+        "desktop_border_margin": 0,
+        "mobile_border_margin": 0,
+        "desktop_padding_top": 0,
+        "desktop_padding_bottom": 70,
+        "mobile_padding_top": 0,
+        "mobile_padding_bottom": 40
+      }
+    },
+    "text_list_MXX9HP": {
+      "type": "text-list",
+      "blocks": {
+        "text_KNG6mb": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Terms & Disclaimers:</strong></p>",
+            "desktop_margin": 30,
+            "mobile_margin": 18,
+            "desktop_align": "center",
+            "mobile_align": "center",
+            "desktop_font_size": 40,
+            "mobile_font_size": 28,
+            "desktop_font_weight": "400",
+            "mobile_font_weight": "400",
+            "desktop_line_height": 1.2,
+            "mobile_line_height": 1.2,
+            "desktop_letter_spacing": 1,
+            "mobile_letter_spacing": 1,
+            "desktop_text_transform": "none",
+            "mobile_text_transform": "default",
+            "desktop_max_width": 1440,
+            "mobile_max_width": 1000
+          }
+        },
+        "text_d4X3dk": {
+          "type": "text",
+          "settings": {
+            "text": "<ul><li><em>Our marketing contracts for Google Ads and Facebook Ads require a </em><em><strong>minimum commitment of 6 months</strong></em><em> to guarantee optimal results.</em></li><li><em>Google Ads and Facebook Ads management includes a </em><em><strong>one-time setup fee of $1,100</strong></em><em>.</em></li><li><em>All Shopify store builds are tailored to your specific business needs and include comprehensive support. Additional customisations beyond the initial scope may incur extra charges, subject to client approval.</em></li></ul>",
+            "desktop_margin": 0,
+            "mobile_margin": 0,
+            "desktop_align": "left",
+            "mobile_align": "left",
+            "desktop_font_size": 18,
+            "mobile_font_size": 15,
+            "desktop_font_weight": "400",
+            "mobile_font_weight": "400",
+            "desktop_line_height": 1.2,
+            "mobile_line_height": 1.2,
+            "desktop_letter_spacing": 1,
+            "mobile_letter_spacing": 1,
+            "desktop_text_transform": "none",
+            "mobile_text_transform": "default",
+            "desktop_max_width": 1440,
+            "mobile_max_width": 1000
+          }
+        }
+      },
+      "block_order": [
+        "text_KNG6mb",
+        "text_d4X3dk"
+      ],
+      "settings": {
+        "bg_color": "#ffffff",
+        "desktop_padding_top": 80,
+        "desktop_padding_bottom": 80,
+        "mobile_padding_top": 50,
+        "mobile_padding_bottom": 50
+      }
+    }
+  },
+  "order": [
+    "main",
+    "text_list_dimgRF",
+    "service_pricing_wn6PH8",
+    "text_list_Hmc64m",
+    "service_pricing_KYVkBg",
+    "text_list_VAGTRy",
+    "service_pricing_aJKCf4",
+    "text_list_3FHC7j",
+    "service_pricing_Fb3LWf",
+    "text_list_MXX9HP"
+  ]
+}

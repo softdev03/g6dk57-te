@@ -25,18 +25,70 @@
       }
     },
     "text_heading_cKjFAQ": {
-      "type": "text_heading",
+      "type": "text-list",
+      "blocks": {
+        "text_t6YXwX": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Let’s get straight to it—</p>",
+            "desktop_margin": 0,
+            "mobile_margin": 0,
+            "desktop_align": "center",
+            "mobile_align": "center",
+            "desktop_font_size": 45,
+            "mobile_font_size": 24,
+            "desktop_font_weight": "600",
+            "mobile_font_weight": "600",
+            "line_height": 1.2,
+            "letter_spacing": -1,
+            "desktop_text_transform": "none",
+            "mobile_text_transform": "default"
+          }
+        },
+        "text_E9P3jT": {
+          "type": "text",
+          "settings": {
+            "text": "<p>a digital marketing agency’s job is to make you money.</p>",
+            "desktop_margin": 36,
+            "mobile_margin": 26,
+            "desktop_align": "center",
+            "mobile_align": "center",
+            "desktop_font_size": 45,
+            "mobile_font_size": 24,
+            "desktop_font_weight": "600",
+            "mobile_font_weight": "600",
+            "line_height": 1.2,
+            "letter_spacing": -1,
+            "desktop_text_transform": "capitalize",
+            "mobile_text_transform": "capitalize"
+          }
+        },
+        "text_8jqfAf": {
+          "type": "text",
+          "settings": {
+            "text": "<p>At <strong>An Agency</strong>, we mean business. Every business needs a reliable stream of sales, and that’s exactly what we help you build. We’ve partnered with businesses of all sizes across Australia, helping them modernise their digital strategies and succeed online. We create conversion campaigns that actually work. We’re a boutique digital marketing agency, hungry for success. We think big but stay close to you, offering tailored, hands-on marketing solutions. If you’re ready for real growth, let’s get to work and start driving results!</p>",
+            "desktop_margin": 0,
+            "mobile_margin": 0,
+            "desktop_align": "center",
+            "mobile_align": "center",
+            "desktop_font_size": 20,
+            "mobile_font_size": 18,
+            "desktop_font_weight": "400",
+            "mobile_font_weight": "400",
+            "line_height": 1.2,
+            "letter_spacing": 1,
+            "desktop_text_transform": "none",
+            "mobile_text_transform": "default"
+          }
+        }
+      },
+      "block_order": [
+        "text_t6YXwX",
+        "text_E9P3jT",
+        "text_8jqfAf"
+      ],
       "settings": {
-        "heading1": "Let’s cut to the chase—",
-        "heading2": "We make your business money.",
-        "text": "<p>At An Agency, we get straight to the point—your business needs sales, and we make it happen. We've helped businesses across Australia modernise their digital strategies and drive real results. As a boutique agency, we think big but stay hands-on, delivering tailored marketing that works. Ready to grow? Let’s talk.</p>",
-        "heading1_align": "center",
-        "heading2_align": "center",
-        "text_align": "center",
-        "heading1_desktop_margin": 10,
-        "heading1_mobile_margin": 6,
-        "heading2_desktop_margin": 40,
-        "heading2_mobile_margin": 30,
+        "bg_color": "#FFF",
         "desktop_padding_top": 80,
         "desktop_padding_bottom": 60,
         "mobile_padding_top": 50,

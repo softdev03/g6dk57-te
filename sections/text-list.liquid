@@ -1,0 +1,402 @@
+{%- style -%}
+  #shopify-section-{{ section.id }} {
+    padding-top: {{ section.settings.desktop_padding_top }}px;
+    padding-bottom: {{ section.settings.desktop_padding_bottom }}px;
+    background-color: {{ section.settings.bg_color }};
+  }
+  @media screen and (max-width: 749px) {
+    #shopify-section-{{ section.id }} {
+      padding-top: {{ section.settings.mobile_padding_top }}px;
+      padding-bottom: {{ section.settings.mobile_padding_bottom }}px;
+    }
+  }
+{%- endstyle -%}
+<div class="shopify-section-text-list page-width">
+  {%- if section.blocks.size > 0 -%}
+    {%- for block in section.blocks -%}
+      <div class="text-item text" id="text-{{ block.id }}">{{ block.settings.text }}</div>
+      {%- style -%}
+        @media screen and (min-width: 750px) {
+          #text-{{ block.id }} {
+            font-size: {{ block.settings.desktop_font_size }}px;
+            font-weight: {{ block.settings.desktop_font_weight }};
+            text-align: {{ block.settings.desktop_align }};
+            text-transform: {{ block.settings.desktop_text_transform }};
+            margin-bottom: {{ block.settings.desktop_margin }}px;
+            max-width: {{ block.settings.desktop_max_width }}px;
+            line-height: {{ block.settings.desktop_line_height }};
+          letter-spacing: {{ block.settings.mobile_letter_spacing }}px;
+            {%- case block.settings.desktop_align -%}
+              {%- when 'center' -%}
+                margin-left: auto;
+                margin-right: auto;
+              {%- when 'auto' -%}
+                margin-left: auto;
+              {%- else -%}
+                margin-right: auto;
+            {%- endcase -%}
+          }
+        }
+        @media screen and (max-width: 749px) {
+          #text-{{ block.id }} {
+            font-size: {{ block.settings.mobile_font_size }}px;
+            font-weight: {{ block.settings.mobile_font_weight }};
+            text-align: {{ block.settings.mobile_align }};
+            text-transform: {{ block.settings.mobile_text_transform }};
+            margin-bottom: {{ block.settings.mobile_margin }}px;
+            max-width: {{ block.settings.mobile_max_width }}px;
+            line-height: {{ block.settings.mobile_line_height }};
+          letter-spacing: {{ block.settings.mobile_letter_spacing }}px;
+            {%- case block.settings.mobile_align -%}
+              {%- when 'center' -%}
+                margin-left: auto;
+                margin-right: auto;
+              {%- when 'auto' -%}
+                margin-left: auto;
+              {%- else -%}
+                margin-right: auto;
+            {%- endcase -%}
+          }
+        }
+      {%- endstyle -%}
+    {%- endfor -%}
+  {%- endif -%}
+</div>
+{% schema %}
+{
+  "name": "Text List",
+  "tag": "section",
+  "class": "shopify-section--text-list",
+  "settings": [
+    {
+      "type": "color",
+      "id": "bg_color",
+      "label": "Background Color",
+      "default": "#FFF"
+    },
+    {
+      "type": "header",
+      "content": "Padding Settings"
+    },
+    {
+      "type": "range",
+      "id": "desktop_padding_top",
+      "min": 0,
+      "max": 200,
+      "step": 2,
+      "unit": "px",
+      "label": "Desktop Padding Top",
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "desktop_padding_bottom",
+      "min": 0,
+      "max": 200,
+      "step": 2,
+      "unit": "px",
+      "label": "Desktop Padding Bottom",
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "mobile_padding_top",
+      "min": 0,
+      "max": 200,
+      "step": 2,
+      "unit": "px",
+      "label": "Mobile Padding Top",
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "mobile_padding_bottom",
+      "min": 0,
+      "max": 200,
+      "step": 2,
+      "unit": "px",
+      "label": "Mobile Padding Bottom",
+      "default": 0
+    }
+  ],
+  "blocks": [
+    {
+      "type": "text",
+      "name": "Text",
+      "settings": [
+        {
+          "type": "richtext",
+          "id": "text",
+          "label": "Text"
+        },
+        {
+          "type": "range",
+          "id": "desktop_margin",
+          "min": 0,
+          "max": 200,
+          "step": 2,
+          "unit": "px",
+          "label": "Desktop Margin",
+          "default": 0
+        },
+        {
+          "type": "range",
+          "id": "mobile_margin",
+          "min": 0,
+          "max": 200,
+          "step": 2,
+          "unit": "px",
+          "label": "Mobile Margin",
+          "default": 0
+        },
+        {
+          "type": "select",
+          "id": "desktop_align",
+          "label": "Desktop Align",
+          "options": [
+            {
+              "value": "left",
+              "label": "Left"
+            },
+            {
+              "value": "center",
+              "label": "Center"
+            },
+            {
+              "value": "right",
+              "label": "Right"
+            }
+          ],
+          "default": "left"
+        },
+        {
+          "type": "select",
+          "id": "mobile_align",
+          "label": "Mobile Align",
+          "options": [
+            {
+              "value": "left",
+              "label": "Left"
+            },
+            {
+              "value": "center",
+              "label": "Center"
+            },
+            {
+              "value": "right",
+              "label": "Right"
+            }
+          ],
+          "default": "left"
+        },
+        {
+          "type": "range",
+          "id": "desktop_font_size",
+          "min": 10,
+          "max": 110,
+          "step": 1,
+          "unit": "px",
+          "label": "Desktop Font Size",
+          "default": 40
+        },
+        {
+          "type": "range",
+          "id": "mobile_font_size",
+          "min": 10,
+          "max": 110,
+          "step": 1,
+          "unit": "px",
+          "label": "Mobile Font Size",
+          "default": 28
+        },
+        {
+          "type": "select",
+          "id": "desktop_font_weight",
+          "label": "Desktop Font Weight",
+          "options": [
+            {
+              "value": "100",
+              "label": "100"
+            },
+            {
+              "value": "200",
+              "label": "200"
+            },
+            {
+              "value": "300",
+              "label": "300"
+            },
+            {
+              "value": "400",
+              "label": "400"
+            },
+            {
+              "value": "500",
+              "label": "500"
+            },
+            {
+              "value": "600",
+              "label": "600"
+            },
+            {
+              "value": "700",
+              "label": "700"
+            },
+            {
+              "value": "800",
+              "label": "800"
+            }
+          ],
+          "default": "400"
+        },
+        {
+          "type": "select",
+          "id": "mobile_font_weight",
+          "label": "Mobile Font Weight",
+          "options": [
+            {
+              "value": "100",
+              "label": "100"
+            },
+            {
+              "value": "200",
+              "label": "200"
+            },
+            {
+              "value": "300",
+              "label": "300"
+            },
+            {
+              "value": "400",
+              "label": "400"
+            },
+            {
+              "value": "500",
+              "label": "500"
+            },
+            {
+              "value": "600",
+              "label": "600"
+            },
+            {
+              "value": "700",
+              "label": "700"
+            },
+            {
+              "value": "800",
+              "label": "800"
+            }
+          ],
+          "default": "400"
+        },
+        {
+          "type": "range",
+          "id": "desktop_line_height",
+          "min": 0,
+          "max": 3,
+          "step": 0.1,
+          "unit": "*",
+          "label": "Desktop Line Height",
+          "default": 1.2
+        },
+        {
+          "type": "range",
+          "id": "mobile_line_height",
+          "min": 0,
+          "max": 3,
+          "step": 0.1,
+          "unit": "*",
+          "label": "Mobile Line Height",
+          "default": 1.2
+        },
+        {
+          "type": "range",
+          "id": "desktop_letter_spacing",
+          "min": -5,
+          "max": 5,
+          "step": 0.1,
+          "unit": "px",
+          "label": "Desktop Letter Spacing",
+          "default": 1
+        },
+        {
+          "type": "range",
+          "id": "mobile_letter_spacing",
+          "min": -5,
+          "max": 5,
+          "step": 0.1,
+          "unit": "px",
+          "label": "Mobile Letter Spacing",
+          "default": 1
+        },
+        {
+          "type": "select",
+          "id": "desktop_text_transform",
+          "label": "Desktop Text Transform",
+          "options": [
+            {
+              "label": "Default",
+              "value": "none"
+            },
+            {
+              "value": "lowercase",
+              "label": "Lowercase"
+            },
+            {
+              "value": "capitalize",
+              "label": "Capitalize"
+            },
+            {
+              "value": "uppercase",
+              "label": "Uppercase"
+            }
+          ],
+          "default": "none"
+        },
+        {
+          "type": "select",
+          "id": "mobile_text_transform",
+          "label": "Mobile Text Transform",
+          "options": [
+            {
+              "label": "Default",
+              "value": "default"
+            },
+            {
+              "value": "lower",
+              "label": "Lowercase"
+            },
+            {
+              "value": "capitalize",
+              "label": "Capitalize"
+            },
+            {
+              "value": "upper",
+              "label": "Uppercase"
+            }
+          ],
+          "default": "default"
+        },
+        {
+          "type": "number",
+          "id": "desktop_max_width",
+          "label": "Desktop Max Width",
+          "default": 1000
+        },
+        {
+          "type": "number",
+          "id": "mobile_max_width",
+          "label": "Mobile Max Width",
+          "default": 1000
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Text List",
+      "settings": {}
+    }
+  ]
+}
+{% endschema %}
