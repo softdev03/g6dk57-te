@@ -26,7 +26,9 @@
           <div class="accordion-heading">
             {{ block.settings.question }}
             {%- if block.settings.icon != blank -%}
-              <img src="{{ block.settings.icon |  img_url: '20x' }}" alt="" width="18px" height="auto">
+              <div class="icon">
+                <img src="{{ block.settings.icon |  img_url: '20x' }}" alt="" width="18px" height="auto">
+              </div>
             {%- endif -%}
           </div>
           <div class="m-0 accordion-content text">{{ block.settings.answer }}</div>

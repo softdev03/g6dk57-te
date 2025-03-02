@@ -32,10 +32,14 @@
             "mobile_font_size": 32,
             "desktop_font_weight": "600",
             "mobile_font_weight": "600",
-            "line_height": 1.2,
-            "letter_spacing": -1,
+            "desktop_line_height": 1.2,
+            "mobile_line_height": 1.2,
+            "desktop_letter_spacing": 1,
+            "mobile_letter_spacing": 1,
             "desktop_text_transform": "capitalize",
-            "mobile_text_transform": "capitalize"
+            "mobile_text_transform": "capitalize",
+            "desktop_max_width": 1000,
+            "mobile_max_width": 1000
           }
         },
         "text_VUJzcB": {
@@ -50,10 +54,14 @@
             "mobile_font_size": 18,
             "desktop_font_weight": "400",
             "mobile_font_weight": "400",
-            "line_height": 1.2,
-            "letter_spacing": 1,
+            "desktop_line_height": 1.2,
+            "mobile_line_height": 1.2,
+            "desktop_letter_spacing": 1,
+            "mobile_letter_spacing": 1,
             "desktop_text_transform": "none",
-            "mobile_text_transform": "default"
+            "mobile_text_transform": "default",
+            "desktop_max_width": 750,
+            "mobile_max_width": 1000
           }
         }
       },
@@ -62,7 +70,7 @@
         "text_VUJzcB"
       ],
       "settings": {
-        "bg_color": "#ffffff",
+        "bg_color": "#aeddf9",
         "desktop_padding_top": 80,
         "desktop_padding_bottom": 80,
         "mobile_padding_top": 60,
@@ -452,6 +460,76 @@
         "mobile_padding_top": 80,
         "mobile_padding_bottom": 70
       }
+    },
+    "faq_kyhaRq": {
+      "type": "faq",
+      "blocks": {
+        "faq_item_ibnEnd": {
+          "type": "faq_item",
+          "settings": {
+            "question": "Why should I move to using Shopify?",
+            "answer": "<p>All commerce functions you (individuals or different-sized companies) need to sell products online are incorporated into one Shopify platform. Moving to Shopify will allow you to self-manage your online store, which is a huge bonus. Shopify is affordable and its checkout function is now globally recognised and user-friendly, with most people accustomed to the buying process. Shopify also offers a large range of apps, will help you grow your customer base, drive sales and orders, and manage business.</p>",
+            "icon": "shopify://shop_images/yellow-arrow.svg"
+          }
+        },
+        "faq_item_L8txQN": {
+          "type": "faq_item",
+          "settings": {
+            "question": "How much does it cost to build a Shopify online store?",
+            "answer": "<p>At An Agency the cost of a build depends on many requirements, complexity of functionality, third party connectivity, number of products, pages and so forth. It’s best to give us a call on 0499226600 to discuss and we will personalise your quote.</p>",
+            "icon": "shopify://shop_images/yellow-arrow.svg"
+          }
+        },
+        "faq_item_nEehgi": {
+          "type": "faq_item",
+          "settings": {
+            "question": "What is the difference between selecting a theme and a Plus build for your online store?",
+            "answer": "<p>A Plus build is one that is tailored and unique to each brand. Themes are restricted by the selection that is offered on the platform you are using. For example, both Shopify and Shopify Plus offer approximately 60 themes.</p>",
+            "icon": "shopify://shop_images/yellow-arrow.svg"
+          }
+        },
+        "faq_item_zzzUGF": {
+          "type": "faq_item",
+          "settings": {
+            "question": "How long does a build take?",
+            "answer": "<p>Depending on the size of each project, if migration, third-party integrations and so forth are needed, we allow for 3 to 8 weeks.</p>",
+            "icon": "shopify://shop_images/yellow-arrow.svg"
+          }
+        },
+        "faq_item_QKYTzw": {
+          "type": "faq_item",
+          "settings": {
+            "question": "Does the build process include content upload?",
+            "answer": "<p>Generally, we don’t include content upload at An Agency, as we generally have the client handle this. When it comes to migrations, we will transfer the data and content over, but generally we do a refresh of the content and design.</p>",
+            "icon": "shopify://shop_images/yellow-arrow.svg"
+          }
+        },
+        "faq_item_Hph4WQ": {
+          "type": "faq_item",
+          "settings": {
+            "question": "Do you provide training or guidance?",
+            "answer": "<p>Yes, 1 month post purchase coaching and we also provide a PDF user guide that explain where to start after your website has been handed over to you.</p>",
+            "icon": "shopify://shop_images/yellow-arrow.svg"
+          }
+        }
+      },
+      "block_order": [
+        "faq_item_ibnEnd",
+        "faq_item_L8txQN",
+        "faq_item_nEehgi",
+        "faq_item_zzzUGF",
+        "faq_item_QKYTzw",
+        "faq_item_Hph4WQ"
+      ],
+      "settings": {
+        "heading": "Frequently Asked Questions",
+        "bg_color": "#f7f7f7",
+        "max_width": 1200,
+        "desktop_padding_top": 80,
+        "desktop_padding_bottom": 80,
+        "mobile_padding_top": 50,
+        "mobile_padding_bottom": 50
+      }
     }
   },
   "order": [
@@ -459,6 +537,7 @@
     "text_heading_Y4ppzQ",
     "service_form_DDM69T",
     "image_with_text_list_BxG4Xt",
-    "effect_form_xzdHJc"
+    "effect_form_xzdHJc",
+    "faq_kyhaRq"
   ]
 }

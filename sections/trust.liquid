@@ -35,7 +35,9 @@
               <div class="accordion-heading">
                 {{ block.settings.button_text }}
                 {%- if block.settings.accordion_image != blank -%}
-                  <img src="{{ block.settings.accordion_image |  img_url: '20x' }}" alt="" width="15px" height="15px">
+                  <div class="icon">
+                    <img src="{{ block.settings.accordion_image |  img_url: '20x' }}" alt="" width="15px" height="15px">
+                  </div>
                 {%- endif -%}
               </div>
               <div class="accordion-content">{{ block.settings.additional_text }}</div>

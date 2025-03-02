@@ -30,7 +30,9 @@
               <div class="accordion-heading">
                 {{ block.settings.detail_info_heading }}
                 {%- if block.settings.icon != blank -%}
-                  <img src="{{ block.settings.icon |  img_url: '20x' }}" alt="" width="18px" height="auto">
+                  <div class="icon">
+                    <img src="{{ block.settings.icon |  img_url: '20x' }}" alt="" width="18px" height="auto">
+                  </div>
                 {%- endif -%}
               </div>
               <div class="accordion-content">

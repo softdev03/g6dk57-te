@@ -43,7 +43,9 @@
               {%- else -%}
                 Question
               {%- endif -%}
-              {{ 'icon-plus.svg' | inline_asset_content }}
+              <div class="icon">
+                {{ 'icon-plus.svg' | inline_asset_content }}
+              </div>
             </div>
             <div class="accordion-content text">
               {%- if block.settings.answer != blank -%}
@@ -59,7 +61,9 @@
           <div class="accordion" type="group" container="#shopify-section-{{ section.id }}">
             <div class="accordion-heading">
               Question-{{ i }}
-              {{ 'icon-plus.svg' | inline_asset_content }}
+              <div class="icon">
+                {{ 'icon-plus.svg' | inline_asset_content }}
+              </div>
             </div>
             <div class="accordion-content">Answer-{{ i }}</div>
           </div>
