@@ -165,7 +165,9 @@
             class="field__input"
             autocomplete="{{ block.settings.field_type }}"
             name="contact[{{ downcase_name }}]"
-            pattern="{{ block.settings.pattern }}"
+            {%- if block.settings.pattern != blank -%}
+              pattern="{{ block.settings.pattern }}"
+            {%- endif -%}
             value="{% if form[downcase_name] %}{{ form[downcase_name] }}{% elsif customer %}{{ customer[downcase_name] }}{% endif %}"
             placeholder="{{ block.settings.placeholder }}"
           >
