@@ -1,0 +1,555 @@
+{{ 'effect-form.css' | asset_url | stylesheet_tag }}
+{%- style -%}
+   #shopify-section-{{ section.id }} {
+       padding-top: {{ section.settings.desktop_padding_top }}px;
+       padding-bottom: {{ section.settings.desktop_padding_bottom }}px;
+   }
+  #shopify-section-{{ section.id }} .card-main-content {
+  	background-color: {{ section.settings.bg_color }};
+  	border: {{ section.settings.card_border_width }}px solid {{ section.settings.card_border_color }};
+  	border-radius: {{ section.settings.card_border_radius }}px;
+    padding-top: {{ section.settings.desktop_card_padding_top }}px;
+    padding-bottom: {{ section.settings.desktop_card_padding_bottom }}px;
+  }
+   @media screen and (max-width: 749px) {
+       #shopify-section-{{ section.id }} {
+           padding-top: {{ section.settings.mobile_padding_top }}px;
+           padding-bottom: {{ section.settings.mobile_padding_bottom }}px;
+       }
+       #shopify-section-{{ section.id }} .card-main-content {
+        padding-top: {{ section.settings.mobile_card_padding_top }}px;
+        padding-bottom: {{ section.settings.mobile_card_padding_bottom }}px;
+      }
+   }
+{%- endstyle -%}
+<div class="shopify-section-effect-form page-width">
+  <div class="card-main-content">
+    {%- if section.settings.first_heading != blank or section.settings.second_heading != blank -%}
+      <div class="heading-wrapper">
+        {%- if section.settings.first_heading != blank -%}
+          <h1 class="heading first m-0 effect">{{ section.settings.first_heading }}</h1>
+        {%- endif -%}
+        {%- if section.settings.second_heading != blank -%}
+          <h1 class="heading second m-0 effect">{{ section.settings.second_heading }}</h1>
+        {%- endif -%}
+      </div>
+    {%- endif -%}
+    {%- if section.settings.text != blank -%}
+      <div class="text">{{ section.settings.text }}</div>
+    {%- endif -%}
+    {%- form 'contact', id: 'ContactForm' -%}
+      {%- if form.posted_successfully? -%}
+        <h2 class="form-status form-status-list form__message" tabindex="-1" autofocus>
+          {{- 'icon-success.svg' | inline_asset_content -}}
+          {{ 'templates.contact.form.post_success' | t }}
+        </h2>
+      {%- elsif form.errors -%}
+        <div class="form__message">
+          <h2 class="form-status caption-large text-body" role="alert" tabindex="-1" autofocus>
+            {{- 'icon-error.svg' | inline_asset_content -}}
+            {{ 'templates.contact.form.error_heading' | t }}
+          </h2>
+        </div>
+        <ul class="form-status-list caption-large" role="list">
+          <li>
+            <a href="#ContactForm-email" class="link">
+              {{ form.errors.translated_fields.email | capitalize }}
+              {{ form.errors.messages.email }}
+            </a>
+          </li>
+        </ul>
+      {%- endif -%}
+      <div class="contact__fields">
+        <div class="field field--with-error">
+          <input
+            autocomplete="email"
+            type="email"
+            id="ContactForm-email"
+            class="field__input"
+            name="contact[email]"
+            spellcheck="false"
+            autocapitalize="off"
+            value="{% if form.email %}{{ form.email }}{% elsif customer %}{{ customer.email }}{% endif %}"
+            aria-required="true"
+            {% if form.errors contains 'email' %}
+              aria-invalid="true"
+              aria-describedby="ContactForm-email-error"
+            {% endif %}
+            placeholder="{{ section.settings.email_placeholder_text }}"
+          >
+          <label class="field__label" for="ContactForm-email">
+            {{- 'templates.contact.form.email' | t }}
+            <span aria-hidden="true">*</span></label
+          >
+          {%- if form.errors contains 'email' -%}
+            <small class="contact__field-error" id="ContactForm-email-error">
+              <span class="visually-hidden">{{ 'accessibility.error' | t }}</span>
+              <span class="form__message">
+                <span class="svg-wrapper">
+                  {{- 'icon-error.svg' | inline_asset_content -}}
+                </span>
+                {{- form.errors.translated_fields.email | capitalize }}
+                {{ form.errors.messages.email -}}
+              </span>
+            </small>
+          {%- endif -%}
+        </div>
+      </div>
+      <div class="contact__button">
+        <button type="submit" class="button">
+          {{ section.settings.submit_button_text }}
+        </button>
+      </div>
+    {%- endform -%}
+    {%- if section.blocks.size > 0 -%}
+      <div class="image-wrapper">
+        {%- for block in section.blocks -%}
+          {%- if block.type == 'circle_image' -%}
+            <div
+              class="circle-image image"
+              id="image-{{ block.id }}"
+              init-angle="{{ block.settings.init_angle }}"
+              target-angle="{{ block.settings.target_angle }}"
+              style="transform: rotate({{ block.settings.init_angle }}deg)"
+            >
+              <img src="{{ block.settings.image |  img_url: '300x' }}" alt="" width="300px" height="auto">
+            </div>
+          {%- elsif block.type == 'payment_app_image' -%}
+            <div
+              class="payment-app-image image"
+              id="image-{{ block.id }}"
+              desktop-max-x="{{ block.settings.desktop_max_x }}"
+              desktop-max-y="{{ block.settings.desktop_max_y }}"
+              desktop-translate-x="{{ block.settings.desktop_translate_x }}"
+              desktop-translate-y="{{ block.settings.desktop_translate_y }}"
+              desktop-rotate-x="{{ block.settings.desktop_rotate_x }}"
+              desktop-rotate-y="{{ block.settings.desktop_rotate_y }}"
+              mobile-max-x="{{ block.settings.mobile_max_x }}"
+              mobile-max-y="{{ block.settings.mobile_max_y }}"
+              mobile-translate-x="{{ block.settings.mobile_translate_x }}"
+              mobile-translate-y="{{ block.settings.mobile_translate_y }}"
+              mobile-rotate-x="{{ block.settings.mobile_rotate_x }}"
+              mobile-rotate-y="{{ block.settings.mobile_rotate_y }}"
+              desktop-left="{{ block.settings.desktop_pos_x }}%"
+              desktop-top="{{ block.settings.desktop_pos_y }}%"
+              mobile-left="{{ block.settings.mobile_pos_x }}%"
+              mobile-top="{{ block.settings.mobile_pos_y }}%"
+            >
+              <img src="{{ block.settings.image |  img_url: '300x' }}" alt="" width="300px" height="auto">
+            </div>
+          {%- endif -%}
+          {%- style -%}
+            #image-{{ block.id }} {
+              left: {{ block.settings.desktop_pos_x }}%;
+              top: {{ block.settings.desktop_pos_y }}%;
+              width: {{ block.settings.desktop_width }}px
+            }
+            @media screen and (max-width: 749px) {
+              #image-{{ block.id }} {
+                left: {{ block.settings.mobile_pos_x }}%;
+                top: {{ block.settings.mobile_pos_y }}%;
+                width: {{ block.settings.mobile_width }}px
+              }
+            }
+          {%- endstyle -%}
+        {%- endfor -%}
+      </div>
+    {%- endif -%}
+  </div>
+</div>
+{% schema %}
+{
+  "name": "Effect Form",
+  "tag": "section",
+  "class": "shopify-section--effect-form",
+  "settings": [
+    {
+      "type": "text",
+      "id": "first_heading",
+      "label": "First Heading"
+    },
+    {
+      "type": "text",
+      "id": "second_heading",
+      "label": "Second Heading"
+    },
+    {
+      "type": "richtext",
+      "id": "text",
+      "label": "Text"
+    },
+    {
+      "type": "text",
+      "id": "email_placeholder_text",
+      "label": "Email Placeholder Text"
+    },
+    {
+      "type": "text",
+      "id": "submit_button_text",
+      "label": "Submit Button Text"
+    },
+    {
+      "type": "color",
+      "id": "bg_color",
+      "label": "Card Background Color",
+      "default": "#000000"
+    },
+    {
+      "type": "range",
+      "id": "card_border_width",
+      "min": 0,
+      "max": 10,
+      "step": 1,
+      "unit": "px",
+      "label": "Card Border Width",
+      "default": 1
+    },
+    {
+      "type": "color",
+      "id": "card_border_color",
+      "label": "Card Border Color",
+      "default": "#000000"
+    },
+    {
+      "type": "range",
+      "id": "card_border_radius",
+      "min": 0,
+      "max": 300,
+      "step": 3,
+      "unit": "px",
+      "label": "Card Border Radius",
+      "default": 0
+    },
+    {
+      "type": "header",
+      "content": "Card Padding Settings"
+    },
+    {
+      "type": "range",
+      "id": "desktop_card_padding_top",
+      "min": 0,
+      "max": 200,
+      "step": 2,
+      "unit": "px",
+      "label": "Desktop Card Padding Top",
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "desktop_card_padding_bottom",
+      "min": 0,
+      "max": 200,
+      "step": 2,
+      "unit": "px",
+      "label": "Desktop Card Padding Bottom",
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "mobile_card_padding_top",
+      "min": 0,
+      "max": 200,
+      "step": 2,
+      "unit": "px",
+      "label": "Mobile Card Padding Top",
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "mobile_card_padding_bottom",
+      "min": 0,
+      "max": 200,
+      "step": 2,
+      "unit": "px",
+      "label": "Mobile Card Padding Bottom",
+      "default": 0
+    },
+    {
+      "type": "header",
+      "content": "Padding Settings"
+    },
+    {
+      "type": "range",
+      "id": "desktop_padding_top",
+      "min": 0,
+      "max": 200,
+      "step": 2,
+      "unit": "px",
+      "label": "Desktop Padding Top",
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "desktop_padding_bottom",
+      "min": 0,
+      "max": 200,
+      "step": 2,
+      "unit": "px",
+      "label": "Desktop Padding Bottom",
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "mobile_padding_top",
+      "min": 0,
+      "max": 200,
+      "step": 2,
+      "unit": "px",
+      "label": "Mobile Padding Top",
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "mobile_padding_bottom",
+      "min": 0,
+      "max": 200,
+      "step": 2,
+      "unit": "px",
+      "label": "Mobile Padding Bottom",
+      "default": 0
+    }
+  ],
+  "blocks": [
+    {
+      "type": "circle_image",
+      "name": "Circle Image",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image"
+        },
+        {
+          "type": "range",
+          "id": "desktop_width",
+          "min": 0,
+          "max": 300,
+          "step": 3,
+          "unit": "px",
+          "label": "Image width on Desktop",
+          "default": 60
+        },
+        {
+          "type": "range",
+          "id": "mobile_width",
+          "min": 0,
+          "max": 300,
+          "step": 3,
+          "unit": "px",
+          "label": "Image width on Mobile",
+          "default": 60
+        },
+        {
+          "type": "range",
+          "id": "desktop_pos_x",
+          "min": -100,
+          "max": 100,
+          "step": 2,
+          "unit": "%",
+          "label": "Horizontal Pos on Desktop",
+          "default": 0
+        },
+        {
+          "type": "range",
+          "id": "desktop_pos_y",
+          "min": -100,
+          "max": 100,
+          "step": 2,
+          "unit": "%",
+          "label": "Vertical Pos on Desktop",
+          "default": 0
+        },
+        {
+          "type": "range",
+          "id": "mobile_pos_x",
+          "min": -100,
+          "max": 100,
+          "step": 2,
+          "unit": "%",
+          "label": "Horizontal Pos on Mobile",
+          "default": 0
+        },
+        {
+          "type": "range",
+          "id": "mobile_pos_y",
+          "min": -100,
+          "max": 100,
+          "step": 2,
+          "unit": "%",
+          "label": "Vertical Pos on Mobile",
+          "default": 0
+        },
+        {
+          "type": "number",
+          "id": "init_angle",
+          "label": "Init Angle",
+          "default": 0
+        },
+        {
+          "type": "number",
+          "id": "target_angle",
+          "label": "Target Angle",
+          "default": 0
+        }
+      ]
+    },
+    {
+      "type": "payment_app_image",
+      "name": "Payment App Image",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image"
+        },
+        {
+          "type": "range",
+          "id": "desktop_width",
+          "min": 0,
+          "max": 300,
+          "step": 3,
+          "unit": "px",
+          "label": "Image width on Desktop",
+          "default": 60
+        },
+        {
+          "type": "range",
+          "id": "mobile_width",
+          "min": 0,
+          "max": 300,
+          "step": 3,
+          "unit": "px",
+          "label": "Image width on Mobile",
+          "default": 60
+        },
+        {
+          "type": "range",
+          "id": "desktop_pos_x",
+          "min": -100,
+          "max": 100,
+          "step": 2,
+          "unit": "%",
+          "label": "Horizontal Pos on Desktop",
+          "default": 0
+        },
+        {
+          "type": "range",
+          "id": "desktop_pos_y",
+          "min": -100,
+          "max": 100,
+          "step": 2,
+          "unit": "%",
+          "label": "Vertical Pos on Desktop",
+          "default": 0
+        },
+        {
+          "type": "range",
+          "id": "mobile_pos_x",
+          "min": -100,
+          "max": 100,
+          "step": 2,
+          "unit": "%",
+          "label": "Horizontal Pos on Mobile",
+          "default": 0
+        },
+        {
+          "type": "range",
+          "id": "mobile_pos_y",
+          "min": -100,
+          "max": 100,
+          "step": 2,
+          "unit": "%",
+          "label": "Vertical Pos on Mobile",
+          "default": 0
+        },
+        {
+          "type": "header",
+          "content": "Move Effect Settings on Desktop"
+        },
+        {
+          "type": "number",
+          "id": "desktop_translate_x",
+          "label": "Translate X on Desktop",
+          "default": 0
+        },
+        {
+          "type": "number",
+          "id": "desktop_translate_y",
+          "label": "Translate Y on Desktop",
+          "default": 0
+        },
+        {
+          "type": "number",
+          "id": "desktop_rotate_x",
+          "label": "Rotate X on Desktop",
+          "default": 0
+        },
+        {
+          "type": "number",
+          "id": "desktop_rotate_y",
+          "label": "Rotate Y on Desktop",
+          "default": 0
+        },
+        {
+          "type": "number",
+          "id": "desktop_max_x",
+          "label": "Max Pos(x) on Desktop",
+          "default": 0
+        },
+        {
+          "type": "number",
+          "id": "desktop_max_y",
+          "label": "Max Pos(y) on Desktop",
+          "default": 0
+        },
+        {
+          "type": "header",
+          "content": "Move Effect Settings on Mobile"
+        },
+        {
+          "type": "number",
+          "id": "mobile_translate_x",
+          "label": "Translate X on Mobile",
+          "default": 0
+        },
+        {
+          "type": "number",
+          "id": "mobile_translate_y",
+          "label": "Translate Y on Mobile",
+          "default": 0
+        },
+        {
+          "type": "number",
+          "id": "mobile_rotate_x",
+          "label": "Rotate X on Mobile",
+          "default": 0
+        },
+        {
+          "type": "number",
+          "id": "mobile_rotate_y",
+          "label": "Rotate Y on Mobile",
+          "default": 0
+        },
+        {
+          "type": "number",
+          "id": "mobile_max_x",
+          "label": "Max Pos(x) on Mobile",
+          "default": 0
+        },
+        {
+          "type": "number",
+          "id": "mobile_max_y",
+          "label": "Max Pos(y) on Mobile",
+          "default": 0
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Effect Form",
+      "settings": {}
+    }
+  ]
+}
+{% endschema %}

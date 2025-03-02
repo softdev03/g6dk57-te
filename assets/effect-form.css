@@ -1,0 +1,74 @@
+.shopify-section-effect-form .card-main-content {
+  padding-inline: 80px;
+  position: relative;
+}
+.shopify-section-effect-form .heading-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  column-gap: 12px;
+  margin-bottom: 40px;
+  overflow: hidden;
+}
+.shopify-section-effect-form .heading {
+  text-align: center;
+  transform: translateX(0px);
+  opacity: 1;
+  transition: all .7s;
+}
+.shopify-section-effect-form .heading.effect {
+  transform: translateX(-600px);
+  opacity: 0;
+}
+.shopify-section-effect-form .heading.second.effect {
+  transform: translateX(600px);
+}
+.shopify-section-effect-form .text {
+  text-align: center;
+  max-width: 500px;
+  margin-inline: auto;
+  margin-bottom: 50px;
+}
+.shopify-section-effect-form form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 500px;
+  margin-inline: auto;
+  row-gap: 20px;
+  z-index: 1;
+  position: relative;
+}
+.shopify-section-effect-form .contact__fields {
+  width: 100%;
+}
+.shopify-section-effect-form .image-wrapper {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+}
+.shopify-section-effect-form .image {
+  position: absolute;
+  line-height: 0;
+}
+.shopify-section-effect-form .image img {
+  width: 100%;
+  height: auto;
+}
+
+@media screen and (max-width: 749px) {
+  .shopify-section-effect-form .card-main-content {
+    padding-inline: 20px;
+  }
+  .shopify-section-effect-form .heading-wrapper {
+    margin-bottom: 24px;
+  }
+  .shopify-section-effect-form .text {
+    margin-bottom: 30px;
+  }
+  .shopify-section-effect-form form * {
+    font-size: 14px;
+  }
+}

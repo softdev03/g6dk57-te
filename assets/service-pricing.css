@@ -1,0 +1,163 @@
+.shopify-section-service-pricing .heading {
+	position: relative;
+}
+.shopify-section-service-pricing .heading * {
+  color: inherit;
+}
+.shopify-section-service-pricing .badge-wrapper {
+	position: absolute;
+	width: 150px;
+	aspect-ratio: 1;
+	right: 0px;
+	top: 0px;
+	transform: rotate(90deg);
+	overflow: hidden;
+}
+.shopify-section-service-pricing .badge-text {
+	color: #ffffff;
+	background-color: #d9e021;
+	margin: 0;
+	font-size: 14px;
+	line-height: 1.5;
+	min-width: 200%;
+	height: fit-content;
+	transform: translateY(-50%) translateX(-50%) translateX(35px) rotate(-45deg);
+	margin-top: 35px;
+}
+.shopify-section-service-pricing .pricing-list {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 60px;
+  justify-content: space-between;
+}
+.shopify-section-service-pricing .pricing-item {
+  display: flex;
+  flex-direction: column;
+  width: calc((100% - 40px) / 3);
+  box-shadow: 0px 0px 10px 1px #ddd;
+}
+.shopify-section-service-pricing .pricing-item .heading {
+  text-align: center;
+  padding: 40px 20px;
+	z-index: 1;
+}
+.shopify-section-service-pricing .pricing-item .content {
+	padding: 30px 20px 50px;
+}
+.shopify-section-service-pricing .pricing-heading {
+  font-size: 45px;
+	line-height: 1;
+	margin-bottom: 5px;
+}
+.shopify-section-service-pricing .pricing-sub-heading {
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 1.1;
+}
+.shopify-section-service-pricing .payment {
+  padding: 0px 0px 30px;
+}
+.shopify-section-service-pricing .price-wrapper {
+  display: flex;
+  align-items: start;
+  justify-content: center;
+	margin-bottom: 10px;
+}
+.shopify-section-service-pricing .price {
+  line-height: 36px;
+  font-size: 42px;
+  text-align: center;
+  font-weight: 600;
+}
+.shopify-section-service-pricing .symbol {
+	font-weight: 500;
+}
+.shopify-section-service-pricing .pricing-item-list {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  margin-bottom: 40px;
+}
+.shopify-section-service-pricing .service-item {
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+}
+.shopify-section-service-pricing .service-item .icon {
+  min-width: 20px;
+	max-width: 20px;
+  aspect-ratio: 1;
+  padding: 4px;
+  border-radius: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.shopify-section-service-pricing .service-text {
+	line-height: 1.2;
+	padding: 15px 0px;
+}
+.shopify-section-service-pricing .service-item:not(:last-child) .service-text {
+  width: 100%;
+  border-bottom: 2px solid #ddd;
+}
+.shopify-section-service-pricing .pricing-link {
+  padding: 15px 30px;
+  width: fit-content;
+  border-radius: 4px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 25px;
+  text-decoration: none;
+	display: block;
+}
+.shopify-section-service-pricing .pricing-text {
+  padding: 0px 10px;
+	line-height: 1.5;
+}
+.shopify-section-service-pricing .border {
+	background-color: #000000;
+	width: 100%;
+	display: block;
+	height: 1px;
+	margin-top: 30px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+@media screen and (max-width: 1199px) {
+	.shopify-section-service-pricing .pricing-item {
+		width: 100%;
+	}
+}
+@media screen and (max-width: 749px) {
+	.shopify-section-service-pricing .pricing-item .content {
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+	.shopify-section-service-pricing .pricing-heading {
+		font-size: 32px;
+	}
+	.shopify-section-service-pricing .pricing-sub-heading {
+		font-size: 24px;
+	}
+	.shopify-section-service-pricing .price {
+		font-size: 28px;
+		line-height: 24px;
+	}
+	.payment-method {
+		font-size: 14px;
+	}
+	.shopify-section-service-pricing .service-text {
+		padding: 10px 0px;
+	}
+	.shopify-section-service-pricing .service-item .icon {
+		min-width: 16px;
+		max-width: 16px;
+		padding: 3px;
+	}
+	.shopify-section-service-pricing .pricing-link {
+		width: 100%;
+		text-align: center;
+	}
+}

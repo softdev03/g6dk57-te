@@ -7,6 +7,12 @@ const accordion = ({parentClassName,initOpenIndex,paddingTop,marginTop,borderCol
         } else {
             openAccordion(accordionItem,paddingTop,marginTop,borderColor);
         }
+        accordionItem.addEventListener('click',(e)=>{
+            if(e.target.classList.contains('accordion-heading') || e.target.closest('.accordion-heading') || e.target.classList.contains('accordion-content') || e.target.closest('.accordion-content')) {
+                return;
+            }
+            accordionItem.querySelector('.accordion-heading')?.click();
+        });
         accordionItem.querySelector('.accordion-heading')?.addEventListener('click', () => {
             if (accordionItem.classList.contains('open')) {
                 closeAccordion(accordionItem);

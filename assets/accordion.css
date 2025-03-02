@@ -7,9 +7,13 @@
 	align-items: center;
 	justify-content: space-between;
 }
+.accordion-heading .icon {
+  min-width: 18px;
+  max-width: 18px;
+  margin-left: 10px;
+}
 .accordion-heading img {
   transition: all 0.3s;
-	margin-left: 10px;
 }
 .accordion.open .accordion-heading img {
   transform: rotate(45deg);

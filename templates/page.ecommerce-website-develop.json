@@ -1,14 +1,753 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
         "padding_top": 28,
         "padding_bottom": 28
       }
+    },
+    "text_heading_yfzfFH": {
+      "type": "text-list",
+      "blocks": {
+        "text_zUfK88": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Websites Built for Growth and Real Results</p>",
+            "desktop_margin": 40,
+            "mobile_margin": 26,
+            "desktop_align": "center",
+            "mobile_align": "center",
+            "desktop_font_size": 60,
+            "mobile_font_size": 32,
+            "desktop_font_weight": "600",
+            "mobile_font_weight": "600",
+            "desktop_line_height": 1.2,
+            "mobile_line_height": 1.2,
+            "desktop_letter_spacing": 1,
+            "mobile_letter_spacing": 1,
+            "desktop_text_transform": "capitalize",
+            "mobile_text_transform": "capitalize",
+            "desktop_max_width": 1000,
+            "mobile_max_width": 1000
+          }
+        },
+        "text_jpq98t": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We build stunning websites on <strong>WordPress</strong> and <strong>Webflow</strong> that drive real results and help your business thrive online. Our websites are fully mobile-responsive, SEO-friendly, and designed to scale as your business grows.</p>",
+            "desktop_margin": 0,
+            "mobile_margin": 0,
+            "desktop_align": "center",
+            "mobile_align": "center",
+            "desktop_font_size": 20,
+            "mobile_font_size": 18,
+            "desktop_font_weight": "400",
+            "mobile_font_weight": "400",
+            "desktop_line_height": 1.2,
+            "mobile_line_height": 1.2,
+            "desktop_letter_spacing": 1,
+            "mobile_letter_spacing": 1,
+            "desktop_text_transform": "none",
+            "mobile_text_transform": "default",
+            "desktop_max_width": 750,
+            "mobile_max_width": 1000
+          }
+        }
+      },
+      "block_order": [
+        "text_zUfK88",
+        "text_jpq98t"
+      ],
+      "settings": {
+        "bg_color": "#aeddf9",
+        "desktop_padding_top": 80,
+        "desktop_padding_bottom": 80,
+        "mobile_padding_top": 50,
+        "mobile_padding_bottom": 50
+      }
+    },
+    "service_form_yJVMbz": {
+      "type": "service-form",
+      "blocks": {
+        "faq_item_arLzMq": {
+          "type": "faq_item",
+          "settings": {
+            "question": "Tailored Web Design",
+            "answer": "<p>Your business is unique, and so should your website be. We create custom designs that capture your brand’s identity and deliver exceptional user experiences.</p>"
+          }
+        },
+        "faq_item_wUmzMJ": {
+          "type": "faq_item",
+          "settings": {
+            "question": "Performance-Driven Development",
+            "answer": "<p>Fast, secure, and built to convert—our websites are developed with performance in mind, ensuring your visitors get the best experience possible</p>"
+          }
+        },
+        "faq_item_Tnym3j": {
+          "type": "faq_item",
+          "settings": {
+            "question": "SEO That Works from Day One",
+            "answer": "<p>A great website is useless if it’s not found. Our development process includes robust SEO foundations to give you the visibility you deserve.</p>"
+          }
+        },
+        "faq_item_qWYUGw": {
+          "type": "faq_item",
+          "settings": {
+            "question": "Built to Scale",
+            "answer": "<p>Whether you’re a startup or an established brand, your website will be built to grow with you, ready to handle whatever comes next.</p>"
+          }
+        },
+        "form_item_D4tEPF": {
+          "type": "form_item",
+          "settings": {
+            "field_type": "text",
+            "field_name": "First Name",
+            "placeholder": "First Name*",
+            "options": "",
+            "pattern": ""
+          }
+        },
+        "form_item_XqLYNj": {
+          "type": "form_item",
+          "settings": {
+            "field_type": "Email",
+            "field_name": "Email",
+            "placeholder": "Email*",
+            "options": "",
+            "pattern": ""
+          }
+        },
+        "form_item_aeNRGW": {
+          "type": "form_item",
+          "settings": {
+            "field_type": "Phone",
+            "field_name": "Phone",
+            "placeholder": "Phone Number",
+            "options": "",
+            "pattern": "[0-9\\-]*"
+          }
+        },
+        "form_item_VfcRAb": {
+          "type": "form_item",
+          "settings": {
+            "field_type": "textarea",
+            "field_name": "Message",
+            "placeholder": "Message",
+            "options": "",
+            "pattern": ""
+          }
+        }
+      },
+      "block_order": [
+        "faq_item_arLzMq",
+        "faq_item_wUmzMJ",
+        "faq_item_Tnym3j",
+        "faq_item_qWYUGw",
+        "form_item_D4tEPF",
+        "form_item_XqLYNj",
+        "form_item_aeNRGW",
+        "form_item_VfcRAb"
+      ],
+      "settings": {
+        "heading": "Our Web Development Services",
+        "text": "<p>Our Web Development Services</p>",
+        "form_heading": "All great things start with the first step!",
+        "form_text": "<p>You agree to be contacted by ANAGENCY.COM.AU about our respective services. Your personal information will be processed in accordance with our <a href=\"/policies/privacy-policy\" target=\"_blank\" title=\"Privacy Policy\">privacy policy</a>.</p>",
+        "submit_button_text": "Send",
+        "form_bg_color": "#d9e021",
+        "form_border_color": "#000000",
+        "form_border_width": 2,
+        "form_border_radius": 25,
+        "show_reCAPTCHA_widget": true,
+        "desktop_padding_top": 80,
+        "desktop_padding_bottom": 90,
+        "mobile_padding_top": 50,
+        "mobile_padding_bottom": 60
+      }
+    },
+    "image_with_text_list_EbY8z7": {
+      "type": "image-with-text-list",
+      "blocks": {
+        "image_with_text_item_JJLa9H": {
+          "type": "image_with_text_item",
+          "settings": {
+            "heading": "No-Nonsense, All Results",
+            "text": "<p>We cut through the noise and focus on what matters—building websites that perform. No buzzwords, no gimmicks, just honest work that gets results.</p>",
+            "image": "shopify://shop_images/image1.svg"
+          }
+        },
+        "image_with_text_item_RhUE4g": {
+          "type": "image_with_text_item",
+          "settings": {
+            "heading": "Real-Time Reporting",
+            "text": "<p>Know what’s happening with your website at all times. Our transparent reporting keeps you in the loop, so you can see the impact in real-time.</p>",
+            "image": "shopify://shop_images/image2.svg"
+          }
+        },
+        "image_with_text_item_6FybDX": {
+          "type": "image_with_text_item",
+          "settings": {
+            "heading": "Google Partners",
+            "text": "<p>With our team’s expertise, we don’t just build your site—we ensure it works with the tools you rely on, like Google Analytics and Ads. Performance is in our DNA.</p>",
+            "image": "shopify://shop_images/image3.svg"
+          }
+        }
+      },
+      "block_order": [
+        "image_with_text_item_JJLa9H",
+        "image_with_text_item_RhUE4g",
+        "image_with_text_item_6FybDX"
+      ],
+      "settings": {
+        "heading": "Why Work with Us?",
+        "text": "<p>At <strong>An Agency</strong>, we don’t do fluff. We do real, measurable results.</p>",
+        "desktop_padding_top": 80,
+        "desktop_padding_bottom": 80,
+        "mobile_padding_top": 50,
+        "mobile_padding_bottom": 50
+      }
+    },
+    "animation_image_block_Tg9BDe": {
+      "type": "animation-image-block",
+      "blocks": {
+        "image_block_nE8gqp": {
+          "type": "image_block",
+          "settings": {
+            "show_on_desktop": true,
+            "show_on_mobile": true,
+            "mobile_order": 0,
+            "main_image": "shopify://shop_images/Remote-meeting-cuate.svg",
+            "top_when_hover": -21,
+            "main_image_z_index": 0,
+            "payment_app_image": "shopify://shop_images/featuresAsset-23sendrecive_c.svg",
+            "payment_app_image_width_on_desktop": 122,
+            "payment_app_image_width_on_mobile": 72,
+            "payment_app_image_pos_as_top": 80,
+            "start_left": 75,
+            "end_left": 50,
+            "payment_app_image_pos_when_hover": 16,
+            "payment_image_z_index": 0,
+            "first_circle_image": "shopify://shop_images/iconAsset-19tap-pay-element3.svg",
+            "first_circle_image_width_on_desktop": 64,
+            "first_circle_image_width_on_mobile": 26,
+            "first_circle_image_init_angle": 270,
+            "first_circle_image_target_angle": -120,
+            "first_circle_image_desktop_pos_as_x": 75,
+            "first_circle_image_desktop_pos_as_y": 67,
+            "first_circle_image_mobile_pos_as_x": 78,
+            "first_circle_image_mobile_pos_as_y": 70,
+            "first_circle_image_z_index": 0,
+            "first_image_effect": false,
+            "second_circle_image_width_on_desktop": 30,
+            "second_circle_image_width_on_mobile": 30,
+            "second_circle_image_init_angle": 0,
+            "second_circle_image_target_angle": 0,
+            "second_circle_image_desktop_pos_as_x": 0,
+            "second_circle_image_desktop_pos_as_y": 0,
+            "second_circle_image_mobile_pos_as_x": 0,
+            "second_circle_image_mobile_pos_as_y": 0,
+            "second_circle_image_z_index": 0,
+            "second_image_effect": false,
+            "third_circle_image_width_on_desktop": 30,
+            "third_circle_image_width_on_mobile": 30,
+            "third_circle_image_init_angle": 0,
+            "third_circle_image_target_angle": 0,
+            "third_circle_image_desktop_pos_as_x": 0,
+            "third_circle_image_desktop_pos_as_y": 0,
+            "third_circle_image_mobile_pos_as_x": 0,
+            "third_circle_image_mobile_pos_as_y": 0,
+            "third_circle_image_z_index": 0,
+            "third_image_effect": false
+          }
+        },
+        "text_block_LXb8i7": {
+          "type": "text_block",
+          "settings": {
+            "show_on_desktop": true,
+            "show_on_mobile": true,
+            "mobile_order": 4,
+            "heading": "Design",
+            "text": "<p>Our team designs a website that’s not just visually stunning, but built to convert. Every element is crafted with the user in mind.</p>"
+          }
+        },
+        "image_block_Y9npFL": {
+          "type": "image_block",
+          "settings": {
+            "show_on_desktop": true,
+            "show_on_mobile": true,
+            "mobile_order": 5,
+            "main_image": "shopify://shop_images/Development-cuate.svg",
+            "top_when_hover": -21,
+            "main_image_z_index": 0,
+            "payment_app_image": "shopify://shop_images/featuresAsset-23sendrecive_c.svg",
+            "payment_app_image_width_on_desktop": 174,
+            "payment_app_image_width_on_mobile": 100,
+            "payment_app_image_pos_as_top": 80,
+            "start_left": 75,
+            "end_left": 50,
+            "payment_app_image_pos_when_hover": 16,
+            "payment_image_z_index": 0,
+            "first_circle_image": "shopify://shop_images/iconAsset-19tap-pay-element3.svg",
+            "first_circle_image_width_on_desktop": 64,
+            "first_circle_image_width_on_mobile": 26,
+            "first_circle_image_init_angle": -90,
+            "first_circle_image_target_angle": 90,
+            "first_circle_image_desktop_pos_as_x": 30,
+            "first_circle_image_desktop_pos_as_y": 70,
+            "first_circle_image_mobile_pos_as_x": 80,
+            "first_circle_image_mobile_pos_as_y": 64,
+            "first_circle_image_z_index": 0,
+            "first_image_effect": false,
+            "second_circle_image_width_on_desktop": 30,
+            "second_circle_image_width_on_mobile": 30,
+            "second_circle_image_init_angle": 0,
+            "second_circle_image_target_angle": 0,
+            "second_circle_image_desktop_pos_as_x": 0,
+            "second_circle_image_desktop_pos_as_y": 0,
+            "second_circle_image_mobile_pos_as_x": 0,
+            "second_circle_image_mobile_pos_as_y": 0,
+            "second_circle_image_z_index": 0,
+            "second_image_effect": false,
+            "third_circle_image_width_on_desktop": 30,
+            "third_circle_image_width_on_mobile": 30,
+            "third_circle_image_init_angle": 0,
+            "third_circle_image_target_angle": 0,
+            "third_circle_image_desktop_pos_as_x": 0,
+            "third_circle_image_desktop_pos_as_y": 0,
+            "third_circle_image_mobile_pos_as_x": 0,
+            "third_circle_image_mobile_pos_as_y": 0,
+            "third_circle_image_z_index": 0,
+            "third_image_effect": false
+          }
+        },
+        "text_block_antAUw": {
+          "type": "text_block",
+          "settings": {
+            "show_on_desktop": true,
+            "show_on_mobile": true,
+            "mobile_order": 8,
+            "heading": "Launch",
+            "text": "<p>Time to go live! After thorough testing and quality checks, your new website is ready to make its mark.</p>"
+          }
+        },
+        "text_block_fcUp6k": {
+          "type": "text_block",
+          "settings": {
+            "show_on_desktop": true,
+            "show_on_mobile": true,
+            "mobile_order": 2,
+            "heading": "Discover",
+            "text": "<p>We start by getting to know you and your business. What are your goals? Who are your customers? We’ll map out a strategy that sets you up for success.</p>"
+          }
+        },
+        "image_block_HGpJMi": {
+          "type": "image_block",
+          "settings": {
+            "show_on_desktop": true,
+            "show_on_mobile": true,
+            "mobile_order": 3,
+            "main_image": "shopify://shop_images/Creation-process-amico.svg",
+            "top_when_hover": -21,
+            "main_image_z_index": 0,
+            "payment_app_image_width_on_desktop": 100,
+            "payment_app_image_width_on_mobile": 100,
+            "payment_app_image_pos_as_top": 0,
+            "start_left": 0,
+            "end_left": 0,
+            "payment_app_image_pos_when_hover": 30,
+            "payment_image_z_index": 0,
+            "first_circle_image": "shopify://shop_images/iconAsset-19tap-pay-element3.svg",
+            "first_circle_image_width_on_desktop": 56,
+            "first_circle_image_width_on_mobile": 30,
+            "first_circle_image_init_angle": 0,
+            "first_circle_image_target_angle": 90,
+            "first_circle_image_desktop_pos_as_x": 10,
+            "first_circle_image_desktop_pos_as_y": 60,
+            "first_circle_image_mobile_pos_as_x": 10,
+            "first_circle_image_mobile_pos_as_y": 80,
+            "first_circle_image_z_index": -1,
+            "first_image_effect": false,
+            "second_circle_image": "shopify://shop_images/featuresAsset-24collecting-money-C.svg",
+            "second_circle_image_width_on_desktop": 80,
+            "second_circle_image_width_on_mobile": 90,
+            "second_circle_image_init_angle": 0,
+            "second_circle_image_target_angle": -32,
+            "second_circle_image_desktop_pos_as_x": 56,
+            "second_circle_image_desktop_pos_as_y": 80,
+            "second_circle_image_mobile_pos_as_x": 48,
+            "second_circle_image_mobile_pos_as_y": 70,
+            "second_circle_image_z_index": 0,
+            "second_image_effect": true,
+            "third_circle_image": "shopify://shop_images/iconAsset-19tap-pay-element3.svg",
+            "third_circle_image_width_on_desktop": 50,
+            "third_circle_image_width_on_mobile": 30,
+            "third_circle_image_init_angle": 0,
+            "third_circle_image_target_angle": -180,
+            "third_circle_image_desktop_pos_as_x": 60,
+            "third_circle_image_desktop_pos_as_y": 85,
+            "third_circle_image_mobile_pos_as_x": 58,
+            "third_circle_image_mobile_pos_as_y": 96,
+            "third_circle_image_z_index": -1,
+            "third_image_effect": false
+          }
+        },
+        "text_block_zkeJEd": {
+          "type": "text_block",
+          "settings": {
+            "show_on_desktop": true,
+            "show_on_mobile": true,
+            "mobile_order": 6,
+            "heading": "Develop",
+            "text": "<p>This is where the magic happens. Our developers bring your vision to life, making sure your site is fast, secure, and easy to use.</p>"
+          }
+        },
+        "image_block_xxidRN": {
+          "type": "image_block",
+          "settings": {
+            "show_on_desktop": true,
+            "show_on_mobile": true,
+            "mobile_order": 7,
+            "main_image": "shopify://shop_images/Market-launch-cuate.svg",
+            "top_when_hover": -21,
+            "main_image_z_index": 0,
+            "payment_app_image_width_on_desktop": 100,
+            "payment_app_image_width_on_mobile": 100,
+            "payment_app_image_pos_as_top": 0,
+            "start_left": 0,
+            "end_left": 0,
+            "payment_app_image_pos_when_hover": 30,
+            "payment_image_z_index": 0,
+            "first_circle_image": "shopify://shop_images/iconAsset-19tap-pay-element3.svg",
+            "first_circle_image_width_on_desktop": 50,
+            "first_circle_image_width_on_mobile": 30,
+            "first_circle_image_init_angle": 0,
+            "first_circle_image_target_angle": 180,
+            "first_circle_image_desktop_pos_as_x": 18,
+            "first_circle_image_desktop_pos_as_y": 56,
+            "first_circle_image_mobile_pos_as_x": 20,
+            "first_circle_image_mobile_pos_as_y": 80,
+            "first_circle_image_z_index": -1,
+            "first_image_effect": false,
+            "second_circle_image": "shopify://shop_images/featuresAsset-24collecting-money-C.svg",
+            "second_circle_image_width_on_desktop": 60,
+            "second_circle_image_width_on_mobile": 80,
+            "second_circle_image_init_angle": 0,
+            "second_circle_image_target_angle": -30,
+            "second_circle_image_desktop_pos_as_x": 50,
+            "second_circle_image_desktop_pos_as_y": 70,
+            "second_circle_image_mobile_pos_as_x": 48,
+            "second_circle_image_mobile_pos_as_y": 60,
+            "second_circle_image_z_index": 0,
+            "second_image_effect": true,
+            "third_circle_image": "shopify://shop_images/iconAsset-19tap-pay-element3.svg",
+            "third_circle_image_width_on_desktop": 50,
+            "third_circle_image_width_on_mobile": 30,
+            "third_circle_image_init_angle": 0,
+            "third_circle_image_target_angle": -180,
+            "third_circle_image_desktop_pos_as_x": 58,
+            "third_circle_image_desktop_pos_as_y": 73,
+            "third_circle_image_mobile_pos_as_x": 56,
+            "third_circle_image_mobile_pos_as_y": 92,
+            "third_circle_image_z_index": -1,
+            "third_image_effect": false
+          }
+        }
+      },
+      "block_order": [
+        "image_block_nE8gqp",
+        "text_block_LXb8i7",
+        "image_block_Y9npFL",
+        "text_block_antAUw",
+        "text_block_fcUp6k",
+        "image_block_HGpJMi",
+        "text_block_zkeJEd",
+        "image_block_xxidRN"
+      ],
+      "settings": {
+        "heading": "Our Process is Simple, Straightforward, and Results-Driven",
+        "second_line_index": 5,
+        "desktop_padding_top": 80,
+        "desktop_padding_bottom": 80,
+        "mobile_padding_top": 60,
+        "mobile_padding_bottom": 60
+      }
+    },
+    "faq_q4XxCp": {
+      "type": "faq",
+      "blocks": {
+        "faq_item_6eb8q6": {
+          "type": "faq_item",
+          "settings": {
+            "question": "What services do you offer?",
+            "answer": "<p>At <strong>An Agency</strong>, we offer a comprehensive range of web development services tailored to the unique needs of businesses in Melbourne and beyond. Our services include:</p><ul><li><strong>Web Development:</strong> We craft visually stunning, highly functional websites that align with your brand and engage your audience.</li><li><strong>E-commerce Development:</strong> We design seamless online shopping experiences that drive sales and boost revenue for your business.</li><li><strong>Custom Web Applications:</strong> We develop custom web applications to meet your specific needs, from customer portals to internal management systems.</li><li><strong>Website Design:</strong> Our meticulous design process ensures every aspect of your site—layout, navigation, and aesthetics—is optimised for maximum impact.</li><li><strong>SEO Services:</strong> Improve your online visibility and attract organic traffic with expert SEO services, designed to enhance your search engine rankings.</li><li><strong>Content Writing:</strong> Our experienced writers create engaging content that enhances user engagement and strengthens your brand’s online presence.</li><li><strong>Responsive Design:</strong> We ensure your website performs flawlessly on all devices, from desktops to smartphones and tablets.</li><li><strong>Ongoing Support & Maintenance:</strong> After launch, we provide ongoing support and maintenance to keep your website updated and running smoothly.</li><li><strong>Conversion Rate Optimisation (CRO):</strong> Boost your site’s effectiveness with CRO strategies, optimising every element to turn visitors into customers.</li><li><strong>Mobile App Development:</strong> Expand your digital presence with our mobile app development services, creating intuitive apps for both iOS and Android.</li></ul>",
+            "icon": "shopify://shop_images/yellow-arrow.svg"
+          }
+        },
+        "faq_item_zgAUEF": {
+          "type": "faq_item",
+          "settings": {
+            "question": "Do you provide ongoing maintenance and support?",
+            "answer": "<p>Yes, we offer comprehensive post-launch services, including ongoing maintenance, updates, and troubleshooting. Our goal is to ensure your website stays optimised, secure, and fully functional over the long term.</p>",
+            "icon": "shopify://shop_images/yellow-arrow.svg"
+          }
+        },
+        "faq_item_Hxwk7R": {
+          "type": "faq_item",
+          "settings": {
+            "question": "What is your development process like?",
+            "answer": "<p>We start with an in-depth consultation to understand your goals and requirements. From there, we move into design, development, and thorough testing before launching your site. Post-launch, we offer ongoing support and maintenance to ensure everything runs smoothly.</p>",
+            "icon": "shopify://shop_images/yellow-arrow.svg"
+          }
+        },
+        "faq_item_qQ7HXc": {
+          "type": "faq_item",
+          "settings": {
+            "question": "Can I see examples of your work?",
+            "answer": "<p>Of course! We have an extensive portfolio that highlights the variety of projects we’ve completed across different industries. It’s a great way to see the quality and impact of our work firsthand.</p>",
+            "icon": "shopify://shop_images/yellow-arrow.svg"
+          }
+        },
+        "faq_item_ahHict": {
+          "type": "faq_item",
+          "settings": {
+            "question": "Where are you located, and do you work with clients outside of Melbourne?",
+            "answer": "<p>Our team is based in Melbourne, but we proudly work with clients across Australia and internationally. Whether you’re local or global, we’re ready to bring your vision to life.</p>",
+            "icon": "shopify://shop_images/yellow-arrow.svg"
+          }
+        },
+        "faq_item_dpcanW": {
+          "type": "faq_item",
+          "settings": {
+            "question": "Do you offer SEO services to improve search rankings?",
+            "answer": "<p>Yes, we provide tailored SEO strategies to help your website rank higher in search results, driving more organic traffic and ensuring maximum visibility for your business.</p>",
+            "icon": "shopify://shop_images/yellow-arrow.svg"
+          }
+        },
+        "faq_item_zyJaTG": {
+          "type": "faq_item",
+          "settings": {
+            "question": "How much do your web development services cost?",
+            "answer": "<p>Our pricing depends on factors such as project size, complexity, and the specific features you require. We provide tailored quotes to ensure your needs are met, but for transparency and a general starting point, please see our pricing page for a detailed breakdown.</p>",
+            "icon": "shopify://shop_images/yellow-arrow.svg"
+          }
+        },
+        "faq_item_KXDtCh": {
+          "type": "faq_item",
+          "settings": {
+            "question": "Can you assist with content writing for my website?",
+            "answer": "<p>Absolutely! We offer professional content writing services, crafting compelling and engaging content to improve user experience and drive engagement on your website.</p>",
+            "icon": "shopify://shop_images/yellow-arrow.svg"
+          }
+        },
+        "faq_item_DVE6fq": {
+          "type": "faq_item",
+          "settings": {
+            "question": "How long does it take to build a website?",
+            "answer": "<p>Timelines depend on the scope and complexity of the project. For most standard websites, we typically need <strong>2-3 weeks</strong> to create a beautiful, fully functional site. For more complex projects involving animations or custom coding, it can take <strong>3-5 weeks</strong>. After an initial consultation, we’ll provide a clear timeline tailored to your project.</p>",
+            "icon": "shopify://shop_images/yellow-arrow.svg"
+          }
+        },
+        "faq_item_cFxCXK": {
+          "type": "faq_item",
+          "settings": {
+            "question": "How can I request a quote for my project?",
+            "answer": "<p>Getting a quote is easy! Simply reach out to us through our website or contact us directly, and we’ll guide you through the process. After understanding your specific needs, we’ll provide you with a detailed, customised quote.</p>",
+            "icon": "shopify://shop_images/yellow-arrow.svg"
+          }
+        }
+      },
+      "block_order": [
+        "faq_item_6eb8q6",
+        "faq_item_zgAUEF",
+        "faq_item_Hxwk7R",
+        "faq_item_qQ7HXc",
+        "faq_item_ahHict",
+        "faq_item_dpcanW",
+        "faq_item_zyJaTG",
+        "faq_item_KXDtCh",
+        "faq_item_DVE6fq",
+        "faq_item_cFxCXK"
+      ],
+      "settings": {
+        "heading": "Frequently Asked Questions",
+        "bg_color": "#f3f3f3",
+        "max_width": 1200,
+        "desktop_padding_top": 80,
+        "desktop_padding_bottom": 80,
+        "mobile_padding_top": 60,
+        "mobile_padding_bottom": 60
+      }
+    },
+    "effect_form_XW4Jxd": {
+      "type": "effect-form",
+      "blocks": {
+        "circle_image_FX6TGK": {
+          "type": "circle_image",
+          "settings": {
+            "image": "shopify://shop_images/dollar-sign_3cd43b74-5004-4bd4-be80-09f8bea39336.svg",
+            "desktop_width": 141,
+            "mobile_width": 81,
+            "desktop_pos_x": 6,
+            "desktop_pos_y": -14,
+            "mobile_pos_x": 6,
+            "mobile_pos_y": -8,
+            "init_angle": 180,
+            "target_angle": 0
+          }
+        },
+        "circle_image_fhMTxm": {
+          "type": "circle_image",
+          "settings": {
+            "image": "shopify://shop_images/dollar-sign_3cd43b74-5004-4bd4-be80-09f8bea39336.svg",
+            "desktop_width": 114,
+            "mobile_width": 99,
+            "desktop_pos_x": 6,
+            "desktop_pos_y": 88,
+            "mobile_pos_x": 6,
+            "mobile_pos_y": 92,
+            "init_angle": -90,
+            "target_angle": 90
+          }
+        },
+        "circle_image_c8dwRD": {
+          "type": "circle_image",
+          "settings": {
+            "image": "shopify://shop_images/dollar-sign_3cd43b74-5004-4bd4-be80-09f8bea39336.svg",
+            "desktop_width": 105,
+            "mobile_width": 57,
+            "desktop_pos_x": 86,
+            "desktop_pos_y": 88,
+            "mobile_pos_x": 78,
+            "mobile_pos_y": 96,
+            "init_angle": 0,
+            "target_angle": -90
+          }
+        },
+        "circle_image_tter7F": {
+          "type": "circle_image",
+          "settings": {
+            "image": "shopify://shop_images/pink-circle.svg",
+            "desktop_width": 96,
+            "mobile_width": 36,
+            "desktop_pos_x": 90,
+            "desktop_pos_y": 16,
+            "mobile_pos_x": 86,
+            "mobile_pos_y": 20,
+            "init_angle": 0,
+            "target_angle": -360
+          }
+        },
+        "circle_image_txqV6r": {
+          "type": "circle_image",
+          "settings": {
+            "image": "shopify://shop_images/white-circle.svg",
+            "desktop_width": 60,
+            "mobile_width": 21,
+            "desktop_pos_x": 0,
+            "desktop_pos_y": 16,
+            "mobile_pos_x": -2,
+            "mobile_pos_y": 30,
+            "init_angle": -360,
+            "target_angle": 0
+          }
+        },
+        "payment_app_image_C8FaiX": {
+          "type": "payment_app_image",
+          "settings": {
+            "image": "shopify://shop_images/note_302a7c40-8b3e-4c70-9001-4ae5c6e946df.svg",
+            "desktop_width": 123,
+            "mobile_width": 39,
+            "desktop_pos_x": 2,
+            "desktop_pos_y": 46,
+            "mobile_pos_x": 0,
+            "mobile_pos_y": 20,
+            "desktop_translate_x": -10,
+            "desktop_translate_y": -10,
+            "desktop_rotate_x": -20,
+            "desktop_rotate_y": 20,
+            "desktop_max_x": -50,
+            "desktop_max_y": 0,
+            "mobile_translate_x": -10,
+            "mobile_translate_y": -10,
+            "mobile_rotate_x": -20,
+            "mobile_rotate_y": 20,
+            "mobile_max_x": -10,
+            "mobile_max_y": 0
+          }
+        },
+        "payment_app_image_KRmUWH": {
+          "type": "payment_app_image",
+          "settings": {
+            "image": "shopify://shop_images/note_302a7c40-8b3e-4c70-9001-4ae5c6e946df.svg",
+            "desktop_width": 108,
+            "mobile_width": 39,
+            "desktop_pos_x": 76,
+            "desktop_pos_y": -8,
+            "mobile_pos_x": 72,
+            "mobile_pos_y": -2,
+            "desktop_translate_x": 5,
+            "desktop_translate_y": 5,
+            "desktop_rotate_x": 15,
+            "desktop_rotate_y": -15,
+            "desktop_max_x": 0,
+            "desktop_max_y": 0,
+            "mobile_translate_x": 5,
+            "mobile_translate_y": 5,
+            "mobile_rotate_x": 15,
+            "mobile_rotate_y": -15,
+            "mobile_max_x": 0,
+            "mobile_max_y": 0
+          }
+        }
+      },
+      "block_order": [
+        "circle_image_FX6TGK",
+        "circle_image_fhMTxm",
+        "circle_image_c8dwRD",
+        "circle_image_tter7F",
+        "circle_image_txqV6r",
+        "payment_app_image_C8FaiX",
+        "payment_app_image_KRmUWH"
+      ],
+      "settings": {
+        "first_heading": "Let’s get started",
+        "second_heading": "With Web Development!",
+        "text": "<p>Whether you’re looking to refresh your current website or start from scratch, we’ve got the expertise to bring your vision to life. Let’s build something that drives results.</p>",
+        "email_placeholder_text": "Enter your email to start.",
+        "submit_button_text": "Get Started",
+        "bg_color": "#d9e021",
+        "card_border_width": 2,
+        "card_border_color": "#000000",
+        "card_border_radius": 24,
+        "desktop_card_padding_top": 80,
+        "desktop_card_padding_bottom": 80,
+        "mobile_card_padding_top": 50,
+        "mobile_card_padding_bottom": 50,
+        "desktop_padding_top": 100,
+        "desktop_padding_bottom": 100,
+        "mobile_padding_top": 70,
+        "mobile_padding_bottom": 70
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "text_heading_yfzfFH",
+    "service_form_yJVMbz",
+    "image_with_text_list_EbY8z7",
+    "animation_image_block_Tg9BDe",
+    "faq_q4XxCp",
+    "effect_form_XW4Jxd"
   ]
 }
