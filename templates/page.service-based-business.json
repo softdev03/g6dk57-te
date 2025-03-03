@@ -85,6 +85,7 @@
           "settings": {
             "field_type": "text",
             "field_name": "Name",
+            "required": true,
             "placeholder": "Name*",
             "options": "",
             "pattern": ""
@@ -95,6 +96,7 @@
           "settings": {
             "field_type": "email",
             "field_name": "Email",
+            "required": true,
             "placeholder": "Email*",
             "options": "",
             "pattern": ""
@@ -105,6 +107,7 @@
           "settings": {
             "field_type": "text",
             "field_name": "Domain",
+            "required": false,
             "placeholder": "Please provide your domain",
             "options": "",
             "pattern": ""
@@ -115,6 +118,7 @@
           "settings": {
             "field_type": "text",
             "field_name": "Phone Number",
+            "required": true,
             "placeholder": "Phone Number*",
             "options": "",
             "pattern": ""
@@ -125,7 +129,8 @@
           "settings": {
             "field_type": "textarea",
             "field_name": "Message",
-            "placeholder": "Message",
+            "required": true,
+            "placeholder": "Message*",
             "options": "",
             "pattern": ""
           }
@@ -197,6 +202,7 @@
         "form_border_width": 2,
         "form_border_radius": 25,
         "show_reCAPTCHA_widget": true,
+        "show_faq": true,
         "desktop_padding_top": 80,
         "desktop_padding_bottom": 80,
         "mobile_padding_top": 60,

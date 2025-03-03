@@ -85,6 +85,7 @@
           "settings": {
             "field_type": "text",
             "field_name": "First Name",
+            "required": true,
             "placeholder": "First Name*",
             "options": "",
             "pattern": ""
@@ -95,6 +96,7 @@
           "settings": {
             "field_type": "text",
             "field_name": "Last Name",
+            "required": true,
             "placeholder": "Last Name*",
             "options": "",
             "pattern": ""
@@ -105,6 +107,7 @@
           "settings": {
             "field_type": "email",
             "field_name": "Work Email",
+            "required": true,
             "placeholder": "Work Email*",
             "options": "",
             "pattern": ""
@@ -115,6 +118,7 @@
           "settings": {
             "field_type": "text",
             "field_name": "Company Name",
+            "required": true,
             "placeholder": "Company Name*",
             "options": "",
             "pattern": ""
@@ -125,6 +129,7 @@
           "settings": {
             "field_type": "text",
             "field_name": "Phone Number",
+            "required": false,
             "placeholder": "Phone Number",
             "options": "",
             "pattern": ""
@@ -135,6 +140,7 @@
           "settings": {
             "field_type": "select",
             "field_name": "Current Platform",
+            "required": false,
             "placeholder": "What platforms are you migrating from?",
             "options": "WooCommerce|Magento|BigCommerce|Wordpress|Other",
             "pattern": ""
@@ -145,6 +151,7 @@
           "settings": {
             "field_type": "text",
             "field_name": "Domain",
+            "required": false,
             "placeholder": "Please provide your current domain name.",
             "options": "",
             "pattern": ""
@@ -155,6 +162,7 @@
           "settings": {
             "field_type": "select",
             "field_name": "Reason",
+            "required": false,
             "placeholder": "Choose a reason for reaching out.",
             "options": "Choose a reason for reaching out|Interested in Shopify Plus Development|Migrating to Shopify Plus|Custom Shopify Plus Features|Shopify Plus Consultation|General Inquiry About Shopify Plus",
             "pattern": ""
@@ -165,6 +173,7 @@
           "settings": {
             "field_type": "textarea",
             "field_name": "Message",
+            "required": false,
             "placeholder": "Message",
             "options": "",
             "pattern": ""
@@ -233,6 +242,7 @@
         "form_border_width": 2,
         "form_border_radius": 25,
         "show_reCAPTCHA_widget": true,
+        "show_faq": true,
         "desktop_padding_top": 80,
         "desktop_padding_bottom": 80,
         "mobile_padding_top": 50,
