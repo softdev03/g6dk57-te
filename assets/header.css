@@ -93,6 +93,10 @@ details.mega-menu::before {
   left: 0px;
   top: 100%;
   position: absolute;
+  display: none;
+}
+details.mega-menu:hover::before {
+  display: block;
 }
 .header-wrapper--border-bottom .mega-menu__content {
   position: fixed;
