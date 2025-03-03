@@ -10,9 +10,9 @@
     id="HeaderMenu-{{ link.handle }}"
     class="header__menu-item list-menu__item link focus-inset"
   >
-    <span>
+    <a href="{{ link.url }}">
       {{- link.title | escape -}}
-    </span>
+    </a>
     {{- 'icon-caret.svg' | inline_asset_content -}}
   </summary>
   <ul
@@ -40,7 +40,8 @@
               id="HeaderMenu-{{ link.handle }}-{{ childlink.handle }}"
               class="header__menu-item link link--text list-menu__item focus-inset caption-large"
             >
-              <span>{{ childlink.title | escape }}</span>
+              {% comment %} <span>{{ childlink.title | escape }}</span> {% endcomment %}
+               <a href="{{ childlink.url }}">{{ childlink.title | escape }}</a>
               {{- 'icon-caret.svg' | inline_asset_content -}}
             </summary>
             <ul

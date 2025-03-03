@@ -1,0 +1,60 @@
+.shopify-section-about-card-list .card-list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  row-gap: 80px;
+}
+.shopify-section-about-card-list .card-item {
+  padding: 90px 60px 30px;
+  border-radius: 25px;
+  width: calc(50% - 40px);
+  height: fit-content;
+  position: relative;
+}
+.shopify-section-about-card-list .image-wrapper {
+  width: 120px;
+	aspect-ratio: 1;
+  background-color: #d9e021;
+  border-radius: 20px;
+  position: absolute;
+  box-shadow: 4px 4px 10px 1px black;
+  top: -72px;
+	overflow: hidden;
+}
+.shopify-section-about-card-list .image {
+  line-height: 0px;
+  width: 100%;
+	aspect-ratio: 1;
+	transition: all .3s;
+	cursor: pointer;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+}
+.shopify-section-about-card-list .image:hover {
+	width: 110%;
+}
+.shopify-section-about-card-list .card-heading {
+  text-transform: capitalize;
+  margin-bottom: 30px;
+}
+@media screen and (max-width: 1023px) {
+  .shopify-section-about-card-list .card-item {
+    padding: 90px 30px 30px;
+    width: calc(50% - 20px);
+  }
+}
+@media screen and (max-width: 749px) {
+  .shopify-section-about-card-list .card-item {
+    width: 100%;
+    padding-top: 80px;
+  }
+  .shopify-section-about-card-list .image-wrapper {
+    width: 90px;
+    top: -50px;
+  }
+  .shopify-section-about-card-list .card-heading {
+    margin-bottom: 20px;
+  }
+}

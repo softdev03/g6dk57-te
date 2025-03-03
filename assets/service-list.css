@@ -1,14 +1,14 @@
-.shopify-section-service-list .heading {
+.shopify-section-service-card-list .heading {
   text-align: center;
   margin-bottom: 150px;
 }
-.shopify-section-service-list .service-list {
+.shopify-section-service-card-list .service-list {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
   row-gap: 90px;
 }
-.shopify-section-service-list .service-item {
+.shopify-section-service-card-list .service-item {
   position: relative;
   width: calc((100% - 60px) / 3);
   padding: 30px;
@@ -17,7 +17,7 @@
   height: fit-content;
   background-color: #e6e6e6;
 }
-.shopify-section-service-list .image {
+.shopify-section-service-card-list .image {
   line-height: 0;
   margin-top: -100px;
   border: 2px solid;
@@ -30,42 +30,42 @@
   transition: all 0.5s;
   transform: translateY(0px);
 }
-.shopify-section-service-list .image:hover {
+.shopify-section-service-card-list .image:hover {
   transform: translateY(10px);
 }
-.shopify-section-service-list .image img {
+.shopify-section-service-card-list .image img {
   width: 100%;
 }
-.shopify-section-service-list .service-item-heading {
+.shopify-section-service-card-list .service-item-heading {
   font-size: 25px;
   font-weight: 400;
 }
-.shopify-section-service-list .service-item-heading.second {
+.shopify-section-service-card-list .service-item-heading.second {
   margin-bottom: 20px;
 }
-.shopify-section-service-list .service-item-text {
+.shopify-section-service-card-list .service-item-text {
   font-size: 16px;
   line-height: 1.5;
 }
 
 @media screen and (max-width: 1023px) {
-  .shopify-section-service-list .service-item-heading {
+  .shopify-section-service-card-list .service-item-heading {
     font-size: 18px;
   }
-  .shopify-section-service-list .service-item-text {
+  .shopify-section-service-card-list .service-item-text {
     font-size: 14px;
   }
 }
 @media screen and (max-width: 899px) {
-  .shopify-section-service-list .service-item {
+  .shopify-section-service-card-list .service-item {
     width: 100%;
   }
 }
 @media screen and (max-width: 749px) {
-  .shopify-section-service-list .heading {
+  .shopify-section-service-card-list .heading {
     margin-bottom: 100px;
   }
-  .shopify-section-service-list .image {
+  .shopify-section-service-card-list .image {
     width: 100px;
     margin-top: -90px;
   }

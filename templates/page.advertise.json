@@ -495,6 +495,8 @@
       "settings": {
         "heading": "Partnered With",
         "bg_color": "#fbfbfb",
+        "desktop_card_border_radius": 10,
+        "mobile_card_border_radius": 6,
         "desktop_padding_top": 30,
         "desktop_padding_bottom": 30,
         "mobile_padding_top": 30,

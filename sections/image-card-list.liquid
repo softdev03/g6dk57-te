@@ -26,7 +26,7 @@
     }
   }
 {%- endstyle -%}
-<div class="shopify-section-card-list page-width">
+<div class="shopify-section-image-card-list page-width">
   {%- if section.settings.heading != blank -%}
     <h1 class="heading m-0">{{ section.settings.heading }}</h1>
   {%- endif -%}
@@ -64,9 +64,9 @@
 </div>
 {% schema %}
 {
-  "name": "Card List",
+  "name": "Image Card List",
   "tag": "section",
-  "class": "shopify-seciton--card-list",
+  "class": "shopify-seciton--image-card-list",
   "settings": [
     {
       "type": "text",
@@ -202,7 +202,7 @@
   ],
   "presets": [
     {
-      "name": "Card List",
+      "name": "Image Card List",
       "settings": {}
     }
   ]
