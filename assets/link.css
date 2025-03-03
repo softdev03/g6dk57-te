@@ -1,0 +1,34 @@
+.shopify-section-link .link {
+  padding: 10px 30px;
+  text-decoration: none;
+	text-align: center;
+	display: block;
+	width: fit-content;
+}
+.shopify-section-link .link.desktop-left {
+  margin-right: auto;
+}
+.shopify-section-link .link.desktop-center {
+  margin-left: auto;
+  margin-right: auto;
+}
+.shopify-section-link .link.desktop-right {
+  margin-left: auto;
+}
+@media screen and (max-width: 749px) {
+  .shopify-section-link .link.mobile-left {
+    margin-right: auto;
+  }
+  .shopify-section-link .link.mobile-center {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .shopify-section-link .link.mobile-right {
+    margin-left: auto;
+  }
+}
+@media screen and (max-width: 374px) {
+	.shopify-section-link .link {
+		width: 100%;
+	}
+}

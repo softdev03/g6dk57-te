@@ -11,6 +11,10 @@
   height: 100%;
   box-shadow: 0 0 3px #000;
 }
+.header {
+   z-index: 1;
+   position: relative;
+}
 .header .phone-number {
   margin-left: auto;
   display: block;

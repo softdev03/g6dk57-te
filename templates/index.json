@@ -39,8 +39,6 @@
             "mobile_font_size": 24,
             "desktop_font_weight": "600",
             "mobile_font_weight": "600",
-            "line_height": 1.2,
-            "letter_spacing": -1,
             "desktop_text_transform": "none",
             "mobile_text_transform": "default"
           }
@@ -57,8 +55,6 @@
             "mobile_font_size": 24,
             "desktop_font_weight": "600",
             "mobile_font_weight": "600",
-            "line_height": 1.2,
-            "letter_spacing": -1,
             "desktop_text_transform": "capitalize",
             "mobile_text_transform": "capitalize"
           }
@@ -75,8 +71,6 @@
             "mobile_font_size": 18,
             "desktop_font_weight": "400",
             "mobile_font_weight": "400",
-            "line_height": 1.2,
-            "letter_spacing": 1,
             "desktop_text_transform": "none",
             "mobile_text_transform": "default"
           }
@@ -96,7 +90,7 @@
       }
     },
     "card_list_C4T6Dr": {
-      "type": "card-list",
+      "type": "image-card-list",
       "blocks": {
         "card_mf3emz": {
           "type": "card",
@@ -178,7 +172,7 @@
       }
     },
     "card_list_VB3J6F": {
-      "type": "card-list",
+      "type": "image-card-list",
       "blocks": {
         "card_ptBaFr": {
           "type": "card",
@@ -367,7 +361,7 @@
       }
     },
     "service_list_HXKjt7": {
-      "type": "service-list",
+      "type": "service-card-list",
       "blocks": {
         "service_item_qm9bAF": {
           "type": "service_item",

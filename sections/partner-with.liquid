@@ -5,10 +5,16 @@
     padding-bottom: {{ section.settings.desktop_padding_bottom }}px;
     background-color: {{ section.settings.bg_color }};
   }
+  #shopify-section-{{ section.id }} .image {
+    border-radius: {{ section.settings.desktop_card_border_radius }}px;
+  }
   @media screen and (max-width: 749px) {
     #shopify-section-{{ section.id }} {
       padding-top: {{ section.settings.mobile_padding_top }}px;
       padding-bottom: {{ section.settings.mobile_padding_bottom }}px;
+    }
+    #shopify-section-{{ section.id }} .image {
+      border-radius: {{ section.settings.mobile_card_border_radius }}px;
     }
   }
 {%- endstyle -%}
@@ -50,6 +56,26 @@
       "id": "bg_color",
       "label": "Background Color",
       "default": "#000000"
+    },
+    {
+      "type": "range",
+      "id": "desktop_card_border_radius",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "label": "Desktop Card Border Radius",
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "mobile_card_border_radius",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "label": "Mobile Card Border Radius",
+      "default": 0
     },
     {
       "type": "header",

@@ -1,0 +1,54 @@
+.shopify-section-about-hero {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  row-gap: 40px;
+}
+.shopify-section-about-hero > div {
+  width: calc(50% - 30px);
+}
+.shopify-section-about-hero .heading {
+  text-transform: capitalize;
+  margin-bottom: 60px;
+  font-size: 60px;
+}
+.shopify-section-about-hero .text {
+  row-gap: 50px;
+  font-size: 20px;
+}
+.shopify-section-about-hero .image-wrapper {
+  padding: 100px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  border: 2px solid;
+  border-radius: 25px;
+  overflow: hidden;
+}
+.shopify-section-about-hero .image {
+  line-height: 0;
+  width: 96%;
+}
+@media screen and (max-width: 1023px) {
+  .shopify-section-about-hero .heading {
+    font-size: 40px;
+    margin-bottom: 40px;
+  }
+  .shopify-section-about-hero .text {
+    font-size: 16px;
+    row-gap: 20px;
+  }
+}
+@media screen and (max-width: 749px) {
+  .shopify-section-about-hero > div {
+    width: 100%;
+  }
+  .shopify-section-about-hero .heading {
+    font-size: 28px;
+    margin-bottom: 30px;
+  }
+  .shopify-section-about-hero .text {
+    font-size: 14px;
+    row-gap: 15px;
+  }
+}
