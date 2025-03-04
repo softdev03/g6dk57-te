@@ -154,14 +154,13 @@ summary.list-menu__item > a {
 .header-wrapper .header__submenu .header__menu-item:hover, .header-wrapper .mega-menu__list .mega-menu__link:hover {
   color: rgb(91, 94, 118);
 }
-.header__submenu .header__menu-item:has(.menu-icon) {
+.header__submenu .header__menu-item:has(.menu-icon),.menu-drawer__menu-item:has(.menu-icon) {
   display: flex;
   column-gap: 10px;
   justify-content: flex-start;
   align-items: center;
-  /* text-decoration: none; */
 }
-.header__submenu .header__menu-item:hover .menu-icon {
+.header__submenu .header__menu-item:hover .menu-icon,.menu-drawer__menu-item:hover .menu-icon {
   width: 25px;
 }
 .menu-icon {
