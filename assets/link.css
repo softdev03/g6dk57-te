@@ -4,6 +4,8 @@
 	text-align: center;
 	display: block;
 	width: fit-content;
+	font-size: 20px;
+	font-weight: 500;
 }
 .shopify-section-link .link.desktop-left {
   margin-right: auto;

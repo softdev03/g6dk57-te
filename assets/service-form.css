@@ -4,6 +4,12 @@
   flex-wrap: wrap;
   row-gap: 50px;
 }
+.shopify-section-service-form .text-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  row-gap: 70px;
+}
 .shopify-section-service-form > * {
   width: calc(50% - 40px);
 }
@@ -66,7 +72,8 @@
   outline: none;
   box-shadow: none;
 }
-.shopify-section-service-form input:focus,.shopify-section-service-form textarea:focus {
+.shopify-section-service-form input:focus,
+.shopify-section-service-form textarea:focus {
   outline: none;
   box-shadow: none;
 }
@@ -79,7 +86,7 @@
 }
 
 @media screen and (max-width: 1023px) {
-  .shopify-section-service-form>* {
+  .shopify-section-service-form > * {
     width: 100%;
   }
 }
@@ -99,7 +106,8 @@
   .shopify-section-service-form .form-heading {
     font-size: 20px;
   }
-  .shopify-section-service-form form input,.shopify-section-service-form form textarea {
+  .shopify-section-service-form form input,
+  .shopify-section-service-form form textarea {
     font-size: 14px;
   }
   .shopify-section-service-form .elementor-field-subgroup {
@@ -114,5 +122,56 @@
   }
   .shopify-section-service-form .g-recaptcha iframe {
     max-width: 100%;
+  }
+}
+
+.shopify-section-service-form .contact-inform {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  row-gap: 80px;
+}
+.shopify-section-service-form .contact-card {
+  padding: 90px 30px 40px;
+  border-radius: 25px;
+  width: calc(50% - 20px);
+  height: fit-content;
+  position: relative;
+  border: 2px solid;
+}
+.shopify-section-service-form .contact-card .image-wrapper {
+  background-color: #e6e6e6;
+  width: 100px;
+  aspect-ratio: 1;
+  border-radius: 20px;
+  position: absolute;
+  box-shadow: 4px 4px 10px 1px #000;
+  top: -55px;
+  overflow: hidden;
+}
+.shopify-section-service-form .contact-card .image {
+  line-height: 0px;
+  width: 100%;
+  aspect-ratio: 1;
+  transition: all 0.3s;
+  cursor: pointer;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.shopify-section-service-form .contact-card .image:hover {
+  width: 110%;
+}
+.shopify-section-service-form .contact-card .card-heading {
+  text-transform: capitalize;
+  margin-bottom: 20px;
+}
+.shopify-section-service-form .contact-card .text {
+  margin-bottom: 0;
+}
+@media screen and (max-width: 511px) {
+  .shopify-section-service-form .contact-card {
+    width: 100%;
   }
 }

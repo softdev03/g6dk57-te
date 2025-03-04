@@ -1,7 +1,17 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
         "padding_top": 36,
         "padding_bottom": 36
@@ -9,6 +19,7 @@
     },
     "form": {
       "type": "contact-form",
+      "disabled": true,
       "settings": {
         "heading": "",
         "heading_size": "h1",
@@ -16,10 +27,222 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "service_form_UQnH4i": {
+      "type": "service-form",
+      "blocks": {
+        "form_item_CQPpYK": {
+          "type": "form_item",
+          "settings": {
+            "field_type": "text",
+            "field_name": "First Name",
+            "required": true,
+            "placeholder": "First Name*",
+            "options": "",
+            "pattern": ""
+          }
+        },
+        "form_item_3THqyF": {
+          "type": "form_item",
+          "settings": {
+            "field_type": "text",
+            "field_name": "Last Name",
+            "required": true,
+            "placeholder": "Last Name*",
+            "options": "",
+            "pattern": ""
+          }
+        },
+        "form_item_8EQhdB": {
+          "type": "form_item",
+          "settings": {
+            "field_type": "email",
+            "field_name": "Work Email",
+            "required": true,
+            "placeholder": "Work Email*",
+            "options": "",
+            "pattern": ""
+          }
+        },
+        "form_item_NzBdDt": {
+          "type": "form_item",
+          "settings": {
+            "field_type": "text",
+            "field_name": "Company Name",
+            "required": true,
+            "placeholder": "Company Name*",
+            "options": "",
+            "pattern": ""
+          }
+        },
+        "form_item_jPe4yn": {
+          "type": "form_item",
+          "settings": {
+            "field_type": "text",
+            "field_name": "Job Title",
+            "required": true,
+            "placeholder": "Job Title*",
+            "options": "",
+            "pattern": ""
+          }
+        },
+        "form_item_N6pqDD": {
+          "type": "form_item",
+          "settings": {
+            "field_type": "text",
+            "field_name": "Phone Number",
+            "required": false,
+            "placeholder": "Phone Number*",
+            "options": "",
+            "pattern": ""
+          }
+        },
+        "form_item_zDNMdd": {
+          "type": "form_item",
+          "settings": {
+            "field_type": "select",
+            "field_name": "Help",
+            "required": true,
+            "placeholder": "How can we help?",
+            "options": "Set up Dropshipping Store|Marketing|e-Commerce Coaching|Transition to Shopify Plus|Other",
+            "pattern": ""
+          }
+        },
+        "form_item_MfcXLx": {
+          "type": "form_item",
+          "settings": {
+            "field_type": "textarea",
+            "field_name": "Message",
+            "required": false,
+            "placeholder": "Message",
+            "options": "",
+            "pattern": ""
+          }
+        },
+        "contact_info_card_4TVmza": {
+          "type": "contact_info_card",
+          "settings": {
+            "image": "shopify://shop_images/location_info.svg",
+            "heading": "address",
+            "text": "433 Collins Street, Melbourne 3000",
+            "image_bg_color": "#e6e6e6"
+          }
+        },
+        "contact_info_card_fBbBhG": {
+          "type": "contact_info_card",
+          "settings": {
+            "image": "shopify://shop_images/contact_info.svg",
+            "heading": "Contact",
+            "text": "Live chat support is available during standard business hours or call us on 0499226600",
+            "image_bg_color": "#e6e6e6"
+          }
+        }
+      },
+      "block_order": [
+        "form_item_CQPpYK",
+        "form_item_3THqyF",
+        "form_item_8EQhdB",
+        "form_item_NzBdDt",
+        "form_item_jPe4yn",
+        "form_item_N6pqDD",
+        "form_item_zDNMdd",
+        "form_item_MfcXLx",
+        "contact_info_card_4TVmza",
+        "contact_info_card_fBbBhG"
+      ],
+      "settings": {
+        "heading": "Get In Touch",
+        "text": "<p>Have a question before you ditch your old Agency? Feel free to reach out to us for any reason — we’re here to help!</p>",
+        "form_heading": "We would love to hear from you!",
+        "form_text": "<p>You agree to be contacted by ANAGENCY.COM.AU PTY LTD and/or Shopify about their respective services. Your personal information will be processed in accordance with Shopify’s<a href=\"https://www.shopify.com/au/legal/privacy\" target=\"_blank\">Privacy Policy</a>and the<a href=\"https://anagency.com.au/privacy-cookies/\" target=\"_blank\">privacy policy of ANAGENCY.COM.AU PTY LTD</a>, respectively.</p>",
+        "submit_button_text": "Send",
+        "form_bg_color": "#d9e021",
+        "form_border_color": "#000000",
+        "form_border_width": 2,
+        "form_border_radius": 25,
+        "show_reCAPTCHA_widget": true,
+        "show_faq": false,
+        "desktop_padding_top": 80,
+        "desktop_padding_bottom": 80,
+        "mobile_padding_top": 50,
+        "mobile_padding_bottom": 50
+      }
+    },
+    "faq_UxVTeB": {
+      "type": "faq",
+      "blocks": {
+        "faq_item_3jzb7Y": {
+          "type": "faq_item",
+          "settings": {
+            "question": "Why should I move to using Shopify?",
+            "answer": "<p>All commerce functions you (individuals or different-sized companies) need to sell products online are incorporated into one Shopify platform. Moving to Shopify will allow you to self-manage your online store, which is a huge bonus. Shopify is affordable and its checkout function is now globally recognised and user-friendly, with most people accustomed to the buying process. Shopify also offers a large range of apps, will help you grow your customer base, drive sales and orders, and manage business.</p>",
+            "icon": "shopify://shop_images/yellow-arrow_20x_9de1d67f-fe5a-4db9-abf5-77376876a87b.svg"
+          }
+        },
+        "faq_item_AiptEa": {
+          "type": "faq_item",
+          "settings": {
+            "question": "How much does it cost to build a Shopify online store?",
+            "answer": "<p>At An Agency the cost of a build depends on many requirements, complexity of functionality, third party connectivity, number of products, pages and so forth. It’s best to give us a call on 0499226600 to discuss and we will personalise your quote.</p>",
+            "icon": "shopify://shop_images/yellow-arrow_20x_9de1d67f-fe5a-4db9-abf5-77376876a87b.svg"
+          }
+        },
+        "faq_item_DcgAm7": {
+          "type": "faq_item",
+          "settings": {
+            "question": "What is the difference between selecting a theme and a Plus build for your online store?",
+            "answer": "<p>A Plus build is one that is tailored and unique to each brand. Themes are restricted by the selection that is offered on the platform you are using. For example, both Shopify and Shopify Plus offer approximately 60 themes.</p>",
+            "icon": "shopify://shop_images/yellow-arrow_20x_9de1d67f-fe5a-4db9-abf5-77376876a87b.svg"
+          }
+        },
+        "faq_item_dAVHbd": {
+          "type": "faq_item",
+          "settings": {
+            "question": "How long does a build take?",
+            "answer": "<p>Depending on the size of each project, if migration, third-party integrations and so forth are needed, we allow for 3 to 8 weeks.</p>",
+            "icon": "shopify://shop_images/yellow-arrow_20x_9de1d67f-fe5a-4db9-abf5-77376876a87b.svg"
+          }
+        },
+        "faq_item_mHHQb8": {
+          "type": "faq_item",
+          "settings": {
+            "question": "Does the build process include content upload?",
+            "answer": "<p>Generally, we don’t include content upload at An Agency, as we generally have the client handle this. When it comes to migrations, we will transfer the data and content over, but generally we do a refresh of the content and design.</p>",
+            "icon": "shopify://shop_images/yellow-arrow_20x_9de1d67f-fe5a-4db9-abf5-77376876a87b.svg"
+          }
+        },
+        "faq_item_eVtz8i": {
+          "type": "faq_item",
+          "settings": {
+            "question": "Do you provide training or guidance?",
+            "answer": "<p>Yes, 1 month post purchase coaching and we also provide a PDF user guide that explain where to start after your website has been handed over to you.</p>",
+            "icon": "shopify://shop_images/yellow-arrow_20x_9de1d67f-fe5a-4db9-abf5-77376876a87b.svg"
+          }
+        }
+      },
+      "block_order": [
+        "faq_item_3jzb7Y",
+        "faq_item_AiptEa",
+        "faq_item_DcgAm7",
+        "faq_item_dAVHbd",
+        "faq_item_mHHQb8",
+        "faq_item_eVtz8i"
+      ],
+      "settings": {
+        "heading": "Frequently Asked Questions",
+        "bg_color": "#f9f9f9",
+        "max_width": 800,
+        "desktop_padding_top": 80,
+        "desktop_padding_bottom": 80,
+        "mobile_padding_top": 60,
+        "mobile_padding_bottom": 60
+      }
     }
   },
   "order": [
     "main",
-    "form"
+    "form",
+    "service_form_UQnH4i",
+    "faq_UxVTeB"
   ]
 }

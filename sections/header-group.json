@@ -44,10 +44,17 @@
           "settings": {
             "handle": "services"
           }
+        },
+        "menu_item_image_3tYmVM": {
+          "type": "menu_item_image",
+          "settings": {
+            "image_list": "free-ai-tools"
+          }
         }
       },
       "block_order": [
-        "mega_menu_RMTENt"
+        "mega_menu_RMTENt",
+        "menu_item_image_3tYmVM"
       ],
       "settings": {
         "logo_position": "middle-left",
