@@ -2,7 +2,7 @@
 	display: flex;
 	justify-content: space-between;
 	flex-wrap: wrap;
-	row-gap: 60px;
+	row-gap: 120px;
 }
 
 .shopify-section-cfn .text-content {
@@ -28,14 +28,13 @@
 	color: inherit;
 }
 
-.shopify-section-cfn .form-cotnent {
+.shopify-section-cfn .form-content {
 	width: calc(50% - 45px);
 	position: relative;
 	padding: 80px 50px 40px;
-	text-align: center;
 }
 
-.shopify-section-cfn .form-cotnent .logo {
+.shopify-section-cfn .form-content .logo {
 	position: absolute;
 	width: 120px;
 	left: 50%;
@@ -46,12 +45,14 @@
 .shopify-section-cfn .form-heading {
 	margin: 0px;
 	font-size: 25px;
+	text-align: center;
 }
 
 .shopify-section-cfn .form-description {
 	margin-top: 0px;
 	font-size: 15px;
 	margin-bottom: 50px;
+	text-align: center;
 }
 
 .shopify-section-cfn .next-step {
@@ -63,30 +64,42 @@
 	font-weight: 500;
 	cursor: pointer;
 }
+.shopify-section-cfn .next-step:not(.show) {
+	display: none;
+}
 
 .shopify-section-cfn .progressbar {
 	margin: 30px 0px;
 	border-radius: 2px;
 	overflow: hidden;
 }
+.shopify-section-cfn .progressbar:not(.show) {
+	display: none;
+}
 
 .shopify-section-cfn .progress-track {
 	height: 4px;
 	display: block;
 	width: 10%;
+	transition: all .3s;
 }
 
 .shopify-section-cfn .back-step {
 	border: none;
-	background: no-repeat;
+	background: none;
 	text-align: left;
+	cursor: pointer;
+}
+
+.shopify-section-cfn .back-step:not(.show) {
+	display: none;
 }
 
 .shopify-section-cfn .steps {
 	display: flex;
 	justify-content: space-between;
 	flex-wrap: wrap;
-	row-gap: 30px;
+	row-gap: 10px;
 	margin-top: 30px;
 }
 
@@ -128,11 +141,16 @@
 	line-height: 1.2;
 }
 
-.shopify-section-cfn .form-step-section {
+.shopify-section-cfn .form-step-section.form-main {
 	display: flex;
 	flex-direction: column;
 	row-gap: 30px;
 }
+
+.shopify-section-cfn .form-step-section {
+	text-align: center;
+}
+
 .shopify-section-cfn .form-step-section:not(.show) {
 	display: none;
 }
@@ -143,8 +161,19 @@
 	flex-wrap: wrap;
 	row-gap: 30px;
 }
+
 .shopify-section-cfn .name-field .field-wrapper {
 	width: calc(50% - 10px);
+}
+
+.shopify-section-cfn .field-wrapper:not(.show):has(.field.secondary) {
+	display: none;
+}
+.shopify-section-cfn .field-wrapper.show:has(.field.secondary) {
+	margin-top: 20px;
+}
+.shopify-section-cfn .field {
+	position: relative;
 }
 
 .shopify-section-cfn .error-msg {
@@ -155,16 +184,27 @@
 	text-align: left;
 	letter-spacing: 0px;
 }
-.shopify-section-cfn .field-wrapper:not(.error) .error-msg {
+
+.shopify-section-cfn .form-step-section:not(.check-form) .field-wrapper:not(.error) .error-msg {
 	display: none;
 }
+.shopify-section-cfn .form-step-section.check-form:not(.error) .error-msg {
+	display: none;
+}
+
 .shopify-section-cfn .field input {
 	border: none;
 	margin: 0px;
 	height: unset;
 	color: inherit;
 }
-.shopify-section-cfn .field::before,.shopify-section-cfn .field::after {
+
+.shopify-section-cfn .field.phone input {
+	padding-left: 50px;
+}
+
+.shopify-section-cfn .field::before,
+.shopify-section-cfn .field::after {
 	width: 0%;
 	height: 2px;
 	bottom: 0px;
@@ -176,16 +216,21 @@
 	border: none;
 	z-index: 10;
 }
+
 .shopify-section-cfn .field:has(input:focus)::before {
 	display: block;
 	width: 100%;
 }
+
 .shopify-section-cfn .field-wrapper.error .field:after {
 	width: 100%;
 }
-.shopify-section-cfn .field:hover::before,.shopify-section-cfn .field:hover::after {
+
+.shopify-section-cfn .field:hover::before,
+.shopify-section-cfn .field:hover::after {
 	box-shadow: none;
 }
+
 .shopify-section-cfn .field label {
 	transform: translateY(-50%);
 	top: 50%;
@@ -193,6 +238,230 @@
 	color: inherit;
 	letter-spacing: 0px;
 }
+.field__input:not(:placeholder-shown)~.field__label {
+	transform: unset;
+}
+.shopify-section-cfn .field.phone label {
+	left: 50px;
+}
+
 .shopify-section-cfn .field:has(input:focus) label {
 	transform: translateY(0px);
+}
+
+.shopify-section-cfn .country-phone-numbers {
+	position: absolute;
+	width: 400px;
+	background-color: white;
+	z-index: 100;
+	box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.2);
+	max-height: 200px;
+	overflow: auto;
+	top: calc(100% + 10px);
+}
+
+.shopify-section-cfn .country-phone-numbers:not(.open) {
+	display: none;
+}
+
+.shopify-section-cfn .country-list {
+	padding: 5px 0px;
+}
+
+.shopify-section-cfn .country-list.split {
+	border-bottom: 1px solid #ddd;
+}
+
+.shopify-section-cfn .country-item {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 5px 10px;
+	cursor: pointer;
+}
+
+.shopify-section-cfn .country-item:hover {
+	background-color: #f1f1f1;
+}
+
+.shopify-section-cfn .country-item.selected {
+	background-color: #f1f1f1;
+}
+
+.shopify-section-cfn .country-name {
+	display: flex;
+	align-items: center;
+	font-size: 15px;
+	line-height: 1;
+	column-gap: 6px;
+	text-align: left;
+}
+
+.shopify-section-cfn .country-name img {
+	width: 25px;
+	height: fit-content;
+}
+
+.shopify-section-cfn .phone-number-prefix {
+	margin: 0px;
+	font-size: 15px;
+	line-height: 1;
+	color: #909090;
+}
+
+.shopify-section-cfn .selected-country {
+	position: absolute;
+	line-height: 0;
+	bottom: 12px;
+	left: 10px;
+	display: flex;
+	align-items: center;
+	column-gap: 5px;
+	cursor: pointer;
+}
+.shopify-section-cfn .selected-country:has(.no-image) {
+	display: none;
+}
+.shopify-section-cfn .selected-country img {
+	width: 20px;
+	height: fit-content;
+}
+
+.shopify-section-cfn .selected-country .arrow {
+	display: block;
+	width: 0px;
+	height: 0px;
+	border: 4px solid transparent;
+	border-top-color: black;
+	margin: 0px;
+}
+
+.shopify-section-cfn .selected-country.open .arrow {
+	border-bottom-color: black;
+	border-top-color: transparent;
+}
+
+.shopify-section-cfn .part-heading {
+	font-size: 21px;
+	margin-top: 0px;
+	margin-bottom: 16px;
+}
+.shopify-section-cfn .form-step-section:not(:has(.part-description)) .part-heading {
+	margin-bottom: 30px;
+}
+
+.shopify-section-cfn .part-description {
+	font-size: 14px;
+	margin-top: 0px;
+	line-height: 1.2;
+	margin-bottom: 30px;
+}
+
+.shopify-section-cfn .check-field {
+	text-align: left;
+	font-size: 14px;
+	display: flex;
+	align-items: center;
+	column-gap: 10px;
+	padding: 15px 20px;
+	cursor: pointer;
+}
+
+.shopify-section-cfn .check-field:not(:first-child) {
+	margin-top: -1px;
+}
+.shopify-section-cfn .check-field label {
+	display: block;
+	width: 100%;
+}
+.shopify-section-cfn .check-field input {
+	appearance: none;
+	-webkit-appearance: none;
+	min-width: 15px;
+	max-width: 15px;
+	height: 15px;
+	border: 1px solid transparent;
+	background-clip: content-box;
+	margin: 0px;
+  padding: 3px;
+}
+
+.shopify-section-cfn .dropdown {
+	position: absolute;
+	width: 100%;
+	left: 0px;
+	top: 0px;
+	z-index: 100;
+	text-align: left;
+	max-height: 200px;
+	overflow: auto;
+}
+.shopify-section-cfn .dropdown:not(.show) {
+	display: none;
+}
+.shopify-section-cfn .dropdown-item {
+	padding: 5px 10px;
+	cursor: pointer;
+}
+.shopify-section-cfn .dropdown-item input {
+	display: none;
+}
+.shopify-section-cfn .dropdown-item label {
+	font-size: 16px;
+	font-weight: 500;
+	width: 100%;
+	display: block;
+	transform: none;
+}
+
+@media screen and (max-width: 1023px) {
+	.shopify-section-cfn .text-content {
+		width: 100%;
+	}
+	.shopify-section-cfn .form-content {
+		width: 100%;
+	}
+	.shopify-section-cfn .description {
+		font-size: 16px;
+	}
+	.shopify-section-cfn .form-content {
+		padding: 60px 30px 20px;
+	}
+	.shopify-section-cfn .form-content .logo {
+		width: 80px;
+	}
+}
+@media screen and (max-width: 749px) {
+	.shopify-section-cfn .form-content {
+		padding: 60px 15px 20px;
+	}
+	.shopify-section-cfn .form-heading {
+		font-size: 20px;
+	}
+	.shopify-section-cfn .form-description {
+		font-size: 14px;
+		margin-bottom: 30px;
+	}
+	.shopify-section-cfn .form-step-section.form-main {
+		row-gap: 25px;
+	}
+	.shopify-section-cfn .name-field .field-wrapper {
+		width: calc(50% - 5px);
+	}
+	.shopify-section .step-item {
+		width: 100%;
+	}
+	.shopify-section-cfn .next-step {
+		margin-top: 30px;
+	}
+	.shopify-section-cfn .progressbar {
+		margin: 25px 0px;
+	}
+
+	.shopify-section-cfn .part-heading {
+		font-size: 18px;
+	}
+	.shopify-section-cfn .part-description {
+		font-size: 13px;
+	}
 }

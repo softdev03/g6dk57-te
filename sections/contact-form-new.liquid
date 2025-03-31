@@ -30,16 +30,30 @@
       </div>
     {%- endif -%}
   </div>
-{% assign r = section.settings.box_shadow_color | slice: 1, 2 | hex_to_dec %}
-{% assign g = section.settings.box_shadow_color | slice: 3, 2 | hex_to_dec %}
-{% assign b = section.settings.box_shadow_color | slice: 5, 2 | hex_to_dec %}
-  <div class="form-cotnent" style="border-radius: {{ section.settings.border_radius }}px; background-color: {{ section.settings.form_bg_color }}; box-shadow: 0px 0px 64px 0px rgba({{ r }},{{ g }}, {{ b }} ,0.15)">
+{%- assign rgb = section.settings.box_shadow_color |  color_to_rgb |  remove: 'rgb(' |  remove: ')'   -%}
+  <div class="form-content" style="border-radius: {{ section.settings.border_radius }}px; background-color: {{ section.settings.form_bg_color }}; box-shadow: 0px 0px 64px 0px rgba({{ rgb }} ,0.15)">
     {%- form 'contact', id: 'ContactForm', class: contact_form_class -%}
       {%- if form.posted_successfully? -%}
         <h2 class="form-status form-status-list form__message" tabindex="-1" autofocus>
           {{- 'icon-success.svg' | inline_asset_content -}}
           {{ 'templates.contact.form.post_success' | t }}
         </h2>
+				{%- elsif form.errors -%}
+					<div class="form__message">
+						<h2 class="form-status caption-large text-body" role="alert" tabindex="-1" autofocus>
+							{{- 'icon-error.svg' | inline_asset_content -}}
+							{{ 'templates.contact.form.error_heading' | t }}
+						</h2>
+					</div>
+					<ul class="form-status-list caption-large" role="list">
+						<li>
+							<a href="#ContactForm-email" class="link">
+								{{ form.errors.translated_fields.email | capitalize }}
+								{{ form.errors.messages.email }}
+								{{ form.errors |  json }}
+							</a>
+						</li>
+					</ul>
       {%- endif -%}
 			{%- if section.settings.form_logo != blank -%}
 				<div class="logo">
@@ -67,23 +81,27 @@
 					{%- endcase -%}
 			{%- endfor -%}
 			{%- if section.settings.nex_step_button_text != blank -%}
-				<button class="next-step">{{ section.settings.nex_step_button_text }}</button>
+				<button class="next-step show">{{ section.settings.nex_step_button_text }}</button>
 				{%- style -%}
-					#shopify-section-{{ section.id }} .next-step {
+					#shopify-section-{{ section.id }} .shopify-section-cfn .next-step {
 						color: {{ section.settings.next_step_button_color |  default: "white" }};
 						background-color: {{ section.settings.next_step_button_bg_color |  default: 'black' }};
 						border-radius: {{ section.settings.next_step_button_border_radius }}px;
+						background-position: center;
+  					transition: background 0.8s;
 					}
-					#shopify-section-{{ section.id }} .next-step:hover {
+					#shopify-section-{{ section.id }} .shopify-section-cfn .next-step:hover {
 						color: {{ section.settings.next_step_button_color_hover |  default : 'white' }};
-						background-color: {{ section.settings.next_step_button_bg_color_hover |  default : '#121212' }};
+						background: {{ section.settings.next_step_button_bg_color_hover }} radial-gradient(circle, transparent 1%, {{ section.settings.next_step_button_bg_color_hover }} 1%) center/15000%;
 					}
-					#shopify-section-{{ section.id }} .next-step:active {
-						color: {{ section.settings.next_step_button_color_active |  default : 'white' }};
+					#shopify-section-{{ section.id }} .shopify-section-cfn .next-step:active {
+						background-color: {{ section.settings.next_step_button_bg_color_active |  default : 'white' }};
+						background-size: 100%;
+  					transition: background 0s;
 					}
 				{%- endstyle -%}
 			{%- endif -%}
-			<div class="progressbar" style="background-color: {{ section.settings.progress_bar_bg_color }};">
+			<div class="progressbar show" style="background-color: {{ section.settings.progress_bar_bg_color }};">
 				{%- assign item_percent = 100.0 |  divided_by: step_count -%}
 				<div class="progress-track" style="background-color: {{ section.settings.progress_bar_track_color }}; width:{{ item_percent }}%" item-percent="{{ item_percent }}"></div>
 			</div>
@@ -431,7 +449,12 @@
           "id": "flag_list",
           "label": "Flag List",
           "metaobject_type": "country_list"
-        }
+        },
+				{
+					"type": "text",
+					"id": "default_country",
+					"label": "Default Country"
+				},
       ]
     },
     {
@@ -482,6 +505,12 @@
           "id": "field_items",
           "label": "Field Items"
         },
+				{
+					"type": "color",
+					"id": "field_items_bg_color",
+					"label": "Field Item Background Color",
+					"default": "#fff"
+				},
         {
           "type": "color",
           "id": "field_items_color",
@@ -534,6 +563,12 @@
       "name": "Third Step",
       "settings": [
 				{
+					"type": "checkbox",
+					"id": "final_step",
+					"label": "Final Step",
+					"default": false
+				},
+				{
 					"type": "text",
 					"id": "field_name",
 					"label": "Field Name"
@@ -571,6 +606,12 @@
           "id": "field_items",
           "label": "Field Items"
         },
+				{
+					"type": "color",
+					"id": "field_bg_color",
+					"label": "Field Background Color",
+					"default": "#fff"
+				},
         {
           "type": "color",
           "id": "field_items_color",
@@ -601,6 +642,12 @@
           "label": "Field Border Color when Error",
           "default": "#000000"
         },
+				{
+					"type": "color",
+					"id": "box_shadow_color",
+					"label": "Box Shadow Color",
+					"default": "#000000"
+				},
         {
           "type": "text",
           "id": "place_holder_text",
@@ -650,6 +697,23 @@
 				},
 				{
 					"type": "text",
+					"id": "error_msg",
+					"label": "Error Message"
+				},
+				{
+					"type": "color",
+					"id": "error_msg_color",
+					"label": "Error Message Color",
+					"default": "#f00"
+				},
+				{
+					"type": "text",
+					"id": "text_for_secondary",
+					"label": "Text For Secondary Field",
+					"info": "When users select the text that is equal to the value of this field, the secondary field is appeared."
+				},
+				{
+					"type": "text",
 					"id": "secondary_field_name",
 					"label": "Secondary Field Name"
 				},
@@ -657,30 +721,6 @@
 					"type": "text",
 					"id": "secondary_field_label",
 					"label": "Secondary Field Label"
-				},
-				{
-					"type": "color",
-					"id": "secondary_field_color",
-					"label": "Secondary Field Color",
-					"default": "#000000"
-				},
-				{
-					"type": "color",
-					"id": "secondary_field_border_color",
-					"label": "Secondary Field Border Color",
-					"default": "#000000"
-				},
-				{
-					"type": "color",
-					"id": "secondary_field_border_color_hover",
-					"label": "Secondary Field Border Color when Hover",
-					"default": "#000000"
-				},
-				{
-					"type": "color",
-					"id": "secondary_field_border_color_focus",
-					"label": "Secondary Field Border Color when Focus",
-					"default": "#000000"
 				}
       ]
     },

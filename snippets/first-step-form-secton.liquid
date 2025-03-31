@@ -1,4 +1,4 @@
-<div class="form-step-section form-main {% if block.settings.final_step %} final {% endif %}" id="form-part-{{ block.id }}" index="{{ index }}">
+<div class="form-step-section form-main show {% if block.settings.final_step %} final {% endif %}" id="form-part-{{ block.id }}" index="{{ index }}">
   <div class="name-field">
     <div class="field-wrapper">
       <div class="field">
@@ -32,7 +32,7 @@
     </div>
   </div>
   <div class="field-wrapper">
-    <div class="field">
+    <div class="field email">
       <input
         type="email"
         id="ContactForm-email"
@@ -47,7 +47,7 @@
     <p class="error-msg" style="color: {{ block.settings.error_msg_color }}">{{ block.settings.email_error_msg }}</p>
   </div>
   <div class="field-wrapper">
-    <div class="field">
+    <div class="field phone">
       <input
         type="tel"
         id="ContactForm-phone"
@@ -59,12 +59,15 @@
         placeholder="{{ block.settings.phone_number_label }}"
       >
       <label class="field__label" for="ContactForm-phone">{{ block.settings.phone_number_label }}</label>
-			<div class="selected-country"></div>
+			<div class="selected-country">
+        <img src="" alt="" class="no-image">
+        <div class="arrow"></div>
+      </div>
 			<div class="country-phone-numbers">
 				{%- for country in block.settings.flag_list -%}
-					<div class="country-list">
+					<div class="country-list {% if country.split_line %} split {% endif %}">
 						{%- for country_item in country.country_item_list.value -%}
-							<div class="country-item">
+							<div class="country-item {% if country_item.country_name == block.settings.default_country %} default-country {% endif %}" max="{{ country_item.max_length |  default : 9 }}">
 								<div class="country-name">
 									<img src="{{ country_item.flag |  img_url: '50x' }}" alt="" width="50px" height="auto">
 									{{ country_item.country_name }}
@@ -102,10 +105,8 @@
 			border-bottom: 1px solid {{ block.settings.border_color }};
 			background-color: {{ block.settings.field_bg_color }};
 
-      {% assign r = block.settings.field_box_shadow_color | slice: 1, 2 | hex_to_dec %}
-      {% assign g = block.settings.field_box_shadow_color | slice: 3, 2 | hex_to_dec %}
-      {% assign b = block.settings.field_box_shadow_color | slice: 5, 2 | hex_to_dec %}
-      box-shadow: rgba({{ r }},{{ g }}, {{ b }}, 0.2) 0px 0px 10px 0px;
+      {%- assign rgb = block.settings.field_box_shadow_color |  color_to_rgb |  remove: 'rgb(' |  remove: ')'   -%}
+      box-shadow: rgba({{ rgb }}, 0.2) 0px 0px 10px 0px;
 		}
     #form-part-{{ block.id }} input:not(:empty) {
       background-color: {{ block.settings.field_bg_color_filled }};
