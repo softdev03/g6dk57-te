@@ -23,7 +23,7 @@
         "first_step_tDaw9E": {
           "type": "first_step",
           "settings": {
-            "final_step": true,
+            "final_step": false,
             "first_name_label": "First Name",
             "last_name_label": "Last Name",
             "email_label": "Your Email Address",
@@ -76,6 +76,7 @@
         "third_step_nFBJDQ": {
           "type": "third_step",
           "settings": {
+            "final_step": false,
             "field_name": "best-match",
             "is_required": false,
             "heading": "Which of these best matches your Trade?",
@@ -99,7 +100,7 @@
             "dropdown_item_color_hover": "#000000",
             "dropdown_item_color_selected": "#000000",
             "error_msg": "",
-            "error_msg_color": "#f00",
+            "error_msg_color": "#ff0000",
             "text_for_secondary": "",
             "secondary_field_name": "",
             "secondary_field_label": ""
@@ -129,6 +130,7 @@
         "third_step_VgiNab": {
           "type": "third_step",
           "settings": {
+            "final_step": false,
             "field_name": "website-has",
             "is_required": true,
             "heading": "Do you currently have a website?Yes",
