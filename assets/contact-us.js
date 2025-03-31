@@ -27,8 +27,8 @@ document.addEventListener('DOMContentLoaded', () => {
 				progressBar.closest('.progressbar').classList.remove('show');
 
 				const phoneNumberPrefix = contactForm.querySelector('.country-item.selected .phone-number-prefix').innerHTML.replace(' ','');
-				const phoneField = contactForm.querySelector('.field.phone .field__input');
-				phoneField.value = `${phoneNumberPrefix} ${phoneField.value}`;
+				const phoneField = contactForm.querySelector('.field.phone .field__input[name="phone-prefix"]');
+				phoneField.value = phoneNumberPrefix;
 			} else {
 				e.preventDefault();
 			}
@@ -200,6 +200,7 @@ document.addEventListener('DOMContentLoaded', () => {
 					const secondaryField = stepSection.querySelector('.field.secondary');
 					const appearText = secondaryField.getAttribute('appear-text');
 					input.value = v;
+					dropdown.closest('.field-wrapper').classList.remove('error');
 					dropdown.classList.remove('show');
 					if(appearText === v) {
 						secondaryField.closest('.field-wrapper').classList.add('show');

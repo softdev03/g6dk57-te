@@ -11,6 +11,7 @@
           value="{% if form.first_name %}{{ form.first_name }}{% endif %}"
           placeholder="{{ block.settings.first_name_label }}"
         >
+        <input type="hidden" name="contact[phone-prefix]">
         <label class="field__label" for="ContactForm-first-name">{{ block.settings.first_name_label }}</label>
       </div>
       <p class="error-msg" style="color: {{ block.settings.error_msg_color }}">{{ block.settings.first_name_error_msg }}</p>
