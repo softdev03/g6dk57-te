@@ -29,6 +29,9 @@
 }
 
 @media screen and (max-width: 749px) {
+  .shopify-section-faq .heading {
+    font-size: 32px;
+  }
   .shopify-section-faq .faq-item {
     padding: 20px;
   }

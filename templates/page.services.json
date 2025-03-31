@@ -1,0 +1,364 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "free_ai_tools_CBnkkD": {
+      "type": "free-ai-tools",
+      "blocks": {
+        "free_ai_tool_Up8FFY": {
+          "type": "free_ai_tool",
+          "settings": {
+            "tool_image": "shopify://shop_images/upscalemedia-transformed.jpg",
+            "heading": "Shopify Retail & POS",
+            "text": "<p>Seamless Shopify solutions tailored for both online and in-store success. From setup to integrations, we make selling effortless.</p><p></p>",
+            "tool_link": "shopify://pages/shopify-retail-pos",
+            "link_text": "Get Started",
+            "featured": true
+          }
+        },
+        "free_ai_tool_NabWPy": {
+          "type": "free_ai_tool",
+          "settings": {
+            "tool_image": "shopify://shop_images/NGbMeU26iMGujFtk9eu2goCXI.svg",
+            "heading": "Domain Name Idea Generator",
+            "text": "<p>Make your brand memorable, unique and with catchy domain names.</p>",
+            "tool_link": "shopify://pages/domain-name-idea-generator",
+            "link_text": "Generate Instantly",
+            "featured": false
+          }
+        },
+        "free_ai_tool_GUjN6Y": {
+          "type": "free_ai_tool",
+          "settings": {
+            "tool_image": "shopify://shop_images/j8PTlqrDM6wuv5v2CwStKSBs0w.png",
+            "heading": "Clickbait Title Generator",
+            "text": "<p>Craft catchy, clickbait-style styles tailored to get more visibility.</p>",
+            "tool_link": "shopify://pages/clickbait-title-generator",
+            "link_text": "Generate Instantly",
+            "featured": false
+          }
+        },
+        "free_ai_tool_RBTQNN": {
+          "type": "free_ai_tool",
+          "settings": {
+            "tool_image": "shopify://shop_images/UBDf5mR1iX2b6OnedZM8F3EoDwo.jpg",
+            "heading": "Meta Tag Generator",
+            "text": "<p>Optimize your meta tags for maximum impact and search engine visibility.</p>",
+            "tool_link": "shopify://pages/meta-tag-generator",
+            "link_text": "Generate Instantly",
+            "featured": false
+          }
+        },
+        "free_ai_tool_Qq8gCV": {
+          "type": "free_ai_tool",
+          "settings": {
+            "tool_image": "shopify://shop_images/69f8Z4LWyfLssaQXcej6ayErYDo.jpg",
+            "heading": "AI Blog Generator",
+            "text": "<p>Generate a captivating and well-crafted blog ready to publish in no time!</p>",
+            "tool_link": "shopify://pages/ai-blog-generator",
+            "link_text": "Generate Instantly",
+            "featured": false
+          }
+        },
+        "free_ai_tool_mVBxC8": {
+          "type": "free_ai_tool",
+          "settings": {
+            "tool_image": "shopify://shop_images/UuR6JZKc217M9BIQ4tJhp2bcq0.png",
+            "heading": "Blog Topic Generator",
+            "text": "<p>Generate a list of search intent topics, and blog titles for your niche.</p>",
+            "tool_link": "shopify://pages/blog-topic-generator",
+            "link_text": "Generate Instantly",
+            "featured": false
+          }
+        },
+        "free_ai_tool_7JTnEh": {
+          "type": "free_ai_tool",
+          "settings": {
+            "tool_image": "shopify://shop_images/fHC0mVLxt4HkAX5IPOR7ozKGT0k.png",
+            "heading": "Product Description Generator",
+            "text": "<p>Write compelling product descriptions to make customers want to buy.</p>",
+            "tool_link": "shopify://pages/product-description-generator",
+            "link_text": "Generate Instantly",
+            "featured": false
+          }
+        },
+        "free_ai_tool_3KJYdx": {
+          "type": "free_ai_tool",
+          "disabled": true,
+          "settings": {
+            "tool_image": "shopify://shop_images/dMishi2ZLbf5QZwdDSoNSF0JJ08.jpg",
+            "heading": "Promotional Email Generator",
+            "text": "<p>Send out engaging promotional emails for your product easily.</p>",
+            "tool_link": "shopify://pages/promotional-email-generator",
+            "link_text": "Generate Instantly",
+            "featured": false
+          }
+        },
+        "free_ai_tool_8ayVBb": {
+          "type": "free_ai_tool",
+          "disabled": true,
+          "settings": {
+            "tool_image": "shopify://shop_images/EvZAxbIVXJ7a4XjodcKWu5ce3g.jpg",
+            "heading": "Abandoned Cart Email",
+            "text": "<p>Regain your lost sales with our AI abandoned cart emails generators.</p>",
+            "tool_link": "shopify://pages/abandoned-cart-email",
+            "link_text": "Generate Instantly",
+            "featured": false
+          }
+        },
+        "free_ai_tool_fjFeex": {
+          "type": "free_ai_tool",
+          "disabled": true,
+          "settings": {
+            "tool_image": "shopify://shop_images/amIDSWdW8qqHkhtZkiJ64tyOY8.jpg",
+            "heading": "Article Rewriter Tool",
+            "text": "<p>Revamp your articles to sound human while avoiding AI detection.</p>",
+            "tool_link": "shopify://pages/article-rewriter-tool",
+            "link_text": "Generate Instantly",
+            "featured": false
+          }
+        },
+        "free_ai_tool_ewFVew": {
+          "type": "free_ai_tool",
+          "disabled": true,
+          "settings": {
+            "tool_image": "shopify://shop_images/Ot9Cwo0dzxHc5WYUAmZdgMXzDE.png",
+            "heading": "YouTube Idea Generator",
+            "text": "<p>Get unique and interesting YouTube Ideas to attract your audience.</p>",
+            "tool_link": "shopify://pages/youtube-idea-generator",
+            "link_text": "Generate Instantly",
+            "featured": false
+          }
+        },
+        "free_ai_tool_xhCUzz": {
+          "type": "free_ai_tool",
+          "disabled": true,
+          "settings": {
+            "tool_image": "shopify://shop_images/Hr63NonEyMv4SiIm8vWmjUIU.png",
+            "heading": "YouTube Title Generator",
+            "text": "<p>Generates attractive YouTube titles that engage your audience.</p>",
+            "tool_link": "shopify://pages/youtube-title-generator",
+            "link_text": "Generate Instantly",
+            "featured": false
+          }
+        },
+        "free_ai_tool_VRLVFP": {
+          "type": "free_ai_tool",
+          "disabled": true,
+          "settings": {
+            "tool_image": "shopify://shop_images/IaUhePWsoL45F4pJHjN7o1dNkqU.jpg",
+            "heading": "Social Media Post Generator",
+            "text": "<p>Create effective, high-quality social media posts in no time using AI.</p>",
+            "tool_link": "shopify://pages/social-media-post-generator",
+            "link_text": "Generate Instantly",
+            "featured": false
+          }
+        },
+        "free_ai_tool_t7DwBz": {
+          "type": "free_ai_tool",
+          "disabled": true,
+          "settings": {
+            "tool_image": "shopify://shop_images/LZppkYLByUXy0YWmFdQaETQik.jpg",
+            "heading": "Email Subject Line Generator",
+            "text": "<p>Get more open rates for your emails with captivating email lines.</p>",
+            "tool_link": "shopify://pages/email-subject-line-generator",
+            "link_text": "Generate Instantly",
+            "featured": false
+          }
+        },
+        "free_ai_tool_aaDJEh": {
+          "type": "free_ai_tool",
+          "disabled": true,
+          "settings": {
+            "tool_image": "shopify://shop_images/tUo3NTTu7n1zjoGRgPT5Hl911sQ.png",
+            "heading": "Summary Generator",
+            "text": "<p>Save time from reading lengthy articles and summarize them into short points.</p>",
+            "tool_link": "shopify://pages/summary-generator",
+            "link_text": "Generate Instantly",
+            "featured": false
+          }
+        },
+        "free_ai_tool_PhGJEW": {
+          "type": "free_ai_tool",
+          "disabled": true,
+          "settings": {
+            "tool_image": "shopify://shop_images/DifOTCokgmV7NzGzUkM80jLz31E.png",
+            "heading": "IG Caption from Photo",
+            "text": "<p>Get suitable captions for your Instagram using photos in seconds.</p>",
+            "tool_link": "shopify://pages/ig-caption-from-photo",
+            "link_text": "Generate Instantly",
+            "featured": false
+          }
+        }
+      },
+      "block_order": [
+        "free_ai_tool_Up8FFY",
+        "free_ai_tool_NabWPy",
+        "free_ai_tool_GUjN6Y",
+        "free_ai_tool_RBTQNN",
+        "free_ai_tool_Qq8gCV",
+        "free_ai_tool_mVBxC8",
+        "free_ai_tool_7JTnEh",
+        "free_ai_tool_3KJYdx",
+        "free_ai_tool_8ayVBb",
+        "free_ai_tool_fjFeex",
+        "free_ai_tool_ewFVew",
+        "free_ai_tool_xhCUzz",
+        "free_ai_tool_VRLVFP",
+        "free_ai_tool_t7DwBz",
+        "free_ai_tool_aaDJEh",
+        "free_ai_tool_PhGJEW"
+      ],
+      "settings": {
+        "heading": "Digital Solutions That Drive Real Growth",
+        "text": "<h2><strong>Websites, Ads & AI—Built for Performance.</strong></h2><p>Your business needs more than just a website or ads—it needs a <strong>scalable digital strategy</strong> that delivers <strong>results</strong>. At <strong>An Agency</strong>, we build <strong>high-performing Shopify stores</strong>, create <strong>data-driven marketing campaigns</strong>, and provide <strong>AI-powered tools</strong> that help you scale <strong>smarter and faster</strong>.</p>",
+        "desktop_padding_top": 80,
+        "desktop_padding_bottom": 80,
+        "mobile_padding_top": 50,
+        "mobile_padding_bottom": 50
+      }
+    },
+    "text_list_jWBMBX": {
+      "type": "text-list",
+      "blocks": {
+        "text_WPQBJF": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Frequently Asked Questions</p>",
+            "desktop_margin": 20,
+            "mobile_margin": 12,
+            "desktop_align": "center",
+            "mobile_align": "center",
+            "desktop_font_size": 60,
+            "mobile_font_size": 36,
+            "desktop_font_weight": "600",
+            "mobile_font_weight": "600",
+            "desktop_line_height": 1.2,
+            "mobile_line_height": 1.2,
+            "desktop_letter_spacing": -1,
+            "mobile_letter_spacing": 1,
+            "desktop_text_transform": "none",
+            "mobile_text_transform": "default",
+            "desktop_max_width": 1000,
+            "mobile_max_width": 1000
+          }
+        },
+        "text_eK9Cwe": {
+          "type": "text",
+          "settings": {
+            "text": "<p>You ask, we answer, ensuring your journey is effortless and clear with our dedicated assistance for a simpler experience!</p>",
+            "desktop_margin": 0,
+            "mobile_margin": 0,
+            "desktop_align": "center",
+            "mobile_align": "center",
+            "desktop_font_size": 20,
+            "mobile_font_size": 18,
+            "desktop_font_weight": "400",
+            "mobile_font_weight": "400",
+            "desktop_line_height": 1.2,
+            "mobile_line_height": 1.2,
+            "desktop_letter_spacing": 1,
+            "mobile_letter_spacing": 1,
+            "desktop_text_transform": "none",
+            "mobile_text_transform": "default",
+            "desktop_max_width": 780,
+            "mobile_max_width": 1000
+          }
+        }
+      },
+      "block_order": [
+        "text_WPQBJF",
+        "text_eK9Cwe"
+      ],
+      "settings": {
+        "bg_color": "#f9f9f9",
+        "desktop_padding_top": 80,
+        "desktop_padding_bottom": 50,
+        "mobile_padding_top": 50,
+        "mobile_padding_bottom": 30
+      }
+    },
+    "faq_n49Kc3": {
+      "type": "faq",
+      "blocks": {
+        "faq_item_VJrVME": {
+          "type": "faq_item",
+          "settings": {
+            "question": "Is GravityWrite free to use?",
+            "answer": "<p>Absolutely! GravityWrite offers a free plan that allows you to get 1,000 words for free. Dive into the world of effortless writing without spending a single cent.</p>",
+            "icon": "shopify://shop_images/yellow-arrow_20x_9de1d67f-fe5a-4db9-abf5-77376876a87b.svg"
+          }
+        },
+        "faq_item_nRCAjV": {
+          "type": "faq_item",
+          "settings": {
+            "question": "Will the content generated by GravityWrite be unique?",
+            "answer": "<p>Yes, GravityWrite's AI creates unique, high-quality content that stands out, tailored specifically for your brand and needs.</p>",
+            "icon": "shopify://shop_images/yellow-arrow_20x_9de1d67f-fe5a-4db9-abf5-77376876a87b.svg"
+          }
+        },
+        "faq_item_MYJbBy": {
+          "type": "faq_item",
+          "settings": {
+            "question": "What kinds of content can I create with GravityWrite?",
+            "answer": "<p>From engaging Instagram captions and compelling product descriptions to catchy domain names and email subject lines that get clicks. If you need content, we've got the tool for it.</p>",
+            "icon": "shopify://shop_images/yellow-arrow_20x_9de1d67f-fe5a-4db9-abf5-77376876a87b.svg"
+          }
+        },
+        "faq_item_q9aLWt": {
+          "type": "faq_item",
+          "settings": {
+            "question": "Can I generate content ideas with GravityWrite?",
+            "answer": "<p>Definitely! Whether it's blog topics, YouTube ideas, or clickbait titles, GravityWrite sparks creativity and delivers unique suggestions to attract your audience.</p>",
+            "icon": "shopify://shop_images/yellow-arrow_20x_9de1d67f-fe5a-4db9-abf5-77376876a87b.svg"
+          }
+        },
+        "faq_item_fC967c": {
+          "type": "faq_item",
+          "settings": {
+            "question": "How can I start using GravityWrite?",
+            "answer": "<p>Just hop onto our website, pick the tool you need, and let your creativity flow. Say goodbye to writer's block and hello to endless possibilities with GravityWrite!</p>",
+            "icon": "shopify://shop_images/yellow-arrow_20x_9de1d67f-fe5a-4db9-abf5-77376876a87b.svg"
+          }
+        }
+      },
+      "block_order": [
+        "faq_item_VJrVME",
+        "faq_item_nRCAjV",
+        "faq_item_MYJbBy",
+        "faq_item_q9aLWt",
+        "faq_item_fC967c"
+      ],
+      "settings": {
+        "heading": "",
+        "bg_color": "#f9f9f9",
+        "max_width": 1200,
+        "desktop_padding_top": 0,
+        "desktop_padding_bottom": 80,
+        "mobile_padding_top": 0,
+        "mobile_padding_bottom": 50
+      }
+    }
+  },
+  "order": [
+    "main",
+    "free_ai_tools_CBnkkD",
+    "text_list_jWBMBX",
+    "faq_n49Kc3"
+  ]
+}

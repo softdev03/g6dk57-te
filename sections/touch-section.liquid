@@ -1,0 +1,98 @@
+{% schema %}
+{
+  "name": "Get in Touch Section",
+  "settings": [
+    {
+      "type": "text",
+      "id": "section_title",
+      "label": "Section Title",
+      "default": "Get in Touch with Tradie Mate Today"
+    },
+    {
+      "type": "textarea",
+      "id": "paragraph1",
+      "label": "Paragraph 1",
+      "default": "Tradiemate is proud to be an Australian-owned and operated business. We understand the struggles of Australian tradies advertising their businesses."
+    },
+    {
+      "type": "textarea",
+      "id": "bold_paragraph",
+      "label": "Bold Paragraph",
+      "default": "For your business to grow and succeed, you need a better way to book high-paying jobs consistently. Advertising your business on your own can be time-consuming, confusing, and expensive."
+    },
+    {
+      "type": "textarea",
+      "id": "paragraph2",
+      "label": "Paragraph 2",
+      "default": "With our years of tradie marketing experience, Tradiemate is here to help you have a solid plan for putting forward a professional image and booking new jobs without all the hassle of having to do it yourself."
+    },
+    {
+      "type": "textarea",
+      "id": "paragraph3",
+      "label": "Paragraph 3",
+      "default": "We help tradies get online, drive more sales, and get better rates for their services. Contact us today to learn more about how we can help you stand out from the competition."
+    },
+    {
+      "type": "textarea",
+      "id": "final_bold_text",
+      "label": "Final Bold Text",
+      "default": "We've got you. Let's be mates."
+    },
+    {
+      "type": "image_picker",
+      "id": "main_image",
+      "label": "Main Image"
+    },
+    {
+      "type": "image_picker",
+      "id": "annotation_image",
+      "label": "Annotation Image"
+    },
+    {
+      "type": "text",
+      "id": "button_text",
+      "label": "Button Text",
+      "default": "Speak To Our Team"
+    },
+    {
+      "type": "url",
+      "id": "button_link",
+      "label": "Button Link"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Get in Touch Section",
+      "category": "Custom Sections"
+    }
+  ]
+}
+{% endschema %}
+
+<link rel="stylesheet" href="{{ 'get-in-touch.css' | asset_url }}">
+
+<section class="get-in-touch-section">
+  <div class="get-in-touch-container">
+    <div class="get-in-touch-image">
+
+        <img src="{{ "Web-Designs-for-trades.png" | asset_url }}" alt="Tradie Mate Website" class="main-image">
+ 
+      
+  
+        <img src="{{ "get-the-work-you-want.svg" | asset_url }}" alt="Annotation" class="annotation-image">
+  
+    </div>
+
+    <div class="get-in-touch-content">
+      <h2>{{ section.settings.section_title }}</h2>
+      <p>{{ section.settings.paragraph1 }}</p>
+      <p><strong>{{ section.settings.bold_paragraph }}</strong></p>
+      <p>{{ section.settings.paragraph2 }}</p>
+      <p>{{ section.settings.paragraph3 }}</p>
+      <p><strong>{{ section.settings.final_bold_text }}</strong></p>
+      <a href="{{ section.settings.button_link }}" class="get-in-touch-btn">
+        {{ section.settings.button_text }}
+      </a>
+    </div>
+  </div>
+</section>

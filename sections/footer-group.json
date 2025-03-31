@@ -11,49 +11,202 @@
   "name": "t:sections.footer.name",
   "type": "footer",
   "sections": {
-    "footer": {
-      "type": "foooter-new",
+    "marketing_focus_3gtc4t": {
+      "type": "marketing-focus",
+      "settings": {
+        "logo_image": "shopify://shop_images/tradiemate-new-badge_79e9002f-32f8-4f6b-b319-6aa83817e1d7.svg",
+        "headline": "We Know Shopify & Digital Ads (Inside Out)",
+        "sub_text": "Focus on growing your business. We'll handle the tech, tools, and traffic.",
+        "button_text": "Request a Quote",
+        "button_link": "shopify://pages/contact",
+        "desktop_padding_top": 40,
+        "desktop_padding_bottom": 40,
+        "mobile_padding_top": 30,
+        "mobile_padding_bottom": 30
+      }
+    },
+    "footer_image_QzqBPn": {
+      "type": "footer-image",
       "blocks": {
-        "menu_item_i3e3YD": {
-          "type": "menu_item",
+        "card_Ybb8Rm": {
+          "type": "card",
           "settings": {
-            "heading": "Quick Links",
-            "menu": "quick-links"
+            "card_cta_text": "Struggling to Rank on Google? We Can Help",
+            "card_cta_link": "",
+            "card_image": "shopify://shop_images/Marketing-for-Aussie-Tradies_52062eb1-d16e-4153-ad6d-18ffd5349b42.webp"
           }
         },
-        "menu_item_8br9iQ": {
-          "type": "menu_item",
+        "card_EUkEqU": {
+          "type": "card",
           "settings": {
-            "heading": "Services",
-            "menu": "service"
-          }
-        },
-        "menu_item_q4xe3n": {
-          "type": "menu_item",
-          "settings": {
-            "heading": "Legal",
-            "menu": "legal"
+            "card_cta_text": "Convert More Visitors with a Better Website",
+            "card_cta_link": "",
+            "card_image": "shopify://shop_images/Websites-For-Tradies_c1e3743a-4596-48b2-a10f-cd3e4a02e9c9.webp"
           }
         }
       },
       "block_order": [
-        "menu_item_i3e3YD",
-        "menu_item_8br9iQ",
-        "menu_item_q4xe3n"
+        "card_Ybb8Rm",
+        "card_EUkEqU"
+      ],
+      "custom_css": [],
+      "settings": {
+        "section_bg_color": "#feda15",
+        "desktop_padding_top": 40,
+        "desktop_padding_bottom": 20,
+        "mobile_padding_top": 30,
+        "mobile_padding_bottom": 16
+      }
+    },
+    "footer_second_jHdxW9": {
+      "type": "footer-second",
+      "settings": {
+        "bg_color": "#feda15",
+        "left_logo": "shopify://shop_images/Logo.svg",
+        "left_desc": "We help Aussie businesses get online, grow sales, and build brands that last. Whether you're running a Shopify store or a service-based business, we’ve got the tools and team to back you.",
+        "right_img": "shopify://shop_images/Proudly-Australian-Owned_54dc2aa1-e8ee-43d6-b26f-6d004133a95d.webp",
+        "section_bg_color": "#ffd000",
+        "button_label": "Request a Call",
+        "button_link": "",
+        "desktop_padding_top": 20,
+        "desktop_padding_bottom": 20,
+        "mobile_padding_top": 16,
+        "mobile_padding_bottom": 16
+      }
+    },
+    "footer_menu_xG3hhG": {
+      "type": "footer-menu",
+      "blocks": {
+        "menu_column_WyparD": {
+          "type": "menu_column",
+          "settings": {
+            "heading": "Popular Services",
+            "menu": "popular-services"
+          }
+        },
+        "menu_column_FgRmVm": {
+          "type": "menu_column",
+          "settings": {
+            "heading": "Paid Ads",
+            "menu": "paid-ads"
+          }
+        },
+        "menu_column_afJ7F3": {
+          "type": "menu_column",
+          "settings": {
+            "heading": "Organic Services",
+            "menu": "organic-services"
+          }
+        },
+        "menu_column_banFmr": {
+          "type": "menu_column",
+          "settings": {
+            "heading": "Design Services",
+            "menu": "design-services"
+          }
+        },
+        "menu_column_iTfNHM": {
+          "type": "menu_column",
+          "settings": {
+            "heading": "Trades",
+            "menu": "trades"
+          }
+        },
+        "menu_column_MCwzJd": {
+          "type": "menu_column",
+          "settings": {
+            "heading": "About",
+            "menu": "about"
+          }
+        }
+      },
+      "block_order": [
+        "menu_column_WyparD",
+        "menu_column_FgRmVm",
+        "menu_column_afJ7F3",
+        "menu_column_banFmr",
+        "menu_column_iTfNHM",
+        "menu_column_MCwzJd"
+      ],
+      "disabled": true,
+      "settings": {}
+    },
+    "menu_list_47t4Wb": {
+      "type": "menu-list",
+      "blocks": {
+        "menu_item_d9kNFG": {
+          "type": "menu_item",
+          "settings": {
+            "heading": "Popular Services",
+            "menu": "popular-services"
+          }
+        },
+        "menu_item_HncyNx": {
+          "type": "menu_item",
+          "settings": {
+            "heading": "Paid Ads",
+            "menu": "paid-ads"
+          }
+        },
+        "menu_item_bLz3FT": {
+          "type": "menu_item",
+          "settings": {
+            "heading": "Organic Services",
+            "menu": "organic-services"
+          }
+        },
+        "menu_item_nRf7UT": {
+          "type": "menu_item",
+          "settings": {
+            "heading": "Design Services",
+            "menu": "design-services"
+          }
+        },
+        "menu_item_hk4WCx": {
+          "type": "menu_item",
+          "settings": {
+            "heading": "Trades",
+            "menu": "trades"
+          }
+        },
+        "menu_item_h78AMQ": {
+          "type": "menu_item",
+          "settings": {
+            "heading": "About",
+            "menu": "about"
+          }
+        }
+      },
+      "block_order": [
+        "menu_item_d9kNFG",
+        "menu_item_HncyNx",
+        "menu_item_bLz3FT",
+        "menu_item_nRf7UT",
+        "menu_item_hk4WCx",
+        "menu_item_h78AMQ"
       ],
       "settings": {
-        "logo": "shopify://shop_images/630dfa066671aa05b471b964_anagency.svg",
-        "footer_text": "Start a business and design the life you want – all in one place. Let’s grow together.",
-        "bottom_text": "© An Agency. All Rights Reserved.",
-        "show_social_icons": true,
-        "desktop_padding_top": 60,
-        "desktop_padding_bottom": 60,
-        "mobile_padding_top": 40,
-        "mobile_padding_bottom": 40
+        "bg_color": "#feda15",
+        "text_color": "#000000",
+        "desktop_padding_top": 30,
+        "desktop_padding_bottom": 30,
+        "mobile_padding_top": 26,
+        "mobile_padding_bottom": 26
+      }
+    },
+    "footer_bottom_6r7ihY": {
+      "type": "footer-bottom",
+      "settings": {
+        "footer_bottom_text": "All Content © Tradiemate 2024 | Proudly Australian Owned and Operated | Privacy Policy"
       }
     }
   },
   "order": [
-    "footer"
+    "marketing_focus_3gtc4t",
+    "footer_image_QzqBPn",
+    "footer_second_jHdxW9",
+    "footer_menu_xG3hhG",
+    "menu_list_47t4Wb",
+    "footer_bottom_6r7ihY"
   ]
 }

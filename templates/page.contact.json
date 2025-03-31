@@ -17,6 +17,260 @@
         "padding_bottom": 36
       }
     },
+    "contact_form_new_bWhPWk": {
+      "type": "contact-form-new",
+      "blocks": {
+        "first_step_tDaw9E": {
+          "type": "first_step",
+          "settings": {
+            "final_step": true,
+            "first_name_label": "First Name",
+            "last_name_label": "Last Name",
+            "email_label": "Your Email Address",
+            "phone_number_label": "Your Phone Number",
+            "post_code_label": "What is your post code?",
+            "first_name_error_msg": "This field is required",
+            "last_name_error_msg": "This field is required",
+            "email_error_msg": "This field is required",
+            "phone_error_msg": "Please enter a phone number",
+            "post_code_error_msg": "This field is required",
+            "error_msg_color": "#ff4e4e",
+            "field_bg_color": "#ffffff",
+            "field_bg_color_filled": "#e8f0fe",
+            "field_box_shadow_color": "#000000",
+            "text_color": "#000000",
+            "border_color": "#878b93",
+            "border_color_hover": "#000000",
+            "border_color_focus": "#feda15",
+            "error_border_color": "#ff4e4e",
+            "flag_list": [
+              "country-list-snti2tzw",
+              "country-list-mar7nwqz",
+              "country-list-0he5jzo3",
+              "country-list-ttmxpwye"
+            ],
+            "default_country": "Australia"
+          }
+        },
+        "second_step_9DnAqQ": {
+          "type": "second_step",
+          "settings": {
+            "final_step": false,
+            "is_required": true,
+            "field_name": "service",
+            "heading": "Which of the below are you interested in?",
+            "heading_color": "#343434",
+            "description": "You can select as many that apply",
+            "description_color": "#343434",
+            "field_items": "Website Design/Development|Lead Generation|Branding Services|General Marketing|B2B Marketing|Paid Ads (Google, Meta etc)|SEO|Print Solutions|Capability Statement|Email Marketing|I Need Everything!|Other",
+            "field_items_bg_color": "#ffffff",
+            "field_items_color": "#000000",
+            "error_msg": "Please select at least 1 optionNext",
+            "error_msg_color": "#ff4e4e",
+            "box_shadow_color": "#d8d8d8",
+            "field_border_color": "#e3e3e3",
+            "selected_field_border_color": "#feda15",
+            "border_radius": 10
+          }
+        },
+        "third_step_nFBJDQ": {
+          "type": "third_step",
+          "settings": {
+            "field_name": "best-match",
+            "is_required": false,
+            "heading": "Which of these best matches your Trade?",
+            "heading_color": "#343434",
+            "description": "",
+            "description_color": "#000000",
+            "field_items": "Electrician|Plumbing|Bathroom Renovator|Carpenter / Builder|Mechanic / Automotive|Cleaning|Locksmith|Vehicle Detailer|Landscaping|HVAC|Concreter|Pest Services|Roofer|Plasterer|Removalist|Painter|Landscaper|Handyman|Bricklayer|Inspector (Building, Roofing, etc)|Other",
+            "field_bg_color": "#ffffff",
+            "field_items_color": "#000000",
+            "field_border_color": "#878b93",
+            "field_border_color_hover": "#000000",
+            "field_border_color_focus": "#feda15",
+            "field_border_color_error": "#ff4e4e",
+            "box_shadow_color": "#000000",
+            "place_holder_text": "Please select the closest option",
+            "dropdown_bg_color": "#ffffff",
+            "dropdown_item_bg_color": "#ffffff",
+            "dropdown_item_bg_color_hover": "#f5f5f5",
+            "dropdown_item_bg_color_selected": "#ebebeb",
+            "dropdown_item_color": "#000000",
+            "dropdown_item_color_hover": "#000000",
+            "dropdown_item_color_selected": "#000000",
+            "error_msg": "",
+            "error_msg_color": "#f00",
+            "text_for_secondary": "",
+            "secondary_field_name": "",
+            "secondary_field_label": ""
+          }
+        },
+        "second_step_xeYrLC": {
+          "type": "second_step",
+          "settings": {
+            "final_step": false,
+            "is_required": false,
+            "field_name": "team-scope",
+            "heading": "How big is your current team?",
+            "heading_color": "#343434",
+            "description": "How big is your current team?",
+            "description_color": "#343434",
+            "field_items": "It's Just Me / Sole Trader|2-5|5-10|10+",
+            "field_items_bg_color": "#ffffff",
+            "field_items_color": "#000000",
+            "error_msg": "Please select at least 1 option",
+            "error_msg_color": "#ff4e4e",
+            "box_shadow_color": "#d8d8d8",
+            "field_border_color": "#e3e3e3",
+            "selected_field_border_color": "#feda15",
+            "border_radius": 10
+          }
+        },
+        "third_step_VgiNab": {
+          "type": "third_step",
+          "settings": {
+            "field_name": "website-has",
+            "is_required": true,
+            "heading": "Do you currently have a website?Yes",
+            "heading_color": "#343434",
+            "description": "",
+            "description_color": "#000000",
+            "field_items": "Yes|No|Currently Being Built",
+            "field_bg_color": "#ffffff",
+            "field_items_color": "#000000",
+            "field_border_color": "#878b93",
+            "field_border_color_hover": "#000000",
+            "field_border_color_focus": "#feda15",
+            "field_border_color_error": "#ff4e4e",
+            "box_shadow_color": "#000000",
+            "place_holder_text": "Please select the closest option",
+            "dropdown_bg_color": "#ffffff",
+            "dropdown_item_bg_color": "#ffffff",
+            "dropdown_item_bg_color_hover": "#f5f5f5",
+            "dropdown_item_bg_color_selected": "#ebebeb",
+            "dropdown_item_color": "#000000",
+            "dropdown_item_color_hover": "#000000",
+            "dropdown_item_color_selected": "#000000",
+            "error_msg": "This field is required",
+            "error_msg_color": "#ff4e4e",
+            "text_for_secondary": "Yes",
+            "secondary_field_name": "website-name",
+            "secondary_field_label": "Please enter your website address here"
+          }
+        },
+        "second_step_ixE8j3": {
+          "type": "second_step",
+          "settings": {
+            "final_step": true,
+            "is_required": false,
+            "field_name": "ideal-outcome",
+            "heading": "What's your ideal outcome?",
+            "heading_color": "#343434",
+            "description": "You can select as many that apply",
+            "description_color": "#343434",
+            "field_items": "Generate consistent leads|Stand out from competitors|Scale out my team|Build stability in cashflow|Increase brand awareness|Reach quality customers|Be seen as an expert|Charge more for my services",
+            "field_items_bg_color": "#ffffff",
+            "field_items_color": "#000000",
+            "error_msg": "Please select at least 1 option",
+            "error_msg_color": "#ff4e4e",
+            "box_shadow_color": "#d8d8d8",
+            "field_border_color": "#e3e3e3",
+            "selected_field_border_color": "#feda15",
+            "border_radius": 10
+          }
+        },
+        "second_step_Em8DTx": {
+          "type": "second_step",
+          "settings": {
+            "final_step": false,
+            "is_required": true,
+            "field_name": "service",
+            "heading": "Thanks for your enquiry!",
+            "heading_color": "#343434",
+            "description": "Thanks for getting in touch. We'll be in contact soon.",
+            "description_color": "#343434",
+            "field_items": "",
+            "field_items_bg_color": "#ffffff",
+            "field_items_color": "#000000",
+            "error_msg": "",
+            "error_msg_color": "#ff4e4e",
+            "box_shadow_color": "#d8d8d8",
+            "field_border_color": "#e3e3e3",
+            "selected_field_border_color": "#feda15",
+            "border_radius": 10
+          }
+        },
+        "step_8dkkCf": {
+          "type": "step",
+          "settings": {
+            "bg_color": "#f1f1f1",
+            "border_radius": 8,
+            "badge_bg_color": "#feda15",
+            "badge_text_color": "#000000",
+            "badge_border_color": "#ffffff",
+            "title": "STEP ONE",
+            "title_color": "#afafaf",
+            "description": "Share your details and what you’re after.",
+            "description_color": "#000000"
+          }
+        },
+        "step_ANT8Xk": {
+          "type": "step",
+          "settings": {
+            "bg_color": "#f1f1f1",
+            "border_radius": 8,
+            "badge_bg_color": "#feda15",
+            "badge_text_color": "#000000",
+            "badge_border_color": "#ffffff",
+            "title": "STEP TWO",
+            "title_color": "#afafaf",
+            "description": "Pick a time that suits you for a call back.",
+            "description_color": "#000000"
+          }
+        }
+      },
+      "block_order": [
+        "first_step_tDaw9E",
+        "second_step_9DnAqQ",
+        "third_step_nFBJDQ",
+        "second_step_xeYrLC",
+        "third_step_VgiNab",
+        "second_step_ixE8j3",
+        "second_step_Em8DTx",
+        "step_8dkkCf",
+        "step_ANT8Xk"
+      ],
+      "settings": {
+        "bg_color": "#ffffff",
+        "heading": "Request a Free Quote and Book a Call With Us",
+        "heading_color": "#0b0a33",
+        "description": "<p>We’re keen to understand your goals and vision for your Tradie Business!</p><p> </p><p>Our 15-Minute Free Info Call is designed for us to see if we’re a good fit for your needs. We’ll be able to share some valuable Tradie Marketing and Advertising insights and there’s absolutely <a href=\"https://www.tradiemate.au/our-promise/\">no-obligation</a> to work with us.</p>",
+        "description_color": "#0b0a33",
+        "form_logo": "shopify://shop_images/tradiemate-new-badge_ff3ce7e0-bfcf-4789-a0a1-e7f524a3f130.svg",
+        "form_bg_color": "#ffffff",
+        "box_shadow_color": "#000000",
+        "border_radius": 10,
+        "form_heading": "Request a Quote From Our Team",
+        "form_heading_color": "#000000",
+        "form_description": "We’ll be in touch to discuss your requirements",
+        "form_description_color": "#000000",
+        "nex_step_button_text": "NEXT",
+        "next_step_button_bg_color": "#feda15",
+        "next_step_button_color": "#ffffff",
+        "next_step_button_bg_color_hover": "#b1980e",
+        "next_step_button_color_hover": "#ffffff",
+        "next_step_button_bg_color_active": "#c9b757",
+        "next_step_button_border_radius": 4,
+        "progress_bar_bg_color": "#fff7d1",
+        "progress_bar_track_color": "#feda15",
+        "back_button_text": "Back",
+        "back_button_color": "#9f9f9f",
+        "desktop_padding_top": 120,
+        "desktop_padding_bottom": 80,
+        "mobile_padding_top": 90,
+        "mobile_padding_bottom": 60
+      }
+    },
     "form": {
       "type": "contact-form",
       "disabled": true,
@@ -104,7 +358,7 @@
             "field_name": "Help",
             "required": true,
             "placeholder": "How can we help?",
-            "options": "Set up Dropshipping Store|Marketing|e-Commerce Coaching|Transition to Shopify Plus|Other",
+            "options": "Web development|Marketing|e-Commerce Coaching|Transition to Shopify Plus|Other",
             "pattern": ""
           }
         },
@@ -150,6 +404,7 @@
         "contact_info_card_4TVmza",
         "contact_info_card_fBbBhG"
       ],
+      "disabled": true,
       "settings": {
         "heading": "Get In Touch",
         "text": "<p>Have a question before you ditch your old Agency? Feel free to reach out to us for any reason — we’re here to help!</p>",
@@ -241,6 +496,7 @@
   },
   "order": [
     "main",
+    "contact_form_new_bWhPWk",
     "form",
     "service_form_UQnH4i",
     "faq_UxVTeB"

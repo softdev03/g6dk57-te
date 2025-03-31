@@ -1,6 +1,5 @@
 {%- assign megamenu_blocks = section.blocks |  where: 'type', 'mega_menu' -%}
 {%- assign isMegamenu = false -%}
-{%- assign menuItemImageBlocks = section.blocks |  where: 'type', 'menu_item_image' -%}
 <nav class="header__inline-menu">
   <ul class="list-menu list-menu--inline" role="list">
     {%- for link in section.settings.menu.links -%}
@@ -9,13 +8,13 @@
           <header-menu>
             {%- for block in megamenu_blocks -%}
               {%- if block.settings.handle == link.handle -%}
-                {%- render 'header-mega-menu',link: link -%}
+                {%- render 'header-mega-menu',link: link,block_settings: block.settings,menuItemImages: menuItemImages,id: block.id,onMobile: false -%}
                 {%- assign isMegamenu = true -%}
                 {%- break -%}
               {%- endif -%}
             {%- endfor -%}
             {%- unless isMegamenu == true -%}
-              {%- render 'header-dropdown-menu',link: link,menuItemImageBlocks: menuItemImageBlocks -%}
+              {%- render 'header-dropdown-menu',link: link,menuItemImages: menuItemImages -%}
             {%- endunless -%}
             {%- assign isMegamenu = false -%}
           </header-menu>

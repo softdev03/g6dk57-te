@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-0.375 -0.375 24 24">
+  <defs></defs>
+  <title>pie-line-graph-desktop</title>
+  <path d="M3.391 8.234a3.391 3.391 0 1 0 6.781 0 3.391 3.391 0 1 0 -6.781 0" fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.75"></path>
+  <path d="m6.781 4.844 0 3.391 3.391 0" fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.75"></path>
+  <path d="M8.719 21.797a6.761 6.761 0 0 0 1.453 -3.875" fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.75"></path>
+  <path d="M14.531 21.797a6.761 6.761 0 0 1 -1.453 -3.875" fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.75"></path>
+  <path d="m7.265 21.797 8.719 0" fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.75"></path>
+  <path d="m0.484 15.016 22.281 0" fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.75"></path>
+  <path d="M1.453 1.453h20.344s0.969 0 0.969 0.969v14.531s0 0.969 -0.969 0.969h-20.344s-0.969 0 -0.969 -0.969v-14.531s0 -0.969 0.969 -0.969" fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.75"></path>
+  <path d="M13.078 6.781 14.531 4.844l2.906 2.422 2.422 -2.906" fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.75"></path>
+  <path d="m18.891 12.109 0 -1.453" fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.75"></path>
+  <path d="m16.953 12.109 0 -1.938" fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.75"></path>
+  <path d="m15.016 12.109 0 -2.906" fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.75"></path>
+  <path d="m13.078 12.109 0 -1.453" fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.75"></path>
+</svg>

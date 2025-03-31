@@ -1,0 +1,76 @@
+{% schema %}
+{
+  "name": "Tradie Advertising",
+  "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Section Title",
+      "default": "Tradie Advertising (That Actually Works)"
+    },
+    {
+      "type": "textarea",
+      "id": "description",
+      "label": "Description",
+      "default": "Competition is Fierce in the Trades Industry..."
+    },
+    {
+      "type": "textarea",
+      "id": "sub_description",
+      "label": "Sub Description",
+      "default": "Without a solid tradie marketing plan, you're blindly searching for new work, 'hoping' it'll come."
+    },
+    {
+      "type": "text",
+      "id": "cta_text",
+      "label": "CTA Button Text",
+      "default": "Help Grow My Business"
+    },
+    {
+      "type": "url",
+      "id": "cta_link",
+      "label": "CTA Button Link"
+    },
+    {
+      "type": "image_picker",
+      "id": "mockup_image",
+      "label": "Mobile Mockup Image"
+    },
+    {
+      "type": "image_picker",
+      "id": "background_circle",
+      "label": "Background Circle Image"
+    },
+    {
+      "type": "text",
+      "id": "annotation_text",
+      "label": "Annotation Text",
+      "default": "This could be you"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Tradie Advertising Section",
+      "category": "Custom Sections"
+    }
+  ]
+}
+{% endschema %}
+
+<link rel="stylesheet" href="{{ 'Tradie-Advertising.css' | asset_url }}">
+
+<section class="tradie-advertising">
+  <div class="tradie-container">
+    <div class="tradie-image-container">
+      <img src="{{ 'get-more-leads-for-your-trade.png' | asset_url }}" alt="Highlight Circle" class="highlight-circle_trade">
+      <img src="{{ 'this-could-be-you.svg' | asset_url }}" alt="Mobile Mockup" class="tradie-image">
+      <!-- <span class="annotation-text">{{ section.settings.annotation_text }}</span> -->
+    </div>
+    <div class="tradie-text">
+      <h2>{{ section.settings.title }}</h2>
+      <p>{{ section.settings.description }}</p>
+      <p class="bold-text">{{ section.settings.sub_description }}</p>
+      <a href="{{ section.settings.cta_link }}" class="tradie-button">{{ section.settings.cta_text }}</a>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,117 @@
+/* Marketing Focus Section */
+.marketing-focus-section {
+  display: flex;
+  justify-content: center;
+}
+
+/* Container */
+.marketing-focus-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+/* Logo */
+.marketing-logo img {
+  width: 200px;
+  height: auto;
+  padding-right: 30px;
+}
+
+/* Text Content */
+.marketing-text {
+  flex: 1;
+  text-align: left;
+}
+
+.marketing-text h2 {
+  font-size: 24px;
+  font-weight: 600;
+  color: #000000;
+}
+
+.marketing-text p {
+  font-size: 14px;
+  color: #333;
+  margin-top: 5px;
+}
+
+/* Button */
+.marketing-button {
+  display: flex;
+  align-items: center;
+}
+
+.focus-btn {
+  display: inline-flex;
+  align-items: center;
+  background-color: #ffd900;
+  color: #000;
+  font-size: 14px;
+  font-weight: 700;
+  padding: 12px 20px;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: background 0.3s ease-in-out;
+}
+
+.focus-btn:hover {
+  background-color: #f2c200;
+}
+
+.arrow {
+  margin-left: 5px;
+  font-size: 16px;
+}
+
+/* Responsive */
+@media (max-width: 1024px) {
+  .marketing-focus-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .marketing-text h2 {
+    font-size: 20px;
+  }
+
+  .focus-btn {
+    font-size: 13px;
+    padding: 10px 18px;
+  }
+}
+
+@media (max-width: 749px) {
+
+  /* Button */
+  .marketing-button {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .marketing-text {
+    text-align: center;
+  }
+
+  .marketing-text p {
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 480px) {
+  .marketing-text h2 {
+    font-size: 18px;
+  }
+
+  .marketing-text p {
+    font-size: 12px;
+  }
+
+  .focus-btn {
+    font-size: 12px;
+    padding: 8px 16px;
+  }
+}

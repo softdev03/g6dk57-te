@@ -1,0 +1,66 @@
+
+  .multi-column-menu .columns {
+    justify-content:center;
+    flex-direction:row;
+  display: flex;
+  gap: 2rem; /* spacing between columns */
+}
+.multi-column-menu .column h3 {
+  text-align:center;
+  font-weight: bold;
+}
+.column li {
+  list-style:none;
+}
+.nav-link{text-decoration:none;}
+
+
+
+/* The toggle icon floats to the right of heading */
+.column-heading {
+  position: relative;
+  cursor: pointer; /* so it looks clickable */
+}
+.toggle-icon {
+  display:none;
+  float: right;
+  margin-left: 8px;
+}
+
+/* By default, hide the menu on small screens */
+.column-menu {
+  display: block; /* Desktop shows them all open by default */
+}
+
+/* --- MEDIA QUERY for mobile screens --- */
+@media (max-width: 768px) {
+  .multi-column-menu .column h3 {
+    margin-left:20px;
+  text-align:left;
+  font-weight: bold;
+}
+  /* Stack columns vertically */
+  .multi-column-menu .columns {
+    text-align:left;
+    flex-direction: column;
+  }
+  .toggle-icon{
+    margin-right:10px;
+    width:20px;
+    height:auto;
+    display:block;
+  }
+  .column{
+    text-align:left;
+  }
+
+  /* Start each menu collapsed */
+  .column-menu {
+    display: none;
+  }
+
+  /* If the column has an "open" class, show the menu */
+  .column.open .column-menu {
+    display: block;
+  }
+}

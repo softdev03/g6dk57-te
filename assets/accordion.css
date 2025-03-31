@@ -16,7 +16,7 @@
   transition: all 0.3s;
 }
 .accordion.open .accordion-heading img {
-  transform: rotate(45deg);
+  transform: rotate(225deg);
 }
 .accordion-content {
   transition: all 0.3s;

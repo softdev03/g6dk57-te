@@ -1,0 +1,178 @@
+{% schema %}
+{
+  "name": "Services Grid",
+  "settings": [
+    {
+      "type": "text",
+      "id": "section_title",
+      "label": "Section Title",
+      "default": "Our Services"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "service",
+      "name": "Service",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "service_icon",
+          "label": "Service Icon"
+        },
+        {
+          "type": "text",
+          "id": "service_title",
+          "label": "Service Title",
+          "default": "Marketing For Tradies"
+        },
+        {
+          "type": "url",
+          "id": "service_link",
+          "label": "Service Link",
+          
+        },
+        {
+          "type": "text",
+          "id": "service_description",
+          "label": "Service Description",
+          "default": "We'll help you stand out in the crowded tradie market."
+        }
+      ]
+    }
+  ],
+  "max_blocks": 8,
+  "presets": [
+    {
+      "name": "Services Grid",
+      "category": "Custom Sections"
+    }
+  ]
+}
+{% endschema %}
+
+<link rel="stylesheet" href="{{ 'services-grid.css' | asset_url }}">
+
+<section class="services-section page-width">
+  <!-- Example: show a dynamic section heading if desired -->
+  {% if section.settings.section_title != blank %}
+    <h2 class="services-title">{{ section.settings.section_title }}</h2>
+  {% endif %}
+
+  <div class="services-grid">
+    {% for block in section.blocks %}
+      {% if block.type == 'service' %}
+        <div class="service-item">
+          <div class="service-icon">
+            {% if block.settings.service_icon %}
+              <img 
+                src="{{ block.settings.service_icon | img_url: '200x' }}" 
+                alt="{{ block.settings.service_title | escape }}"
+              >
+            {% endif %}
+          </div>
+          <h3 class="service-title">
+            <!-- If the client wants the title linked -->
+            <a href="{{ block.settings.service_link | escape }}">
+              {{ block.settings.service_title }}
+            </a>
+          </h3>
+          <p class="service-description">
+            {{ block.settings.service_description }}
+          </p>
+        </div>
+      {% endif %}
+    {% endfor %}
+  </div>
+</section>
+
+
+
+
+<!-- 
+<link rel="stylesheet" href="{{ 'services-grid.css' | asset_url }}">
+
+<section class="services-section"> -->
+  <!-- <h2 class="services-title">{{ section.settings.section_title }}</h2> -->
+<!-- 
+  <div class="services-grid">
+    <div class="service-item">
+      <div class="service-icon">
+        <img src="{{ 'pie-line-graph-desktop.svg' | asset_url }}" alt="Marketing For Tradies">
+      </div>
+      <h3 class="service-title">
+        <a href="#">Marketing For Tradies</a>
+      </h3>
+      <p class="service-description">We'll help you stand out in the crowded tradie market.</p>
+    </div>
+
+    <div class="service-item">
+      <div class="service-icon">
+        <img src="{{ 'responsive-design-11.svg' | asset_url }}" alt="Websites For Tradies">
+      </div>
+      <h3 class="service-title">
+        <a href="#">Websites For Tradies</a>
+      </h3>
+      <p class="service-description">Convert your online visitors into actual paying customers.</p>
+    </div>
+
+    <div class="service-item">
+      <div class="service-icon">
+        <img src="{{ 'shopping-buy-advertising-billboard-megaphone1.svg' | asset_url }}" alt="Google Ads For Tradies">
+      </div>
+      <h3 class="service-title">
+        <a href="#">Google Ads For Tradies</a>
+      </h3>
+      <p class="service-description">Book new, high-paying jobs more consistently.</p>
+    </div>
+
+    <div class="service-item">
+      <div class="service-icon">
+        <img src="{{ 'seo-network-map1.svg' | asset_url }}" alt="SEO For Tradies">
+      </div>
+      <h3 class="service-title">
+        <a href="#">SEO For Tradies</a>
+      </h3>
+      <p class="service-description">Be found online without relying on paid advertising.</p>
+    </div>
+
+    <div class="service-item">
+      <div class="service-icon">
+        <img src="{{ 'email-action-image1.svg' | asset_url }}" alt="Email Marketing For Tradies">
+      </div>
+      <h3 class="service-title">
+        <a href="#">Email Marketing For Tradies</a>
+      </h3>
+      <p class="service-description">We'll develop email marketing campaigns that work.</p>
+    </div>
+
+    <div class="service-item">
+      <div class="service-icon">
+        <img src="{{ 'job-seach-profile1.svg' | asset_url }}" alt="Job Leads For Tradies">
+      </div>
+      <h3 class="service-title">
+        <a href="#">Job Leads For Tradies</a>
+      </h3>
+      <p class="service-description">Get the quality, high-paying job leads you deserve.</p>
+    </div>
+
+    <div class="service-item">
+      <div class="service-icon">
+        <img src="{{ 'color-palette-sample-22.svg' | asset_url }}" alt="Branding For Tradies">
+      </div>
+      <h3 class="service-title">
+        <a href="#">Branding For Tradies</a>
+      </h3>
+      <p class="service-description">We'll help you establish a reputable brand that screams quality.</p>
+    </div>
+
+    <div class="service-item">
+      <div class="service-icon">
+        <img src="{{ 'content-pencil-write.svg' | asset_url }}" alt="Content For Tradies">
+      </div>
+      <h3 class="service-title">
+        <a href="#">Content For Tradies</a>
+      </h3>
+      <p class="service-description">Compelling content that speaks to your potential customers.</p>
+    </div>
+  </div>
+</section> -->

@@ -1,0 +1,27 @@
+.shopify-section-abn {
+	display: flex;
+	justify-content: space-between;
+}
+
+.shopify-section-abn p {
+	margin: 0px;
+	color: inherit;
+}
+
+.shopify-section-abn .trust {
+	display: flex;
+	column-gap: 10px;
+}
+
+.shopify-section-abn img {
+	width: 120px;
+}
+
+@media screen and (max-width: 749px) {
+	.shopify-section-abn {
+		justify-content: center;
+	}
+	.shopify-section-abn .own-text {
+		display: none;
+	}
+}

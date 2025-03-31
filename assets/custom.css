@@ -5,9 +5,11 @@ p {
 .m-0 {
   margin: 0px;
 }
+
 .lh-0 {
   line-height: 0;
 }
+
 .lh-1 {
   line-height: 1;
 }
@@ -15,9 +17,11 @@ p {
 .text-left {
   text-align: left;
 }
+
 .text-center {
   text-align: center;
 }
+
 .text-right {
   text-align: right;
 }
@@ -40,45 +44,57 @@ body * {
   font-weight: 600;
   line-height: 1.2;
 }
+
 .sub-heading {
   font-size: 32px;
   font-weight: 500;
   line-height: 1.2;
 }
+
 .text {
   font-size: 16px;
   line-height: 1.2;
   color: black;
 }
+
 .text:has(p) {
   display: flex;
   flex-direction: column;
   row-gap: 20px;
 }
+
 .text ul {
   padding-left: 20px;
   margin: 0px;
 }
+
 .text li {
   line-height: 1.3;
   margin: 0px;
 }
+
 .text ul li:not(:last-child) {
   margin-bottom: 10px;
 }
+
 .text:has(p) p {
   margin: 0px;
+  color: inherit;
 }
+
 @media screen and (max-width: 749px) {
   .heading {
     font-size: 28px;
   }
+
   .sub-heading {
     font-size: 24px;
   }
+
   .text {
     font-size: 14px;
   }
+
   .text:has(p) {
     row-gap: 15px;
   }

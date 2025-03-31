@@ -10,13 +10,13 @@
     class="header__menu-item list-menu__item link focus-inset"
   >
     <a href="{{ link.url }}">
-      {%- for block in menuItemImageBlocks -%}
-        {%- for menu_item in block.settings.image_list.menu_items.value -%}
-          {%- assign handle = menu_item.menu_item_handle | handleize -%}
-          {%- if handle == link.handle -%}
+      {%- for menuItemImage in menuItemImages -%}
+        {%- for imageItem in menuItemImage -%}
+          {%- if link.handle == imageItem.menu_item_handle -%}
             <div class="menu-icon">
-              <img src="{{ menu_item.image |  img_url: '30x' }}" alt="" width="20px" height="auto">
+              <img src="{{ imageItem.image |  img_url: '30x' }}" alt="" width="20px" height="auto">
             </div>
+            {%- break -%}
           {%- endif -%}
         {%- endfor -%}
       {%- endfor -%}
@@ -42,13 +42,13 @@
                 aria-current="page"
               {% endif %}
             >
-              {%- for block in menuItemImageBlocks -%}
-                {%- for menu_item in block.settings.image_list.menu_items.value -%}
-                  {%- assign handle = menu_item.menu_item_handle | handleize -%}
-                  {%- if handle == childlink.handle -%}
+              {%- for menuItemImage in menuItemImages -%}
+                {%- for imageItem in menuItemImage -%}
+                  {%- if childlink.handle == imageItem.menu_item_handle -%}
                     <div class="menu-icon">
-                      <img src="{{ menu_item.image |  img_url: '30x' }}" alt="" width="20px" height="auto">
+                      <img src="{{ imageItem.image |  img_url: '30x' }}" alt="" width="20px" height="auto">
                     </div>
+                    {%- break -%}
                   {%- endif -%}
                 {%- endfor -%}
               {%- endfor -%}
@@ -62,13 +62,13 @@
               >
                 {% comment %} <span>{{ childlink.title | escape }}</span> {% endcomment %}
                 <a href="{{ childlink.url }}">
-                  {%- for block in menuItemImageBlocks -%}
-                    {%- for menu_item in block.settings.image_list.menu_items.value -%}
-                      {%- assign handle = menu_item.menu_item_handle | handleize -%}
-                      {%- if handle == childlink.handle -%}
+                  {%- for menuItemImage in menuItemImages -%}
+                    {%- for imageItem in menuItemImage -%}
+                      {%- if childlink.handle == imageItem.menu_item_handle -%}
                         <div class="menu-icon">
-                          <img src="{{ menu_item.image |  img_url: '30x' }}" alt="" width="20px" height="auto">
+                          <img src="{{ imageItem.image |  img_url: '30x' }}" alt="" width="20px" height="auto">
                         </div>
+                        {%- break -%}
                       {%- endif -%}
                     {%- endfor -%}
                   {%- endfor -%}
@@ -91,13 +91,13 @@
                           aria-current="page"
                         {% endif %}
                       >
-                        {%- for block in menuItemImageBlocks -%}
-                          {%- for menu_item in block.settings.image_list.menu_items.value -%}
-                            {%- assign handle = menu_item.menu_item_handle | handleize -%}
-                            {%- if handle == grandchildlink.handle -%}
+                        {%- for menuItemImage in menuItemImages -%}
+                          {%- for imageItem in menuItemImage -%}
+                            {%- if grandchildlink.handle == imageItem.menu_item_handle -%}
                               <div class="menu-icon">
-                                <img src="{{ menu_item.image |  img_url: '30x' }}" alt="" width="20px" height="auto">
+                                <img src="{{ imageItem.image |  img_url: '30x' }}" alt="" width="20px" height="auto">
                               </div>
+                              {%- break -%}
                             {%- endif -%}
                           {%- endfor -%}
                         {%- endfor -%}

@@ -4,11 +4,10 @@
   Usage:
   {% render 'header-mega-menu' %}
 {% endcomment %}
-
-<details id="Details-HeaderMenu-{{ forloop.index }}" class="mega-menu">
+<details id="Details-HeaderMenu-{{ id }}" class="mega-menu" {% if onMobile %} open {% endif %}>
   <summary
     id="HeaderMenu-{{ link.handle }}"
-    class="header__menu-item list-menu__item link focus-inset"
+    class="header__menu-item list-menu__item link focus-inset {% if onMobile %} mobile {% endif %}"
   >
     <a href="{{ link.url }}">
       {{- link.title | escape -}}
@@ -16,12 +15,13 @@
     {{- 'icon-caret.svg' | inline_asset_content -}}
   </summary>
   <div
-    id="MegaMenu-Content-{{ forloop.index }}"
-    class="mega-menu__content color-{{ section.settings.menu_color_scheme }} gradient motion-reduce global-settings-popup"
+    id="MegaMenu-Content-{{ id }}"
+    class="mega-menu__content {{ block_settings.mode }} color-{{ section.settings.menu_color_scheme }} gradient motion-reduce global-settings-popup"
     tabindex="-1"
+    style="background: linear-gradient(to right, {{ block_settings.bg_color }}, {{ block_settings.bg_color1 }});"
   >
     <ul
-      class="mega-menu__list page-width{% if link.levels == 1 %} mega-menu__list--condensed{% endif %}"
+      class="mega-menu__list {%  unless onMobile %} page-width {% endunless %}{% if link.levels == 1 %} mega-menu__list--condensed{% endif %}"
       role="list"
     >
       {%- for childlink in link.links -%}
@@ -47,8 +47,27 @@
                     {% if grandchildlink.current %}
                       aria-current="page"
                     {% endif %}
+                    handle="{{ grandchildlink.handle }}"
                   >
-                    {{ grandchildlink.title | escape }}
+                    <span>
+                      {%- for menuItemImage in menuItemImages -%}
+                        {%- for imageItem in menuItemImage -%}
+                          {%- if grandchildlink.handle == imageItem.menu_item_handle -%}
+                            <img src="{{ imageItem.image |  img_url: '30x' }}" alt="" width="30px" height="auto">
+                            {%- break -%}
+                          {%- endif -%}
+                        {%- endfor -%}
+                      {%- endfor -%}
+                      {{ grandchildlink.title | escape }}
+                    </span>
+                    {%- if forloop.parentloop.first == false and block_settings.mode == 'mode1' -%}
+                      {%- if block_settings.secondary_text != blank -%}
+                        {%- assign remove_text = '{text}' -%}
+                        <p class="mega-menu-item-secondary">
+                          {{ block_settings.secondary_text | replace: remove_text, grandchildlink.title }}
+                        </p>
+                      {%- endif -%}
+                    {%- endif -%}
                   </a>
                 </li>
               {%- endfor -%}
@@ -57,5 +76,31 @@
         </li>
       {%- endfor -%}
     </ul>
+    {%- if block_settings.button_link != blank and block_settings.button_text != blank -%}
+      <div class="mega-menu-button horizontal-{{ block_settings.button_horizontal_pos }} {%  unless onMobile %} page-width {% endunless %}">
+        <a href="{{ block_settings.button_link }}" class="mega-menu-button-{{ block_settings.handle }}">
+          {{- block_settings.button_text -}}
+        </a>
+      </div>
+      {%- style -%}
+        .mega-menu-button-{{ block_settings.handle }} {
+          font-size: {{ block_settings.desktop_button_font_size }}px;
+          border-radius: {{ block_settings.button_border_radius }}px;
+          border: 1px  solid {{ block_settings.button_border_color |  default : 'transparent' }};
+          color: {{ block_settings.button_text_color |  default : 'transparent' }};
+          background-color: {{ block_settings.button_bg_color |  default : 'transparent' }};
+        }
+        .mega-menu-button-{{ block_settings.handle }}:hover {
+          border-color: {{ block_settings.button_border_color_hover |  default : 'transparent' }};
+          color: {{ block_settings.button_text_color_hover |  default : 'transparent' }};
+          background-color: {{ block_settings.button_bg_color_hover |  default : 'transparent' }};
+        }
+        @media screen and (max-width: 749px) {
+          .mega-menu-button-{{ block_settings.handle }} {
+            font-size: {{ block_settings.mobile_button_font_size }}px;
+          }
+        }
+      {%- endstyle -%}
+    {%- endif -%}
   </div>
 </details>

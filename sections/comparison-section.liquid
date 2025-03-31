@@ -1,0 +1,207 @@
+{% schema %}
+{
+  "name": "Comparison Section",
+  "class": "shopify-section--comparision-section",
+  "settings": [
+    {
+      "type": "text",
+      "id": "section_title",
+      "label": "Main Heading",
+      "default": "Why Work With An Industry Expert?"
+    },
+    {
+      "type": "textarea",
+      "id": "section_subheading",
+      "label": "Description",
+      "default": "It’s the difference between the millions of tradies struggling to get consistent work and the 0.0000002% that do. This is what separates you from 'just getting by.' Tradie advertising is how your business thrives."
+    },
+    {
+      "type": "text",
+      "id": "without_title",
+      "label": "Without TradieMate Title",
+      "default": "Without TradieMate"
+    },
+    {
+      "type": "text",
+      "id": "with_title",
+      "label": "With TradieMate Title",
+      "default": "With TradieMate"
+    },
+    {
+      "type": "header",
+      "content": "Padding Settings"
+    },
+    {
+      "type": "range",
+      "id": "desktop_padding_top",
+      "min": 0,
+      "max": 200,
+      "step": 2,
+      "unit": "px",
+      "label": "Desktop Padding Top",
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "desktop_padding_bottom",
+      "min": 0,
+      "max": 200,
+      "step": 2,
+      "unit": "px",
+      "label": "Desktop Padding Bottom",
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "mobile_padding_top",
+      "min": 0,
+      "max": 200,
+      "step": 2,
+      "unit": "px",
+      "label": "Mobile Padding Top",
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "mobile_padding_bottom",
+      "min": 0,
+      "max": 200,
+      "step": 2,
+      "unit": "px",
+      "label": "Mobile Padding Bottom",
+      "default": 0
+    }
+  ],
+  "blocks": [
+    {
+      "type": "without_item",
+      "name": "Without item",
+      "settings": [
+        {
+          "type": "text",
+          "id": "text",
+          "label": "List text",
+          "default": "Giving Your Hard-Earned Money to Third-Party Platforms"
+        },
+        {
+          "type": "image_picker",
+          "id": "icon",
+          "label": "Icon"
+        }
+      ]
+    },
+    {
+      "type": "with_item",
+      "name": "With item",
+      "settings": [
+        {
+          "type": "text",
+          "id": "text",
+          "label": "List text",
+          "default": "Land High-Paying Jobs"
+        },
+        {
+          "type": "image_picker",
+          "id": "icon",
+          "label": "Icon"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Comparison Section",
+      "category": "Custom Sections",
+      "blocks": [
+        { "type": "without_item" },
+        { "type": "without_item" },
+        { "type": "without_item" },
+        { "type": "with_item" },
+        { "type": "with_item" },
+        { "type": "with_item" },
+        { "type": "without_item" },
+        { "type": "without_item" },
+        { "type": "without_item" },
+        { "type": "with_item" },
+        { "type": "with_item" },
+        { "type": "with_item" }
+      ]
+    }
+  ]
+}
+{% endschema %}
+
+<link rel="stylesheet" href="{{ 'comparison-section.css' | asset_url }}">
+{%- style -%}
+  #shopify-section-{{ section.id }} {
+    padding-top: {{ section.settings.desktop_padding_top }}px;
+    padding-bottom: {{ section.settings.desktop_padding_bottom }}px;
+  }
+  @media screen and (max-width: 749px) {
+      #shopify-section-{{ section.id }} {
+        padding-top: {{ section.settings.mobile_padding_top }}px;
+        padding-bottom: {{ section.settings.mobile_padding_bottom }}px;
+      }
+  }
+{%- endstyle -%}
+<section class="comparison-section page-width">
+  <!-- Main Heading / Description -->
+  <div class="comparison-header">
+    {% if section.settings.section_title != blank %}
+      <h2 class="comparison-title">
+        {{ section.settings.section_title }}
+      </h2>
+    {% endif %}
+
+    {% if section.settings.section_subheading != blank %}
+      <p class="comparison-subheading">
+        {{ section.settings.section_subheading }}
+      </p>
+    {% endif %}
+  </div>
+
+  <div class="comparison-container">
+    <!-- "Without TradieMate" Column -->
+    <div class="comparison-box">
+      <h3>{{ section.settings.without_title }}</h3>
+      <ul>
+        {% for block in section.blocks %}
+          {% if block.type == 'without_item' %}
+            <!-- Shopify attributes let you click this block in the Theme Editor preview -->
+            <li {{ block.shopify_attributes }}>
+              {% if block.settings.icon %}
+                <img
+                  src="{{ block.settings.icon | image_url }}"
+                  alt="{{ block.settings.text | escape }}"
+                  class="bullet-icon"
+                >
+              {% endif %}
+              {{ block.settings.text }}
+            </li>
+          {% endif %}
+        {% endfor %}
+      </ul>
+    </div>
+
+    <!-- "With TradieMate" Column -->
+    <div class="comparison-box">
+      <h3>{{ section.settings.with_title }}</h3>
+      <ul>
+        {% for block in section.blocks %}
+          {% if block.type == 'with_item' %}
+            <li {{ block.shopify_attributes }}>
+              {% if block.settings.icon %}
+                <img
+                  src="{{ block.settings.icon | image_url }}"
+                  alt="{{ block.settings.text | escape }}"
+                  class="bullet-icon"
+                >
+              {% endif %}
+              {{ block.settings.text }}
+            </li>
+          {% endif %}
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+</section>

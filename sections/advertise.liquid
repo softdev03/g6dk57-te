@@ -73,7 +73,8 @@
       <h2 class="sub-heading m-0">{{ section.settings.sub_heading }}</h2>
     {%- endif -%}
     {%- if section.settings.text != blank -%}
-      <div class="text">{{ section.settings.text }}</div>
+      <div class="text">
+        <p class="advertise-text">{{ section.settings.text }}</p></div>
     {%- endif -%}
     {%- if section.settings.button_link != blank and section.settings.button_text != blank -%}
       <a href="{{ section.settings.button_link }}" class="link">{{ section.settings.button_text }}</a>

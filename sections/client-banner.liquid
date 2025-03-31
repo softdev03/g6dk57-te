@@ -1,0 +1,88 @@
+{% schema %}
+{
+  "name": "Client Banner",
+  "settings": [
+    {
+      "type": "text",
+      "id": "title_client",
+      "label": "Title",
+      "default": "We'll Get You New Clients (So You Don't Have To)"
+    },
+    {
+      "type": "richtext",
+      "id": "description_client",
+      "label": "Description",
+      "default": "<p>Don't Waste Time Trying to Line Up the Next Job.</p>"
+    },
+    {
+      "type": "text",
+      "id": "cta_text_client",
+      "label": "CTA Button Text",
+      "default": "Request A Quote"
+    },
+    {
+      "type": "url",
+      "id": "cta_link_client",
+      "label": "CTA Button Link"
+    },
+    {
+      "type": "image_picker",
+      "id": "hero_image_client",
+      "label": "Hero Image"
+    },
+    {
+      "type": "image_picker",
+      "id": "highlight_circle_client",
+      "label": "Background Circle Image"
+    },
+    {
+      "type": "image_picker",
+      "id": "annotation_text_image_client",
+      "label": "Annotation Text Image"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Client Banner",
+      "category": "Custom Sections"
+    }
+  ]
+}
+{% endschema %}
+
+<link rel="stylesheet" href="{{ 'client-banner.css' | asset_url }}">
+
+<section class="hero-section_client">
+  <div class="hero-container_client">
+    
+    <!-- Left Side (Image) -->
+    <div class="hero-image-container_client">
+      <img src="{{ "email-marketing-solutions-for-trades-people.png" | asset_url }}" alt="Background Highlight" class="highlight-circle_client">
+      <!-- <img src="{{ section.settings.highlight_circle | image_url }}" alt="Background Highlight" class="highlight-circle"> -->
+      <!-- <img src="{{ section.settings.hero_image | image_url }}" alt="Hero Image" class="hero-image"> -->
+      <img src="{{ "get-found-on-the-web-right.svg" | asset_url }}" alt="Hero Image" class="hero-image_client">
+      <!-- <img src="{{ section.settings.annotation_text_image | image_url }}" alt="Annotation Text" class="annotation-text"> -->
+    </div>
+
+    <!-- Right Side (Text) -->
+    <div class="hero-text_client">
+      <h1>{{ section.settings.title_client }}</h1>
+      <div class="hero-description_client">{{ section.settings.description_client }}</div>
+      <p class="hero-description-1_client">Let's face it.</p>
+      <p class="hero-description-2_client">
+        Old-school marketing isn't enough anymore to grow your tradie business. You're wasting your time spending hours after work searching for new jobs.
+      </p>
+      <p class="hero-description-3_client">
+        Capture your clients where they are - online. Digital marketing strategies that are built with precise targeting are your new best friend in lead gen as a tradie.
+      </p>
+      <p class="hero-description-4_client">
+        Rather than waste your efforts on people who don't want to pay what your service is worth, you want to invest in capturing those dream clients who grow your business.
+      </p>
+      <p class="hero-description-5_client">
+        It starts with a hyper-targeted profitable advertising strategy. You don't have to know how to do it. We've got you.
+      </p>
+      <a href="{{ section.settings.cta_link }}" class="hero-button_client">{{ section.settings.cta_text_client }}</a>
+    </div>
+
+  </div>
+</section>
