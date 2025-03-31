@@ -1,0 +1,147 @@
+/* Services Section */
+.services-section {
+  background-color: #ffffff;
+  /* padding: 0px 0; */
+  text-align: center;
+}
+
+.services-title {
+  font-size: 28px;
+  font-weight: bold;
+  color: #000d3f;
+  margin-bottom: 30px;
+}
+
+/* Grid Layout */
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Service Item */
+.service-item {
+  background: #ffffff;
+  border: 1px solid #e0e0e0;
+  padding: 30px;
+  /* border-radius: 8px; */
+  text-align: center;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+/* 
+.service-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+ */
+/* Icons */
+.service-icon img {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 15px;
+}
+
+/* Titles */
+.service-title a {
+  font-size: 18px;
+  font-weight: bold;
+  color: #000d3f;
+  text-decoration: none;
+}
+
+.service-title a:hover {
+  text-decoration: underline;
+}
+
+/* Description */
+.service-description {
+  font-size: 14px;
+  color: #666;
+  margin-top: 10px;
+}
+
+/* Responsive Styles */
+@media (max-width: 1024px) {
+  .services-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .services-grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .service-item {
+    padding: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .services-title {
+    font-size: 24px;
+  }
+
+  .service-title a {
+    font-size: 16px;
+  }
+
+  .service-description {
+    font-size: 12px;
+  }
+}
+
+
+
+
+/* 
+
+.services-section {
+  padding: 40px 0;
+  background-color: #fff;
+}
+
+.services-title {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 30px;
+}
+
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  grid-gap: 30px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.service-item {
+  text-align: center;
+  border: 1px solid #e0e0e0; 
+  padding: 20px;
+  border-radius: 4px;
+}
+
+.service-icon img {
+  max-width: 60px;
+  margin-bottom: 15px;
+}
+
+.service-title {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.service-title a {
+  text-decoration: none;
+  color: #000; 
+}
+
+.service-description {
+  font-size: 1rem;
+  color: #666;
+} */
+

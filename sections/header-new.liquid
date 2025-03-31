@@ -1,0 +1,387 @@
+<link rel="stylesheet" href="{{ 'custom-header.css' | asset_url }}">
+
+
+<!-- Top Yellow Banner -->
+<section class="custom-header">
+<!-- Main Header -->
+  <div class="header-icons">
+      <!-- Chat icon -->
+    <img
+      src="{{ 'Message.svg' | asset_url }}"
+      alt="Chat Icon"
+      class="chat-icon" />
+    <img
+      src="{{ section.settings.logo_image | image_url }}"
+      alt="{{ shop.name }}"
+      class="mobile-logo">
+
+    <!-- Hamburger Toggle Button -->
+    <button class="mobile-toggle" aria-label="Toggle Menu">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+  </div>
+<div class="shopify-header">
+  <!-- Mobile Toggel Menu -->
+  
+  <!-- Logo -->
+  <div class="logo">
+    <a href="{{ routes.root_url }}">
+      <!-- <img src="{{ 'tradiemate-au.svg' | asset_url }}" alt="{{ shop.name }}"> -->
+      <!-- <img src="{{ 'tradiemate-au.svg' | asset_url }}" alt="{{ shop.name }}" class="logomark" width="90%" height="90%"> -->
+
+      <img
+        src="{{ section.settings.logo_image | image_url }}"
+        alt="{{ shop.name }}"
+        class="logomark">
+
+
+    </a>
+  </div>
+
+  <!-- Navigation Menu -->
+  <div class="main-nav">
+    <div class="nav-list">
+      <!-- Regular menu items -->
+      <div class="nav-item">
+        <a href="{{ routes.root_url }}" class="nav-link">Home</a>
+      </div>
+
+      <!-- Services Dropdown (Mega Menu) -->
+      <div class="nav-item has-mega-menu">
+        <a
+          href="#"
+          class="nav-link"
+          id="services-menu">Services ▼</a>
+        <div class="mega-menu">
+          <div class="mega-menu-column">
+            <h3>Popular Services</h3>
+            <ul class="mega-menu-column-general">
+              <li>
+                <a href="#">Websites</a>
+              </li>
+              <li>
+                <a href="#">Marketing</a>
+              </li>
+              <li>
+                <a href="#">B2B Services</a>
+              </li>
+              <li>
+                <a href="#">Job Leads</a>
+              </li>
+            </ul>
+          </div>
+          <div class="mega-menu-column">
+            <h3>Paid Ads</h3>
+            <ul class="mega-menu-column-special">
+              <li>
+                <a href="#">
+                  <img src="{{ 'google-ads-svgrepo-com.svg' | asset_url }}" alt="{{ shop.name }}">
+                  Google Ads
+                  <p>Google Ads for Tradies</p>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <img src="{{ 'meta-icon-new-facebook-2021-seeklogo.svg' | asset_url }}" alt="{{ shop.name }}">
+                  Facebook Ads
+                  <p>Facebook Ads for Tradies</p>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <img src="{{ 'iconmonstr-instagram-11.svg' | asset_url }}" alt="{{ shop.name }}">
+                  Instagram Ads
+                  <p>Instagram Ads for Tradies</p>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <img src="{{ 'linkedin-svgrepo-com.svg' | asset_url }}" alt="{{ shop.name }}">
+                  Linkedin Ads
+                  <p>Linkedin Ads for Tradies</p>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <img src="{{ 'bing-seeklogo.svg' | asset_url }}" alt="{{ shop.name }}">
+                  Bing Ads
+                  <p>Bing Ads for Tradies</p>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <img src="{{ 'youtube-2017-icon-seeklogo-3.svg' | asset_url }}" alt="{{ shop.name }}">
+                  Youtube Ads
+                  <p>Youtube Ads for Tradies</p>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <img src="{{ 'tiktok-svgrepo-com.svg' | asset_url }}" alt="{{ shop.name }}">
+                  Tiktok Ads
+                  <p>Tiktok Ads for Tradies</p>
+                </a>
+              </li>
+
+
+            </ul>
+          </div>
+          <div class="mega-menu-column">
+            <h3>Organic Services</h3>
+            <ul class="mega-menu-column-special">
+              <li>
+                <a href="#">
+                  <img src="{{ '11.svg' | asset_url }}" alt="{{ shop.name }}">
+                  Search Engine Optimisation
+                  <p>SEO for Tradies</p>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <img src="{{ 'googlemybusiness-svgrepo-com.svg' | asset_url }}" alt="{{ shop.name }}">
+                  Google My Business
+                  <p>Google My Business for Tradies</p>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <img src="{{ 'tablet-ipad-svgrepo-com.svg' | asset_url }}" alt="{{ shop.name }}">
+                  Content Writing
+                  <p>Content Writing for Tradies</p>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <img src="{{ 'email-svgrepo-com.svg' | asset_url }}" alt="{{ shop.name }}">
+                  Email Marketing
+                  <p>Email Marketing for Tradies</p>
+                </a>
+              </li>
+
+            </ul>
+          </div>
+          <div class="mega-menu-column">
+            <h3>Design Services</h3>
+            <ul class="mega-menu-column-special">
+              <li>
+                <a href="#">
+                  <img src="{{ '11.svg' | asset_url }}" alt="{{ shop.name }}">
+                  Branding
+                  <p>Branding for Tradies</p>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <img src="{{ 'book-open-svgrepo-com.svg' | asset_url }}" alt="{{ shop.name }}">
+                  Capability Statements
+                  <p>Capability Statements for Tradies</p>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <img src="{{ 'tablet-ipad-svgrepo-com.svg' | asset_url }}" alt="{{ shop.name }}">
+                  Logo Design
+                  <p>Logo Design for Tradies</p>
+                </a>
+              </li>
+
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- Other regular dropdown menu -->
+      <div class="nav-item has-dropdown">
+        <a href="#" class="nav-link">Trades ▼</a>
+        <ul class="submenu">
+          <li>
+            <a href="#">Electricians</a>
+          </li>
+          <li>
+            <a href="#">Pest Control</a>
+          </li>
+          <li>
+            <a href="#">Carpenters</a>
+          </li>
+          <li>
+            <a href="#">Cleaning</a>
+          </li>
+          <li>
+            <a href="#">Plumbers</a>
+          </li>
+          <li>
+            <a href="#">Mechanics</a>
+          </li>
+          <li>
+            <a href="#">Locksmiths</a>
+          </li>
+          <li>
+            <a href="#">Other</a>
+          </li>
+        </ul>
+      </div>
+      <div class="nav-link">Our Work</div>
+      <div class="nav-link">Free Content</div>
+      <div class="nav-link">About</div>
+      <div class="nav-link">Contact</div>
+    </div>
+  </div>
+  <!-- Enquire Now Button -->
+  <div class="header-right">
+    <a href="/contact" class="enquire-button">ENQUIRE NOW</a>
+  </div>
+
+</div>
+</section>
+
+{% schema %}
+  {
+    "name": "Custom Header",
+    "tag": "header",
+    "class": "shopify-header",
+    "settings": [
+      {
+        "type": "link_list",
+        "id": "main_menu",
+        "label": "Main Navigation Menu"
+      },
+      {
+        "type": "link_list",
+        "id": "popular_services_menu",
+        "label": "Popular Services Menu"
+      },
+      {
+        "type": "link_list",
+        "id": "trades_menu",
+        "label": "Trades Menu"
+      },
+
+      {
+        "type": "image_picker",
+        "id": "logo_image",
+        "label": "Logo Image"
+      }, 
+   
+      
+      {
+        "type": "text",
+        "id": "phone_number",
+        "label": "Phone Number"
+      }, {
+        "type": "text",
+        "id": "phone_number_button_text",
+        "label": "Phone Number Button Text"
+      }, {
+        "type": "color",
+        "id": "bg_color",
+        "label": "Background Color",
+        "default": "#ffd829"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "mega_menu",
+        "name": "Mega Menu",
+        "settings": [
+          {
+            "type": "text",
+            "id": "handle",
+            "label": "Menu Handle"
+          }
+        ]
+      }, {
+        "type": "menu_item_image",
+        "name": "Menu Item Image",
+        "settings": [
+          {
+            "type": "text",
+            "id": "image_list",
+            "label": "Image List"
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "Custom Header",
+        "blocks": [
+          {
+            "type": "mega_menu"
+          }, {
+            "type": "menu_item_image"
+          }
+        ]
+      }
+    ]
+  }
+{% endschema %}
+<script>
+  
+  
+  
+  document.addEventListener("DOMContentLoaded", function () {
+    // Mega Menu for Services
+    const servicesMenu = document.getElementById("services-menu");
+    const megaMenu = document.querySelector(".mega-menu");
+  
+    if (servicesMenu && megaMenu) {
+        // Toggle mega menu when clicking "Services"
+        servicesMenu.addEventListener("click", function (event) {
+            event.preventDefault();
+            megaMenu.classList.toggle("active");
+  
+            // Close all other dropdowns
+            document.querySelectorAll(".submenu").forEach((submenu) => {
+                submenu.classList.remove("active");
+            });
+        });
+  
+        // Close mega menu when clicking outside
+        document.addEventListener("click", function (event) {
+            if (!event.target.closest(".has-mega-menu")) {
+                megaMenu.classList.remove("active");
+            }
+        });
+    }
+  
+    // Handle Other Dropdowns (e.g., Trades menu)
+    const dropdownItems = document.querySelectorAll(".has-dropdown");
+  
+    dropdownItems.forEach((dropdown) => {
+        const link = dropdown.querySelector(".nav-link");
+        const submenu = dropdown.querySelector(".submenu");
+  
+        if (link && submenu) {
+            link.addEventListener("click", function (event) {
+                event.preventDefault();
+                submenu.classList.toggle("active");
+  
+                // Close mega menu when another dropdown is opened
+                megaMenu.classList.remove("active");
+            });
+  
+            // Close dropdown when clicking outside
+            document.addEventListener("click", function (event) {
+                if (!event.target.closest(".has-dropdown")) {
+                    submenu.classList.remove("active");
+                }
+            });
+        }
+    });
+  
+  
+   const mobileToggle = document.querySelector(".mobile-toggle");
+  const navList = document.querySelector(".main-nav .nav-list");
+  
+  if (mobileToggle && navList) {
+    mobileToggle.addEventListener("click", function () {
+      // Toggle the .nav-open class on the nav-list
+      navList.classList.toggle("nav-open");
+      // Toggle the .active class on the hamburger
+      mobileToggle.classList.toggle("active");
+    });
+  }
+  });
+</script>

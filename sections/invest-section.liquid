@@ -1,0 +1,106 @@
+{% schema %}
+{
+  "name": "Investment Section",
+  "settings": [
+    {
+      "type": "text",
+      "id": "section_title",
+      "label": "Section Title",
+      "default": "An Investment That Pays Huge Dividends"
+    },
+    {
+      "type": "text",
+      "id": "sub_title",
+      "label": "Sub Title",
+      "default": "The Tradies Killing It In Their Business Know This..."
+    },
+    {
+      "type": "textarea",
+      "id": "paragraph1",
+      "label": "Paragraph 1",
+      "default": "We get it. Cost-savings are important for your long-term growth. But if you're cutting corners in the most important area - booking jobs and getting paid - your business suffers."
+    },
+    {
+      "type": "textarea",
+      "id": "paragraph2",
+      "label": "Paragraph 2",
+      "default": "Why is DIY marketing or going with the cheapest advertising route for your business too risky? For the same reason you tell your customers not to do this."
+    },
+    {
+      "type": "textarea",
+      "id": "bold_text",
+      "label": "Bold Emphasis Text",
+      "default": "It's not effective. The results aren't worth it."
+    },
+    {
+      "type": "textarea",
+      "id": "paragraph3",
+      "label": "Paragraph 3",
+      "default": "The successful big businesses and tradies have made it because they know this. They've invested in a reputable way to market their services and book better-paying jobs. The result? More customers. More profit."
+    },
+    {
+      "type": "textarea",
+      "id": "bold_cta",
+      "label": "Bold Call to Action",
+      "default": "Ready to invest in your business success?"
+    },
+    {
+      "type": "image_picker",
+      "id": "main_image",
+      "label": "Main Right Side Image"
+    },
+    {
+      "type": "image_picker",
+      "id": "overlay_image",
+      "label": "Overlay Image"
+    },
+    {
+      "type": "text",
+      "id": "button_text",
+      "label": "Button Text",
+      "default": "Ok, Let's do this!"
+    },
+    {
+      "type": "url",
+      "id": "button_link",
+      "label": "Button Link"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Investment Section",
+      "category": "Custom Sections"
+    }
+  ]
+}
+{% endschema %}
+
+<link rel="stylesheet" href="{{ 'investment-section.css' | asset_url }}">
+
+<section class="investment-section">
+  <div class="investment-container">
+    <div class="investment-content">
+      <h2>{{ section.settings.section_title }}</h2>
+      <h4>{{ section.settings.sub_title }}</h4>
+      <p>{{ section.settings.paragraph1 }}</p>
+      <p>{{ section.settings.paragraph2 }}</p>
+      <p><strong>{{ section.settings.bold_text }}</strong></p>
+      <p>{{ section.settings.paragraph3 }}</p>
+      <p><strong>{{ section.settings.bold_cta }}</strong></p>
+      <a href="{{ section.settings.button_link }}" class="investment-btn">
+        {{ section.settings.button_text }}
+      </a>
+    </div>
+
+    <div class="investment-image-container">
+      
+        <img src="{{ "seo-for-trades.png" | asset_url }}" alt="Main Image" class="seoForTrades">
+
+      
+     
+        <img src="{{ "grow-your-brand.svg" | asset_url }}" alt="Overlay Image" class="growBrands">
+    
+    </div>
+
+  </div>
+</section>

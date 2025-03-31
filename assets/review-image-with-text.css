@@ -1,0 +1,36 @@
+.shopify-section-riwt {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  column-gap: 30px;
+  align-items: center;
+  row-gap: 15px;
+}
+
+.shopify-section-riwt .text {
+  font-size: 20px;
+  line-height: 1.2;
+  margin: 0px;
+  text-align: center;
+}
+
+.shopify-section-riwt .image {
+  max-width: 500px;
+  min-width: 150px;
+  line-height: 0px;
+}
+
+.shopify-section-riwt .image img {
+  width: 100%;
+  height: auto;
+}
+
+@media screen and (max-width: 749px) {
+  .shopify-section-riwt {
+    column-gap: 20px;
+  }
+
+  .shopify-section-riwt .text {
+    font-size: 18px;
+  }
+}

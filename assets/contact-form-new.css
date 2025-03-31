@@ -1,0 +1,198 @@
+.shopify-section-cfn {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	row-gap: 60px;
+}
+
+.shopify-section-cfn .text-content {
+	width: calc(50% - 45px);
+	display: flex;
+	flex-direction: column;
+	row-gap: 30px;
+}
+
+.shopify-section .heading {
+	margin: 0px;
+}
+
+.shopify-section-cfn .description {
+	font-size: 18px;
+}
+
+.shopify-section-cfn .description p {
+	margin: 0px;
+}
+
+.shopify-section-cfn .description a {
+	color: inherit;
+}
+
+.shopify-section-cfn .form-cotnent {
+	width: calc(50% - 45px);
+	position: relative;
+	padding: 80px 50px 40px;
+	text-align: center;
+}
+
+.shopify-section-cfn .form-cotnent .logo {
+	position: absolute;
+	width: 120px;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	top: 0px;
+}
+
+.shopify-section-cfn .form-heading {
+	margin: 0px;
+	font-size: 25px;
+}
+
+.shopify-section-cfn .form-description {
+	margin-top: 0px;
+	font-size: 15px;
+	margin-bottom: 50px;
+}
+
+.shopify-section-cfn .next-step {
+	margin-top: 50px;
+	width: 100%;
+	border: none;
+	padding: 10px;
+	font-size: 14px;
+	font-weight: 500;
+	cursor: pointer;
+}
+
+.shopify-section-cfn .progressbar {
+	margin: 30px 0px;
+	border-radius: 2px;
+	overflow: hidden;
+}
+
+.shopify-section-cfn .progress-track {
+	height: 4px;
+	display: block;
+	width: 10%;
+}
+
+.shopify-section-cfn .back-step {
+	border: none;
+	background: no-repeat;
+	text-align: left;
+}
+
+.shopify-section-cfn .steps {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	row-gap: 30px;
+	margin-top: 30px;
+}
+
+.shopify-section .step-item {
+	font-size: 13px;
+	display: flex;
+	flex-direction: column;
+	row-gap: 12px;
+	width: calc(50% - 10px);
+	height: fit-content;
+	border-radius: 8px;
+	padding: 12px 14px;
+}
+
+.shopify-section-cfn .step-item .title {
+	margin: 0px;
+	display: flex;
+	align-items: center;
+	column-gap: 10px;
+}
+
+.shopify-section-cfn .step-item .title span {
+	width: 30px;
+	height: 30px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 100px;
+}
+
+.shopify-section-cfn .step-item .title p {
+	margin: 0px;
+}
+
+.shopify-section-cfn .step-item .description {
+	text-align: left;
+	margin: 0px;
+	font-size: inherit;
+	line-height: 1.2;
+}
+
+.shopify-section-cfn .form-step-section {
+	display: flex;
+	flex-direction: column;
+	row-gap: 30px;
+}
+.shopify-section-cfn .form-step-section:not(.show) {
+	display: none;
+}
+
+.shopify-section-cfn .name-field {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	row-gap: 30px;
+}
+.shopify-section-cfn .name-field .field-wrapper {
+	width: calc(50% - 10px);
+}
+
+.shopify-section-cfn .error-msg {
+	margin-bottom: 0px;
+	margin-top: 3px;
+	font-size: 10px;
+	line-height: 1.5;
+	text-align: left;
+	letter-spacing: 0px;
+}
+.shopify-section-cfn .field-wrapper:not(.error) .error-msg {
+	display: none;
+}
+.shopify-section-cfn .field input {
+	border: none;
+	margin: 0px;
+	height: unset;
+	color: inherit;
+}
+.shopify-section-cfn .field::before,.shopify-section-cfn .field::after {
+	width: 0%;
+	height: 2px;
+	bottom: 0px;
+	left: 50%;
+	top: unset;
+	transform: translateX(-50%);
+	transition: all .2s;
+	box-shadow: none;
+	border: none;
+	z-index: 10;
+}
+.shopify-section-cfn .field:has(input:focus)::before {
+	display: block;
+	width: 100%;
+}
+.shopify-section-cfn .field-wrapper.error .field:after {
+	width: 100%;
+}
+.shopify-section-cfn .field:hover::before,.shopify-section-cfn .field:hover::after {
+	box-shadow: none;
+}
+.shopify-section-cfn .field label {
+	transform: translateY(-50%);
+	top: 50%;
+	font-size: 14px;
+	color: inherit;
+	letter-spacing: 0px;
+}
+.shopify-section-cfn .field:has(input:focus) label {
+	transform: translateY(0px);
+}

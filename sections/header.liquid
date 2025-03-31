@@ -21,6 +21,9 @@
   .header-wrapper {
     background-color: {{ section.settings.bg_color }};
   }
+  .header-wrapper .header__menu-item {
+    color: {{ section.settings.text_color }};
+  }
   {%- if section.settings.sticky_header_type == 'reduce-logo-size' -%}
     .scrolled-past-header .header__heading-logo-wrapper {
       width: 75%;
@@ -100,7 +103,8 @@
 {%- endstyle -%}
 
 <script src="{{ 'cart-notification.js' | asset_url }}" defer="defer"></script>
-
+{%- assign menuItemImageBlocks = section.blocks |  where: 'type', 'menu_item_image' -%}
+{%- assign menuItemImages = menuItemImageBlocks | map : 'settings' |  map: 'image_list' |  first |  map: 'menu_items' |  map: 'value' -%}
 {%- liquid
   for block in section.blocks
     if block.type == '@app'
@@ -125,7 +129,7 @@
   <header class="header header--{{ section.settings.logo_position }} header--mobile-{{ section.settings.mobile_logo_position }} page-width{% if section.settings.menu_type_desktop == 'drawer' %} drawer-menu{% endif %}{% if section.settings.menu != blank %} header--has-menu{% endif %}{% if has_app_block %} header--has-app{% endif %}{% if social_links %} header--has-social{% endif %}{% if shop.customer_accounts_enabled %} header--has-account{% endif %}{% if localization_forms %} header--has-localizations{% endif %}">
     {%- liquid
       if section.settings.menu != blank
-        render 'header-drawer'
+        render 'header-drawer',menuItemImages: menuItemImages
       endif
 
       if section.settings.logo_position == 'top-center' or section.settings.menu == blank
@@ -163,7 +167,7 @@
       {%- endif -%}
     {%- endif -%}
 
-    {%- render 'menu' -%}
+    {%- render 'menu',menuItemImages: menuItemImages -%}
 
     {%- if section.settings.logo_position == 'middle-center' -%}
       {%- if request.page_type == 'index' -%}
@@ -274,10 +278,19 @@
         {%- endif -%}
       </a>
     </div> {% endcomment %}
-    {%- if section.settings.phone_number != blank and section.settings.phone_number_button_text != blank -%}
+
+    <!-- Captain Edit 03/17/2025  -->
+    <!-- {%- if section.settings.phone_number != blank and section.settings.phone_number_button_text != blank -%}
       <a href="tel:{{ section.settings.phone_number }}" class="phone-number">{{ section.settings.phone_number_button_text }}</a>
+    {%- endif -%} -->
+    {%- if section.settings.enquire_link != blank and section.settings.enquire_link_text != blank -%}
+      <a href="{{ section.settings.enquire_link }}" class="enquire-link">{{ section.settings.enquire_link_text }}</a>
     {%- endif -%}
   </header>
+
+
+
+  
 </{% if section.settings.sticky_header_type != 'none' %}sticky-header{% else %}div{% endif %}>
 
 {%- if settings.cart_type == "notification" -%}
@@ -547,19 +560,25 @@
       "default": "#000000"
     },
     {
+      "type": "color",
+      "id": "text_color",
+      "label": "Text Color",
+      "default": "#000000"
+    },
+    {
       "type": "header",
       "content": "t:sections.header.settings.header__3.content",
       "info": "t:sections.header.settings.header__4.info"
     },
     {
-      "type": "text",
-      "id": "phone_number",
-      "label": "Phone Number"
+      "type": "url",
+      "id": "enquire_link",
+      "label": "Enquire Link"
     },
     {
       "type": "text",
-      "id": "phone_number_button_text",
-      "label": "Phone Number Button Text"
+      "id": "enquire_link_text",
+      "label": "Enquire Link Text"
     },
     {
       "type": "checkbox",
@@ -661,15 +680,131 @@
           "type": "text",
           "id": "handle",
           "label": "Handle"
+        },
+        {
+          "type": "select",
+          "id": "mode",
+          "label": "Mode",
+          "options": [
+            {
+              "value": "mode1",
+              "label": "Mode1"
+            }
+          ],
+          "default": "mode1"
+        },
+        {
+          "type": "checkbox",
+          "id": "show_on_mobile",
+          "label": "Show on Mobile",
+          "default": true
+        },
+        {
+          "type": "color",
+          "id": "bg_color",
+          "label": "Background Color"
+        },
+        {
+          "type": "color",
+          "id": "bg_color1",
+          "label": "Background Color1"
+        },
+        {
+          "type": "text",
+          "id": "secondary_text",
+          "label": "Secondary Text"
+        },
+        {
+          "type": "header",
+          "content": "Button Settings"
+        },
+        {
+          "type": "text",
+          "id": "button_text",
+          "label": "Button Text"
+        },
+        {
+          "type": "url",
+          "id": "button_link",
+          "label": "Button Link"
+        },
+        {
+          "type": "color",
+          "id": "button_bg_color",
+          "label": "Button Background Color"
+        },
+        {
+          "type": "color",
+          "id": "button_text_color",
+          "label": "Button Text Color",
+          "default": "#000000"
+        },
+        {
+          "type": "color",
+          "id": "button_border_color",
+          "label": "Button Border Color"
+        },
+        {
+          "type": "color",
+          "id": "button_bg_color_hover",
+          "label": "Button background color when Hover"
+        },
+        {
+          "type": "color",
+          "id": "button_text_color_hover",
+          "label": "Button Text Color when Hover",
+          "default": "#000000"
+        },
+        {
+          "type": "color",
+          "id": "button_border_color_hover",
+          "label": "Button Border Color when Hover",
+          "default": "#000000"
+        },
+        {
+          "type": "range",
+          "id": "desktop_button_font_size",
+          "min": 10,
+          "max": 100,
+          "step": 1,
+          "unit": "px",
+          "label": "Desktop Button Font Size",
+          "default": 18
+        },
+        {
+          "type": "range",
+          "id": "mobile_button_font_size",
+          "min": 10,
+          "max": 100,
+          "step": 1,
+          "unit": "px",
+          "label": "Mobile Button Font Size",
+          "default": 16
+        },
+        {
+          "type": "range",
+          "id": "button_border_radius",
+          "min": 0,
+          "max": 100,
+          "step": 1,
+          "unit": "px",
+          "label": "Button Border Radius",
+          "default": 0
+        },
+        {
+          "type": "text_alignment",
+          "id": "button_horizontal_pos",
+          "label": "Button Horizontal Position"
         }
       ]
     },
     {
       "type": "menu_item_image",
       "name": "Menu Item Image",
+      "limit": 1,
       "settings": [
         {
-          "type": "metaobject",
+          "type": "metaobject_list",
           "id": "image_list",
           "label": "Image List",
           "metaobject_type": "menu_item_image"

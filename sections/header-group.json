@@ -11,6 +11,28 @@
   "name": "t:sections.header.name",
   "type": "header",
   "sections": {
+    "announcement_bar_new_6eRUkr": {
+      "type": "announcement-bar-new",
+      "settings": {
+        "own_text": "Australian Owned & Operated · Shopify Experts for Aussie Businesses",
+        "trust_text": "Trusted by 380+ Brands",
+        "trust_img": "shopify://shop_images/review-stars-new_c29b87db-b7be-4045-88d6-6ed0253b3672.svg",
+        "bg_color": "#fdd317",
+        "text_color": "#121212",
+        "desktop_padding_top": 10,
+        "desktop_padding_bottom": 10,
+        "mobile_padding_top": 10,
+        "mobile_padding_bottom": 10
+      }
+    },
+    "header_banner_jztizg": {
+      "type": "header-banner",
+      "disabled": true,
+      "settings": {
+        "right_banner": "shopify://shop_images/review-stars-new_c29b87db-b7be-4045-88d6-6ed0253b3672.svg",
+        "top_banner_left": "Australian Owned and Operated"
+      }
+    },
     "announcement-bar": {
       "type": "announcement-bar",
       "blocks": {
@@ -27,9 +49,9 @@
       ],
       "disabled": true,
       "settings": {
-        "color_scheme": "scheme-1",
+        "color_scheme": "scheme-3",
         "show_line_separator": true,
-        "show_social": false,
+        "show_social": true,
         "auto_rotate": false,
         "change_slides_speed": 5,
         "enable_country_selector": false,
@@ -37,10 +59,11 @@
       }
     },
     "header": {
-      "type": "header",
+      "type": "header-new",
       "blocks": {
         "mega_menu_RMTENt": {
           "type": "mega_menu",
+          "disabled": true,
           "settings": {
             "handle": "services"
           }
@@ -56,6 +79,84 @@
         "mega_menu_RMTENt",
         "menu_item_image_3tYmVM"
       ],
+      "disabled": true,
+      "custom_css": [
+        ".submenu {z-index: 99 !important;}"
+      ],
+      "settings": {
+        "main_menu": "",
+        "popular_services_menu": "",
+        "trades_menu": "",
+        "logo_image": "shopify://shop_images/Logo.svg",
+        "phone_number": "0499226600",
+        "phone_number_button_text": "Call 0499226600",
+        "bg_color": "#ffd829"
+      }
+    },
+    "header-new": {
+      "type": "header",
+      "blocks": {
+        "mega_menu_dxRDEk": {
+          "type": "mega_menu",
+          "settings": {
+            "handle": "services",
+            "mode": "mode1",
+            "show_on_mobile": true,
+            "bg_color": "#fff9c4",
+            "bg_color1": "#ffecb3",
+            "secondary_text": "{text} for Businesses",
+            "button_text": "See All Services →",
+            "button_link": "shopify://pages/google-ads",
+            "button_bg_color": "rgba(0,0,0,0)",
+            "button_text_color": "#000000",
+            "button_border_color": "#9c9c9c",
+            "button_bg_color_hover": "rgba(0,0,0,0)",
+            "button_text_color_hover": "#000000",
+            "button_border_color_hover": "#000000",
+            "desktop_button_font_size": 18,
+            "mobile_button_font_size": 16,
+            "button_border_radius": 0,
+            "button_horizontal_pos": "right"
+          }
+        },
+        "mega_menu_yNw87b": {
+          "type": "mega_menu",
+          "settings": {
+            "handle": "business-tools",
+            "mode": "mode1",
+            "show_on_mobile": true,
+            "bg_color": "#fff9c4",
+            "bg_color1": "#ffecb3",
+            "secondary_text": "",
+            "button_text": "Explore All AI Tools →",
+            "button_link": "shopify://pages/free-ai-tools",
+            "button_bg_color": "rgba(0,0,0,0)",
+            "button_text_color": "#000000",
+            "button_border_color": "#9c9c9c",
+            "button_bg_color_hover": "rgba(0,0,0,0)",
+            "button_text_color_hover": "#000000",
+            "button_border_color_hover": "#000000",
+            "desktop_button_font_size": 18,
+            "mobile_button_font_size": 16,
+            "button_border_radius": 0,
+            "button_horizontal_pos": "right"
+          }
+        },
+        "menu_item_image_r8imWy": {
+          "type": "menu_item_image",
+          "settings": {
+            "image_list": [
+              "free-ai-tools",
+              "menu-item-image-cs58mp4w"
+            ]
+          }
+        }
+      },
+      "block_order": [
+        "mega_menu_dxRDEk",
+        "mega_menu_yNw87b",
+        "menu_item_image_r8imWy"
+      ],
       "settings": {
         "logo_position": "middle-left",
         "menu": "main-menu-1",
@@ -63,12 +164,13 @@
         "sticky_header_type": "on-scroll-up",
         "show_line_separator": true,
         "color_scheme": "scheme-1",
-        "menu_color_scheme": "scheme-1",
-        "bg_color": "#fefd41",
-        "phone_number": "0499226600",
-        "phone_number_button_text": "Call 0499226600",
-        "enable_country_selector": true,
-        "enable_language_selector": true,
+        "menu_color_scheme": "",
+        "bg_color": "#feda15",
+        "text_color": "#121212",
+        "enquire_link": "shopify://pages/contact",
+        "enquire_link_text": "ENQUIRE NOW",
+        "enable_country_selector": false,
+        "enable_language_selector": false,
         "enable_customer_avatar": true,
         "mobile_logo_position": "center",
         "margin_bottom": 0,
@@ -78,7 +180,10 @@
     }
   },
   "order": [
+    "announcement_bar_new_6eRUkr",
+    "header_banner_jztizg",
     "announcement-bar",
-    "header"
+    "header",
+    "header-new"
   ]
 }

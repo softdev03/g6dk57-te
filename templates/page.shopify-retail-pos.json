@@ -1,0 +1,469 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "advertise_xMT9mA": {
+      "type": "advertise",
+      "settings": {
+        "main_image": "shopify://shop_images/seo-for-trades.webp",
+        "secondary_image": "shopify://shop_images/get-found-on-the-web-right.svg",
+        "secondary_image_roate_angle": 8,
+        "desktop_left": -90,
+        "desktop_top": -1,
+        "desktop_right": -1,
+        "desktop_bottom": 20,
+        "mobile_left": 0,
+        "mobile_top": -1,
+        "mobile_right": -1,
+        "mobile_bottom": -26,
+        "heading": "Shopify POS: The Smartest Way to Run Your Retail Business",
+        "sub_heading": "Running a brick-and-mortar store and an online shop?",
+        "text": "<p>Keeping track of stock, payments, and customers across multiple platforms can be a nightmare—<strong>Shopify POS fixes that.</strong></p><p>At <strong>An Agency</strong>, we’re not just Shopify partners, we’re eCommerce store owners too. We know how important it is to have <strong>one system that keeps everything running smoothly</strong>, whether you're selling in-store, online, or across multiple channels like <strong>your website, eBay, Amazon, or social media stores.</strong></p><ul><li><strong>Syncs inventory automatically across all sales channels.</strong></li><li><strong>Takes payments anywhere in your store.</strong></li><li><strong>Keeps all customer data in one place.</strong></li></ul>",
+        "button_link": "#",
+        "button_text": "[ Book a Free Chat → ]",
+        "image_right": false,
+        "text_align": "left",
+        "background_color": "#aeddf9",
+        "desktop_padding_top": 60,
+        "desktop_padding_bottom": 60,
+        "mobile_padding_top": 40,
+        "mobile_padding_bottom": 40
+      }
+    },
+    "phone_ring_MzFcJr": {
+      "type": "phone-ring",
+      "settings": {
+        "image": "shopify://shop_images/MTS-Incoming-Call_png.webp",
+        "heading_1": "We Make",
+        "heading_2": "Selling Easy",
+        "sub_heading": "Forget outdated POS systems that don’t talk to your online store. Shopify POS lets you sell, track, and manage everything in one place.",
+        "text": "Real-time inventory syncing – No more double-selling stock. Sell from anywhere in your store – Take payments with a tap. Full customer history – Track every purchase, whether it’s online or in-store.",
+        "phone_button_text": "",
+        "phone_number": "",
+        "enquire_button_text": "[ Learn More ]",
+        "enquire_button_link": "#",
+        "image_right": true,
+        "text_align": "left",
+        "desktop_padding_top": 100,
+        "desktop_padding_bottom": 100,
+        "mobile_padding_top": 60,
+        "mobile_padding_bottom": 40
+      }
+    },
+    "advertise_qQYPyj": {
+      "type": "advertise",
+      "settings": {
+        "main_image": "shopify://shop_images/google-ads-for-tradies-australia.webp",
+        "secondary_image": "shopify://shop_images/google-ads-for-tradies-text.svg",
+        "secondary_image_roate_angle": 0,
+        "desktop_left": -1,
+        "desktop_top": 160,
+        "desktop_right": -90,
+        "desktop_bottom": -1,
+        "mobile_left": -1,
+        "mobile_top": -25,
+        "mobile_right": 0,
+        "mobile_bottom": -1,
+        "heading": "How We Set Up Shopify POS for You",
+        "sub_heading": "",
+        "text": "<h3><strong>Step 1: Free Consultation & Demo</strong></h3><p>We start by understanding your business and showing you exactly how Shopify POS can work for you—whether you're a retail store, a boutique, or a trades business selling online and in-person.<br/></p>",
+        "button_link": "#",
+        "button_text": "",
+        "image_right": true,
+        "text_align": "left",
+        "background_color": "#aeddf9",
+        "desktop_padding_top": 60,
+        "desktop_padding_bottom": 60,
+        "mobile_padding_top": 40,
+        "mobile_padding_bottom": 40
+      }
+    },
+    "advertise_PAQGf7": {
+      "type": "advertise",
+      "settings": {
+        "main_image": "shopify://shop_images/website-design-and-dev-for-tradies.png",
+        "secondary_image": "shopify://shop_images/get-the-work-you-want.svg",
+        "secondary_image_roate_angle": 0,
+        "desktop_left": -80,
+        "desktop_top": -1,
+        "desktop_right": -1,
+        "desktop_bottom": 82,
+        "mobile_left": 0,
+        "mobile_top": -1,
+        "mobile_right": -1,
+        "mobile_bottom": -30,
+        "heading": "",
+        "sub_heading": "",
+        "text": "<h3>Step 2: We Handle Everything With Shopify</h3><p>Once you’re ready, we <strong>coordinate with Shopify’s POS team</strong> to ensure you get the <strong>right hardware and software setup</strong> for your store.</p>",
+        "button_link": "#",
+        "button_text": "",
+        "image_right": false,
+        "text_align": "left",
+        "background_color": "#aeddf9",
+        "desktop_padding_top": 60,
+        "desktop_padding_bottom": 60,
+        "mobile_padding_top": 40,
+        "mobile_padding_bottom": 40
+      }
+    },
+    "advertise_DnFdqE": {
+      "type": "advertise",
+      "settings": {
+        "main_image": "shopify://shop_images/Web-Designs-for-trades.png",
+        "secondary_image_roate_angle": 12,
+        "desktop_left": -1,
+        "desktop_top": -1,
+        "desktop_right": -1,
+        "desktop_bottom": -1,
+        "mobile_left": -1,
+        "mobile_top": -1,
+        "mobile_right": -1,
+        "mobile_bottom": -1,
+        "heading": "",
+        "sub_heading": "",
+        "text": "<h3><strong>Step 3: We Come to You & Set It Up</strong></h3><p>No matter where you are in <strong>Australia</strong>, we’ll <strong>fly out to your store, install everything</strong>, and <strong>train you and your team</strong> so you’re <strong>good to go from day one.</strong><br/><br/></p>",
+        "button_link": "#",
+        "button_text": "[ Get Shopify POS for My Store → ]",
+        "image_right": true,
+        "text_align": "left",
+        "background_color": "#aeddf9",
+        "desktop_padding_top": 60,
+        "desktop_padding_bottom": 60,
+        "mobile_padding_top": 40,
+        "mobile_padding_bottom": 40
+      }
+    },
+    "advertise_JebRqW": {
+      "type": "advertise",
+      "disabled": true,
+      "settings": {
+        "main_image": "shopify://shop_images/email-marketing-for-tradies-edm.webp",
+        "secondary_image": "shopify://shop_images/get-new-customers.svg",
+        "secondary_image_roate_angle": 0,
+        "desktop_left": -1,
+        "desktop_top": 160,
+        "desktop_right": -90,
+        "desktop_bottom": -1,
+        "mobile_left": -1,
+        "mobile_top": -25,
+        "mobile_right": 0,
+        "mobile_bottom": -1,
+        "heading": "The Challenge of Marketing for Tradies",
+        "sub_heading": "You’re up against a crowded market, and let’s be real—your expertise is in your trade, not marketing.",
+        "text": "<p><strong>If you’re not using the right strategies, your ideal clients won’t find you. In today’s digital world, being good at what you do isn’t enough—you need to be seen.</strong></p><p>That’s where we come in. An Agency has years of experience helping Aussie tradies grow their businesses. We know what works, what doesn’t, and how to get real results—so you can focus on the job while we handle the marketing.</p>",
+        "button_link": "#",
+        "button_text": "Get More High-Quality Leads",
+        "image_right": true,
+        "text_align": "left",
+        "background_color": "#aeddf9",
+        "desktop_padding_top": 60,
+        "desktop_padding_bottom": 60,
+        "mobile_padding_top": 40,
+        "mobile_padding_bottom": 40
+      }
+    },
+    "trust_Q37M3R": {
+      "type": "trust",
+      "blocks": {
+        "trust_item_KtaqTQ": {
+          "type": "trust_item",
+          "settings": {
+            "heading": "One Dashboard for Everything",
+            "main_text": "<p>No more jumping between systems. <strong>Shopify POS keeps all your sales, stock, and customer data in one place</strong></p><p></p>",
+            "button_text": "Read More",
+            "additional_text": "<p>—whether a sale happens in-store, on your website, or through a marketplace like <strong>eBay or Amazon.</strong></p>",
+            "accordion_image": "shopify://shop_images/yellow-arrow.svg"
+          }
+        },
+        "trust_item_YFytD9": {
+          "type": "trust_item",
+          "settings": {
+            "heading": "Live Inventory Syncing",
+            "main_text": "<p>Sold something in-store? <strong>Your online stock updates instantly.</strong></p><p></p>",
+            "button_text": "Read More",
+            "additional_text": "<p>No more awkward moments selling something you don’t actually have.</p>",
+            "accordion_image": "shopify://shop_images/yellow-arrow.svg"
+          }
+        },
+        "trust_item_JfVUzV": {
+          "type": "trust_item",
+          "settings": {
+            "heading": "Mobile Checkout, Anywhere in Your Store",
+            "main_text": "<p>Ditch the old-school counter. </p><p></p>",
+            "button_text": "Read More",
+            "additional_text": "<p><strong>Take payments on the shop floor, at pop-ups, or even out at events</strong> using Shopify’s <strong>mobile EFTPOS</strong> hardware.</p>",
+            "accordion_image": "shopify://shop_images/yellow-arrow.svg"
+          }
+        }
+      },
+      "block_order": [
+        "trust_item_KtaqTQ",
+        "trust_item_YFytD9",
+        "trust_item_JfVUzV"
+      ],
+      "settings": {
+        "heading": "Why Shopify POS?",
+        "text": "",
+        "trust_image": "shopify://shop_images/review-bar-green.svg",
+        "desktop_padding_top": 60,
+        "desktop_padding_bottom": 60,
+        "mobile_padding_top": 40,
+        "mobile_padding_bottom": 40
+      }
+    },
+    "advertise_KLNL33": {
+      "type": "advertise",
+      "settings": {
+        "main_image": "shopify://shop_images/get-more-leads-for-your-trade.webp",
+        "secondary_image": "shopify://shop_images/this-could-be-you.svg",
+        "secondary_image_roate_angle": 8,
+        "desktop_left": -80,
+        "desktop_top": -1,
+        "desktop_right": -1,
+        "desktop_bottom": 82,
+        "mobile_left": 0,
+        "mobile_top": -1,
+        "mobile_right": -1,
+        "mobile_bottom": -30,
+        "heading": "Why Work With An Agency?",
+        "sub_heading": "How An Agency Helps You Stand Out Online",
+        "text": "<p>✔ <strong>We actually run eCommerce stores.</strong> We know what works, what doesn’t, and how to set things up <strong>without wasting time or money.</strong></p><p>✔ <strong>We make it simple.</strong> No tech jargon, no complicated setup—just <strong>a system that works.</strong></p><p>✔ <strong>We come to you.</strong> Whether you're in <strong>Sydney, Melbourne, Brisbane, Perth, or beyond</strong>, we’ll <strong>be there in person to get everything running smoothly.</strong></p><p>✔ <strong>We’re Shopify Partners.</strong> That means we’ve got <strong>direct access to Shopify’s team</strong>, so if you need extra help, <strong>we’ll make sure you get it.</strong></p><p>💬 <em>“An Agency made switching to Shopify POS easy. They handled everything, flew in, set it up, and trained our team. Sales have never been smoother!”</em> – <em>Happy Retailer</em></p><p></p>",
+        "button_link": "#",
+        "button_text": "[ Book a Call with Our Team → ]",
+        "image_right": false,
+        "text_align": "left",
+        "background_color": "#ffffff",
+        "desktop_padding_top": 60,
+        "desktop_padding_bottom": 60,
+        "mobile_padding_top": 40,
+        "mobile_padding_bottom": 40
+      }
+    },
+    "tradies_D9qHzj": {
+      "type": "Tradies",
+      "blocks": {
+        "tradies_item_YQarCg": {
+          "type": "tradies-item",
+          "settings": {
+            "image": "shopify://shop_images/electrician-website.webp",
+            "detail_info_heading": "Fashion Boutiques",
+            "detail_info_text": "<p>Sell in-store and online without stock headaches.</p>",
+            "icon": "shopify://shop_images/yellow-arrow.svg",
+            "detail_button_link": "#",
+            "detail_button_text": "Free Quote"
+          }
+        },
+        "tradies_item_TMkHRR": {
+          "type": "tradies-item",
+          "settings": {
+            "image": "shopify://shop_images/plumbing-websites.webp",
+            "detail_info_heading": "Home & Decor Stores",
+            "detail_info_text": "<p>Take payments anywhere in your shop.</p>",
+            "icon": "shopify://shop_images/yellow-arrow.svg",
+            "detail_button_link": "#",
+            "detail_button_text": "Free Quote"
+          }
+        },
+        "tradies_item_yT7wgX": {
+          "type": "tradies-item",
+          "settings": {
+            "image": "shopify://shop_images/carpenter-websites.webp",
+            "detail_info_heading": "Electronics Retailers",
+            "detail_info_text": "<p>Manage high-volume stock across multiple sales channels.</p>",
+            "icon": "shopify://shop_images/yellow-arrow.svg",
+            "detail_button_link": "#",
+            "detail_button_text": "Free Quote"
+          }
+        },
+        "tradies_item_X3Db9y": {
+          "type": "tradies-item",
+          "settings": {
+            "image": "shopify://shop_images/pest-control-website-development-1.webp",
+            "detail_info_heading": "Trade & Service Businesses",
+            "detail_info_text": "<p>Take payments in the field or in-store with mobile EFTPOS.</p><p></p><p></p>",
+            "icon": "shopify://shop_images/yellow-arrow.svg",
+            "detail_button_link": "#",
+            "detail_button_text": "Free Quote"
+          }
+        },
+        "tradies_item_6qHYz4": {
+          "type": "tradies-item",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/cleaning-website-design.webp",
+            "detail_info_heading": "Cleaning",
+            "detail_info_text": "<p>Whether you’re running a commercial cleaning business or handling end-of-lease deep cleans, a strong website helps you get more bookings. We highlight your services, customer testimonials, and guarantees, with a simple contact system that makes it easy for clients to reach out and book a clean.</p><p></p><p></p>",
+            "icon": "shopify://shop_images/yellow-arrow.svg",
+            "detail_button_link": "#",
+            "detail_button_text": "Free Quote"
+          }
+        },
+        "tradies_item_tDB4YR": {
+          "type": "tradies-item",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/general-tradies-websites.webp",
+            "detail_info_heading": "All Other Tradies",
+            "detail_info_text": "<p>No matter your trade, we build websites that work for you. From builders and tilers to landscapers and painters, we design sites that show off your skills, bring in more work, and make booking you a no-brainer.</p><p></p><p></p>",
+            "icon": "shopify://shop_images/yellow-arrow.svg",
+            "detail_button_link": "#",
+            "detail_button_text": "Free Quote"
+          }
+        }
+      },
+      "block_order": [
+        "tradies_item_YQarCg",
+        "tradies_item_TMkHRR",
+        "tradies_item_yT7wgX",
+        "tradies_item_X3Db9y",
+        "tradies_item_6qHYz4",
+        "tradies_item_tDB4YR"
+      ],
+      "settings": {
+        "heading": "Who’s Shopify POS For?",
+        "text": "Whether you sell fashion, homewares, electronics, or services, Shopify POS is built to make retail easier.",
+        "desktop_padding_top": 60,
+        "desktop_padding_bottom": 60,
+        "mobile_padding_top": 40,
+        "mobile_padding_bottom": 40
+      }
+    },
+    "faq_cYAhKJ": {
+      "type": "faq",
+      "blocks": {
+        "faq_item_rrnAHz": {
+          "type": "faq_item",
+          "settings": {
+            "question": "How much does Shopify POS cost?",
+            "answer": "<p>Shopify POS pricing depends on your plan. We’ll help you choose the right setup.</p>",
+            "icon": "shopify://shop_images/yellow-arrow.svg"
+          }
+        },
+        "faq_item_AdgFRX": {
+          "type": "faq_item",
+          "settings": {
+            "question": "Can I use Shopify POS with my current online store?",
+            "answer": "<p>Yes! Shopify POS syncs with your Shopify website and other sales channels.</p>",
+            "icon": "shopify://shop_images/yellow-arrow.svg"
+          }
+        },
+        "faq_item_E6VP9h": {
+          "type": "faq_item",
+          "settings": {
+            "question": "What kind of hardware do I need?",
+            "answer": "<p>Shopify offers card readers, barcode scanners, receipt printers, and more. We’ll set it up for you.</p>",
+            "icon": "shopify://shop_images/yellow-arrow.svg"
+          }
+        },
+        "faq_item_akFz96": {
+          "type": "faq_item",
+          "settings": {
+            "question": "Do you offer support after installation?",
+            "answer": "<p>100%! We don’t just set it up—we help you manage and optimize your system over time.</p>",
+            "icon": "shopify://shop_images/yellow-arrow.svg"
+          }
+        }
+      },
+      "block_order": [
+        "faq_item_rrnAHz",
+        "faq_item_AdgFRX",
+        "faq_item_E6VP9h",
+        "faq_item_akFz96"
+      ],
+      "settings": {
+        "heading": "Frequently Asked Questions",
+        "bg_color": "#f9f9f9",
+        "max_width": 684,
+        "desktop_padding_top": 60,
+        "desktop_padding_bottom": 60,
+        "mobile_padding_top": 40,
+        "mobile_padding_bottom": 40
+      }
+    },
+    "partner_with_U86NgH": {
+      "type": "partner-with",
+      "blocks": {
+        "partner_item_Am8rMX": {
+          "type": "partner_item",
+          "settings": {
+            "image": "shopify://shop_images/semrush-agency-partner.webp",
+            "link": "#"
+          }
+        },
+        "partner_item_gQr6pr": {
+          "type": "partner_item",
+          "settings": {
+            "image": "shopify://shop_images/Tradify.webp",
+            "link": ""
+          }
+        },
+        "partner_item_peizWL": {
+          "type": "partner_item",
+          "settings": {
+            "image": "shopify://shop_images/servicem8-partner.webp",
+            "link": ""
+          }
+        },
+        "partner_item_gizEVP": {
+          "type": "partner_item",
+          "settings": {
+            "image": "shopify://shop_images/evnex-partner.webp",
+            "link": ""
+          }
+        },
+        "partner_item_nMMzBY": {
+          "type": "partner_item",
+          "settings": {
+            "image": "shopify://shop_images/google-partner.webp",
+            "link": ""
+          }
+        },
+        "partner_item_ppj4Q9": {
+          "type": "partner_item",
+          "settings": {
+            "image": "shopify://shop_images/meta-for-business-partner.webp",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "partner_item_Am8rMX",
+        "partner_item_gQr6pr",
+        "partner_item_peizWL",
+        "partner_item_gizEVP",
+        "partner_item_nMMzBY",
+        "partner_item_ppj4Q9"
+      ],
+      "settings": {
+        "heading": "Partnered With",
+        "bg_color": "#fbfbfb",
+        "desktop_card_border_radius": 10,
+        "mobile_card_border_radius": 6,
+        "desktop_padding_top": 30,
+        "desktop_padding_bottom": 30,
+        "mobile_padding_top": 30,
+        "mobile_padding_bottom": 30
+      }
+    }
+  },
+  "order": [
+    "advertise_xMT9mA",
+    "phone_ring_MzFcJr",
+    "advertise_qQYPyj",
+    "advertise_PAQGf7",
+    "advertise_DnFdqE",
+    "advertise_JebRqW",
+    "trust_Q37M3R",
+    "advertise_KLNL33",
+    "tradies_D9qHzj",
+    "faq_cYAhKJ",
+    "partner_with_U86NgH"
+  ]
+}

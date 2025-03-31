@@ -1,0 +1,112 @@
+<link rel="stylesheet" href="{{ 'footer-menu.css' | asset_url }}">
+{% schema %}
+{
+  "name": "Multi-Column Menu",
+  "blocks": [
+    {
+      "type": "menu_column",
+      "name": "Menu Column",
+      "settings": [
+        {
+          "type": "text",
+          "id": "heading",
+          "label": "Heading"
+        },
+        {
+          "type": "link_list",
+          "id": "menu",
+          "label": "Select Menu"
+        }
+      ]
+    }
+  ],
+  "max_blocks": 8,
+  "presets": [
+    {
+      "name": "Multi-Column Menu",
+      "category": "Custom Sections"
+    }
+  ]
+}
+{% endschema %}
+
+<!-- <section class="multi-column-menu">
+  <div class="container">
+    <div class="columns">
+      {% for block in section.blocks %}
+        {% if block.type == "menu_column" %}
+          <div class="column">
+            <h3>{{ block.settings.heading }}</h3>
+           
+     
+              {% assign menu_links = linklists[block.settings.menu].links %}
+                <ul>
+                  {% for link in menu_links %}
+                    <li><a href="{{ link.url }}" class="nav-link" target="_blank">
+                        {{ link.title }}
+                      </a></li>
+                  {% endfor %}
+                </ul>
+         
+          </div>
+        {% endif %}
+      {% endfor %}
+    </div>
+  </div>
+</section> -->
+
+<section class="multi-column-menu">
+  <div class="container">
+    <div class="columns">
+      {% for block in section.blocks %}
+        {% if block.type == "menu_column" %}
+          <div class="column">
+            <!-- The heading + toggle icon -->
+            <h3 class="column-heading">
+              {{ block.settings.heading }}
+              <span class="toggle-icon">+</span>
+            </h3>
+
+            <!-- The menu list to collapse/expand -->
+            {% assign menu_links = linklists[block.settings.menu].links %}
+            <ul class="column-menu">
+              {% for link in menu_links %}
+                <li>
+                  <a href="{{ link.url }}" class="nav-link" target="_blank">
+                    {{ link.title }}
+                  </a>
+                </li>
+              {% endfor %}
+            </ul>
+          </div>
+        {% endif %}
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  // Grab all headings
+  const headings = document.querySelectorAll('.column-heading');
+
+  headings.forEach(function(heading) {
+    heading.addEventListener('click', function() {
+      const parentColumn = heading.closest('.column');
+      // Toggle the 'open' class on the column
+      parentColumn.classList.toggle('open');
+
+      // Grab the toggle icon inside the heading
+      const icon = heading.querySelector('.toggle-icon');
+      // Switch plus/minus
+      if (icon.textContent === '+') {
+        icon.textContent = '-';
+      } else {
+        icon.textContent = '+';
+      }
+    });
+  });
+});
+</script>
+

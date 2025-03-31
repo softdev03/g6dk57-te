@@ -1,0 +1,499 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "advertise_xMT9mA": {
+      "type": "advertise",
+      "settings": {
+        "main_image": "shopify://shop_images/seo-for-trades.webp",
+        "secondary_image": "shopify://shop_images/get-found-on-the-web-right.svg",
+        "secondary_image_roate_angle": 8,
+        "desktop_left": -90,
+        "desktop_top": -1,
+        "desktop_right": -1,
+        "desktop_bottom": 20,
+        "mobile_left": 0,
+        "mobile_top": -1,
+        "mobile_right": -1,
+        "mobile_bottom": -26,
+        "heading": "Get More Leads, Not Just a Website",
+        "sub_heading": "Service Industry Websites:",
+        "text": "<p>If your website isn’t bringing in leads, it’s not doing its job. At <strong>An Agency</strong>, we build service-based business websites that <strong>turn visitors into customers</strong>—fast, simple, and built to convert.</p><p>Whether you’re a <strong>plumber, electrician, concreter, builder, or any other service provider</strong>, your website should <strong>work for you</strong>—attracting the right customers, answering their questions, and making it easy for them to book.</p><ul><li><strong>Designed for leads, not just looks</strong></li><li><strong>SEO-optimized so the right customers find you</strong></li><li><strong>Built-in booking forms, quotes, and call buttons</strong></li></ul>",
+        "button_link": "#",
+        "button_text": "[Book a Free Chat →]",
+        "image_right": false,
+        "text_align": "left",
+        "background_color": "#aeddf9",
+        "desktop_padding_top": 60,
+        "desktop_padding_bottom": 60,
+        "mobile_padding_top": 40,
+        "mobile_padding_bottom": 40
+      }
+    },
+    "phone_ring_MzFcJr": {
+      "type": "phone-ring",
+      "settings": {
+        "image": "shopify://shop_images/MTS-Incoming-Call_png.webp",
+        "heading_1": "Your Website Should",
+        "heading_2": "Work Like Your Best Salesperson",
+        "sub_heading": "No one has time to chase leads all day. A strong service website does the work for you—24/7.",
+        "text": "Clear calls-to-action – Customers shouldn’t have to dig to contact you. SEO that gets you found – Be at the top when people Google “best [your service] near me.” Mobile-friendly & fast – 70% of searches happen on mobile. Slow websites lose leads.",
+        "phone_button_text": "",
+        "phone_number": "",
+        "enquire_button_text": "[ See Our Work ]",
+        "enquire_button_link": "#",
+        "image_right": true,
+        "text_align": "left",
+        "desktop_padding_top": 100,
+        "desktop_padding_bottom": 100,
+        "mobile_padding_top": 60,
+        "mobile_padding_bottom": 40
+      }
+    },
+    "advertise_PAQGf7": {
+      "type": "advertise",
+      "settings": {
+        "main_image": "shopify://shop_images/website-design-and-dev-for-tradies.png",
+        "secondary_image": "shopify://shop_images/get-the-work-you-want.svg",
+        "secondary_image_roate_angle": -64,
+        "desktop_left": -80,
+        "desktop_top": -1,
+        "desktop_right": -1,
+        "desktop_bottom": 82,
+        "mobile_left": 0,
+        "mobile_top": -1,
+        "mobile_right": -1,
+        "mobile_bottom": -30,
+        "heading": "How We Build Your Service Website",
+        "sub_heading": "",
+        "text": "<h1>Step 1: Strategy & Planning</h1><p>We get to know your business, competitors, and customers so we can <strong>build a website that actually generates enquiries.</strong></p><p></p>",
+        "button_link": "#",
+        "button_text": "",
+        "image_right": false,
+        "text_align": "left",
+        "background_color": "#aeddf9",
+        "desktop_padding_top": 60,
+        "desktop_padding_bottom": 60,
+        "mobile_padding_top": 40,
+        "mobile_padding_bottom": 40
+      }
+    },
+    "advertise_DnFdqE": {
+      "type": "advertise",
+      "settings": {
+        "main_image": "shopify://shop_images/Web-Designs-for-trades.png",
+        "secondary_image_roate_angle": 12,
+        "desktop_left": -1,
+        "desktop_top": -1,
+        "desktop_right": -1,
+        "desktop_bottom": -1,
+        "mobile_left": -1,
+        "mobile_top": -1,
+        "mobile_right": -1,
+        "mobile_bottom": -1,
+        "heading": "Step 2: Design & Development",
+        "sub_heading": "",
+        "text": "<p>We design and build a <strong>custom, high-converting</strong> site that’s easy to use and built to scale.</p><p></p>",
+        "button_link": "",
+        "button_text": "",
+        "image_right": true,
+        "text_align": "left",
+        "background_color": "#aeddf9",
+        "desktop_padding_top": 60,
+        "desktop_padding_bottom": 60,
+        "mobile_padding_top": 40,
+        "mobile_padding_bottom": 40
+      }
+    },
+    "advertise_JebRqW": {
+      "type": "advertise",
+      "settings": {
+        "main_image": "shopify://shop_images/email-marketing-for-tradies-edm.webp",
+        "secondary_image": "shopify://shop_images/get-new-customers.svg",
+        "secondary_image_roate_angle": -52,
+        "desktop_left": -1,
+        "desktop_top": 160,
+        "desktop_right": -90,
+        "desktop_bottom": -1,
+        "mobile_left": -1,
+        "mobile_top": -25,
+        "mobile_right": 0,
+        "mobile_bottom": -1,
+        "heading": "Step 3: SEO, Testing & Launch",
+        "sub_heading": "",
+        "text": "<p>Before launching, we <strong>fine-tune</strong> SEO, test mobile performance, and ensure your site is ready to rank on Google.</p>",
+        "button_link": "#",
+        "button_text": "[Get a Website That Gets You More Jobs →]",
+        "image_right": false,
+        "text_align": "left",
+        "background_color": "#aeddf9",
+        "desktop_padding_top": 60,
+        "desktop_padding_bottom": 60,
+        "mobile_padding_top": 40,
+        "mobile_padding_bottom": 40
+      }
+    },
+    "advertise_KLNL33": {
+      "type": "advertise",
+      "settings": {
+        "main_image": "shopify://shop_images/get-more-leads-for-your-trade.webp",
+        "secondary_image": "shopify://shop_images/this-could-be-you.svg",
+        "secondary_image_roate_angle": 8,
+        "desktop_left": -80,
+        "desktop_top": -1,
+        "desktop_right": -1,
+        "desktop_bottom": 82,
+        "mobile_left": 0,
+        "mobile_top": -1,
+        "mobile_right": -1,
+        "mobile_bottom": -30,
+        "heading": "What’s Included in Our Websites?",
+        "sub_heading": "",
+        "text": "<p><strong>Lead-Focused Design</strong><br/>Your website isn’t just a brochure—it’s a <strong>sales machine</strong> designed to drive enquiries and calls.</p><p><strong>SEO-Optimized Pages</strong><br/>Be seen where it matters most—<strong>on Google.</strong> We optimize your site so local customers find you first.</p><p><strong>Integrated Booking & Quote Forms</strong><br/>Whether customers want to call, email, or book online—<strong>we make it easy.</strong></p><p><strong>Fast, Mobile-Friendly & Secure</strong><br/>A slow or outdated website drives leads away. We build <strong>fast, mobile-optimized</strong> sites that work everywhere.</p>",
+        "button_link": "#",
+        "button_text": "[Get a Custom Service Website →]",
+        "image_right": false,
+        "text_align": "left",
+        "background_color": "#ffffff",
+        "desktop_padding_top": 60,
+        "desktop_padding_bottom": 60,
+        "mobile_padding_top": 40,
+        "mobile_padding_bottom": 40
+      }
+    },
+    "advertise_qQYPyj": {
+      "type": "advertise",
+      "settings": {
+        "main_image": "shopify://shop_images/google-ads-for-tradies-australia.webp",
+        "secondary_image": "shopify://shop_images/google-ads-for-tradies-text.svg",
+        "secondary_image_roate_angle": 0,
+        "desktop_left": -1,
+        "desktop_top": 160,
+        "desktop_right": -90,
+        "desktop_bottom": -1,
+        "mobile_left": -1,
+        "mobile_top": -25,
+        "mobile_right": 0,
+        "mobile_bottom": -1,
+        "heading": "Why Work With An Agency?",
+        "sub_heading": "We make money making websites",
+        "text": "<p><strong>We know what works.</strong> We’ve built <strong>lead-generating</strong> sites for every service industry—plumbers, builders, tradies, finance, legal, and more.<br/><br/><strong>We keep it simple.</strong> No confusing jargon, no over-complicated design—just <strong>websites that get results.</strong><br/><br/><strong>We handle everything.</strong> From design to launch, SEO to content, we take care of the hard work so you don’t have to.<br/><br/><strong>We build websites that convert.</strong> Our sites don’t just sit pretty—they <strong>bring in real leads and sales.</strong></p><p>💬 <em>“An Agency built us a site that doubled our inbound calls within 3 months. Best investment we’ve made.”</em> – <em>Happy Service Business Owner</em></p>",
+        "button_link": "#",
+        "button_text": "[Let’s Talk Websites →]",
+        "image_right": true,
+        "text_align": "left",
+        "background_color": "#aeddf9",
+        "desktop_padding_top": 60,
+        "desktop_padding_bottom": 60,
+        "mobile_padding_top": 40,
+        "mobile_padding_bottom": 40
+      }
+    },
+    "trust_Q37M3R": {
+      "type": "trust",
+      "blocks": {
+        "trust_item_KtaqTQ": {
+          "type": "trust_item",
+          "settings": {
+            "heading": "Fashion & Apparel",
+            "main_text": "<p>High-converting product pages, seamless checkout.</p><p></p>",
+            "button_text": "",
+            "additional_text": "",
+            "accordion_image": "shopify://shop_images/yellow-arrow.svg"
+          }
+        },
+        "trust_item_YFytD9": {
+          "type": "trust_item",
+          "settings": {
+            "heading": "We get you, mate",
+            "main_text": "<p>Our website packages are built specifically for Aussie tradies. We know the industry, we know your market, and we know what makes customers pick up the phone.</p><p></p>",
+            "button_text": "Read More",
+            "additional_text": "<p>…Your best clients want to see a business that looks professional, with clear information and high-quality visuals. We make sure your website ticks all the right boxes. With decades of experience building sites for tradies, we know what works.</p>",
+            "accordion_image": "shopify://shop_images/yellow-arrow.svg"
+          }
+        },
+        "trust_item_JfVUzV": {
+          "type": "trust_item",
+          "settings": {
+            "heading": "100% Aussie",
+            "main_text": "<p>We’re proudly Australian-owned and operated, working exclusively with local businesses. We believe in keeping it local and supporting Aussie tradies.</p><p></p>",
+            "button_text": "Read More",
+            "additional_text": "<p>…An Agency handles everything—design, content, and site upkeep—so you don’t have to stress. Your website will be built specifically for your trade, industry, and the local market.</p><p>We’ll create a site that looks great, is easy to use, and is optimised to rank high in search results—so more customers find you and reach out for a quote.</p>",
+            "accordion_image": "shopify://shop_images/yellow-arrow.svg"
+          }
+        }
+      },
+      "block_order": [
+        "trust_item_KtaqTQ",
+        "trust_item_YFytD9",
+        "trust_item_JfVUzV"
+      ],
+      "disabled": true,
+      "settings": {
+        "heading": "Who’s This For?",
+        "text": "<p>Who’s This For?If you’re serious about growing your eCommerce business, you need a store that’s built right.</p>",
+        "trust_image": "shopify://shop_images/review-bar-green.svg",
+        "desktop_padding_top": 60,
+        "desktop_padding_bottom": 60,
+        "mobile_padding_top": 40,
+        "mobile_padding_bottom": 40
+      }
+    },
+    "tradies_D9qHzj": {
+      "type": "Tradies",
+      "blocks": {
+        "tradies_item_YQarCg": {
+          "type": "tradies-item",
+          "settings": {
+            "image": "shopify://shop_images/electrician-website.webp",
+            "detail_info_heading": "Plumbers & Electricians",
+            "detail_info_text": "<p>Local SEO, quote forms, and mobile-first design.</p><p></p><p></p>",
+            "icon": "shopify://shop_images/yellow-arrow.svg",
+            "detail_button_link": "#",
+            "detail_button_text": "[See Our Shopify Stores →]"
+          }
+        },
+        "tradies_item_TMkHRR": {
+          "type": "tradies-item",
+          "settings": {
+            "image": "shopify://shop_images/plumbing-websites.webp",
+            "detail_info_heading": "Builders & Concreters",
+            "detail_info_text": "<p><strong>Builders & Concreters</strong> – Image galleries, customer testimonials, and project showcases.<br/></p><p></p><p></p>",
+            "icon": "shopify://shop_images/yellow-arrow.svg",
+            "detail_button_link": "#",
+            "detail_button_text": "[See Our Shopify Stores →]"
+          }
+        },
+        "tradies_item_yT7wgX": {
+          "type": "tradies-item",
+          "settings": {
+            "image": "shopify://shop_images/carpenter-websites.webp",
+            "detail_info_heading": "Finance & Legal Services",
+            "detail_info_text": "<p><strong>Finance & Legal Services</strong> – Trust-building design, contact forms, and SEO strategies.</p><p></p><p></p>",
+            "icon": "shopify://shop_images/yellow-arrow.svg",
+            "detail_button_link": "#",
+            "detail_button_text": "[See Our Shopify Stores →]"
+          }
+        },
+        "tradies_item_X3Db9y": {
+          "type": "tradies-item",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/pest-control-website-development-1.webp",
+            "detail_info_heading": "Home & Lifestyle",
+            "detail_info_text": "<p><strong>Home & Lifestyle</strong> – Beautiful, fast, and easy-to-navigate stores that increase AOV.</p><p></p><p></p><p></p>",
+            "icon": "shopify://shop_images/yellow-arrow.svg",
+            "detail_button_link": "#",
+            "detail_button_text": "[See Our Shopify Stores →]"
+          }
+        },
+        "tradies_item_6qHYz4": {
+          "type": "tradies-item",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/cleaning-website-design.webp",
+            "detail_info_heading": "Cleaning",
+            "detail_info_text": "<p>Whether you’re running a commercial cleaning business or handling end-of-lease deep cleans, a strong website helps you get more bookings. We highlight your services, customer testimonials, and guarantees, with a simple contact system that makes it easy for clients to reach out and book a clean.</p><p></p><p></p>",
+            "icon": "shopify://shop_images/yellow-arrow.svg",
+            "detail_button_link": "#",
+            "detail_button_text": "Free Quote"
+          }
+        },
+        "tradies_item_tDB4YR": {
+          "type": "tradies-item",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/general-tradies-websites.webp",
+            "detail_info_heading": "All Other Tradies",
+            "detail_info_text": "<p>No matter your trade, we build websites that work for you. From builders and tilers to landscapers and painters, we design sites that show off your skills, bring in more work, and make booking you a no-brainer.</p><p></p><p></p>",
+            "icon": "shopify://shop_images/yellow-arrow.svg",
+            "detail_button_link": "#",
+            "detail_button_text": "Free Quote"
+          }
+        }
+      },
+      "block_order": [
+        "tradies_item_YQarCg",
+        "tradies_item_TMkHRR",
+        "tradies_item_yT7wgX",
+        "tradies_item_X3Db9y",
+        "tradies_item_6qHYz4",
+        "tradies_item_tDB4YR"
+      ],
+      "settings": {
+        "heading": "Who’s This For?",
+        "text": "If your business relies on calls, bookings, and leads, you need a website that’s actually built to convert.",
+        "desktop_padding_top": 60,
+        "desktop_padding_bottom": 60,
+        "mobile_padding_top": 40,
+        "mobile_padding_bottom": 40
+      }
+    },
+    "faq_cYAhKJ": {
+      "type": "faq",
+      "blocks": {
+        "faq_item_rrnAHz": {
+          "type": "faq_item",
+          "settings": {
+            "question": "How long does it take to build a website?",
+            "answer": "<p>Most service websites are ready in <strong>4-6 weeks</strong>, depending on complexity.</p><p></p>",
+            "icon": "shopify://shop_images/yellow-arrow.svg"
+          }
+        },
+        "faq_item_AdgFRX": {
+          "type": "faq_item",
+          "settings": {
+            "question": "Will my website be SEO-friendly?",
+            "answer": "<p>Yes. We optimize every site for <strong>Google rankings and local search visibility.</strong></p><p></p><p></p>",
+            "icon": "shopify://shop_images/yellow-arrow.svg"
+          }
+        },
+        "faq_item_E6VP9h": {
+          "type": "faq_item",
+          "settings": {
+            "question": "Can I get a website if I don’t have a logo or branding?",
+            "answer": "<p>Absolutely. We can help with <strong>branding, design, and a full professional website package.</strong></p><p></p><p></p>",
+            "icon": "shopify://shop_images/yellow-arrow.svg"
+          }
+        },
+        "faq_item_akFz96": {
+          "type": "faq_item",
+          "settings": {
+            "question": "Do you offer ongoing support?",
+            "answer": "<p>Yes. We don’t just launch your site and leave—we offer <strong>ongoing support and SEO services</strong> to keep it performing.</p>",
+            "icon": "shopify://shop_images/yellow-arrow.svg"
+          }
+        }
+      },
+      "block_order": [
+        "faq_item_rrnAHz",
+        "faq_item_AdgFRX",
+        "faq_item_E6VP9h",
+        "faq_item_akFz96"
+      ],
+      "settings": {
+        "heading": "Frequently Asked Questions",
+        "bg_color": "#f9f9f9",
+        "max_width": 684,
+        "desktop_padding_top": 60,
+        "desktop_padding_bottom": 60,
+        "mobile_padding_top": 40,
+        "mobile_padding_bottom": 40
+      }
+    },
+    "advertise_6VLxp7": {
+      "type": "advertise",
+      "settings": {
+        "main_image": "shopify://shop_images/google-ads-for-tradies-australia.webp",
+        "secondary_image": "shopify://shop_images/google-ads-for-tradies-text.svg",
+        "secondary_image_roate_angle": -52,
+        "desktop_left": -1,
+        "desktop_top": 160,
+        "desktop_right": -90,
+        "desktop_bottom": -1,
+        "mobile_left": -1,
+        "mobile_top": -25,
+        "mobile_right": 0,
+        "mobile_bottom": -1,
+        "heading": "Let’s Build a Website That Works for You",
+        "sub_heading": "A lead-generating website is one of the best investments you can make in your service business.",
+        "text": "<p>Let’s build a site that <strong>gets you found, brings in calls, and grows your business</strong>.</p><p></p>",
+        "button_link": "#",
+        "button_text": "[Book a Free Chat →]",
+        "image_right": true,
+        "text_align": "left",
+        "background_color": "#aeddf9",
+        "desktop_padding_top": 60,
+        "desktop_padding_bottom": 60,
+        "mobile_padding_top": 40,
+        "mobile_padding_bottom": 40
+      }
+    },
+    "partner_with_U86NgH": {
+      "type": "partner-with",
+      "blocks": {
+        "partner_item_Am8rMX": {
+          "type": "partner_item",
+          "settings": {
+            "image": "shopify://shop_images/semrush-agency-partner.webp",
+            "link": "#"
+          }
+        },
+        "partner_item_gQr6pr": {
+          "type": "partner_item",
+          "settings": {
+            "image": "shopify://shop_images/Tradify.webp",
+            "link": ""
+          }
+        },
+        "partner_item_peizWL": {
+          "type": "partner_item",
+          "settings": {
+            "image": "shopify://shop_images/servicem8-partner.webp",
+            "link": ""
+          }
+        },
+        "partner_item_gizEVP": {
+          "type": "partner_item",
+          "settings": {
+            "image": "shopify://shop_images/evnex-partner.webp",
+            "link": ""
+          }
+        },
+        "partner_item_nMMzBY": {
+          "type": "partner_item",
+          "settings": {
+            "image": "shopify://shop_images/google-partner.webp",
+            "link": ""
+          }
+        },
+        "partner_item_ppj4Q9": {
+          "type": "partner_item",
+          "settings": {
+            "image": "shopify://shop_images/meta-for-business-partner.webp",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "partner_item_Am8rMX",
+        "partner_item_gQr6pr",
+        "partner_item_peizWL",
+        "partner_item_gizEVP",
+        "partner_item_nMMzBY",
+        "partner_item_ppj4Q9"
+      ],
+      "settings": {
+        "heading": "Partnered With",
+        "bg_color": "#fbfbfb",
+        "desktop_card_border_radius": 10,
+        "mobile_card_border_radius": 6,
+        "desktop_padding_top": 30,
+        "desktop_padding_bottom": 30,
+        "mobile_padding_top": 30,
+        "mobile_padding_bottom": 30
+      }
+    }
+  },
+  "order": [
+    "advertise_xMT9mA",
+    "phone_ring_MzFcJr",
+    "advertise_PAQGf7",
+    "advertise_DnFdqE",
+    "advertise_JebRqW",
+    "advertise_KLNL33",
+    "advertise_qQYPyj",
+    "trust_Q37M3R",
+    "tradies_D9qHzj",
+    "faq_cYAhKJ",
+    "advertise_6VLxp7",
+    "partner_with_U86NgH"
+  ]
+}

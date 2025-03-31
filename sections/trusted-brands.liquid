@@ -1,0 +1,48 @@
+{% schema %}
+{
+  "name": "Trusted Brands",
+  "settings": [
+    {
+      "type": "text",
+      "id": "section_title",
+      "label": "Section Title",
+      "default": "Grow Your Business With Us"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Trusted Brands",
+      "category": "Custom Sections"
+    }
+  ]
+}
+{% endschema %}
+
+<link rel="stylesheet" href="{{ 'trusted-brands.css' | asset_url }}">
+
+<section class="trusted-brands-section">
+  <h2 class="trusted-brands-title">{{ section.settings.section_title }}</h2>
+  
+  <div class="trusted-brands-container">
+    <div class="brand-logo">
+      <div class="brand-card">
+        <img src="{{ 'hot-water-shop-3.svg' | asset_url }}" alt="Hot Water Shop">
+      </div>
+    </div>
+    <div class="brand-logo">
+      <div class="brand-card">
+        <img src="{{ 'energy-outlet-2.svg' | asset_url }}" alt="Energy Outlet">
+      </div>
+    </div>
+    <div class="brand-logo">
+      <div class="brand-card">
+        <img src="{{ 'local-installers.svg' | asset_url }}" alt="Local Installers">
+      </div>
+    </div>
+    <div class="brand-logo">
+      <div class="brand-card">
+        <img src="{{ 'ocular-ev-chargers-1.png' | asset_url }}" alt="Ocular EV Chargers">
+      </div>
+    </div>
+  </div>
+</section>

@@ -9,246 +9,236 @@
  */
 {
   "sections": {
-    "overview_dWdQCg": {
-      "type": "overview",
-      "settings": {
-        "heading": "We create beautiful websites that convert",
-        "text": "We build websites that make your competitors jealous",
-        "left_image": "shopify://shop_images/Payment-app-hero-img-3c.svg",
-        "right_image": "shopify://shop_images/Payment-app-hero-img-4.svg",
-        "clap_hand_result": "shopify://shop_images/Payment-app-hero-img-1b.svg",
-        "payment_app": "shopify://shop_images/Payment-app-hero-img-1.svg",
-        "desktop_padding_top": 100,
-        "desktop_padding_bottom": 100,
-        "mobile_padding_top": 80,
-        "mobile_padding_bottom": 80
-      }
-    },
-    "text_heading_cKjFAQ": {
-      "type": "text-list",
+    "rich_text_yEJgbU": {
+      "type": "rich-text",
       "blocks": {
-        "text_t6YXwX": {
+        "text_ymcTrL": {
           "type": "text",
           "settings": {
-            "text": "<p>Let’s cut to the chase—</p>",
-            "desktop_margin": 0,
-            "mobile_margin": 0,
-            "desktop_align": "center",
-            "mobile_align": "center",
-            "desktop_font_size": 45,
-            "mobile_font_size": 24,
-            "desktop_font_weight": "600",
-            "mobile_font_weight": "600",
-            "desktop_text_transform": "none",
-            "mobile_text_transform": "default"
+            "text": "<p>We help Aussie Businesses Get Online, Drive More Sales & Grow. That’s Our Guarantee.</p>"
           }
         },
-        "text_E9P3jT": {
-          "type": "text",
+        "button_QJ86cB": {
+          "type": "button",
           "settings": {
-            "text": "<p>We make your business money.</p>",
-            "desktop_margin": 36,
-            "mobile_margin": 26,
-            "desktop_align": "center",
-            "mobile_align": "center",
-            "desktop_font_size": 45,
-            "mobile_font_size": 24,
-            "desktop_font_weight": "600",
-            "mobile_font_weight": "600",
-            "desktop_text_transform": "capitalize",
-            "mobile_text_transform": "capitalize"
-          }
-        },
-        "text_8jqfAf": {
-          "type": "text",
-          "settings": {
-            "text": "<p>At An Agency, we get straight to the point—your business needs sales, and we make it happen. We've helped businesses across Australia modernise their digital strategies and drive real results. As a boutique agency, we think big but stay hands-on, delivering tailored marketing that works. Ready to grow? Let’s talk.</p>",
-            "desktop_margin": 0,
-            "mobile_margin": 0,
-            "desktop_align": "center",
-            "mobile_align": "center",
-            "desktop_font_size": 20,
-            "mobile_font_size": 18,
-            "desktop_font_weight": "400",
-            "mobile_font_weight": "400",
-            "desktop_text_transform": "none",
-            "mobile_text_transform": "default"
+            "button_label": "",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
           }
         }
       },
       "block_order": [
-        "text_t6YXwX",
-        "text_E9P3jT",
-        "text_8jqfAf"
+        "text_ymcTrL",
+        "button_QJ86cB"
+      ],
+      "custom_css": [],
+      "settings": {
+        "bg_color": "#ffffff",
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": false,
+        "padding_top": 12,
+        "padding_bottom": 12
+      }
+    },
+    "icon_with_text_list_VwTCMQ": {
+      "type": "icon-with-text-list",
+      "blocks": {
+        "icon_with_text_Aq6BkN": {
+          "type": "icon-with-text",
+          "settings": {
+            "icon": "shopify://shop_images/warranty.svg",
+            "heading": "1-YEAR WARRANTY",
+            "text": "Every site comes with a 12-month warranty.",
+            "button_text": "",
+            "button_link": ""
+          }
+        },
+        "icon_with_text_ECHhAY": {
+          "type": "icon-with-text",
+          "settings": {
+            "icon": "shopify://shop_images/star_68d91e68-49d3-4afc-8f6e-7370151bdcb2.svg",
+            "heading": "20+ INDUSTRY PARTNERS",
+            "text": "Trusted by top brands across multiple sectors.",
+            "button_text": "",
+            "button_link": ""
+          }
+        },
+        "icon_with_text_zAqCAz": {
+          "type": "icon-with-text",
+          "settings": {
+            "icon": "shopify://shop_images/australia_e9376e67-76a5-4a42-ab1b-e174c92ae927.svg",
+            "heading": "SHOPIFY PARTNER",
+            "text": "Officially recognised for expert Shopify builds.",
+            "button_text": "",
+            "button_link": ""
+          }
+        },
+        "icon_with_text_HiU4UF": {
+          "type": "icon-with-text",
+          "settings": {
+            "icon": "shopify://shop_images/partners_c78b1a3c-3abe-48cb-a659-b0427467b9a1.svg",
+            "heading": "380+ PROJECTS DELIVERED",
+            "text": "Websites and campaigns launched nationwide.",
+            "button_text": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "icon_with_text_Aq6BkN",
+        "icon_with_text_ECHhAY",
+        "icon_with_text_zAqCAz",
+        "icon_with_text_HiU4UF"
       ],
       "settings": {
-        "bg_color": "#FFF",
-        "desktop_padding_top": 80,
-        "desktop_padding_bottom": 60,
+        "heading": "",
+        "button_text": "",
+        "button_link": "",
+        "item_count_on_desktop": 4,
+        "item_count_on_tablet": 2,
+        "item_count_on_mobile": 1,
+        "desktop_font_size": 14,
+        "tablet_font_size": 14,
+        "mobile_font_size": 13,
+        "bg_color": "#ffffff",
+        "border_color": "#cecece",
+        "show_on_desktop": true,
+        "show_on_mobile": false,
+        "desktop_padding_top": 16,
+        "desktop_padding_bottom": 16,
+        "mobile_padding_top": 10,
+        "mobile_padding_bottom": 10
+      }
+    },
+    "advertise_4bR9He": {
+      "type": "advertise",
+      "custom_css": [],
+      "settings": {
+        "main_image": "shopify://shop_images/9158264f569b0ba69761e856037de151.png",
+        "secondary_image": "shopify://shop_images/get-new-customers_14c1764b-9932-4e7e-851a-7851c99c425f.svg",
+        "secondary_image_roate_angle": 0,
+        "desktop_left": 300,
+        "desktop_top": 150,
+        "desktop_right": -1,
+        "desktop_bottom": -1,
+        "mobile_left": 230,
+        "mobile_top": 10,
+        "mobile_right": -1,
+        "mobile_bottom": -1,
+        "heading": "Shopify Websites & Digital Growth for Real Businesses",
+        "sub_heading": "If your store isn’t getting sales or your service business is stuck chasing leads, it’s time to do things smarter.",
+        "text": "<p>We help retailers go online, eComm brands scale, and service providers generate consistent enquiries.<br/><br/>No fluff, no cookie-cutter builds—just websites and ads that get real results.</p><p>Whether you're starting fresh or levelling up, we'll show you what works (and what to ditch).</p>",
+        "button_link": "shopify://pages/contact",
+        "button_text": "Get my Custom Strategy Now",
+        "image_right": true,
+        "text_align": "left",
+        "background_color": "#ffffff",
+        "desktop_padding_top": 70,
+        "desktop_padding_bottom": 70,
         "mobile_padding_top": 50,
-        "mobile_padding_bottom": 50
+        "mobile_padding_bottom": 62
       }
     },
-    "card_list_C4T6Dr": {
-      "type": "image-card-list",
+    "icon_with_text_list_gjccpd": {
+      "type": "icon-with-text-list",
       "blocks": {
-        "card_mf3emz": {
-          "type": "card",
+        "icon_with_text_EL4nFf": {
+          "type": "icon-with-text",
           "settings": {
-            "card_image": "shopify://shop_images/feature_1.svg",
-            "card_link": "",
-            "heading": "Web Development",
-            "text": "Fully tailored Shopify stores that reflect your brand and are optimised for conversions",
-            "bg_color": "#e6e6e6",
-            "hover_bg_color": "#d9e021",
-            "show_border": true,
-            "border_color": "#000000",
-            "border_width": 2,
-            "border_radius": 25,
-            "top_when_hover": -16
+            "icon": "shopify://shop_images/hot-water-shop-3_647c0b3e-b18c-4b01-beab-75caf57e2a52.svg",
+            "heading": "",
+            "text": "",
+            "button_text": "",
+            "button_link": ""
           }
         },
-        "card_apCgEM": {
-          "type": "card",
+        "icon_with_text_Ar8ah3": {
+          "type": "icon-with-text",
           "settings": {
-            "card_image": "shopify://shop_images/feature_2.svg",
-            "card_link": "",
-            "heading": "Social Media Ads",
-            "text": "Drive targeted traffic to your store with expertly managed social media campaigns",
-            "bg_color": "#e6e6e6",
-            "hover_bg_color": "#d9e021",
-            "show_border": true,
-            "border_color": "#000000",
-            "border_width": 2,
-            "border_radius": 25,
-            "top_when_hover": -16
+            "icon": "shopify://shop_images/energy-outlet-2_98a1f76d-4c99-4e89-a6d9-7a0dfe8250a8.svg",
+            "heading": "",
+            "text": "",
+            "button_text": "",
+            "button_link": ""
           }
         },
-        "card_FLpTpi": {
-          "type": "card",
+        "icon_with_text_Kxt3LQ": {
+          "type": "icon-with-text",
           "settings": {
-            "card_image": "shopify://shop_images/feature_3.svg",
-            "card_link": "",
-            "heading": "Google Ads Management",
-            "text": "Maximise your ad spend with our precision-targeted Google Ads services.",
-            "bg_color": "#e6e6e6",
-            "hover_bg_color": "#d9e021",
-            "show_border": true,
-            "border_color": "#000000",
-            "border_width": 2,
-            "border_radius": 25,
-            "top_when_hover": -16
+            "icon": "shopify://shop_images/local-installers_9ddb4c97-e745-4900-b536-c3b40b4d5212.svg",
+            "heading": "",
+            "text": "",
+            "button_text": "",
+            "button_link": ""
           }
         },
-        "card_MgjVtx": {
-          "type": "card",
+        "icon_with_text_Q8raKD": {
+          "type": "icon-with-text",
           "settings": {
-            "card_image": "shopify://shop_images/feature_4.svg",
-            "card_link": "",
-            "heading": "Email Marketing",
-            "text": "Nurture your leads and turn them into loyal customers with strategic email campaigns.",
-            "bg_color": "#e6e6e6",
-            "hover_bg_color": "#d9e021",
-            "show_border": true,
-            "border_color": "#000000",
-            "border_width": 2,
-            "border_radius": 25,
-            "top_when_hover": -16
+            "icon": "shopify://shop_images/ocular-ev-chargers-1_3.svg",
+            "heading": "",
+            "text": "",
+            "button_text": "",
+            "button_link": ""
           }
         }
       },
       "block_order": [
-        "card_mf3emz",
-        "card_apCgEM",
-        "card_FLpTpi",
-        "card_MgjVtx"
+        "icon_with_text_EL4nFf",
+        "icon_with_text_Ar8ah3",
+        "icon_with_text_Kxt3LQ",
+        "icon_with_text_Q8raKD"
       ],
       "settings": {
-        "heading": "Grow Your Business With Us",
-        "desktop_padding_top": 60,
-        "desktop_padding_bottom": 60,
-        "mobile_padding_top": 40,
-        "mobile_padding_bottom": 40
+        "heading": "Trusted By Top Brands",
+        "button_text": "",
+        "button_link": "",
+        "item_count_on_desktop": 4,
+        "item_count_on_tablet": 2,
+        "item_count_on_mobile": 1,
+        "desktop_font_size": 20,
+        "tablet_font_size": 18,
+        "mobile_font_size": 16,
+        "bg_color": "#e2edfb",
+        "border_color": "rgba(0,0,0,0)",
+        "show_on_desktop": true,
+        "show_on_mobile": true,
+        "desktop_padding_top": 50,
+        "desktop_padding_bottom": 50,
+        "mobile_padding_top": 30,
+        "mobile_padding_bottom": 30
       }
     },
-    "card_list_VB3J6F": {
-      "type": "image-card-list",
-      "blocks": {
-        "card_ptBaFr": {
-          "type": "card",
-          "settings": {
-            "card_image": "shopify://shop_images/Screenshot_22.png",
-            "card_link": "#",
-            "heading": "SEO Report",
-            "text": "An SEO Report analyzes your website's performance and identifies areas for improvement in search engine optimization. It provides insights on keyword usage, backlinks, site structure, and more, helping you enhance your online visibility.",
-            "bg_color": "#e6e6e6",
-            "hover_bg_color": "#d9e021",
-            "show_border": true,
-            "border_color": "#000000",
-            "border_width": 2,
-            "border_radius": 25,
-            "top_when_hover": -16
-          }
-        },
-        "card_RhKR3j": {
-          "type": "card",
-          "settings": {
-            "card_image": "shopify://shop_images/Screenshot_23.png",
-            "card_link": "#",
-            "heading": "Image Upscaler",
-            "text": "The Image Upscaler enhances the quality of your images by increasing their resolution without losing detail. Ideal for improving the appearance of graphics and photos, it utilizes advanced algorithms to ensure clarity and sharpness.",
-            "bg_color": "#e6e6e6",
-            "hover_bg_color": "#d9e021",
-            "show_border": true,
-            "border_color": "#000000",
-            "border_width": 2,
-            "border_radius": 25,
-            "top_when_hover": -16
-          }
-        },
-        "card_ri3qAa": {
-          "type": "card",
-          "settings": {
-            "card_image": "shopify://shop_images/Screenshot_24.png",
-            "card_link": "#",
-            "heading": "Business Name Generator",
-            "text": "The Business Name Generator helps entrepreneurs brainstorm unique and catchy names for their businesses. By inputting keywords or themes, it generates a variety of creative name options tailored to your brand identity.",
-            "bg_color": "#e6e6e6",
-            "hover_bg_color": "#d9e021",
-            "show_border": true,
-            "border_color": "#000000",
-            "border_width": 2,
-            "border_radius": 25,
-            "top_when_hover": -16
-          }
-        },
-        "card_CM8kUw": {
-          "type": "card",
-          "settings": {
-            "card_image": "shopify://shop_images/Screenshot_25.png",
-            "card_link": "#",
-            "heading": "Free Custom Ad Creatives & Copy Generator",
-            "text": "The Free Custom Ad Creatives & Copy Generator creates tailored advertisements and compelling copy for your marketing campaigns. It combines eye-catching visuals with persuasive text, streamlining the process of crafting effective ads.",
-            "bg_color": "#e6e6e6",
-            "hover_bg_color": "#d9e021",
-            "show_border": true,
-            "border_color": "#000000",
-            "border_width": 2,
-            "border_radius": 25,
-            "top_when_hover": -16
-          }
-        }
-      },
-      "block_order": [
-        "card_ptBaFr",
-        "card_RhKR3j",
-        "card_ri3qAa",
-        "card_CM8kUw"
-      ],
+    "advertise_LB4YjA": {
+      "type": "advertise",
+      "custom_css": [],
       "settings": {
-        "heading": "Overview for AI Tools",
-        "desktop_padding_top": 100,
-        "desktop_padding_bottom": 100,
+        "main_image": "shopify://shop_images/email-marketing-solutions-for-trades-people_707acc76-a398-4df5-aee0-8902f1020180.webp",
+        "secondary_image": "shopify://shop_images/get-found-on-the-web-right_94f0db54-ee90-4bcc-aca3-ff6d1681dbac.svg",
+        "secondary_image_roate_angle": 12,
+        "desktop_left": -42,
+        "desktop_top": 330,
+        "desktop_right": -1,
+        "desktop_bottom": -1,
+        "mobile_left": -1,
+        "mobile_top": 280,
+        "mobile_right": -1,
+        "mobile_bottom": -1,
+        "heading": "We’ll Get You More Leads (Without Chasing Clients)",
+        "sub_heading": "Stop relying on referrals or word of mouth—get leads coming to you consistently.",
+        "text": "<p>Whether you're a plumber, concreter or local service pro, old-school tactics won’t cut it anymore.<br/><br/>We help you attract high-value enquiries with targeted ads and clean, trust-building websites.</p><p>No more quoting for time-wasters. Just quality leads, straight to your inbox.</p>",
+        "button_link": "shopify://collections/all",
+        "button_text": "Request A Quote",
+        "image_right": false,
+        "text_align": "left",
+        "background_color": "#ffffff",
+        "desktop_padding_top": 80,
+        "desktop_padding_bottom": 80,
         "mobile_padding_top": 60,
         "mobile_padding_bottom": 60
       }
@@ -304,6 +294,7 @@
         "review_item_m66Wyz",
         "review_item_idzjpe"
       ],
+      "disabled": true,
       "settings": {
         "heading": "Our Clients Love Us—See Their Reviews",
         "desktop_padding_top": 80,
@@ -312,123 +303,890 @@
         "mobile_padding_bottom": 60
       }
     },
-    "support_jzem6W": {
-      "type": "support",
+    "icon_with_text_list_rab6gX": {
+      "type": "icon-with-text-list",
       "blocks": {
-        "icon_with_text_7NYRQn": {
-          "type": "icon_with_text",
+        "icon_with_text_F9yVpG": {
+          "type": "icon-with-text",
           "settings": {
-            "text": "Expertise. Certified Shopify Experts with over 100 successful store launches."
+            "icon": "shopify://shop_images/warranty.svg",
+            "heading": "1-YEAR WARRANTY",
+            "text": "Every site comes with a 12-month warranty.",
+            "button_text": "",
+            "button_link": ""
           }
         },
-        "icon_with_text_jCEyqH": {
-          "type": "icon_with_text",
+        "icon_with_text_iYxw9L": {
+          "type": "icon-with-text",
           "settings": {
-            "text": "Speed. Get your store launched in as little as 30 days."
+            "icon": "shopify://shop_images/star_68d91e68-49d3-4afc-8f6e-7370151bdcb2.svg",
+            "heading": "20+ INDUSTRY PARTNERS",
+            "text": "Trusted by top brands across multiple sectors.",
+            "button_text": "",
+            "button_link": ""
           }
         },
-        "icon_with_text_GRjJJh": {
-          "type": "icon_with_text",
+        "icon_with_text_f9XCpm": {
+          "type": "icon-with-text",
           "settings": {
-            "text": "Results. Proven track record of increasing sales by up to 300%."
+            "icon": "shopify://shop_images/australia_e9376e67-76a5-4a42-ab1b-e174c92ae927.svg",
+            "heading": "SHOPIFY PARTNER",
+            "text": "Officially recognised for expert Shopify builds.",
+            "button_text": "",
+            "button_link": ""
           }
         },
-        "icon_with_text_TGk36x": {
-          "type": "icon_with_text",
+        "icon_with_text_D3B9MH": {
+          "type": "icon-with-text",
           "settings": {
-            "text": "Support. Ongoing support and optimisation services to ensure your store’s success."
+            "icon": "shopify://shop_images/partners_c78b1a3c-3abe-48cb-a659-b0427467b9a1.svg",
+            "heading": "300+ PROJECTS DELIVERED",
+            "text": "Websites and campaigns launched nationwide.",
+            "button_text": "",
+            "button_link": ""
           }
         }
       },
       "block_order": [
-        "icon_with_text_7NYRQn",
-        "icon_with_text_jCEyqH",
-        "icon_with_text_GRjJJh",
-        "icon_with_text_TGk36x"
+        "icon_with_text_F9yVpG",
+        "icon_with_text_iYxw9L",
+        "icon_with_text_f9XCpm",
+        "icon_with_text_D3B9MH"
       ],
       "settings": {
-        "heading": "why Us?",
-        "text": "We’re young, we’re fun, and we know what you want. Since 2006, our team has been on a mission to bring effortless, simple Shopify mobile first website designs and effective low cost paid ads to the masses in australia in a modern way. No BS, just bulky wallets for our clients.",
-        "bg_color": "#d9e021",
-        "show_border": true,
-        "border_color": "#000000",
-        "border_width": 2,
-        "border_radius": 25,
-        "desktop_padding_top": 60,
-        "desktop_padding_bottom": 60,
-        "mobile_padding_top": 40,
-        "mobile_padding_bottom": 40
+        "heading": "",
+        "button_text": "",
+        "button_link": "",
+        "item_count_on_desktop": 4,
+        "item_count_on_tablet": 2,
+        "item_count_on_mobile": 1,
+        "desktop_font_size": 14,
+        "tablet_font_size": 14,
+        "mobile_font_size": 13,
+        "bg_color": "#ffffff",
+        "border_color": "#cecece",
+        "show_on_desktop": true,
+        "show_on_mobile": false,
+        "desktop_padding_top": 16,
+        "desktop_padding_bottom": 16,
+        "mobile_padding_top": 10,
+        "mobile_padding_bottom": 10
       }
     },
-    "service_list_HXKjt7": {
-      "type": "service-card-list",
+    "rich_text_AHTAcY": {
+      "type": "rich-text",
       "blocks": {
-        "service_item_qm9bAF": {
-          "type": "service_item",
+        "heading_EXMXPF": {
+          "type": "heading",
           "settings": {
-            "heading1": "Step 1:",
-            "heading2": "Free Consultation",
-            "text": "We discuss your goals and how we can help you achieve them.",
-            "logo": "shopify://shop_images/benefits_3.svg"
+            "heading": "<strong>WHAT WE DO BEST</strong>",
+            "heading_size": "h1"
           }
         },
-        "service_item_KHcehC": {
-          "type": "service_item",
+        "text_t7qd6P": {
+          "type": "text",
           "settings": {
-            "heading1": "Step 2:",
-            "heading2": "Custom Design& Development",
-            "text": "We create a unique Shopify store tailored to your brand and audience.",
-            "logo": "shopify://shop_images/benefits2.svg"
-          }
-        },
-        "service_item_LVw6nz": {
-          "type": "service_item",
-          "settings": {
-            "heading1": "",
-            "heading2": "Step 3: Launch & Optimisation",
-            "text": "Your store goes live, and we continue to optimise for maximum conversions",
-            "logo": "shopify://shop_images/benefits1.svg"
+            "text": "<p>From trades to online retail, our services are built to help Aussie businesses grow—faster, smarter, and with less guesswork.</p>"
           }
         }
       },
       "block_order": [
-        "service_item_qm9bAF",
-        "service_item_KHcehC",
-        "service_item_LVw6nz"
+        "heading_EXMXPF",
+        "text_t7qd6P"
       ],
+      "custom_css": [],
       "settings": {
-        "heading": "How It Works",
-        "desktop_padding_top": 60,
-        "desktop_padding_bottom": 60,
-        "mobile_padding_top": 40,
-        "mobile_padding_bottom": 40
+        "bg_color": "#ffffff",
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": false,
+        "padding_top": 84,
+        "padding_bottom": 52
       }
     },
-    "home_advertise_aTKgK6": {
-      "type": "home-advertise",
+    "services_grid_bKcDN4": {
+      "type": "services-grid",
+      "blocks": {
+        "service_xiUDwx": {
+          "type": "service",
+          "settings": {
+            "service_icon": "shopify://shop_images/pie-line-graph-desktop_c66f802a-9323-4e6b-80b9-ad33e393eeac.svg",
+            "service_title": "Marketing Strategy",
+            "service_link": "",
+            "service_description": "We’ll help you stand out, whether you're a local tradie or a growing Shopify store."
+          }
+        },
+        "service_88XJXD": {
+          "type": "service",
+          "settings": {
+            "service_icon": "shopify://shop_images/responsive-design-11_c3e669aa-fa03-406e-92e9-e9e98c068afe.svg",
+            "service_title": "Website Development",
+            "service_link": "",
+            "service_description": "Custom, conversion-driven websites that look good and work hard."
+          }
+        },
+        "service_9MLrPx": {
+          "type": "service",
+          "settings": {
+            "service_icon": "shopify://shop_images/shopping-buy-advertising-billboard-megaphone1_e4c21ce5-c684-465e-858d-f9071156c61d.svg",
+            "service_title": "Google Ads Management",
+            "service_link": "",
+            "service_description": "Run high-converting campaigns that bring in real leads or product sales."
+          }
+        },
+        "service_8NhzR3": {
+          "type": "service",
+          "settings": {
+            "service_icon": "shopify://shop_images/seo-network-map1_c72b644b-bf5a-4032-a757-934c1622cab6.svg",
+            "service_title": "Search Engine Optimisation (SEO)",
+            "service_link": "",
+            "service_description": "Be seen by the right people when they search, without relying on paid ads."
+          }
+        },
+        "service_RedTy7": {
+          "type": "service",
+          "settings": {
+            "service_icon": "shopify://shop_images/email-action-image1_7786a6d4-14e0-4aad-b5de-43bf5462e43c.svg",
+            "service_title": "Email Marketing",
+            "service_link": "",
+            "service_description": "Keep customers and clients coming back with targeted email flows that convert."
+          }
+        },
+        "service_7W373n": {
+          "type": "service",
+          "settings": {
+            "service_icon": "shopify://shop_images/job-seach-profile1_c18667ed-e9e6-438a-a908-162bceb4a46f.svg",
+            "service_title": "Job Leads For Tradies",
+            "service_link": "",
+            "service_description": "Get the quality, high-paying job leads you deserve."
+          }
+        },
+        "service_fDjxRX": {
+          "type": "service",
+          "settings": {
+            "service_icon": "shopify://shop_images/color-palette-sample-22_15adc968-2203-453a-b324-7749c7bc1c11.svg",
+            "service_title": "Branding & Design",
+            "service_link": "",
+            "service_description": "Logos, brand kits, messaging—everything you need to look pro and feel confident."
+          }
+        },
+        "service_y43D7p": {
+          "type": "service",
+          "settings": {
+            "service_icon": "shopify://shop_images/content-pencil-write_360d310e-70dd-4fb6-be63-e5d8dd798864.svg",
+            "service_title": "Content That Converts",
+            "service_link": "",
+            "service_description": "Copy and visuals that speak your customer’s language and get them to take action."
+          }
+        }
+      },
+      "block_order": [
+        "service_xiUDwx",
+        "service_88XJXD",
+        "service_9MLrPx",
+        "service_8NhzR3",
+        "service_RedTy7",
+        "service_7W373n",
+        "service_fDjxRX",
+        "service_y43D7p"
+      ],
       "settings": {
-        "heading": "You’re Our #1—Let’s Grow Your Shopify Store",
-        "text": "No obligation, just expert advice on how to take your online business to the next level.",
-        "button_text": "Chat with a Shopify Expert",
-        "button_link": "shopify://pages/contact",
-        "main_image": "shopify://shop_images/best-mobile-app3.svg",
-        "hole_image": "shopify://shop_images/best-mobile-app2.svg",
-        "bg_color": "#ffff41",
-        "desktop_padding_top": 380,
-        "desktop_padding_bottom": 80,
-        "mobile_padding_top": 200,
+        "section_title": ""
+      }
+    },
+    "custom_liquid_RChH7W": {
+      "type": "custom-liquid",
+      "disabled": true,
+      "custom_css": [
+        ".TrustServiceAussie {width: 33%; min-width: 500px; display: flex; justify-content: center; /* Centers horizontally */ align-items: center; /* Centers vertically if needed */ text-align: center; /* Ensures text alignment */ margin: auto !important; /* Centers within parent container */}",
+        "@media (max-width: 749px) {.TrustServiceAussie {width: 100%; min-width: 0px; }}"
+      ],
+      "settings": {
+        "bg_color": "#ffffff",
+        "custom_liquid": "<img src=\"{{ 'review-bar-green-new.svg' | asset_url }}\" alt=\"Trusted Service\" class=\"TrustServiceAussie\">",
+        "color_scheme": "",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "review_image_with_text_9yfzTM": {
+      "type": "review-image-with-text",
+      "settings": {
+        "review_image": "shopify://shop_images/review-stars-new_c29b87db-b7be-4045-88d6-6ed0253b3672.svg",
+        "text": "Trusted by Hundreds of Aussie Businesses",
+        "bg_color": "#ffffff",
+        "text_color": "#000000",
+        "desktop_padding_top": 40,
+        "desktop_padding_bottom": 40,
+        "mobile_padding_top": 30,
+        "mobile_padding_bottom": 30
+      }
+    },
+    "comparison_section_cRchCd": {
+      "type": "comparison-section",
+      "blocks": {
+        "with_item_mTzrCQ": {
+          "type": "with_item",
+          "settings": {
+            "text": "More Shopify sales or qualified enquiries",
+            "icon": "shopify://shop_images/check-blue-white.svg"
+          }
+        },
+        "with_item_hTz8MW": {
+          "type": "with_item",
+          "settings": {
+            "text": "Consistent growth with less stress",
+            "icon": "shopify://shop_images/check-blue-white.svg"
+          }
+        },
+        "with_item_ptciKC": {
+          "type": "with_item",
+          "settings": {
+            "text": "Ad campaigns that deliver real ROI",
+            "icon": "shopify://shop_images/check-blue-white.svg"
+          }
+        },
+        "with_item_wQF7x4": {
+          "type": "with_item",
+          "settings": {
+            "text": "A team that actually gives a sh*t",
+            "icon": "shopify://shop_images/check-blue-white.svg"
+          }
+        },
+        "with_item_JcLhgD": {
+          "type": "with_item",
+          "settings": {
+            "text": "Systems built to scale with your business",
+            "icon": "shopify://shop_images/check-blue-white.svg"
+          }
+        },
+        "with_item_Wq4hjY": {
+          "type": "with_item",
+          "settings": {
+            "text": "Double, Triple, or Skyrocket Your Revenue",
+            "icon": "shopify://shop_images/check-blue-white.svg"
+          }
+        },
+        "without_item_K9AkLp": {
+          "type": "without_item",
+          "settings": {
+            "text": "Relying on word of mouth or clunky directories",
+            "icon": "shopify://shop_images/check-list-x.svg"
+          }
+        },
+        "without_item_yf6gPm": {
+          "type": "without_item",
+          "settings": {
+            "text": "Wasting money on ads that don’t convert",
+            "icon": "shopify://shop_images/check-list-x.svg"
+          }
+        },
+        "without_item_iRdrDJ": {
+          "type": "without_item",
+          "settings": {
+            "text": "A pretty site with no real sales",
+            "icon": "shopify://shop_images/check-list-x.svg"
+          }
+        },
+        "without_item_mhhQen": {
+          "type": "without_item",
+          "settings": {
+            "text": "Zero strategy or tracking",
+            "icon": "shopify://shop_images/check-list-x.svg"
+          }
+        },
+        "without_item_LmR4fR": {
+          "type": "without_item",
+          "settings": {
+            "text": "Tools that don’t talk to each other",
+            "icon": "shopify://shop_images/check-list-x.svg"
+          }
+        }
+      },
+      "block_order": [
+        "with_item_mTzrCQ",
+        "with_item_hTz8MW",
+        "with_item_ptciKC",
+        "with_item_wQF7x4",
+        "with_item_JcLhgD",
+        "with_item_Wq4hjY",
+        "without_item_K9AkLp",
+        "without_item_yf6gPm",
+        "without_item_iRdrDJ",
+        "without_item_mhhQen",
+        "without_item_LmR4fR"
+      ],
+      "custom_css": [],
+      "settings": {
+        "section_title": "Why Work With a Shopify & Marketing Expert?",
+        "section_subheading": "Over 300+ businesses have worked with us to grow sales, get leads, and simplify their digital game.",
+        "without_title": "Without An Agency",
+        "with_title": "With An Agency",
+        "desktop_padding_top": 60,
+        "desktop_padding_bottom": 60,
+        "mobile_padding_top": 50,
         "mobile_padding_bottom": 50
+      }
+    },
+    "custom_liquid_RNXNdX": {
+      "type": "custom-liquid",
+      "custom_css": [
+        ".WantOurHelp {width: 250px; width: 20%; display: flex; margin: auto !important; background: rgb(232, 241, 252);}",
+        ".gradient {background: rgb(232, 241, 252);}",
+        ".section-template--18449503355045__custom_liquid_RNXNdX-padding {background: rgb(232, 241, 252);}",
+        "@media (max-width: 768px) {.WantOurHelp {width: 50%; }}"
+      ],
+      "settings": {
+        "bg_color": "#e8f1fc",
+        "custom_liquid": "<img src=\"{{ 'want-our-help.svg' | asset_url }}\" alt=\"Trusted Service\" class=\"WantOurHelp\">",
+        "color_scheme": "",
+        "padding_top": 40,
+        "padding_bottom": 0
+      }
+    },
+    "rich_text_CzRw9H": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_yH4EFb": {
+          "type": "heading",
+          "settings": {
+            "heading": "",
+            "heading_size": "h1"
+          }
+        },
+        "text_7drPy4": {
+          "type": "text",
+          "settings": {
+            "text": "<h1>Sign Up For An Agency Today</h1>"
+          }
+        },
+        "button_BngqAq": {
+          "type": "button",
+          "settings": {
+            "button_label": "Speak To Our Team",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        },
+        "text_qiPVCJ": {
+          "type": "text",
+          "settings": {
+            "text": "<p>No Contracts | Cancel Anytime</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_yH4EFb",
+        "text_7drPy4",
+        "button_BngqAq",
+        "text_qiPVCJ"
+      ],
+      "custom_css": [
+        ".gradient {background: rgb(232, 241, 252);}",
+        ".h1 {color: rgb(11, 10, 51);}",
+        ".button {font-size: 20px; font-family: Mulish, sans-serif; font-weight: 400; width: 350px; margin: 10px 0px; padding: 10px 15px; display: block; border-radius: 5px; opacity: 1; color: rgb(0, 0, 0); background: rgb(254, 218, 21);}"
+      ],
+      "settings": {
+        "bg_color": "#e8f1fc",
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-3",
+        "full_width": false,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "advertise_k8b8zD": {
+      "type": "advertise",
+      "custom_css": [],
+      "settings": {
+        "main_image": "shopify://shop_images/2e5877eca35c499b4057cf3e49e166c6.png",
+        "secondary_image": "shopify://shop_images/this-could-be-you_86b78ffa-fae9-4fc7-9bda-3b42602401a5.svg",
+        "secondary_image_roate_angle": 0,
+        "desktop_left": -20,
+        "desktop_top": 330,
+        "desktop_right": -1,
+        "desktop_bottom": -1,
+        "mobile_left": -1,
+        "mobile_top": -1,
+        "mobile_right": -1,
+        "mobile_bottom": 0,
+        "heading": "Get More Sales From Your Shopify Store",
+        "sub_heading": "Stop guessing, stop Googling, and stop wondering why it’s not working.",
+        "text": "<p>You’ve got the products. Maybe even some traffic. But turning visitors into actual sales? That’s the tricky part.</p><p>As Shopify Partners, we help businesses like yours fix broken funnels, clean up clunky websites, and run ads that actually convert.</p><p>Whether you’re just starting out or scaling hard, we’ll help you sell smarter—not harder.</p><p><strong>We’ve got you. Let’s talk Shopify.</strong></p>",
+        "button_link": "shopify://pages/contact",
+        "button_text": "Speak To Our Team",
+        "image_right": false,
+        "text_align": "left",
+        "background_color": "#ffffff",
+        "desktop_padding_top": 80,
+        "desktop_padding_bottom": 80,
+        "mobile_padding_top": 60,
+        "mobile_padding_bottom": 60
+      }
+    },
+    "rich_text_tGHQMR": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_NHqGNr": {
+          "type": "heading",
+          "settings": {
+            "heading": "Why Your Business Needs to Be Seen Online",
+            "heading_size": "h1"
+          }
+        },
+        "text_yUXkP6": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Whether you're booking jobs or selling products, visibility is everything. Here's what smart digital marketing helps you do:</p>"
+          }
+        },
+        "text_QD6CMK": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Why online marketing for tradies is hugely beneficial:</p>"
+          }
+        },
+        "button_VCRDKy": {
+          "type": "button",
+          "settings": {
+            "button_label": "",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_NHqGNr",
+        "text_yUXkP6",
+        "text_QD6CMK",
+        "button_VCRDKy"
+      ],
+      "custom_css": [
+        ".rich-text {background: #e7f1f7;}"
+      ],
+      "settings": {
+        "bg_color": "#e7f1f7",
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "benefits_section_NjXzKr": {
+      "type": "benefits-section",
+      "blocks": {
+        "benefit_Y46pga": {
+          "type": "benefit",
+          "settings": {
+            "benefit_title": "Reach a Bigger Audience",
+            "benefit_description": "Relying on referrals or foot traffic only takes you so far. A strong online presence helps you tap into wider markets—locally and nationwide. Whether you're a plumber or a product brand, your next customer is already searching for what you do. We help you get in front of them at the right time. You’ll start showing up where it matters: Google, Facebook, Instagram, and more. The more visibility you have, the more chances you get to win business.",
+            "benefit_icon": "shopify://shop_images/check-blue-white.svg"
+          }
+        },
+        "benefit_AW7kGg": {
+          "type": "benefit",
+          "settings": {
+            "benefit_title": "Build Real Credibility",
+            "benefit_description": "When customers see a modern, fast website and consistent branding, trust skyrockets. Whether you're offering skin treatments or solar installs, people want to know you're legit before they click or call. A professional online presence does that without you having to say a word. We'll help you build authority with sharp design, clean copy, and real testimonials. Add SEO on top, and you're now seen as a trusted name in your space. People buy from businesses they believe in — we help make that belief instant.",
+            "benefit_icon": "shopify://shop_images/check-blue-white.svg"
+          }
+        },
+        "benefit_FPeAQa": {
+          "type": "benefit",
+          "settings": {
+            "benefit_title": "Stand Out From the Crowd",
+            "benefit_description": "There’s no shortage of competition online. That’s why we focus on making your business the obvious choice. Our team helps you uncover your unique edge — then we bake it into your website, ads, and overall digital strategy. Whether you're up against big-box retailers or other tradies in your suburb, we make you the one that gets remembered. It's not about shouting louder — it's about showing up smarter. Let’s help you win the clicks that count.",
+            "benefit_icon": "shopify://shop_images/check-blue-white.svg"
+          }
+        },
+        "benefit_wNGBXq": {
+          "type": "benefit",
+          "settings": {
+            "benefit_title": "Attract Better Clients and Customers",
+            "benefit_description": "Not all clicks are created equal. We don’t just drive traffic — we drive qualified traffic that’s ready to convert. We’ll help you reach the people who value what you offer and are happy to pay for it. With targeted ads, SEO, and conversion-focused design, you’ll attract customers who stick around, not just window shop. It’s time to stop chasing the wrong crowd. We’ll get the right people through your virtual door.",
+            "benefit_icon": "shopify://shop_images/check-blue-white.svg"
+          }
+        }
+      },
+      "block_order": [
+        "benefit_Y46pga",
+        "benefit_AW7kGg",
+        "benefit_FPeAQa",
+        "benefit_wNGBXq"
+      ],
+      "settings": {
+        "section_title": "Why Having an Online Presence Matters",
+        "bg_color": "#e7f1f7",
+        "desktop_padding_top": 20,
+        "desktop_padding_bottom": 50,
+        "mobile_padding_top": 16,
+        "mobile_padding_bottom": 36
+      }
+    },
+    "advertise_aDrLQp": {
+      "type": "advertise",
+      "custom_css": [],
+      "settings": {
+        "main_image": "shopify://shop_images/google-ads-for-tradies-australia_6fcba907-9685-48e1-bd0b-727ee9f948c5.webp",
+        "secondary_image": "shopify://shop_images/google-ads-for-tradies-text_fa2d97fc-da4f-4232-a902-3880c9eef3a3.svg",
+        "secondary_image_roate_angle": 0,
+        "desktop_left": 370,
+        "desktop_top": 150,
+        "desktop_right": -1,
+        "desktop_bottom": -1,
+        "mobile_left": -1,
+        "mobile_top": 0,
+        "mobile_right": 0,
+        "mobile_bottom": -1,
+        "heading": "The Challenge of Getting Leads Online",
+        "sub_heading": "Your expertise is in your trade. Ours is getting you found by people ready to pay for it.",
+        "text": "<p>Let’s be real — most service businesses don’t have a steady pipeline of high-quality leads. You’re relying on referrals, directories, or just hoping someone stumbles onto your site.</p><p>Without a solid digital strategy, you're invisible to the very people who need you.</p><p>That’s where we come in. We know the Aussie market and how local customers search for trades and services. No generic SEO fluff or Google Ads guesswork — just real strategies built to drive calls, quotes, and bookings.</p><p><strong>We make your phone ring. With the right people.</strong></p>",
+        "button_link": "shopify://blogs/news",
+        "button_text": "How We Generate Leads",
+        "image_right": true,
+        "text_align": "left",
+        "background_color": "#ffffff",
+        "desktop_padding_top": 80,
+        "desktop_padding_bottom": 80,
+        "mobile_padding_top": 50,
+        "mobile_padding_bottom": 50
+      }
+    },
+    "results_guaranteed_Ny3Npn": {
+      "type": "results-guaranteed",
+      "custom_css": [],
+      "settings": {
+        "logo_image": "shopify://shop_images/tradiemate-promise_c40cac36-5cef-47f6-b56c-8822162979e4.svg",
+        "main_heading": "RESULTS GUARANTEED",
+        "sub_heading": "(Our No-Risk, No-Nonsense Promise)",
+        "description": "If we don’t deliver the results we agreed on, you don’t pay.That’s how confident we are in what we do.",
+        "button_text": "Request a Free Quote",
+        "button_link": "",
+        "desktop_padding_top": 70,
+        "desktop_padding_bottom": 60,
+        "mobile_padding_top": 40,
+        "mobile_padding_bottom": 30
+      }
+    },
+    "multicolumn_RhaDrB": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_4Ej7Xa": {
+          "type": "column",
+          "settings": {
+            "title": "100% AUSTRALIAN",
+            "text": "<p>We’re locally owned, locally grown, and we actually get the challenges Aussie businesses face—whether you’re online or on the tools.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_UkRtYr": {
+          "type": "column",
+          "settings": {
+            "title": "HASSLE-FREE SETUP",
+            "text": "<p>From planning to launch, we handle the heavy lifting. No stress, no tech headaches—just results.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_UnmKPf": {
+          "type": "column",
+          "settings": {
+            "title": "BUILT FOR YOUR BUSINESS",
+            "text": "<p>We tailor every project to suit your industry, your goals, and your customers. You’ll feel like we’re part of your team.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_4Ej7Xa",
+        "column_UkRtYr",
+        "column_UnmKPf"
+      ],
+      "custom_css": [
+        ".multicolumn {background: rgb(231, 241, 247);}",
+        ".inline-richtext {font-size: 24px;}",
+        ".multicolumn-card {font-size: 16px; letter-spacing: -0.5px; /* height:auto; */ padding: 10px 10px 0px; background: rgb(255, 255, 255);}"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 20
+      }
+    },
+    "review_image_with_text_Lqpfjw": {
+      "type": "review-image-with-text",
+      "settings": {
+        "review_image": "shopify://shop_images/review-stars-new_c29b87db-b7be-4045-88d6-6ed0253b3672.svg",
+        "text": "Trusted by Hundreds of Aussie Businesses",
+        "bg_color": "#ffffff",
+        "text_color": "#000000",
+        "desktop_padding_top": 40,
+        "desktop_padding_bottom": 40,
+        "mobile_padding_top": 30,
+        "mobile_padding_bottom": 30
+      }
+    },
+    "advertise_FfNzr9": {
+      "type": "advertise",
+      "settings": {
+        "main_image": "shopify://shop_images/a7663a1627dc732a8505611a4a34da37.webp",
+        "secondary_image": "shopify://shop_images/grow-your-brand_a831e197-6984-4fb5-af1a-f72723d0f61b.svg",
+        "secondary_image_roate_angle": 0,
+        "desktop_left": 370,
+        "desktop_top": 140,
+        "desktop_right": 0,
+        "desktop_bottom": -1,
+        "mobile_left": -1,
+        "mobile_top": 0,
+        "mobile_right": 0,
+        "mobile_bottom": -1,
+        "heading": "An Investment That Actually Grows Your Online Sales",
+        "sub_heading": "The Brands Thriving in eCommerce Know This..",
+        "text": "<p>We get it. Saving on costs matters—but not if it slows down your growth. If you’re cutting corners on your online store’s visibility, speed, or conversion strategy, you’re leaving money on the table.</p><p>Why gamble with DIY setups or bargain-basement developers when your store is the heart of your business?</p><p><strong>It’s not just about being online. It’s about being profitable.</strong></p><p>Successful eCommerce brands invest in partners who get results. We help you build a proper strategy, attract better customers, and increase average order value. The outcome? More sales. Fewer headaches.</p><p><strong>Ready to grow without guesswork?</strong><br/></p>",
+        "button_link": "shopify://pages/contact",
+        "button_text": "Ok, Let’s Do This!",
+        "image_right": true,
+        "text_align": "left",
+        "background_color": "#ffffff",
+        "desktop_padding_top": 80,
+        "desktop_padding_bottom": 80,
+        "mobile_padding_top": 50,
+        "mobile_padding_bottom": 50
+      }
+    },
+    "advertise_7YnCkB": {
+      "type": "advertise",
+      "custom_css": [],
+      "settings": {
+        "main_image": "shopify://shop_images/Web-Designs-for-trades_ecf90df0-16f8-4f1b-b28c-dfee1a616fbc.webp",
+        "secondary_image": "shopify://shop_images/get-the-work-you-want_1deebdca-42cf-48ef-ad08-2c7a30b21259.svg",
+        "secondary_image_roate_angle": 28,
+        "desktop_left": -30,
+        "desktop_top": 330,
+        "desktop_right": -1,
+        "desktop_bottom": -1,
+        "mobile_left": -1,
+        "mobile_top": -1,
+        "mobile_right": -1,
+        "mobile_bottom": 2,
+        "heading": "Let’s Talk About Your Business Goals",
+        "sub_heading": "Not Just More Leads. The Right Ones.",
+        "text": "<p>We’re not just a service provider—we’re your growth partner. Whether you’re running a Shopify store or quoting jobs in your local area, we help you get in front of people who are ready to buy, book, or build.</p><p>We’ve worked with hundreds of Aussie businesses, across every corner of the map. We know the landscape, we know what works, and we know how to scale your online presence without wasting your time or money.</p><p><strong>Get the right traffic, more conversions, and the work you actually want.</strong></p><p></p>",
+        "button_link": "shopify://pages/contact",
+        "button_text": "Speak To Our Team",
+        "image_right": false,
+        "text_align": "left",
+        "background_color": "#ffffff",
+        "desktop_padding_top": 80,
+        "desktop_padding_bottom": 80,
+        "mobile_padding_top": 50,
+        "mobile_padding_bottom": 50
+      }
+    },
+    "faq_iny4eh": {
+      "type": "faq",
+      "blocks": {
+        "faq_item_XGXi4Q": {
+          "type": "faq_item",
+          "settings": {
+            "question": "How do I get more leads for my business?",
+            "answer": "<p>Whether you're running a Shopify store or offering plumbing services, getting more leads comes down to having a solid digital strategy. That means being found on Google, running smart ad campaigns, using email marketing the right way, and actually tracking what works. We build and manage systems that bring you leads on autopilot—no fluff.</p><p></p>",
+            "icon": "shopify://shop_images/yellow-arrow_3e657a2f-2ca2-4c8f-8ef5-7678a9b6fcdb.svg"
+          }
+        },
+        "faq_item_9HnVi9": {
+          "type": "faq_item",
+          "settings": {
+            "question": "Why does my business need a website?",
+            "answer": "<p>Your website isn’t just a business card—it’s your best salesperson. A solid site builds trust, shows off your product or service, and turns browsers into buyers or enquiries. Shopify for eComm, custom builds for service-based—whatever your business, we make it work hard.</p>",
+            "icon": "shopify://shop_images/yellow-arrow_3e657a2f-2ca2-4c8f-8ef5-7678a9b6fcdb.svg"
+          }
+        },
+        "faq_item_hjYqHP": {
+          "type": "faq_item",
+          "settings": {
+            "question": "What’s the best marketing strategy for small businesses?",
+            "answer": "<p>Depends on your goals. For eCommerce, paid ads + SEO + TikTok content = 🔥. For local services, Google Ads + local SEO + reviews = leads. The right marketing isn’t one-size-fits-all—it’s what works for your niche, your margins, and your market.</p>",
+            "icon": "shopify://shop_images/yellow-arrow_3e657a2f-2ca2-4c8f-8ef5-7678a9b6fcdb.svg"
+          }
+        },
+        "faq_item_mdt7ky": {
+          "type": "faq_item",
+          "settings": {
+            "question": "What platform is better than online directories like HiPages?",
+            "answer": "<p>Directories are fine—if you like competing with 100 others for bottom-dollar jobs. If you're serious about building a brand that attracts better clients and bigger orders, you need a website and an ad strategy that puts <em>you</em> in control of the lead flow. Not some algorithm.</p><p></p>",
+            "icon": "shopify://shop_images/yellow-arrow_3e657a2f-2ca2-4c8f-8ef5-7678a9b6fcdb.svg"
+          }
+        },
+        "faq_item_dpLdHH": {
+          "type": "faq_item",
+          "settings": {
+            "question": "Are paid ads actually worth it?",
+            "answer": "<p>Paid ads are only worth it when they’re done right. We’ve managed $2M+ in ad spend and know how to turn a dollar into ten. Whether it’s Google Shopping, Facebook retargeting or TikTok sales campaigns—we’ve seen what works and what doesn’t. We don’t guess. We optimise.</p><p></p>",
+            "icon": "shopify://shop_images/yellow-arrow_3e657a2f-2ca2-4c8f-8ef5-7678a9b6fcdb.svg"
+          }
+        },
+        "faq_item_M3HRNG": {
+          "type": "faq_item",
+          "settings": {
+            "question": "Where do good customers actually come from?",
+            "answer": "<p>Short answer: online. Long answer: Google, social media, email, TikTok, and everywhere your ideal customer is already hanging out. But it’s not just about being <em>seen</em>—it’s about saying the right thing, at the right time, with the right offer. That’s where we come in.</p><p></p>",
+            "icon": "shopify://shop_images/yellow-arrow_3e657a2f-2ca2-4c8f-8ef5-7678a9b6fcdb.svg"
+          }
+        },
+        "faq_item_DcYcJX": {
+          "type": "faq_item",
+          "settings": {
+            "question": "What’s the best way to scale my Shopify store?",
+            "answer": "<p>Start with your data. What products are selling, where is traffic coming from, what’s your return customer rate? Then: streamline your site, improve your offer, and run the ads that give you scale. We help you scale with a proven eCommerce growth framework.</p><p></p>",
+            "icon": "shopify://shop_images/yellow-arrow_3e657a2f-2ca2-4c8f-8ef5-7678a9b6fcdb.svg"
+          }
+        },
+        "faq_item_rQtkgF": {
+          "type": "faq_item",
+          "settings": {
+            "question": "How do I grow without spending all day on social media?",
+            "answer": "<p>Create once, distribute everywhere. We help you turn one video or blog post into multiple touchpoints—from TikTok to Google to email. If you hate being in front of the camera, we’ll script it for you or even shoot it with you. No more guessing, no more burnout.</p><p></p>",
+            "icon": "shopify://shop_images/yellow-arrow_3e657a2f-2ca2-4c8f-8ef5-7678a9b6fcdb.svg"
+          }
+        },
+        "faq_item_pDnJhK": {
+          "type": "faq_item",
+          "settings": {
+            "question": "How long until I see results?",
+            "answer": "<p>If you’re running ads—sometimes within 72 hours. SEO and organic content can take 3-6 months. The key is momentum. Our goal is to get early wins, then layer in long-term gains so you’re not always stuck on the hamster wheel.</p>",
+            "icon": "shopify://shop_images/yellow-arrow_3e657a2f-2ca2-4c8f-8ef5-7678a9b6fcdb.svg"
+          }
+        }
+      },
+      "block_order": [
+        "faq_item_XGXi4Q",
+        "faq_item_9HnVi9",
+        "faq_item_hjYqHP",
+        "faq_item_mdt7ky",
+        "faq_item_dpLdHH",
+        "faq_item_M3HRNG",
+        "faq_item_DcYcJX",
+        "faq_item_rQtkgF",
+        "faq_item_pDnJhK"
+      ],
+      "settings": {
+        "heading": "Frequently Asked Questions",
+        "bg_color": "#f9f9f9",
+        "max_width": 800,
+        "desktop_padding_top": 100,
+        "desktop_padding_bottom": 80,
+        "mobile_padding_top": 70,
+        "mobile_padding_bottom": 60
+      }
+    },
+    "partner_section_MxdfPg": {
+      "type": "partner-section",
+      "blocks": {
+        "logo_AUcRK9": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/Tradify_de21751d-76fc-4e45-89ad-24639c4ff8ab.webp"
+          }
+        },
+        "logo_bL3gXg": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/Tradify_de21751d-76fc-4e45-89ad-24639c4ff8ab.webp"
+          }
+        },
+        "logo_nD8fWM": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/Tradify_de21751d-76fc-4e45-89ad-24639c4ff8ab.webp"
+          }
+        },
+        "logo_aq89PC": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/servicem8-partner_acea9ba5-178b-40b0-aa4f-e1dd8d841972.webp"
+          }
+        },
+        "logo_MwpfqW": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/meta-for-business-partner_cf8bfec0-9972-4795-b26a-452fb4367033.webp"
+          }
+        },
+        "logo_xtKBAC": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/semrush-agency-partner_f3d6aa17-0961-4c72-b6f5-48f88effbff1.webp"
+          }
+        }
+      },
+      "block_order": [
+        "logo_AUcRK9",
+        "logo_bL3gXg",
+        "logo_nD8fWM",
+        "logo_aq89PC",
+        "logo_MwpfqW",
+        "logo_xtKBAC"
+      ],
+      "settings": {
+        "partner_title": "Partnered With",
+        "bg_color": "#f9f9f9",
+        "desktop_padding_top": 40,
+        "desktop_padding_bottom": 40,
+        "mobile_padding_top": 30,
+        "mobile_padding_bottom": 30
       }
     }
   },
   "order": [
-    "overview_dWdQCg",
-    "text_heading_cKjFAQ",
-    "card_list_C4T6Dr",
-    "card_list_VB3J6F",
+    "rich_text_yEJgbU",
+    "icon_with_text_list_VwTCMQ",
+    "advertise_4bR9He",
+    "icon_with_text_list_gjccpd",
+    "advertise_LB4YjA",
     "review",
-    "support_jzem6W",
-    "service_list_HXKjt7",
-    "home_advertise_aTKgK6"
+    "icon_with_text_list_rab6gX",
+    "rich_text_AHTAcY",
+    "services_grid_bKcDN4",
+    "custom_liquid_RChH7W",
+    "review_image_with_text_9yfzTM",
+    "comparison_section_cRchCd",
+    "custom_liquid_RNXNdX",
+    "rich_text_CzRw9H",
+    "advertise_k8b8zD",
+    "rich_text_tGHQMR",
+    "benefits_section_NjXzKr",
+    "advertise_aDrLQp",
+    "results_guaranteed_Ny3Npn",
+    "multicolumn_RhaDrB",
+    "review_image_with_text_Lqpfjw",
+    "advertise_FfNzr9",
+    "advertise_7YnCkB",
+    "faq_iny4eh",
+    "partner_section_MxdfPg"
   ]
 }

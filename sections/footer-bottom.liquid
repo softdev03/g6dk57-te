@@ -1,0 +1,42 @@
+
+{% schema %}
+{
+  "name": "Footer Bottom",
+  "settings": [   
+    {
+      "type": "text",
+      "id": "footer_bottom_text",
+      "label": "Footer Bottom Text",
+    },
+   
+  ],
+  "presets": [
+    {
+      "name": "Footer Bottom",
+      "category": "Custom Sections"
+    }
+  ]
+}
+{% endschema %}
+
+{% style %}
+#shopify-section-{{ section.id }} {
+  background-color:black;
+}
+.footer-bottom{
+  text-align:center;
+  align-items:center;
+  padding:35px 0px;
+  font-size:12px;
+}
+  .footer-bottom p{
+    color:white;
+    margin:0;
+  }
+{% endstyle %}
+<section class="bottom-section page-width">
+  <div class="footer-bottom">
+  <p>{{ section.settings.footer_bottom_text }}</p>
+  </div>
+  
+</section>

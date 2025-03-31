@@ -1,0 +1,146 @@
+{% schema %}
+{
+  "name": "Results Section",
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "logo_image",
+      "label": "Logo Image"
+    },
+    {
+      "type": "text",
+      "id": "main_heading",
+      "label": "Main Heading",
+      "default": "RESULTS GUARANTEED"
+    },
+    {
+      "type": "text",
+      "id": "sub_heading",
+      "label": "Sub Heading",
+      "default": "(Our Risk-Free Promise)"
+    },
+    {
+      "type": "text",
+      "id": "description",
+      "label": "Description",
+      "default": "If you don't get results, you don't pay. Simple as that."
+    },
+    {
+      "type": "text",
+      "id": "button_text",
+      "label": "Button Text",
+      "default": "Request A Free Quote"
+    },
+    {
+      "type": "url",
+      "id": "button_link",
+      "label": "Button Link",
+
+    },
+    {
+      "type": "header",
+      "content": "Padding Settings"
+    },
+    {
+      "type": "range",
+      "id": "desktop_padding_top",
+      "min": 0,
+      "max": 200,
+      "step": 2,
+      "unit": "px",
+      "label": "Desktop Padding Top",
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "desktop_padding_bottom",
+      "min": 0,
+      "max": 200,
+      "step": 2,
+      "unit": "px",
+      "label": "Desktop Padding Bottom",
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "mobile_padding_top",
+      "min": 0,
+      "max": 200,
+      "step": 2,
+      "unit": "px",
+      "label": "Mobile Padding Top",
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "mobile_padding_bottom",
+      "min": 0,
+      "max": 200,
+      "step": 2,
+      "unit": "px",
+      "label": "Mobile Padding Bottom",
+      "default": 0
+    }
+  ],
+  "presets": [
+    {
+      "name": "Results Guaranteed",
+      "category": "Custom Sections"
+    }
+  ]
+}
+{% endschema %}
+
+{{ 'results-guranted.css' | asset_url | stylesheet_tag }}
+{%- style -%}
+  #shopify-section-{{ section.id }} {
+    padding-top: {{ section.settings.desktop_padding_top }}px;
+    padding-bottom: {{ section.settings.desktop_padding_bottom }}px;
+  }
+  @media screen and (max-width: 749px) {
+      #shopify-section-{{ section.id }} {
+        padding-top: {{ section.settings.mobile_padding_top }}px;
+        padding-bottom: {{ section.settings.mobile_padding_bottom }}px;
+      }
+  }
+{%- endstyle -%}
+<section class="results-guaranteed-section page-width">
+  <div class="rg-container">
+    
+    {% if section.settings.logo_image %}
+      <div class="rg-logo-wrapper">
+        <img 
+          src="{{ section.settings.logo_image | img_url: '200x' }}" 
+          alt="Logo" 
+          class="rg-logo"
+        >
+      </div>
+    {% endif %}
+    
+    <h2 class="rg-main-heading">
+      {{ section.settings.main_heading }}
+    </h2>
+    
+    {% if section.settings.sub_heading != blank %}
+      <p class="rg-sub-heading">
+        {{ section.settings.sub_heading }}
+      </p>
+    {% endif %}
+    
+    {% if section.settings.description != blank %}
+      <p class="rg-description">
+        {{ section.settings.description }}
+      </p>
+    {% endif %}
+    
+    {% if section.settings.button_text != blank %}
+      <a 
+        href="{{ section.settings.button_link | escape }}" 
+        class="rg-button"
+      >
+        {{ section.settings.button_text }}
+      </a>
+    {% endif %}
+    
+  </div>
+</section>

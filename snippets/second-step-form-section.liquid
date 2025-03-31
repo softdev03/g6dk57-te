@@ -1,0 +1,36 @@
+<div class="form-step-section {% if block.settings.is_required %} required {% endif %}" id="form-part-{{ block.id }}" index="{{ index }}">
+    {%- if block.settings.heading != blank -%}
+			<h1 class="part-heading" style="color: {{ block.settings.heading_color }}">{{ block.settings.heading }}</h1>
+		{%- endif -%}
+		{%- if block.settings.description != blank -%}
+			<p class="description" style="color: {{ block.settings.description_color }}">{{ block.settings.description }}</p>
+		{%- endif -%}
+		{%- assign fieldItems = block.settings.field_items |  split: '|' -%}
+		{%- for fieldItem in fieldItems -%}
+			<div class="check-field" style="box-shadow: {{ block.settings.box_shadow_color }} 2px 2px 12px 2px;">
+				<input type="checkbox" name="{{ block.settings.field_name }}[]" id="field-{{ block.id }}-{{ forloop.id }}">
+				<label for="field-{{ block.id }}-{{ forloop.id }}" style="color: {{ block.settings.field_items_color }}">{{ fieldItem }}</label>
+			</div>
+		{%- endfor -%}
+		<p class="error-msg" style="{{ block.settings.error_msg_color }}">{{ block.settings.error_msg }}</p>
+		{%- style -%}
+			#form-part-{{ block.id }} .check-field {
+				{% assign r = block.settings.box_shadow_color | slice: 1, 2 | hex_to_dec %}
+				{% assign g = block.settings.box_shadow_color | slice: 3, 2 | hex_to_dec %}
+				{% assign b = block.settings.box_shadow_color | slice: 5, 2 | hex_to_dec %}
+				box-shadow: rgba({{ r }},{{ g }}, {{ b }}, 0.2) 2px 2px 12px 2px;
+				border: 1px solid field_border_color;
+			}
+			#form-part-{{ block.id }} .check-field:has(input:checked) {
+				border-color: {{ block.settings.selected_field_border_color }};
+			}
+			#form-part-{{ block.id }} .check-field:first-child {
+				border-top-left-radius: {{ block.settings.border_radius }}px;
+				border-top-right-radius: {{ block.settings.border_radius }}px;
+			}
+			#form-part-{{ block.id }} .check-field:last-child {
+				border-bottom-left-radius: {{ block.settings.border_radius }}px;
+				border-bottom-right-radius: {{ block.settings.border_radius }}px;
+			}
+		{%- endstyle -%}
+</div>

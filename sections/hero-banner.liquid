@@ -1,0 +1,93 @@
+{% schema %}
+{
+  "name": "Hero Banner",
+  "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Title",
+      "default": "Advertising and Growth Solutions for Tradies"
+    },
+    {
+      "type": "richtext",
+      "id": "description",
+      "label": "Description",
+      "default": "<p>The Cold Hard Truth.</p>"
+    },
+    {
+      "type": "text",
+      "id": "cta_text",
+      "label": "CTA Button Text",
+      "default": "Get my Custom Strategy Now"
+    },
+    {
+      "type": "url",
+      "id": "cta_link",
+      "label": "CTA Button Link"
+    },
+    {
+      "type": "image_picker",
+      "id": "hero_image",
+      "label": "Hero Image"
+    },
+    {
+      "type": "image_picker",
+      "id": "highlight_circle",
+      "label": "Background Circle Image"
+    },
+    {
+      "type": "text",
+      "id": "annotation_text",
+      "label": "Annotation Text",
+      "default": "Get new customers"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Hero Banner",
+      "category": "Custom Sections"
+    }
+  ]
+}
+{% endschema %}
+
+<link rel="stylesheet" href="{{ 'custom-hero.css' | asset_url }}">
+
+<section class="hero-section">
+  <div class="hero-container">
+    <div class="hero-text">
+      <h1>{{ section.settings.title }}</h1>
+      <div class="hero-description">
+        {{ section.settings.description }}
+      </div>
+      <div class="hero-description-1">
+        Many Tradies have given up almost entirely on trying to grow their business.
+      </div>
+      <div class="hero-description-2">
+        Relying on third party websites and word of mouth to provide them with leads.
+      </div>
+      <div class="hero-description-3">
+        Meaning an inconsistent flow of work, being forced to haggle on price to win the jobs they do find, and profits that continue to shrink with every materials price rise… Ouch.
+      </div>
+      <div class="hero-description-4">
+        A quality advertising strategy that positions you as an expert in your trade is the difference between winning better-paying clients or getting stuck between a rock and a hard place.
+      </div>
+      <div class="hero-description-5">
+        We’ll move the rock.
+      </div>
+      <a href="{{ section.settings.cta_link }}" class="hero-button">{{ section.settings.cta_text }}</a>
+    </div>
+    
+    <div class="hero-image-container">
+  
+        <img src="{{ 'website-design-and-dev-for-tradies.png' | asset_url }}" alt="Background Highlight" class="highlight-circle" width="100%" height="100%">
+
+
+
+        <img src="{{ 'get-new-customers.svg' | asset_url }}" alt="Hero Image" class="hero-image" width="100%" height="100%">
+
+      
+      <!-- <span class="annotation-text">{{ section.settings.annotation_text }}</span> -->
+    </div>
+  </div>
+</section>

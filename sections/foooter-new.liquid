@@ -1,152 +1,169 @@
-{{ 'footer-new.css' | asset_url | stylesheet_tag }}
-{%- style -%}
-  #shopify-section-{{ section.id }} {
-  	padding-top: {{ section.settings.desktop_padding_top }}px;
-  	padding-bottom: {{ section.settings.desktop_padding_bottom }}px;
-  }
-  @media screen and (max-width: 749px) {
-  	#shopify-section-{{ section.id }} {
-  		padding-top: {{ section.settings.mobile_padding_top }}px;
-  		padding-bottom: {{ section.settings.mobile_padding_bottom }}px;
-  	}
-  }
-{%- endstyle -%}
-<div class="shopify-section-footer page-width">
-  <div class="footer-main">
-    <div class="logo-wrapper">
-      <a class="logo" href="{{ shop.url }}">
-        {%- if section.settings.logo != blank -%}
-          <img src="{{ section.settings.logo |  img_url: '100x' }}" alt="" width="100px" height="auto">
-        {%- else -%}
-          <img src="{{ settings.logo |  img_url: '100x' }}" alt="" width="100px" height="auto">
-        {%- endif -%}
-      </a>
-      {%- if section.settings.footer_text != blank -%}
-        <p class="text m-0">{{ section.settings.footer_text }}</p>
-      {%- endif -%}
-    </div>
-    {%- if section.blocks.size > 0 -%}
-      {%- for block in section.blocks -%}
-        {%- if block.settings.heading != blank and block.settings.menu != blank -%}
-          <div class="menu-block">
-            <h1 class="heading m-0">{{ block.settings.heading }}</h1>
-            <ul class="menu-item-list">
-              {%- for link in block.settings.menu.links -%}
-                <li>
-                  <a href="{{ link.url }}">{{ link.title }}</a>
-                </li>
-              {%- endfor -%}
-            </ul>
-          </div>
-        {%- endif -%}
-      {%- endfor -%}
-    {%- endif -%}
-  </div>
-  <div class="footer-bottom">
-    {%- if section.settings.bottom_text != blank -%}
-      <p class="bottom-text m-0">{{ section.settings.bottom_text }}</p>
-    {%- endif -%}
-    {%- if section.settings.show_social_icons == true -%}
-      {%- render 'social-icons', class: 'footer__list-social' -%}
-    {%- endif -%}
-  </div>
-</div>
 {% schema %}
 {
-  "name": "Footer",
-  "tag": "section",
-  "class": "shopify-section--footer",
+  "name": "Custom Footer",
   "settings": [
     {
       "type": "image_picker",
-      "id": "logo",
-      "label": "Logo"
+      "id": "marketing_image",
+      "label": "Marketing Image"
     },
     {
-      "type": "text",
-      "id": "footer_text",
-      "label": "Footer Text"
+      "type": "url",
+      "id": "marketing_link",
+      "label": "Marketing Link"
     },
     {
-      "type": "text",
-      "id": "bottom_text",
-      "label": "Bottom Text"
+      "type": "image_picker",
+      "id": "website_image",
+      "label": "Website Image"
     },
     {
-      "type": "checkbox",
-      "id": "show_social_icons",
-      "label": "Show Social Icons",
-      "default": true
+      "type": "url",
+      "id": "website_link",
+      "label": "Website Link"
     },
     {
-      "type": "header",
-      "content": "Padding Settings"
+      "type": "image_picker",
+      "id": "footer_logo",
+      "label": "Footer Logo"
     },
     {
-      "type": "range",
-      "id": "desktop_padding_top",
-      "min": 0,
-      "max": 200,
-      "step": 2,
-      "unit": "px",
-      "label": "Desktop Padding Top",
-      "default": 0
+      "type": "image_picker",
+      "id": "proudly_owned",
+      "label": "Proudly Australian Owned"
     },
     {
-      "type": "range",
-      "id": "desktop_padding_bottom",
-      "min": 0,
-      "max": 200,
-      "step": 2,
-      "unit": "px",
-      "label": "Desktop Padding Bottom",
-      "default": 0
-    },
-    {
-      "type": "range",
-      "id": "mobile_padding_top",
-      "min": 0,
-      "max": 200,
-      "step": 2,
-      "unit": "px",
-      "label": "Mobile Padding Top",
-      "default": 0
-    },
-    {
-      "type": "range",
-      "id": "mobile_padding_bottom",
-      "min": 0,
-      "max": 200,
-      "step": 2,
-      "unit": "px",
-      "label": "Mobile Padding Bottom",
-      "default": 0
-    }
-  ],
-  "blocks": [
-    {
-      "type": "menu_item",
-      "name": "Menu Item",
-      "limit": 3,
-      "settings": [
-        {
-          "type": "text",
-          "id": "heading",
-          "label": "Heading"
-        },
-        {
-          "type": "link_list",
-          "id": "menu",
-          "label": "Menu"
-        }
-      ]
+      "type": "url",
+      "id": "request_call_link",
+      "label": "Request Call Link"
     }
   ],
   "presets": [
     {
-      "name": "Footer",
-      "settings": {}
+      "name": "Custom Footer",
+      "category": "Footer"
     }
   ]
 }
 {% endschema %}
+
+<link rel="stylesheet" href="{{ 'footer-new.css' | asset_url }}">
+
+<footer class="custom-footer">
+
+  <!-- Top Yellow Background Section -->
+  <div class="footer-top">
+    <div class="footer-content">
+      
+      <div class="marketing-links">
+        <div class="footer-card">
+          <img src="{{ 'Marketing-for-Aussie-Tradies.png' | asset_url }}" alt="Marketing for Tradies">
+          <a href="{{ section.settings.marketing_link }}" class="footer-btn">Explore Our Marketing Services For Tradies →</a>
+        </div>
+  
+        <div class="footer-card">
+          <img src="{{ 'Websites-For-Tradies.png' | asset_url }}" alt="Websites for Tradies">
+          
+       
+          <a href="{{ section.settings.website_link }}" class="footer-btn">Explore Our Website Services For Tradies →</a>
+        </div>
+      </div>
+
+      <div class="footer-bottom-section">
+        <div class="footer-logo">
+          <a href="/">
+            <img src="{{ 'tradiemate-au.svg' | asset_url }}" alt="Tradiemate Logo">
+          </a>
+          <p>We help Tradies Get Online, Drive More Sales, & Charge Better Rates for their services. Trust the tradie marketing and web design experts, contact Tradiemate today.</p>
+        </div>
+
+         <div class="footer-badge">
+          <div class="footer-badge-content">
+    
+            <div class="footer-owned">
+              <img src="{{ 'Proudly-Australian-Owned.png' | asset_url }}" alt="Proudly Australian Owned">
+            </div>
+          </div>
+           <div class="footer-owned">
+              <a href="{{ section.settings.request_call_link }}" class="footer-black-btn">Request a Call →</a>
+           </div>
+          </div>
+
+      </div>
+
+    
+
+    </div>
+  </div>
+
+  <!-- Divider -->
+  <hr class="footer-divider">
+
+  <!-- Footer Navigation Links -->
+  <div class="footer-links">
+    <div class="footer-column">
+      <h3>Popular Services</h3>
+      <ul>
+        <li><a href="#">Websites</a></li>
+        <li><a href="#">Marketing</a></li>
+        <li><a href="#">B2B Services</a></li>
+        <li><a href="#">Job Leads</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-column">
+      <h3>Paid Ads</h3>
+      <ul>
+        <li><a href="#">Google Ads</a></li>
+        <li><a href="#">Facebook Ads</a></li>
+        <li><a href="#">Instagram Ads</a></li>
+        <li><a href="#">YouTube Ads</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-column">
+      <h3>Organic Services</h3>
+      <ul>
+        <li><a href="#">SEO</a></li>
+        <li><a href="#">Google My Business</a></li>
+        <li><a href="#">Content Writing</a></li>
+        <li><a href="#">Email Marketing</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-column">
+      <h3>Design Services</h3>
+      <ul>
+        <li><a href="#">Branding</a></li>
+        <li><a href="#">Capability Statements</a></li>
+        <li><a href="#">Logo Design</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-column">
+      <h3>Trades</h3>
+      <ul>
+        <li><a href="#">Electricians</a></li>
+        <li><a href="#">Pest Control</a></li>
+        <li><a href="#">Carpenters</a></li>
+        <li><a href="#">Cleaning</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-column">
+      <h3>About</h3>
+      <ul>
+        <li><a href="#">About Tradiemate</a></li>
+        <li><a href="#">Our Work</a></li>
+        <li><a href="#">Free Content</a></li>
+        <li><a href="#">Contact Us</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Footer Bottom -->
+  <div class="footer-bottom">
+    <p>All Content © Tradiemate 2024 | Proudly Australian Owned and Operated | <a href="#">Privacy Policy</a></p>
+  </div>
+
+</footer>

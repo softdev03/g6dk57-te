@@ -4,7 +4,7 @@
   Usage:
   {% render 'header-drawer' %}
 {% endcomment %}
-{%- assign menuItemImageBlocks = section.blocks |  where: 'type', 'menu_item_image' -%}
+{%- assign megamenu_blocks = section.blocks |  where: 'type', 'mega_menu' -%}
 <header-drawer data-breakpoint="{% if section.settings.menu_type_desktop == 'drawer' %}desktop{% else %}tablet{% endif %}">
   <details id="Details-menu-drawer-container" class="menu-drawer-container">
     <summary
@@ -24,18 +24,19 @@
               {%- for link in section.settings.menu.links -%}
                 <li>
                   {%- if link.links != blank -%}
+                    {%- assign megaMenuItem = megamenu_blocks |  map: 'settings' |  where: 'handle', link.handle |  first -%}
                     <details id="Details-menu-drawer-menu-item-{{ forloop.index }}">
                       <summary
                         id="HeaderDrawer-{{ link.handle }}"
                         class="menu-drawer__menu-item list-menu__item link link--text focus-inset{% if link.child_active %} menu-drawer__menu-item--active{% endif %}"
                       >
-                        {%- for block in menuItemImageBlocks -%}
-                          {%- for menu_item in block.settings.image_list.menu_items.value -%}
-                            {%- assign handle = menu_item.menu_item_handle | handleize -%}
-                            {%- if handle == link.handle -%}
+                        {%- for menuItemImage in menuItemImages -%}
+                          {%- for imageItem in menuItemImage -%}
+                            {%- if link.handle == imageItem.menu_item_handle -%}
                               <div class="menu-icon">
-                                <img src="{{ menu_item.image |  img_url: '30x' }}" alt="" width="20px" height="auto">
+                                <img src="{{ imageItem.image |  img_url: '30x' }}" alt="" width="20px" height="auto">
                               </div>
+                              {%- break -%}
                             {%- endif -%}
                           {%- endfor -%}
                         {%- endfor -%}
@@ -59,119 +60,135 @@
                             </span>
                             {{ link.title | escape }}
                           </button>
-                          <ul class="menu-drawer__menu list-menu" role="list" tabindex="-1">
-                            {%- for childlink in link.links -%}
-                              <li>
-                                {%- if childlink.links == blank -%}
-                                  <a
-                                    id="HeaderDrawer-{{ link.handle }}-{{ childlink.handle }}"
-                                    href="{{ childlink.url }}"
-                                    class="menu-drawer__menu-item link link--text list-menu__item focus-inset{% if childlink.current %} menu-drawer__menu-item--active{% endif %}"
-                                    {% if childlink.current %}
-                                      aria-current="page"
-                                    {% endif %}
-                                  >
-                                    {%- for block in menuItemImageBlocks -%}
-                                      {%- for menu_item in block.settings.image_list.menu_items.value -%}
-                                        {%- assign handle = menu_item.menu_item_handle | handleize -%}
-                                        {%- if handle == childlink.handle -%}
-                                          <div class="menu-icon">
-                                            <img
-                                              src="{{ menu_item.image |  img_url: '30x' }}"
-                                              alt=""
-                                              width="20px"
-                                              height="auto"
-                                            >
-                                          </div>
-                                        {%- endif -%}
-                                      {%- endfor -%}
-                                    {%- endfor -%}
-                                    {{ childlink.title | escape }}
-                                  </a>
-                                {%- else -%}
-                                  <details id="Details-menu-drawer-{{ link.handle }}-{{ childlink.handle }}">
-                                    <summary
+                          {%- if megaMenuItem != blank and megaMenuItem.show_on_mobile == true -%}
+                            {%- render 'header-mega-menu', link: link,block_settings: megaMenuItem,menuItemImages: menuItemImages, onMobile: true,id: forloop.index -%}
+                          {%- else -%}
+                            <ul class="menu-drawer__menu list-menu" role="list" tabindex="-1">
+                              {%- for childlink in link.links -%}
+                                <li>
+                                  {%- if childlink.links == blank -%}
+                                    <a
                                       id="HeaderDrawer-{{ link.handle }}-{{ childlink.handle }}"
-                                      class="menu-drawer__menu-item link link--text list-menu__item focus-inset"
+                                      href="{{ childlink.url }}"
+                                      class="menu-drawer__menu-item link link--text list-menu__item focus-inset{% if childlink.current %} menu-drawer__menu-item--active{% endif %}"
+                                      {% if childlink.current %}
+                                        aria-current="page"
+                                      {% endif %}
                                     >
-                                      {%- for block in menuItemImageBlocks -%}
-                                        {%- for menu_item in block.settings.image_list.menu_items.value -%}
-                                          {%- assign handle = menu_item.menu_item_handle | handleize -%}
-                                          {%- if handle == childlink.handle -%}
+                                      {%- for menuItemImage in menuItemImages -%}
+                                        {%- for imageItem in menuItemImage -%}
+                                          {%- if childlink.handle == imageItem.menu_item_handle -%}
                                             <div class="menu-icon">
                                               <img
-                                                src="{{ menu_item.image |  img_url: '30x' }}"
+                                                src="{{ imageItem.image |  img_url: '30x' }}"
                                                 alt=""
                                                 width="20px"
                                                 height="auto"
                                               >
                                             </div>
+                                            {%- break -%}
                                           {%- endif -%}
                                         {%- endfor -%}
                                       {%- endfor -%}
                                       {{ childlink.title | escape }}
-                                      <span class="svg-wrapper">
-                                        {{- 'icon-arrow.svg' | inline_asset_content -}}
-                                      </span>
-                                      <span class="svg-wrapper">
-                                        {{- 'icon-caret.svg' | inline_asset_content -}}
-                                      </span>
-                                    </summary>
-                                    <div
-                                      id="childlink-{{ childlink.handle | escape }}"
-                                      class="menu-drawer__submenu has-submenu gradient motion-reduce"
-                                    >
-                                      <button
-                                        class="menu-drawer__close-button link link--text focus-inset"
-                                        aria-expanded="true"
+                                    </a>
+                                  {%- else -%}
+                                    <details id="Details-menu-drawer-{{ link.handle }}-{{ childlink.handle }}">
+                                      <summary
+                                        id="HeaderDrawer-{{ link.handle }}-{{ childlink.handle }}"
+                                        class="menu-drawer__menu-item link link--text list-menu__item focus-inset"
                                       >
+                                        {%- for menuItemImage in menuItemImages -%}
+                                          {%- for imageItem in menuItemImage -%}
+                                            {%- if childlink.handle == imageItem.menu_item_handle -%}
+                                              <div class="menu-icon">
+                                                <img
+                                                  src="{{ imageItem.image |  img_url: '30x' }}"
+                                                  alt=""
+                                                  width="20px"
+                                                  height="auto"
+                                                >
+                                              </div>
+                                              {%- break -%}
+                                            {%- endif -%}
+                                          {%- endfor -%}
+                                        {%- endfor -%}
+                                        {{ childlink.title | escape }}
                                         <span class="svg-wrapper">
                                           {{- 'icon-arrow.svg' | inline_asset_content -}}
                                         </span>
-                                        {{ childlink.title | escape }}
-                                      </button>
-                                      <ul
-                                        class="menu-drawer__menu list-menu"
-                                        role="list"
-                                        tabindex="-1"
+                                        <span class="svg-wrapper">
+                                          {{- 'icon-caret.svg' | inline_asset_content -}}
+                                        </span>
+                                      </summary>
+                                      <div
+                                        id="childlink-{{ childlink.handle | escape }}"
+                                        class="menu-drawer__submenu has-submenu gradient motion-reduce"
                                       >
-                                        {%- for grandchildlink in childlink.links -%}
-                                          <li>
-                                            <a
-                                              id="HeaderDrawer-{{ link.handle }}-{{ childlink.handle }}-{{ grandchildlink.handle }}"
-                                              href="{{ grandchildlink.url }}"
-                                              class="menu-drawer__menu-item link link--text list-menu__item focus-inset{% if grandchildlink.current %} menu-drawer__menu-item--active{% endif %}"
-                                              {% if grandchildlink.current %}
-                                                aria-current="page"
-                                              {% endif %}
-                                            >
-                                              {%- for block in menuItemImageBlocks -%}
-                                                {%- for menu_item in block.settings.image_list.menu_items.value -%}
-                                                  {%- assign handle = menu_item.menu_item_handle | handleize -%}
-                                                  {%- if handle == grandchildlink.handle -%}
-                                                    <div class="menu-icon">
-                                                      <img
-                                                        src="{{ menu_item.image |  img_url: '30x' }}"
-                                                        alt=""
-                                                        width="20px"
-                                                        height="auto"
-                                                      >
-                                                    </div>
-                                                  {%- endif -%}
-                                                {%- endfor -%}
-                                              {%- endfor -%}
-                                              {{ grandchildlink.title | escape }}
-                                            </a>
-                                          </li>
-                                        {%- endfor -%}
-                                      </ul>
-                                    </div>
-                                  </details>
-                                {%- endif -%}
-                              </li>
-                            {%- endfor -%}
-                          </ul>
+                                        <button
+                                          class="menu-drawer__close-button link link--text focus-inset"
+                                          aria-expanded="true"
+                                        >
+                                          <span class="svg-wrapper">
+                                            {{- 'icon-arrow.svg' | inline_asset_content -}}
+                                          </span>
+                                          {{ childlink.title | escape }}
+                                        </button>
+                                        <ul
+                                          class="menu-drawer__menu list-menu"
+                                          role="list"
+                                          tabindex="-1"
+                                        >
+                                          {%- for grandchildlink in childlink.links -%}
+                                            <li>
+                                              <a
+                                                id="HeaderDrawer-{{ link.handle }}-{{ childlink.handle }}-{{ grandchildlink.handle }}"
+                                                href="{{ grandchildlink.url }}"
+                                                class="menu-drawer__menu-item link link--text list-menu__item focus-inset{% if grandchildlink.current %} menu-drawer__menu-item--active{% endif %}"
+                                                {% if grandchildlink.current %}
+                                                  aria-current="page"
+                                                {% endif %}
+                                                handle="{{ grandchildlink.handle }}"
+                                              >
+                                                <span>
+                                                  {%- for menuItemImage in menuItemImages -%}
+                                                    {%- for imageItem in menuItemImage -%}
+                                                      {%- if grandchildlink.handle == imageItem.menu_item_handle -%}
+                                                        <div class="menu-icon">
+                                                          <img
+                                                            src="{{ imageItem.image |  img_url: '30x' }}"
+                                                            alt=""
+                                                            width="20px"
+                                                            height="auto"
+                                                          >
+                                                          </div>
+                                                        {%- break -%}
+                                                      {%- endif -%}
+                                                    {%- endfor -%}
+                                                  {%- endfor -%}
+                                                  {{ grandchildlink.title | escape }}
+                                                </span>
+                                                {%- if megaMenuItem != blank -%}
+                                                  {%- assign remove_text = '{text}' -%}
+                                                  <p class="mega-menu-item-secondary">{{ megaMenuItem.secondary_text |  replace: remove_text, grandchildlink.title }}</p>
+                                                {%- endif -%}
+                                              </a>
+                                            </li>
+                                          {%- endfor -%}
+                                        </ul>
+                                      </div>
+                                    </details>
+                                  {%- endif -%}
+                                </li>
+                              {%- endfor -%}
+                            </ul>
+                          {%- endif -%}
                         </div>
+                        {%- if megaMenuItem.button_link != blank and megaMenuItem.button_text != blank and megaMenuItem.show_on_mobile == false -%}
+                          <div class="mega-menu-button">
+                            <a href="{{ megaMenuItem.button_link }}" class="mega-menu-button-{{ megaMenuItem.handle }}">{{ megaMenuItem.button_text }}</a>
+                          </div>
+                        {%- endif -%}
                       </div>
                     </details>
                   {%- else -%}
@@ -183,16 +200,16 @@
                         aria-current="page"
                       {% endif %}
                     >
-                    {%- for block in menuItemImageBlocks -%}
-                      {%- for menu_item in block.settings.image_list.menu_items.value -%}
-                        {%- assign handle = menu_item.menu_item_handle | handleize -%}
-                        {%- if handle == link.handle -%}
-                          <div class="menu-icon">
-                            <img src="{{ menu_item.image |  img_url: '30x' }}" alt="" width="20px" height="auto">
-                          </div>
-                        {%- endif -%}
+                      {%- for menuItemImage in menuItemImages -%}
+                        {%- for imageItem in menuItemImage -%}
+                          {%- if link.handle == imageItem.menu_item_handle -%}
+                            <div class="menu-icon">
+                              <img src="{{ imageItem.image |  img_url: '30x' }}" alt="" width="20px" height="auto">
+                            </div>
+                            {%- break -%}
+                          {%- endif -%}
+                        {%- endfor -%}
                       {%- endfor -%}
-                    {%- endfor -%}
                       {{ link.title | escape }}
                     </a>
                   {%- endif -%}
@@ -356,10 +373,8 @@
                 {%- endif -%}
               </ul>
             {% endcomment %}
-            {%- if section.settings.phone_number != blank and section.settings.phone_number_button_text != blank -%}
-              <a href="tel:{{ section.settings.phone_number }}" class="phone-number">
-                {{- section.settings.phone_number_button_text -}}
-              </a>
+            {%- if section.settings.enquire_link != blank and section.settings.enquire_link_text != blank -%}
+              <a href="{{ section.settings.enquire_link }}" class="enquire-link">{{ section.settings.enquire_link_text }}</a>
             {%- endif -%}
           </div>
         </div>

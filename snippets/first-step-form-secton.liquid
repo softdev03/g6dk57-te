@@ -1,0 +1,123 @@
+<div class="form-step-section form-main {% if block.settings.final_step %} final {% endif %}" id="form-part-{{ block.id }}" index="{{ index }}">
+  <div class="name-field">
+    <div class="field-wrapper">
+      <div class="field">
+        <input
+          type="text"
+          id="ContactForm-first-name"
+          class="field__input"
+          autocomplete="text"
+          name="contact[first_name]"
+          value="{% if form.first_name %}{{ form.first_name }}{% endif %}"
+          placeholder="{{ block.settings.first_name_label }}"
+        >
+        <label class="field__label" for="ContactForm-first-name">{{ block.settings.first_name_label }}</label>
+      </div>
+      <p class="error-msg" style="color: {{ block.settings.error_msg_color }}">{{ block.settings.first_name_error_msg }}</p>
+    </div>
+    <div class="field-wrapper">
+      <div class="field">
+        <input
+          type="text"
+          id="ContactForm-last-name"
+          class="field__input"
+          autocomplete="text"
+          name="contact[last_name]"
+          value="{% if form.last_name %}{{ form.last_name }}{% endif %}"
+          placeholder="{{ block.settings.last_name_label }}"
+        >
+        <label class="field__label" for="ContactForm-last-name">{{ block.settings.last_name_label }}</label>
+      </div>
+      <p class="error-msg" style="color: {{ block.settings.error_msg_color }}">{{ block.settings.last_name_error_msg }}</p>
+    </div>
+  </div>
+  <div class="field-wrapper">
+    <div class="field">
+      <input
+        type="email"
+        id="ContactForm-email"
+        class="field__input"
+        autocomplete="email"
+        name="contact[email]"
+        value="{% if form.email %}{{ form.email }}{% endif %}"
+        placeholder="{{ block.settings.email_label }}"
+      >
+      <label class="field__label" for="ContactForm-email">{{ block.settings.email_label }}</label>
+    </div>
+    <p class="error-msg" style="color: {{ block.settings.error_msg_color }}">{{ block.settings.email_error_msg }}</p>
+  </div>
+  <div class="field-wrapper">
+    <div class="field">
+      <input
+        type="tel"
+        id="ContactForm-phone"
+        class="field__input"
+        autocomplete="tel"
+        name="contact[Phone]"
+        pattern="[0-9\-]*"
+        value="{% if form.phone %}{{ form.phone }}{% elsif customer %}{{ customer.phone }}{% endif %}"
+        placeholder="{{ block.settings.phone_number_label }}"
+      >
+      <label class="field__label" for="ContactForm-phone">{{ block.settings.phone_number_label }}</label>
+			<div class="selected-country"></div>
+			<div class="country-phone-numbers">
+				{%- for country in block.settings.flag_list -%}
+					<div class="country-list">
+						{%- for country_item in country.country_item_list.value -%}
+							<div class="country-item">
+								<div class="country-name">
+									<img src="{{ country_item.flag |  img_url: '50x' }}" alt="" width="50px" height="auto">
+									{{ country_item.country_name }}
+								</div>
+								<p class="phone-number-prefix">{{ country_item.phone_number_prefix }}</p>
+							</div>
+						{%- endfor -%}
+					</div>
+				{%- endfor -%}
+			</div>
+    </div>
+		<p class="error-msg" style="color: {{ block.settings.error_msg_color }}">{{ block.settings.phone_error_msg }}</p>
+  </div>
+  <div class="field-wrapper">
+    <div class="field">
+      <input
+        type="text"
+        id="ContactForm-post-code"
+        class="field__input"
+        autocomplete="text"
+        name="contact[post_code]"
+        value="{% if form.post_code %}{{ form.post_code }}{% endif %}"
+        placeholder="{{ block.settings.post_code_label }}"
+      >
+      <label class="field__label" for="ContactForm-post-code">{{ block.settings.post_code_label }}</label>
+    </div>
+		<p class="error-msg" style="color: {{ block.settings.error_msg_color }}">{{ block.settings.post_code_error_msg }}</p>
+  </div>
+
+	{%- style -%}
+    #form-part-{{ block.id }} .field {
+      color: {{ block.settings.text_color }};
+    }
+		#form-part-{{ block.id }} input {
+			border-bottom: 1px solid {{ block.settings.border_color }};
+			background-color: {{ block.settings.field_bg_color }};
+
+      {% assign r = block.settings.field_box_shadow_color | slice: 1, 2 | hex_to_dec %}
+      {% assign g = block.settings.field_box_shadow_color | slice: 3, 2 | hex_to_dec %}
+      {% assign b = block.settings.field_box_shadow_color | slice: 5, 2 | hex_to_dec %}
+      box-shadow: rgba({{ r }},{{ g }}, {{ b }}, 0.2) 0px 0px 10px 0px;
+		}
+    #form-part-{{ block.id }} input:not(:empty) {
+      background-color: {{ block.settings.field_bg_color_filled }};
+    }
+		#form-part-{{ block.id }} input:hover {
+			border-color: {{ block.settings.border_color_hover }};
+		}
+		#form-part-{{ block.id }} .field::before {
+			background-color: {{ block.settings.border_color_focus }};
+		}
+		#form-part-{{ block.id }} .field::after {
+			background-color: {{ block.settings.error_border_color }};
+		}
+	{%- endstyle -%}
+</div>

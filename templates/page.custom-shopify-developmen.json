@@ -1,0 +1,498 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "advertise_xMT9mA": {
+      "type": "advertise",
+      "settings": {
+        "main_image": "shopify://shop_images/seo-for-trades.webp",
+        "secondary_image": "shopify://shop_images/get-found-on-the-web-right.svg",
+        "secondary_image_roate_angle": 8,
+        "desktop_left": -90,
+        "desktop_top": -1,
+        "desktop_right": -1,
+        "desktop_bottom": 20,
+        "mobile_left": 0,
+        "mobile_top": -1,
+        "mobile_right": -1,
+        "mobile_bottom": -26,
+        "heading": "Build a Store That Sells",
+        "sub_heading": "Your Shopify store shouldn’t just look good—it should be built to convert.",
+        "text": "<p>At <strong>An Agency</strong>, we specialise in <strong>custom Shopify development</strong> tailored to your business, so your store isn’t just another template—it’s an <strong>eCommerce powerhouse</strong>.</p><p>We’re <strong>Shopify Partners and eCommerce store owners ourselves</strong>, so we know exactly what makes a store <strong>run smoothly, scale fast, and make more money.</strong></p><ul><li><strong>Custom-built Shopify stores—no cookie-cutter templates</strong></li><li><strong>Lightning-fast, mobile-friendly, and conversion-optimised</strong></li><li><strong>Seamless integrations with apps, payments, and automations</strong></li></ul>",
+        "button_link": "#",
+        "button_text": "Speak To Our Team",
+        "image_right": false,
+        "text_align": "left",
+        "background_color": "#ffffff",
+        "desktop_padding_top": 60,
+        "desktop_padding_bottom": 60,
+        "mobile_padding_top": 40,
+        "mobile_padding_bottom": 40
+      }
+    },
+    "phone_ring_MzFcJr": {
+      "type": "phone-ring",
+      "settings": {
+        "image": "shopify://shop_images/MTS-Incoming-Call_png.webp",
+        "heading_1": "Your Shopify Store,",
+        "heading_2": "Built for Growth",
+        "sub_heading": "A pretty website is great. A website that gets sales is even better.",
+        "text": "Custom themes & unique designs – No generic templates, just a store that reflects your brand. High-performance optimisation – Speed, SEO, and conversion tweaks that actually move the needle. Seamless integrations – Payments, shipping, email marketing, and automation set up the right way.",
+        "phone_button_text": "",
+        "phone_number": "",
+        "enquire_button_text": "[ See Our Work ]",
+        "enquire_button_link": "#",
+        "image_right": true,
+        "text_align": "left",
+        "desktop_padding_top": 100,
+        "desktop_padding_bottom": 100,
+        "mobile_padding_top": 60,
+        "mobile_padding_bottom": 40
+      }
+    },
+    "advertise_PAQGf7": {
+      "type": "advertise",
+      "settings": {
+        "main_image": "shopify://shop_images/website-design-and-dev-for-tradies.png",
+        "secondary_image": "shopify://shop_images/get-the-work-you-want.svg",
+        "secondary_image_roate_angle": -64,
+        "desktop_left": -80,
+        "desktop_top": -1,
+        "desktop_right": -1,
+        "desktop_bottom": 82,
+        "mobile_left": 0,
+        "mobile_top": -1,
+        "mobile_right": -1,
+        "mobile_bottom": -30,
+        "heading": "How We Build Your Shopify Store",
+        "sub_heading": "",
+        "text": "<h1>Step 1: Strategy & Planning</h1><p>We start by <strong>understanding your business, products, and customers</strong> so we can map out a <strong>high-converting</strong> store that works for your industry.</p><p></p>",
+        "button_link": "#",
+        "button_text": "",
+        "image_right": false,
+        "text_align": "left",
+        "background_color": "#f4f8ff",
+        "desktop_padding_top": 60,
+        "desktop_padding_bottom": 60,
+        "mobile_padding_top": 40,
+        "mobile_padding_bottom": 40
+      }
+    },
+    "advertise_DnFdqE": {
+      "type": "advertise",
+      "settings": {
+        "main_image": "shopify://shop_images/Web-Designs-for-trades.png",
+        "secondary_image_roate_angle": 12,
+        "desktop_left": -1,
+        "desktop_top": -1,
+        "desktop_right": -1,
+        "desktop_bottom": -1,
+        "mobile_left": -1,
+        "mobile_top": -1,
+        "mobile_right": -1,
+        "mobile_bottom": -1,
+        "heading": "Step 2: Design & Development",
+        "sub_heading": "",
+        "text": "<p>Our Shopify experts design a <strong>custom storefront</strong>, build it from scratch, and <strong>integrate all the tools you need</strong> to run your business smoothly.</p>",
+        "button_link": "",
+        "button_text": "",
+        "image_right": true,
+        "text_align": "left",
+        "background_color": "#f4f8ff",
+        "desktop_padding_top": 60,
+        "desktop_padding_bottom": 60,
+        "mobile_padding_top": 40,
+        "mobile_padding_bottom": 40
+      }
+    },
+    "advertise_JebRqW": {
+      "type": "advertise",
+      "settings": {
+        "main_image": "shopify://shop_images/email-marketing-for-tradies-edm.webp",
+        "secondary_image": "shopify://shop_images/get-new-customers.svg",
+        "secondary_image_roate_angle": -52,
+        "desktop_left": -1,
+        "desktop_top": 160,
+        "desktop_right": -90,
+        "desktop_bottom": -1,
+        "mobile_left": -1,
+        "mobile_top": -25,
+        "mobile_right": 0,
+        "mobile_bottom": -1,
+        "heading": "Step 3: Testing & Launch",
+        "sub_heading": "",
+        "text": "<p>Before going live, we <strong>test everything</strong>—speed, checkout flow, mobile responsiveness—so your Shopify store is <strong>ready to convert from day one.</strong></p>",
+        "button_link": "#",
+        "button_text": "[ Get Your Shopify Store Built → ]",
+        "image_right": false,
+        "text_align": "left",
+        "background_color": "#f4f8ff",
+        "desktop_padding_top": 60,
+        "desktop_padding_bottom": 60,
+        "mobile_padding_top": 40,
+        "mobile_padding_bottom": 40
+      }
+    },
+    "advertise_KLNL33": {
+      "type": "advertise",
+      "settings": {
+        "main_image": "shopify://shop_images/get-more-leads-for-your-trade.webp",
+        "secondary_image": "shopify://shop_images/this-could-be-you.svg",
+        "secondary_image_roate_angle": 8,
+        "desktop_left": -80,
+        "desktop_top": -1,
+        "desktop_right": -1,
+        "desktop_bottom": 82,
+        "mobile_left": 0,
+        "mobile_top": -1,
+        "mobile_right": -1,
+        "mobile_bottom": -30,
+        "heading": "What’s Included in Our Custom Shopify Builds?",
+        "sub_heading": "",
+        "text": "<p><strong>Custom Design & Development</strong><br/>We design a store that actually fits your brand and products, not just another Shopify template.</p><p><strong>Built for Speed & Conversions</strong><br/>Your site loads fast, ranks high, and sells more—because slow stores lose sales.</p><p><strong>Seamless Integrations</strong><br/>Payments, shipping, marketing, automation—everything works together seamlessly from day one.</p><p><strong>Scalable & Future-Proof</strong><br/>As your business grows, your Shopify store should too. We build with the future in mind.</p>",
+        "button_link": "#",
+        "button_text": "[ Get a Custom Shopify Store → ]",
+        "image_right": false,
+        "text_align": "left",
+        "background_color": "#ffffff",
+        "desktop_padding_top": 60,
+        "desktop_padding_bottom": 60,
+        "mobile_padding_top": 40,
+        "mobile_padding_bottom": 40
+      }
+    },
+    "advertise_qQYPyj": {
+      "type": "advertise",
+      "settings": {
+        "main_image": "shopify://shop_images/google-ads-for-tradies-australia.webp",
+        "secondary_image": "shopify://shop_images/google-ads-for-tradies-text.svg",
+        "secondary_image_roate_angle": 0,
+        "desktop_left": -1,
+        "desktop_top": 160,
+        "desktop_right": -90,
+        "desktop_bottom": -1,
+        "mobile_left": -1,
+        "mobile_top": -25,
+        "mobile_right": 0,
+        "mobile_bottom": -1,
+        "heading": "Why Work With An Agency?",
+        "sub_heading": "We make money making websites",
+        "text": "<p><strong>We know eCommerce.</strong> We run online stores ourselves, so we build Shopify stores that actually sell.<br/><br/><strong>No templates, no shortcuts.</strong> We custom-build your store for your brand and customers.<br/><br/><strong>We handle everything.</strong> From strategy to launch, we take care of the hard stuff so you can focus on your business.<br/><br/><strong>We’re Shopify Partners.</strong> That means we know Shopify inside out and have direct support when you need it.</p><p>💬 <em>“An Agency built us a Shopify store that tripled our sales in 6 months. If you’re serious about eCommerce, these are the guys you want.”</em> – <em>Happy Shopify Store Owner</em></p>",
+        "button_link": "#",
+        "button_text": "[Let’s Talk Shopify →]",
+        "image_right": true,
+        "text_align": "left",
+        "background_color": "#aeddf9",
+        "desktop_padding_top": 60,
+        "desktop_padding_bottom": 60,
+        "mobile_padding_top": 40,
+        "mobile_padding_bottom": 40
+      }
+    },
+    "trust_Q37M3R": {
+      "type": "trust",
+      "blocks": {
+        "trust_item_KtaqTQ": {
+          "type": "trust_item",
+          "settings": {
+            "heading": "Fashion & Apparel",
+            "main_text": "<p>High-converting product pages, seamless checkout.</p><p></p>",
+            "button_text": "",
+            "additional_text": "",
+            "accordion_image": "shopify://shop_images/yellow-arrow.svg"
+          }
+        },
+        "trust_item_YFytD9": {
+          "type": "trust_item",
+          "settings": {
+            "heading": "We get you, mate",
+            "main_text": "<p>Our website packages are built specifically for Aussie tradies. We know the industry, we know your market, and we know what makes customers pick up the phone.</p><p></p>",
+            "button_text": "Read More",
+            "additional_text": "<p>…Your best clients want to see a business that looks professional, with clear information and high-quality visuals. We make sure your website ticks all the right boxes. With decades of experience building sites for tradies, we know what works.</p>",
+            "accordion_image": "shopify://shop_images/yellow-arrow.svg"
+          }
+        },
+        "trust_item_JfVUzV": {
+          "type": "trust_item",
+          "settings": {
+            "heading": "100% Aussie",
+            "main_text": "<p>We’re proudly Australian-owned and operated, working exclusively with local businesses. We believe in keeping it local and supporting Aussie tradies.</p><p></p>",
+            "button_text": "Read More",
+            "additional_text": "<p>…An Agency handles everything—design, content, and site upkeep—so you don’t have to stress. Your website will be built specifically for your trade, industry, and the local market.</p><p>We’ll create a site that looks great, is easy to use, and is optimised to rank high in search results—so more customers find you and reach out for a quote.</p>",
+            "accordion_image": "shopify://shop_images/yellow-arrow.svg"
+          }
+        }
+      },
+      "block_order": [
+        "trust_item_KtaqTQ",
+        "trust_item_YFytD9",
+        "trust_item_JfVUzV"
+      ],
+      "disabled": true,
+      "settings": {
+        "heading": "Who’s This For?",
+        "text": "<p>Who’s This For?If you’re serious about growing your eCommerce business, you need a store that’s built right.</p>",
+        "trust_image": "shopify://shop_images/review-bar-green.svg",
+        "desktop_padding_top": 60,
+        "desktop_padding_bottom": 60,
+        "mobile_padding_top": 40,
+        "mobile_padding_bottom": 40
+      }
+    },
+    "tradies_D9qHzj": {
+      "type": "Tradies",
+      "blocks": {
+        "tradies_item_YQarCg": {
+          "type": "tradies-item",
+          "settings": {
+            "image": "shopify://shop_images/electrician-website.webp",
+            "detail_info_heading": "Fashion & Apparel",
+            "detail_info_text": "<p><strong>Fashion & Apparel</strong> – High-converting product pages, seamless checkout.<br/></p><p></p><p></p>",
+            "icon": "shopify://shop_images/yellow-arrow.svg",
+            "detail_button_link": "#",
+            "detail_button_text": "[See Our Shopify Stores →]"
+          }
+        },
+        "tradies_item_TMkHRR": {
+          "type": "tradies-item",
+          "settings": {
+            "image": "shopify://shop_images/plumbing-websites.webp",
+            "detail_info_heading": "Tech & Electronics",
+            "detail_info_text": "<p><strong>Tech & Electronics</strong> – Advanced filtering, payment flexibility, and custom integrations.<br/></p><p></p><p></p>",
+            "icon": "shopify://shop_images/yellow-arrow.svg",
+            "detail_button_link": "#",
+            "detail_button_text": "[See Our Shopify Stores →]"
+          }
+        },
+        "tradies_item_yT7wgX": {
+          "type": "tradies-item",
+          "settings": {
+            "image": "shopify://shop_images/carpenter-websites.webp",
+            "detail_info_heading": "Health & Wellness",
+            "detail_info_text": "<p><strong>Health & Wellness</strong> – Subscription models, trust-building design, and mobile-first UX.<br/></p><p></p><p></p>",
+            "icon": "shopify://shop_images/yellow-arrow.svg",
+            "detail_button_link": "#",
+            "detail_button_text": "[See Our Shopify Stores →]"
+          }
+        },
+        "tradies_item_X3Db9y": {
+          "type": "tradies-item",
+          "settings": {
+            "image": "shopify://shop_images/pest-control-website-development-1.webp",
+            "detail_info_heading": "Home & Lifestyle",
+            "detail_info_text": "<p><strong>Home & Lifestyle</strong> – Beautiful, fast, and easy-to-navigate stores that increase AOV.</p><p></p><p></p><p></p>",
+            "icon": "shopify://shop_images/yellow-arrow.svg",
+            "detail_button_link": "#",
+            "detail_button_text": "[See Our Shopify Stores →]"
+          }
+        },
+        "tradies_item_6qHYz4": {
+          "type": "tradies-item",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/cleaning-website-design.webp",
+            "detail_info_heading": "Cleaning",
+            "detail_info_text": "<p>Whether you’re running a commercial cleaning business or handling end-of-lease deep cleans, a strong website helps you get more bookings. We highlight your services, customer testimonials, and guarantees, with a simple contact system that makes it easy for clients to reach out and book a clean.</p><p></p><p></p>",
+            "icon": "shopify://shop_images/yellow-arrow.svg",
+            "detail_button_link": "#",
+            "detail_button_text": "Free Quote"
+          }
+        },
+        "tradies_item_tDB4YR": {
+          "type": "tradies-item",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/general-tradies-websites.webp",
+            "detail_info_heading": "All Other Tradies",
+            "detail_info_text": "<p>No matter your trade, we build websites that work for you. From builders and tilers to landscapers and painters, we design sites that show off your skills, bring in more work, and make booking you a no-brainer.</p><p></p><p></p>",
+            "icon": "shopify://shop_images/yellow-arrow.svg",
+            "detail_button_link": "#",
+            "detail_button_text": "Free Quote"
+          }
+        }
+      },
+      "block_order": [
+        "tradies_item_YQarCg",
+        "tradies_item_TMkHRR",
+        "tradies_item_yT7wgX",
+        "tradies_item_X3Db9y",
+        "tradies_item_6qHYz4",
+        "tradies_item_tDB4YR"
+      ],
+      "settings": {
+        "heading": "Who’s This For?",
+        "text": "If you’re serious about growing your eCommerce business, you need a store that’s built right.",
+        "desktop_padding_top": 60,
+        "desktop_padding_bottom": 60,
+        "mobile_padding_top": 40,
+        "mobile_padding_bottom": 40
+      }
+    },
+    "faq_cYAhKJ": {
+      "type": "faq",
+      "blocks": {
+        "faq_item_rrnAHz": {
+          "type": "faq_item",
+          "settings": {
+            "question": "How long does it take to build a Shopify store?",
+            "answer": "<p>We can have a fully custom Shopify store ready in as little as 4-6 weeks.</p><p></p>",
+            "icon": "shopify://shop_images/yellow-arrow.svg"
+          }
+        },
+        "faq_item_AdgFRX": {
+          "type": "faq_item",
+          "settings": {
+            "question": "Can I migrate from another platform?",
+            "answer": "<p>100%. We help businesses migrate from WooCommerce, Magento, BigCommerce, and custom-built sites.</p><p></p>",
+            "icon": "shopify://shop_images/yellow-arrow.svg"
+          }
+        },
+        "faq_item_E6VP9h": {
+          "type": "faq_item",
+          "settings": {
+            "question": "Will my store be mobile-friendly?",
+            "answer": "<p>Absolutely. Over 70% of online shopping happens on mobile—your store will be fully optimised.</p><p></p>",
+            "icon": "shopify://shop_images/yellow-arrow.svg"
+          }
+        },
+        "faq_item_akFz96": {
+          "type": "faq_item",
+          "settings": {
+            "question": "What if I need support after launch?",
+            "answer": "<p>We don’t just build your store and disappear. We offer ongoing support, optimisations, and growth strategies.</p>",
+            "icon": "shopify://shop_images/yellow-arrow.svg"
+          }
+        }
+      },
+      "block_order": [
+        "faq_item_rrnAHz",
+        "faq_item_AdgFRX",
+        "faq_item_E6VP9h",
+        "faq_item_akFz96"
+      ],
+      "settings": {
+        "heading": "Frequently Asked Questions",
+        "bg_color": "#f9f9f9",
+        "max_width": 684,
+        "desktop_padding_top": 60,
+        "desktop_padding_bottom": 60,
+        "mobile_padding_top": 40,
+        "mobile_padding_bottom": 40
+      }
+    },
+    "advertise_6VLxp7": {
+      "type": "advertise",
+      "settings": {
+        "main_image": "shopify://shop_images/google-ads-for-tradies-australia.webp",
+        "secondary_image": "shopify://shop_images/google-ads-for-tradies-text.svg",
+        "secondary_image_roate_angle": -52,
+        "desktop_left": -1,
+        "desktop_top": 160,
+        "desktop_right": -90,
+        "desktop_bottom": -1,
+        "mobile_left": -1,
+        "mobile_top": -25,
+        "mobile_right": 0,
+        "mobile_bottom": -1,
+        "heading": "Let’s Build a Shopify Store That Sells",
+        "sub_heading": "A high-converting, custom Shopify store is one of the best investments you can make in your business.",
+        "text": "<p>Let’s build it right the first time so you can scale without headaches.</p><p></p>",
+        "button_link": "#",
+        "button_text": "[Book a Free Chat →]",
+        "image_right": true,
+        "text_align": "left",
+        "background_color": "#aeddf9",
+        "desktop_padding_top": 60,
+        "desktop_padding_bottom": 60,
+        "mobile_padding_top": 40,
+        "mobile_padding_bottom": 40
+      }
+    },
+    "partner_with_U86NgH": {
+      "type": "partner-with",
+      "blocks": {
+        "partner_item_Am8rMX": {
+          "type": "partner_item",
+          "settings": {
+            "image": "shopify://shop_images/semrush-agency-partner.webp",
+            "link": "#"
+          }
+        },
+        "partner_item_gQr6pr": {
+          "type": "partner_item",
+          "settings": {
+            "image": "shopify://shop_images/Tradify.webp",
+            "link": ""
+          }
+        },
+        "partner_item_peizWL": {
+          "type": "partner_item",
+          "settings": {
+            "image": "shopify://shop_images/servicem8-partner.webp",
+            "link": ""
+          }
+        },
+        "partner_item_gizEVP": {
+          "type": "partner_item",
+          "settings": {
+            "image": "shopify://shop_images/evnex-partner.webp",
+            "link": ""
+          }
+        },
+        "partner_item_nMMzBY": {
+          "type": "partner_item",
+          "settings": {
+            "image": "shopify://shop_images/google-partner.webp",
+            "link": ""
+          }
+        },
+        "partner_item_ppj4Q9": {
+          "type": "partner_item",
+          "settings": {
+            "image": "shopify://shop_images/meta-for-business-partner.webp",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "partner_item_Am8rMX",
+        "partner_item_gQr6pr",
+        "partner_item_peizWL",
+        "partner_item_gizEVP",
+        "partner_item_nMMzBY",
+        "partner_item_ppj4Q9"
+      ],
+      "settings": {
+        "heading": "Partnered With",
+        "bg_color": "#fbfbfb",
+        "desktop_card_border_radius": 10,
+        "mobile_card_border_radius": 6,
+        "desktop_padding_top": 30,
+        "desktop_padding_bottom": 30,
+        "mobile_padding_top": 30,
+        "mobile_padding_bottom": 30
+      }
+    }
+  },
+  "order": [
+    "advertise_xMT9mA",
+    "phone_ring_MzFcJr",
+    "advertise_PAQGf7",
+    "advertise_DnFdqE",
+    "advertise_JebRqW",
+    "advertise_KLNL33",
+    "advertise_qQYPyj",
+    "trust_Q37M3R",
+    "tradies_D9qHzj",
+    "faq_cYAhKJ",
+    "advertise_6VLxp7",
+    "partner_with_U86NgH"
+  ]
+}

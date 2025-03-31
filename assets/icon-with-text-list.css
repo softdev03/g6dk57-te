@@ -1,0 +1,91 @@
+.shopify-section-iwt-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 40px;
+}
+
+.shopify-section-iwt-list .heading {
+  font-size: 32px;
+  line-height: 1.2;
+  margin: 0px;
+  text-align: center;
+}
+
+.shopify-section-iwt-list .icon-with-text-list {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 15px;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.shopify-section-iwt-list .icon-with-text-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.shopify-section-iwt-list .icon-with-text-item .icon {
+  width: 40px;
+  line-height: 0;
+}
+.shopify-section-iwt-list .icon-with-text-item .icon img {
+  max-width: 240px;
+}
+
+.shopify-section-iwt-list .icon-with-text-item:has(.text-content:empty) .icon {
+  min-width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.shopify-section-iwt-list .icon-with-text-item .text-content {
+  width: calc(100% - 55px);
+}
+
+.shopify-section-iwt-list .icon-with-text-item:not(:has(.icon)) .text-content {
+  width: 100%;
+}
+.shopify-section-iwt-list .text-content {
+  font-size: inherit;
+  line-height: 1.2;
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+.shopify-section-iwt-list .text-content * {
+  font-size: inherit;
+  line-height: inherit;
+  margin: 0px;
+}
+
+@media screen and (min-width: 750px) {
+  .shopify-section--iwt-list:has(.shopify-section-iwt-list:not(.desktop)) {
+    display: none;
+  }
+}
+@media screen and (max-width: 749px) {
+  .shopify-section-iwt-list {
+    row-gap: 30px;
+  }
+  .shopify-section--iwt-list:has(.shopify-section-iwt-list:not(.mobile)) {
+    display: none;
+  }
+  .shopify-section-iwt-list .heading  {
+    font-size: 24px;
+  }
+}
+@media screen and (max-width: 512px) {
+  .shopify-section-iwt-list .icon-with-text-item {
+    justify-content: center;
+    column-gap: 15px;
+  }
+  .shopify-section-iwt-list .icon-with-text-item .icon {
+    width: 30px;
+  }
+  .shopify-section-iwt-list .icon-with-text-item .text-content {
+    width: fit-content;
+    text-align: center;
+  }
+}
