@@ -57,6 +57,9 @@ document.addEventListener('DOMContentLoaded',()=>{
 							isFind = false;
 							break;
 						}
+					} else {
+						isFind = false;
+						break;
 					}
 				}
 				if(!isFind) {
