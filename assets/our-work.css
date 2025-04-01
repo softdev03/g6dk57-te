@@ -1,0 +1,226 @@
+.shopify-section-our-work .heading {
+	font-size: 30px;
+	margin-top: 0px;
+	margin-bottom: 20px;
+	width: calc((100% - 40px)* 0.75);
+}
+
+.shopify-section-our-work .description {
+	margin-top: 0px;
+	font-size: 16px;
+	line-height: 1.2;
+	margin-bottom: 50px;
+	width: calc((100% - 40px)* 0.75);
+}
+
+.shopify-section-our-work .main-content {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	row-gap: 40px;
+}
+
+.shopify-section-our-work .card-list {
+	width: calc((100% - 40px)* 0.75);
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	row-gap: 20px;
+	height: fit-content;
+}
+
+.shopify-section-our-work .card-item {
+	width: calc(50% - 15px);
+	display: flex;
+	flex-direction: column;
+	overflow: hidden;
+}
+.shopify-section-our-work .card-item.hidden {
+	display: none;
+}
+
+.shopify-section-our-work .card-item .image {
+	display: block;
+	line-height: 0;
+	min-height: 200px;
+}
+
+.shopify-section-our-work .card-item .image img {
+	height: 100%;
+	object-fit: cover;
+}
+
+.shopify-section-our-work .card-text-content {
+	display: flex;
+	flex-direction: column;
+	row-gap: 20px;
+	padding: 20px;
+	flex: 1;
+}
+
+.shopify-section-our-work .card-heading {
+	margin: 0px;
+	font-size: 20px;
+}
+
+.shopify-section-our-work .card-description {
+	margin: 0px;
+	font-size: 15px;
+	line-height: 1.5;
+}
+
+.shopify-section-our-work .card-link {
+	display: flex;
+	align-items: center;
+	text-decoration: none;
+	justify-content: space-between;
+	padding: 20px;
+}
+
+.shopify-section-our-work .card-link svg {
+	width: 15px;
+	fill: currentColor;
+}
+
+.shopify-section-our-work .filter-and-banner {
+	width: calc((100% - 40px)* 0.25);
+	display: flex;
+	flex-direction: column;
+	row-gap: 30px;
+}
+
+.shopify-section-our-work .filter-list:not(:last-child) {
+	padding-bottom: 30px;
+	border-bottom: 1px solid transparent;
+}
+
+.shopify-section-our-work .filter-list:not(:first-of-type) {
+	padding-top: 30px;
+}
+
+.shopify-section-our-work .filter-items {
+	padding: 30px 20px;
+}
+
+.shopify-section-our-work .filter-heading {
+	font-family: Caveat, sans-serif;
+	font-size: 26px;
+	margin-top: 0px;
+	line-height: 1.2;
+	margin-bottom: 20px;
+}
+
+.shopify-section-our-work .filter-sub-heading {
+	margin-top: 0px;
+	margin-bottom: 15px;
+	font-size: 16px;
+}
+
+.shopify-section-our-work .filter-item {
+	font-size: 14px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 5px 5px 5px 15px;
+	cursor: pointer;
+}
+
+.shopify-section-our-work .filter-item:hover .icon img:first-child {
+	display: none;
+}
+
+.shopify-section-our-work .filter-item:hover .icon img:last-child {
+	display: block;
+}
+
+.shopify-section-our-work .filter-item:not(:last-child) {
+	margin-bottom: 10px;
+}
+
+.shopify-section-our-work .filter-item.selected .icon img:last-child {
+	display: block;
+}
+
+.shopify-section-our-work .filter-item.selected .icon img:first-child {
+	display: none;
+}
+
+.shopify-section-our-work .filter-item .icon {
+	line-height: 0px;
+}
+
+.shopify-section-our-work .filter-item .icon img:last-child {
+	display: none;
+}
+
+.shopify-section-our-work .banner {
+	padding: 20px;
+	text-align: center;
+	position: sticky;
+	top: 80px;
+}
+.shopify-section-our-work .banner-heading {
+	margin: 0px;
+	font-size: 24px;
+}
+
+.shopify-section-our-work .banner .image {
+	line-height: 0;
+	margin-bottom: 20px;
+}
+
+.shopify-section-our-work .banner-description {
+	font-size: 16px;
+	line-height: 1.4;
+	margin-top: 0px;
+	margin-bottom: 30px;
+}
+
+.shopify-section-our-work .banner-link {
+	text-decoration: none;
+	font-size: 18px;
+	width: 100%;
+	display: block;
+	padding: 10px;
+	margin-bottom: 30px;
+}
+
+.shopify-section-our-work .banner-secondary-description {
+	font-size: 16px;
+	line-height: 1;
+	margin: 0px;
+}
+
+@media screen and (max-width: 1149px) {
+	.shopify-section-our-work .heading {
+		width: 100%;
+	}
+
+	.shopify-section-our-work .description {
+		width: 100%;
+	}
+
+	.shopify-section-our-work .card-list {
+		width: 100%;
+	}
+
+	.shopify-section-our-work .filter-and-banner {
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 749px) {
+	.shopify-section-our-work .card-item {
+		width: 100%;
+	}
+	.shopify-section-our-work .card-text-content {
+		row-gap: 10px;
+    padding: 15px;
+	}
+	.shopify-section-our-work .card-link {
+		padding: 10px;
+	}
+	.shopify-section-our-work .banner-heading {
+		letter-spacing: -0.6px;
+	}
+}

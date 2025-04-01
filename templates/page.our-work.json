@@ -1,0 +1,515 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "our_work_4ryhKN": {
+      "type": "our-work",
+      "blocks": {
+        "card_Wjrcep": {
+          "type": "card",
+          "settings": {
+            "card_image": "shopify://shop_images/Gold-Coast-Air-and-Electrical-700x394.webp",
+            "heading": "Gold Coast Air and Electrical",
+            "description": "A comprehensive website redesign and development project revitalised Gold Coast Air & Electrical’s ...",
+            "card_button_link": "#",
+            "card_button_text": "See What We Did",
+            "industry_keyword": "Security|Mechanic",
+            "service_keyword": "Website Design"
+          }
+        },
+        "card_RDrxPx": {
+          "type": "card",
+          "settings": {
+            "card_image": "shopify://shop_images/iGroup-700x394.webp",
+            "heading": "iGroup Services",
+            "description": "A comprehensive website redesign and branding initiative elevated iGroup Services' digital ...",
+            "card_button_link": "#",
+            "card_button_text": "See What We Did",
+            "industry_keyword": "Mould Removal",
+            "service_keyword": "SEO"
+          }
+        },
+        "card_wqnjrJ": {
+          "type": "card",
+          "settings": {
+            "card_image": "shopify://shop_images/iGuard-Australia-700x394.webp",
+            "heading": "iGuard Australia",
+            "description": "A strategic website redesign and development project transformed iGuard Australia’s digital ...",
+            "card_button_link": "#",
+            "card_button_text": "See What We Did",
+            "industry_keyword": "Mould Removal",
+            "service_keyword": "Print Solutions|B2B Marketing"
+          }
+        },
+        "card_bQQDHc": {
+          "type": "card",
+          "settings": {
+            "card_image": "shopify://shop_images/Vanguard-Automotive-700x394.webp",
+            "heading": "Vanguard Automotive",
+            "description": "A comprehensive rebranding and digital marketing strategy transformed Vanguard Automotive from ...",
+            "card_button_link": "#",
+            "card_button_text": "See What We Did",
+            "industry_keyword": "Electrical",
+            "service_keyword": "Paid Ads"
+          }
+        },
+        "card_rpGnAM": {
+          "type": "card",
+          "settings": {
+            "card_image": "shopify://shop_images/Wet2Dry-700x394.webp",
+            "heading": "Wet2Dry",
+            "description": "A comprehensive branding and digital marketing strategy transformed Wet2Dry from a startup into a ...",
+            "card_button_link": "#",
+            "card_button_text": "See What We Did",
+            "industry_keyword": "Plumbing",
+            "service_keyword": "Branding Services"
+          }
+        },
+        "card_De6xPE": {
+          "type": "card",
+          "settings": {
+            "card_image": "shopify://shop_images/Project-Plus-700x394.webp",
+            "heading": "Project Plus",
+            "description": "A comprehensive rebranding and digital marketing strategy revitalised Project Plus' online",
+            "card_button_link": "#",
+            "card_button_text": "See What We Did",
+            "industry_keyword": "Mould Removal",
+            "service_keyword": "Branding Services"
+          }
+        },
+        "card_NpT6xx": {
+          "type": "card",
+          "settings": {
+            "card_image": "shopify://shop_images/Moritz-Electrical-700x394.webp",
+            "heading": "Moritz Electrical",
+            "description": "A comprehensive rebranding and digital marketing strategy transformed Moritz Electrical's online ...",
+            "card_button_link": "#",
+            "card_button_text": "See What We Did",
+            "industry_keyword": "Mould Removal",
+            "service_keyword": "Capability Statement"
+          }
+        },
+        "card_rigTW9": {
+          "type": "card",
+          "settings": {
+            "card_image": "shopify://shop_images/McSweeney-Electrical-1-700x394.webp",
+            "heading": "McSweeney Electrical",
+            "description": "Through a comprehensive digital transformation, including branding, a website redesign, local ...",
+            "card_button_link": "#",
+            "card_button_text": "See What We Did",
+            "industry_keyword": "",
+            "service_keyword": "Print Solutions"
+          }
+        },
+        "card_tzaUwK": {
+          "type": "card",
+          "settings": {
+            "card_image": "shopify://shop_images/Australian-Electrical-Industries-1-700x394.webp",
+            "heading": "Australian Electrical Industries",
+            "description": "A strategic website redesign and SEO optimisation elevated Australian Electrical Industries' digital ...",
+            "card_button_link": "#",
+            "card_button_text": "See What We Did",
+            "industry_keyword": "Electrical",
+            "service_keyword": "SEO"
+          }
+        },
+        "card_wUUCHB": {
+          "type": "card",
+          "settings": {
+            "card_image": "shopify://shop_images/Local-Installers-700x394.webp",
+            "heading": "Local Installers",
+            "description": "Tradiemate collaborated with Local Installers from their startup phase, building a comprehensive brand ...",
+            "card_button_link": "#",
+            "card_button_text": "See What We Did",
+            "industry_keyword": "",
+            "service_keyword": "Stationary Pack|Capability Statement"
+          }
+        },
+        "card_cHPgpR": {
+          "type": "card",
+          "settings": {
+            "card_image": "shopify://shop_images/Albright-Electrics-tradiemate-700x394.webp",
+            "heading": "Albright Electrics",
+            "description": "Comprehensive branding and digital marketing strategies transformed Albright Electrics’ online ...",
+            "card_button_link": "#",
+            "card_button_text": "See What We Did",
+            "industry_keyword": "",
+            "service_keyword": "Print Solutions"
+          }
+        },
+        "card_QehPCL": {
+          "type": "card",
+          "settings": {
+            "card_image": "shopify://shop_images/Around-Town-Plumbing-tradiemate-700x394.webp",
+            "heading": "Around Town Plumbing",
+            "description": "Comprehensive branding and digital marketing strategies revitalised Around Town Plumbing’s ...",
+            "card_button_link": "#",
+            "card_button_text": "See What We Did",
+            "industry_keyword": "Construction Support",
+            "service_keyword": "General Marketing"
+          }
+        },
+        "card_Jr9qtN": {
+          "type": "card",
+          "settings": {
+            "card_image": "shopify://shop_images/GJH-Electrical-700x394.webp",
+            "heading": "GJH Electrical",
+            "description": "Our approach led to a significant increase in leads, higher conversion rates, and enhanced brand visibility ...",
+            "card_button_link": "#",
+            "card_button_text": "See What We Did",
+            "industry_keyword": "",
+            "service_keyword": "Paid Ads"
+          }
+        },
+        "card_ebWdAR": {
+          "type": "card",
+          "settings": {
+            "card_image": "shopify://shop_images/Pool-Safety-Pros-1-700x394.webp",
+            "heading": "Pool Safety Pros",
+            "description": "Pool Safety Pros, a startup in Sydney specialising in pool and spa safety inspections, partnered with Tradiemate ...",
+            "card_button_link": "#",
+            "card_button_text": "See What We Did",
+            "industry_keyword": "Plumbing|Security",
+            "service_keyword": "Lead Generation"
+          }
+        },
+        "card_Q9kyzc": {
+          "type": "card",
+          "settings": {
+            "card_image": "shopify://shop_images/Rival-Energy-700x394.webp",
+            "heading": "Rival Energy",
+            "description": "See how we helped Rival Energy leverage their experience to be seen as an expert in their trade while ...",
+            "card_button_link": "#",
+            "card_button_text": "See What We Did",
+            "industry_keyword": "Mould Removal|Pool Safety",
+            "service_keyword": "Branding Services"
+          }
+        },
+        "card_HKwn7H": {
+          "type": "card",
+          "settings": {
+            "card_image": "shopify://shop_images/Cameras-OnSite-700x394.webp",
+            "heading": "Cameras On Site",
+            "description": "See how we helped Cameras On Site grow from Startup to National Brand in Less than 6 Months.",
+            "card_button_link": "#",
+            "card_button_text": "See What We Did",
+            "industry_keyword": "Electrical",
+            "service_keyword": "Branding Services|Stationary Pack"
+          }
+        },
+        "filter_item_6PTddn": {
+          "type": "filter_item",
+          "settings": {
+            "type": "industry",
+            "all_items": true,
+            "keyword": "",
+            "label": "View All"
+          }
+        },
+        "filter_item_Tqyi74": {
+          "type": "filter_item",
+          "settings": {
+            "type": "industry",
+            "all_items": false,
+            "keyword": "Construction Support",
+            "label": "Construction Support"
+          }
+        },
+        "filter_item_zLzg3t": {
+          "type": "filter_item",
+          "settings": {
+            "type": "industry",
+            "all_items": false,
+            "keyword": "Electrical",
+            "label": "Electrical"
+          }
+        },
+        "filter_item_TBPyHe": {
+          "type": "filter_item",
+          "settings": {
+            "type": "industry",
+            "all_items": false,
+            "keyword": "Mechanic",
+            "label": "Mechanic"
+          }
+        },
+        "filter_item_gDxhfw": {
+          "type": "filter_item",
+          "settings": {
+            "type": "industry",
+            "all_items": false,
+            "keyword": "Mould Removal",
+            "label": "Mould Removal"
+          }
+        },
+        "filter_item_Kz9bar": {
+          "type": "filter_item",
+          "settings": {
+            "type": "industry",
+            "all_items": false,
+            "keyword": "Plumbing",
+            "label": "Plumbing"
+          }
+        },
+        "filter_item_FhtFUE": {
+          "type": "filter_item",
+          "settings": {
+            "type": "industry",
+            "all_items": false,
+            "keyword": "Pool Safety",
+            "label": "Pool Safety"
+          }
+        },
+        "filter_item_kVnVG7": {
+          "type": "filter_item",
+          "settings": {
+            "type": "industry",
+            "all_items": false,
+            "keyword": "Security",
+            "label": "Security"
+          }
+        },
+        "filter_item_Xwdib7": {
+          "type": "filter_item",
+          "settings": {
+            "type": "service",
+            "all_items": true,
+            "keyword": "",
+            "label": "View All"
+          }
+        },
+        "filter_item_VkGkEh": {
+          "type": "filter_item",
+          "settings": {
+            "type": "service",
+            "all_items": false,
+            "keyword": "B2B Marketing",
+            "label": "B2B Marketing"
+          }
+        },
+        "filter_item_iqLkcB": {
+          "type": "filter_item",
+          "settings": {
+            "type": "service",
+            "all_items": false,
+            "keyword": "Branding Services",
+            "label": "Branding Services"
+          }
+        },
+        "filter_item_fXa749": {
+          "type": "filter_item",
+          "settings": {
+            "type": "service",
+            "all_items": false,
+            "keyword": "Capability Statement",
+            "label": "Capability Statement"
+          }
+        },
+        "filter_item_VKBHLa": {
+          "type": "filter_item",
+          "settings": {
+            "type": "service",
+            "all_items": false,
+            "keyword": "Email Marketing",
+            "label": "Email Marketing"
+          }
+        },
+        "filter_item_PGYnaQ": {
+          "type": "filter_item",
+          "settings": {
+            "type": "service",
+            "all_items": false,
+            "keyword": "General Marketing",
+            "label": "General Marketing"
+          }
+        },
+        "filter_item_964pQc": {
+          "type": "filter_item",
+          "settings": {
+            "type": "service",
+            "all_items": false,
+            "keyword": "Lead Generation",
+            "label": "Lead Generation"
+          }
+        },
+        "filter_item_tDk3Kh": {
+          "type": "filter_item",
+          "settings": {
+            "type": "service",
+            "all_items": false,
+            "keyword": "Logo",
+            "label": "Logo"
+          }
+        },
+        "filter_item_xYLirE": {
+          "type": "filter_item",
+          "settings": {
+            "type": "service",
+            "all_items": false,
+            "keyword": "Other",
+            "label": "Other"
+          }
+        },
+        "filter_item_LPTKAa": {
+          "type": "filter_item",
+          "settings": {
+            "type": "service",
+            "all_items": false,
+            "keyword": "Paid Ads",
+            "label": "Paid Ads"
+          }
+        },
+        "filter_item_qGMC7R": {
+          "type": "filter_item",
+          "settings": {
+            "type": "service",
+            "all_items": false,
+            "keyword": "Print Solutions",
+            "label": "Print Solutions"
+          }
+        },
+        "filter_item_WQ8wez": {
+          "type": "filter_item",
+          "settings": {
+            "type": "service",
+            "all_items": false,
+            "keyword": "SEO",
+            "label": "SEO"
+          }
+        },
+        "filter_item_gxkYMT": {
+          "type": "filter_item",
+          "settings": {
+            "type": "service",
+            "all_items": false,
+            "keyword": "Stationary Pack",
+            "label": "Stationary Pack"
+          }
+        },
+        "filter_item_rK3FHn": {
+          "type": "filter_item",
+          "settings": {
+            "type": "service",
+            "all_items": false,
+            "keyword": "Website Design",
+            "label": "Website Design"
+          }
+        }
+      },
+      "block_order": [
+        "card_Wjrcep",
+        "card_RDrxPx",
+        "card_wqnjrJ",
+        "card_bQQDHc",
+        "card_rpGnAM",
+        "card_De6xPE",
+        "card_NpT6xx",
+        "card_rigTW9",
+        "card_tzaUwK",
+        "card_wUUCHB",
+        "card_cHPgpR",
+        "card_QehPCL",
+        "card_Jr9qtN",
+        "card_ebWdAR",
+        "card_Q9kyzc",
+        "card_HKwn7H",
+        "filter_item_6PTddn",
+        "filter_item_Tqyi74",
+        "filter_item_zLzg3t",
+        "filter_item_TBPyHe",
+        "filter_item_gDxhfw",
+        "filter_item_Kz9bar",
+        "filter_item_FhtFUE",
+        "filter_item_kVnVG7",
+        "filter_item_Xwdib7",
+        "filter_item_VkGkEh",
+        "filter_item_iqLkcB",
+        "filter_item_fXa749",
+        "filter_item_VKBHLa",
+        "filter_item_PGYnaQ",
+        "filter_item_964pQc",
+        "filter_item_tDk3Kh",
+        "filter_item_xYLirE",
+        "filter_item_LPTKAa",
+        "filter_item_qGMC7R",
+        "filter_item_WQ8wez",
+        "filter_item_gxkYMT",
+        "filter_item_rK3FHn"
+      ],
+      "settings": {
+        "bg_color": "#f9f9f9",
+        "heading": "Our Case Studies",
+        "heading_color": "#0b0a33",
+        "description": "From increasing online visibility to driving high-quality leads, our work speaks for itself. Dive into our case studies to discover how Tradiemate has helped tradies across Australia achieve their business goals. ",
+        "description_color": "#0b0a33",
+        "filter_bg_color": "#ffffff",
+        "filter_box_shadow_color": "#000000",
+        "filter_border_radius": 6,
+        "filter_heading": "What are you interested in?",
+        "filter_heading_color": "#0b0a33",
+        "filter_sub_heading1": "Industry",
+        "filter_sub_heading2": "Service",
+        "filter_sub_heading_color": "#000000",
+        "filter_split_border_color": "#d6d6d6",
+        "filter_item_bg_color": "#ffffff",
+        "filter_item_color": "#000000",
+        "filter_item_border_color": "#000000",
+        "filter_item_bg_color_hover": "#000000",
+        "filter_item_color_hover": "#ffffff",
+        "filter_item_border_color_hover": "#000000",
+        "filter_item_bg_color_selected": "#ffffff",
+        "filter_item_color_selected": "#000000",
+        "filter_item_border_color_selected": "#000000",
+        "filter_item_border_radius": 100,
+        "filter_item_selected_image": "shopify://shop_images/filter-checked.svg",
+        "filter_item_image": "shopify://shop_images/filter-unchecked.svg",
+        "banner_bg_color": "#feda15",
+        "banner_box_shadow_color": "#000000",
+        "banner_border_radius": 6,
+        "banner_heading": "Websites, Branding& Marketing",
+        "banner_description": "We help tradies get online, drive more sales, and get better rates for their services.",
+        "banenr_secondary_description": "100% Australian",
+        "banner_text_color": "#0b0a33",
+        "banner_image": "shopify://shop_images/for-tradies.svg",
+        "banner_button_text": "Get a Free Quote",
+        "banner_button_link": "shopify://pages/contact",
+        "banner_button_bg_color": "#000000",
+        "banner_button_text_color": "#ffffff",
+        "banner_button_bg_color_hover": "#000000",
+        "banner_button_text_color_hover": "#feda15",
+        "banner_button_border_radius": 3,
+        "card_bg_color": "#ffffff",
+        "card_box_shadow_color": "#000000",
+        "card_text_color": "#000000",
+        "card_border_radius": 8,
+        "card_button_bg_color": "#ededed",
+        "card_button_text_color": "#000000",
+        "card_button_bg_color_hover": "#000000",
+        "card_button_text_color_hover": "#ffffff",
+        "desktop_padding_top": 100,
+        "desktop_padding_bottom": 80,
+        "mobile_padding_top": 70,
+        "mobile_padding_bottom": 60
+      }
+    }
+  },
+  "order": [
+    "main",
+    "our_work_4ryhKN"
+  ]
+}

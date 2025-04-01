@@ -1,0 +1,601 @@
+{{ 'our-work.css' | asset_url | stylesheet_tag }}
+{%- style -%}
+  #shopify-section-{{ section.id }} {
+    padding-top: {{ section.settings.desktop_padding_top }}px;
+    padding-bottom: {{ section.settings.desktop_padding_bottom }}px;
+  	background-color: {{ section.settings.bg_color }};
+  }
+	#shopify-section-{{ section.id }} .card-item {
+		{%  assign rgb = section.settings.card_box_shadow_color |  color_to_rgb |  remove: 'rgb(' |  remove: ')'   %}
+		border-radius: {{ section.settings.card_border_radius }}px;
+		background-color: {{ section.settings.card_bg_color }};
+		box-shadow: 0px 0px 12px 0px rgba({{ rgb }}, 0.14);
+		color: {{ section.settings.card_text_color }};
+	}
+	#shopify-section-{{ section.id }} .card-link {
+		background-color: {{ section.settings.card_button_bg_color }};
+		color: {{ section.settings.card_button_text_color }};
+	}
+	#shopify-section-{{ section.id }} .card-link:hover {
+		background-color: {{ section.settings.card_button_bg_color_hover }};
+		color: {{ section.settings.card_button_text_color_hover }};
+	}
+  #shopify-section-{{ section.id }} .filter-items {
+    {%- assign rgb = section.settings.filter_box_shadow_color |  color_to_rgb |  remove: 'rgb(' | remove: ')' -%}
+    box-shadow: 0px 0px 66px 0px rgba({{ rgb }}, 0.14);
+    background-color: {{ section.settings.filter_bg_color }};
+    border-radius: {{ section.settings.filter_border_radius }}px;
+  }
+  #shopify-section-{{ section.id }} .filter-sub-heading {
+    color: {{ section.settings.filter_sub_heading_color }};
+  }
+  #shopify-section-{{ section.id }} .filter-list:not(:last-child) {
+    border-color: {{ section.settings.filter_split_border_color }};
+  }
+  #shopify-section-{{ section.id }} .filter-item {
+    color: {{ section.settings.filter_item_color }};
+    background-color: {{ section.settings.filter_item_bg_color }};
+    border: 1px solid {{ section.settings.filter_item_border_color }};
+    border-radius: {{ section.settings.filter_item_border_radius }}px;
+  }
+  #shopify-section-{{ section.id }} .filter-item:hover {
+    color: {{ section.settings.filter_item_color_hover }};
+    background-color: {{ section.settings.filter_item_bg_color_hover }};
+    border-color: {{ section.settings.filter_item_border_color_hover }};
+  }
+  #shopify-section-{{ section.id }} .filter-item.selected {
+    color: {{ section.settings.filter_item_color_selected }};
+    background-color: {{ section.settings.filter_item_bg_color_selected }};
+    border-color: {{ section.settings.filter_item_border_color_selected }};
+  }
+  #shopify-section-{{ section.id }} .banner {
+    background-color: {{ section.settings.banner_bg_color }};
+    border-radius: {{ section.settings.banner_border_radius }}px;
+    color: {{ section.settings.banner_text_color }};
+    {%- assign rgb = section.settings.banner_box_shadow_color |  color_to_rgb |  remove: 'rgb(' |  remove: ')' -%}
+    box-shadow: 0px 0px 66px 0px rgba({{ rgb }}, 0.14);
+  }
+  #shopify-section-{{ section.id }} .banner-link {
+    background-color: {{ section.settings.banner_button_bg_color }};
+    color: {{ section.settings.banner_button_text_color }};
+    border-radius: {{ section.settings.banner_button_border_radius }}px;
+  }
+  #shopify-section-{{ section.id }} .banner-link:hover {
+    background-color: {{ section.settings.banner_button_bg_color_hover }};
+    color: {{ section.settings.banner_button_text_color_hover }};
+  }
+  @media screen and (max-width: 749px) {
+      #shopify-section-{{ section.id }} {
+        padding-top: {{ section.settings.mobile_padding_top }}px;
+        padding-bottom: {{ section.settings.mobile_padding_bottom }}px;
+      }
+  }
+{%- endstyle -%}
+<div class="shopify-section-our-work page-width">
+	{% if section.settings.heading != blank %}
+		<h1 class="heading" style="color: {{ section.settings.heading_color }}">{{ section.settings.heading }}</h1>
+	{% endif %}
+	{% if section.settings.description != blank %}
+		<p class="description" style="color: {{ section.settings.description_color }}">{{ section.settings.description }}</p>
+	{% endif %}
+	<div class="main-content">
+		<div class="card-list">
+			{%- assign cards = section.blocks |  where: 'type', 'card' -%}
+			{%- for block in cards -%}
+				<div class="card-item" industry="{{ block.settings.industry_keyword }}" service="{{ block.settings.service_keyword }}">
+					{%- if block.settings.card_image != blank -%}
+						<a class="image" href="{{ block.settings.card_button_link }}">
+							<img src="{{ block.settings.card_image |  img_url: '750x' }}" alt="" width="500px" height="auto">
+						</a>
+					{%- endif -%}
+					<div class="card-text-content">
+						{%- if block.settings.heading != blank -%}
+							<h2 class="card-heading">{{ block.settings.heading }}</h2>
+						{%- endif -%}
+						{%- if block.settings.description != blank -%}
+							<p class="card-description">{{ block.settings.description }}</p>
+						{%- endif -%}
+					</div>
+					{%- if block.settings.card_button_link != blank and block.settings.card_button_text != blank -%}
+						<a href="{{ block.settings.card_button_link }}" class="card-link">{{ block.settings.card_button_text }} {{ 'icon-right-arrow.svg' | inline_asset_content }}</a>
+					{%- endif -%}
+				</div>
+			{%- endfor -%}
+		</div>
+		<div class="filter-and-banner">
+			<div class="filter-items">
+				<h2 class="filter-heading" style="color: {{ section.settings.filter_heading_color |  default : '#000' }}">{{ section.settings.filter_heading }}</h2>
+				{%- assign filterBlocks = section.blocks |  where: 'type', 'filter_item' |  map: 'settings' -%}
+				{%- assign industryBlocks = filterBlocks |  where : 'type' , 'industry' -%}
+				{%- assign serviceBlocks = filterBlocks |  where : 'type' , 'service' -%}
+				{%- if industryBlocks.size > 0 -%}
+					<div class="filter-list">
+						<h3 class="filter-sub-heading">{{ section.settings.filter_sub_heading1 }}</h3>
+						{%- for block in industryBlocks -%}
+							<div class="filter-item {% if block.all_items %} all-items selected {% endif %}" keyword="{{ block.keyword }}" type="{{ block.type }}">
+								<span>{{ block.label }}</span>
+								<div class="icon">
+									<img src="{{ section.settings.filter_item_image |  img_url: '40x' }}" alt="" width="40px" height="auto">
+									<img src="{{ section.settings.filter_item_selected_image |  img_url: '40x' }}" alt="" width="40px" height="auto">
+								</div>
+							</div>
+						{%- endfor -%}
+					</div>
+				{%- endif -%}
+				{%- if serviceBlocks.size > 0 -%}
+					<div class="filter-list">
+						<h3 class="filter-sub-heading">{{ section.settings.filter_sub_heading2 }}</h3>
+						{%- for block in serviceBlocks -%}
+							<div class="filter-item {% if block.all_items %} all-items selected {% endif %}" keyword="{{ block.keyword }}" type="{{ block.type }}">
+								<span>{{ block.label }}</span>
+								<div class="icon">
+									<img src="{{ section.settings.filter_item_image |  img_url: '40x' }}" alt="" width="40px" height="auto">
+									<img src="{{ section.settings.filter_item_selected_image |  img_url: '40x' }}" alt="" width="40px" height="auto">
+								</div>
+							</div>
+						{%- endfor -%}
+					</div>
+				{%- endif -%}
+			</div>
+			<div class="banner">
+				{%- if section.settings.banner_heading != blank -%}
+					<h2 class="banner-heading">{{ section.settings.banner_heading }}</h2>
+				{%- endif -%}
+				{%- if section.settings.banner_image != blank -%}
+					<div class="image">
+						<img src="{{ section.settings.banner_image |  img_url: '400x' }}" alt="" width="400px" height="auto">
+					</div>
+				{%- endif -%}
+				{%- if section.settings.banner_description != blank -%}
+					<p class="banner-description">{{ section.settings.banner_description }}</p>
+				{%- endif -%}
+				{%- if section.settings.banner_button_link != blank and section.settings.banner_button_text != blank -%}
+					<a href="{{ section.settings.banner_button_link }}" class="banner-link">{{ section.settings.banner_button_text }}</a>
+				{%- endif -%}
+				{%- if section.settings.banenr_secondary_description != blank -%}
+					<p class="banner-secondary-description">{{ section.settings.banenr_secondary_description }}</p>
+				{%- endif -%}
+			</div>
+		</div>
+	</div>
+</div>
+{% schema %}
+{
+  "name": "Our Work",
+  "tag": "section",
+  "class": "shopify-section--our-work",
+  "settings": [
+    {
+      "type": "color",
+      "id": "bg_color",
+      "label": "Background Color",
+      "default": "#fff"
+    },
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "Heading"
+    },
+    {
+      "type": "color",
+      "id": "heading_color",
+      "label": "Heading Color",
+      "default": "#000000"
+    },
+    {
+      "type": "text",
+      "id": "description",
+      "label": "Description"
+    },
+    {
+      "type": "color",
+      "id": "description_color",
+      "label": "Description Color",
+      "default": "#000000"
+    },
+    {
+      "type": "header",
+      "content": "Filter Settings"
+    },
+    {
+      "type": "color",
+      "id": "filter_bg_color",
+      "label": "Filter Background Color",
+      "default": "#fff"
+    },
+    {
+      "type": "color",
+      "id": "filter_box_shadow_color",
+      "label": "Filter Box Shadow Color",
+      "default": "#000000"
+    },
+    {
+      "type": "range",
+      "id": "filter_border_radius",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "label": "Filter Border Radius",
+      "default": 0
+    },
+    {
+      "type": "text",
+      "id": "filter_heading",
+      "label": "Filter Heading"
+    },
+    {
+      "type": "color",
+      "id": "filter_heading_color",
+      "label": "Filter Heading Color",
+      "default": "#000000"
+    },
+    {
+      "type": "text",
+      "id": "filter_sub_heading1",
+      "label": "Filter Sub Heading1"
+    },
+    {
+      "type": "text",
+      "id": "filter_sub_heading2",
+      "label": "Filter Sub Heading2"
+    },
+    {
+      "type": "color",
+      "id": "filter_sub_heading_color",
+      "label": "Filter Sub Heading Color",
+      "default": "#000000"
+    },
+    {
+      "type": "color",
+      "id": "filter_split_border_color",
+      "label": "Filter Split Border Color",
+      "default": "#000000"
+    },
+    {
+      "type": "color",
+      "id": "filter_item_bg_color",
+      "label": "Filter Item Background Color",
+      "default": "#fff"
+    },
+    {
+      "type": "color",
+      "id": "filter_item_color",
+      "label": "Filter Item Color",
+      "default": "#000000"
+    },
+    {
+      "type": "color",
+      "id": "filter_item_border_color",
+      "label": "Filter Item Border Color",
+      "default": "#000000"
+    },
+    {
+      "type": "color",
+      "id": "filter_item_bg_color_hover",
+      "label": "Filter Item Background Color when Hover",
+      "default": "#fff"
+    },
+    {
+      "type": "color",
+      "id": "filter_item_color_hover",
+      "label": "Filter item Color when Hover"
+    },
+    {
+      "type": "color",
+      "id": "filter_item_border_color_hover",
+      "label": "Filter Item Border Color when Hover"
+    },
+    {
+      "type": "color",
+      "id": "filter_item_bg_color_selected",
+      "label": "Filter Item Background Color when Selected",
+      "default": "#fff"
+    },
+    {
+      "type": "color",
+      "id": "filter_item_color_selected",
+      "label": "Filter item Color when Selected"
+    },
+    {
+      "type": "color",
+      "id": "filter_item_border_color_selected",
+      "label": "Filter Item Border Color when Selected"
+    },
+    {
+      "type": "range",
+      "id": "filter_item_border_radius",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "label": "Filter Item Border Radius",
+      "default": 0
+    },
+    {
+      "type": "image_picker",
+      "id": "filter_item_selected_image",
+      "label": "Filter Item Selected Image"
+    },
+    {
+      "type": "image_picker",
+      "id": "filter_item_image",
+      "label": "Filter Item Image"
+    },
+    {
+      "type": "header",
+      "content": "Banner Settings"
+    },
+    {
+      "type": "color",
+      "id": "banner_bg_color",
+      "label": "Background Color",
+      "default": "#fff"
+    },
+    {
+      "type": "color",
+      "id": "banner_box_shadow_color",
+      "label": "Box Shadow Color",
+      "default": "#000000"
+    },
+    {
+      "type": "range",
+      "id": "banner_border_radius",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "label": "Border Radius",
+      "default": 0
+    },
+    {
+      "type": "text",
+      "id": "banner_heading",
+      "label": "Heading"
+    },
+    {
+      "type": "text",
+      "id": "banner_description",
+      "label": "Description"
+    },
+    {
+      "type": "text",
+      "id": "banenr_secondary_description",
+      "label": "Secondary Description"
+    },
+    {
+      "type": "color",
+      "id": "banner_text_color",
+      "label": "Text Color",
+      "default": "#000"
+    },
+    {
+      "type": "image_picker",
+      "id": "banner_image",
+      "label": "Image"
+    },
+    {
+      "type": "text",
+      "id": "banner_button_text",
+      "label": "Button Text"
+    },
+    {
+      "type": "url",
+      "id": "banner_button_link",
+      "label": "Button Link"
+    },
+    {
+      "id": "banner_button_bg_color",
+      "type": "color",
+      "label": "Button Background Color"
+    },
+    {
+      "type": "color",
+      "id": "banner_button_text_color",
+      "label": "Button Text Color"
+    },
+    {
+      "id": "banner_button_bg_color_hover",
+      "type": "color",
+      "label": "Button Background Color when Hover"
+    },
+    {
+      "type": "color",
+      "id": "banner_button_text_color_hover",
+      "label": "Button Text Color when Hover"
+    },
+    {
+      "type": "range",
+      "id": "banner_button_border_radius",
+      "label": "Button Border Radius",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "default": 0
+    },
+    {
+      "type": "header",
+      "content": "Card Settings"
+    },
+    {
+      "type": "color",
+      "id": "card_bg_color",
+      "label": "Background Color",
+      "default": "#fff"
+    },
+    {
+      "type": "color",
+      "id": "card_box_shadow_color",
+      "label": "Card Box Shadow Color",
+      "default": "#000000"
+    },
+    {
+      "type": "color",
+      "id": "card_text_color",
+      "label": "Card Text Color",
+      "default": "#000000"
+    },
+    {
+      "type": "range",
+      "id": "card_border_radius",
+      "label": "Border Radius",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "default": 0
+    },
+    {
+      "type": "color",
+      "id": "card_button_bg_color",
+      "label": "Button Background Color"
+    },
+    {
+      "type": "color",
+      "id": "card_button_text_color",
+      "label": "Button Text Color"
+    },
+    {
+      "type": "color",
+      "id": "card_button_bg_color_hover",
+      "label": "Button Background Color when Hover"
+    },
+    {
+      "type": "color",
+      "id": "card_button_text_color_hover",
+      "label": "Button Text Color when Hover"
+    },
+    {
+      "type": "header",
+      "content": "Padding Settings"
+    },
+    {
+      "type": "range",
+      "id": "desktop_padding_top",
+      "min": 0,
+      "max": 200,
+      "step": 2,
+      "unit": "px",
+      "label": "Desktop Padding Top",
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "desktop_padding_bottom",
+      "min": 0,
+      "max": 200,
+      "step": 2,
+      "unit": "px",
+      "label": "Desktop Padding Bottom",
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "mobile_padding_top",
+      "min": 0,
+      "max": 200,
+      "step": 2,
+      "unit": "px",
+      "label": "Mobile Padding Top",
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "mobile_padding_bottom",
+      "min": 0,
+      "max": 200,
+      "step": 2,
+      "unit": "px",
+      "label": "Mobile Padding Bottom",
+      "default": 0
+    }
+  ],
+  "blocks": [
+    {
+      "type": "filter_item",
+      "name": "Filter Item",
+      "settings": [
+        {
+          "type": "select",
+          "id": "type",
+          "label": "Type",
+          "options": [
+            {
+              "value": "industry",
+              "label": "Industry"
+            },
+            {
+              "value": "service",
+              "label": "Service"
+            }
+          ],
+          "default": "industry"
+        },
+				{
+					"type": "checkbox",
+					"id": "all_items",
+					"label": "All Items",
+					"default": false
+				},
+        {
+          "type": "text",
+          "id": "keyword",
+          "label": "Keyword"
+        },
+        {
+          "type": "text",
+          "id": "label",
+          "label": "Label"
+        }
+      ]
+    },
+    {
+      "type": "card",
+      "name": "Card",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "card_image",
+          "label": "Card Image"
+        },
+        {
+          "type": "text",
+          "id": "heading",
+          "label": "Heading"
+        },
+        {
+          "type": "text",
+          "id": "description",
+          "label": "Description"
+        },
+        {
+          "type": "url",
+          "id": "card_button_link",
+          "label": "Button Link"
+        },
+        {
+          "type": "text",
+          "id": "card_button_text",
+          "label": "Button Text"
+        },
+				{
+					"type": "text",
+					"id": "industry_keyword",
+					"label": "Industry Kewword"
+				},
+				{
+					"type": "text",
+					"id": "service_keyword",
+					"label": "Service Keyword"
+				}
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Our Work",
+      "settings": {}
+    }
+  ]
+}
+{% endschema %}
