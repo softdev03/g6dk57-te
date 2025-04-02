@@ -237,6 +237,7 @@
 	font-size: 14px;
 	color: inherit;
 	letter-spacing: 0px;
+	transition-duration: .2s;
 }
 .field__input:not(:placeholder-shown)~.field__label {
 	transform: unset;
@@ -299,7 +300,8 @@
 
 .shopify-section-cfn .country-name img {
 	width: 25px;
-	height: fit-content;
+	height: 18px;
+	object-fit: contain;
 }
 
 .shopify-section-cfn .phone-number-prefix {
@@ -324,7 +326,8 @@
 }
 .shopify-section-cfn .selected-country img {
 	width: 20px;
-	height: fit-content;
+	height: 15px;
+	object-fit: contain;
 }
 
 .shopify-section-cfn .selected-country .arrow {
@@ -374,7 +377,7 @@
 	display: block;
 	width: 100%;
 }
-.shopify-section-cfn .check-field input {
+.shopify-section-cfn .check-field span {
 	appearance: none;
 	-webkit-appearance: none;
 	min-width: 15px;
@@ -383,7 +386,7 @@
 	border: 1px solid transparent;
 	background-clip: content-box;
 	margin: 0px;
-  padding: 3px;
+  	padding: 3px;
 }
 
 .shopify-section-cfn .dropdown {

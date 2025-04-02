@@ -6,12 +6,11 @@
           type="text"
           id="ContactForm-first-name"
           class="field__input"
-          autocomplete="text"
+          autocomplete="first_name"
           name="contact[first_name]"
           value="{% if form.first_name %}{{ form.first_name }}{% endif %}"
           placeholder="{{ block.settings.first_name_label }}"
         >
-        <input type="hidden" name="contact[phone-prefix]">
         <label class="field__label" for="ContactForm-first-name">{{ block.settings.first_name_label }}</label>
       </div>
       <p class="error-msg" style="color: {{ block.settings.error_msg_color }}">{{ block.settings.first_name_error_msg }}</p>
@@ -22,7 +21,7 @@
           type="text"
           id="ContactForm-last-name"
           class="field__input"
-          autocomplete="text"
+          autocomplete="last_name"
           name="contact[last_name]"
           value="{% if form.last_name %}{{ form.last_name }}{% endif %}"
           placeholder="{{ block.settings.last_name_label }}"
@@ -59,6 +58,7 @@
         value="{% if form.phone %}{{ form.phone }}{% elsif customer %}{{ customer.phone }}{% endif %}"
         placeholder="{{ block.settings.phone_number_label }}"
       >
+      <input type="hidden" name="contact[phone-prefix]" class="phone-field-prefix">
       <label class="field__label" for="ContactForm-phone">{{ block.settings.phone_number_label }}</label>
 			<div class="selected-country">
         <img src="" alt="" class="no-image">
@@ -88,7 +88,7 @@
         type="text"
         id="ContactForm-post-code"
         class="field__input"
-        autocomplete="text"
+        autocomplete="post_code"
         name="contact[post_code]"
         value="{% if form.post_code %}{{ form.post_code }}{% endif %}"
         placeholder="{{ block.settings.post_code_label }}"

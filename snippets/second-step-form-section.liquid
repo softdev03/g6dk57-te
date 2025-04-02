@@ -14,7 +14,8 @@
 		{%- assign rgb = block.settings.box_shadow_color | color_to_rgb |  remove: 'rgb(' |  remove: ')'   -%}
     {%- for fieldItem in fieldItems -%}
       <div class="check-field">
-        <input type="checkbox" name="contact[{{ block.settings.field_name }}({{ forloop.index }})]" id="field-{{ block.id }}-{{ forloop.index }}" value="{{ fieldItem }}">
+        <span></span>
+        <input type="hidden" name="contact[{{ block.settings.field_name }}" />
         <label for="field-{{ block.id }}-{{ forloop.index }}" style="color: {{ block.settings.field_items_color }}">
           {{- fieldItem -}}
         </label>
@@ -31,7 +32,7 @@
 		#form-part-{{ block.id }} .check-field:hover {
 			box-shadow: rgba({{ rgb }}, 0.7) -3px -3px 12px 2px;
 		}
-    #form-part-{{ block.id }} .check-field:has(input:checked) {
+    #form-part-{{ block.id }} .check-field:has(span.selected) {
     	border-color: {{ block.settings.selected_field_border_color }};
 			position: relative;
 			z-index: 1;
@@ -44,10 +45,10 @@
     	border-bottom-left-radius: {{ block.settings.border_radius }}px;
     	border-bottom-right-radius: {{ block.settings.border_radius }}px;
     }
-		#form-part-{{ block.id }} .check-field input {
+		#form-part-{{ block.id }} .check-field span {
 			border-color: {{ block.settings.selected_field_border_color }};
 		}
-		#form-part-{{ block.id }} .check-field input:checked {
+		#form-part-{{ block.id }} .check-field span.selected {
 			background-color: {{ block.settings.selected_field_border_color }};
 		}
   {%- endstyle -%}
