@@ -1,0 +1,312 @@
+{{ 'ai-tool.css' | asset_url | stylesheet_tag }}
+{%- style -%}
+  #shopify-section-{{ section.id }} {
+  	padding-top: {{ section.settings.desktop_padding_top }}px;
+  	padding-bottom: {{ section.settings.desktop_padding_bottom }}px;
+  background-color: {{ section.settings.bg_color }};
+  }
+  @media screen and (max-width: 749px) {
+  	#shopify-section-{{ section.id }} {
+  		padding-top: {{ section.settings.mobile_padding_top }}px;
+  		padding-bottom: {{ section.settings.mobile_padding_bottom }}px;
+  	}
+  }
+{%- endstyle -%}
+<div class="shopify-section-ai-tools page-width">
+  {%- if page.title != blank -%}
+    <h1 class="heading" style="color: {{ section.settings.heading_color }}">{{ page.title }}</h1>
+  {%- endif -%}
+  {%- assign unique_page_data = page.metafields.custom.ai_tool.value -%}
+  <h2 class="sub-heading">{{ unique_page_data.sub_heading }}</h2>
+  <div class="input">
+    <div class="secondary-information">
+      <div class="language">
+        <h3 class="secondary-heading">{{ section.settings.language_heading }}</h3>
+        <select>
+          {%- for block in section.blocks -%}
+            {%- assign language_items = block.settings.language_items | split: '|' -%}
+            {%- for language_item in language_items -%}
+              <option value="{{ language_item }}">{{ language_item }}</option>
+            {%- endfor -%}
+          {%- endfor -%}
+        </select>
+      </div>
+      <div class="tone">
+        <h3 class="secondary-heading">{{ section.settings.tone_heading }}</h3>
+        {%- assign tone_items = section.settings.tone_items | split: '|' -%}
+        <select>
+          {%- for tone_item in tone_items -%}
+            <option value="{{ tone_item }}">{{ tone_item }}</option>
+          {%- endfor -%}
+        </select>
+      </div>
+      <div class="writing-style">
+        <h3 class="secondary-heading">{{ section.settings.writing_style_heading }}</h3>
+        {%- assign writing_style_items = section.settings.writing_style_items |  split: '|' -%}
+        <select>
+          {%- for writing_style_item in writing_style_items -%}
+            <option value="{{ writing_style_item }}">{{ writing_style_item }}</option>
+          {%- endfor -%}
+        </select>
+      </div>
+    </div>
+    <textarea placeholder="{{ unique_page_data.placeholder }}" rows="10"></textarea>
+  </div>
+  <div class="other-tools">
+    {%- for other_tool in unique_page_data.other_tools.value -%}
+      {%- assign otherPage = pages[other_tool.link] -%}
+      <a class="other-tool" href="{{ otherPage.url }}">
+        {%- if other_tool.icon != blank -%}
+          <div class="icon">
+            <img src="{{ other_tool.icon |  img_url: '30x' }}" alt="" width="30px" height="auto">
+          </div>
+        {%- endif -%}
+        <span>
+          {%- if other_tool.show_text != blank -%}
+            {{ other_tool.show_text }}
+          {%- else -%}
+            {{ otherPage.title }}
+          {%- endif -%}
+        </span>
+      </a>
+    {%- endfor -%}
+  </div>
+  <div class="output"></div>
+</div>
+{% schema %}
+{
+  "name": "AI Tool",
+  "tag": "section",
+  "class": "shopify-section--ai-tool",
+  "settings": [
+    {
+      "type": "text",
+      "id": "language_heading",
+      "label": "Language Heading"
+    },
+    {
+      "type": "text",
+      "id": "tone_heading",
+      "label": "Tone Heading"
+    },
+    {
+      "type": "textarea",
+      "id": "tone_items",
+      "label": "Tone Items"
+    },
+    {
+      "type": "text",
+      "id": "writing_style_heading",
+      "label": "Writing Style Heading"
+    },
+    {
+      "type": "textarea",
+      "id": "writing_style_items",
+      "label": "Writing Style Items"
+    },
+    {
+      "type": "color",
+      "id": "bg_color",
+      "label": "Background Color",
+      "default": "#fff"
+    },
+    {
+      "type": "color",
+      "id": "heading_color",
+      "label": "Heading Color",
+      "default": "#000000"
+    },
+    {
+      "type": "color",
+      "id": "sub_heading_color",
+      "label": "Sub Heading Color",
+      "default": "#000000"
+    },
+    {
+      "type": "color",
+      "id": "place_holder_color",
+      "label": "Place Holder Color",
+      "default": "#000000"
+    },
+    {
+      "type": "color",
+      "id": "input_bg_color",
+      "label": "Input Background Color",
+      "default": "#fff"
+    },
+    {
+      "type": "color",
+      "id": "input_text_color",
+      "label": "Input Text Color",
+      "default": "#000000"
+    },
+    {
+      "type": "color",
+      "id": "input_border_color",
+      "label": "Input Border Color",
+      "default": "#000000"
+    },
+    {
+      "type": "color",
+      "id": "input_border_color_hover",
+      "label": "Input Border Color when Hover",
+      "default": "#000000"
+    },
+    {
+      "type": "color",
+      "id": "input_border_color_focus",
+      "label": "Input Border Color when Focus",
+      "default": "#000000"
+    },
+    {
+      "type": "range",
+      "id": "input_border_radius",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "label": "Input Border Radius",
+      "default": 0
+    },
+    {
+      "type": "color",
+      "id": "dropdown_bg_color",
+      "label": "Dropdown Background Color",
+      "default": "#fff"
+    },
+    {
+      "type": "color",
+      "id": "dropdown_text_color",
+      "label": "Dropdown Text Color",
+      "default": "#000000"
+    },
+    {
+      "type": "color",
+      "id": "dropdown_bg_color_hover",
+      "label": "Dropdown Background Color when Hover",
+      "default": "#fff"
+    },
+    {
+      "type": "color",
+      "id": "dropdown_text_color_hover",
+      "label": "Dropdown Text Color when Hover",
+      "default": "#000000"
+    },
+    {
+      "type": "range",
+      "id": "dropdown_border_radius",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "label": "Dropdown Border Radius",
+      "default": 0
+    },
+    {
+      "type": "color",
+      "id": "split_border_color",
+      "label": "Split Border Color",
+      "default": "#000000"
+    },
+    {
+      "type": "color",
+      "id": "other_tool_bg_color",
+      "label": "Other Tool Background Color",
+      "default": "#fff"
+    },
+    {
+      "type": "color",
+      "id": "other_tool_text_color",
+      "label": "Other Tool Text Color",
+      "default": "#000000"
+    },
+    {
+      "type": "color",
+      "id": "other_tool_border_color",
+      "label": "Other Tool Border Color",
+      "default": "#000000"
+    },
+    {
+      "type": "color",
+      "id": "other_tool_bg_color_hover",
+      "label": "Other Tool Bg Color when Hover",
+      "default": "#fff"
+    },
+    {
+      "type": "color",
+      "id": "other_tool_text_color_hover",
+      "label": "Other Tool Text Color when Hover",
+      "default": "#000000"
+    },
+    {
+      "type": "color",
+      "id": "other_tool_border_color_hover",
+      "label": "Other Tool Border Color when Hover",
+      "default": "#000000"
+    },
+    {
+      "type": "header",
+      "content": "Padding Settings"
+    },
+    {
+      "type": "range",
+      "id": "desktop_padding_top",
+      "min": 0,
+      "max": 200,
+      "step": 2,
+      "unit": "px",
+      "label": "Desktop Padding Top",
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "desktop_padding_bottom",
+      "min": 0,
+      "max": 200,
+      "step": 2,
+      "unit": "px",
+      "label": "Desktop Padding Bottom",
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "mobile_padding_top",
+      "min": 0,
+      "max": 200,
+      "step": 2,
+      "unit": "px",
+      "label": "Mobile Padding Top",
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "mobile_padding_bottom",
+      "min": 0,
+      "max": 200,
+      "step": 2,
+      "unit": "px",
+      "label": "Mobile Padding Bottom",
+      "default": 0
+    }
+  ],
+  "blocks": [
+    {
+      "type": "language",
+      "name": "Language",
+      "settings": [
+        {
+          "type": "textarea",
+          "id": "language_items",
+          "label": "Language Items"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "AI Tool",
+      "settings": {}
+    }
+  ]
+}
+{% endschema %}

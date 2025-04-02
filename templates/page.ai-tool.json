@@ -1,0 +1,79 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "ai_tool_7TfiYQ": {
+      "type": "ai-tool",
+      "blocks": {
+        "language_84BfEn": {
+          "type": "language",
+          "settings": {
+            "language_items": "English|Chinese|Japense"
+          }
+        },
+        "language_87QmRX": {
+          "type": "language",
+          "settings": {
+            "language_items": "French|German|Portuguse|Greek"
+          }
+        }
+      },
+      "block_order": [
+        "language_84BfEn",
+        "language_87QmRX"
+      ],
+      "settings": {
+        "language_heading": "Output in",
+        "tone_heading": "Tone",
+        "tone_items": "Friendly|Professional|Empathy|Relaxed|Adventures|Sad|Motivation|Humourous",
+        "writing_style_heading": "Writing Style",
+        "writing_style_items": "Default|Poetic",
+        "bg_color": "#e5e5e5",
+        "heading_color": "#0a0a0a",
+        "sub_heading_color": "#56595d",
+        "place_holder_color": "#dddddd",
+        "input_bg_color": "#ffffff",
+        "input_text_color": "#000000",
+        "input_border_color": "rgba(0,0,0,0)",
+        "input_border_color_hover": "#dbdbdb",
+        "input_border_color_focus": "#aaabad",
+        "input_border_radius": 30,
+        "dropdown_bg_color": "#ececec",
+        "dropdown_text_color": "#000000",
+        "dropdown_bg_color_hover": "#e3e3e3",
+        "dropdown_text_color_hover": "#000000",
+        "dropdown_border_radius": 3,
+        "split_border_color": "#e3e3e3",
+        "other_tool_bg_color": "#f9f8f6",
+        "other_tool_text_color": "#0a0a30",
+        "other_tool_border_color": "#ededeb",
+        "other_tool_bg_color_hover": "#ffffff",
+        "other_tool_text_color_hover": "#0a0a31",
+        "other_tool_border_color_hover": "#f1f1f1",
+        "desktop_padding_top": 80,
+        "desktop_padding_bottom": 80,
+        "mobile_padding_top": 60,
+        "mobile_padding_bottom": 60
+      }
+    }
+  },
+  "order": [
+    "main",
+    "ai_tool_7TfiYQ"
+  ]
+}

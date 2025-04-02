@@ -1,0 +1,87 @@
+.shopify-section-ai-tools {
+	text-align: center;
+	min-height: calc(100vh - 100px);
+}
+
+.shopify-section-ai-tools .heading {
+	margin-top: 0px;
+	margin-bottom: 30px;
+}
+
+.shopify-section-ai-tools .sub-heading {
+	margin-top: 0px;
+	margin-bottom: 40px;
+}
+
+.shopify-section-ai-tools .input {
+	display: flex;
+	flex-direction: column;
+	padding: 20px;
+	row-gap: 20px;
+}
+
+.shopify-section-ai-tools .secondary-information {
+	display: flex;
+	text-align: left;
+	column-gap: 10px;
+	padding-bottom: 15px;
+}
+
+.shopify-section-ai-tools .secondary-information>div {
+	display: flex;
+	flex-direction: column;
+	row-gap: 10px;
+}
+
+.shopify-section-ai-tools .secondary-heading {
+	margin: 0px;
+	font-size: 14px;
+}
+
+.shopify-section-ai-tools .secondary-information select {
+	min-width: 120px;
+	padding: 8px 40px 8px 12px;
+	background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 20 20'%3E%3Cpath stroke='%239B9B9B' stroke-linecap='round' stroke-linejoin='round' stroke-width='1.5' d='m6 8 4 4 4-4'/%3E%3C/svg%3E");
+	background-repeat: no-repeat;
+	background-size: 1.5em 1.5em;
+	background-position: right .5rem center;
+	appearance: none;
+}
+.shopify-section-ai-tools .secondary-information select:focus {
+	outline: none;
+	box-shadow: none;
+}
+
+.shopify-section-ai-tools textarea {
+	min-width: 100%;
+	max-width: 100%;
+	min-height: 100px;
+	max-height: 100px;
+}
+.shopify-section-ai-tools textarea:focus {
+	outline: none;
+	box-shadow: none;
+}
+
+.shopify-section-ai-tools .other-tools {
+	display: flex;
+	overflow: auto;
+	column-gap: 10px;
+	justify-content: center;
+}
+
+.shopify-section-ai-tools .other-tool {
+	display: flex;
+	align-items: center;
+	text-decoration: none;
+	white-space: nowrap;
+	column-gap: 10px;
+	height: min-content;
+}
+
+.shopify-section-ai-tools .other-tool .icon {
+	min-width: 30px;
+	max-width: 30px;
+	line-height: 0px;
+	aspect-ratio: 1;
+}

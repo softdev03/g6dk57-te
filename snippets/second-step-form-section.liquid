@@ -13,11 +13,12 @@
   <div class="field-items">
 		{%- assign rgb = block.settings.box_shadow_color | color_to_rgb |  remove: 'rgb(' |  remove: ')'   -%}
     {%- for fieldItem in fieldItems -%}
-      <div class="check-field">
+      {%- assign removed_item = fieldItem |  remove: ':'  -%}
+      <div class="check-field {% if removed_item != fieldItem %} unique {% endif %}">
         <span></span>
         <input type="hidden" name="contact[{{ block.settings.field_name }}" />
         <label for="field-{{ block.id }}-{{ forloop.index }}" style="color: {{ block.settings.field_items_color }}">
-          {{- fieldItem -}}
+          {{- removed_item -}}
         </label>
       </div>
     {%- endfor -%}

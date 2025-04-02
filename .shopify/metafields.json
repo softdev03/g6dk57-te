@@ -8,7 +8,18 @@
   "location": [],
   "market": [],
   "order": [],
-  "page": [],
+  "page": [
+    {
+      "key": "ai_tool",
+      "namespace": "custom",
+      "name": "AI Tool",
+      "description": "",
+      "type": {
+        "name": "metaobject_reference",
+        "category": "REFERENCE"
+      }
+    }
+  ],
   "product": [],
   "variant": [],
   "shop": []
