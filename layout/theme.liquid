@@ -55,7 +55,11 @@
     {{ 'cusotm.js' | asset_url | script_tag }}
     {{ 'contact-us.js' |  asset_url |  script_tag }}
     {{ 'our-work.js' | asset_url |  script_tag}}
-    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.min.js"></script>
+
+    {{ 'ai-tool.js' |  asset_url |  script_tag }}
 
     {%- if settings.animations_reveal_on_scroll -%}
       <script src="{{ 'animations.js' | asset_url }}" defer="defer"></script>

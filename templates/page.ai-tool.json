@@ -23,13 +23,13 @@
         "language_84BfEn": {
           "type": "language",
           "settings": {
-            "language_items": "English|Chinese|Japense"
+            "language_items": "Indian|Chinese|Japense"
           }
         },
         "language_87QmRX": {
           "type": "language",
           "settings": {
-            "language_items": "French|German|Portuguse|Greek"
+            "language_items": "English|French|German|Portuguse|Greek"
           }
         }
       },
@@ -39,25 +39,27 @@
       ],
       "settings": {
         "language_heading": "Output in",
+        "default_language": "English",
         "tone_heading": "Tone",
         "tone_items": "Friendly|Professional|Empathy|Relaxed|Adventures|Sad|Motivation|Humourous",
         "writing_style_heading": "Writing Style",
         "writing_style_items": "Default|Poetic",
-        "bg_color": "#e5e5e5",
+        "bg_color": "#ffffff",
         "heading_color": "#0a0a0a",
-        "sub_heading_color": "#56595d",
+        "sub_heading_color": "#181818",
         "place_holder_color": "#dddddd",
         "input_bg_color": "#ffffff",
         "input_text_color": "#000000",
-        "input_border_color": "rgba(0,0,0,0)",
-        "input_border_color_hover": "#dbdbdb",
-        "input_border_color_focus": "#aaabad",
+        "input_box_shadow_color": "#000000",
+        "input_border_color": "#838383",
         "input_border_radius": 30,
         "dropdown_bg_color": "#ececec",
         "dropdown_text_color": "#000000",
+        "dropdown_border_color": "rgba(0,0,0,0)",
         "dropdown_bg_color_hover": "#e3e3e3",
         "dropdown_text_color_hover": "#000000",
-        "dropdown_border_radius": 3,
+        "dropdown_border_color_hover": "rgba(0,0,0,0)",
+        "dropdown_border_radius": 4,
         "split_border_color": "#e3e3e3",
         "other_tool_bg_color": "#f9f8f6",
         "other_tool_text_color": "#0a0a30",
@@ -65,6 +67,7 @@
         "other_tool_bg_color_hover": "#ffffff",
         "other_tool_text_color_hover": "#0a0a31",
         "other_tool_border_color_hover": "#f1f1f1",
+        "other_tool_border_radius": 16,
         "desktop_padding_top": 80,
         "desktop_padding_bottom": 80,
         "mobile_padding_top": 60,
