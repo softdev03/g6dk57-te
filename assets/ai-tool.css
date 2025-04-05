@@ -19,6 +19,7 @@
 	padding: 20px 30px;
 	row-gap: 10px;
 	margin-bottom: 50px;
+	position: relative;
 }
 
 .shopify-section-ai-tools .secondary-information {
@@ -60,8 +61,8 @@
 .shopify-section-ai-tools textarea {
 	min-width: 100%;
 	max-width: 100%;
-	min-height: 100px;
-	max-height: 100px;
+	min-height: 80px;
+	max-height: 80px;
 	border: none;
 	color: inherit;
 	padding: 0px;
@@ -77,6 +78,9 @@
 	overflow: hidden;
 	margin-bottom: 40px;
 	max-width: 100%;
+	width: fit-content;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .shopify-section-ai-tools .other-tool {
@@ -122,41 +126,64 @@
 .shopify-section-ai-tools .result {
 	text-align: left;
 	line-height: 1.2;
+	display: flex;
+	flex-direction: column;
+	row-gap: 25px;
 }
-
+.shopify-section-ai-tools .result h2,.shopify-section-ai-tools .result h3 {
+	margin-bottom: -10px;
+}
+.shopify-section-ai-tools .result span {
+	display: block;
+}
 .shopify-section-ai-tools .result ul {
 	list-style: none;
 	padding: 0px;
+	display: flex;
+	flex-direction: column;
+	row-gap: 8px;
 }
-
 .shopify-section-ai-tools .result * {
 	list-style: none;
 	padding: 0px;
 	margin: 0px;
-	line-height: 1.4;
+	line-height: 1.2;
 }
-
-.shopify-section-ai-tools .result *:not(li) {
-	display: flex;
-	flex-direction: column;
-	row-gap: 6px;
+.shopify-section-ai-tools .result .query {
+	max-width: 500px;
+	padding: 16px 24px;
+	margin-left: auto;
+	width: fit-content;
+	border-bottom-right-radius: 4px !important;
 }
 .shopify-section-ai-tools .result li * {
-	display: inline !important;
+	display: inline;
 }
-.shopify-section-ai-tools .result br {
+.shopify-section-ai-tools .selected-file {
+	max-width: 80px;
+}
+.shopify-section-ai-tools .selected-file:empty {
 	display: none;
 }
-.shopify-section-ai-tools .result br:first-of-type {
-	display: block;
+.shopify-section-ai-tools .add-file {
+	width: 40px;
+	height: auto;
+	line-height: 0;
+	padding: 8px;
+	cursor: pointer;
+	border: 1px solid;
+	position: relative;
+	overflow: hidden;
 }
-.shopify-section-ai-tools .result br:first-child {
+.shopify-section-ai-tools .add-file input {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+	left: 0px;
+	top: 0px;
+	cursor: pointer;
+}
+.shopify-section-ai-tools .add-file input::-webkit-file-upload-button {
 	display: none;
-}
-.shopify-section-ai-tools .result li br {
-	display: block;
-}
-
-.shopify-section-ai-tools .result br+br {
-	display: none !important;
 }
