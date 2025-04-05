@@ -23,13 +23,13 @@
         "language_84BfEn": {
           "type": "language",
           "settings": {
-            "language_items": "Hindi|Chinese|Japanese|Thai|Vietnamese"
+            "language_items": "Chinese|Japanese"
           }
         },
         "language_87QmRX": {
           "type": "language",
           "settings": {
-            "language_items": "English|French|German|Portuguese|Greek|Russian|Polish|Finnish|Danish|Norwegian|Swedish|Dutch|Spanish|Italian"
+            "language_items": "English|French|German|Portuguese|Finnish|Dutch"
           }
         }
       },
@@ -68,6 +68,7 @@
         "other_tool_text_color_hover": "#0a0a31",
         "other_tool_border_color_hover": "#f1f1f1",
         "other_tool_border_radius": 16,
+        "result_bg_color": "#f9f9f9",
         "result_text_color": "#000000",
         "add_image_button_bg_color": "#ffffff",
         "add_image_button_color": "#5d5d5d",
@@ -79,10 +80,10 @@
         "query_bg_color": "#ececec",
         "query_text_color": "#262626",
         "query_border_radius": 12,
-        "desktop_padding_top": 80,
-        "desktop_padding_bottom": 80,
-        "mobile_padding_top": 60,
-        "mobile_padding_bottom": 60
+        "desktop_padding_top": 10,
+        "desktop_padding_bottom": 60,
+        "mobile_padding_top": 10,
+        "mobile_padding_bottom": 40
       }
     }
   },

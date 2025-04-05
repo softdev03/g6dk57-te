@@ -1,6 +1,7 @@
 const APIKEY = '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';
 const fuckingStrings = ['"```html"','"```"',"introduction","overview","brief","items", "index"];
 const model = 'gpt-4o-mini';
+// const model = 'gpt-4o-realtime-preview';
 const additionalPattern = `
 	NOTE: FORMAT THE CONTENT USING HTML TAGS LIKE <ul>,<li> without missing descriptions.
 	IMPORTANT: 	Don't include fucking string like '${fuckingStrings.join(',')}, NEVER!, NEVER!, NEVER!'.
@@ -9,8 +10,8 @@ const additionalPattern = `
 	IMPORTANT: Don't use the language for the site urls.
 	And please use h2 tag for heading and h3 tag for sub heading.
 	IMPORTANT: Please use English for domains.
-	※ : The writing style must be [writing style] and please translate all of the content into [language].
-	I need only translated content. However I don't need original content, understand me???.
+	※ : The writing style must be [writing style] and please use "[language]" language for all of the content.
+	NOTE: There is no relationship between the languages for input and output.
 	Output format: 
 		Introduction & overview & brief(Please include some greetings such as "sure or of course or here", Replace greeting word every times.:Must be contained.: Don't use heading tags for this! NEVER! NEVER!)
 		Items(※ include index number for each items and the count of the items must be the count of the items in this pattern. the default is over 10.)
@@ -32,7 +33,8 @@ document.addEventListener('DOMContentLoaded', () => {
 		const writingStyleSelect = aiToolSection.querySelector('.writing-style select');
 		const input = aiToolSection.querySelector('.input');
 		const pattern = input.getAttribute('pattern');
-		const generatedResult = aiToolSection.querySelector('.output .result');
+		const output = aiToolSection.querySelector('.output');
+		const generatedResult = output.querySelector('.output .result');
 		const selectedImage = aiToolSection.querySelector('.selected-file');
 		const fileInput = aiToolSection.querySelector('#photo');
 
@@ -51,10 +53,11 @@ document.addEventListener('DOMContentLoaded', () => {
 				toneSelect.setAttribute('disabled',true);
 				languageSelect.setAttribute('disabled',true);
 				fileInput?.setAttribute('disabled',true);
+				let oldHeight = generatedResult.scrollHeight
+				output.scrollTo({top: oldHeight, behavior: 'smooth'});
 				generateText(pattern, language, tone, writingStyle, inputArea.value).then((generatedValue) => {
 					e.preventDefault();
 					aiToolSection.classList.remove('generating');
-					// generatedResult.innerHTML = '';
 					inputArea.removeAttribute('readonly');
 					writingStyleSelect.removeAttribute('disabled');
 					toneSelect.removeAttribute('disabled');
@@ -64,11 +67,14 @@ document.addEventListener('DOMContentLoaded', () => {
 					for (const choice of generatedValue.choices) {
 						content += wrapText(choice.message.content);
 					}
-					generatedResult.innerHTML =  `
+					if(generatedResult.innerHTML !== '') {
+						oldHeight += 20;
+					}
+					generatedResult.innerHTML +=  `
 						<div class="query">${inputArea.value.replace(/\n/g,'<br />')}</div>
 						${content}
-						${generatedResult.innerHTML}
 					`;
+					output.scrollTo({top: oldHeight, behavior: 'smooth'});
 					inputArea.value = '';
 				}).catch((error) => {
 					console.log(error);

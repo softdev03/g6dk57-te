@@ -42,8 +42,9 @@
 		background-color: {{ section.settings.other_tool_bg_color_hover |  default : 'transparent' }};
 		border: 1px solid {{ section.settings.other_tool_border_color_hover |  default : 'transparent' }};
 	}
-  #shopify-section-{{ section.id }} .result {
+  #shopify-section-{{ section.id }} .output {
     color: {{ section.settings.result_text_color }};
+    background-color: {{ section.settings.result_bg_color }};
   }
   #shopify-section-{{ section.id }} .add-file {
     color: {{ section.settings.add_image_button_color }};
@@ -69,10 +70,18 @@
   }
 {%- endstyle -%}
 <div class="shopify-section-ai-tools page-width">
+  {%- assign unique_page_data = page.metafields.custom.ai_tool.value -%}
+  <div class="output">
+    <div class="result"></div>
+    {%- if unique_page_data.loading_icon != blank -%}
+      <div class="loading-icon">
+        <img src="{{ unique_page_data.loading_icon |  img_url: '100x' }}" alt="" width="100px" height="100px">
+      </div>
+    {%- endif -%}
+  </div>
   {%- if page.title != blank -%}
     <h1 class="heading" style="color: {{ section.settings.heading_color }}">{{ page.title }}</h1>
   {%- endif -%}
-  {%- assign unique_page_data = page.metafields.custom.ai_tool.value -%}
   <h2 class="sub-heading" style="color: {{ section.settings.sub_heading_color }}">{{ unique_page_data.sub_heading }}</h2>
   <div class="input" pattern="{{ unique_page_data.pattern }}">
     {%- if unique_page_data.image_upload -%}
@@ -140,14 +149,6 @@
 				</a>
 			{%- endfor -%}
 		</div>
-  </div>
-  <div class="output">
-    {%- if unique_page_data.loading_icon != blank -%}
-      <div class="loading-icon">
-        <img src="{{ unique_page_data.loading_icon |  img_url: '100x' }}" alt="" width="100px" height="100px">
-      </div>
-    {%- endif -%}
-    <div class="result"></div>
   </div>
 </div>
 {% schema %}
@@ -342,6 +343,12 @@
 			"label": "Other Tool Item Border Radius",
 			"default": 0
 		},
+    {
+      "type": "color",
+      "id": "result_bg_color",
+      "label": "Result Background Color",
+      "default": "#fff"
+    },
     {
       "type": "color",
       "id": "result_text_color",
