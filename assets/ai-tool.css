@@ -226,3 +226,16 @@
 	background-color: #5a5a5a;
 	border-radius: 10px;
 }
+
+@media screen and (max-width: 749px) {
+	.shopify-section-ai-tools:has(.sub-heading) .output {
+
+		max-height: calc(100vh - 510px);
+		min-height: calc(100vh - 510px);
+	}
+
+	.shopify-section-ai-tools .output {
+		max-height: calc(100vh - 392px);
+		min-height: calc(100vh - 392px);
+	}
+}

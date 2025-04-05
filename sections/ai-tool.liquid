@@ -82,7 +82,9 @@
   {%- if page.title != blank -%}
     <h1 class="heading" style="color: {{ section.settings.heading_color }}">{{ page.title }}</h1>
   {%- endif -%}
-  <h2 class="sub-heading" style="color: {{ section.settings.sub_heading_color }}">{{ unique_page_data.sub_heading }}</h2>
+  {%- if unique_page_data.sub_heading -%}
+    <h2 class="sub-heading" style="color: {{ section.settings.sub_heading_color }}">{{ unique_page_data.sub_heading }}</h2>
+  {%- endif -%}
   <div class="input" pattern="{{ unique_page_data.pattern }}">
     {%- if unique_page_data.image_upload -%}
       <div class="selected-file">
