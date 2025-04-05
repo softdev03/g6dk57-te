@@ -120,16 +120,15 @@
       "custom_css": [],
       "settings": {
         "main_image": "shopify://shop_images/9158264f569b0ba69761e856037de151.png",
-        "secondary_image": "shopify://shop_images/get-new-customers_14c1764b-9932-4e7e-851a-7851c99c425f.svg",
-        "secondary_image_roate_angle": 0,
-        "desktop_left": 300,
-        "desktop_top": 150,
-        "desktop_right": -1,
+        "secondary_image_roate_angle": -36,
+        "desktop_left": 329,
+        "desktop_top": -10,
+        "desktop_right": 2,
         "desktop_bottom": -1,
-        "mobile_left": 230,
-        "mobile_top": 10,
+        "mobile_left": 271,
+        "mobile_top": 7,
         "mobile_right": -1,
-        "mobile_bottom": -1,
+        "mobile_bottom": 0,
         "heading": "Shopify Websites & Digital Growth for Real Businesses",
         "sub_heading": "If your store isn’t getting sales or your service business is stuck chasing leads, it’s time to do things smarter.",
         "text": "<p>We help retailers go online, eComm brands scale, and service providers generate consistent enquiries.<br/><br/>No fluff, no cookie-cutter builds—just websites and ads that get real results.</p><p>Whether you're starting fresh or levelling up, we'll show you what works (and what to ditch).</p>",
@@ -204,7 +203,7 @@
         "desktop_font_size": 20,
         "tablet_font_size": 18,
         "mobile_font_size": 16,
-        "bg_color": "#e2edfb",
+        "bg_color": "#f3f3f3",
         "border_color": "rgba(0,0,0,0)",
         "show_on_desktop": true,
         "show_on_mobile": true,
@@ -218,15 +217,15 @@
       "type": "advertise",
       "custom_css": [],
       "settings": {
-        "main_image": "shopify://shop_images/email-marketing-solutions-for-trades-people_707acc76-a398-4df5-aee0-8902f1020180.webp",
+        "main_image": "shopify://shop_images/Artboard_3_copy-100.jpg",
         "secondary_image": "shopify://shop_images/get-found-on-the-web-right_94f0db54-ee90-4bcc-aca3-ff6d1681dbac.svg",
-        "secondary_image_roate_angle": 12,
-        "desktop_left": -42,
-        "desktop_top": 330,
-        "desktop_right": -1,
-        "desktop_bottom": -1,
-        "mobile_left": -1,
-        "mobile_top": 280,
+        "secondary_image_roate_angle": 0,
+        "desktop_left": -38,
+        "desktop_top": 380,
+        "desktop_right": 1,
+        "desktop_bottom": 0,
+        "mobile_left": -10,
+        "mobile_top": 300,
         "mobile_right": -1,
         "mobile_bottom": -1,
         "heading": "We’ll Get You More Leads (Without Chasing Clients)",
@@ -706,15 +705,15 @@
       "settings": {
         "main_image": "shopify://shop_images/2e5877eca35c499b4057cf3e49e166c6.png",
         "secondary_image": "shopify://shop_images/this-could-be-you_86b78ffa-fae9-4fc7-9bda-3b42602401a5.svg",
-        "secondary_image_roate_angle": 0,
+        "secondary_image_roate_angle": -12,
         "desktop_left": -20,
         "desktop_top": 330,
         "desktop_right": -1,
         "desktop_bottom": -1,
-        "mobile_left": -1,
+        "mobile_left": 49,
         "mobile_top": -1,
         "mobile_right": -1,
-        "mobile_bottom": 0,
+        "mobile_bottom": 131,
         "heading": "Get More Sales From Your Shopify Store",
         "sub_heading": "Stop guessing, stop Googling, and stop wondering why it’s not working.",
         "text": "<p>You’ve got the products. Maybe even some traffic. But turning visitors into actual sales? That’s the tricky part.</p><p>As Shopify Partners, we help businesses like yours fix broken funnels, clean up clunky websites, and run ads that actually convert.</p><p>Whether you’re just starting out or scaling hard, we’ll help you sell smarter—not harder.</p><p><strong>We’ve got you. Let’s talk Shopify.</strong></p>",
@@ -774,7 +773,7 @@
         ".rich-text {background: #e7f1f7;}"
       ],
       "settings": {
-        "bg_color": "#e7f1f7",
+        "bg_color": "#f3f3f3",
         "desktop_content_position": "center",
         "content_alignment": "center",
         "color_scheme": "",
@@ -827,7 +826,7 @@
       ],
       "settings": {
         "section_title": "Why Having an Online Presence Matters",
-        "bg_color": "#e7f1f7",
+        "bg_color": "#f3f3f3",
         "desktop_padding_top": 20,
         "desktop_padding_bottom": 50,
         "mobile_padding_top": 16,
@@ -838,16 +837,16 @@
       "type": "advertise",
       "custom_css": [],
       "settings": {
-        "main_image": "shopify://shop_images/google-ads-for-tradies-australia_6fcba907-9685-48e1-bd0b-727ee9f948c5.webp",
-        "secondary_image": "shopify://shop_images/google-ads-for-tradies-text_fa2d97fc-da4f-4232-a902-3880c9eef3a3.svg",
-        "secondary_image_roate_angle": 0,
-        "desktop_left": 370,
-        "desktop_top": 150,
+        "main_image": "shopify://shop_images/HomePage_newleads.jpg",
+        "secondary_image": "shopify://shop_images/get-new-customers_14c1764b-9932-4e7e-851a-7851c99c425f.svg",
+        "secondary_image_roate_angle": -28,
+        "desktop_left": 330,
+        "desktop_top": 143,
         "desktop_right": -1,
         "desktop_bottom": -1,
         "mobile_left": -1,
-        "mobile_top": 0,
-        "mobile_right": 0,
+        "mobile_top": 139,
+        "mobile_right": -20,
         "mobile_bottom": -1,
         "heading": "The Challenge of Getting Leads Online",
         "sub_heading": "Your expertise is in your trade. Ours is getting you found by people ready to pay for it.",
@@ -867,7 +866,7 @@
       "type": "results-guaranteed",
       "custom_css": [],
       "settings": {
-        "logo_image": "shopify://shop_images/tradiemate-promise_c40cac36-5cef-47f6-b56c-8822162979e4.svg",
+        "logo_image": "shopify://shop_images/05.jpg",
         "main_heading": "RESULTS GUARANTEED",
         "sub_heading": "(Our No-Risk, No-Nonsense Promise)",
         "description": "If we don’t deliver the results we agreed on, you don’t pay.That’s how confident we are in what we do.",
@@ -930,7 +929,7 @@
         "background_style": "primary",
         "button_label": "",
         "button_link": "",
-        "color_scheme": "",
+        "color_scheme": "scheme-1",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
         "padding_top": 36,
@@ -953,17 +952,17 @@
     "advertise_FfNzr9": {
       "type": "advertise",
       "settings": {
-        "main_image": "shopify://shop_images/a7663a1627dc732a8505611a4a34da37.webp",
+        "main_image": "shopify://shop_images/01.jpg",
         "secondary_image": "shopify://shop_images/grow-your-brand_a831e197-6984-4fb5-af1a-f72723d0f61b.svg",
-        "secondary_image_roate_angle": 0,
+        "secondary_image_roate_angle": -32,
         "desktop_left": 370,
         "desktop_top": 140,
         "desktop_right": 0,
         "desktop_bottom": -1,
         "mobile_left": -1,
-        "mobile_top": 0,
-        "mobile_right": 0,
-        "mobile_bottom": -1,
+        "mobile_top": 81,
+        "mobile_right": -22,
+        "mobile_bottom": 2,
         "heading": "An Investment That Actually Grows Your Online Sales",
         "sub_heading": "The Brands Thriving in eCommerce Know This..",
         "text": "<p>We get it. Saving on costs matters—but not if it slows down your growth. If you’re cutting corners on your online store’s visibility, speed, or conversion strategy, you’re leaving money on the table.</p><p>Why gamble with DIY setups or bargain-basement developers when your store is the heart of your business?</p><p><strong>It’s not just about being online. It’s about being profitable.</strong></p><p>Successful eCommerce brands invest in partners who get results. We help you build a proper strategy, attract better customers, and increase average order value. The outcome? More sales. Fewer headaches.</p><p><strong>Ready to grow without guesswork?</strong><br/></p>",
@@ -982,17 +981,17 @@
       "type": "advertise",
       "custom_css": [],
       "settings": {
-        "main_image": "shopify://shop_images/Web-Designs-for-trades_ecf90df0-16f8-4f1b-b28c-dfee1a616fbc.webp",
+        "main_image": "shopify://shop_images/HomePage_eight83_plumbing.jpg",
         "secondary_image": "shopify://shop_images/get-the-work-you-want_1deebdca-42cf-48ef-ad08-2c7a30b21259.svg",
-        "secondary_image_roate_angle": 28,
-        "desktop_left": -30,
-        "desktop_top": 330,
+        "secondary_image_roate_angle": -8,
+        "desktop_left": -50,
+        "desktop_top": 343,
         "desktop_right": -1,
         "desktop_bottom": -1,
-        "mobile_left": -1,
+        "mobile_left": -15,
         "mobile_top": -1,
         "mobile_right": -1,
-        "mobile_bottom": 2,
+        "mobile_bottom": 57,
         "heading": "Let’s Talk About Your Business Goals",
         "sub_heading": "Not Just More Leads. The Right Ones.",
         "text": "<p>We’re not just a service provider—we’re your growth partner. Whether you’re running a Shopify store or quoting jobs in your local area, we help you get in front of people who are ready to buy, book, or build.</p><p>We’ve worked with hundreds of Aussie businesses, across every corner of the map. We know the landscape, we know what works, and we know how to scale your online presence without wasting your time or money.</p><p><strong>Get the right traffic, more conversions, and the work you actually want.</strong></p><p></p>",
@@ -1110,19 +1109,19 @@
         "logo_AUcRK9": {
           "type": "logo",
           "settings": {
-            "logo": "shopify://shop_images/Tradify_de21751d-76fc-4e45-89ad-24639c4ff8ab.webp"
+            "logo": "shopify://shop_images/shopify-partner-logo.jpg"
           }
         },
         "logo_bL3gXg": {
           "type": "logo",
           "settings": {
-            "logo": "shopify://shop_images/Tradify_de21751d-76fc-4e45-89ad-24639c4ff8ab.webp"
+            "logo": "shopify://shop_images/google_partner.png"
           }
         },
         "logo_nD8fWM": {
           "type": "logo",
           "settings": {
-            "logo": "shopify://shop_images/Tradify_de21751d-76fc-4e45-89ad-24639c4ff8ab.webp"
+            "logo": "shopify://shop_images/tiktokpartners.webp"
           }
         },
         "logo_aq89PC": {
@@ -1140,7 +1139,7 @@
         "logo_xtKBAC": {
           "type": "logo",
           "settings": {
-            "logo": "shopify://shop_images/semrush-agency-partner_f3d6aa17-0961-4c72-b6f5-48f88effbff1.webp"
+            "logo": "shopify://shop_images/bingads.png"
           }
         }
       },

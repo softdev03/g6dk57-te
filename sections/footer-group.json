@@ -14,7 +14,7 @@
     "marketing_focus_3gtc4t": {
       "type": "marketing-focus",
       "settings": {
-        "logo_image": "shopify://shop_images/tradiemate-new-badge_79e9002f-32f8-4f6b-b319-6aa83817e1d7.svg",
+        "logo_image": "shopify://shop_images/04.jpg",
         "headline": "We Know Shopify & Digital Ads (Inside Out)",
         "sub_text": "Focus on growing your business. We'll handle the tech, tools, and traffic.",
         "button_text": "Request a Quote",
@@ -33,7 +33,7 @@
           "settings": {
             "card_cta_text": "Struggling to Rank on Google? We Can Help",
             "card_cta_link": "",
-            "card_image": "shopify://shop_images/Marketing-for-Aussie-Tradies_52062eb1-d16e-4153-ad6d-18ffd5349b42.webp"
+            "card_image": "shopify://shop_images/06.jpg"
           }
         },
         "card_EUkEqU": {
@@ -41,7 +41,7 @@
           "settings": {
             "card_cta_text": "Convert More Visitors with a Better Website",
             "card_cta_link": "",
-            "card_image": "shopify://shop_images/Websites-For-Tradies_c1e3743a-4596-48b2-a10f-cd3e4a02e9c9.webp"
+            "card_image": "shopify://shop_images/07.jpg"
           }
         }
       },
@@ -64,7 +64,7 @@
         "bg_color": "#feda15",
         "left_logo": "shopify://shop_images/Logo.svg",
         "left_desc": "We help Aussie businesses get online, grow sales, and build brands that last. Whether you're running a Shopify store or a service-based business, we’ve got the tools and team to back you.",
-        "right_img": "shopify://shop_images/Proudly-Australian-Owned_54dc2aa1-e8ee-43d6-b26f-6d004133a95d.webp",
+        "right_img": "shopify://shop_images/Artboard_13.png",
         "section_bg_color": "#ffd000",
         "button_label": "Request a Call",
         "button_link": "",
