@@ -1,105 +1,122 @@
 {{ 'ai-tool.css' | asset_url | stylesheet_tag }}
 {%- style -%}
-  #shopify-section-{{ section.id }} {
-  	padding-top: {{ section.settings.desktop_padding_top }}px;
-  	padding-bottom: {{ section.settings.desktop_padding_bottom }}px;
-  	background-color: {{ section.settings.bg_color }};
+   #shopify-section-{{ section.id }} {
+   	padding-top: {{ section.settings.desktop_padding_top }}px;
+   	padding-bottom: {{ section.settings.desktop_padding_bottom }}px;
+   	background-color: {{ section.settings.bg_color }};
+   }
+  {%- assign rgb = section.settings.input_box_shadow_color |  color_to_rgb |  remove: 'rgb(' |  remove: ')'   -%}
+  {%- assign border_rgb = section.settings.input_border_color |  color_to_rgb |  remove: 'rgb(' |  remove: ')' |  remove: 'rgba(' |  remove: ', 0.0'  -%}
+  #shopify-section-{{ section.id }} .input {
+  	box-shadow: 0 10px 15px -3px rgba({{ rgb }},.1),0 4px 6px -4px rgba({{ rgb }},.1);
+  	color: {{ section.settings.input_text_color |  default : '#000' }};
+  	background-color: {{ section.settings.input_bg_color |  default : 'transparent' }};
+  	border: 1px solid rgba({{ border_rgb }},0.5);
+  	border-radius: {{ section.settings.input_border_radius }}px;
   }
-	{%- assign rgb = section.settings.input_box_shadow_color |  color_to_rgb |  remove: 'rgb(' |  remove: ')'   -%}
-	{%- assign border_rgb = section.settings.input_border_color |  color_to_rgb |  remove: 'rgb(' |  remove: ')' |  remove: 'rgba(' |  remove: ', 0.0'  -%}
-	#shopify-section-{{ section.id }} .input {
-		box-shadow: 0 10px 15px -3px rgba({{ rgb }},.1),0 4px 6px -4px rgba({{ rgb }},.1);
-		color: {{ section.settings.input_text_color |  default : '#000' }};
-		background-color: {{ section.settings.input_bg_color |  default : 'transparent' }};
-		border: 1px solid rgba({{ border_rgb }},0.5);
-		border-radius: {{ section.settings.input_border_radius }}px;
-	}
-	#shopify-section-{{ section.id }} .secondary-information {
-		border-bottom: 1px solid {{ section.settings.split_border_color }};
-	}
-	#shopify-section-{{ section.id }} select {
-		background-color: {{ section.settings.dropdown_bg_color |  default : 'transparent' }};
-		color: {{ section.settings.dropdown_text_color |  default : '#000' }};
-		border-radius: {{ section.settings.dropdown_border_radius }}px;
-		border: 1px solid {{ section.settings.dropdown_border_color |  default : 'transparent' }};
-	}
-	#shopify-section-{{ section.id }} select:hover {
-		background-color: {{ section.settings.dropdown_bg_color_hover |  default : 'transparent' }};
-		color: {{ section.settings.dropdown_text_color_hover |  default : '#000' }};
-		border: 1px solid {{ section.settings.dropdown_border_color_hover |  default : 'transparent' }};
-	}
-	#shopify-section-{{ section.id }} textarea::placeholder {
-		color: {{ section.settings.place_holder_color |  default : '#ddd' }};
-	}
-	#shopify-section-{{ section.id }} .other-tool {
-		color: {{ section.settings.other_tool_text_color |  default : '#000' }};
-		background-color: {{ section.settings.other_tool_bg_color |  default : 'transparent' }};
-		border: 1px solid {{ section.settings.other_tool_border_color |  default : 'transparent' }};
-		border-radius: {{ section.settings.other_tool_border_radius }}px;
-	}
-	#shopify-section-{{ section.id }} .other-tool:hover {
-		color: {{ section.settings.other_tool_text_color_hover |  default : '#000' }};
-		background-color: {{ section.settings.other_tool_bg_color_hover |  default : 'transparent' }};
-		border: 1px solid {{ section.settings.other_tool_border_color_hover |  default : 'transparent' }};
-	}
-  #shopify-section-{{ section.id }} .output {
-    color: {{ section.settings.result_text_color }};
-    background-color: {{ section.settings.result_bg_color }};
+  #shopify-section-{{ section.id }} .secondary-information {
+  	border-bottom: 1px solid {{ section.settings.split_border_color }};
   }
-  #shopify-section-{{ section.id }} .add-file {
-    color: {{ section.settings.add_image_button_color }};
-    background-color: {{ section.settings.add_image_button_bg_color }};
-    border-color: {{ section.settings.add_image_button_border_color }};
-    border-radius: {{ section.settings.add_image_button_border_radius }}px;
+  #shopify-section-{{ section.id }} select {
+  	background-color: {{ section.settings.dropdown_bg_color |  default : 'transparent' }};
+  	color: {{ section.settings.dropdown_text_color |  default : '#000' }};
+  	border-radius: {{ section.settings.dropdown_border_radius }}px;
+  	border: 1px solid {{ section.settings.dropdown_border_color |  default : 'transparent' }};
   }
-  #shopify-section-{{ section.id }} .add-file:hover {
-    color: {{ section.settings.add_image_button_color_hover }};
-    background-color: {{ section.settings.add_image_button_bg_color_hover }};
-    border-color: {{ section.settings.add_image_button_border_color_hover }};
+  #shopify-section-{{ section.id }} select:not([disabled]):hover {
+  	background-color: {{ section.settings.dropdown_bg_color_hover |  default : 'transparent' }};
+  	color: {{ section.settings.dropdown_text_color_hover |  default : '#000' }};
+  	border: 1px solid {{ section.settings.dropdown_border_color_hover |  default : 'transparent' }};
   }
-  #shopify-section-{{ section.id }} .query {
-    color: {{ section.settings.query_text_color }};
-    background-color: {{ section.settings.query_bg_color }};
-    border-radius: {{ section.settings.query_border_radius }}px;
+  #shopify-section-{{ section.id }} textarea::placeholder {
+  	color: {{ section.settings.place_holder_color |  default : '#ddd' }};
   }
-  @media screen and (max-width: 749px) {
-  	#shopify-section-{{ section.id }} {
-  		padding-top: {{ section.settings.mobile_padding_top }}px;
-  		padding-bottom: {{ section.settings.mobile_padding_bottom }}px;
-  	}
+  #shopify-section-{{ section.id }} .other-tool {
+  	color: {{ section.settings.other_tool_text_color |  default : '#000' }};
+  	background-color: {{ section.settings.other_tool_bg_color |  default : 'transparent' }};
+  	border: 1px solid {{ section.settings.other_tool_border_color |  default : 'transparent' }};
+  	border-radius: {{ section.settings.other_tool_border_radius }}px;
   }
+  #shopify-section-{{ section.id }} .other-tool:hover {
+  	color: {{ section.settings.other_tool_text_color_hover |  default : '#000' }};
+  	background-color: {{ section.settings.other_tool_bg_color_hover |  default : 'transparent' }};
+  	border: 1px solid {{ section.settings.other_tool_border_color_hover |  default : 'transparent' }};
+  }
+   #shopify-section-{{ section.id }} .output {
+     color: {{ section.settings.result_text_color }};
+     background-color: {{ section.settings.result_bg_color }};
+   }
+   #shopify-section-{{ section.id }} .add-file {
+     color: {{ section.settings.add_image_button_color }};
+     background-color: {{ section.settings.add_image_button_bg_color }};
+     border-color: {{ section.settings.add_image_button_border_color }};
+     border-radius: {{ section.settings.add_image_button_border_radius }}px;
+   }
+   #shopify-section-{{ section.id }} .add-file:hover {
+     color: {{ section.settings.add_image_button_color_hover }};
+     background-color: {{ section.settings.add_image_button_bg_color_hover }};
+     border-color: {{ section.settings.add_image_button_border_color_hover }};
+   }
+   #shopify-section-{{ section.id }} .query {
+     color: {{ section.settings.query_text_color }};
+     background-color: {{ section.settings.query_bg_color }};
+     border-radius: {{ section.settings.query_border_radius }}px;
+   }
+   #shopify-section-{{ section.id }} .enter-button {
+    background-color: {{ section.settings.btn_bg_color }};
+    color: {{ section.settings.btn_text_color }};
+    border-radius: {{ section.settings.button_border_radius }}px;
+   }
+   #shopify-section-{{ section.id }} .enter-button:not(.disable):hover {
+    background-color: {{ section.settings.btn_bg_color_hover }};
+    color: {{ section.settings.btn_text_color_hover }};
+   }
+   @media screen and (max-width: 749px) {
+   	#shopify-section-{{ section.id }} {
+   		padding-top: {{ section.settings.mobile_padding_top }}px;
+   		padding-bottom: {{ section.settings.mobile_padding_bottom }}px;
+   	}
+   }
 {%- endstyle -%}
 <div class="shopify-section-ai-tools page-width">
   {%- assign unique_page_data = page.metafields.custom.ai_tool.value -%}
-  <div class="output">
-    <div class="result"></div>
-    {%- if unique_page_data.loading_icon != blank -%}
-      <div class="loading-icon">
-        <img src="{{ unique_page_data.loading_icon |  img_url: '100x' }}" alt="" width="100px" height="100px">
-      </div>
-    {%- endif -%}
-  </div>
   {%- if page.title != blank -%}
     <h1 class="heading" style="color: {{ section.settings.heading_color }}">{{ page.title }}</h1>
   {%- endif -%}
   {%- if unique_page_data.sub_heading -%}
-    <h2 class="sub-heading" style="color: {{ section.settings.sub_heading_color }}">{{ unique_page_data.sub_heading }}</h2>
+    <h2 class="sub-heading" style="color: {{ section.settings.sub_heading_color }}">
+      {{ unique_page_data.sub_heading }}
+    </h2>
   {%- endif -%}
   <div class="input" pattern="{{ unique_page_data.pattern }}">
+    <div class="output">
+      <div class="result"></div>
+      {%- if unique_page_data.loading_icon != blank -%}
+        <div class="loading-icon">
+          <img src="{{ unique_page_data.loading_icon |  img_url: '100x' }}" alt="" width="100px" height="100px">
+        </div>
+      {%- endif -%}
+    </div>
     {%- if unique_page_data.image_upload -%}
-      <div class="selected-file">
-      </div>
+      <div class="selected-file"></div>
     {%- endif -%}
     <div class="secondary-information">
       <div class="language">
         <h3 class="secondary-heading">{{ section.settings.language_heading }}</h3>
         <select>
           {%- for block in section.blocks -%}
-            {%- assign language_items = block.settings.language_items | split: '|' |  sort -%}
+            {%- assign language_items = block.settings.language_items | split: '|' | sort -%}
             {%- for language_item in language_items -%}
-							{%- if language_item != '' -%}
-								<option value="{{ language_item }}" {% if section.settings.default_language == language_item %} selected {% endif %}>{{ language_item }}</option>
-							{%- endif -%}
+              {%- if language_item != '' -%}
+                <option
+                  value="{{ language_item }}"
+                  {% if section.settings.default_language == language_item %}
+                    selected
+                  {% endif %}
+                >
+                  {{ language_item }}
+                </option>
+              {%- endif -%}
             {%- endfor -%}
           {%- endfor -%}
         </select>
@@ -115,7 +132,7 @@
       </div>
       <div class="writing-style">
         <h3 class="secondary-heading">{{ section.settings.writing_style_heading }}</h3>
-        {%- assign writing_style_items = section.settings.writing_style_items |  split: '|' -%}
+        {%- assign writing_style_items = section.settings.writing_style_items | split: '|' -%}
         <select>
           {%- for writing_style_item in writing_style_items -%}
             <option value="{{ writing_style_item }}">{{ writing_style_item }}</option>
@@ -124,33 +141,32 @@
       </div>
     </div>
     <textarea placeholder="{{ unique_page_data.placeholder }}" rows="10"></textarea>
-    {%- if unique_page_data.image_upload -%}
-      <div class="add-file">
-        <input type="file" name="file" id="photo" accept="image/*">
-        {{ 'icon-plus.svg' | inline_asset_content }}
-      </div>
-    {% endif %}
+    <div class="input-footer">
+      {%- if section.settings.endter_button_text != blank -%}
+        <button class="enter-button">{{ section.settings.endter_button_text }}</button>
+      {%- endif -%}
+    </div>
   </div>
   <div class="other-tools">
-		<div class="swiper-wrapper">
-			{%- for other_tool in unique_page_data.other_tools.value -%}
-				{%- assign otherPage = pages[other_tool.link] -%}
-				<a class="other-tool swiper-slide" href="{{ otherPage.url }}">
-					{%- if other_tool.icon != blank -%}
-						<div class="icon">
-							<img src="{{ other_tool.icon |  img_url: '30x' }}" alt="" width="30px" height="auto">
-						</div>
-					{%- endif -%}
-					<span>
-						{%- if other_tool.show_text != blank -%}
-							{{ other_tool.show_text }}
-						{%- else -%}
-							{{ otherPage.title }}
-						{%- endif -%}
-					</span>
-				</a>
-			{%- endfor -%}
-		</div>
+    <div class="swiper-wrapper">
+      {%- for other_tool in unique_page_data.other_tools.value -%}
+        {%- assign otherPage = pages[other_tool.link] -%}
+        <a class="other-tool swiper-slide" href="{{ otherPage.url }}">
+          {%- if other_tool.icon != blank -%}
+            <div class="icon">
+              <img src="{{ other_tool.icon |  img_url: '30x' }}" alt="" width="30px" height="auto">
+            </div>
+          {%- endif -%}
+          <span>
+            {%- if other_tool.show_text != blank -%}
+              {{ other_tool.show_text }}
+            {%- else -%}
+              {{ otherPage.title }}
+            {%- endif -%}
+          </span>
+        </a>
+      {%- endfor -%}
+    </div>
   </div>
 </div>
 {% schema %}
@@ -164,11 +180,11 @@
       "id": "language_heading",
       "label": "Language Heading"
     },
-		{
-			"type": "text",
-			"id": "default_language",
-			"label": "Default Language"
-		},
+    {
+      "type": "text",
+      "id": "default_language",
+      "label": "Default Language"
+    },
     {
       "type": "text",
       "id": "tone_heading",
@@ -226,17 +242,17 @@
       "default": "#000000"
     },
     {
-			"type": "color",
-			"id": "input_box_shadow_color",
-			"label": "Input Box Shadow Color",
-			"default": "#000000"
-		},
-		{
-			"type": "color",
-			"id": "input_border_color",
-			"label": "Input Border Color",
-			"default": "#000000"
-		},
+      "type": "color",
+      "id": "input_box_shadow_color",
+      "label": "Input Box Shadow Color",
+      "default": "#000000"
+    },
+    {
+      "type": "color",
+      "id": "input_border_color",
+      "label": "Input Border Color",
+      "default": "#000000"
+    },
     {
       "type": "range",
       "id": "input_border_radius",
@@ -259,12 +275,12 @@
       "label": "Dropdown Text Color",
       "default": "#000000"
     },
-		{
-			"type": "color",
-			"id": "dropdown_border_color",
-			"label": "Dropdown Border Color",
-			"default": "#000000"
-		},
+    {
+      "type": "color",
+      "id": "dropdown_border_color",
+      "label": "Dropdown Border Color",
+      "default": "#000000"
+    },
     {
       "type": "color",
       "id": "dropdown_bg_color_hover",
@@ -277,12 +293,12 @@
       "label": "Dropdown Text Color when Hover",
       "default": "#000000"
     },
-		{
-			"type": "color",
-			"id": "dropdown_border_color_hover",
-			"label": "Dropdown Border Color when Hover",
-			"default": "#000000"
-		},
+    {
+      "type": "color",
+      "id": "dropdown_border_color_hover",
+      "label": "Dropdown Border Color when Hover",
+      "default": "#000000"
+    },
     {
       "type": "range",
       "id": "dropdown_border_radius",
@@ -335,16 +351,16 @@
       "label": "Other Tool Border Color when Hover",
       "default": "#000000"
     },
-		{
-			"type": "range",
-			"id": "other_tool_border_radius",
-			"min": 0,
-			"max": 100,
-			"step": 1,
-			"unit": "px",
-			"label": "Other Tool Item Border Radius",
-			"default": 0
-		},
+    {
+      "type": "range",
+      "id": "other_tool_border_radius",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "label": "Other Tool Item Border Radius",
+      "default": 0
+    },
     {
       "type": "color",
       "id": "result_bg_color",
@@ -467,6 +483,46 @@
       "step": 2,
       "unit": "px",
       "label": "Mobile Padding Bottom",
+      "default": 0
+    },
+    {
+      "type": "text",
+      "id": "endter_button_text",
+      "label": "Enter Button Text",
+      "default": "Send"
+    },
+    {
+      "type": "color",
+      "id": "btn_bg_color",
+      "label": "Button Backgound Color",
+      "default": "#fff"
+    },
+    {
+      "type": "color",
+      "id": "btn_text_color",
+      "label": "Button Text Color",
+      "default": "#000000"
+    },
+    {
+      "type": "color",
+      "id": "btn_bg_color_hover",
+      "label": "Button Background Color when Hover",
+      "default": "#fff"
+    },
+    {
+      "type": "color",
+      "id": "btn_text_color_hover",
+      "label": "Button Text Color when Hover",
+      "default": "#000"
+    },
+    {
+      "type": "range",
+      "id": "button_border_radius",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "label": "Button Border Radius",
       "default": 0
     }
   ],

@@ -80,10 +80,16 @@
         "query_bg_color": "#ececec",
         "query_text_color": "#262626",
         "query_border_radius": 12,
-        "desktop_padding_top": 10,
+        "desktop_padding_top": 40,
         "desktop_padding_bottom": 60,
-        "mobile_padding_top": 10,
-        "mobile_padding_bottom": 40
+        "mobile_padding_top": 30,
+        "mobile_padding_bottom": 40,
+        "endter_button_text": "Send",
+        "btn_bg_color": "#f4f4f4",
+        "btn_text_color": "#000000",
+        "btn_bg_color_hover": "#d2d2d2",
+        "btn_text_color_hover": "#000",
+        "button_border_radius": 4
       }
     }
   },

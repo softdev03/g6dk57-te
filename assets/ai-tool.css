@@ -52,7 +52,9 @@
 	appearance: none;
 	color: inherit;
 }
-
+.shopify-section-ai-tools .secondary-information select[disabled] {
+	cursor: not-allowed;
+}
 .shopify-section-ai-tools .secondary-information select:focus {
 	outline: none;
 	box-shadow: none;
@@ -201,25 +203,25 @@
 }
 
 .shopify-section-ai-tools:has(.sub-heading) .output {
-	max-height: calc(100vh - 535px);
-	min-height: calc(100vh - 535px);
+	max-height: calc(100vh - 580px);
 }
 
 .shopify-section-ai-tools .output {
-	max-height: calc(100vh - 500px);
-	min-height: calc(100vh - 500px);
+	max-height: calc(100vh - 515px);
 	overflow: auto;
 	margin-bottom: 10px;
-	padding: 10px 0px;
 	position: relative;
-	padding-right: 4px;
-	padding-left: 20px;
-	padding-right: 20px;
+	padding: 10px 20px 0px 20px;
+}
+
+.shopify-section-ai-tools:not(.generating) .output:has(.result:empty) {
+	display: none;
 }
 
 .shopify-section-ai-tools .output::-webkit-scrollbar {
 	width: 5px;
 	background-color: #ddd;
+	border-radius: 10px;
 }
 
 .shopify-section-ai-tools .output::-webkit-scrollbar-thumb {
@@ -227,15 +229,28 @@
 	border-radius: 10px;
 }
 
+.shopify-section-ai-tools .input-footer {
+	display: flex;
+	justify-content: flex-end;
+}
+
+.shopify-section-ai-tools .enter-button {
+	border: none;
+	padding: 10px 40px;
+	cursor: pointer;
+}
+.shopify-section-ai-tools .enter-button.disable {
+	opacity: 0.6;
+	cursor: not-allowed
+}
+
 @media screen and (max-width: 749px) {
 	.shopify-section-ai-tools:has(.sub-heading) .output {
 
-		max-height: calc(100vh - 510px);
-		min-height: calc(100vh - 510px);
+		max-height: calc(100vh - 570px);
 	}
 
 	.shopify-section-ai-tools .output {
-		max-height: calc(100vh - 392px);
-		min-height: calc(100vh - 392px);
+		max-height: calc(100vh - 480px);
 	}
 }

@@ -1,5 +1,5 @@
 const APIKEY = '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';
-const fuckingStrings = ['"```html"','"```"',"introduction","overview","brief","items", "index"];
+const fuckingStrings = ['"```html"', '"```"', "introduction", "overview", "brief", "items", "index"];
 const model = 'gpt-4o-mini';
 // const model = 'gpt-4o-realtime-preview';
 const additionalPattern = `
@@ -37,6 +37,7 @@ document.addEventListener('DOMContentLoaded', () => {
 		const generatedResult = output.querySelector('.output .result');
 		const selectedImage = aiToolSection.querySelector('.selected-file');
 		const fileInput = aiToolSection.querySelector('#photo');
+		const enterButton = aiToolSection.querySelector('.enter-button');
 
 		input.removeAttribute('pattern');
 
@@ -45,40 +46,48 @@ document.addEventListener('DOMContentLoaded', () => {
 		let tone = toneSelect.value;
 		let selectedImagePath = '';
 
+		const generateResult = () => {
+			if(inputArea.value === '') {
+				return;
+			}
+			aiToolSection.classList.add('generating');
+			enterButton.classList.add('disable');
+			inputArea.setAttribute('readonly', true);
+			writingStyleSelect.setAttribute('disabled', true);
+			toneSelect.setAttribute('disabled', true);
+			languageSelect.setAttribute('disabled', true);
+			fileInput?.setAttribute('disabled', true);
+			let oldHeight = generatedResult.scrollHeight
+			output.scrollTo({ top: oldHeight, behavior: 'smooth' });
+			generateText(pattern, language, tone, writingStyle, inputArea.value).then((generatedValue) => {
+				aiToolSection.classList.remove('generating');
+				inputArea.removeAttribute('readonly');
+				writingStyleSelect.removeAttribute('disabled');
+				toneSelect.removeAttribute('disabled');
+				languageSelect.removeAttribute('disabled');
+				fileInput?.removeAttribute('disabled');
+				let content = '';
+				for (const choice of generatedValue.choices) {
+					content += wrapText(choice.message.content);
+				}
+				if (generatedResult.innerHTML !== '') {
+					oldHeight += 20;
+				}
+				generatedResult.innerHTML += `
+							<div class="query">${inputArea.value.replace(/\n/g, '<br />')}</div>
+							${content}
+						`;
+				output.scrollTo({ top: oldHeight, behavior: 'smooth' });
+				inputArea.value = '';
+				enterButton.classList.remove('disable');
+			}).catch((error) => {
+				console.log(error);
+			});
+		}
 		inputArea.addEventListener('keypress', (e) => {
 			if (e.key === 'Enter' && !e.shiftKey && !e.ctrlKey) {
-				aiToolSection.classList.add('generating');
-				inputArea.setAttribute('readonly',true);
-				writingStyleSelect.setAttribute('disabled',true);
-				toneSelect.setAttribute('disabled',true);
-				languageSelect.setAttribute('disabled',true);
-				fileInput?.setAttribute('disabled',true);
-				let oldHeight = generatedResult.scrollHeight
-				output.scrollTo({top: oldHeight, behavior: 'smooth'});
-				generateText(pattern, language, tone, writingStyle, inputArea.value).then((generatedValue) => {
-					e.preventDefault();
-					aiToolSection.classList.remove('generating');
-					inputArea.removeAttribute('readonly');
-					writingStyleSelect.removeAttribute('disabled');
-					toneSelect.removeAttribute('disabled');
-					languageSelect.removeAttribute('disabled');
-					fileInput?.removeAttribute('disabled');
-					let content = '';
-					for (const choice of generatedValue.choices) {
-						content += wrapText(choice.message.content);
-					}
-					if(generatedResult.innerHTML !== '') {
-						oldHeight += 20;
-					}
-					generatedResult.innerHTML +=  `
-						<div class="query">${inputArea.value.replace(/\n/g,'<br />')}</div>
-						${content}
-					`;
-					output.scrollTo({top: oldHeight, behavior: 'smooth'});
-					inputArea.value = '';
-				}).catch((error) => {
-					console.log(error);
-				});
+				e.preventDefault();
+				generateResult();
 			}
 		});
 		languageSelect.addEventListener('change', () => {
@@ -90,11 +99,17 @@ document.addEventListener('DOMContentLoaded', () => {
 		toneSelect.addEventListener('change', () => {
 			tone = toneSelect.value;
 		});
-		fileInput?.addEventListener('change',()=>{
-			if(fileInput.value !== '') {
+		fileInput?.addEventListener('change', () => {
+			if (fileInput.value !== '') {
 				selectedImage.innerHTML = `<img src="${fileInput.value}" />`;
 				selectedImagePath = fileInput.value;
 			}
+		});
+		enterButton?.addEventListener('click',()=>{
+			if(enterButton.classList.contains('disable')) {
+				return;
+			}
+			generateResult();
 		});
 	}
 });
@@ -112,7 +127,6 @@ const generateText = (pattern, language, tone, writingStyle, inputText) => {
 			newPattern = pattern.replace('[pattern]', inputText).replace('[tone]', tone);
 			newPattern += additionalPattern.replace('[language]', language).replace('[writing style]', writingStyle);
 		}
-		console.log(newPattern);
 		fetch(' https://api.openai.com/v1/chat/completions', {
 			method: 'POST',
 			headers: {
@@ -136,9 +150,9 @@ const generateText = (pattern, language, tone, writingStyle, inputText) => {
 	});
 }
 const wrapText = (text) => {
-	const textItems = text.replace(/`/g,'').replace(/html/g,'').split('\n');
-	for (const [index,textItem] of textItems.entries()) {
-		if(textItem.indexOf('<') === -1 && textItem.indexOf('>') === -1 && textItem.indexOf('</') === -1 && textItem.trim() !== '') {
+	const textItems = text.replace(/`/g, '').replace(/html/g, '').split('\n');
+	for (const [index, textItem] of textItems.entries()) {
+		if (textItem.indexOf('<') === -1 && textItem.indexOf('>') === -1 && textItem.indexOf('</') === -1 && textItem.trim() !== '') {
 			textItems[index] = `<span>${textItem}</span>`;
 		}
 	}
