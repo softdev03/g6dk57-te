@@ -23,6 +23,7 @@
 .shopify-section-advertise .main-image {
   width: 100%;
   height: auto;
+  max-width: 400px;
 }
 
 .shopify-section-advertise .secondary-image {

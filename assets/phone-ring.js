@@ -3,16 +3,16 @@ document.addEventListener('DOMContentLoaded', () => {
   if (phoneRings.length > 0) {
     phoneRings.forEach(phoneRing => {
       const rect = phoneRing.getBoundingClientRect();
-      setupInitTop(phoneRing.querySelector('img'),rect);
+      setupInitTop(phoneRing.querySelector('img.desktop'),rect);
     });
     document.addEventListener('scroll', () => {
       phoneRings.forEach(phoneRing => {
         const rect = phoneRing.getBoundingClientRect();
         if (isInScreen(rect)) {
           if (rect.top < 0) {
-            phoneRing.querySelector('img').style.top = `${rect.top}px`;
+            phoneRing.querySelector('img.desktop').style.top = `${rect.top}px`;
           } else if (rect.bottom > window.innerHeight) {
-            phoneRing.querySelector('img').style.top = `${(rect.bottom - window.innerHeight)}px`;
+            phoneRing.querySelector('img.desktop').style.top = `${(rect.bottom - window.innerHeight)}px`;
           }
         }
       });

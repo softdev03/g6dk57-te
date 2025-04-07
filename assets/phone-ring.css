@@ -85,8 +85,15 @@
   position: relative;
   transition: all .1s;
 }
-
+@media screen and (min-width: 750px) {
+  .shopify-section-phone-ring .image img.mobile {
+    display: none;
+  }
+}
 @media screen and (max-width: 749px) {
+  .shopify-section-phone-ring .image img.desktop {
+    display: none;
+  }
   .shopify-section-phone-ring .text-content {
     width: 100%;
     row-gap: 15px;

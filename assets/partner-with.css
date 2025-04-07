@@ -25,10 +25,15 @@
   overflow: hidden;
   display: flex;
   align-items: center;
+  cursor: pointer;
 }
 .shopify-section-partner-with .image img {
   width: 100%;
   height: auto;
+  transition: all .2s;
+}
+.shopify-section-partner-with .image img:hover {
+  transform: scale(1.05);
 }
 
 @media screen and (max-width: 1023px) {

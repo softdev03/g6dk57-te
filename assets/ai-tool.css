@@ -202,12 +202,8 @@
 	display: none;
 }
 
-.shopify-section-ai-tools:has(.sub-heading) .output {
-	max-height: calc(100vh - 580px);
-}
-
 .shopify-section-ai-tools .output {
-	max-height: calc(100vh - 515px);
+	max-height: 500px;
 	overflow: auto;
 	margin-bottom: 10px;
 	position: relative;
@@ -245,12 +241,7 @@
 }
 
 @media screen and (max-width: 749px) {
-	.shopify-section-ai-tools:has(.sub-heading) .output {
-
-		max-height: calc(100vh - 570px);
-	}
-
 	.shopify-section-ai-tools .output {
-		max-height: calc(100vh - 480px);
+		max-height: 360px;
 	}
 }

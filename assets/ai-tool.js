@@ -80,6 +80,13 @@ document.addEventListener('DOMContentLoaded', () => {
 				output.scrollTo({ top: oldHeight, behavior: 'smooth' });
 				inputArea.value = '';
 				enterButton.classList.remove('disable');
+
+				const inputRect = input.getBoundingClientRect();
+				if(inputRect.bottom > window.innerHeight) {
+					const dif = inputRect.bottom - window.innerHeight;
+					const currentScrollTop = document.documentElement.scrollTop;
+					document.documentElement.scrollTo({top: currentScrollTop + dif, behavior: 'smooth'});
+				}
 			}).catch((error) => {
 				console.log(error);
 			});

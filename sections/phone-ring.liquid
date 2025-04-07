@@ -44,7 +44,8 @@
   </div>
   {%- if section.settings.image != blank -%}
     <div class="image lh-0">
-      <img src="{{ section.settings.image |  img_url: '800x' }}" alt="" width="800px" height="auto">
+      <img class="desktop" src="{{ section.settings.image |  img_url: '800x' }}" alt="" width="800px" height="auto">
+      <img class="mobile" src="{{ section.settings.image |  img_url: '800x' }}" alt="" width="800px" height="auto">
     </div>
   {%- endif -%}
 </div>
