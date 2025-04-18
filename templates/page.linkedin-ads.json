@@ -12,10 +12,10 @@
     "advertise_xMT9mA": {
       "type": "advertise",
       "settings": {
-        "main_image": "shopify://shop_images/seo-for-trades.webp",
+        "main_image": "shopify://shop_images/AnAgencyLinkedInAds02.png",
         "secondary_image": "shopify://shop_images/get-found-on-the-web-right.svg",
         "secondary_image_roate_angle": 8,
-        "desktop_left": -90,
+        "desktop_left": -115,
         "desktop_top": -1,
         "desktop_right": -1,
         "desktop_bottom": 20,
@@ -23,14 +23,14 @@
         "mobile_top": -1,
         "mobile_right": -1,
         "mobile_bottom": -26,
-        "heading": "Websites and Marketing For Tradies",
-        "sub_heading": "How An Agency Helps You Stand Out Online",
-        "text": "<p>If you're like most tradies, landing small jobs isn’t the problem—your phone’s always buzzing. The real challenge is scoring those bigger, high-paying gigs. Residential and commercial contracts need a different approach since the folks who care more about quality than price aren’t easy to reach.</p><p>Let's be real: the bigger players are nabbing those top jobs before you even get a shot.</p><p>If you’re an electrician aiming for steady, well-paid work, getting online is a must. A solid website and smart marketing plan boost your brand, draw in quality leads, free you from third-party platforms, and even make your business more valuable.</p><p>An Agency is here to help you connect with more customers through our all-in-one website, branding, and marketing services for electricians.</p>",
-        "button_link": "#",
+        "heading": "LinkedIn Ads Built For Business Growth",
+        "sub_heading": "For B2B Companies, Tradies & Agencies Ready To Reach Decision Makers",
+        "text": "<p>If your customers wear boots or blazers, LinkedIn is where they’re lurking. Unlike Facebook or Insta, LinkedIn’s not just social—it’s strategic. You’re not advertising to random scrollers—you’re showing up in front of business owners, project managers, builders, CEOs, and procurement leads who can greenlight serious work.</p><p>At An Agency, we use LinkedIn Ads to help local businesses crack into commercial markets, win more tenders, and get past the gatekeepers. Whether you want to promote a service, drive enquiries, or get your brand in front of the right eyeballs, we build campaigns with clear goals and commercial intent.</p><p>No fluff. Just leads worth chasing.</p><p></p>",
+        "button_link": "shopify://pages/contact",
         "button_text": "Speak To Our Team",
         "image_right": false,
         "text_align": "left",
-        "background_color": "#aeddf9",
+        "background_color": "#ffffff",
         "desktop_padding_top": 60,
         "desktop_padding_bottom": 60,
         "mobile_padding_top": 40,
@@ -40,15 +40,15 @@
     "phone_ring_MzFcJr": {
       "type": "phone-ring",
       "settings": {
-        "image": "shopify://shop_images/MTS-Incoming-Call_png.webp",
-        "heading_1": "We Make",
-        "heading_2": "Your Phone Ring.",
-        "sub_heading": "We’re here for tradies who want less hassle and more enquiries.",
+        "image": "shopify://shop_images/AnAgencyLinkedInAds03.png",
+        "heading_1": "We Make LinkedIn",
+        "heading_2": "Work for You.",
+        "sub_heading": "For B2B brands that want more than just impressions",
         "text": "For business owners who need real action and proven know-how—not endless plans and empty promises.And for companies looking for solid growth instead of uncertain results.If you're serious about digital marketing that really works for your trade business, let's have a chat.",
         "phone_button_text": "0499226600",
         "phone_number": "0499226600",
         "enquire_button_text": "Enquire Now",
-        "enquire_button_link": "#",
+        "enquire_button_link": "shopify://pages/contact",
         "image_right": true,
         "text_align": "left",
         "desktop_padding_top": 100,
@@ -60,8 +60,7 @@
     "advertise_KLNL33": {
       "type": "advertise",
       "settings": {
-        "main_image": "shopify://shop_images/get-more-leads-for-your-trade.webp",
-        "secondary_image": "shopify://shop_images/this-could-be-you.svg",
+        "main_image": "shopify://shop_images/AnAgencyLinkedInAds04.png",
         "secondary_image_roate_angle": 8,
         "desktop_left": -80,
         "desktop_top": -1,
@@ -87,6 +86,7 @@
     },
     "advertise_qQYPyj": {
       "type": "advertise",
+      "disabled": true,
       "settings": {
         "main_image": "shopify://shop_images/google-ads-for-tradies-australia.webp",
         "secondary_image": "shopify://shop_images/google-ads-for-tradies-text.svg",
@@ -99,14 +99,14 @@
         "mobile_top": -25,
         "mobile_right": 0,
         "mobile_bottom": -1,
-        "heading": "Advertising Solutions For Aussie Tradesmen",
-        "sub_heading": "Profitable advertising that works",
-        "text": "<p>For local tradesmen, targeting the right people with your ads is crucial. You don't want to waste your budget or attract clients who aren't the right fit for your services.</p><p>At An Agency, we use hyper-focused targeting in our campaigns because we know the Aussie market inside-out. We set the right parameters so you only spend money where it counts.</p><p>We'll manage your ad campaigns by keeping a close eye on progress and fine-tuning your ads to get the most bang for your buck. Get found in just a few clicks, land high-paying jobs, and be there when urgent requests come in—all thanks to targeted ads.</p>",
-        "button_link": "#",
+        "heading": "B2B Marketing That Actually Moves the Needle",
+        "sub_heading": "How An Agency Helps You Get in Front of Decision Makers",
+        "text": "<p>LinkedIn is where business gets done—but only if you know how to use it right. We build ad funnels that speak to people with budgets, authority, and a real need for what you offer. No random clicks. No wasted budget. Just focused campaigns that spark actual conversations.</p><p>You might be targeting business owners, operations managers, or procurement teams—we tailor your LinkedIn campaigns around how your customers buy, not just who they are on paper.</p>",
+        "button_link": "shopify://pages/contact",
         "button_text": "Help Grow My Business",
         "image_right": true,
         "text_align": "left",
-        "background_color": "#aeddf9",
+        "background_color": "#ffffff",
         "desktop_padding_top": 60,
         "desktop_padding_bottom": 60,
         "mobile_padding_top": 40,
@@ -119,30 +119,30 @@
         "trust_item_KtaqTQ": {
           "type": "trust_item",
           "settings": {
-            "heading": "Decades of experience",
-            "main_text": "<p>Our team of web experts has spent decades in the game, building websites that don’t just look good—they perform. We’ve seen trends come and go, and we know what works.</p><p></p>",
-            "button_text": "Read More",
-            "additional_text": "<p>…We bring this deep experience and understanding of the ever-changing web design industry to every project, making sure your website is built to get results.</p>",
+            "heading": "Real Strategy. No Guesswork.",
+            "main_text": "<p>We don’t throw up ads and hope for the best. Every campaign is backed by research, tailored messaging, and clear targeting. You’ll know what’s running, why it’s running, and how it’s performing.</p><p></p><p></p>",
+            "button_text": "",
+            "additional_text": "",
             "accordion_image": "shopify://shop_images/yellow-arrow.svg"
           }
         },
         "trust_item_YFytD9": {
           "type": "trust_item",
           "settings": {
-            "heading": "We get you, mate",
-            "main_text": "<p>Our website packages are built specifically for Aussie tradies. We know the industry, we know your market, and we know what makes customers pick up the phone.</p><p></p>",
-            "button_text": "Read More",
-            "additional_text": "<p>…Your best clients want to see a business that looks professional, with clear information and high-quality visuals. We make sure your website ticks all the right boxes. With decades of experience building sites for tradies, we know what works.</p>",
+            "heading": "Built for B2B, Not Boring to Boring.",
+            "main_text": "<p>LinkedIn is full of dull, robotic ads. We don’t do that. Your brand will stand out with content that speaks human—while still hitting every strategic checkbox your buyers care about.</p><p></p><p></p>",
+            "button_text": "",
+            "additional_text": "",
             "accordion_image": "shopify://shop_images/yellow-arrow.svg"
           }
         },
         "trust_item_JfVUzV": {
           "type": "trust_item",
           "settings": {
-            "heading": "100% Aussie",
-            "main_text": "<p>We’re proudly Australian-owned and operated, working exclusively with local businesses. We believe in keeping it local and supporting Aussie tradies.</p><p></p>",
-            "button_text": "Read More",
-            "additional_text": "<p>…An Agency handles everything—design, content, and site upkeep—so you don’t have to stress. Your website will be built specifically for your trade, industry, and the local market.</p><p>We’ll create a site that looks great, is easy to use, and is optimised to rank high in search results—so more customers find you and reach out for a quote.</p>",
+            "heading": "You’ll Be Seen by the Right People.",
+            "main_text": "<p>We zero in on your ideal customers—job titles, industries, company sizes, and more—so you're not wasting a cent talking to the wrong crowd.</p><p></p>",
+            "button_text": "",
+            "additional_text": "",
             "accordion_image": "shopify://shop_images/yellow-arrow.svg"
           }
         }
@@ -153,9 +153,9 @@
         "trust_item_JfVUzV"
       ],
       "settings": {
-        "heading": "An Agency: An Australian Web Design Company You Can Trust",
-        "text": "<p>With so many website developers and designers out there, you might ask, why us? Maybe you could even build it yourself. But let’s be honest—that’s probably the last thing you want to do. Even those DIY website builders miss the mark on the technical details, not to mention understanding the unique needs of the trades industry.</p><p>That’s where An Agency comes in. We know what it takes to create a website that not only looks great but also works for tradies. We get the trade business and the hard work you put in every day. No need to be modest about it—here’s what sets us apart.</p>",
-        "trust_image": "shopify://shop_images/review-bar-green.svg",
+        "heading": "Why LinkedIn Ads with An Agency Just Work",
+        "text": "<p>We don’t just run ads. We build strategic LinkedIn campaigns that cut through the corporate noise and actually reach the people who matter—CEOs, marketing managers, procurement leads, decision-makers. Whether you're after high-value B2B leads, partnership opportunities, or talent, our campaigns are built to connect you with the right professionals at the right time—with none of the fluff and all of the intent.</p>",
+        "trust_image": "shopify://shop_images/Artboard_13.png",
         "desktop_padding_top": 60,
         "desktop_padding_bottom": 60,
         "mobile_padding_top": 40,
@@ -164,6 +164,7 @@
     },
     "advertise_PAQGf7": {
       "type": "advertise",
+      "disabled": true,
       "settings": {
         "main_image": "shopify://shop_images/website-design-and-dev-for-tradies.png",
         "secondary_image": "shopify://shop_images/get-the-work-you-want.svg",
@@ -192,6 +193,7 @@
     },
     "advertise_DnFdqE": {
       "type": "advertise",
+      "disabled": true,
       "settings": {
         "main_image": "shopify://shop_images/Web-Designs-for-trades.png",
         "secondary_image_roate_angle": 12,
@@ -219,6 +221,7 @@
     },
     "advertise_JebRqW": {
       "type": "advertise",
+      "disabled": true,
       "settings": {
         "main_image": "shopify://shop_images/email-marketing-for-tradies-edm.webp",
         "secondary_image": "shopify://shop_images/get-new-customers.svg",
@@ -323,6 +326,7 @@
         "tradies_item_6qHYz4",
         "tradies_item_tDB4YR"
       ],
+      "disabled": true,
       "settings": {
         "heading": "Tradies we work with",
         "text": "Looking for an affordable and effective web design service for your trade business in Australia? We’ve got you.",
@@ -338,98 +342,98 @@
         "faq_item_rrnAHz": {
           "type": "faq_item",
           "settings": {
-            "question": "What experience does An Agency have working with tradesmen?",
-            "answer": "<p>As a team led by an ex-tradesman, we understand the unique challenges and needs of the trade industry. We've successfully partnered with numerous Australian tradies, delivering tailored website designs, effective SEO strategies, and targeted paid advertising campaigns that generate quality leads.</p>",
+            "question": "How much should I budget for LinkedIn Ads?",
+            "answer": "<p>LinkedIn Ads typically cost more per click than platforms like Facebook or Google. However, you're paying to reach a highly targeted professional audience. Starting with a daily budget of $50–$100 is common, but the ideal amount depends on your goals and industry. Remember, quality leads often come at a premium.​</p><p></p>",
             "icon": "shopify://shop_images/yellow-arrow.svg"
           }
         },
-        "faq_item_AdgFRX": {
+        "faq_item_WTif9E": {
           "type": "faq_item",
           "settings": {
-            "question": "How long does it take to see results from SEO efforts?",
-            "answer": "<p>SEO is a long-term investment. While some improvements can be seen within a few months, it typically takes 6 to 12 months to achieve significant results. Our team implements proven strategies to enhance your online visibility and attract the right clients over time.</p>",
+            "question": "What types of businesses benefit most from LinkedIn Ads?",
+            "answer": "<p>Businesses targeting professionals, decision-makers, or other businesses (B2B) see the most success. Industries like software, consulting, education, and professional services often find LinkedIn Ads particularly effective.​</p><p></p><p></p>",
             "icon": "shopify://shop_images/yellow-arrow.svg"
           }
         },
-        "faq_item_E6VP9h": {
+        "faq_item_i8T9ac": {
           "type": "faq_item",
           "settings": {
-            "question": "Will I have a dedicated point of contact at An Agency?",
-            "answer": "<p>Absolutely. We assign a dedicated account manager to each client, ensuring clear communication and personalized service. Your account manager will keep you updated on progress, answer your questions, and ensure your marketing goals are met.</p>",
+            "question": "How does LinkedIn's ad auction work?",
+            "answer": "<p>LinkedIn uses an auction system where your bid and the relevance of your ad determine whether it's shown. Even with a lower bid, a highly relevant ad can win the auction, making quality content crucial.</p><p></p><p></p>",
             "icon": "shopify://shop_images/yellow-arrow.svg"
           }
         },
-        "faq_item_akFz96": {
+        "faq_item_FzV4ax": {
           "type": "faq_item",
           "settings": {
-            "question": "Do you provide regular reports on campaign performance?",
-            "answer": "<p>Yes, transparency is key to our approach. We provide detailed monthly reports outlining the performance of your website, SEO, and advertising campaigns. These reports include key metrics and insights to keep you informed and confident in our services.</p>",
+            "question": "Can I target specific companies or job titles?",
+            "answer": "<p>Absolutely. LinkedIn's targeting allows you to focus on specific companies, industries, job titles, seniority levels, and more. This precision helps ensure your ads reach the most relevant audience.</p><p></p><p></p>",
             "icon": "shopify://shop_images/yellow-arrow.svg"
           }
         },
-        "faq_item_jdQR46": {
+        "faq_item_NAFgi3": {
           "type": "faq_item",
           "settings": {
-            "question": "Can you guarantee specific results with your services?",
-            "answer": "<p>No agency can promise exact rankings or lead numbers—but here’s what we can guarantee: if you don’t get any leads, inquiries, or phone calls in the first 30 days, we’ll refund your marketing money, no questions asked. That’s how confident we are in what we do.We’re not just making bold claims—we have the track record to back it up. We have never worked with a tradie who didn’t get inquiries or phone calls within their first 30 days. In most cases, you’ll start seeing results within the first two weeks, and it only gets better from there as the algorithm learns and optimizes.We don’t just set up campaigns—we build systems that bring in real work.</p>",
+            "question": "What's the best ad format for lead generation?",
+            "answer": "<p>LinkedIn's Lead Gen Forms are highly effective. They allow users to submit their information directly within the platform, reducing friction and increasing conversion rates.​</p><p></p><p></p>",
             "icon": "shopify://shop_images/yellow-arrow.svg"
           }
         },
-        "faq_item_nyFTVE": {
+        "faq_item_jtx36a": {
           "type": "faq_item",
           "settings": {
-            "question": "What ongoing support does An Agency offer?",
-            "answer": "<p>We offer continuous support to ensure your marketing efforts remain effective. This includes regular performance reviews, updates to your website and campaigns as needed, and ongoing consultation to adapt strategies in line with your business goals.Partner with An Agency and experience the difference that a confident, knowledgeable, and dedicated marketing team can make for your trade business.</p>",
+            "question": "How do I track conversions from my LinkedIn Ads?",
+            "answer": "<p>By installing the LinkedIn Insight Tag on your website, you can track conversions, retarget visitors, and gain insights into your audience's behavior. This data is invaluable for optimizing your campaigns.</p><p></p><p></p>",
             "icon": "shopify://shop_images/yellow-arrow.svg"
           }
         },
-        "faq_item_XN9Db9": {
+        "faq_item_hU3EcD": {
           "type": "faq_item",
           "settings": {
-            "question": "How do you ensure the quality of leads generated?",
-            "answer": "<p>Through precise targeting, compelling ad copy, and strategic SEO practices, we attract clients who are actively seeking your services. Our approach focuses on quality over quantity, ensuring the leads generated are a good fit for your business.</p>",
+            "question": "Should I use automated bidding or manual bidding?",
+            "answer": "<p>Both have their merits. Automated bidding simplifies the process and is great for beginners. Manual bidding offers more control and can be more cost-effective if you have the expertise to manage it.​</p><p></p><p></p><p></p>",
             "icon": "shopify://shop_images/yellow-arrow.svg"
           }
         },
-        "faq_item_C7MHEi": {
+        "faq_item_i9yU8a": {
           "type": "faq_item",
           "settings": {
-            "question": "What types of paid advertising do you manage?",
-            "answer": "<p>We manage various paid advertising channels, including Google Ads, social media advertising (Facebook, Instagram), and display advertising. Our team develops targeted campaigns to reach your ideal clients, maximize your return on investment, and keep your phone ringing with new business.</p>",
+            "question": "How important is ad creative on LinkedIn?",
+            "answer": "<p>Very. Your ad's visual and copy need to resonate with a professional audience. Clear messaging, strong visuals, and a compelling call-to-action can significantly impact performance.​</p><p></p><p></p><p></p>",
             "icon": "shopify://shop_images/yellow-arrow.svg"
           }
         },
-        "faq_item_Htp8HR": {
+        "faq_item_gnkcaP": {
           "type": "faq_item",
           "settings": {
-            "question": "How do you approach website design for tradesmen?",
-            "answer": "<p>We create custom, responsive websites that reflect your brand and appeal to your target audience. Our designs are user-friendly, mobile-optimized, and built with SEO best practices to ensure your site ranks well and converts visitors into clients.</p>",
+            "question": "Can I run video ads on LinkedIn?",
+            "answer": "<p>Yes. Video ads can be highly engaging and are effective for storytelling, product demonstrations, or sharing customer testimonials. Keep them concise and relevant to your target audience.</p><p></p><p></p><p></p>",
             "icon": "shopify://shop_images/yellow-arrow.svg"
           }
         },
-        "faq_item_Fb4Rdq": {
+        "faq_item_Fbaqnw": {
           "type": "faq_item",
           "settings": {
-            "question": "What sets An Agency apart from other marketing agencies?",
-            "answer": "<p>Our deep understanding of the trades industry, combined with our comprehensive service offerings—including website design, SEO, and paid advertising—sets us apart. Being Australian-owned and operated, we know the local market and are dedicated to helping fellow Aussie tradies succeed.</p>",
+            "question": "How long does it take to see results from LinkedIn Ads?",
+            "answer": "<p>It varies. Some campaigns see immediate engagement, while others may take weeks to optimize. Consistent monitoring and tweaking are key to long-term success.</p><p></p><p></p><p></p>",
             "icon": "shopify://shop_images/yellow-arrow.svg"
           }
         }
       },
       "block_order": [
         "faq_item_rrnAHz",
-        "faq_item_AdgFRX",
-        "faq_item_E6VP9h",
-        "faq_item_akFz96",
-        "faq_item_jdQR46",
-        "faq_item_nyFTVE",
-        "faq_item_XN9Db9",
-        "faq_item_C7MHEi",
-        "faq_item_Htp8HR",
-        "faq_item_Fb4Rdq"
+        "faq_item_WTif9E",
+        "faq_item_i8T9ac",
+        "faq_item_FzV4ax",
+        "faq_item_NAFgi3",
+        "faq_item_jtx36a",
+        "faq_item_hU3EcD",
+        "faq_item_i9yU8a",
+        "faq_item_gnkcaP",
+        "faq_item_Fbaqnw"
       ],
       "settings": {
-        "heading": "Frequently Asked Questions",
+        "heading": "LinkedIn Ads FAQs",
         "bg_color": "#f9f9f9",
         "max_width": 684,
         "desktop_padding_top": 60,
@@ -444,14 +448,21 @@
         "partner_item_Am8rMX": {
           "type": "partner_item",
           "settings": {
-            "image": "shopify://shop_images/semrush-agency-partner.webp",
+            "image": "shopify://shop_images/shopify-partner-logo.jpg",
             "link": "#"
           }
         },
         "partner_item_gQr6pr": {
           "type": "partner_item",
           "settings": {
-            "image": "shopify://shop_images/Tradify.webp",
+            "image": "shopify://shop_images/google_partner.png",
+            "link": ""
+          }
+        },
+        "partner_item_gizEVP": {
+          "type": "partner_item",
+          "settings": {
+            "image": "shopify://shop_images/tiktokpartners.webp",
             "link": ""
           }
         },
@@ -462,24 +473,17 @@
             "link": ""
           }
         },
-        "partner_item_gizEVP": {
+        "partner_item_ppj4Q9": {
           "type": "partner_item",
           "settings": {
-            "image": "shopify://shop_images/evnex-partner.webp",
+            "image": "shopify://shop_images/meta-for-business-partner.webp",
             "link": ""
           }
         },
         "partner_item_nMMzBY": {
           "type": "partner_item",
           "settings": {
-            "image": "shopify://shop_images/google-partner.webp",
-            "link": ""
-          }
-        },
-        "partner_item_ppj4Q9": {
-          "type": "partner_item",
-          "settings": {
-            "image": "shopify://shop_images/meta-for-business-partner.webp",
+            "image": "shopify://shop_images/bingads.png",
             "link": ""
           }
         }
@@ -487,14 +491,14 @@
       "block_order": [
         "partner_item_Am8rMX",
         "partner_item_gQr6pr",
-        "partner_item_peizWL",
         "partner_item_gizEVP",
-        "partner_item_nMMzBY",
-        "partner_item_ppj4Q9"
+        "partner_item_peizWL",
+        "partner_item_ppj4Q9",
+        "partner_item_nMMzBY"
       ],
       "settings": {
         "heading": "Partnered With",
-        "bg_color": "#fbfbfb",
+        "bg_color": "#ffffff",
         "desktop_card_border_radius": 10,
         "mobile_card_border_radius": 6,
         "desktop_padding_top": 30,

@@ -1,0 +1,408 @@
+{{ 'pricing-new.css' | asset_url | stylesheet_tag }}
+{%- style -%}
+   #shopify-section-{{ section.id }} {
+   	background-color: {{ section.settings.bg_color |  default : 'transparent' }};
+   	padding-top: {{ section.settings.desktop_padding_top }}px;
+   	padding-bottom: {{ section.settings.desktop_padding_bottom }}px;
+   }
+  #shopify-section-{{ section.id }} .tab-header {
+  	background-color: {{ section.settings.tab_bg_color |  default : 'transparent' }};
+  	color: {{ section.settings.tab_text_color |  default : 'transparent' }};
+  }
+  #shopify-section-{{ section.id }} .tab-header-item.selected {
+  	color: {{ section.settings.tab_text_color_selected |  default : 'transparent' }};
+  }
+  #shopify-section-{{ section.id }} .tab-thumb {
+  	background-color: {{ section.settings.tab_bg_color_selected |  default : 'transparent' }};
+	}
+	#shopify-section-{{ section.id }} .tab-content {
+		gap: {{ section.settings.desktop_gap }}px;
+	}
+  #shopify-section-{{ section.id }} .pricing-item {
+  	min-width: calc((100% - {{ section.settings.desktop_gap }}px) / 3);
+  	border: 1px solid {{ section.settings.card_border_color |  default : 'transparent' }};
+  	border-radius: {{ section.settings.card_border_radius }}px;
+  	color: {{ section.settings.card_text_color |  default : 'transparent' }};
+  	background-color: {{ section.settings.card_bg_color |  default : 'transparent' }};
+  }
+	#shopify-section-{{ section.id }} .pricing-item:has(.highlight) {
+		border-left-color: {{ section.settings.badge_bg_color }};
+		border-bottom-color: {{ section.settings.badge_bg_color }};
+		border-right-color: {{ section.settings.badge_bg_color }};
+		border-top-left-radius: 0px;
+		border-top-right-radius: 0px;
+	}
+	#shopify-section-{{ section.id }} .pricing-item:has(.secondary-description ) .main-description {
+		border-bottom: 1px solid {{ section.settings.card_border_color |  default : 'transparent' }};
+	}
+  #shopify-section-{{ section.id }} .link {
+  	background-color: {{ section.settings.card_link_bg_color |  default : 'transparent' }};
+  	color: {{ section.settings.card_link_text_color |  default : 'transparent' }};
+  }
+  #shopify-section-{{ section.id }} .link:hover {
+  	background-color: {{ section.settings.card_link_bg_color_hover |  default : 'transparent' }};
+  	color: {{ section.settings.card_link_text_color_hover |  default : 'transparent' }};
+  }
+	#shopify-section-{{ section.id }} .highlight {
+		background-color: {{ section.settings.badge_bg_color }};
+		color: {{ section.settings.badge_text_color }};
+	}
+  #shopify-section-{{ section.id }} .pricing-item h1,#shopify-section-{{ section.id }} .pricing-item h2,#shopify-section-{{ section.id }} .pricing-item h3,#shopify-section-{{ section.id }} .pricing-item h4,#shopify-section-{{ section.id }} .pricing-item h5,#shopify-section-{{ section.id }} .pricing-item h6 {
+  	color: {{ section.settings.card_heading_color |  default : 'transparent' }};
+  }
+  #shopify-section-{{ section.id }} .pricing-item em {
+  	color: {{ section.settings.card_old_text_color |  default : 'transparent' }};
+  }
+	@media screen and (max-width: 1023px) {
+		#shopify-section-{{ section.id }} .pricing-item {
+  		min-width: 60%;
+  	}
+		#shopify-section-{{ section.id }} .tab-content {
+			gap: {{ section.settings.mobile_gap }}px;
+		}
+	}
+  @media screen and (max-width: 749px) {
+   	#shopify-section-{{ section.id }} {
+   		padding-top: {{ section.settings.mobile_padding_top }}px;
+   		padding-bottom: {{ section.settings.mobile_padding_bottom }}px;
+   	}
+		#shopify-section-{{ section.id }} .pricing-item {
+  		min-width: 80%;
+  	}
+   }
+	 @media screen and (max-width: 500px) {
+		#shopify-section-{{ section.id }} .pricing-item {
+  		min-width: 100%;
+  	}
+	 }
+{%- endstyle -%}
+<div class="shopify-section--pricing-new page-width">
+  {%- if section.settings.heading != blank -%}
+    <h1 class="heading">{{ section.settings.heading }}</h1>
+  {%- endif -%}
+  {%- if section.settings.text -%}
+    <p class="sub-heading">{{ section.settings.text }}</p>
+  {%- endif -%}
+  {%- assign tabItems = section.blocks | where: 'type', 'tab_item' -%}
+  {%- assign pricingItems = section.blocks | where: 'type', 'pricing_item' | map: 'settings' -%}
+  <div class="tab-header">
+		<div class="tab-header-content">
+			{%- for block in tabItems -%}
+				<span class="tab-header-item" key="{{ block.settings.handle_number }}">{{ block.settings.tab_text }}</span>
+			{%- endfor -%}
+		</div>
+    <span class="tab-thumb"></span>
+  </div>
+  {%- for i in (1..10) -%}
+    {%- assign subPricingItems = pricingItems | where: 'handle_number', i -%}
+		{%- if subPricingItems.size > 0 -%}
+			<div class="tab-content" key="{{ i }}">
+      {%- for block in subPricingItems -%}
+        <div class="pricing-item">
+          {%- if block.badge_text != blank -%}
+            <p class="highlight">{{ block.badge_text }}</p>
+          {%- endif -%}
+          <div class="main-description">
+            {%- if block.icon != blank -%}
+              <div class="icon">
+                <img src="{{ block.icon | img_url: '100x' }}" alt="" width="100px" height="auto">
+              </div>
+            {%- endif -%}
+            {%- if block.heading != blank -%}
+              <h2 class="heading">{{ block.heading }}</h2>
+            {%- endif -%}
+            {%- if block.sub_heading != blank -%}
+              <h3 class="sub-heading">{{ block.sub_heading }}</h3>
+            {%- endif -%}
+            {%- if block.main_content != blank -%}
+							<div>
+								{%- assign price = block.price |  times: 100 |  money |  remove: '.00'  -%}
+								{%- assign replace_content = '<span>' |  append: price |  append: '</span>' -%}
+                {{ block.main_content |  replace: '[price]', replace_content }}
+							</div>
+            {%- endif -%}
+						{%- if block.link_text != blank and block.link != blank -%}
+							<a href="{{ block.link }}" class="link">{{ block.link_text }}</a>
+						{%- endif -%}
+          </div>
+          {%- if block.secondary_content != blank -%}
+            <div class="secondary-description ">
+              {{ block.secondary_content }}
+            </div>
+          {%- endif -%}
+					{%- if block.badge_text != blank -%}
+						<div class="empty-space"></div>
+					{% endif %}
+        </div>
+      {%- endfor -%}
+    </div>
+		{%- endif -%}
+  {%- endfor -%}
+</div>
+{% schema %}
+{
+  "name": "Pricing(New)",
+  "tag": "section",
+  "class": "shopify-section--pricing-new",
+  "settings": [
+    {
+      "type": "color",
+      "id": "bg_color",
+      "label": "Background Color",
+      "default": "#fff"
+    },
+    {
+      "type": "color",
+      "id": "tab_bg_color",
+      "label": "Tab Background Color",
+      "default": "#000000"
+    },
+    {
+      "type": "color",
+      "id": "tab_text_color",
+      "label": "Tab Text Color",
+      "default": "#000000"
+    },
+    {
+      "type": "color",
+      "id": "tab_bg_color_selected",
+      "label": "Tab Background Color when Selected",
+      "default": "#000000"
+    },
+    {
+      "type": "color",
+      "id": "tab_text_color_selected",
+      "label": "Tab Text Color when Selected",
+      "default": "#000000"
+    },
+    {
+      "type": "range",
+      "id": "desktop_gap",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "label": "Desktop Gap",
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "mobile_gap",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "label": "Mobile Gap",
+      "default": 0
+    },
+    {
+      "type": "color",
+      "id": "card_bg_color",
+      "label": "Card Background Color",
+      "default": "#fff"
+    },
+    {
+      "type": "range",
+      "id": "card_border_radius",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "label": "Card Border Radius",
+      "default": 0
+    },
+    {
+      "type": "color",
+      "id": "card_border_color",
+      "label": "Card Border Color",
+      "default": "#000000"
+    },
+    {
+      "type": "color",
+      "id": "card_heading_color",
+      "label": "Card Heading Color",
+      "default": "#000000"
+    },
+    {
+      "type": "color",
+      "id": "card_text_color",
+      "label": "Card Text Color",
+      "default": "#000000"
+    },
+    {
+      "type": "color",
+      "id": "card_old_text_color",
+      "label": "Card Old Text Color",
+      "default": "#000000"
+    },
+    {
+      "type": "color",
+      "id": "card_link_bg_color",
+      "label": "Card Link Background Color",
+      "default": "#000000"
+    },
+    {
+      "type": "color",
+      "id": "card_link_text_color",
+      "label": "Card Link Text Color",
+      "default": "#000000"
+    },
+    {
+      "type": "color",
+      "id": "card_link_bg_color_hover",
+      "label": "Card Link Background Color when Hover",
+      "default": "#000000"
+    },
+    {
+      "type": "color",
+      "id": "card_link_text_color_hover",
+      "label": "Card Link Text Color when Hover",
+      "default": "#000000"
+    },
+    {
+      "type": "color",
+      "id": "badge_bg_color",
+      "label": "Badge Background Color",
+      "default": "#000000"
+    },
+    {
+      "type": "color",
+      "id": "badge_text_color",
+      "label": "Badge Text Color",
+      "default": "#000000"
+    },
+    {
+      "type": "header",
+      "content": "Padding Settings"
+    },
+    {
+      "type": "range",
+      "id": "desktop_padding_top",
+      "min": 0,
+      "max": 200,
+      "step": 2,
+      "unit": "px",
+      "label": "Desktop Padding Top",
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "desktop_padding_bottom",
+      "min": 0,
+      "max": 200,
+      "step": 2,
+      "unit": "px",
+      "label": "Desktop Padding Bottom",
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "mobile_padding_top",
+      "min": 0,
+      "max": 200,
+      "step": 2,
+      "unit": "px",
+      "label": "Mobile Padding Top",
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "mobile_padding_bottom",
+      "min": 0,
+      "max": 200,
+      "step": 2,
+      "unit": "px",
+      "label": "Mobile Padding Bottom",
+      "default": 0
+    }
+  ],
+  "blocks": [
+    {
+      "type": "pricing_item",
+      "name": "Pricing Item",
+      "settings": [
+        {
+          "type": "range",
+          "id": "handle_number",
+          "min": 1,
+          "max": 10,
+          "step": 1,
+          "label": "Handle Number",
+          "default": 1
+        },
+        {
+          "type": "image_picker",
+          "id": "icon",
+          "label": "Icon"
+        },
+        {
+          "type": "text",
+          "id": "heading",
+          "label": "Heading"
+        },
+        {
+          "type": "text",
+          "id": "sub_heading",
+          "label": "Sub Heading"
+        },
+        {
+          "type": "text",
+          "id": "link_text",
+          "label": "Link Text"
+        },
+        {
+          "type": "url",
+          "id": "link",
+          "label": "Link"
+        },
+        {
+          "type": "richtext",
+          "id": "main_content",
+          "label": "Main Content"
+        },
+        {
+          "type": "richtext",
+          "id": "secondary_content",
+          "label": "Secondary Content"
+        },
+        {
+          "type": "text",
+          "id": "badge_text",
+          "label": "Badge Text"
+        },
+				{
+					"type": "number",
+					"id": "price",
+					"label": "Price"
+				}
+      ]
+    },
+    {
+      "type": "tab_item",
+      "name": "Tab Item",
+      "settings": [
+        {
+          "type": "range",
+          "id": "handle_number",
+          "min": 0,
+          "max": 10,
+          "step": 1,
+          "label": "Handle Number",
+          "default": 1
+        },
+        {
+          "type": "text",
+          "id": "tab_text",
+          "label": "Tab Text"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Pricing(New)",
+      "settings": {}
+    }
+  ]
+}
+{% endschema %}

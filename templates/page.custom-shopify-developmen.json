@@ -12,10 +12,9 @@
     "advertise_xMT9mA": {
       "type": "advertise",
       "settings": {
-        "main_image": "shopify://shop_images/seo-for-trades.webp",
-        "secondary_image": "shopify://shop_images/get-found-on-the-web-right.svg",
+        "main_image": "shopify://shop_images/AnAgencyShopifyWebsite03.png",
         "secondary_image_roate_angle": 8,
-        "desktop_left": -90,
+        "desktop_left": -150,
         "desktop_top": -1,
         "desktop_right": -1,
         "desktop_bottom": 20,
@@ -40,7 +39,7 @@
     "phone_ring_MzFcJr": {
       "type": "phone-ring",
       "settings": {
-        "image": "shopify://shop_images/MTS-Incoming-Call_png.webp",
+        "image": "shopify://shop_images/GoogleAds_08.jpg",
         "heading_1": "Your Shopify Store,",
         "heading_2": "Built for Growth",
         "sub_heading": "A pretty website is great. A website that gets sales is even better.",
@@ -60,8 +59,7 @@
     "advertise_PAQGf7": {
       "type": "advertise",
       "settings": {
-        "main_image": "shopify://shop_images/website-design-and-dev-for-tradies.png",
-        "secondary_image": "shopify://shop_images/get-the-work-you-want.svg",
+        "main_image": "shopify://shop_images/AnAgencyShopifyWebsite05.png",
         "secondary_image_roate_angle": -64,
         "desktop_left": -80,
         "desktop_top": -1,
@@ -88,7 +86,7 @@
     "advertise_DnFdqE": {
       "type": "advertise",
       "settings": {
-        "main_image": "shopify://shop_images/Web-Designs-for-trades.png",
+        "main_image": "shopify://shop_images/AnAgencyShopifyWebsite07.png",
         "secondary_image_roate_angle": 12,
         "desktop_left": -1,
         "desktop_top": -1,
@@ -115,8 +113,7 @@
     "advertise_JebRqW": {
       "type": "advertise",
       "settings": {
-        "main_image": "shopify://shop_images/email-marketing-for-tradies-edm.webp",
-        "secondary_image": "shopify://shop_images/get-new-customers.svg",
+        "main_image": "shopify://shop_images/AnAgencyShopifyWebsite08.png",
         "secondary_image_roate_angle": -52,
         "desktop_left": -1,
         "desktop_top": 160,
@@ -143,8 +140,7 @@
     "advertise_KLNL33": {
       "type": "advertise",
       "settings": {
-        "main_image": "shopify://shop_images/get-more-leads-for-your-trade.webp",
-        "secondary_image": "shopify://shop_images/this-could-be-you.svg",
+        "main_image": "shopify://shop_images/AnAgencyShopifyWebsite01.png",
         "secondary_image_roate_angle": 8,
         "desktop_left": -80,
         "desktop_top": -1,
@@ -159,7 +155,7 @@
         "text": "<p><strong>Custom Design & Development</strong><br/>We design a store that actually fits your brand and products, not just another Shopify template.</p><p><strong>Built for Speed & Conversions</strong><br/>Your site loads fast, ranks high, and sells more—because slow stores lose sales.</p><p><strong>Seamless Integrations</strong><br/>Payments, shipping, marketing, automation—everything works together seamlessly from day one.</p><p><strong>Scalable & Future-Proof</strong><br/>As your business grows, your Shopify store should too. We build with the future in mind.</p>",
         "button_link": "#",
         "button_text": "[ Get a Custom Shopify Store → ]",
-        "image_right": false,
+        "image_right": true,
         "text_align": "left",
         "background_color": "#ffffff",
         "desktop_padding_top": 60,
@@ -171,8 +167,7 @@
     "advertise_qQYPyj": {
       "type": "advertise",
       "settings": {
-        "main_image": "shopify://shop_images/google-ads-for-tradies-australia.webp",
-        "secondary_image": "shopify://shop_images/google-ads-for-tradies-text.svg",
+        "main_image": "shopify://shop_images/AnAgencyShopifyWebsite09.png",
         "secondary_image_roate_angle": 0,
         "desktop_left": -1,
         "desktop_top": 160,
@@ -187,9 +182,9 @@
         "text": "<p><strong>We know eCommerce.</strong> We run online stores ourselves, so we build Shopify stores that actually sell.<br/><br/><strong>No templates, no shortcuts.</strong> We custom-build your store for your brand and customers.<br/><br/><strong>We handle everything.</strong> From strategy to launch, we take care of the hard stuff so you can focus on your business.<br/><br/><strong>We’re Shopify Partners.</strong> That means we know Shopify inside out and have direct support when you need it.</p><p>💬 <em>“An Agency built us a Shopify store that tripled our sales in 6 months. If you’re serious about eCommerce, these are the guys you want.”</em> – <em>Happy Shopify Store Owner</em></p>",
         "button_link": "#",
         "button_text": "[Let’s Talk Shopify →]",
-        "image_right": true,
+        "image_right": false,
         "text_align": "left",
-        "background_color": "#aeddf9",
+        "background_color": "#ffffff",
         "desktop_padding_top": 60,
         "desktop_padding_bottom": 60,
         "mobile_padding_top": 40,
@@ -240,6 +235,34 @@
         "heading": "Who’s This For?",
         "text": "<p>Who’s This For?If you’re serious about growing your eCommerce business, you need a store that’s built right.</p>",
         "trust_image": "shopify://shop_images/review-bar-green.svg",
+        "desktop_padding_top": 60,
+        "desktop_padding_bottom": 60,
+        "mobile_padding_top": 40,
+        "mobile_padding_bottom": 40
+      }
+    },
+    "advertise_6VLxp7": {
+      "type": "advertise",
+      "settings": {
+        "main_image": "shopify://shop_images/GoogleAds_09.jpg",
+        "secondary_image": "shopify://shop_images/this-could-be-you_86b78ffa-fae9-4fc7-9bda-3b42602401a5.svg",
+        "secondary_image_roate_angle": 16,
+        "desktop_left": -1,
+        "desktop_top": 160,
+        "desktop_right": 450,
+        "desktop_bottom": -1,
+        "mobile_left": -1,
+        "mobile_top": -25,
+        "mobile_right": 0,
+        "mobile_bottom": -1,
+        "heading": "Let’s Build a Shopify Store That Sells",
+        "sub_heading": "A high-converting, custom Shopify store is one of the best investments you can make in your business.",
+        "text": "<p>Let’s build it right the first time so you can scale without headaches.</p><p></p>",
+        "button_link": "#",
+        "button_text": "[Book a Free Chat →]",
+        "image_right": true,
+        "text_align": "left",
+        "background_color": "#ffffff",
         "desktop_padding_top": 60,
         "desktop_padding_bottom": 60,
         "mobile_padding_top": 40,
@@ -387,34 +410,6 @@
         "mobile_padding_bottom": 40
       }
     },
-    "advertise_6VLxp7": {
-      "type": "advertise",
-      "settings": {
-        "main_image": "shopify://shop_images/google-ads-for-tradies-australia.webp",
-        "secondary_image": "shopify://shop_images/google-ads-for-tradies-text.svg",
-        "secondary_image_roate_angle": -52,
-        "desktop_left": -1,
-        "desktop_top": 160,
-        "desktop_right": -90,
-        "desktop_bottom": -1,
-        "mobile_left": -1,
-        "mobile_top": -25,
-        "mobile_right": 0,
-        "mobile_bottom": -1,
-        "heading": "Let’s Build a Shopify Store That Sells",
-        "sub_heading": "A high-converting, custom Shopify store is one of the best investments you can make in your business.",
-        "text": "<p>Let’s build it right the first time so you can scale without headaches.</p><p></p>",
-        "button_link": "#",
-        "button_text": "[Book a Free Chat →]",
-        "image_right": true,
-        "text_align": "left",
-        "background_color": "#aeddf9",
-        "desktop_padding_top": 60,
-        "desktop_padding_bottom": 60,
-        "mobile_padding_top": 40,
-        "mobile_padding_bottom": 40
-      }
-    },
     "partner_with_U86NgH": {
       "type": "partner-with",
       "blocks": {
@@ -490,9 +485,9 @@
     "advertise_KLNL33",
     "advertise_qQYPyj",
     "trust_Q37M3R",
+    "advertise_6VLxp7",
     "tradies_D9qHzj",
     "faq_cYAhKJ",
-    "advertise_6VLxp7",
     "partner_with_U86NgH"
   ]
 }

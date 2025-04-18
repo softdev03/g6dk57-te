@@ -12,7 +12,7 @@
     "advertise_xMT9mA": {
       "type": "advertise",
       "settings": {
-        "main_image": "shopify://shop_images/seo-for-trades.webp",
+        "main_image": "shopify://shop_images/AnAgency_BingAds02_3b733850-48fa-48b7-b733-1595ae9058e8.png",
         "secondary_image": "shopify://shop_images/get-found-on-the-web-right.svg",
         "secondary_image_roate_angle": 8,
         "desktop_left": -90,
@@ -23,14 +23,14 @@
         "mobile_top": -1,
         "mobile_right": -1,
         "mobile_bottom": -26,
-        "heading": "Websites and Marketing For Tradies",
-        "sub_heading": "How An Agency Helps You Stand Out Online",
-        "text": "<p>If you're like most tradies, landing small jobs isn’t the problem—your phone’s always buzzing. The real challenge is scoring those bigger, high-paying gigs. Residential and commercial contracts need a different approach since the folks who care more about quality than price aren’t easy to reach.</p><p>Let's be real: the bigger players are nabbing those top jobs before you even get a shot.</p><p>If you’re an electrician aiming for steady, well-paid work, getting online is a must. A solid website and smart marketing plan boost your brand, draw in quality leads, free you from third-party platforms, and even make your business more valuable.</p><p>An Agency is here to help you connect with more customers through our all-in-one website, branding, and marketing services for electricians.</p>",
+        "heading": "Unlock Untapped Potential with Bing Ads",
+        "sub_heading": "Reach More Customers with Lower Competition and Costs",
+        "text": "<p>While many businesses focus solely on Google, they're overlooking a significant opportunity: Bing Ads. With Bing as the default search engine on Windows devices, a vast audience is searching daily—often by default. If you're not present on Bing, you're invisible to these potential customers.​</p><p>Bing Ads offers a less competitive landscape, leading to lower cost-per-click (CPC) rates compared to other platforms. This means your advertising budget stretches further, allowing you to achieve more with less. ​</p><p>For e-commerce businesses, especially those on Shopify, Bing Ads seamlessly integrates with your store, making product listings straightforward and effective. ​</p><p>Service-based businesses can leverage Bing Ads' precise targeting to connect with local customers actively seeking their services. The platform's demographic skews towards a mature, affluent audience, often with higher disposable incomes. </p><p>Don't miss out on this underrated channel. Let us help you tap into Bing Ads' full potential to drive traffic, leads, and sales.</p>",
         "button_link": "#",
         "button_text": "Speak To Our Team",
         "image_right": false,
         "text_align": "left",
-        "background_color": "#aeddf9",
+        "background_color": "#ffffff",
         "desktop_padding_top": 60,
         "desktop_padding_bottom": 60,
         "mobile_padding_top": 40,
@@ -40,15 +40,15 @@
     "phone_ring_MzFcJr": {
       "type": "phone-ring",
       "settings": {
-        "image": "shopify://shop_images/MTS-Incoming-Call_png.webp",
-        "heading_1": "We Make",
-        "heading_2": "Your Phone Ring.",
-        "sub_heading": "We’re here for tradies who want less hassle and more enquiries.",
-        "text": "For business owners who need real action and proven know-how—not endless plans and empty promises.And for companies looking for solid growth instead of uncertain results.If you're serious about digital marketing that really works for your trade business, let's have a chat.",
+        "image": "shopify://shop_images/AnAgency_BingAds05.png",
+        "heading_1": "We Make Bing Work",
+        "heading_2": "Harder For You",
+        "sub_heading": "Lower competition. High intent leads. Less noise.",
+        "text": "Bing Ads isn’t just a backup plan—it’s a smart move. With fewer advertisers and highly engaged users, your business gets more visibility where others aren’t even looking. Whether you’re selling products or chasing quality leads, we’ll build and manage a Bing Ads campaign that gets the job done.Ready to show up where your competitors aren’t? Let’s chat.",
         "phone_button_text": "0499226600",
         "phone_number": "0499226600",
         "enquire_button_text": "Enquire Now",
-        "enquire_button_link": "#",
+        "enquire_button_link": "shopify://pages/contact",
         "image_right": true,
         "text_align": "left",
         "desktop_padding_top": 100,
@@ -60,10 +60,9 @@
     "advertise_KLNL33": {
       "type": "advertise",
       "settings": {
-        "main_image": "shopify://shop_images/get-more-leads-for-your-trade.webp",
-        "secondary_image": "shopify://shop_images/this-could-be-you.svg",
+        "main_image": "shopify://shop_images/AnAgency_BingAds03.png",
         "secondary_image_roate_angle": 8,
-        "desktop_left": -80,
+        "desktop_left": -93,
         "desktop_top": -1,
         "desktop_right": -1,
         "desktop_bottom": 82,
@@ -71,10 +70,10 @@
         "mobile_top": -1,
         "mobile_right": -1,
         "mobile_bottom": -30,
-        "heading": "Digital Marketing for Tradesmen Matters",
-        "sub_heading": "How An Agency Helps You Stand Out Online",
-        "text": "<p>Setting up your business for long-term success starts with the right marketing. You need a smart strategy to build your online presence—this means an optimized website that helps high-level clients find you fast, plus a lead generation system that works with proven advertising. Whether you're an electrician, plumber, carpenter, builder, roofer, or painter, getting noticed by the right clients is key.</p><p>But digital marketing only goes so far without solid branding.</p><p>Your branding shows your professionalism and what your clients can expect from your work. From your website landing page to your business cards and even your van wrap, you want to be proud of the image you're putting out there. An Agency's branding team for tradesmen builds the strong foundation you need for all your digital marketing efforts.</p>",
-        "button_link": "#",
+        "heading": "Why Bing Ads Still Matter",
+        "sub_heading": "More people search there than you think.",
+        "text": "<p>Bing might not be flashy, but it’s powerful—especially for businesses targeting older, professional, or regional audiences. A big chunk of Aussies using Windows devices or Microsoft Edge search through Bing by default. That’s a lot of potential customers you don’t want to miss.</p><p>We build Bing Ads campaigns that make the most of this quieter, less competitive space—cutting your cost per lead and stretching your ad budget further.</p>",
+        "button_link": "shopify://pages/contact",
         "button_text": "Help Grow My Business",
         "image_right": false,
         "text_align": "left",
@@ -93,20 +92,20 @@
         "secondary_image_roate_angle": 0,
         "desktop_left": -1,
         "desktop_top": 160,
-        "desktop_right": -90,
+        "desktop_right": -92,
         "desktop_bottom": -1,
         "mobile_left": -1,
         "mobile_top": -25,
         "mobile_right": 0,
         "mobile_bottom": -1,
-        "heading": "Advertising Solutions For Aussie Tradesmen",
-        "sub_heading": "Profitable advertising that works",
-        "text": "<p>For local tradesmen, targeting the right people with your ads is crucial. You don't want to waste your budget or attract clients who aren't the right fit for your services.</p><p>At An Agency, we use hyper-focused targeting in our campaigns because we know the Aussie market inside-out. We set the right parameters so you only spend money where it counts.</p><p>We'll manage your ad campaigns by keeping a close eye on progress and fine-tuning your ads to get the most bang for your buck. Get found in just a few clicks, land high-paying jobs, and be there when urgent requests come in—all thanks to targeted ads.</p>",
-        "button_link": "#",
+        "heading": "Smart Bing Advertising for Aussie Businesses",
+        "sub_heading": "Lower competition. Higher intent.",
+        "text": "<p>Bing Ads is one of the most underrated platforms in digital marketing—but savvy businesses know better. The click costs are lower, the competition is lighter, and the people searching are often ready to buy. Whether you’re running a Shopify store or generating leads for a local trade, being seen on Bing puts you ahead of competitors who’ve forgotten it exists.</p><p>We’ll run strategic, high-converting Bing Ads campaigns tailored to your market and goals. Less noise. More results.</p>",
+        "button_link": "shopify://pages/contact",
         "button_text": "Help Grow My Business",
         "image_right": true,
         "text_align": "left",
-        "background_color": "#aeddf9",
+        "background_color": "#ffffff",
         "desktop_padding_top": 60,
         "desktop_padding_bottom": 60,
         "mobile_padding_top": 40,
@@ -119,30 +118,30 @@
         "trust_item_KtaqTQ": {
           "type": "trust_item",
           "settings": {
-            "heading": "Decades of experience",
-            "main_text": "<p>Our team of web experts has spent decades in the game, building websites that don’t just look good—they perform. We’ve seen trends come and go, and we know what works.</p><p></p>",
-            "button_text": "Read More",
-            "additional_text": "<p>…We bring this deep experience and understanding of the ever-changing web design industry to every project, making sure your website is built to get results.</p>",
+            "heading": "Less Competition, More Visibility",
+            "main_text": "<p><strong>Why Bing Ads Work When Google’s Crowded</strong><br/><br/>Google Ads might get all the attention, but Bing captures a chunk of high-intent users—especially desktop and Microsoft users. With fewer advertisers competing, your ad budget stretches further and gets noticed by people ready to click.</p><p></p>",
+            "button_text": "",
+            "additional_text": "",
             "accordion_image": "shopify://shop_images/yellow-arrow.svg"
           }
         },
         "trust_item_YFytD9": {
           "type": "trust_item",
           "settings": {
-            "heading": "We get you, mate",
-            "main_text": "<p>Our website packages are built specifically for Aussie tradies. We know the industry, we know your market, and we know what makes customers pick up the phone.</p><p></p>",
-            "button_text": "Read More",
-            "additional_text": "<p>…Your best clients want to see a business that looks professional, with clear information and high-quality visuals. We make sure your website ticks all the right boxes. With decades of experience building sites for tradies, we know what works.</p>",
+            "heading": "Great for eComm & Lead Gen",
+            "main_text": "<p><strong>Whether You Sell or Service, Bing Delivers</strong><br/><br/>Bing Ads are a hidden weapon for Shopify merchants looking for ROI and trade businesses wanting serious enquiries. Our data-led approach makes sure your listings show up in the right searches with the right message.</p><p></p>",
+            "button_text": "",
+            "additional_text": "",
             "accordion_image": "shopify://shop_images/yellow-arrow.svg"
           }
         },
         "trust_item_JfVUzV": {
           "type": "trust_item",
           "settings": {
-            "heading": "100% Aussie",
-            "main_text": "<p>We’re proudly Australian-owned and operated, working exclusively with local businesses. We believe in keeping it local and supporting Aussie tradies.</p><p></p>",
-            "button_text": "Read More",
-            "additional_text": "<p>…An Agency handles everything—design, content, and site upkeep—so you don’t have to stress. Your website will be built specifically for your trade, industry, and the local market.</p><p>We’ll create a site that looks great, is easy to use, and is optimised to rank high in search results—so more customers find you and reach out for a quote.</p>",
+            "heading": "Microsoft Ecosystem Advantage",
+            "main_text": "<p><strong>Reach People Where Google Can’t</strong><br/><br/>Bing powers search on Microsoft Edge, Windows 11, and even some Android devices. If you’re not on Bing, you’re invisible to a big part of the market. We’ll make sure you’re not missing out.</p><p></p>",
+            "button_text": "",
+            "additional_text": "",
             "accordion_image": "shopify://shop_images/yellow-arrow.svg"
           }
         }
@@ -153,9 +152,9 @@
         "trust_item_JfVUzV"
       ],
       "settings": {
-        "heading": "An Agency: An Australian Web Design Company You Can Trust",
-        "text": "<p>With so many website developers and designers out there, you might ask, why us? Maybe you could even build it yourself. But let’s be honest—that’s probably the last thing you want to do. Even those DIY website builders miss the mark on the technical details, not to mention understanding the unique needs of the trades industry.</p><p>That’s where An Agency comes in. We know what it takes to create a website that not only looks great but also works for tradies. We get the trade business and the hard work you put in every day. No need to be modest about it—here’s what sets us apart.</p>",
-        "trust_image": "shopify://shop_images/review-bar-green.svg",
+        "heading": "Why Use An Agency for Bing Ads?",
+        "text": "<p><strong>Proven campaigns. Local insight. Smarter spend.</strong></p><p>We’ve built high-performing Bing Ads campaigns for both eCommerce brands and lead gen clients who were tired of wasting budget on noisy platforms. Bing might fly under the radar—but that’s exactly what makes it powerful.</p><p>At An Agency, we tap into search intent that’s often ignored. We know how to position your Shopify store or service business in front of the right audience—without paying premium prices to be seen.</p>",
+        "trust_image": "shopify://shop_images/Artboard_13.png",
         "desktop_padding_top": 60,
         "desktop_padding_bottom": 60,
         "mobile_padding_top": 40,
@@ -176,10 +175,10 @@
         "mobile_top": -1,
         "mobile_right": -1,
         "mobile_bottom": -30,
-        "heading": "SEO To Boost Your Online Presence",
-        "sub_heading": "Build Authority. Get Found. Win More Jobs.",
-        "text": "<p>SEO is a cost-effective way to get your trade business in front of the right people—turning strangers into paying customers without burning through your ad budget.</p><p>With strong SEO, your website ranks higher on Google, bringing in organic traffic without the need to pay per click. Even if you’re running ads, a solid SEO strategy lowers your overall cost to land new jobs.</p><p>Your best clients want quality and credibility. The businesses that show up at the top of search results are seen as the go-to experts. Our local SEO service covers everything—website audits, content creation, keyword research, and backlink management—so you stand out and get the work you deserve.</p>",
-        "button_link": "#",
+        "heading": "Why Bing Ads? Because They Actually Work",
+        "sub_heading": "Don't sleep on Microsoft’s user base.",
+        "text": "<p>Most people ignore Bing—until they realise it powers searches on Microsoft Edge, Outlook, and Xbox. That’s millions of users scrolling, searching, and shopping. If you're not there, you're invisible.</p>",
+        "button_link": "shopify://pages/contact",
         "button_text": "Help Grow My Business",
         "image_right": false,
         "text_align": "left",
@@ -203,10 +202,10 @@
         "mobile_top": -1,
         "mobile_right": -1,
         "mobile_bottom": -1,
-        "heading": "How To Get More Leads as a Tradie",
-        "sub_heading": "Professional Branding & Smart Email Marketing",
-        "text": "<p>Book yourself out so you’re never stressing about chasing new jobs or following up with old clients. With automated email marketing, you can nurture leads, bring in new customers, and stay top of mind with past clients—all without lifting a finger.</p><p>A professional website, targeted ads, and a solid email strategy give you a multi-channel system to keep leads rolling in.</p><p>We’ll help you climb Google search results with SEO, run retargeted ads for interested customers, and get previous clients to leave online reviews—so you stand out and win more jobs.</p>",
-        "button_link": "#",
+        "heading": "More Clicks for Less Spend",
+        "sub_heading": "Your competitors are wasting money elsewhere.",
+        "text": "<p>Bing Ads often cost less per click than Google, with better visibility. It's a smart move for eCom brands and local services looking to stretch their ad budget while still reaching high-quality leads.</p>",
+        "button_link": "shopify://pages/contact",
         "button_text": "Help Grow My Business",
         "image_right": true,
         "text_align": "left",
@@ -231,12 +230,12 @@
         "mobile_top": -25,
         "mobile_right": 0,
         "mobile_bottom": -1,
-        "heading": "The Challenge of Marketing for Tradies",
-        "sub_heading": "You’re up against a crowded market, and let’s be real—your expertise is in your trade, not marketing.",
-        "text": "<p><strong>If you’re not using the right strategies, your ideal clients won’t find you. In today’s digital world, being good at what you do isn’t enough—you need to be seen.</strong></p><p>That’s where we come in. An Agency has years of experience helping Aussie tradies grow their businesses. We know what works, what doesn’t, and how to get real results—so you can focus on the job while we handle the marketing.</p>",
-        "button_link": "#",
-        "button_text": "Get More High-Quality Leads",
-        "image_right": true,
+        "heading": "Integrated Across Microsoft’s Ecosystem",
+        "sub_heading": "Your ad appears where decisions happen.",
+        "text": "<p>Bing Ads don’t just live in search—they’re embedded across Microsoft products. From business users on Outlook to everyday Aussies browsing on Edge, you’re reaching people in work mode <em>and</em> buy mode.</p>",
+        "button_link": "shopify://pages/contact",
+        "button_text": "Get More Quality Leads & Sales",
+        "image_right": false,
         "text_align": "left",
         "background_color": "#aeddf9",
         "desktop_padding_top": 60,
@@ -252,10 +251,10 @@
           "type": "tradies-item",
           "settings": {
             "image": "shopify://shop_images/electrician-website.webp",
-            "detail_info_heading": "Electricians",
-            "detail_info_text": "<p>Customers don’t just want a sparky—they want a reliable expert. We design electrician websites that make it easy for clients to see your services, book a job, and trust your work. Whether it’s rewires, switchboard upgrades, or commercial fit-outs, we showcase your skills with a clean, professional website that helps you stand out.</p><p></p><p></p>",
+            "detail_info_heading": "Legal Services",
+            "detail_info_text": "<p>From wills to compensation claims, legal clients often search via Bing on their workplace desktops. We help law firms appear right when potential clients are looking for answers.</p><p></p><p></p>",
             "icon": "shopify://shop_images/yellow-arrow.svg",
-            "detail_button_link": "#",
+            "detail_button_link": "shopify://pages/contact",
             "detail_button_text": "Free Quote"
           }
         },
@@ -263,10 +262,10 @@
           "type": "tradies-item",
           "settings": {
             "image": "shopify://shop_images/plumbing-websites.webp",
-            "detail_info_heading": "Plumbers",
-            "detail_info_text": "<p>Blocked drains, burst pipes, hot water installs—your customers want help fast. We build plumbing websites that make it easy for people to find your services, get a quick quote, and book a job on the spot. Plus, we highlight your experience and qualifications so customers know they’re in good hands.</p><p></p><p></p>",
+            "detail_info_heading": "Healthcare & Allied Health",
+            "detail_info_text": "<p>Chiropractors, clinics, dentists — most of your local patients are browsing through Microsoft-powered systems. Bing Ads lets you reach them without fighting Google’s ad congestion.</p><p></p><p></p>",
             "icon": "shopify://shop_images/yellow-arrow.svg",
-            "detail_button_link": "#",
+            "detail_button_link": "shopify://pages/contact",
             "detail_button_text": "Free Quote"
           }
         },
@@ -274,10 +273,10 @@
           "type": "tradies-item",
           "settings": {
             "image": "shopify://shop_images/carpenter-websites.webp",
-            "detail_info_heading": "Carpenters",
-            "detail_info_text": "<p>Your work speaks for itself—your website should too. Whether you’re crafting custom furniture, framing houses, or handling detailed renovations, we create carpenter websites that showcase your best projects, highlight your craftsmanship, and bring in high-paying clients.</p><p></p><p></p>",
+            "detail_info_heading": "Home Improvement Services",
+            "detail_info_text": "<p>Electricians, plumbers, and tradies see strong results on Bing, especially with older homeowners using default browsers. We make sure you’re visible when they search \"best near me.\"</p><p></p><p></p>",
             "icon": "shopify://shop_images/yellow-arrow.svg",
-            "detail_button_link": "#",
+            "detail_button_link": "shopify://pages/contact",
             "detail_button_text": "Free Quote"
           }
         },
@@ -285,10 +284,10 @@
           "type": "tradies-item",
           "settings": {
             "image": "shopify://shop_images/pest-control-website-development-1.webp",
-            "detail_info_heading": "Pest Control",
-            "detail_info_text": "<p>Customers need to trust their pest control expert. We design websites that clearly show your experience in dealing with termites, rodents, and everything in between. We make it easy for clients to book inspections, learn about your methods, and understand why your service is the best choice for keeping their home pest-free.</p><p></p><p></p>",
+            "detail_info_heading": "Luxury & High-Ticket E-Commerce",
+            "detail_info_text": "<p>Selling high-end goods? Bing users tend to be older, wealthier, and more brand-loyal. It’s a perfect platform for premium Shopify stores wanting smarter returns on ad spend.</p><p></p><p></p>",
             "icon": "shopify://shop_images/yellow-arrow.svg",
-            "detail_button_link": "#",
+            "detail_button_link": "shopify://pages/contact",
             "detail_button_text": "Free Quote"
           }
         },
@@ -296,10 +295,10 @@
           "type": "tradies-item",
           "settings": {
             "image": "shopify://shop_images/cleaning-website-design.webp",
-            "detail_info_heading": "Cleaning",
-            "detail_info_text": "<p>Whether you’re running a commercial cleaning business or handling end-of-lease deep cleans, a strong website helps you get more bookings. We highlight your services, customer testimonials, and guarantees, with a simple contact system that makes it easy for clients to reach out and book a clean.</p><p></p><p></p>",
+            "detail_info_heading": "Professional Services",
+            "detail_info_text": "<p>Accounting, consulting, real estate — business users trust Bing because it’s built into their daily workflow. We position your offer right where the decision-makers are.</p><p></p><p></p>",
             "icon": "shopify://shop_images/yellow-arrow.svg",
-            "detail_button_link": "#",
+            "detail_button_link": "shopify://pages/contact",
             "detail_button_text": "Free Quote"
           }
         },
@@ -307,10 +306,10 @@
           "type": "tradies-item",
           "settings": {
             "image": "shopify://shop_images/general-tradies-websites.webp",
-            "detail_info_heading": "All Other Tradies",
-            "detail_info_text": "<p>No matter your trade, we build websites that work for you. From builders and tilers to landscapers and painters, we design sites that show off your skills, bring in more work, and make booking you a no-brainer.</p><p></p><p></p>",
+            "detail_info_heading": "Online Retail & Niche E-Com",
+            "detail_info_text": "<p>Have a niche product or category? Bing’s audience doesn’t scroll past your offer like they might on Google. With less competition, your product stands out from the first click.</p><p></p><p></p>",
             "icon": "shopify://shop_images/yellow-arrow.svg",
-            "detail_button_link": "#",
+            "detail_button_link": "shopify://pages/contact",
             "detail_button_text": "Free Quote"
           }
         }
@@ -324,8 +323,8 @@
         "tradies_item_tDB4YR"
       ],
       "settings": {
-        "heading": "Tradies we work with",
-        "text": "Looking for an affordable and effective web design service for your trade business in Australia? We’ve got you.",
+        "heading": "Who Bing Ads Is For",
+        "text": "Microsoft Bing isn’t just another ad platform — it’s a hidden gem for industries. Whether you’re selling physical products or booking in service calls, Bing connects you with users who are ready to act.",
         "desktop_padding_top": 60,
         "desktop_padding_bottom": 60,
         "mobile_padding_top": 40,
@@ -338,80 +337,80 @@
         "faq_item_rrnAHz": {
           "type": "faq_item",
           "settings": {
-            "question": "What experience does An Agency have working with tradesmen?",
-            "answer": "<p>As a team led by an ex-tradesman, we understand the unique challenges and needs of the trade industry. We've successfully partnered with numerous Australian tradies, delivering tailored website designs, effective SEO strategies, and targeted paid advertising campaigns that generate quality leads.</p>",
+            "question": "What are Bing Ads?",
+            "answer": "<p>Bing Ads, now known as Microsoft Advertising, is Microsoft's pay-per-click (PPC) advertising platform. It allows businesses to display ads on the Bing search engine and its partner networks, including Yahoo and AOL.</p>",
             "icon": "shopify://shop_images/yellow-arrow.svg"
           }
         },
         "faq_item_AdgFRX": {
           "type": "faq_item",
           "settings": {
-            "question": "How long does it take to see results from SEO efforts?",
-            "answer": "<p>SEO is a long-term investment. While some improvements can be seen within a few months, it typically takes 6 to 12 months to achieve significant results. Our team implements proven strategies to enhance your online visibility and attract the right clients over time.</p>",
+            "question": "How do Bing Ads differ from Google Ads?",
+            "answer": "<p>While both platforms offer PPC advertising, Bing Ads often have lower competition and cost-per-click (CPC) rates. Additionally, Bing's audience tends to be older and more affluent, which can be advantageous for certain businesses.</p>",
             "icon": "shopify://shop_images/yellow-arrow.svg"
           }
         },
         "faq_item_E6VP9h": {
           "type": "faq_item",
           "settings": {
-            "question": "Will I have a dedicated point of contact at An Agency?",
-            "answer": "<p>Absolutely. We assign a dedicated account manager to each client, ensuring clear communication and personalized service. Your account manager will keep you updated on progress, answer your questions, and ensure your marketing goals are met.</p>",
+            "question": "Is Bing Ads suitable for small businesses?",
+            "answer": "<p>Absolutely. Bing Ads can be particularly effective for small businesses targeting specific demographics or looking for cost-effective advertising solutions.</p>",
             "icon": "shopify://shop_images/yellow-arrow.svg"
           }
         },
         "faq_item_akFz96": {
           "type": "faq_item",
           "settings": {
-            "question": "Do you provide regular reports on campaign performance?",
-            "answer": "<p>Yes, transparency is key to our approach. We provide detailed monthly reports outlining the performance of your website, SEO, and advertising campaigns. These reports include key metrics and insights to keep you informed and confident in our services.</p>",
+            "question": "Can I import my Google Ads campaigns into Bing Ads?",
+            "answer": "<p>Yes, Bing Ads offers a feature that allows you to import your existing Google Ads campaigns, making the transition seamless.</p>",
             "icon": "shopify://shop_images/yellow-arrow.svg"
           }
         },
         "faq_item_jdQR46": {
           "type": "faq_item",
           "settings": {
-            "question": "Can you guarantee specific results with your services?",
-            "answer": "<p>No agency can promise exact rankings or lead numbers—but here’s what we can guarantee: if you don’t get any leads, inquiries, or phone calls in the first 30 days, we’ll refund your marketing money, no questions asked. That’s how confident we are in what we do.We’re not just making bold claims—we have the track record to back it up. We have never worked with a tradie who didn’t get inquiries or phone calls within their first 30 days. In most cases, you’ll start seeing results within the first two weeks, and it only gets better from there as the algorithm learns and optimizes.We don’t just set up campaigns—we build systems that bring in real work.</p>",
+            "question": "What types of ads can I run on Bing?",
+            "answer": "<p>Bing supports various ad formats, including text ads, shopping ads, and dynamic search ads, catering to both service-based and e-commerce businesses.</p>",
             "icon": "shopify://shop_images/yellow-arrow.svg"
           }
         },
         "faq_item_nyFTVE": {
           "type": "faq_item",
           "settings": {
-            "question": "What ongoing support does An Agency offer?",
-            "answer": "<p>We offer continuous support to ensure your marketing efforts remain effective. This includes regular performance reviews, updates to your website and campaigns as needed, and ongoing consultation to adapt strategies in line with your business goals.Partner with An Agency and experience the difference that a confident, knowledgeable, and dedicated marketing team can make for your trade business.</p>",
+            "question": "How does Bing Ads' audience differ from Google's?",
+            "answer": "<p>Bing's user base often includes older, more educated, and higher-income individuals. This demographic can be particularly beneficial for businesses targeting such audiences.​</p>",
             "icon": "shopify://shop_images/yellow-arrow.svg"
           }
         },
         "faq_item_XN9Db9": {
           "type": "faq_item",
           "settings": {
-            "question": "How do you ensure the quality of leads generated?",
-            "answer": "<p>Through precise targeting, compelling ad copy, and strategic SEO practices, we attract clients who are actively seeking your services. Our approach focuses on quality over quantity, ensuring the leads generated are a good fit for your business.</p>",
+            "question": "Are Bing Ads effective for e-commerce businesses?",
+            "answer": "<p>Yes, especially for those using platforms like Shopify. Bing's shopping ads can drive high-quality traffic to your online store.​</p><p></p>",
             "icon": "shopify://shop_images/yellow-arrow.svg"
           }
         },
         "faq_item_C7MHEi": {
           "type": "faq_item",
           "settings": {
-            "question": "What types of paid advertising do you manage?",
-            "answer": "<p>We manage various paid advertising channels, including Google Ads, social media advertising (Facebook, Instagram), and display advertising. Our team develops targeted campaigns to reach your ideal clients, maximize your return on investment, and keep your phone ringing with new business.</p>",
+            "question": "How do I track the performance of my Bing Ads campaigns?",
+            "answer": "<p>Bing Ads provides robust analytics tools that allow you to monitor key performance indicators (KPIs) such as click-through rates (CTR), conversions, and return on investment (ROI).​</p>",
             "icon": "shopify://shop_images/yellow-arrow.svg"
           }
         },
         "faq_item_Htp8HR": {
           "type": "faq_item",
           "settings": {
-            "question": "How do you approach website design for tradesmen?",
-            "answer": "<p>We create custom, responsive websites that reflect your brand and appeal to your target audience. Our designs are user-friendly, mobile-optimized, and built with SEO best practices to ensure your site ranks well and converts visitors into clients.</p>",
+            "question": "What targeting options are available in Bing Ads?",
+            "answer": "<p>Bing Ads offers comprehensive targeting options, including demographic targeting, location targeting, device targeting, and more, enabling precise audience reach.</p>",
             "icon": "shopify://shop_images/yellow-arrow.svg"
           }
         },
         "faq_item_Fb4Rdq": {
           "type": "faq_item",
           "settings": {
-            "question": "What sets An Agency apart from other marketing agencies?",
-            "answer": "<p>Our deep understanding of the trades industry, combined with our comprehensive service offerings—including website design, SEO, and paid advertising—sets us apart. Being Australian-owned and operated, we know the local market and are dedicated to helping fellow Aussie tradies succeed.</p>",
+            "question": "Is it worth investing in Bing Ads alongside Google Ads?",
+            "answer": "<p>Diversifying your advertising strategy by including Bing Ads can help you tap into a different segment of the market, potentially increasing your overall reach and ROI.​</p>",
             "icon": "shopify://shop_images/yellow-arrow.svg"
           }
         }
