@@ -123,7 +123,7 @@
             "main_text": "<p>Our Google Ads team has seen it all. We know which strategies drive real growth — and which ones just burn your budget. Experience means we skip the fluff and focus on what gets results.</p>",
             "button_text": "Read More",
             "additional_text": "<p>We don’t waste time on outdated tactics or surface-level optimisations. We deep-dive into campaign structure, match types, bid strategies, audience signals, and product data to make sure every dollar is pulling its weight. For eCom, that might mean rebuilding your Shopping feed to get better product visibility. For lead gen, it could be cutting out broad match campaigns that bring in tyre kickers. We’re performance-driven and know how to scale without blowing your margins.</p>",
-            "accordion_image": "shopify://shop_images/yellow-arrow.svg"
+            "accordion_image": "shopify://shop_images/plus_1.png"
           }
         },
         "trust_item_YFytD9": {
@@ -133,7 +133,7 @@
             "main_text": "<p>We tailor campaigns around your industry. Whether it’s a Shopify store chasing sales or a local plumber chasing leads, we know how your audience searches — and how to get them to click.</p>",
             "button_text": "Read More",
             "additional_text": "<p>Every brand has a different path to conversion. Some need a tight sales funnel with aggressive remarketing, while others do better with trust-building and long-tail search terms. That’s why our first step is understanding your product or service inside out. From there, we build out a custom ad strategy — from campaign structure to copywriting to budget distribution — that fits your goals and market. We don’t believe in cookie-cutter setups. You’ll get a campaign that actually reflects how your buyers shop or book.</p>",
-            "accordion_image": "shopify://shop_images/yellow-arrow.svg"
+            "accordion_image": "shopify://shop_images/plus_1.png"
           }
         },
         "trust_item_JfVUzV": {
@@ -143,7 +143,7 @@
             "main_text": "<p>We’re an Aussie team that knows the local market better than any overseas agency. No bloated retainers. No lost-in-translation strategy. Just clear, honest work that actually moves the needle.</p>",
             "button_text": "Read More",
             "additional_text": "<p>We get what makes an Aussie buyer click. Whether you're selling custom vanities out of Sydney or offering 24/7 plumbing in Melbourne, we know how to position your brand to win. Being local also means we’re in your timezone, available when you need us, and not hiding behind support tickets or five-day delays. Our team doesn’t talk in circles — we speak plainly, act fast, and treat your budget like it’s our own. No gimmicks. No BS. Just results.</p>",
-            "accordion_image": "shopify://shop_images/yellow-arrow.svg"
+            "accordion_image": "shopify://shop_images/plus_1.png"
           }
         }
       },
@@ -251,10 +251,10 @@
         "tradies_item_YQarCg": {
           "type": "tradies-item",
           "settings": {
-            "image": "shopify://shop_images/electrician-website.webp",
-            "detail_info_heading": "Electricians",
-            "detail_info_text": "<p>Customers don’t just want a sparky—they want a reliable expert. We design electrician websites that make it easy for clients to see your services, book a job, and trust your work. Whether it’s rewires, switchboard upgrades, or commercial fit-outs, we showcase your skills with a clean, professional website that helps you stand out.</p><p></p><p></p>",
-            "icon": "shopify://shop_images/yellow-arrow.svg",
+            "image": "shopify://shop_images/AnAgencyOurWork01.png",
+            "detail_info_heading": "Plant Stores",
+            "detail_info_text": "<p></p><p></p><p></p>",
+            "icon": "shopify://shop_images/plus_1.png",
             "detail_button_link": "#",
             "detail_button_text": "Free Quote"
           }
@@ -262,10 +262,10 @@
         "tradies_item_TMkHRR": {
           "type": "tradies-item",
           "settings": {
-            "image": "shopify://shop_images/plumbing-websites.webp",
-            "detail_info_heading": "Plumbers",
+            "image": "shopify://shop_images/AnAgencyOurWork04.png",
+            "detail_info_heading": "Hardeware Stores",
             "detail_info_text": "<p>Blocked drains, burst pipes, hot water installs—your customers want help fast. We build plumbing websites that make it easy for people to find your services, get a quick quote, and book a job on the spot. Plus, we highlight your experience and qualifications so customers know they’re in good hands.</p><p></p><p></p>",
-            "icon": "shopify://shop_images/yellow-arrow.svg",
+            "icon": "shopify://shop_images/plus_1.png",
             "detail_button_link": "#",
             "detail_button_text": "Free Quote"
           }
@@ -273,10 +273,10 @@
         "tradies_item_yT7wgX": {
           "type": "tradies-item",
           "settings": {
-            "image": "shopify://shop_images/carpenter-websites.webp",
-            "detail_info_heading": "Carpenters",
+            "image": "shopify://shop_images/AnAgencyOurWork19.png",
+            "detail_info_heading": "Plumbers",
             "detail_info_text": "<p>Your work speaks for itself—your website should too. Whether you’re crafting custom furniture, framing houses, or handling detailed renovations, we create carpenter websites that showcase your best projects, highlight your craftsmanship, and bring in high-paying clients.</p><p></p><p></p>",
-            "icon": "shopify://shop_images/yellow-arrow.svg",
+            "icon": "shopify://shop_images/plus_1.png",
             "detail_button_link": "#",
             "detail_button_text": "Free Quote"
           }
@@ -284,10 +284,10 @@
         "tradies_item_X3Db9y": {
           "type": "tradies-item",
           "settings": {
-            "image": "shopify://shop_images/pest-control-website-development-1.webp",
-            "detail_info_heading": "Pest Control",
+            "image": "shopify://shop_images/AnAgencyOurWork14.png",
+            "detail_info_heading": "Cabinet Makers",
             "detail_info_text": "<p>Customers need to trust their pest control expert. We design websites that clearly show your experience in dealing with termites, rodents, and everything in between. We make it easy for clients to book inspections, learn about your methods, and understand why your service is the best choice for keeping their home pest-free.</p><p></p><p></p>",
-            "icon": "shopify://shop_images/yellow-arrow.svg",
+            "icon": "shopify://shop_images/plus_1.png",
             "detail_button_link": "#",
             "detail_button_text": "Free Quote"
           }
@@ -295,10 +295,10 @@
         "tradies_item_6qHYz4": {
           "type": "tradies-item",
           "settings": {
-            "image": "shopify://shop_images/cleaning-website-design.webp",
-            "detail_info_heading": "Cleaning",
+            "image": "shopify://shop_images/AnAgencyOurWork12.png",
+            "detail_info_heading": "Retail Stores",
             "detail_info_text": "<p>Whether you’re running a commercial cleaning business or handling end-of-lease deep cleans, a strong website helps you get more bookings. We highlight your services, customer testimonials, and guarantees, with a simple contact system that makes it easy for clients to reach out and book a clean.</p><p></p><p></p>",
-            "icon": "shopify://shop_images/yellow-arrow.svg",
+            "icon": "shopify://shop_images/plus_1.png",
             "detail_button_link": "#",
             "detail_button_text": "Free Quote"
           }
@@ -306,10 +306,10 @@
         "tradies_item_tDB4YR": {
           "type": "tradies-item",
           "settings": {
-            "image": "shopify://shop_images/general-tradies-websites.webp",
-            "detail_info_heading": "All Other Tradies",
+            "image": "shopify://shop_images/AnAgencyOurWork06.png",
+            "detail_info_heading": "Pet Stores",
             "detail_info_text": "<p>No matter your trade, we build websites that work for you. From builders and tilers to landscapers and painters, we design sites that show off your skills, bring in more work, and make booking you a no-brainer.</p><p></p><p></p>",
-            "icon": "shopify://shop_images/yellow-arrow.svg",
+            "icon": "shopify://shop_images/plus_1.png",
             "detail_button_link": "#",
             "detail_button_text": "Free Quote"
           }
@@ -324,7 +324,7 @@
         "tradies_item_tDB4YR"
       ],
       "settings": {
-        "heading": "Tradies we work with",
+        "heading": "Industries we work with",
         "text": "Looking for an affordable and effective web design service for your trade business in Australia? We’ve got you.",
         "desktop_padding_top": 60,
         "desktop_padding_bottom": 60,
@@ -340,7 +340,7 @@
           "settings": {
             "question": "What experience does An Agency have working with tradesmen?",
             "answer": "<p>As a team led by an ex-tradesman, we understand the unique challenges and needs of the trade industry. We've successfully partnered with numerous Australian tradies, delivering tailored website designs, effective SEO strategies, and targeted paid advertising campaigns that generate quality leads.</p>",
-            "icon": "shopify://shop_images/yellow-arrow.svg"
+            "icon": "shopify://shop_images/plus_1.png"
           }
         },
         "faq_item_AdgFRX": {
@@ -348,7 +348,7 @@
           "settings": {
             "question": "How long does it take to see results from SEO efforts?",
             "answer": "<p>SEO is a long-term investment. While some improvements can be seen within a few months, it typically takes 6 to 12 months to achieve significant results. Our team implements proven strategies to enhance your online visibility and attract the right clients over time.</p>",
-            "icon": "shopify://shop_images/yellow-arrow.svg"
+            "icon": "shopify://shop_images/plus_1.png"
           }
         },
         "faq_item_E6VP9h": {
@@ -356,7 +356,7 @@
           "settings": {
             "question": "Will I have a dedicated point of contact at An Agency?",
             "answer": "<p>Absolutely. We assign a dedicated account manager to each client, ensuring clear communication and personalized service. Your account manager will keep you updated on progress, answer your questions, and ensure your marketing goals are met.</p>",
-            "icon": "shopify://shop_images/yellow-arrow.svg"
+            "icon": "shopify://shop_images/plus_1.png"
           }
         },
         "faq_item_akFz96": {
@@ -364,7 +364,7 @@
           "settings": {
             "question": "Do you provide regular reports on campaign performance?",
             "answer": "<p>Yes, transparency is key to our approach. We provide detailed monthly reports outlining the performance of your website, SEO, and advertising campaigns. These reports include key metrics and insights to keep you informed and confident in our services.</p>",
-            "icon": "shopify://shop_images/yellow-arrow.svg"
+            "icon": "shopify://shop_images/plus_1.png"
           }
         },
         "faq_item_jdQR46": {
@@ -372,7 +372,7 @@
           "settings": {
             "question": "Can you guarantee specific results with your services?",
             "answer": "<p>No agency can promise exact rankings or lead numbers—but here’s what we can guarantee: if you don’t get any leads, inquiries, or phone calls in the first 30 days, we’ll refund your marketing money, no questions asked. That’s how confident we are in what we do.We’re not just making bold claims—we have the track record to back it up. We have never worked with a tradie who didn’t get inquiries or phone calls within their first 30 days. In most cases, you’ll start seeing results within the first two weeks, and it only gets better from there as the algorithm learns and optimizes.We don’t just set up campaigns—we build systems that bring in real work.</p>",
-            "icon": "shopify://shop_images/yellow-arrow.svg"
+            "icon": "shopify://shop_images/plus_1.png"
           }
         },
         "faq_item_nyFTVE": {
@@ -380,7 +380,7 @@
           "settings": {
             "question": "What ongoing support does An Agency offer?",
             "answer": "<p>We offer continuous support to ensure your marketing efforts remain effective. This includes regular performance reviews, updates to your website and campaigns as needed, and ongoing consultation to adapt strategies in line with your business goals.Partner with An Agency and experience the difference that a confident, knowledgeable, and dedicated marketing team can make for your trade business.</p>",
-            "icon": "shopify://shop_images/yellow-arrow.svg"
+            "icon": "shopify://shop_images/plus_1.png"
           }
         },
         "faq_item_XN9Db9": {
@@ -388,7 +388,7 @@
           "settings": {
             "question": "How do you ensure the quality of leads generated?",
             "answer": "<p>Through precise targeting, compelling ad copy, and strategic SEO practices, we attract clients who are actively seeking your services. Our approach focuses on quality over quantity, ensuring the leads generated are a good fit for your business.</p>",
-            "icon": "shopify://shop_images/yellow-arrow.svg"
+            "icon": "shopify://shop_images/plus_1.png"
           }
         },
         "faq_item_C7MHEi": {
@@ -396,7 +396,7 @@
           "settings": {
             "question": "What types of paid advertising do you manage?",
             "answer": "<p>We manage various paid advertising channels, including Google Ads, social media advertising (Facebook, Instagram), and display advertising. Our team develops targeted campaigns to reach your ideal clients, maximize your return on investment, and keep your phone ringing with new business.</p>",
-            "icon": "shopify://shop_images/yellow-arrow.svg"
+            "icon": "shopify://shop_images/plus_1.png"
           }
         },
         "faq_item_Htp8HR": {
@@ -404,7 +404,7 @@
           "settings": {
             "question": "How do you approach website design for tradesmen?",
             "answer": "<p>We create custom, responsive websites that reflect your brand and appeal to your target audience. Our designs are user-friendly, mobile-optimized, and built with SEO best practices to ensure your site ranks well and converts visitors into clients.</p>",
-            "icon": "shopify://shop_images/yellow-arrow.svg"
+            "icon": "shopify://shop_images/plus_1.png"
           }
         },
         "faq_item_Fb4Rdq": {
@@ -412,7 +412,7 @@
           "settings": {
             "question": "What sets An Agency apart from other marketing agencies?",
             "answer": "<p>Our deep understanding of the trades industry, combined with our comprehensive service offerings—including website design, SEO, and paid advertising—sets us apart. Being Australian-owned and operated, we know the local market and are dedicated to helping fellow Aussie tradies succeed.</p>",
-            "icon": "shopify://shop_images/yellow-arrow.svg"
+            "icon": "shopify://shop_images/plus_1.png"
           }
         }
       },
@@ -430,7 +430,7 @@
       ],
       "settings": {
         "heading": "Frequently Asked Questions",
-        "bg_color": "#f9f9f9",
+        "bg_color": "#fbfbfb",
         "max_width": 684,
         "desktop_padding_top": 60,
         "desktop_padding_bottom": 60,
@@ -494,7 +494,7 @@
       ],
       "settings": {
         "heading": "Partnered With",
-        "bg_color": "#ffffff",
+        "bg_color": "#fbfbfb",
         "desktop_card_border_radius": 10,
         "mobile_card_border_radius": 6,
         "desktop_padding_top": 30,

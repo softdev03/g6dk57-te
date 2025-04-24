@@ -23,8 +23,8 @@
         "card_Wjrcep": {
           "type": "card",
           "settings": {
-            "card_image": "shopify://shop_images/Gold-Coast-Air-and-Electrical-700x394.webp",
-            "heading": "Gold Coast Air and Electrical",
+            "card_image": "shopify://shop_images/AnAgencyOurWork01.png",
+            "heading": "Plantology",
             "description": "A comprehensive website redesign and development project revitalised Gold Coast Air & Electrical’s ...",
             "card_button_link": "#",
             "card_button_text": "See What We Did",
@@ -32,23 +32,23 @@
             "service_keyword": "Website Design"
           }
         },
-        "card_RDrxPx": {
+        "card_mjHFcq": {
           "type": "card",
           "settings": {
-            "card_image": "shopify://shop_images/iGroup-700x394.webp",
-            "heading": "iGroup Services",
-            "description": "A comprehensive website redesign and branding initiative elevated iGroup Services' digital ...",
-            "card_button_link": "#",
-            "card_button_text": "See What We Did",
-            "industry_keyword": "Mould Removal",
-            "service_keyword": "SEO"
+            "card_image": "shopify://shop_images/AnAgencyOurWork24.png",
+            "heading": "Swift Pay",
+            "description": "International Payments App",
+            "card_button_link": "",
+            "card_button_text": "",
+            "industry_keyword": "",
+            "service_keyword": ""
           }
         },
         "card_wqnjrJ": {
           "type": "card",
           "settings": {
-            "card_image": "shopify://shop_images/iGuard-Australia-700x394.webp",
-            "heading": "iGuard Australia",
+            "card_image": "shopify://shop_images/AnAgencyOurWork03.png",
+            "heading": "Crawford Bathrooms",
             "description": "A strategic website redesign and development project transformed iGuard Australia’s digital ...",
             "card_button_link": "#",
             "card_button_text": "See What We Did",
@@ -56,11 +56,23 @@
             "service_keyword": "Print Solutions|B2B Marketing"
           }
         },
+        "card_RDrxPx": {
+          "type": "card",
+          "settings": {
+            "card_image": "shopify://shop_images/AnAgencyOurWork02.png",
+            "heading": "247 Garden Shop",
+            "description": "A comprehensive website redesign and branding initiative elevated iGroup Services' digital ...",
+            "card_button_link": "#",
+            "card_button_text": "See What We Did",
+            "industry_keyword": "Mould Removal",
+            "service_keyword": "SEO"
+          }
+        },
         "card_bQQDHc": {
           "type": "card",
           "settings": {
-            "card_image": "shopify://shop_images/Vanguard-Automotive-700x394.webp",
-            "heading": "Vanguard Automotive",
+            "card_image": "shopify://shop_images/AnAgencyOurWork04.png",
+            "heading": "Bigger Boys Toys",
             "description": "A comprehensive rebranding and digital marketing strategy transformed Vanguard Automotive from ...",
             "card_button_link": "#",
             "card_button_text": "See What We Did",
@@ -68,11 +80,23 @@
             "service_keyword": "Paid Ads"
           }
         },
+        "card_yBqAwa": {
+          "type": "card",
+          "settings": {
+            "card_image": "shopify://shop_images/AnAgencyOurWork29.png",
+            "heading": "C Group Construction",
+            "description": "",
+            "card_button_link": "",
+            "card_button_text": "",
+            "industry_keyword": "",
+            "service_keyword": ""
+          }
+        },
         "card_rpGnAM": {
           "type": "card",
           "settings": {
-            "card_image": "shopify://shop_images/Wet2Dry-700x394.webp",
-            "heading": "Wet2Dry",
+            "card_image": "shopify://shop_images/AnAgencyOurWork05.png",
+            "heading": "Equipped 4x4",
             "description": "A comprehensive branding and digital marketing strategy transformed Wet2Dry from a startup into a ...",
             "card_button_link": "#",
             "card_button_text": "See What We Did",
@@ -83,8 +107,8 @@
         "card_De6xPE": {
           "type": "card",
           "settings": {
-            "card_image": "shopify://shop_images/Project-Plus-700x394.webp",
-            "heading": "Project Plus",
+            "card_image": "shopify://shop_images/AnAgencyOurWork06.png",
+            "heading": "Furry Tales",
             "description": "A comprehensive rebranding and digital marketing strategy revitalised Project Plus' online",
             "card_button_link": "#",
             "card_button_text": "See What We Did",
@@ -95,8 +119,8 @@
         "card_NpT6xx": {
           "type": "card",
           "settings": {
-            "card_image": "shopify://shop_images/Moritz-Electrical-700x394.webp",
-            "heading": "Moritz Electrical",
+            "card_image": "shopify://shop_images/AnAgencyOurWork07.png",
+            "heading": "Get into Shape",
             "description": "A comprehensive rebranding and digital marketing strategy transformed Moritz Electrical's online ...",
             "card_button_link": "#",
             "card_button_text": "See What We Did",
@@ -107,8 +131,8 @@
         "card_rigTW9": {
           "type": "card",
           "settings": {
-            "card_image": "shopify://shop_images/McSweeney-Electrical-1-700x394.webp",
-            "heading": "McSweeney Electrical",
+            "card_image": "shopify://shop_images/AnAgencyOurWork08.png",
+            "heading": "HiBod",
             "description": "Through a comprehensive digital transformation, including branding, a website redesign, local ...",
             "card_button_link": "#",
             "card_button_text": "See What We Did",
@@ -119,8 +143,8 @@
         "card_tzaUwK": {
           "type": "card",
           "settings": {
-            "card_image": "shopify://shop_images/Australian-Electrical-Industries-1-700x394.webp",
-            "heading": "Australian Electrical Industries",
+            "card_image": "shopify://shop_images/AnAgencyOurWork09.png",
+            "heading": "Kool Kidz Kingdom",
             "description": "A strategic website redesign and SEO optimisation elevated Australian Electrical Industries' digital ...",
             "card_button_link": "#",
             "card_button_text": "See What We Did",
@@ -131,8 +155,8 @@
         "card_wUUCHB": {
           "type": "card",
           "settings": {
-            "card_image": "shopify://shop_images/Local-Installers-700x394.webp",
-            "heading": "Local Installers",
+            "card_image": "shopify://shop_images/AnAgencyOurWork10.png",
+            "heading": "Playful Pets",
             "description": "Tradiemate collaborated with Local Installers from their startup phase, building a comprehensive brand ...",
             "card_button_link": "#",
             "card_button_text": "See What We Did",
@@ -143,8 +167,8 @@
         "card_cHPgpR": {
           "type": "card",
           "settings": {
-            "card_image": "shopify://shop_images/Albright-Electrics-tradiemate-700x394.webp",
-            "heading": "Albright Electrics",
+            "card_image": "shopify://shop_images/AnAgencyOurWork11.png",
+            "heading": "Purely Home",
             "description": "Comprehensive branding and digital marketing strategies transformed Albright Electrics’ online ...",
             "card_button_link": "#",
             "card_button_text": "See What We Did",
@@ -155,8 +179,8 @@
         "card_QehPCL": {
           "type": "card",
           "settings": {
-            "card_image": "shopify://shop_images/Around-Town-Plumbing-tradiemate-700x394.webp",
-            "heading": "Around Town Plumbing",
+            "card_image": "shopify://shop_images/AnAgencyOurWork12.png",
+            "heading": "Smeaton Bathrooms",
             "description": "Comprehensive branding and digital marketing strategies revitalised Around Town Plumbing’s ...",
             "card_button_link": "#",
             "card_button_text": "See What We Did",
@@ -167,8 +191,8 @@
         "card_Jr9qtN": {
           "type": "card",
           "settings": {
-            "card_image": "shopify://shop_images/GJH-Electrical-700x394.webp",
-            "heading": "GJH Electrical",
+            "card_image": "shopify://shop_images/AnAgencyOurWork13.png",
+            "heading": "Sport Zone",
             "description": "Our approach led to a significant increase in leads, higher conversion rates, and enhanced brand visibility ...",
             "card_button_link": "#",
             "card_button_text": "See What We Did",
@@ -179,8 +203,8 @@
         "card_ebWdAR": {
           "type": "card",
           "settings": {
-            "card_image": "shopify://shop_images/Pool-Safety-Pros-1-700x394.webp",
-            "heading": "Pool Safety Pros",
+            "card_image": "shopify://shop_images/AnAgencyOurWork14.png",
+            "heading": "Denplex Joinery",
             "description": "Pool Safety Pros, a startup in Sydney specialising in pool and spa safety inspections, partnered with Tradiemate ...",
             "card_button_link": "#",
             "card_button_text": "See What We Did",
@@ -191,8 +215,8 @@
         "card_Q9kyzc": {
           "type": "card",
           "settings": {
-            "card_image": "shopify://shop_images/Rival-Energy-700x394.webp",
-            "heading": "Rival Energy",
+            "card_image": "shopify://shop_images/AnAgencyOurWork16.png",
+            "heading": "K7 Medx",
             "description": "See how we helped Rival Energy leverage their experience to be seen as an expert in their trade while ...",
             "card_button_link": "#",
             "card_button_text": "See What We Did",
@@ -203,13 +227,133 @@
         "card_HKwn7H": {
           "type": "card",
           "settings": {
-            "card_image": "shopify://shop_images/Cameras-OnSite-700x394.webp",
-            "heading": "Cameras On Site",
+            "card_image": "shopify://shop_images/AnAgencyOurWork17.png",
+            "heading": "First Touch Plumbing",
             "description": "See how we helped Cameras On Site grow from Startup to National Brand in Less than 6 Months.",
             "card_button_link": "#",
             "card_button_text": "See What We Did",
             "industry_keyword": "Electrical",
             "service_keyword": "Branding Services|Stationary Pack"
+          }
+        },
+        "card_RERUHK": {
+          "type": "card",
+          "settings": {
+            "card_image": "shopify://shop_images/AnAgencyOurWork18.png",
+            "heading": "KNC",
+            "description": "adfadfadf",
+            "card_button_link": "",
+            "card_button_text": "",
+            "industry_keyword": "",
+            "service_keyword": ""
+          }
+        },
+        "card_HpYpa8": {
+          "type": "card",
+          "settings": {
+            "card_image": "shopify://shop_images/AnAgencyOurWork19.png",
+            "heading": "Quick Fix Plumber",
+            "description": "Plumber",
+            "card_button_link": "",
+            "card_button_text": "",
+            "industry_keyword": "",
+            "service_keyword": ""
+          }
+        },
+        "card_UnVnCR": {
+          "type": "card",
+          "settings": {
+            "card_image": "shopify://shop_images/AnAgencyOurWork20.png",
+            "heading": "Eight 83 Plumbing",
+            "description": "Plumber",
+            "card_button_link": "",
+            "card_button_text": "",
+            "industry_keyword": "",
+            "service_keyword": ""
+          }
+        },
+        "card_DA7UA6": {
+          "type": "card",
+          "settings": {
+            "card_image": "shopify://shop_images/AnAgencyOurWork21.png",
+            "heading": "Elite Driveways",
+            "description": "Concrete Drive Ways",
+            "card_button_link": "",
+            "card_button_text": "",
+            "industry_keyword": "",
+            "service_keyword": ""
+          }
+        },
+        "card_zEbLPE": {
+          "type": "card",
+          "settings": {
+            "card_image": "shopify://shop_images/AnAgencyOurWork23_e993529b-0ab6-4ed0-8e3d-9629a116f37c.png",
+            "heading": "Collins GP CBD",
+            "description": "CBD Clinic",
+            "card_button_link": "",
+            "card_button_text": "",
+            "industry_keyword": "",
+            "service_keyword": ""
+          }
+        },
+        "card_rncDxc": {
+          "type": "card",
+          "settings": {
+            "card_image": "shopify://shop_images/AnAgencyOurWork25.png",
+            "heading": "Dent Dingoes",
+            "description": "afadfafad",
+            "card_button_link": "",
+            "card_button_text": "",
+            "industry_keyword": "",
+            "service_keyword": ""
+          }
+        },
+        "card_RPVmMA": {
+          "type": "card",
+          "settings": {
+            "card_image": "shopify://shop_images/AnAgencyOurWork22.png",
+            "heading": "Civil Worx",
+            "description": "Excavation and Demolition",
+            "card_button_link": "",
+            "card_button_text": "",
+            "industry_keyword": "",
+            "service_keyword": ""
+          }
+        },
+        "card_QqpDPh": {
+          "type": "card",
+          "settings": {
+            "card_image": "shopify://shop_images/AnAgencyOurWork26.png",
+            "heading": "Paint Concepts",
+            "description": "",
+            "card_button_link": "",
+            "card_button_text": "",
+            "industry_keyword": "",
+            "service_keyword": ""
+          }
+        },
+        "card_GRDAPP": {
+          "type": "card",
+          "settings": {
+            "card_image": "shopify://shop_images/AnAgencyOurWork27.png",
+            "heading": "Stools R Us",
+            "description": "",
+            "card_button_link": "",
+            "card_button_text": "",
+            "industry_keyword": "",
+            "service_keyword": ""
+          }
+        },
+        "card_LNDyGH": {
+          "type": "card",
+          "settings": {
+            "card_image": "shopify://shop_images/AnAgencyOurWork28.png",
+            "heading": "Strut hair Care",
+            "description": "",
+            "card_button_link": "",
+            "card_button_text": "",
+            "industry_keyword": "",
+            "service_keyword": ""
           }
         },
         "filter_item_6PTddn": {
@@ -413,9 +557,11 @@
       },
       "block_order": [
         "card_Wjrcep",
-        "card_RDrxPx",
+        "card_mjHFcq",
         "card_wqnjrJ",
+        "card_RDrxPx",
         "card_bQQDHc",
+        "card_yBqAwa",
         "card_rpGnAM",
         "card_De6xPE",
         "card_NpT6xx",
@@ -428,6 +574,16 @@
         "card_ebWdAR",
         "card_Q9kyzc",
         "card_HKwn7H",
+        "card_RERUHK",
+        "card_HpYpa8",
+        "card_UnVnCR",
+        "card_DA7UA6",
+        "card_zEbLPE",
+        "card_rncDxc",
+        "card_RPVmMA",
+        "card_QqpDPh",
+        "card_GRDAPP",
+        "card_LNDyGH",
         "filter_item_6PTddn",
         "filter_item_Tqyi74",
         "filter_item_zLzg3t",
@@ -481,11 +637,11 @@
         "banner_bg_color": "#feda15",
         "banner_box_shadow_color": "#000000",
         "banner_border_radius": 6,
-        "banner_heading": "Websites, Branding& Marketing",
-        "banner_description": "We help tradies get online, drive more sales, and get better rates for their services.",
-        "banenr_secondary_description": "100% Australian",
+        "banner_heading": "Websites, Branding & Ads",
+        "banner_description": "We help Aussie businesses get online, grow faster, and look the part — without the agency fluff or wasted ad spend.",
+        "banenr_secondary_description": "100% Australian. No Lock-In Contracts.",
         "banner_text_color": "#0b0a33",
-        "banner_image": "shopify://shop_images/for-tradies.svg",
+        "banner_image": "shopify://shop_images/Artboard_46.png",
         "banner_button_text": "Get a Free Quote",
         "banner_button_link": "shopify://pages/contact",
         "banner_button_bg_color": "#000000",

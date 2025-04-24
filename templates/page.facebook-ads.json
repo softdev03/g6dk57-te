@@ -122,7 +122,7 @@
             "main_text": "<p>We’ve managed Facebook Ads across every niche—from fashion to furniture, from builders to barbers. We’ve seen what works, what tanks, and what skyrockets. </p>",
             "button_text": "Read More",
             "additional_text": "<p>That knowledge gets baked into every campaign we run, giving you a head start and saving you cash from day one.</p><p></p>",
-            "accordion_image": "shopify://shop_images/yellow-arrow.svg"
+            "accordion_image": "shopify://shop_images/plus_1.png"
           }
         },
         "trust_item_YFytD9": {
@@ -132,7 +132,7 @@
             "main_text": "<p>Whether you're selling $89 beauty products or securing $25K solar install jobs, your strategy needs to match your goals.</p><p></p>",
             "button_text": "Read More",
             "additional_text": "<p>We tailor everything—from creatives and copy to targeting and conversion tracking—so it suits your customer, your market, and your brand</p>",
-            "accordion_image": "shopify://shop_images/yellow-arrow.svg"
+            "accordion_image": "shopify://shop_images/plus_1.png"
           }
         },
         "trust_item_JfVUzV": {
@@ -142,7 +142,7 @@
             "main_text": "<p>We’re not some overseas team guessing what works in Sydney or Melbourne. We’re based here. We get the culture, the buyer behaviour, and how to talk to Aussies in a way that gets action. </p><p></p>",
             "button_text": "Read More",
             "additional_text": "<p>That insight gives your campaigns an edge no template or offshore team can match.</p>",
-            "accordion_image": "shopify://shop_images/yellow-arrow.svg"
+            "accordion_image": "shopify://shop_images/plus_1.png"
           }
         }
       },
@@ -248,10 +248,10 @@
         "tradies_item_tDB4YR": {
           "type": "tradies-item",
           "settings": {
-            "image": "shopify://shop_images/general-tradies-websites.webp",
-            "detail_info_heading": "Shopify Brands",
+            "image": "shopify://shop_images/AnAgencyOurWork29.png",
+            "detail_info_heading": "Construction",
             "detail_info_text": "<p>From skincare to furniture, we run proven conversion-optimised campaigns that drive consistent sales and keep your ROAS healthy.</p><p></p><p></p><p></p>",
-            "icon": "shopify://shop_images/yellow-arrow.svg",
+            "icon": "shopify://shop_images/plus_1.png",
             "detail_button_link": "#",
             "detail_button_text": "Free Quote"
           }
@@ -259,10 +259,10 @@
         "tradies_item_jkGR8z": {
           "type": "tradies-item",
           "settings": {
-            "image": "shopify://shop_images/cleaning-website-design.webp",
-            "detail_info_heading": "Health & Wellness",
+            "image": "shopify://shop_images/AnAgencyOurWork16.png",
+            "detail_info_heading": "Medical Testing",
             "detail_info_text": "<p>Massage chairs, supplements, beauty devices—we help niche brands grow with strategy-led Facebook ads.</p><p></p>",
-            "icon": "shopify://shop_images/yellow-arrow.svg",
+            "icon": "shopify://shop_images/plus_1.png",
             "detail_button_link": "#",
             "detail_button_text": "Free Quote"
           }
@@ -270,16 +270,17 @@
         "tradies_item_Xh8jYb": {
           "type": "tradies-item",
           "settings": {
-            "image": "shopify://shop_images/cleaning-website-design.webp",
-            "detail_info_heading": "Pet Stores",
+            "image": "shopify://shop_images/AnAgencyOurWork18.png",
+            "detail_info_heading": "Not For Profit",
             "detail_info_text": "<p>We know how to market what makes tails wag. From eco-friendly toys to grooming supplies, we help pet brands grow loyal, returning customers.</p><p><br/></p><p><br/></p><p><br/></p><p></p><p></p>",
-            "icon": "shopify://shop_images/yellow-arrow.svg",
+            "icon": "shopify://shop_images/plus_1.png",
             "detail_button_link": "#",
             "detail_button_text": "Free Quote"
           }
         },
         "tradies_item_YQarCg": {
           "type": "tradies-item",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/electrician-website.webp",
             "detail_info_heading": "Electricians",
@@ -291,6 +292,7 @@
         },
         "tradies_item_TMkHRR": {
           "type": "tradies-item",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/plumbing-websites.webp",
             "detail_info_heading": "Plumbers",
@@ -302,6 +304,7 @@
         },
         "tradies_item_yT7wgX": {
           "type": "tradies-item",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/carpenter-websites.webp",
             "detail_info_heading": "Carpenters",
@@ -313,6 +316,7 @@
         },
         "tradies_item_X3Db9y": {
           "type": "tradies-item",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/pest-control-website-development-1.webp",
             "detail_info_heading": "Pest Control",
@@ -324,6 +328,7 @@
         },
         "tradies_item_6qHYz4": {
           "type": "tradies-item",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/cleaning-website-design.webp",
             "detail_info_heading": "Cleaning",
@@ -335,6 +340,7 @@
         },
         "tradies_item_9FAnpQ": {
           "type": "tradies-item",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/cleaning-website-design.webp",
             "detail_info_heading": "All Other Local Service Businesses",
@@ -373,7 +379,7 @@
           "settings": {
             "question": "What experience does An Agency have with Facebook Ads?",
             "answer": "<p>We’ve managed Facebook campaigns across both e-commerce and service industries. From $20 test budgets to $2K/day spenders, we know how to scale, optimise, and drive results.</p><p><br/></p>",
-            "icon": "shopify://shop_images/yellow-arrow.svg"
+            "icon": "shopify://shop_images/plus_1.png"
           }
         },
         "faq_item_AdgFRX": {
@@ -381,7 +387,7 @@
           "settings": {
             "question": "Do you work with small businesses or only large brands?",
             "answer": "<p>Both. We’ve helped solo tradies fill their calendar and helped Shopify stores hit six-figure months. We scale strategies to suit your size.</p><p><br/></p>",
-            "icon": "shopify://shop_images/yellow-arrow.svg"
+            "icon": "shopify://shop_images/plus_1.png"
           }
         },
         "faq_item_E6VP9h": {
@@ -389,7 +395,7 @@
           "settings": {
             "question": "Will I have a dedicated contact?",
             "answer": "<p>Yes—no runarounds. You’ll speak with a real expert who manages your campaign, not a call centre or rotating team.</p><p><br/></p>",
-            "icon": "shopify://shop_images/yellow-arrow.svg"
+            "icon": "shopify://shop_images/plus_1.png"
           }
         },
         "faq_item_akFz96": {
@@ -397,7 +403,7 @@
           "settings": {
             "question": "Can you help with creative and ad copy?",
             "answer": "<p>Absolutely. We create scroll-stopping visuals, write ads that convert, and help refine your offer so it hits harder.</p><p><br/></p>",
-            "icon": "shopify://shop_images/yellow-arrow.svg"
+            "icon": "shopify://shop_images/plus_1.png"
           }
         },
         "faq_item_jdQR46": {
@@ -405,7 +411,7 @@
           "settings": {
             "question": "What kind of results should I expect?",
             "answer": "<p>Every business is different, but we focus on improving your return on ad spend, increasing your conversions, and lowering your cost per lead or sale.</p><p><br/></p>",
-            "icon": "shopify://shop_images/yellow-arrow.svg"
+            "icon": "shopify://shop_images/plus_1.png"
           }
         },
         "faq_item_nyFTVE": {
@@ -413,7 +419,7 @@
           "settings": {
             "question": "Do you offer reporting and transparency?",
             "answer": "<p>Yes—100%. You’ll receive regular updates, clear data, and honest insight into what’s working (and what’s not).</p><p><br/></p>",
-            "icon": "shopify://shop_images/yellow-arrow.svg"
+            "icon": "shopify://shop_images/plus_1.png"
           }
         },
         "faq_item_XN9Db9": {
@@ -421,7 +427,7 @@
           "settings": {
             "question": "How do you ensure the quality of leads generated?",
             "answer": "<p>Through precise targeting, compelling ad copy, and strategic SEO practices, we attract clients who are actively seeking your services. Our approach focuses on quality over quantity, ensuring the leads generated are a good fit for your business.</p>",
-            "icon": "shopify://shop_images/yellow-arrow.svg"
+            "icon": "shopify://shop_images/plus_1.png"
           }
         },
         "faq_item_C7MHEi": {
@@ -429,7 +435,7 @@
           "settings": {
             "question": "How fast can I start seeing results?",
             "answer": "<p>Some clients see traction within days, others take a few weeks. We optimise fast and communicate clearly as we scale your performance.</p>",
-            "icon": "shopify://shop_images/yellow-arrow.svg"
+            "icon": "shopify://shop_images/plus_1.png"
           }
         }
       },
@@ -445,7 +451,7 @@
       ],
       "settings": {
         "heading": "Frequently Asked Questions",
-        "bg_color": "#f9f9f9",
+        "bg_color": "#fbfbfb",
         "max_width": 684,
         "desktop_padding_top": 60,
         "desktop_padding_bottom": 60,

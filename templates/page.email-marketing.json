@@ -118,6 +118,7 @@
       "blocks": {
         "trust_item_KtaqTQ": {
           "type": "trust_item",
+          "disabled": true,
           "settings": {
             "heading": "Decades of experience",
             "main_text": "<p>Our team of web experts has spent decades in the game, building websites that don’t just look good—they perform. We’ve seen trends come and go, and we know what works.</p><p></p>",
@@ -128,6 +129,7 @@
         },
         "trust_item_YFytD9": {
           "type": "trust_item",
+          "disabled": true,
           "settings": {
             "heading": "We get you, mate",
             "main_text": "<p>Our website packages are built specifically for Aussie tradies. We know the industry, we know your market, and we know what makes customers pick up the phone.</p><p></p>",
@@ -138,6 +140,7 @@
         },
         "trust_item_JfVUzV": {
           "type": "trust_item",
+          "disabled": true,
           "settings": {
             "heading": "100% Aussie",
             "main_text": "<p>We’re proudly Australian-owned and operated, working exclusively with local businesses. We believe in keeping it local and supporting Aussie tradies.</p><p></p>",
@@ -152,6 +155,7 @@
         "trust_item_YFytD9",
         "trust_item_JfVUzV"
       ],
+      "disabled": true,
       "settings": {
         "heading": "An Agency: An Australian Web Design Company You Can Trust",
         "text": "<p>With so many website developers and designers out there, you might ask, why us? Maybe you could even build it yourself. But let’s be honest—that’s probably the last thing you want to do. Even those DIY website builders miss the mark on the technical details, not to mention understanding the unique needs of the trades industry.</p><p>That’s where An Agency comes in. We know what it takes to create a website that not only looks great but also works for tradies. We get the trade business and the hard work you put in every day. No need to be modest about it—here’s what sets us apart.</p>",
@@ -164,6 +168,7 @@
     },
     "advertise_PAQGf7": {
       "type": "advertise",
+      "disabled": true,
       "settings": {
         "main_image": "shopify://shop_images/website-design-and-dev-for-tradies.png",
         "secondary_image": "shopify://shop_images/get-the-work-you-want.svg",
@@ -192,6 +197,7 @@
     },
     "advertise_DnFdqE": {
       "type": "advertise",
+      "disabled": true,
       "settings": {
         "main_image": "shopify://shop_images/Web-Designs-for-trades.png",
         "secondary_image_roate_angle": 12,
@@ -219,6 +225,7 @@
     },
     "advertise_JebRqW": {
       "type": "advertise",
+      "disabled": true,
       "settings": {
         "main_image": "shopify://shop_images/email-marketing-for-tradies-edm.webp",
         "secondary_image": "shopify://shop_images/get-new-customers.svg",
@@ -428,6 +435,7 @@
         "faq_item_Htp8HR",
         "faq_item_Fb4Rdq"
       ],
+      "disabled": true,
       "settings": {
         "heading": "Frequently Asked Questions",
         "bg_color": "#f9f9f9",

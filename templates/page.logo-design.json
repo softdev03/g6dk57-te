@@ -87,6 +87,7 @@
     },
     "advertise_qQYPyj": {
       "type": "advertise",
+      "disabled": true,
       "settings": {
         "main_image": "shopify://shop_images/google-ads-for-tradies-australia.webp",
         "secondary_image": "shopify://shop_images/google-ads-for-tradies-text.svg",
@@ -164,6 +165,7 @@
     },
     "advertise_PAQGf7": {
       "type": "advertise",
+      "disabled": true,
       "settings": {
         "main_image": "shopify://shop_images/website-design-and-dev-for-tradies.png",
         "secondary_image": "shopify://shop_images/get-the-work-you-want.svg",
@@ -192,6 +194,7 @@
     },
     "advertise_DnFdqE": {
       "type": "advertise",
+      "disabled": true,
       "settings": {
         "main_image": "shopify://shop_images/Web-Designs-for-trades.png",
         "secondary_image_roate_angle": 12,
@@ -219,6 +222,7 @@
     },
     "advertise_JebRqW": {
       "type": "advertise",
+      "disabled": true,
       "settings": {
         "main_image": "shopify://shop_images/email-marketing-for-tradies-edm.webp",
         "secondary_image": "shopify://shop_images/get-new-customers.svg",
@@ -428,6 +432,7 @@
         "faq_item_Htp8HR",
         "faq_item_Fb4Rdq"
       ],
+      "disabled": true,
       "settings": {
         "heading": "Frequently Asked Questions",
         "bg_color": "#f9f9f9",

@@ -15,7 +15,7 @@
         "text_ymcTrL": {
           "type": "text",
           "settings": {
-            "text": "<p>We help Aussie Businesses Get Online, Drive More Sales & Grow. That’s Our Guarantee.</p>"
+            "text": "<p><strong>We Help Aussie Businesses Get Found Online, Win More Sales & Grow. Guaranteed.</strong></p>"
           }
         },
         "button_QJ86cB": {
@@ -53,7 +53,7 @@
           "settings": {
             "icon": "shopify://shop_images/warranty.svg",
             "heading": "1-YEAR WARRANTY",
-            "text": "Every site comes with a 12-month warranty.",
+            "text": "Every website backed by a full 12-month guarantee",
             "button_text": "",
             "button_link": ""
           }
@@ -63,7 +63,7 @@
           "settings": {
             "icon": "shopify://shop_images/star_68d91e68-49d3-4afc-8f6e-7370151bdcb2.svg",
             "heading": "20+ INDUSTRY PARTNERS",
-            "text": "Trusted by top brands across multiple sectors.",
+            "text": "Trusted by leading Aussie brands across multiple sectors.",
             "button_text": "",
             "button_link": ""
           }
@@ -73,7 +73,7 @@
           "settings": {
             "icon": "shopify://shop_images/australia_e9376e67-76a5-4a42-ab1b-e174c92ae927.svg",
             "heading": "SHOPIFY PARTNER",
-            "text": "Officially recognised for expert Shopify builds.",
+            "text": "Officially recognised as  Shopify experts  who build stores that sell.",
             "button_text": "",
             "button_link": ""
           }
@@ -83,7 +83,7 @@
           "settings": {
             "icon": "shopify://shop_images/partners_c78b1a3c-3abe-48cb-a659-b0427467b9a1.svg",
             "heading": "380+ PROJECTS DELIVERED",
-            "text": "Websites and campaigns launched nationwide.",
+            "text": "Websites and marketing campaigns launched nationwide.",
             "button_text": "",
             "button_link": ""
           }
@@ -129,11 +129,11 @@
         "mobile_top": 7,
         "mobile_right": -1,
         "mobile_bottom": 0,
-        "heading": "Shopify Websites & Digital Growth for Real Businesses",
-        "sub_heading": "If your store isn’t getting sales or your service business is stuck chasing leads, it’s time to do things smarter.",
-        "text": "<p>We help retailers go online, eComm brands scale, and service providers generate consistent enquiries.<br/><br/>No fluff, no cookie-cutter builds—just websites and ads that get real results.</p><p>Whether you're starting fresh or levelling up, we'll show you what works (and what to ditch).</p>",
+        "heading": "Websites & Digital Marketing That Actually Work",
+        "sub_heading": "Less guessing, more selling.",
+        "text": "<p>If your online store isn’t pulling its weight or your phone isn't ringing enough, you're burning cash and wasting time.</p><p>We build custom Shopify stores that drive real sales and create marketing strategies that fill your inbox with quality leads—no BS, just measurable results.</p><p>Whether you’re launching from zero or scaling your business, we'll show you exactly what to keep and what to cut.</p><p><strong>Ready to stop messing around?</strong></p>",
         "button_link": "shopify://pages/contact",
-        "button_text": "Get my Custom Strategy Now",
+        "button_text": "Get Your Growth Plan Now",
         "image_right": true,
         "text_align": "left",
         "background_color": "#ffffff",
@@ -149,7 +149,7 @@
         "icon_with_text_EL4nFf": {
           "type": "icon-with-text",
           "settings": {
-            "icon": "shopify://shop_images/hot-water-shop-3_647c0b3e-b18c-4b01-beab-75caf57e2a52.svg",
+            "icon": "shopify://shop_images/EIght83_logo_HP.svg",
             "heading": "",
             "text": "",
             "button_text": "",
@@ -159,7 +159,7 @@
         "icon_with_text_Ar8ah3": {
           "type": "icon-with-text",
           "settings": {
-            "icon": "shopify://shop_images/energy-outlet-2_98a1f76d-4c99-4e89-a6d9-7a0dfe8250a8.svg",
+            "icon": "shopify://shop_images/EliteDriveways_logo_HP.svg",
             "heading": "",
             "text": "",
             "button_text": "",
@@ -169,7 +169,7 @@
         "icon_with_text_Kxt3LQ": {
           "type": "icon-with-text",
           "settings": {
-            "icon": "shopify://shop_images/local-installers_9ddb4c97-e745-4900-b536-c3b40b4d5212.svg",
+            "icon": "shopify://shop_images/Plantology_logo_HP.svg",
             "heading": "",
             "text": "",
             "button_text": "",
@@ -179,7 +179,7 @@
         "icon_with_text_Q8raKD": {
           "type": "icon-with-text",
           "settings": {
-            "icon": "shopify://shop_images/ocular-ev-chargers-1_3.svg",
+            "icon": "shopify://shop_images/Smeaton_logo_HP.svg",
             "heading": "",
             "text": "",
             "button_text": "",
@@ -228,11 +228,11 @@
         "mobile_top": 300,
         "mobile_right": -1,
         "mobile_bottom": -1,
-        "heading": "We’ll Get You More Leads (Without Chasing Clients)",
-        "sub_heading": "Stop relying on referrals or word of mouth—get leads coming to you consistently.",
-        "text": "<p>Whether you're a plumber, concreter or local service pro, old-school tactics won’t cut it anymore.<br/><br/>We help you attract high-value enquiries with targeted ads and clean, trust-building websites.</p><p>No more quoting for time-wasters. Just quality leads, straight to your inbox.</p>",
-        "button_link": "shopify://collections/all",
-        "button_text": "Request A Quote",
+        "heading": "Leads You Actually Want (Without the Hustle)",
+        "sub_heading": "Quit chasing tyre-kickers. Start attracting quality enquiries.",
+        "text": "<p>If you're still banking on referrals and hoping the phone rings, you're already losing.</p><p>We build targeted ad campaigns and websites that don't just look good—they get serious leads knocking at your door.</p><p>Plumber, concreter, sparky—whatever your trade, it’s time to ditch the old-school grind and start getting inboxes full of real opportunities, not dead ends.</p><p><strong>Ready to fill your pipeline with clients who pay?</strong><br/></p>",
+        "button_link": "shopify://pages/contact",
+        "button_text": "Get Your Lead Strategy Now",
         "image_right": false,
         "text_align": "left",
         "background_color": "#ffffff",
@@ -385,7 +385,7 @@
         "text_t7qd6P": {
           "type": "text",
           "settings": {
-            "text": "<p>From trades to online retail, our services are built to help Aussie businesses grow—faster, smarter, and with less guesswork.</p>"
+            "text": "<p>From local tradies to Shopify retailers, we help Aussie businesses grow faster, smarter, and with zero guesswork.</p>"
           }
         }
       },
@@ -407,87 +407,87 @@
     "services_grid_bKcDN4": {
       "type": "services-grid",
       "blocks": {
-        "service_xiUDwx": {
-          "type": "service",
-          "settings": {
-            "service_icon": "shopify://shop_images/pie-line-graph-desktop_c66f802a-9323-4e6b-80b9-ad33e393eeac.svg",
-            "service_title": "Marketing Strategy",
-            "service_link": "",
-            "service_description": "We’ll help you stand out, whether you're a local tradie or a growing Shopify store."
-          }
-        },
         "service_88XJXD": {
           "type": "service",
           "settings": {
-            "service_icon": "shopify://shop_images/responsive-design-11_c3e669aa-fa03-406e-92e9-e9e98c068afe.svg",
+            "service_icon": "shopify://shop_images/app-development.png",
             "service_title": "Website Development",
-            "service_link": "",
-            "service_description": "Custom, conversion-driven websites that look good and work hard."
+            "service_link": "shopify://pages/custom-shopify-development",
+            "service_description": "Custom-built, high-performance websites that look great and convert even better."
           }
         },
         "service_9MLrPx": {
           "type": "service",
           "settings": {
-            "service_icon": "shopify://shop_images/shopping-buy-advertising-billboard-megaphone1_e4c21ce5-c684-465e-858d-f9071156c61d.svg",
+            "service_icon": "shopify://shop_images/adwords.png",
             "service_title": "Google Ads Management",
-            "service_link": "",
-            "service_description": "Run high-converting campaigns that bring in real leads or product sales."
+            "service_link": "shopify://pages/google-ads",
+            "service_description": "Targeted ads designed to drive sales or fill your inbox with quality leads."
           }
         },
-        "service_8NhzR3": {
+        "service_xiUDwx": {
           "type": "service",
           "settings": {
-            "service_icon": "shopify://shop_images/seo-network-map1_c72b644b-bf5a-4032-a757-934c1622cab6.svg",
-            "service_title": "Search Engine Optimisation (SEO)",
+            "service_icon": "shopify://shop_images/strategy.png",
+            "service_title": "Marketing Strategy",
             "service_link": "",
-            "service_description": "Be seen by the right people when they search, without relying on paid ads."
-          }
-        },
-        "service_RedTy7": {
-          "type": "service",
-          "settings": {
-            "service_icon": "shopify://shop_images/email-action-image1_7786a6d4-14e0-4aad-b5de-43bf5462e43c.svg",
-            "service_title": "Email Marketing",
-            "service_link": "",
-            "service_description": "Keep customers and clients coming back with targeted email flows that convert."
+            "service_description": "Clear plans to help your brand stand out online. No fluff, no waste."
           }
         },
         "service_7W373n": {
           "type": "service",
           "settings": {
-            "service_icon": "shopify://shop_images/job-seach-profile1_c18667ed-e9e6-438a-a908-162bceb4a46f.svg",
-            "service_title": "Job Leads For Tradies",
+            "service_icon": "shopify://shop_images/qualifying.png",
+            "service_title": "Job Leads For Service Trades",
             "service_link": "",
-            "service_description": "Get the quality, high-paying job leads you deserve."
+            "service_description": "Consistent, high-paying job enquiries delivered straight to your inbox."
+          }
+        },
+        "service_RedTy7": {
+          "type": "service",
+          "settings": {
+            "service_icon": "shopify://shop_images/email-marketing_ac55f679-0d95-4352-8ebf-7342ecf2372e.png",
+            "service_title": "Email Marketing",
+            "service_link": "",
+            "service_description": "Keep customers coming back with strategic, high-converting email campaigns."
           }
         },
         "service_fDjxRX": {
           "type": "service",
           "settings": {
-            "service_icon": "shopify://shop_images/color-palette-sample-22_15adc968-2203-453a-b324-7749c7bc1c11.svg",
+            "service_icon": "shopify://shop_images/branding.png",
             "service_title": "Branding & Design",
+            "service_link": "shopify://pages/branding",
+            "service_description": "Professional logos, brand guides, and messaging that make your business memorable."
+          }
+        },
+        "service_8NhzR3": {
+          "type": "service",
+          "settings": {
+            "service_icon": "shopify://shop_images/search-engine-optimisation.png",
+            "service_title": "Search Engine Optimisation (SEO)",
             "service_link": "",
-            "service_description": "Logos, brand kits, messaging—everything you need to look pro and feel confident."
+            "service_description": "Organic strategies that put your business in front of customers without paying for ads."
           }
         },
         "service_y43D7p": {
           "type": "service",
           "settings": {
-            "service_icon": "shopify://shop_images/content-pencil-write_360d310e-70dd-4fb6-be63-e5d8dd798864.svg",
+            "service_icon": "shopify://shop_images/creative.png",
             "service_title": "Content That Converts",
             "service_link": "",
-            "service_description": "Copy and visuals that speak your customer’s language and get them to take action."
+            "service_description": "Persuasive copy and visuals that get your customers clicking, calling, and buying."
           }
         }
       },
       "block_order": [
-        "service_xiUDwx",
         "service_88XJXD",
         "service_9MLrPx",
-        "service_8NhzR3",
-        "service_RedTy7",
+        "service_xiUDwx",
         "service_7W373n",
+        "service_RedTy7",
         "service_fDjxRX",
+        "service_8NhzR3",
         "service_y43D7p"
       ],
       "settings": {
@@ -528,78 +528,85 @@
         "with_item_mTzrCQ": {
           "type": "with_item",
           "settings": {
-            "text": "More Shopify sales or qualified enquiries",
-            "icon": "shopify://shop_images/check-blue-white.svg"
+            "text": "Consistent sales & high-quality enquiries",
+            "icon": "shopify://shop_images/checkmark.png"
           }
         },
         "with_item_hTz8MW": {
           "type": "with_item",
           "settings": {
-            "text": "Consistent growth with less stress",
-            "icon": "shopify://shop_images/check-blue-white.svg"
+            "text": "Profitable, targeted ad campaigns",
+            "icon": "shopify://shop_images/checkmark.png"
           }
         },
         "with_item_ptciKC": {
           "type": "with_item",
           "settings": {
-            "text": "Ad campaigns that deliver real ROI",
-            "icon": "shopify://shop_images/check-blue-white.svg"
+            "text": "Websites built to convert from day one",
+            "icon": "shopify://shop_images/checkmark.png"
           }
         },
         "with_item_wQF7x4": {
           "type": "with_item",
           "settings": {
-            "text": "A team that actually gives a sh*t",
-            "icon": "shopify://shop_images/check-blue-white.svg"
+            "text": "Data-driven, measurable strategies",
+            "icon": "shopify://shop_images/checkmark.png"
           }
         },
         "with_item_JcLhgD": {
           "type": "with_item",
           "settings": {
-            "text": "Systems built to scale with your business",
-            "icon": "shopify://shop_images/check-blue-white.svg"
+            "text": "Systems & integrations that scale with ease",
+            "icon": "shopify://shop_images/checkmark.png"
           }
         },
         "with_item_Wq4hjY": {
           "type": "with_item",
           "settings": {
-            "text": "Double, Triple, or Skyrocket Your Revenue",
-            "icon": "shopify://shop_images/check-blue-white.svg"
+            "text": "A team that actually gives a sh*t",
+            "icon": "shopify://shop_images/checkmark.png"
           }
         },
         "without_item_K9AkLp": {
           "type": "without_item",
           "settings": {
-            "text": "Relying on word of mouth or clunky directories",
-            "icon": "shopify://shop_images/check-list-x.svg"
+            "text": "Relying on referrals or outdated directories",
+            "icon": "shopify://shop_images/close.png"
           }
         },
         "without_item_yf6gPm": {
           "type": "without_item",
           "settings": {
-            "text": "Wasting money on ads that don’t convert",
-            "icon": "shopify://shop_images/check-list-x.svg"
+            "text": "Wasted ad spend with no return",
+            "icon": "shopify://shop_images/close.png"
           }
         },
         "without_item_iRdrDJ": {
           "type": "without_item",
           "settings": {
-            "text": "A pretty site with no real sales",
-            "icon": "shopify://shop_images/check-list-x.svg"
+            "text": "Pretty websites that don’t actually sell",
+            "icon": "shopify://shop_images/close.png"
           }
         },
         "without_item_mhhQen": {
           "type": "without_item",
           "settings": {
-            "text": "Zero strategy or tracking",
-            "icon": "shopify://shop_images/check-list-x.svg"
+            "text": "Zero tracking, no clear strategy",
+            "icon": "shopify://shop_images/close.png"
           }
         },
         "without_item_LmR4fR": {
           "type": "without_item",
           "settings": {
-            "text": "Tools that don’t talk to each other",
-            "icon": "shopify://shop_images/check-list-x.svg"
+            "text": "Tools and tech that don’t integrate",
+            "icon": "shopify://shop_images/close.png"
+          }
+        },
+        "without_item_TqrAHx": {
+          "type": "without_item",
+          "settings": {
+            "text": "Feeling stuck or overwhelmed",
+            "icon": "shopify://shop_images/close.png"
           }
         }
       },
@@ -614,14 +621,15 @@
         "without_item_yf6gPm",
         "without_item_iRdrDJ",
         "without_item_mhhQen",
-        "without_item_LmR4fR"
+        "without_item_LmR4fR",
+        "without_item_TqrAHx"
       ],
       "custom_css": [],
       "settings": {
         "section_title": "Why Work With a Shopify & Marketing Expert?",
         "section_subheading": "Over 300+ businesses have worked with us to grow sales, get leads, and simplify their digital game.",
-        "without_title": "Without An Agency",
-        "with_title": "With An Agency",
+        "without_title": "WITHOUT AN AGENCY",
+        "with_title": "WITH AN AGENCY",
         "desktop_padding_top": 60,
         "desktop_padding_bottom": 60,
         "mobile_padding_top": 50,
@@ -657,7 +665,7 @@
         "text_7drPy4": {
           "type": "text",
           "settings": {
-            "text": "<h1>Sign Up For An Agency Today</h1>"
+            "text": "<h1>Sign up to An Agency today</h1>"
           }
         },
         "button_BngqAq": {
@@ -705,20 +713,20 @@
       "settings": {
         "main_image": "shopify://shop_images/2e5877eca35c499b4057cf3e49e166c6.png",
         "secondary_image": "shopify://shop_images/this-could-be-you_86b78ffa-fae9-4fc7-9bda-3b42602401a5.svg",
-        "secondary_image_roate_angle": -12,
-        "desktop_left": -20,
-        "desktop_top": 330,
+        "secondary_image_roate_angle": 16,
+        "desktop_left": -8,
+        "desktop_top": 100,
         "desktop_right": -1,
         "desktop_bottom": -1,
-        "mobile_left": 49,
+        "mobile_left": 47,
         "mobile_top": -1,
         "mobile_right": -1,
         "mobile_bottom": 131,
-        "heading": "Get More Sales From Your Shopify Store",
-        "sub_heading": "Stop guessing, stop Googling, and stop wondering why it’s not working.",
-        "text": "<p>You’ve got the products. Maybe even some traffic. But turning visitors into actual sales? That’s the tricky part.</p><p>As Shopify Partners, we help businesses like yours fix broken funnels, clean up clunky websites, and run ads that actually convert.</p><p>Whether you’re just starting out or scaling hard, we’ll help you sell smarter—not harder.</p><p><strong>We’ve got you. Let’s talk Shopify.</strong></p>",
+        "heading": "Turn Your Shopify Store Into a Sales Machine",
+        "sub_heading": "Less guessing, more converting.",
+        "text": "<p>You’ve got great products. You’ve got traffic (or at least some). So why aren't the sales flooding in?</p><p>We’re Shopify Partners who specialise in fixing leaky funnels, streamlining slow websites, and running targeted ads that turn visitors into buyers.</p><p>Whether you’re launching fresh or pushing to scale, we'll help you sell smarter, simpler, and faster.</p><p><strong>Ready to finally see your Shopify store do its job?</strong><br/></p>",
         "button_link": "shopify://pages/contact",
-        "button_text": "Speak To Our Team",
+        "button_text": "Chat to Our Team",
         "image_right": false,
         "text_align": "left",
         "background_color": "#ffffff",
@@ -734,14 +742,14 @@
         "heading_NHqGNr": {
           "type": "heading",
           "settings": {
-            "heading": "Why Your Business Needs to Be Seen Online",
+            "heading": "<strong>Why Your Business Needs to Be Seen Online</strong>",
             "heading_size": "h1"
           }
         },
         "text_yUXkP6": {
           "type": "text",
           "settings": {
-            "text": "<p>Whether you're booking jobs or selling products, visibility is everything. Here's what smart digital marketing helps you do:</p>"
+            "text": "<p><strong>Whether you're booking jobs or shipping orders, visibility is everything. Here's how smart digital marketing helps:</strong></p><h3></h3>"
           }
         },
         "text_QD6CMK": {
@@ -788,33 +796,33 @@
         "benefit_Y46pga": {
           "type": "benefit",
           "settings": {
-            "benefit_title": "Reach a Bigger Audience",
-            "benefit_description": "Relying on referrals or foot traffic only takes you so far. A strong online presence helps you tap into wider markets—locally and nationwide. Whether you're a plumber or a product brand, your next customer is already searching for what you do. We help you get in front of them at the right time. You’ll start showing up where it matters: Google, Facebook, Instagram, and more. The more visibility you have, the more chances you get to win business.",
-            "benefit_icon": "shopify://shop_images/check-blue-white.svg"
+            "benefit_title": "Reach More Customers, Faster",
+            "benefit_description": "Foot traffic and referrals are great, but limited. Customers now search online first. From local suburbs to nationwide, a solid online presence gets your business in front of people already looking for exactly what you offer. We help you appear where it counts; Google, Facebook, Instagram so you win more business, more often.",
+            "benefit_icon": "shopify://shop_images/checkmark.png"
           }
         },
         "benefit_AW7kGg": {
           "type": "benefit",
           "settings": {
-            "benefit_title": "Build Real Credibility",
-            "benefit_description": "When customers see a modern, fast website and consistent branding, trust skyrockets. Whether you're offering skin treatments or solar installs, people want to know you're legit before they click or call. A professional online presence does that without you having to say a word. We'll help you build authority with sharp design, clean copy, and real testimonials. Add SEO on top, and you're now seen as a trusted name in your space. People buy from businesses they believe in — we help make that belief instant.",
-            "benefit_icon": "shopify://shop_images/check-blue-white.svg"
+            "benefit_title": "Build Instant Trust & Credibility",
+            "benefit_description": "People judge your business online in seconds. A polished website, clear branding, and solid reviews instantly show you’re legit. Whether you're running skin clinics or installing solar panels, customers need to trust you before they click or call. Our websites and ads don’t just look professional, they convince your next customer you're the real deal.",
+            "benefit_icon": "shopify://shop_images/checkmark.png"
           }
         },
         "benefit_FPeAQa": {
           "type": "benefit",
           "settings": {
-            "benefit_title": "Stand Out From the Crowd",
-            "benefit_description": "There’s no shortage of competition online. That’s why we focus on making your business the obvious choice. Our team helps you uncover your unique edge — then we bake it into your website, ads, and overall digital strategy. Whether you're up against big-box retailers or other tradies in your suburb, we make you the one that gets remembered. It's not about shouting louder — it's about showing up smarter. Let’s help you win the clicks that count.",
-            "benefit_icon": "shopify://shop_images/check-blue-white.svg"
+            "benefit_title": "Stand Out (for the Right Reasons)",
+            "benefit_description": "Online competition is fierce. But being louder isn’t the answer. We pinpoint what makes your business different, then amplify it through your website, ads, and overall strategy. Whether it's big-box retailers or local tradies, we'll make sure you're not just another option, you're the obvious choice.",
+            "benefit_icon": "shopify://shop_images/checkmark.png"
           }
         },
         "benefit_wNGBXq": {
           "type": "benefit",
           "settings": {
-            "benefit_title": "Attract Better Clients and Customers",
-            "benefit_description": "Not all clicks are created equal. We don’t just drive traffic — we drive qualified traffic that’s ready to convert. We’ll help you reach the people who value what you offer and are happy to pay for it. With targeted ads, SEO, and conversion-focused design, you’ll attract customers who stick around, not just window shop. It’s time to stop chasing the wrong crowd. We’ll get the right people through your virtual door.",
-            "benefit_icon": "shopify://shop_images/check-blue-white.svg"
+            "benefit_title": "Attract Customers Who Pay",
+            "benefit_description": "It’s not about getting more clicks, it’s about better clicks. We help you attract customers ready to buy. With targeted ads, smart SEO, and websites built for conversion, we stop the tyre-kickers and funnel real buyers straight to your inbox.",
+            "benefit_icon": "shopify://shop_images/checkmark.png"
           }
         }
       },
@@ -849,8 +857,8 @@
         "mobile_right": -20,
         "mobile_bottom": -1,
         "heading": "The Challenge of Getting Leads Online",
-        "sub_heading": "Your expertise is in your trade. Ours is getting you found by people ready to pay for it.",
-        "text": "<p>Let’s be real — most service businesses don’t have a steady pipeline of high-quality leads. You’re relying on referrals, directories, or just hoping someone stumbles onto your site.</p><p>Without a solid digital strategy, you're invisible to the very people who need you.</p><p>That’s where we come in. We know the Aussie market and how local customers search for trades and services. No generic SEO fluff or Google Ads guesswork — just real strategies built to drive calls, quotes, and bookings.</p><p><strong>We make your phone ring. With the right people.</strong></p>",
+        "sub_heading": "You’re an expert in your trade, not digital marketing. So why spend your time chasing leads?",
+        "text": "<p>Truth is, most local businesses struggle to build a reliable pipeline of quality enquiries. Relying on word-of-mouth or online directories won't keep your calendar full. Without a clear online strategy, you’re invisible exactly when people need you most.</p><p>That’s where we step in. We don’t just know marketing, we know how Aussies search for trades and services. No fluff, no guesswork, just targeted, proven strategies designed to get your phone ringing with real customers that chase you.</p><p><strong>We make your phone ring. With the right people.</strong></p>",
         "button_link": "shopify://blogs/news",
         "button_text": "How We Generate Leads",
         "image_right": true,
@@ -868,10 +876,10 @@
       "settings": {
         "logo_image": "shopify://shop_images/05.jpg",
         "main_heading": "RESULTS GUARANTEED",
-        "sub_heading": "(Our No-Risk, No-Nonsense Promise)",
-        "description": "If we don’t deliver the results we agreed on, you don’t pay.That’s how confident we are in what we do.",
-        "button_text": "Request a Free Quote",
-        "button_link": "",
+        "sub_heading": "(Our No-Risk, No-BS Promise)",
+        "description": "If we don’t deliver what we agree on, you simply don’t pay. That’s how confident we are in our results.",
+        "button_text": "Request Your Free Quote",
+        "button_link": "shopify://pages/contact",
         "desktop_padding_top": 70,
         "desktop_padding_bottom": 60,
         "mobile_padding_top": 40,
@@ -885,7 +893,7 @@
           "type": "column",
           "settings": {
             "title": "100% AUSTRALIAN",
-            "text": "<p>We’re locally owned, locally grown, and we actually get the challenges Aussie businesses face—whether you’re online or on the tools.</p>",
+            "text": "<p>Locally owned, operated, and genuinely tuned into the needs of Aussie businesses, whether you’re online or on the tools.</p>",
             "link_label": "",
             "link": ""
           }
@@ -894,7 +902,7 @@
           "type": "column",
           "settings": {
             "title": "HASSLE-FREE SETUP",
-            "text": "<p>From planning to launch, we handle the heavy lifting. No stress, no tech headaches—just results.</p>",
+            "text": "<p>We handle every detail from start to launch. You get results without the stress or tech headaches.</p>",
             "link_label": "",
             "link": ""
           }
@@ -903,7 +911,7 @@
           "type": "column",
           "settings": {
             "title": "BUILT FOR YOUR BUSINESS",
-            "text": "<p>We tailor every project to suit your industry, your goals, and your customers. You’ll feel like we’re part of your team.</p>",
+            "text": "<p>Tailored strategies matched precisely to your industry, customers, and growth goals. We’re part of your team.</p><p></p>",
             "link_label": "",
             "link": ""
           }
@@ -964,8 +972,8 @@
         "mobile_right": -22,
         "mobile_bottom": 2,
         "heading": "An Investment That Actually Grows Your Online Sales",
-        "sub_heading": "The Brands Thriving in eCommerce Know This..",
-        "text": "<p>We get it. Saving on costs matters—but not if it slows down your growth. If you’re cutting corners on your online store’s visibility, speed, or conversion strategy, you’re leaving money on the table.</p><p>Why gamble with DIY setups or bargain-basement developers when your store is the heart of your business?</p><p><strong>It’s not just about being online. It’s about being profitable.</strong></p><p>Successful eCommerce brands invest in partners who get results. We help you build a proper strategy, attract better customers, and increase average order value. The outcome? More sales. Fewer headaches.</p><p><strong>Ready to grow without guesswork?</strong><br/></p>",
+        "sub_heading": "Thriving eCommerce Brands Know This..",
+        "text": "<p>We get it...controlling costs is smart, but not when it holds back your growth. If your Shopify store is slow, invisible, or struggling to convert visitors, you’re bleeding sales every day.</p><p>Why risk your entire online business with DIY solutions or cheap developers?</p><p>It’s not just about having a website, it’s about having a profitable online business.</p><p>Successful stores invest in proven strategies. We help you attract the right customers, streamline your funnels, and boost average order value. The result? More sales, fewer headaches.</p><p><strong>Ready to scale without the guesswork?</strong><br/></p>",
         "button_link": "shopify://pages/contact",
         "button_text": "Ok, Let’s Do This!",
         "image_right": true,
@@ -993,8 +1001,8 @@
         "mobile_right": -1,
         "mobile_bottom": 57,
         "heading": "Let’s Talk About Your Business Goals",
-        "sub_heading": "Not Just More Leads. The Right Ones.",
-        "text": "<p>We’re not just a service provider—we’re your growth partner. Whether you’re running a Shopify store or quoting jobs in your local area, we help you get in front of people who are ready to buy, book, or build.</p><p>We’ve worked with hundreds of Aussie businesses, across every corner of the map. We know the landscape, we know what works, and we know how to scale your online presence without wasting your time or money.</p><p><strong>Get the right traffic, more conversions, and the work you actually want.</strong></p><p></p>",
+        "sub_heading": "Don’t Just Get Leads. Get Better Leads.",
+        "text": "<p>We’re not your typical agency, we’re your growth partner. If you run a local service business, we help you attract customers who are ready to book, buy, or build right now.</p><p>Having partnered with hundreds of Aussie businesses nationwide, we know exactly what works and what doesn’t. Our strategies deliver clients who pay, and jobs you actually want.</p><p><strong>Ready to level up your business?</strong></p>",
         "button_link": "shopify://pages/contact",
         "button_text": "Speak To Our Team",
         "image_right": false,
@@ -1012,89 +1020,188 @@
         "faq_item_XGXi4Q": {
           "type": "faq_item",
           "settings": {
-            "question": "How do I get more leads for my business?",
-            "answer": "<p>Whether you're running a Shopify store or offering plumbing services, getting more leads comes down to having a solid digital strategy. That means being found on Google, running smart ad campaigns, using email marketing the right way, and actually tracking what works. We build and manage systems that bring you leads on autopilot—no fluff.</p><p></p>",
-            "icon": "shopify://shop_images/yellow-arrow_3e657a2f-2ca2-4c8f-8ef5-7678a9b6fcdb.svg"
+            "question": "1. Why isn’t my Shopify store generating sales?",
+            "answer": "<p>Getting visitors doesn’t automatically mean getting sales. Often the issue is on-site: a confusing or missing call-to-action, difficult navigation, or a lack of trust signals (like reviews or professional branding) can turn shoppers away. If people add items to cart but don’t check out, high shipping costs or pricing might be scaring them off. Focus on a <strong>clear, user-friendly design</strong>, showcase customer testimonials, and make sure the checkout process is smooth and transparent. These changes help build trust and guide visitors toward making a purchase.<br/><em>Want help turning traffic into conversions? Reach out and let’s review your store together.</em></p><p></p>",
+            "icon": "shopify://shop_images/plus_1.png"
           }
         },
-        "faq_item_9HnVi9": {
+        "faq_item_8WYW6p": {
           "type": "faq_item",
           "settings": {
-            "question": "Why does my business need a website?",
-            "answer": "<p>Your website isn’t just a business card—it’s your best salesperson. A solid site builds trust, shows off your product or service, and turns browsers into buyers or enquiries. Shopify for eComm, custom builds for service-based—whatever your business, we make it work hard.</p>",
-            "icon": "shopify://shop_images/yellow-arrow_3e657a2f-2ca2-4c8f-8ef5-7678a9b6fcdb.svg"
+            "question": "2. Why isn’t my website generating leads or inquiries?",
+            "answer": "<p>Traffic alone isn’t enough if those visitors aren’t the <strong>right</strong> visitors and your site doesn’t guide them properly. If your traffic isn’t targeted (i.e. not actually potential customers), it won’t convert into leads. Even with good traffic, you need obvious ways for users to contact you: strong calls-to-action (like “Get a Free Quote” buttons) and easy-to-find contact forms. Make sure your content speaks to your audience’s needs and include trust factors (testimonials, case studies). In short, attract the right people and <strong>tell them exactly how to take the next step</strong> – this combo is key for turning visitors into leads.<br/><em>Need your website to start pulling in leads? Let’s fix that together.</em></p>",
+            "icon": "shopify://shop_images/plus_1.png"
           }
         },
-        "faq_item_hjYqHP": {
+        "faq_item_VeHR6H": {
           "type": "faq_item",
           "settings": {
-            "question": "What’s the best marketing strategy for small businesses?",
-            "answer": "<p>Depends on your goals. For eCommerce, paid ads + SEO + TikTok content = 🔥. For local services, Google Ads + local SEO + reviews = leads. The right marketing isn’t one-size-fits-all—it’s what works for your niche, your margins, and your market.</p>",
-            "icon": "shopify://shop_images/yellow-arrow_3e657a2f-2ca2-4c8f-8ef5-7678a9b6fcdb.svg"
+            "question": "3. How much should I budget for Google Ads to see results?",
+            "answer": "<p>Google Ads can work with many budgets, but you’ll typically need to spend at least a few hundred dollars a month to gather data and conversions. Many small businesses set aside somewhere between <strong>$1,000 and $10,000 per month</strong> for Google Ads – where you fall in that range depends on your industry and goals. The more competitive your keywords (e.g. legal or insurance), the higher the cost per click. Start with an amount you’re comfortable losing (as a test) and run a campaign for a few weeks. This will tell you roughly what your cost per lead or sale is. The key is to invest enough to get statistically meaningful results, then you can increase or adjust the budget based on what’s working.<br/><em>Not sure what budget is right for your business? Let’s map it out together.</em></p>",
+            "icon": "shopify://shop_images/plus_1.png"
           }
         },
-        "faq_item_mdt7ky": {
+        "faq_item_WKRYnL": {
           "type": "faq_item",
           "settings": {
-            "question": "What platform is better than online directories like HiPages?",
-            "answer": "<p>Directories are fine—if you like competing with 100 others for bottom-dollar jobs. If you're serious about building a brand that attracts better clients and bigger orders, you need a website and an ad strategy that puts <em>you</em> in control of the lead flow. Not some algorithm.</p><p></p>",
-            "icon": "shopify://shop_images/yellow-arrow_3e657a2f-2ca2-4c8f-8ef5-7678a9b6fcdb.svg"
+            "question": "4. Are Facebook Ads worth it for a small business?",
+            "answer": "<p>They can be, absolutely – but it depends on your audience and how you run the campaign. Facebook (and Instagram) ads offer powerful targeting and relatively low entry costs, which is why about <strong>half of small businesses invest in paid social ads</strong> and most plan to keep or increase that spend. The key is to have a clear objective (e.g. get webinar signups, drive product sales) and to target your ads to the people most likely to be interested. For many small businesses, Facebook Ads are worth it for building local awareness or online sales, <strong>provided</strong> you test and tweak your campaigns. If you simply “boost” posts without a plan, you might not see great results. But with the right targeting, creative content, and a reasonable budget, Facebook Ads can definitely pay off by reaching customers you couldn’t reach otherwise.<br/><em>Let’s review your ad setup and see if Facebook is the right move for your goals.</em></p><p></p>",
+            "icon": "shopify://shop_images/plus_1.png"
           }
         },
-        "faq_item_dpLdHH": {
+        "faq_item_4GtGyG": {
           "type": "faq_item",
           "settings": {
-            "question": "Are paid ads actually worth it?",
-            "answer": "<p>Paid ads are only worth it when they’re done right. We’ve managed $2M+ in ad spend and know how to turn a dollar into ten. Whether it’s Google Shopping, Facebook retargeting or TikTok sales campaigns—we’ve seen what works and what doesn’t. We don’t guess. We optimise.</p><p></p>",
-            "icon": "shopify://shop_images/yellow-arrow_3e657a2f-2ca2-4c8f-8ef5-7678a9b6fcdb.svg"
+            "question": "5. Is TikTok advertising right for my business?",
+            "answer": "<p>TikTok can be a great channel <em>if</em> it matches your target audience and content style. TikTok’s user base skews young – about half of users are under 30 – so if you aim to reach younger consumers or a very social-media-savvy crowd, it’s worth considering. It’s especially powerful for e-commerce products: <strong>49% of TikTok users have bought a product</strong> after seeing it on TikTok. That said, TikTok content is fast-paced, fun, and informal. Ask yourself if you can create relatable video content for your brand (or work with creators who can). Also, note that TikTok often requires some experimentation (their ad campaigns have a minimum spend, e.g. around $500). In summary: if your customers are on TikTok and you can deliver engaging, creative videos, TikTok Ads could be a goldmine. If not, you might allocate your budget to platforms more in line with your audience.<br/><em>Want to test TikTok without wasting your budget? We’ll help build your first winning ad.</em></p><p></p>",
+            "icon": "shopify://shop_images/plus_1.png"
           }
         },
-        "faq_item_M3HRNG": {
+        "faq_item_KbNMQh": {
           "type": "faq_item",
           "settings": {
-            "question": "Where do good customers actually come from?",
-            "answer": "<p>Short answer: online. Long answer: Google, social media, email, TikTok, and everywhere your ideal customer is already hanging out. But it’s not just about being <em>seen</em>—it’s about saying the right thing, at the right time, with the right offer. That’s where we come in.</p><p></p>",
-            "icon": "shopify://shop_images/yellow-arrow_3e657a2f-2ca2-4c8f-8ef5-7678a9b6fcdb.svg"
+            "question": "6. Should I advertise on Instagram or Facebook – or both?",
+            "answer": "<p>Since Facebook owns Instagram, you actually manage ads for both in the same place. The choice comes down to your audience and content. Facebook has a broad user base (slightly more older users) and is good for local community engagement. Instagram skews younger and is highly visual - fantastic for brands that have appealing imagery or videos. If you have the capacity, using both can maximise your reach. If you need to start with one, ask where your core customers spend more time. For many businesses, a combined approach works best, since you’ll capture different segments.<br/><em>We’ll help you figure out the best mix for your goals and budget.</em></p><p></p>",
+            "icon": "shopify://shop_images/plus_1.png"
           }
         },
-        "faq_item_DcYcJX": {
+        "faq_item_qTFan6": {
           "type": "faq_item",
           "settings": {
-            "question": "What’s the best way to scale my Shopify store?",
-            "answer": "<p>Start with your data. What products are selling, where is traffic coming from, what’s your return customer rate? Then: streamline your site, improve your offer, and run the ads that give you scale. We help you scale with a proven eCommerce growth framework.</p><p></p>",
-            "icon": "shopify://shop_images/yellow-arrow_3e657a2f-2ca2-4c8f-8ef5-7678a9b6fcdb.svg"
+            "question": "7. Is it worth advertising on Bing (Microsoft Ads) if I’m already using Google Ads?",
+            "answer": "<p>Bing Ads can be a handy add-on, especially since it’s easy to import your Google Ads campaigns over. While Google has the majority of search traffic, Bing still captures a slice of users – often an older, higher-income demographic. The big advantage is lower competition and cheaper clicks on Bing. So you might get conversions at a lower cost. The flip side is volume: you won’t get as many clicks on Bing as on Google. If you see a good return, it’s worth continuing. In short: you probably won’t want to only use Bing, but adding it can snag extra customers at a lower price per click.<br/><em>Want to tap into untapped audiences? We’ll get you set up on Bing fast.</em></p>",
+            "icon": "shopify://shop_images/plus_1.png"
           }
         },
-        "faq_item_rQtkgF": {
+        "faq_item_t4ECm9": {
           "type": "faq_item",
           "settings": {
-            "question": "How do I grow without spending all day on social media?",
-            "answer": "<p>Create once, distribute everywhere. We help you turn one video or blog post into multiple touchpoints—from TikTok to Google to email. If you hate being in front of the camera, we’ll script it for you or even shoot it with you. No more guessing, no more burnout.</p><p></p>",
-            "icon": "shopify://shop_images/yellow-arrow_3e657a2f-2ca2-4c8f-8ef5-7678a9b6fcdb.svg"
+            "question": "8. Are LinkedIn Ads effective for B2B marketing?",
+            "answer": "<p>LinkedIn Ads can be very effective for B2B, but they come at a premium cost. The strength of LinkedIn is the ability to target professionals by industry, job title, company size, etc. The platform often delivers high-quality leads. However, you’ll pay significantly more per click or per lead on LinkedIn than on other platforms. The ROI can still be positive if one enterprise lead is worth a lot to you. To make LinkedIn Ads worth it, have a solid offer and a great follow-up plan.<br/><em>Let’s help you build a targeted LinkedIn campaign that attracts serious buyers.</em></p>",
+            "icon": "shopify://shop_images/plus_1.png"
           }
         },
-        "faq_item_pDnJhK": {
+        "faq_item_RPCmce": {
           "type": "faq_item",
           "settings": {
-            "question": "How long until I see results?",
-            "answer": "<p>If you’re running ads—sometimes within 72 hours. SEO and organic content can take 3-6 months. The key is momentum. Our goal is to get early wins, then layer in long-term gains so you’re not always stuck on the hamster wheel.</p>",
-            "icon": "shopify://shop_images/yellow-arrow_3e657a2f-2ca2-4c8f-8ef5-7678a9b6fcdb.svg"
+            "question": "9. Why isn’t SEO bringing me more traffic or leads?",
+            "answer": "<p>SEO is a long game. A common issue is unrealistic expectations – it can take several months to show results. You might also be targeting the wrong keywords, or your content isn’t answering what people are really searching for. Technical issues on your site can also stop you from ranking. Another factor is competition – if competitors have invested longer in SEO, it takes time to catch up. A strong audit, realistic keyword plan, and patience are the keys to winning with SEO.<br/><em>Let’s run a quick SEO health check on your site and fix what’s holding you back.</em></p><p></p>",
+            "icon": "shopify://shop_images/plus_1.png"
+          }
+        },
+        "faq_item_yjzWjK": {
+          "type": "faq_item",
+          "settings": {
+            "question": "10. How long does SEO take to show results?",
+            "answer": "<p>Generally, you’ll start seeing some movement around the 3 to 6 month mark. That might be a few keyword rankings improving or a modest uptick in traffic. Competitive industries may take 6–12 months. If you’re consistent and focus on content, backlinks, and optimising your site, the results will come. Just keep in mind SEO is a snowball – it starts slow and builds over time.<br/><em>Want to get on the path to steady, organic growth? We’ll guide your next steps.</em></p><p></p>",
+            "icon": "shopify://shop_images/plus_1.png"
+          }
+        },
+        "faq_item_pMRk4p": {
+          "type": "faq_item",
+          "settings": {
+            "question": "11. How can I improve my Google Business Profile to get more customers?",
+            "answer": "<p>Make sure your contact info is up to date, choose relevant business categories, add plenty of photos, and most importantly – collect and respond to reviews. Reviews boost your ranking and trust with customers. Also, use the Posts feature to share updates and promotions. Optimising your Google Business Profile is one of the easiest and most powerful local SEO tactics you can do.<br/><em>We’ll help your profile stand out and turn it into a local lead machine.</em></p><p></p>",
+            "icon": "shopify://shop_images/plus_1.png"
+          }
+        },
+        "faq_item_HWiLzh": {
+          "type": "faq_item",
+          "settings": {
+            "question": "12. Can content marketing actually bring me customers or leads?",
+            "answer": "<p>Yes – content marketing builds credibility and draws in people searching for info related to your business. If you publish helpful blogs or videos that rank on Google or get shared on social media, that content can bring in traffic for months (or years). If your content solves real problems and includes clear calls-to-action, it becomes a lead-generating machine. It's not instant – but over time, it’s one of the most reliable growth tools out there.<br/><em>We can map out a content plan tailored to your niche and goals.</em></p><p></p>",
+            "icon": "shopify://shop_images/plus_1.png"
+          }
+        },
+        "faq_item_ULba3x": {
+          "type": "faq_item",
+          "settings": {
+            "question": "13. Is email marketing still effective today?",
+            "answer": "<p>Absolutely. Email marketing delivers one of the best ROI of any marketing channel. If done right, with valuable content and a clean list, it keeps your brand top-of-mind and brings people back to your business. Email is also one of the only channels you fully control (unlike social media algorithms). Great for nurturing leads and encouraging repeat purchases.<br/><em>Let’s build automated email flows that keep customers coming back.</em></p><p></p>",
+            "icon": "shopify://shop_images/plus_1.png"
+          }
+        },
+        "faq_item_z6JED6": {
+          "type": "faq_item",
+          "settings": {
+            "question": "14. Why is branding important for my small business?",
+            "answer": "<p>Branding is how people remember you. It’s the feeling, image, and impression your business gives off. A strong, consistent brand builds trust and makes your business look credible. It also lets you charge more and attract the kind of customers you actually want. Good branding = perceived value = more business.<br/><em>We’ll help you craft a brand that gets remembered and makes an impact.</em></p><p></p>",
+            "icon": "shopify://shop_images/plus_1.png"
+          }
+        },
+        "faq_item_KLdE4N": {
+          "type": "faq_item",
+          "settings": {
+            "question": "15. Why do I need a professional logo design?",
+            "answer": "<p>Your logo is your first impression. A DIY or low-quality logo can hurt trust, even if you offer a great service. A professionally designed logo communicates credibility, reflects your style, and works across all mediums. It’s a small investment that makes a massive difference in how customers see your business.<br/><em>Need a logo that actually reflects your business? We’ve got your back.</em></p><p></p>",
+            "icon": "shopify://shop_images/plus_1.png"
+          }
+        },
+        "faq_item_bPE4Qt": {
+          "type": "faq_item",
+          "settings": {
+            "question": "16. Should I invest in SEO or Google Ads (PPC)? Which is better for me?",
+            "answer": "<p>It depends on your goals. SEO is great for long-term growth and building sustainable traffic, but it takes time. Google Ads are great for fast results and testing offers quickly. If you can, do both: use Google Ads to get immediate traffic while your SEO builds up. If you have to choose, go with Google Ads for short-term sales and SEO for long-term positioning.<br/><em>Let’s compare both based on your business goals and choose smartly.</em></p><p></p>",
+            "icon": "shopify://shop_images/plus_1.png"
+          }
+        },
+        "faq_item_gqBePF": {
+          "type": "faq_item",
+          "settings": {
+            "question": "17. I tried Facebook Ads but didn’t see results – what went wrong?",
+            "answer": "<p>Chances are the targeting, messaging, or strategy wasn’t dialled in. Facebook users aren’t there to buy – they scroll. Your ad needs to stop the scroll and quickly get to the point. Weak offers, confusing headlines, or irrelevant audiences often kill performance. Make sure your pixel is firing correctly and your creative actually speaks to the pain or desire of the customer.<br/><em>Let’s diagnose what went wrong and rebuild something that works.</em></p><p></p>",
+            "icon": "shopify://shop_images/plus_1.png"
+          }
+        },
+        "faq_item_NN6cRj": {
+          "type": "faq_item",
+          "settings": {
+            "question": "18. What’s the difference between boosting a post and running an ad?",
+            "answer": "<p>Boosting a post is like buying billboard space – it increases visibility but not always conversions. Running a proper ad in Ads Manager gives you way more control: you can test headlines, audiences, objectives, placements, and more. If you're after actual leads or purchases, <strong>run real ads</strong>, don’t just boost posts.<br/><em>We’ll set up real campaigns with real results – no fluff.</em></p><p></p>",
+            "icon": "shopify://shop_images/plus_1.png"
+          }
+        },
+        "faq_item_3dbVjy": {
+          "type": "faq_item",
+          "settings": {
+            "question": "19. Do I need different websites or landing pages for each service I offer?",
+            "answer": "<p>Not always, but it often helps. If your services attract very different audiences (e.g. homeowners vs businesses), then separate landing pages tailored to each segment will perform better. At the very least, use clear menu structure and create service-specific pages with matching ad copy and CTAs. Google rewards relevance – so does your visitor.<br/><em>We’ll help structure your site and pages to match what your customers actually want.</em></p><p></p>",
+            "icon": "shopify://shop_images/plus_1.png"
+          }
+        },
+        "faq_item_6cYkYY": {
+          "type": "faq_item",
+          "settings": {
+            "question": "20. How do I know if my website is actually working?",
+            "answer": "<p>Track the right metrics: traffic, bounce rate, form submissions, conversion rate, time on site. If you’re getting traffic but no leads or sales, something’s off. Run heatmaps, look at session recordings, and ask real users to test your site. Also, check your load speed – slow sites lose business.<br/><em>We offer website audits that show exactly what’s working and what’s not – ask us for one today.</em></p><p></p><p></p>",
+            "icon": "shopify://shop_images/plus_1.png"
           }
         }
       },
       "block_order": [
         "faq_item_XGXi4Q",
-        "faq_item_9HnVi9",
-        "faq_item_hjYqHP",
-        "faq_item_mdt7ky",
-        "faq_item_dpLdHH",
-        "faq_item_M3HRNG",
-        "faq_item_DcYcJX",
-        "faq_item_rQtkgF",
-        "faq_item_pDnJhK"
+        "faq_item_8WYW6p",
+        "faq_item_VeHR6H",
+        "faq_item_WKRYnL",
+        "faq_item_4GtGyG",
+        "faq_item_KbNMQh",
+        "faq_item_qTFan6",
+        "faq_item_t4ECm9",
+        "faq_item_RPCmce",
+        "faq_item_yjzWjK",
+        "faq_item_pMRk4p",
+        "faq_item_HWiLzh",
+        "faq_item_ULba3x",
+        "faq_item_z6JED6",
+        "faq_item_KLdE4N",
+        "faq_item_bPE4Qt",
+        "faq_item_gqBePF",
+        "faq_item_NN6cRj",
+        "faq_item_3dbVjy",
+        "faq_item_6cYkYY"
       ],
       "settings": {
-        "heading": "Frequently Asked Questions",
+        "heading": "20 Questions Aussie Businesses Keep Asking Us",
         "bg_color": "#f9f9f9",
         "max_width": 800,
         "desktop_padding_top": 100,

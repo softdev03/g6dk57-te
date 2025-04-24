@@ -9,10 +9,26 @@
  */
 {
   "sections": {
+    "video_R4VXBh": {
+      "type": "video",
+      "disabled": true,
+      "settings": {
+        "heading": "",
+        "heading_size": "h1",
+        "enable_video_looping": true,
+        "video": "shopify://files/videos/633c71cb149483075b8995e9_Shopify (1)-transcode.mp4",
+        "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "description": "",
+        "full_width": false,
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "advertise_xMT9mA": {
       "type": "advertise",
       "settings": {
-        "main_image": "shopify://shop_images/AnAgencyShopifyWebsite03.png",
+        "main_image": "shopify://shop_images/AnAgencyServiceWebsite01.png",
         "secondary_image_roate_angle": 8,
         "desktop_left": -150,
         "desktop_top": -1,
@@ -22,12 +38,12 @@
         "mobile_top": -1,
         "mobile_right": -1,
         "mobile_bottom": -26,
-        "heading": "Build a Store That Sells",
-        "sub_heading": "Your Shopify store shouldn’t just look good, it should be built to convert.",
-        "text": "<p>At <strong>An Agency</strong>, we specialise in <strong>custom Shopify development</strong> tailored to your business, so your store isn’t just another template , it’s an <strong>eCommerce powerhouse</strong>.</p><p>We’re <strong>Shopify Partners and eCommerce store owners ourselves</strong>, so we know exactly what makes a store <strong>run smoothly, scale fast, and make more money.</strong></p><ul><li><strong>Custom-built Shopify stores, no cookie-cutter templates</strong></li><li><strong>Lightning-fast, mobile-friendly, and conversion-optimised</strong></li><li><strong>Seamless integrations with apps, payments, and automations</strong></li></ul>",
+        "heading": "Build a Shopify Store That Actually Sells",
+        "sub_heading": "Your Shopify store shouldn’t just look good, it needs to bring in cash.",
+        "text": "<p>At An Agency, we build custom Shopify stores specifically designed for your business, your customers, and your products. Forget generic templates, we’ll set you up with an eCommerce machine that actually converts.</p><p>We’re certified Shopify Partners and store owners ourselves. We know firsthand what it takes to run a profitable online store. From smooth operations to scaling quickly and boosting revenue.</p><p>Every Shopify store we build is custom-designed, blazing fast, mobile-optimised, and tuned to drive conversions. We seamlessly connect payments, shipping, email marketing, and automations so your backend runs just as well as your storefront.</p>",
         "button_link": "shopify://pages/contact",
         "button_text": "Speak To Our Team",
-        "image_right": false,
+        "image_right": true,
         "text_align": "left",
         "background_color": "#ffffff",
         "desktop_padding_top": 60,
@@ -41,13 +57,13 @@
       "settings": {
         "image": "shopify://shop_images/GoogleAds_08.jpg",
         "heading_1": "Your Shopify Store,",
-        "heading_2": "Built for Growth",
-        "sub_heading": "A pretty website is great. A website that gets sales is even better.",
-        "text": "Custom themes & unique designs. No generic templates, just a store that reflects your brand. High-performance optimisation, Speed, SEO, and conversion tweaks that actually move the needle. Seamless integrations like:  Payments, shipping, email marketing, and automation set up the right way.",
+        "heading_2": "Built for Real Growth",
+        "sub_heading": "Pretty websites are nice, but websites that sell are better.",
+        "text": "Custom Themes & Designs. No boring templates here. Your store will look uniquely you, reflecting your brand perfectly. Performance That Counts, Lightning-fast load times, SEO, and conversion strategies that move the needle, right from launch. Seamless Integration, Payments, shipping, automations, marketing, everything plays nicely together, so you can run your business without friction.",
         "phone_button_text": "",
         "phone_number": "",
         "enquire_button_text": "See Our Work",
-        "enquire_button_link": "shopify://pages/contact",
+        "enquire_button_link": "shopify://pages/our-work",
         "image_right": true,
         "text_align": "left",
         "desktop_padding_top": 100,
@@ -71,12 +87,12 @@
         "mobile_bottom": -30,
         "heading": "How We Build Your Shopify Store",
         "sub_heading": "",
-        "text": "<h1>Step 1: Strategy & Planning</h1><p>We start by <strong>understanding your business, products, and customers</strong> so we can map out a <strong>high-converting</strong> store that works for your industry.</p><p></p>",
+        "text": "<h1>Step 1: Strategy & Planning</h1><p>We dive into your business, products, and audience. No guesswork, just a clear roadmap for a high-converting online store.</p><h3></h3><p></p>",
         "button_link": "#",
         "button_text": "",
         "image_right": false,
         "text_align": "left",
-        "background_color": "#f4f8ff",
+        "background_color": "#fbfbfb",
         "desktop_padding_top": 60,
         "desktop_padding_bottom": 60,
         "mobile_padding_top": 40,
@@ -98,12 +114,12 @@
         "mobile_bottom": -1,
         "heading": "Step 2: Design & Development",
         "sub_heading": "",
-        "text": "<p>Our Shopify experts design a <strong>custom storefront</strong>, build it from scratch, and <strong>integrate all the tools you need</strong> to run your business smoothly.</p>",
+        "text": "<p>Our Shopify experts create a fully custom design, built from the ground up, and set you up with powerful tools that make your business run smoother.</p>",
         "button_link": "",
         "button_text": "",
         "image_right": true,
         "text_align": "left",
-        "background_color": "#f4f8ff",
+        "background_color": "#ffffff",
         "desktop_padding_top": 60,
         "desktop_padding_bottom": 60,
         "mobile_padding_top": 40,
@@ -125,12 +141,12 @@
         "mobile_bottom": -1,
         "heading": "Step 3: Testing & Launch",
         "sub_heading": "",
-        "text": "<p>Before going live, we <strong>test everything</strong>—speed, checkout flow, mobile responsiveness—so your Shopify store is <strong>ready to convert from day one.</strong></p>",
-        "button_link": "#",
-        "button_text": "[ Get Your Shopify Store Built → ]",
+        "text": "<p>We meticulously test <strong>everything</strong>, speed, checkout experience, mobile responsiveness, so your store is ready to convert customers the second it goes live.</p><p></p>",
+        "button_link": "shopify://pages/contact",
+        "button_text": "Get Your Shopify Store Built →",
         "image_right": false,
         "text_align": "left",
-        "background_color": "#f4f8ff",
+        "background_color": "#fbfbfb",
         "desktop_padding_top": 60,
         "desktop_padding_bottom": 60,
         "mobile_padding_top": 40,
@@ -150,11 +166,11 @@
         "mobile_top": -1,
         "mobile_right": -1,
         "mobile_bottom": -30,
-        "heading": "What’s Included in Our Custom Shopify Builds?",
+        "heading": "What’s Included in Our Shopify Builds?",
         "sub_heading": "",
-        "text": "<p><strong>Custom Design & Development</strong><br/>We design a store that actually fits your brand and products, not just another Shopify template.</p><p><strong>Built for Speed & Conversions</strong><br/>Your site loads fast, ranks high, and sells more—because slow stores lose sales.</p><p><strong>Seamless Integrations</strong><br/>Payments, shipping, marketing, automation—everything works together seamlessly from day one.</p><p><strong>Scalable & Future-Proof</strong><br/>As your business grows, your Shopify store should too. We build with the future in mind.</p>",
-        "button_link": "#",
-        "button_text": "[ Get a Custom Shopify Store → ]",
+        "text": "<p><strong>Custom Designs That Convert</strong><br/>Forget templates. We build each Shopify store specifically around your brand, products, and customers.</p><p><strong>Built for Speed & Sales</strong><br/>Slow sites don’t sell. We ensure your store loads lightning-fast, ranks higher on Google, and boosts conversions from day one.</p><p><strong>Seamless Integration Across Apps</strong><br/>Payments, shipping, marketing, email automations, we make sure everything connects and runs flawlessly.</p><p><strong>Scalable for Future Growth</strong><br/>We build Shopify stores that scale effortlessly, so as your business grows, your site grows with it, without headaches.</p>",
+        "button_link": "shopify://pages/contact",
+        "button_text": "Get a Custom Shopify Store →",
         "image_right": true,
         "text_align": "left",
         "background_color": "#ffffff",
@@ -178,10 +194,10 @@
         "mobile_right": 0,
         "mobile_bottom": -1,
         "heading": "Why Work With An Agency?",
-        "sub_heading": "We make money making websites",
-        "text": "<p><strong>We know eCommerce.</strong> We run online stores ourselves, so we build Shopify stores that actually sell.<br/><br/><strong>No templates, no shortcuts.</strong> We custom-build your store for your brand and customers.<br/><br/><strong>We handle everything.</strong> From strategy to launch, we take care of the hard stuff so you can focus on your business.<br/><br/><strong>We’re Shopify Partners.</strong> That means we know Shopify inside out and have direct support when you need it.</p><p>💬 <em>“An Agency built us a Shopify store that tripled our sales in 6 months. If you’re serious about eCommerce, these are the guys you want.”</em> – <em>Happy Shopify Store Owner</em></p>",
-        "button_link": "#",
-        "button_text": "[Let’s Talk Shopify →]",
+        "sub_heading": "We Actually Run eCommerce Stores",
+        "text": "<p><strong>We know eCommerce.</strong> We don’t just build websites, we run profitable online businesses ourselves. We know exactly what works, and what doesn’t.<br/><br/><strong>No Templates. Ever. </strong>Each Shopify store is fully custom-built. Your brand, your style, your customers, nothing generic.</p><p><strong>We Handle Everything. </strong>From strategy through launch, we take care of every detail so you can keep your focus where it matters, on your business.</p><p><strong>Certified Shopify Partners. </strong>We have direct access to Shopify’s latest tools, insights, and expert support. When we build your store, it’s done right.</p><p>💬 <em>“An Agency built us a Shopify store that tripled our sales in 6 months. If you’re serious about eCommerce, these are the guys you want.”</em> – <em>Happy Shopify Store Owner</em></p>",
+        "button_link": "shopify://pages/contact",
+        "button_text": "Let’s Talk Shopify →",
         "image_right": false,
         "text_align": "left",
         "background_color": "#ffffff",
@@ -248,18 +264,18 @@
         "secondary_image": "shopify://shop_images/this-could-be-you_86b78ffa-fae9-4fc7-9bda-3b42602401a5.svg",
         "secondary_image_roate_angle": 16,
         "desktop_left": -1,
-        "desktop_top": 160,
-        "desktop_right": 450,
+        "desktop_top": 146,
+        "desktop_right": 344,
         "desktop_bottom": -1,
-        "mobile_left": -1,
+        "mobile_left": 0,
         "mobile_top": -25,
         "mobile_right": 0,
         "mobile_bottom": -1,
-        "heading": "Let’s Build a Shopify Store That Sells",
-        "sub_heading": "A high-converting, custom Shopify store is one of the best investments you can make in your business.",
-        "text": "<p>Let’s build it right the first time so you can scale without headaches.</p><p></p>",
-        "button_link": "#",
-        "button_text": "[Book a Free Chat →]",
+        "heading": "Ready to Finally Build a Shopify Store That Sells?",
+        "sub_heading": "Investing in a high-converting Shopify store is one of the smartest moves you can make for your business.",
+        "text": "<p>Let’s build it properly from day one, so you can grow, scale, and profit without any headaches.</p><p></p>",
+        "button_link": "shopify://pages/contact",
+        "button_text": "Book a Free Chat →",
         "image_right": true,
         "text_align": "left",
         "background_color": "#ffffff",
@@ -275,32 +291,32 @@
         "tradies_item_YQarCg": {
           "type": "tradies-item",
           "settings": {
-            "image": "shopify://shop_images/electrician-website.webp",
-            "detail_info_heading": "Fashion & Apparel",
+            "image": "shopify://shop_images/AnAgencyOurWork07.png",
+            "detail_info_heading": "Sporting",
             "detail_info_text": "<p><strong>Fashion & Apparel</strong> – High-converting product pages, seamless checkout.<br/></p><p></p><p></p>",
-            "icon": "shopify://shop_images/yellow-arrow.svg",
-            "detail_button_link": "#",
-            "detail_button_text": "[See Our Shopify Stores →]"
+            "icon": "shopify://shop_images/plus_1.png",
+            "detail_button_link": "shopify://pages/our-work",
+            "detail_button_text": "See Our Shopify Stores →"
           }
         },
         "tradies_item_TMkHRR": {
           "type": "tradies-item",
           "settings": {
-            "image": "shopify://shop_images/plumbing-websites.webp",
-            "detail_info_heading": "Tech & Electronics",
+            "image": "shopify://shop_images/AnAgencyOurWork12.png",
+            "detail_info_heading": "Bathroom Supplies",
             "detail_info_text": "<p><strong>Tech & Electronics</strong> – Advanced filtering, payment flexibility, and custom integrations.<br/></p><p></p><p></p>",
-            "icon": "shopify://shop_images/yellow-arrow.svg",
+            "icon": "shopify://shop_images/plus_1.png",
             "detail_button_link": "#",
-            "detail_button_text": "[See Our Shopify Stores →]"
+            "detail_button_text": "See Our Shopify Stores →"
           }
         },
         "tradies_item_yT7wgX": {
           "type": "tradies-item",
           "settings": {
-            "image": "shopify://shop_images/carpenter-websites.webp",
-            "detail_info_heading": "Health & Wellness",
+            "image": "shopify://shop_images/AnAgencyOurWork11.png",
+            "detail_info_heading": "Furniture",
             "detail_info_text": "<p><strong>Health & Wellness</strong> – Subscription models, trust-building design, and mobile-first UX.<br/></p><p></p><p></p>",
-            "icon": "shopify://shop_images/yellow-arrow.svg",
+            "icon": "shopify://shop_images/plus_1.png",
             "detail_button_link": "#",
             "detail_button_text": "[See Our Shopify Stores →]"
           }
@@ -308,34 +324,32 @@
         "tradies_item_X3Db9y": {
           "type": "tradies-item",
           "settings": {
-            "image": "shopify://shop_images/pest-control-website-development-1.webp",
-            "detail_info_heading": "Home & Lifestyle",
+            "image": "shopify://shop_images/AnAgencyOurWork10.png",
+            "detail_info_heading": "Pets",
             "detail_info_text": "<p><strong>Home & Lifestyle</strong> – Beautiful, fast, and easy-to-navigate stores that increase AOV.</p><p></p><p></p><p></p>",
-            "icon": "shopify://shop_images/yellow-arrow.svg",
+            "icon": "shopify://shop_images/plus_1.png",
             "detail_button_link": "#",
             "detail_button_text": "[See Our Shopify Stores →]"
           }
         },
         "tradies_item_6qHYz4": {
           "type": "tradies-item",
-          "disabled": true,
           "settings": {
-            "image": "shopify://shop_images/cleaning-website-design.webp",
-            "detail_info_heading": "Cleaning",
+            "image": "shopify://shop_images/AnAgencyOurWork09.png",
+            "detail_info_heading": "Kids Toys",
             "detail_info_text": "<p>Whether you’re running a commercial cleaning business or handling end-of-lease deep cleans, a strong website helps you get more bookings. We highlight your services, customer testimonials, and guarantees, with a simple contact system that makes it easy for clients to reach out and book a clean.</p><p></p><p></p>",
-            "icon": "shopify://shop_images/yellow-arrow.svg",
+            "icon": "shopify://shop_images/plus_1.png",
             "detail_button_link": "#",
             "detail_button_text": "Free Quote"
           }
         },
         "tradies_item_tDB4YR": {
           "type": "tradies-item",
-          "disabled": true,
           "settings": {
-            "image": "shopify://shop_images/general-tradies-websites.webp",
-            "detail_info_heading": "All Other Tradies",
+            "image": "shopify://shop_images/AnAgencyOurWork08.png",
+            "detail_info_heading": "Home Luxury",
             "detail_info_text": "<p>No matter your trade, we build websites that work for you. From builders and tilers to landscapers and painters, we design sites that show off your skills, bring in more work, and make booking you a no-brainer.</p><p></p><p></p>",
-            "icon": "shopify://shop_images/yellow-arrow.svg",
+            "icon": "shopify://shop_images/plus_1.png",
             "detail_button_link": "#",
             "detail_button_text": "Free Quote"
           }
@@ -364,25 +378,25 @@
         "faq_item_rrnAHz": {
           "type": "faq_item",
           "settings": {
-            "question": "How long does it take to build a Shopify store?",
-            "answer": "<p>We can have a fully custom Shopify store ready in as little as 4-6 weeks.</p><p></p>",
-            "icon": "shopify://shop_images/yellow-arrow.svg"
+            "question": "1. How do I choose the right Shopify theme for my store?",
+            "answer": "<p>Choosing a theme is exciting but can feel overwhelming with so many options. Start by listing the key features your store needs (for example, a large image slider, product filtering, or a certain layout). This helps you narrow down themes that fit your functionality requirements before getting swayed by just looks. Next, consider your brand style and choose a theme whose design vibe matches your products – many themes allow colour and font tweaks so you can align it with your branding. Don’t forget to check that the theme is mobile-responsive (most on the Shopify Theme Store are) and read reviews from other users to catch any quirks. If you're on a tight budget, Shopify offers a range of free themes that are quite polished, but paid themes often come with more built-in features and unique designs for a one-time fee.<br/><br/><strong>Feeling stuck choosing the perfect theme?</strong> Our team at An Agency can help you pick and even customise a Shopify theme that captures your brand’s personality and converts well – just reach out for a chat!</p><p></p>",
+            "icon": "shopify://shop_images/plus_1.png"
           }
         },
         "faq_item_AdgFRX": {
           "type": "faq_item",
           "settings": {
-            "question": "Can I migrate from another platform?",
-            "answer": "<p>100%. We help businesses migrate from WooCommerce, Magento, BigCommerce, and custom-built sites.</p><p></p>",
-            "icon": "shopify://shop_images/yellow-arrow.svg"
+            "question": "2. How do I upload my products and organise them on Shopify?",
+            "answer": "<p>Getting your products into Shopify is straightforward. You can add products one by one in the Shopify admin, making sure to fill out titles, descriptions, prices, and upload clear photos. To save time, use Shopify’s bulk import tool with a CSV file if you have many products – this lets you upload multiple items in one go. Once products are in, organise them into collections (categories) so shoppers can easily browse by type or theme. For example, you might create collections for “New Arrivals” or “Sale” items in addition to product categories. Don’t forget to add tags to products too; tags help with filtering and search within your site. Taking a bit of time to structure your products now will pay off in a smoother shopping experience for your customers.<br/><br/><strong>If product entry or organisation feels tedious,</strong> let us handle the heavy lifting. An Agency can assist with bulk product uploads and creating a logical collection structure for your store – we’re here to help make your launch easier.</p><p></p>",
+            "icon": "shopify://shop_images/plus_1.png"
           }
         },
         "faq_item_E6VP9h": {
           "type": "faq_item",
           "settings": {
-            "question": "Will my store be mobile-friendly?",
-            "answer": "<p>Absolutely. Over 70% of online shopping happens on mobile—your store will be fully optimised.</p><p></p>",
-            "icon": "shopify://shop_images/yellow-arrow.svg"
+            "question": "3. What should I do to launch my Shopify store successfully?",
+            "answer": "<p>Launching your store is a big milestone! Before you go live, run through a pre-launch checklist to make sure everything is in tip-top shape. Here are some must-dos before the big launch:</p><ul><li>Attach your custom domain and confirm it loads your site correctly.</li><li>Test your payment gateway with a real or test order.</li><li>Double-check shipping rates.</li><li>Add essential pages: About, Contact, Shipping, Returns.</li><li>Check your mobile layout.</li></ul><p>Once everything looks good, disable the storefront password so the public can access your site. Consider a soft launch by sharing it with friends or on social media to gather initial feedback.<br/><br/><strong>Not sure if you’ve covered everything for launch?</strong> We’ve helped many Aussie entrepreneurs go live smoothly. The experts at An Agency can review your store and help with any last-minute tweaks – let’s get you set up for success.</p><p></p>",
+            "icon": "shopify://shop_images/plus_1.png"
           }
         },
         "faq_item_akFz96": {
@@ -390,7 +404,143 @@
           "settings": {
             "question": "What if I need support after launch?",
             "answer": "<p>We don’t just build your store and disappear. We offer ongoing support, optimisations, and growth strategies.</p>",
-            "icon": "shopify://shop_images/yellow-arrow.svg"
+            "icon": "shopify://shop_images/plus_1.png"
+          }
+        },
+        "faq_item_QBr3LB": {
+          "type": "faq_item",
+          "settings": {
+            "question": "4. I’m getting traffic but no sales – what’s wrong?",
+            "answer": "<p>If you’re seeing visitors but few (or zero) sales, you’re not alone – this is a common early challenge. It often comes down to a few possible issues on your site. First, check your <strong>user experience</strong>: is it clear what to do when someone lands on your homepage? Next, consider <strong>trust and branding</strong> – does your site look professional and legit? Add customer reviews, an About Us page, and clear contact info to build credibility. Evaluate your <strong>audience targeting</strong> too: you might be attracting lots of visitors who aren’t actually interested in buying. Lastly, ensure there are no technical glitches (broken links, slow checkout, etc.) that could be blocking purchases.<br/><br/><strong>Converting visitors into customers can be tricky.</strong> If you’re scratching your head, An Agency can analyse your site and traffic to pinpoint what’s happening and help turn those browsers into buyers – let’s troubleshoot it together!</p>",
+            "icon": "shopify://shop_images/plus_1.png"
+          }
+        },
+        "faq_item_Ti7hUf": {
+          "type": "faq_item",
+          "settings": {
+            "question": "5. Why is my store’s bounce rate so high, and how do I fix it?",
+            "answer": "<p>A high bounce rate means people leave your site after viewing just one page. Several things might cause this. Slow loading pages are a big one. Other causes could be that visitors didn’t find what they expected or your site design wasn’t appealing or seemed confusing. To improve bounce rate, focus on speed, relevance of content, and mobile optimisation. Reduce pop-ups or intrusive ads. Improve your homepage headline and call-to-action so visitors quickly see value.<br/><br/><strong>Noticing a lot of one-and-done visitors?</strong> Our team at An Agency can audit your site’s speed and design to find quick wins that keep customers engaged. Reach out and we’ll help make sure more visitors stick around and explore.</p><h3></h3>",
+            "icon": "shopify://shop_images/plus_1.png"
+          }
+        },
+        "faq_item_tJxanT": {
+          "type": "faq_item",
+          "settings": {
+            "question": "6. How can I improve my conversion rate and get more sales?",
+            "answer": "<p>Start by simplifying the path to purchase. Make sure your navigation is intuitive, product categories make sense, and it’s easy to find what they want. Include reviews, highlight unique selling points, and offer fast checkout. Improve your product pages with better photos, clearer descriptions, and stronger CTAs. Consider trust elements like badges, guarantees, and clear shipping policies.<br/><br/><strong>If you’re struggling with low sales despite good traffic,</strong> let’s turn it around. An Agency specialises in conversion optimisation – from layout changes to messaging tweaks – and we’d love to help your store start winning more customers. Get in touch and let’s boost those numbers!</p>",
+            "icon": "shopify://shop_images/plus_1.png"
+          }
+        },
+        "faq_item_3rBLY7": {
+          "type": "faq_item",
+          "settings": {
+            "question": "7. How can I reduce cart abandonment in my store?",
+            "answer": "<p>Cart abandonment is super common. Tackle it with:</p><ul><li>Transparent shipping costs upfront.  </li><li>Short, frictionless checkout.  </li><li>Allowing guest checkout.  </li><li>Offering multiple payment options.  </li><li>Retargeting ads.  </li><li>Abandoned cart recovery emails</li></ul><p>These small improvements can save a significant portion of lost revenue.<br/><br/><strong>Fighting cart abandonment?</strong> Let An Agency streamline your checkout and set up reminders to win back those customers. We’re just a call away to help you recover those lost sales!</p>",
+            "icon": "shopify://shop_images/plus_1.png"
+          }
+        },
+        "faq_item_niNjJM": {
+          "type": "faq_item",
+          "settings": {
+            "question": "8. How can I improve my product photos and images?",
+            "answer": "<p>Use high-resolution, well-lit images from multiple angles. Show the product in use if possible. Keep backgrounds consistent. Compress images to ensure fast loading. Add zoom or 360° features if you can. Don’t forget alt-text for accessibility and SEO.<br/><br/><strong>Need your products to look their best?</strong> We can connect you with photographers or guide your DIY shoots. An Agency is all about making your products shine.</p>",
+            "icon": "shopify://shop_images/plus_1.png"
+          }
+        },
+        "faq_item_PYrdjE": {
+          "type": "faq_item",
+          "settings": {
+            "question": "9. What should I include in my product descriptions to boost sales?",
+            "answer": "<p>Inform and persuade. List the features, but also focus on benefits. Match the tone to your brand. Use short paragraphs and bullet points for clarity. Incorporate relevant SEO keywords, but write for humans.<br/><br/><strong>Not sure if your descriptions are hitting the mark?</strong> Our copywriting pros at An Agency can craft product descriptions that drive conversions and match your voice.</p>",
+            "icon": "shopify://shop_images/plus_1.png"
+          }
+        },
+        "faq_item_pGAqqF": {
+          "type": "faq_item",
+          "settings": {
+            "question": "10. How can I make my product pages more trustworthy?",
+            "answer": "<p>Trust comes from reviews, clear contact info, professional design, secure checkout badges, and well-written content. Make sure policies (like returns) are easy to find and product details are accurate.<br/><br/><strong>Want your store to feel more credible?</strong> We’ll help you implement trust signals and polish your site so customers feel confident buying.</p>",
+            "icon": "shopify://shop_images/plus_1.png"
+          }
+        },
+        "faq_item_TbpCDe": {
+          "type": "faq_item",
+          "settings": {
+            "question": "11. What apps should I install on my Shopify store?",
+            "answer": "<p>The right apps depend on your goals, but here are essentials most stores should consider:</p><ul><li><strong>Email marketing</strong> (like Klaviyo or Omnisend) to build customer lists and automate flows</li><li><strong>Reviews</strong> (like Judge.me or Loox) to build trust</li><li><strong>Upsell/Cross-sell</strong> tools (like ReConvert or Frequently Bought Together)</li><li><strong>SEO</strong> tools (like Smart SEO)</li><li><strong>Analytics</strong> (like Lucky Orange for heatmaps and session recordings)<br/> Be careful not to overload your store with too many apps – it can slow down performance. Focus on quality, not quantity.<br/> </li></ul><p><strong>Not sure which apps are worth it?</strong> An Agency can help you choose and install the best tools for growth, without killing your page speed.</p>",
+            "icon": "shopify://shop_images/plus_1.png"
+          }
+        },
+        "faq_item_dHFxLR": {
+          "type": "faq_item",
+          "settings": {
+            "question": "12. How do I handle shipping properly on Shopify?",
+            "answer": "<p>Set clear shipping rates based on weight, price, or zones. Offer free shipping thresholds to encourage higher order values. Make sure your product weights are accurate, and if using real-time carrier rates, double check how they’re calculated. Display estimated delivery times and shipping policies clearly at checkout.<br/><br/><strong>Need help setting up smarter shipping rules?</strong> We’ve helped Shopify stores create streamlined shipping strategies that don’t confuse customers or cost a fortune – let’s get yours sorted.</p>",
+            "icon": "shopify://shop_images/plus_1.png"
+          }
+        },
+        "faq_item_EL4jbW": {
+          "type": "faq_item",
+          "settings": {
+            "question": "13. How should I handle returns and refunds in my store?",
+            "answer": "<p>First, have a clear and visible return policy that builds trust without scaring off buyers. Make the process easy to understand and implement a system (like ReturnGo or a simple contact form) for processing returns. Include details like time frames, conditions, and whether returns are free. Automate emails where possible.<br/><br/><strong>Worried your return setup might be hurting conversions?</strong> We can review your store policies and design a returns process that gives your customers confidence without creating a logistical mess.</p>",
+            "icon": "shopify://shop_images/plus_1.png"
+          }
+        },
+        "faq_item_bKtX9w": {
+          "type": "faq_item",
+          "settings": {
+            "question": "14. What are the best ways to drive traffic to my Shopify store?",
+            "answer": "<p>Great product and store? Awesome. But now you need eyeballs. Start with:</p><ul><li><strong>Google Ads</strong>: Targets high-intent buyers already searching.</li><li><strong>Meta Ads</strong>: Great for visual products and retargeting.</li><li><strong>TikTok or YouTube</strong>: If you’ve got a younger or visual audience.</li><li><strong>Influencer marketing</strong>: Partner with micro-influencers.</li><li><strong>Email marketing</strong>: Get more out of your current traffic.</li><li><strong>SEO</strong>: Long-term traffic and visibility.<br/> </li></ul><p><strong>Want a complete traffic plan?</strong> We’ll build a strategy around your product, audience, and budget to get you real visitors who convert.<br/></p>",
+            "icon": "shopify://shop_images/plus_1.png"
+          }
+        },
+        "faq_item_aq98UV": {
+          "type": "faq_item",
+          "settings": {
+            "question": "15. How do I optimise my store for mobile shoppers?",
+            "answer": "<p>Mobile-first design is non-negotiable. Ensure your theme is responsive, fonts are readable, buttons are large enough to tap, and checkout is smooth. Test everything on real phones – not just the Shopify preview. Compress images, remove popups that don’t work on mobile, and simplify your menus.<br/><br/><strong>If your mobile site isn’t converting,</strong> you’re losing sales. We can audit and redesign your mobile experience to make every tap count – reach out.</p>",
+            "icon": "shopify://shop_images/plus_1.png"
+          }
+        },
+        "faq_item_carKeQ": {
+          "type": "faq_item",
+          "settings": {
+            "question": "16. What should I include on my homepage to make a good first impression?",
+            "answer": "<p>Start with a clear headline about what you sell, followed by a strong value proposition (what makes your product or store different). Use quality imagery, a clean layout, clear navigation, and include sections like:</p><ul><li>Featured products or categories</li><li>Customer reviews</li><li>Trust badges</li><li>A simple offer or free shipping bar Don’t clutter it. Keep it focused and conversion-oriented.<br/></li></ul><p><strong><br/>Not sure your homepage is doing its job?</strong> Let’s polish it up and make it work harder – we’re just a call away.</p>",
+            "icon": "shopify://shop_images/plus_1.png"
+          }
+        },
+        "faq_item_hbCmxw": {
+          "type": "faq_item",
+          "settings": {
+            "question": "17. How do I get my products to show up in Google Shopping?",
+            "answer": "<p>You’ll need to connect your Shopify store to <strong>Google Merchant Center</strong>, submit a product feed, and make sure your products meet Google’s requirements (like accurate pricing, availability, and policies). From there, you can run Google Shopping campaigns through <strong>Google Ads</strong>.<br/><br/><strong>Want to get your products showing up when customers search?</strong> An Agency can handle the entire Shopping Ads setup for you – start showing up in search results today.</p><h3></h3>",
+            "icon": "shopify://shop_images/plus_1.png"
+          }
+        },
+        "faq_item_zeMyrc": {
+          "type": "faq_item",
+          "settings": {
+            "question": "18. How do I manage inventory efficiently on Shopify?",
+            "answer": "<p>Shopify’s built-in tools let you track inventory automatically, but make sure you’ve set proper stock levels, variants, and alerts. Use bulk editing for large catalogues. If you’re selling across platforms (like Amazon or eBay), consider inventory sync tools like Stocky, Multi-Channel Fulfilment, or connected apps.<br/><br/><strong>Need help managing stock without chaos?</strong> We’ll help you streamline your setup and avoid overselling or missing orders.</p>",
+            "icon": "shopify://shop_images/plus_1.png"
+          }
+        },
+        "faq_item_Jg9Kht": {
+          "type": "faq_item",
+          "settings": {
+            "question": "19. How do I recover lost sales from abandoned carts?",
+            "answer": "<p>Use Shopify’s built-in abandoned cart recovery email – customise it with urgency and incentives. For better results, integrate a full email flow via Klaviyo or similar. Consider adding retargeting ads via Facebook or Google that show products people left behind.<br/><br/><strong>Let us set up an automated recovery system</strong> that brings those lost customers back and converts them the second time around.</p>",
+            "icon": "shopify://shop_images/plus_1.png"
+          }
+        },
+        "faq_item_ifVb4t": {
+          "type": "faq_item",
+          "settings": {
+            "question": "20. When should I consider upgrading to Shopify Plus?",
+            "answer": "<p>If you’re generating consistent revenue (typically $1M+ annually), need advanced automations (like Shopify Flow), custom checkout features, or want lower transaction fees at scale – it might be time. Shopify Plus also offers better support and API access for custom builds.<br/><br/><strong>Not sure if Plus is worth it yet?</strong> We’ll walk you through the pros and cons for your business and help with migrations if it’s the right move.</p>",
+            "icon": "shopify://shop_images/plus_1.png"
           }
         }
       },
@@ -398,11 +548,28 @@
         "faq_item_rrnAHz",
         "faq_item_AdgFRX",
         "faq_item_E6VP9h",
-        "faq_item_akFz96"
+        "faq_item_akFz96",
+        "faq_item_QBr3LB",
+        "faq_item_Ti7hUf",
+        "faq_item_tJxanT",
+        "faq_item_3rBLY7",
+        "faq_item_niNjJM",
+        "faq_item_PYrdjE",
+        "faq_item_pGAqqF",
+        "faq_item_TbpCDe",
+        "faq_item_dHFxLR",
+        "faq_item_EL4jbW",
+        "faq_item_bKtX9w",
+        "faq_item_aq98UV",
+        "faq_item_carKeQ",
+        "faq_item_hbCmxw",
+        "faq_item_zeMyrc",
+        "faq_item_Jg9Kht",
+        "faq_item_ifVb4t"
       ],
       "settings": {
         "heading": "Frequently Asked Questions",
-        "bg_color": "#f9f9f9",
+        "bg_color": "#fbfbfb",
         "max_width": 684,
         "desktop_padding_top": 60,
         "desktop_padding_bottom": 60,
@@ -416,14 +583,21 @@
         "partner_item_Am8rMX": {
           "type": "partner_item",
           "settings": {
-            "image": "shopify://shop_images/semrush-agency-partner.webp",
+            "image": "shopify://shop_images/shopify-partner-logo.jpg",
             "link": "#"
           }
         },
         "partner_item_gQr6pr": {
           "type": "partner_item",
           "settings": {
-            "image": "shopify://shop_images/Tradify.webp",
+            "image": "shopify://shop_images/google_partner.png",
+            "link": ""
+          }
+        },
+        "partner_item_gizEVP": {
+          "type": "partner_item",
+          "settings": {
+            "image": "shopify://shop_images/tiktokpartners.webp",
             "link": ""
           }
         },
@@ -434,24 +608,17 @@
             "link": ""
           }
         },
-        "partner_item_gizEVP": {
+        "partner_item_ppj4Q9": {
           "type": "partner_item",
           "settings": {
-            "image": "shopify://shop_images/evnex-partner.webp",
+            "image": "shopify://shop_images/meta-for-business-partner.webp",
             "link": ""
           }
         },
         "partner_item_nMMzBY": {
           "type": "partner_item",
           "settings": {
-            "image": "shopify://shop_images/google-partner.webp",
-            "link": ""
-          }
-        },
-        "partner_item_ppj4Q9": {
-          "type": "partner_item",
-          "settings": {
-            "image": "shopify://shop_images/meta-for-business-partner.webp",
+            "image": "shopify://shop_images/bingads.png",
             "link": ""
           }
         }
@@ -459,14 +626,14 @@
       "block_order": [
         "partner_item_Am8rMX",
         "partner_item_gQr6pr",
-        "partner_item_peizWL",
         "partner_item_gizEVP",
-        "partner_item_nMMzBY",
-        "partner_item_ppj4Q9"
+        "partner_item_peizWL",
+        "partner_item_ppj4Q9",
+        "partner_item_nMMzBY"
       ],
       "settings": {
         "heading": "Partnered With",
-        "bg_color": "#fbfbfb",
+        "bg_color": "#ffffff",
         "desktop_card_border_radius": 10,
         "mobile_card_border_radius": 6,
         "desktop_padding_top": 30,
@@ -477,6 +644,7 @@
     }
   },
   "order": [
+    "video_R4VXBh",
     "advertise_xMT9mA",
     "phone_ring_MzFcJr",
     "advertise_PAQGf7",

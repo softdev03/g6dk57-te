@@ -87,7 +87,7 @@
     "advertise_qQYPyj": {
       "type": "advertise",
       "settings": {
-        "main_image": "shopify://shop_images/google-ads-for-tradies-australia.webp",
+        "main_image": "shopify://shop_images/AnAgency_BingAds06.png",
         "secondary_image": "shopify://shop_images/google-ads-for-tradies-text.svg",
         "secondary_image_roate_angle": 0,
         "desktop_left": -1,
@@ -163,6 +163,7 @@
     },
     "advertise_PAQGf7": {
       "type": "advertise",
+      "disabled": true,
       "settings": {
         "main_image": "shopify://shop_images/website-design-and-dev-for-tradies.png",
         "secondary_image": "shopify://shop_images/get-the-work-you-want.svg",
@@ -191,6 +192,7 @@
     },
     "advertise_DnFdqE": {
       "type": "advertise",
+      "disabled": true,
       "settings": {
         "main_image": "shopify://shop_images/Web-Designs-for-trades.png",
         "secondary_image_roate_angle": 12,
@@ -218,6 +220,7 @@
     },
     "advertise_JebRqW": {
       "type": "advertise",
+      "disabled": true,
       "settings": {
         "main_image": "shopify://shop_images/email-marketing-for-tradies-edm.webp",
         "secondary_image": "shopify://shop_images/get-new-customers.svg",
@@ -250,10 +253,10 @@
         "tradies_item_YQarCg": {
           "type": "tradies-item",
           "settings": {
-            "image": "shopify://shop_images/electrician-website.webp",
-            "detail_info_heading": "Legal Services",
+            "image": "shopify://shop_images/AnAgencyOurWork24.png",
+            "detail_info_heading": "Payment Gateway",
             "detail_info_text": "<p>From wills to compensation claims, legal clients often search via Bing on their workplace desktops. We help law firms appear right when potential clients are looking for answers.</p><p></p><p></p>",
-            "icon": "shopify://shop_images/yellow-arrow.svg",
+            "icon": "shopify://shop_images/plus_1.png",
             "detail_button_link": "shopify://pages/contact",
             "detail_button_text": "Free Quote"
           }
@@ -261,10 +264,10 @@
         "tradies_item_TMkHRR": {
           "type": "tradies-item",
           "settings": {
-            "image": "shopify://shop_images/plumbing-websites.webp",
-            "detail_info_heading": "Healthcare & Allied Health",
+            "image": "shopify://shop_images/AnAgencyOurWork09.png",
+            "detail_info_heading": "Toy Store",
             "detail_info_text": "<p>Chiropractors, clinics, dentists — most of your local patients are browsing through Microsoft-powered systems. Bing Ads lets you reach them without fighting Google’s ad congestion.</p><p></p><p></p>",
-            "icon": "shopify://shop_images/yellow-arrow.svg",
+            "icon": "shopify://shop_images/plus_1.png",
             "detail_button_link": "shopify://pages/contact",
             "detail_button_text": "Free Quote"
           }
@@ -272,16 +275,17 @@
         "tradies_item_yT7wgX": {
           "type": "tradies-item",
           "settings": {
-            "image": "shopify://shop_images/carpenter-websites.webp",
-            "detail_info_heading": "Home Improvement Services",
+            "image": "shopify://shop_images/AnAgencyOurWork15.png",
+            "detail_info_heading": "Doctor Clinic",
             "detail_info_text": "<p>Electricians, plumbers, and tradies see strong results on Bing, especially with older homeowners using default browsers. We make sure you’re visible when they search \"best near me.\"</p><p></p><p></p>",
-            "icon": "shopify://shop_images/yellow-arrow.svg",
+            "icon": "shopify://shop_images/plus_1.png",
             "detail_button_link": "shopify://pages/contact",
             "detail_button_text": "Free Quote"
           }
         },
         "tradies_item_X3Db9y": {
           "type": "tradies-item",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/pest-control-website-development-1.webp",
             "detail_info_heading": "Luxury & High-Ticket E-Commerce",
@@ -293,6 +297,7 @@
         },
         "tradies_item_6qHYz4": {
           "type": "tradies-item",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/cleaning-website-design.webp",
             "detail_info_heading": "Professional Services",
@@ -304,6 +309,7 @@
         },
         "tradies_item_tDB4YR": {
           "type": "tradies-item",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/general-tradies-websites.webp",
             "detail_info_heading": "Online Retail & Niche E-Com",
@@ -339,7 +345,7 @@
           "settings": {
             "question": "What are Bing Ads?",
             "answer": "<p>Bing Ads, now known as Microsoft Advertising, is Microsoft's pay-per-click (PPC) advertising platform. It allows businesses to display ads on the Bing search engine and its partner networks, including Yahoo and AOL.</p>",
-            "icon": "shopify://shop_images/yellow-arrow.svg"
+            "icon": "shopify://shop_images/plus_1.png"
           }
         },
         "faq_item_AdgFRX": {
@@ -347,7 +353,7 @@
           "settings": {
             "question": "How do Bing Ads differ from Google Ads?",
             "answer": "<p>While both platforms offer PPC advertising, Bing Ads often have lower competition and cost-per-click (CPC) rates. Additionally, Bing's audience tends to be older and more affluent, which can be advantageous for certain businesses.</p>",
-            "icon": "shopify://shop_images/yellow-arrow.svg"
+            "icon": "shopify://shop_images/plus_1.png"
           }
         },
         "faq_item_E6VP9h": {
@@ -355,7 +361,7 @@
           "settings": {
             "question": "Is Bing Ads suitable for small businesses?",
             "answer": "<p>Absolutely. Bing Ads can be particularly effective for small businesses targeting specific demographics or looking for cost-effective advertising solutions.</p>",
-            "icon": "shopify://shop_images/yellow-arrow.svg"
+            "icon": "shopify://shop_images/plus_1.png"
           }
         },
         "faq_item_akFz96": {
@@ -363,7 +369,7 @@
           "settings": {
             "question": "Can I import my Google Ads campaigns into Bing Ads?",
             "answer": "<p>Yes, Bing Ads offers a feature that allows you to import your existing Google Ads campaigns, making the transition seamless.</p>",
-            "icon": "shopify://shop_images/yellow-arrow.svg"
+            "icon": "shopify://shop_images/plus_1.png"
           }
         },
         "faq_item_jdQR46": {
@@ -371,7 +377,7 @@
           "settings": {
             "question": "What types of ads can I run on Bing?",
             "answer": "<p>Bing supports various ad formats, including text ads, shopping ads, and dynamic search ads, catering to both service-based and e-commerce businesses.</p>",
-            "icon": "shopify://shop_images/yellow-arrow.svg"
+            "icon": "shopify://shop_images/plus_1.png"
           }
         },
         "faq_item_nyFTVE": {
@@ -379,7 +385,7 @@
           "settings": {
             "question": "How does Bing Ads' audience differ from Google's?",
             "answer": "<p>Bing's user base often includes older, more educated, and higher-income individuals. This demographic can be particularly beneficial for businesses targeting such audiences.​</p>",
-            "icon": "shopify://shop_images/yellow-arrow.svg"
+            "icon": "shopify://shop_images/plus_1.png"
           }
         },
         "faq_item_XN9Db9": {
@@ -387,7 +393,7 @@
           "settings": {
             "question": "Are Bing Ads effective for e-commerce businesses?",
             "answer": "<p>Yes, especially for those using platforms like Shopify. Bing's shopping ads can drive high-quality traffic to your online store.​</p><p></p>",
-            "icon": "shopify://shop_images/yellow-arrow.svg"
+            "icon": "shopify://shop_images/plus_1.png"
           }
         },
         "faq_item_C7MHEi": {
@@ -395,7 +401,7 @@
           "settings": {
             "question": "How do I track the performance of my Bing Ads campaigns?",
             "answer": "<p>Bing Ads provides robust analytics tools that allow you to monitor key performance indicators (KPIs) such as click-through rates (CTR), conversions, and return on investment (ROI).​</p>",
-            "icon": "shopify://shop_images/yellow-arrow.svg"
+            "icon": "shopify://shop_images/plus_1.png"
           }
         },
         "faq_item_Htp8HR": {
@@ -403,7 +409,7 @@
           "settings": {
             "question": "What targeting options are available in Bing Ads?",
             "answer": "<p>Bing Ads offers comprehensive targeting options, including demographic targeting, location targeting, device targeting, and more, enabling precise audience reach.</p>",
-            "icon": "shopify://shop_images/yellow-arrow.svg"
+            "icon": "shopify://shop_images/plus_1.png"
           }
         },
         "faq_item_Fb4Rdq": {
@@ -411,7 +417,7 @@
           "settings": {
             "question": "Is it worth investing in Bing Ads alongside Google Ads?",
             "answer": "<p>Diversifying your advertising strategy by including Bing Ads can help you tap into a different segment of the market, potentially increasing your overall reach and ROI.​</p>",
-            "icon": "shopify://shop_images/yellow-arrow.svg"
+            "icon": "shopify://shop_images/plus_1.png"
           }
         }
       },
@@ -443,14 +449,21 @@
         "partner_item_Am8rMX": {
           "type": "partner_item",
           "settings": {
-            "image": "shopify://shop_images/semrush-agency-partner.webp",
+            "image": "shopify://shop_images/shopify-partner-logo.jpg",
             "link": "#"
           }
         },
         "partner_item_gQr6pr": {
           "type": "partner_item",
           "settings": {
-            "image": "shopify://shop_images/Tradify.webp",
+            "image": "shopify://shop_images/google_partner.png",
+            "link": ""
+          }
+        },
+        "partner_item_gizEVP": {
+          "type": "partner_item",
+          "settings": {
+            "image": "shopify://shop_images/tiktokpartners.webp",
             "link": ""
           }
         },
@@ -461,24 +474,17 @@
             "link": ""
           }
         },
-        "partner_item_gizEVP": {
+        "partner_item_ppj4Q9": {
           "type": "partner_item",
           "settings": {
-            "image": "shopify://shop_images/evnex-partner.webp",
+            "image": "shopify://shop_images/meta-for-business-partner.webp",
             "link": ""
           }
         },
         "partner_item_nMMzBY": {
           "type": "partner_item",
           "settings": {
-            "image": "shopify://shop_images/google-partner.webp",
-            "link": ""
-          }
-        },
-        "partner_item_ppj4Q9": {
-          "type": "partner_item",
-          "settings": {
-            "image": "shopify://shop_images/meta-for-business-partner.webp",
+            "image": "shopify://shop_images/bingads.png",
             "link": ""
           }
         }
@@ -486,14 +492,14 @@
       "block_order": [
         "partner_item_Am8rMX",
         "partner_item_gQr6pr",
-        "partner_item_peizWL",
         "partner_item_gizEVP",
-        "partner_item_nMMzBY",
-        "partner_item_ppj4Q9"
+        "partner_item_peizWL",
+        "partner_item_ppj4Q9",
+        "partner_item_nMMzBY"
       ],
       "settings": {
         "heading": "Partnered With",
-        "bg_color": "#fbfbfb",
+        "bg_color": "#ffffff",
         "desktop_card_border_radius": 10,
         "mobile_card_border_radius": 6,
         "desktop_padding_top": 30,

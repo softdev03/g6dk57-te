@@ -87,6 +87,7 @@
     },
     "advertise_qQYPyj": {
       "type": "advertise",
+      "disabled": true,
       "settings": {
         "main_image": "shopify://shop_images/google-ads-for-tradies-australia.webp",
         "secondary_image": "shopify://shop_images/google-ads-for-tradies-text.svg",
@@ -118,6 +119,7 @@
       "blocks": {
         "trust_item_KtaqTQ": {
           "type": "trust_item",
+          "disabled": true,
           "settings": {
             "heading": "Decades of experience",
             "main_text": "<p>Our team of web experts has spent decades in the game, building websites that don’t just look good—they perform. We’ve seen trends come and go, and we know what works.</p><p></p>",
@@ -128,6 +130,7 @@
         },
         "trust_item_YFytD9": {
           "type": "trust_item",
+          "disabled": true,
           "settings": {
             "heading": "We get you, mate",
             "main_text": "<p>Our website packages are built specifically for Aussie tradies. We know the industry, we know your market, and we know what makes customers pick up the phone.</p><p></p>",
@@ -138,6 +141,7 @@
         },
         "trust_item_JfVUzV": {
           "type": "trust_item",
+          "disabled": true,
           "settings": {
             "heading": "100% Aussie",
             "main_text": "<p>We’re proudly Australian-owned and operated, working exclusively with local businesses. We believe in keeping it local and supporting Aussie tradies.</p><p></p>",
@@ -164,6 +168,7 @@
     },
     "advertise_PAQGf7": {
       "type": "advertise",
+      "disabled": true,
       "settings": {
         "main_image": "shopify://shop_images/website-design-and-dev-for-tradies.png",
         "secondary_image": "shopify://shop_images/get-the-work-you-want.svg",
@@ -192,6 +197,7 @@
     },
     "advertise_DnFdqE": {
       "type": "advertise",
+      "disabled": true,
       "settings": {
         "main_image": "shopify://shop_images/Web-Designs-for-trades.png",
         "secondary_image_roate_angle": 12,
@@ -219,6 +225,7 @@
     },
     "advertise_JebRqW": {
       "type": "advertise",
+      "disabled": true,
       "settings": {
         "main_image": "shopify://shop_images/email-marketing-for-tradies-edm.webp",
         "secondary_image": "shopify://shop_images/get-new-customers.svg",
@@ -283,6 +290,7 @@
         },
         "tradies_item_X3Db9y": {
           "type": "tradies-item",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/pest-control-website-development-1.webp",
             "detail_info_heading": "Pest Control",
@@ -294,6 +302,7 @@
         },
         "tradies_item_6qHYz4": {
           "type": "tradies-item",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/cleaning-website-design.webp",
             "detail_info_heading": "Cleaning",
@@ -305,6 +314,7 @@
         },
         "tradies_item_tDB4YR": {
           "type": "tradies-item",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/general-tradies-websites.webp",
             "detail_info_heading": "All Other Tradies",
@@ -428,6 +438,7 @@
         "faq_item_Htp8HR",
         "faq_item_Fb4Rdq"
       ],
+      "disabled": true,
       "settings": {
         "heading": "Frequently Asked Questions",
         "bg_color": "#f9f9f9",

@@ -12,13 +12,13 @@
     "advertise_xMT9mA": {
       "type": "advertise",
       "settings": {
-        "main_image": "shopify://shop_images/seo-for-trades.webp",
-        "secondary_image": "shopify://shop_images/get-found-on-the-web-right.svg",
-        "secondary_image_roate_angle": 8,
-        "desktop_left": -90,
+        "main_image": "shopify://shop_images/AnAgencyTikTokAds02.png",
+        "secondary_image": "shopify://shop_images/google-ads-for-tradies-text_fa2d97fc-da4f-4232-a902-3880c9eef3a3.svg",
+        "secondary_image_roate_angle": -4,
+        "desktop_left": 300,
         "desktop_top": -1,
         "desktop_right": -1,
-        "desktop_bottom": 20,
+        "desktop_bottom": 150,
         "mobile_left": 0,
         "mobile_top": -1,
         "mobile_right": -1,
@@ -30,7 +30,7 @@
         "button_text": "Speak To Our Team",
         "image_right": false,
         "text_align": "left",
-        "background_color": "#aeddf9",
+        "background_color": "#ffffff",
         "desktop_padding_top": 60,
         "desktop_padding_bottom": 60,
         "mobile_padding_top": 40,
@@ -40,7 +40,7 @@
     "phone_ring_MzFcJr": {
       "type": "phone-ring",
       "settings": {
-        "image": "shopify://shop_images/MTS-Incoming-Call_png.webp",
+        "image": "shopify://shop_images/AnAgencyTikTokAds03.png",
         "heading_1": "We Make TikTok Work for Business",
         "heading_2": "Work for Business",
         "sub_heading": "Not Just Dances. Real Sales. Real Enquiries.",
@@ -60,7 +60,7 @@
     "advertise_KLNL33": {
       "type": "advertise",
       "settings": {
-        "main_image": "shopify://shop_images/get-more-leads-for-your-trade.webp",
+        "main_image": "shopify://shop_images/AnAgencyTikTokAds04.png",
         "secondary_image": "shopify://shop_images/this-could-be-you.svg",
         "secondary_image_roate_angle": 8,
         "desktop_left": -80,
@@ -88,8 +88,7 @@
     "advertise_qQYPyj": {
       "type": "advertise",
       "settings": {
-        "main_image": "shopify://shop_images/google-ads-for-tradies-australia.webp",
-        "secondary_image": "shopify://shop_images/google-ads-for-tradies-text.svg",
+        "main_image": "shopify://shop_images/AnAgencyTikTokAds06.png",
         "secondary_image_roate_angle": 0,
         "desktop_left": -1,
         "desktop_top": 160,
@@ -106,7 +105,7 @@
         "button_text": "Help Grow My Business",
         "image_right": true,
         "text_align": "left",
-        "background_color": "#aeddf9",
+        "background_color": "#ffffff",
         "desktop_padding_top": 60,
         "desktop_padding_bottom": 60,
         "mobile_padding_top": 40,
@@ -165,7 +164,7 @@
     "advertise_PAQGf7": {
       "type": "advertise",
       "settings": {
-        "main_image": "shopify://shop_images/website-design-and-dev-for-tradies.png",
+        "main_image": "shopify://shop_images/AnAgencyTikTokAds07.png",
         "secondary_image": "shopify://shop_images/get-the-work-you-want.svg",
         "secondary_image_roate_angle": 0,
         "desktop_left": -80,
@@ -183,7 +182,7 @@
         "button_text": "Help Grow My Business",
         "image_right": false,
         "text_align": "left",
-        "background_color": "#aeddf9",
+        "background_color": "#ffffff",
         "desktop_padding_top": 60,
         "desktop_padding_bottom": 60,
         "mobile_padding_top": 40,
@@ -193,7 +192,7 @@
     "advertise_DnFdqE": {
       "type": "advertise",
       "settings": {
-        "main_image": "shopify://shop_images/Web-Designs-for-trades.png",
+        "main_image": "shopify://shop_images/AnAgencyTikTokAds08.png",
         "secondary_image_roate_angle": 12,
         "desktop_left": -1,
         "desktop_top": -1,
@@ -210,7 +209,7 @@
         "button_text": "Help Grow My Business",
         "image_right": true,
         "text_align": "left",
-        "background_color": "#aeddf9",
+        "background_color": "#ffffff",
         "desktop_padding_top": 60,
         "desktop_padding_bottom": 60,
         "mobile_padding_top": 40,
@@ -342,7 +341,7 @@
           "settings": {
             "question": "What experience does An Agency have working with tradesmen?",
             "answer": "<p>As a team led by an ex-tradesman, we understand the unique challenges and needs of the trade industry. We've successfully partnered with numerous Australian tradies, delivering tailored website designs, effective SEO strategies, and targeted paid advertising campaigns that generate quality leads.</p>",
-            "icon": "shopify://shop_images/yellow-arrow.svg"
+            "icon": "shopify://shop_images/plus_1.png"
           }
         },
         "faq_item_AdgFRX": {
@@ -350,7 +349,7 @@
           "settings": {
             "question": "How long does it take to see results from SEO efforts?",
             "answer": "<p>SEO is a long-term investment. While some improvements can be seen within a few months, it typically takes 6 to 12 months to achieve significant results. Our team implements proven strategies to enhance your online visibility and attract the right clients over time.</p>",
-            "icon": "shopify://shop_images/yellow-arrow.svg"
+            "icon": "shopify://shop_images/plus_1.png"
           }
         },
         "faq_item_E6VP9h": {
@@ -358,7 +357,7 @@
           "settings": {
             "question": "Will I have a dedicated point of contact at An Agency?",
             "answer": "<p>Absolutely. We assign a dedicated account manager to each client, ensuring clear communication and personalized service. Your account manager will keep you updated on progress, answer your questions, and ensure your marketing goals are met.</p>",
-            "icon": "shopify://shop_images/yellow-arrow.svg"
+            "icon": "shopify://shop_images/plus_1.png"
           }
         },
         "faq_item_akFz96": {
@@ -366,7 +365,7 @@
           "settings": {
             "question": "Do you provide regular reports on campaign performance?",
             "answer": "<p>Yes, transparency is key to our approach. We provide detailed monthly reports outlining the performance of your website, SEO, and advertising campaigns. These reports include key metrics and insights to keep you informed and confident in our services.</p>",
-            "icon": "shopify://shop_images/yellow-arrow.svg"
+            "icon": "shopify://shop_images/plus_1.png"
           }
         },
         "faq_item_jdQR46": {
@@ -374,7 +373,7 @@
           "settings": {
             "question": "Can you guarantee specific results with your services?",
             "answer": "<p>No agency can promise exact rankings or lead numbers—but here’s what we can guarantee: if you don’t get any leads, inquiries, or phone calls in the first 30 days, we’ll refund your marketing money, no questions asked. That’s how confident we are in what we do.We’re not just making bold claims—we have the track record to back it up. We have never worked with a tradie who didn’t get inquiries or phone calls within their first 30 days. In most cases, you’ll start seeing results within the first two weeks, and it only gets better from there as the algorithm learns and optimizes.We don’t just set up campaigns—we build systems that bring in real work.</p>",
-            "icon": "shopify://shop_images/yellow-arrow.svg"
+            "icon": "shopify://shop_images/plus_1.png"
           }
         },
         "faq_item_nyFTVE": {
@@ -382,7 +381,7 @@
           "settings": {
             "question": "What ongoing support does An Agency offer?",
             "answer": "<p>We offer continuous support to ensure your marketing efforts remain effective. This includes regular performance reviews, updates to your website and campaigns as needed, and ongoing consultation to adapt strategies in line with your business goals.Partner with An Agency and experience the difference that a confident, knowledgeable, and dedicated marketing team can make for your trade business.</p>",
-            "icon": "shopify://shop_images/yellow-arrow.svg"
+            "icon": "shopify://shop_images/plus_1.png"
           }
         },
         "faq_item_XN9Db9": {
@@ -390,7 +389,7 @@
           "settings": {
             "question": "How do you ensure the quality of leads generated?",
             "answer": "<p>Through precise targeting, compelling ad copy, and strategic SEO practices, we attract clients who are actively seeking your services. Our approach focuses on quality over quantity, ensuring the leads generated are a good fit for your business.</p>",
-            "icon": "shopify://shop_images/yellow-arrow.svg"
+            "icon": "shopify://shop_images/plus_1.png"
           }
         },
         "faq_item_C7MHEi": {
@@ -398,7 +397,7 @@
           "settings": {
             "question": "What types of paid advertising do you manage?",
             "answer": "<p>We manage various paid advertising channels, including Google Ads, social media advertising (Facebook, Instagram), and display advertising. Our team develops targeted campaigns to reach your ideal clients, maximize your return on investment, and keep your phone ringing with new business.</p>",
-            "icon": "shopify://shop_images/yellow-arrow.svg"
+            "icon": "shopify://shop_images/plus_1.png"
           }
         },
         "faq_item_Htp8HR": {
@@ -406,7 +405,7 @@
           "settings": {
             "question": "How do you approach website design for tradesmen?",
             "answer": "<p>We create custom, responsive websites that reflect your brand and appeal to your target audience. Our designs are user-friendly, mobile-optimized, and built with SEO best practices to ensure your site ranks well and converts visitors into clients.</p>",
-            "icon": "shopify://shop_images/yellow-arrow.svg"
+            "icon": "shopify://shop_images/plus_1.png"
           }
         },
         "faq_item_Fb4Rdq": {
@@ -414,7 +413,7 @@
           "settings": {
             "question": "What sets An Agency apart from other marketing agencies?",
             "answer": "<p>Our deep understanding of the trades industry, combined with our comprehensive service offerings—including website design, SEO, and paid advertising—sets us apart. Being Australian-owned and operated, we know the local market and are dedicated to helping fellow Aussie tradies succeed.</p>",
-            "icon": "shopify://shop_images/yellow-arrow.svg"
+            "icon": "shopify://shop_images/plus_1.png"
           }
         }
       },
@@ -446,14 +445,21 @@
         "partner_item_Am8rMX": {
           "type": "partner_item",
           "settings": {
-            "image": "shopify://shop_images/semrush-agency-partner.webp",
+            "image": "shopify://shop_images/shopify-partner-logo.jpg",
             "link": "#"
           }
         },
         "partner_item_gQr6pr": {
           "type": "partner_item",
           "settings": {
-            "image": "shopify://shop_images/Tradify.webp",
+            "image": "shopify://shop_images/google_partner.png",
+            "link": ""
+          }
+        },
+        "partner_item_gizEVP": {
+          "type": "partner_item",
+          "settings": {
+            "image": "shopify://shop_images/tiktokpartners.webp",
             "link": ""
           }
         },
@@ -464,24 +470,17 @@
             "link": ""
           }
         },
-        "partner_item_gizEVP": {
+        "partner_item_ppj4Q9": {
           "type": "partner_item",
           "settings": {
-            "image": "shopify://shop_images/evnex-partner.webp",
+            "image": "shopify://shop_images/meta-for-business-partner.webp",
             "link": ""
           }
         },
         "partner_item_nMMzBY": {
           "type": "partner_item",
           "settings": {
-            "image": "shopify://shop_images/google-partner.webp",
-            "link": ""
-          }
-        },
-        "partner_item_ppj4Q9": {
-          "type": "partner_item",
-          "settings": {
-            "image": "shopify://shop_images/meta-for-business-partner.webp",
+            "image": "shopify://shop_images/bingads.png",
             "link": ""
           }
         }
@@ -489,14 +488,14 @@
       "block_order": [
         "partner_item_Am8rMX",
         "partner_item_gQr6pr",
-        "partner_item_peizWL",
         "partner_item_gizEVP",
-        "partner_item_nMMzBY",
-        "partner_item_ppj4Q9"
+        "partner_item_peizWL",
+        "partner_item_ppj4Q9",
+        "partner_item_nMMzBY"
       ],
       "settings": {
         "heading": "Partnered With",
-        "bg_color": "#fbfbfb",
+        "bg_color": "#ffffff",
         "desktop_card_border_radius": 10,
         "mobile_card_border_radius": 6,
         "desktop_padding_top": 30,
