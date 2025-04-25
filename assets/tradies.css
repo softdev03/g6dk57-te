@@ -24,6 +24,8 @@
 }
 .shopify-section-tradies .tradies-item {
   width: calc((100% - 40px) / 3);
+  box-shadow: 0 4px 4px #ededf8;
+  height: fit-content;
 }
 .shopify-section-tradies .image {
   line-height: 0;
@@ -34,7 +36,6 @@
 }
 .shopify-section-tradies .tradies-detail {
   padding: 20px 40px;
-  box-shadow: 0 4px 4px #ededf8;
 }
 .shopify-section-tradies .accordion-heading {
   font-size: 20px;

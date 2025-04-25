@@ -1,4 +1,6 @@
 {{ 'advertise.css' | asset_url | stylesheet_tag }}
+{{ 'video-section.css' | asset_url | stylesheet_tag }}
+{{ 'component-deferred-media.css' | asset_url | stylesheet_tag }}
 {%- style -%}
    #shopify-section-{{ section.id }} {
      padding-top: {{ section.settings.desktop_padding_top }}px;
@@ -42,27 +44,35 @@
   	}
    }
 {%- endstyle -%}
-<div class="shopify-section-advertise page-width {% if section.settings.image_right == true %} image-right {% endif %}">
-  <div class="images">
-    {%- if section.settings.main_image != blank -%}
-      <img
-        src="{{ section.settings.main_image |  img_url: '1000x' }}"
-        alt=""
-        width="1000px"
-        height="auto"
-        class="main-image"
-      >
-    {%- endif -%}
-    {%- if section.settings.secondary_image != blank -%}
-			<div class="secondary-image">
-				<img
-					src="{{ section.settings.secondary_image |  img_url: '200x' }}"
-					alt=""
-					width="200px"
-					height="auto"
-					style="transform: rotate({{ section.settings.secondary_image_roate_angle }}deg);"
-      	>
-			</div>
+<div class="shopify-section-advertise page-width {% if section.settings.image_right == true %} media-right {% endif %}">
+  <div class="advertise-media {% if section.settings.media_sticky %} sticky {% endif %}">
+    {%- if section.settings.video != null or section.settings.video_url != blank -%}
+      <video muted {% if section.settings.autoplay_video %}autoplay{% else %}controls{% endif %} playsinline {% if section.settings.loop_video %}loop{% endif %}>
+      {%- for source in section.settings.video.sources -%}
+        <source src="{{ source.url }}" type="video/{{ source.format }}">
+      {%- endfor -%}
+    </video>
+    {%- else -%}
+      {%- if section.settings.main_image != blank -%}
+        <img
+          src="{{ section.settings.main_image |  img_url: '1000x' }}"
+          alt=""
+          width="1000px"
+          height="auto"
+          class="main-image"
+        >
+      {%- endif -%}
+      {%- if section.settings.secondary_image != blank -%}
+        <div class="secondary-image">
+          <img
+            src="{{ section.settings.secondary_image |  img_url: '200x' }}"
+            alt=""
+            width="200px"
+            height="auto"
+            style="transform: rotate({{ section.settings.secondary_image_roate_angle }}deg);"
+          >
+        </div>
+      {%- endif -%}
     {%- endif -%}
   </div>
   <div class="text-content align-{{ section.settings.text_align }}">
@@ -87,6 +97,27 @@
   "tag": "section",
   "class": "shopify-section--advertise",
   "settings": [
+    {
+      "type": "header",
+      "content": "Viedo Settings"
+    },
+    {
+      "type": "video",
+      "id": "video",
+      "label": "Video"
+    },
+    {
+      "type": "checkbox",
+      "id": "loop_video",
+      "label": "Loop Video",
+      "default": true
+    },
+    {
+      "type": "checkbox",
+      "id": "autoplay_video",
+      "label": "Autoplay Video",
+      "default": true
+    },
     {
       "type": "header",
       "content": "Image Settings"
@@ -195,7 +226,7 @@
 		{
 			"type": "checkbox",
 			"id": "image_right",
-			"label": "Image Right",
+			"label": "Media Right",
 			"default": true
 		},
 		{
