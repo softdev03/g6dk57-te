@@ -12,8 +12,13 @@
     "advertise_xMT9mA": {
       "type": "advertise",
       "settings": {
+        "loop_video": true,
+        "autoplay_video": true,
         "main_image": "shopify://shop_images/AnAgencyInstgramAds05.png",
         "secondary_image": "shopify://shop_images/this-could-be-you_86b78ffa-fae9-4fc7-9bda-3b42602401a5.svg",
+        "media_border_radius": 0,
+        "media_border_width": 0,
+        "media_border_color": "#000000",
         "secondary_image_roate_angle": 8,
         "desktop_left": -150,
         "desktop_top": -1,
@@ -25,8 +30,8 @@
         "mobile_bottom": -26,
         "heading": "Instagram Ads Built to Sell",
         "sub_heading": "For eCommerce Brands & Local Businesses That Want to Be Seen",
-        "text": "<p>Instagram isn’t just about pretty pictures — it’s a high-converting platform when used properly. We build campaigns that blend scroll-stopping visuals with sharp targeting to drive real outcomes, whether that’s sales, bookings, or brand growth.</p><p>For Shopify stores, we dial in visuals that match your brand and hook in your ideal customer. Whether it’s fashion, skincare, wellness or pets, we know how to sell with short attention spans.</p><p>For service-based businesses, we make your business the one people remember. Whether you’re a concreter or a cleaner, we run local awareness and lead gen campaigns that build trust, drive enquiries and keep your business booked solid.</p>",
-        "button_link": "#",
+        "text": "<p>Instagram isn’t just about pretty pictures, it’s a high-converting platform when used properly. We build campaigns that blend scroll-stopping visuals with sharp targeting to drive real outcomes, whether that’s sales, bookings, or brand growth.</p><p>For Shopify stores, we dial in visuals that match your brand and hook in your ideal customer. Whether it’s fashion, skincare, wellness or pets, we know how to sell with short attention spans.</p><p>For service-based businesses, we make your business the one people remember. Whether you’re a concreter or a cleaner, we run local awareness and lead gen campaigns that build trust, drive enquiries and keep your business booked solid.</p>",
+        "button_link": "shopify://pages/contact",
         "button_text": "Speak To Our Team",
         "image_right": false,
         "text_align": "left",
@@ -43,12 +48,12 @@
         "image": "shopify://shop_images/AnAgencyInstgramAds02.png",
         "heading_1": "We Make Your Brand",
         "heading_2": "Scroll-Stopping",
-        "sub_heading": "For businesses that want real visibility and results—not just likes.",
+        "sub_heading": "For businesses that want real visibility and results, not just likes.",
         "text": "Most businesses know they should be on Instagram, but few know how to actually get traction. We build Instagram Ads that go beyond vanity metrics. Whether you're selling products or filling up your job calendar, we focus on what moves the needle: visibility, clicks, enquiries, and conversions. For eCommerce stores, that means high-performing visuals, product carousels, and retargeting that brings browsers back to buy. For service businesses, it’s about building brand trust, staying front-of-mind, and turning views into phone calls. If your Instagram isn’t working hard for you, we’re the team to change that.",
         "phone_button_text": "0499226600",
         "phone_number": "0499226600",
         "enquire_button_text": "Enquire Now",
-        "enquire_button_link": "#",
+        "enquire_button_link": "shopify://pages/contact",
         "image_right": true,
         "text_align": "left",
         "desktop_padding_top": 100,
@@ -60,7 +65,12 @@
     "advertise_KLNL33": {
       "type": "advertise",
       "settings": {
+        "loop_video": true,
+        "autoplay_video": true,
         "main_image": "shopify://shop_images/AnAgencyInstagramAds03.png",
+        "media_border_radius": 0,
+        "media_border_width": 0,
+        "media_border_color": "#000000",
         "secondary_image_roate_angle": 8,
         "desktop_left": -80,
         "desktop_top": -1,
@@ -72,8 +82,8 @@
         "mobile_bottom": -30,
         "heading": "Digital Marketing on Instagram Matters",
         "sub_heading": "How An Agency Helps You Stand Out Online",
-        "text": "<p>Instagram isn’t just a pretty platform anymore—it’s a serious business tool. If you’re not using it to generate leads or sales, you’re leaving money on the table. Whether you’re a service-based business or a Shopify brand, we make Instagram work harder for you.</p><p>We build Instagram ad campaigns with intent—from eye-catching reels and stories to highly targeted feed ads that stop the scroll and spark action. For tradies, that means more enquiries and a stronger presence in your local area. For eCommerce brands, it means more product views, cart adds, and conversions. You handle the business, we handle the algorithm.</p>",
-        "button_link": "#",
+        "text": "<p>Instagram isn’t just a pretty platform anymore, it’s a serious business tool. If you’re not using it to generate leads or sales, you’re leaving money on the table. Whether you’re a service-based business or a Shopify brand, we make Instagram work harder for you.</p><p>We build Instagram ad campaigns with intent, from eye-catching reels and stories to highly targeted feed ads that stop the scroll and spark action. For tradies, that means more enquiries and a stronger presence in your local area. For eCommerce brands, it means more product views, cart adds, and conversions. You handle the business, we handle the algorithm.</p>",
+        "button_link": "shopify://pages/contact",
         "button_text": "Help Grow My Business",
         "image_right": false,
         "text_align": "left",
@@ -87,7 +97,12 @@
     "advertise_qQYPyj": {
       "type": "advertise",
       "settings": {
+        "loop_video": true,
+        "autoplay_video": true,
         "main_image": "shopify://shop_images/AnAgencyInstagramAds04.png",
+        "media_border_radius": 0,
+        "media_border_width": 0,
+        "media_border_color": "#000000",
         "secondary_image_roate_angle": 0,
         "desktop_left": -1,
         "desktop_top": 160,
@@ -99,8 +114,8 @@
         "mobile_bottom": -1,
         "heading": "Advertising Solutions for Aussie Tradies",
         "sub_heading": "Get Seen. Get Clicked. Get Booked.",
-        "text": "<p>Instagram isn’t just for influencers—it’s where your customers hang out daily. Whether it’s a story, a reel, or a quick tap on a “Get a Quote” button, your business needs to be front and centre when locals are scrolling.</p><p>We help tradies get noticed on Instagram with creative that speaks to real people and targeting that keeps your budget tight. Whether you’re a sparky, plumber, or landscaper, our team sets up ads that stop the scroll and spark the call. No fluff—just real enquiries rolling in.</p>",
-        "button_link": "#",
+        "text": "<p>Instagram isn’t just for influencers, it’s where your customers hang out daily. Whether it’s a story, a reel, or a quick tap on a “Get a Quote” button, your business needs to be front and centre when locals are scrolling.</p><p>We help tradies get noticed on Instagram with creative that speaks to real people and targeting that keeps your budget tight. Whether you’re a sparky, plumber, or landscaper, our team sets up ads that stop the scroll and spark the call. No fluff, just real enquiries rolling in.</p>",
+        "button_link": "shopify://pages/contact",
         "button_text": "Help Grow My Business",
         "image_right": true,
         "text_align": "left",
@@ -118,7 +133,7 @@
           "type": "trust_item",
           "settings": {
             "heading": "Visual-First Strategy That Converts",
-            "main_text": "<p>Instagram is a visual playground—and we know how to play the game. Our creatives are built to stop the scroll, spark interest, and push action. </p>",
+            "main_text": "<p>Instagram is a visual playground and we know how to play the game. Our creatives are built to stop the scroll, spark interest, and push action. </p>",
             "button_text": "Read More",
             "additional_text": "<p>Whether it’s a Reels campaign or Stories with punchy CTAs, we make sure your ads get noticed for the right reasons.</p><p></p>",
             "accordion_image": "shopify://shop_images/plus_1.png"
@@ -152,7 +167,7 @@
       ],
       "settings": {
         "heading": "Why Partner With An Agency for Instagram Ads",
-        "text": "<p><strong>Experience, local insight, and no wasted budget.</strong></p><p>We know how to cut through the noise. Whether you're targeting homeowners or shoppers, our Instagram campaigns are built for attention and conversion. We craft scroll-stopping visuals and captions that don’t just look good—they get clicks, calls, and checkouts.</p><p>Backed by data, fuelled by creative, and tailored for the Aussie market, we make sure every dollar of your ad spend is working hard for your brand.</p><p></p>",
+        "text": "<p><strong>Experience, local insight, and no wasted budget.</strong></p><p>We know how to cut through the noise. Whether you're targeting homeowners or shoppers, our Instagram campaigns are built for attention and conversion. We craft scroll-stopping visuals and captions that don’t just look good, they get clicks, calls, and checkouts.</p><p>Backed by data, fuelled by creative, and tailored for the Aussie market, we make sure every dollar of your ad spend is working hard for your brand.</p><p></p>",
         "trust_image": "shopify://shop_images/Artboard_13.png",
         "desktop_padding_top": 60,
         "desktop_padding_bottom": 60,
@@ -163,7 +178,12 @@
     "advertise_PAQGf7": {
       "type": "advertise",
       "settings": {
+        "loop_video": true,
+        "autoplay_video": true,
         "main_image": "shopify://shop_images/InstagramAds01.png",
+        "media_border_radius": 0,
+        "media_border_width": 0,
+        "media_border_color": "#000000",
         "secondary_image_roate_angle": 0,
         "desktop_left": -80,
         "desktop_top": -1,
@@ -175,8 +195,8 @@
         "mobile_bottom": -30,
         "heading": "Make Every Scroll Count",
         "sub_heading": "Native ads that blend in but stand out",
-        "text": "<p>Instagram isn’t the place for hard sells. We design ads that feel like content, not commercials—capturing attention without disrupting the experience. From stories to reels, we use creative that connects and converts.</p>",
-        "button_link": "#",
+        "text": "<p>Instagram isn’t the place for hard sells. We design ads that feel like content, not commercials, capturing attention without disrupting the experience. From stories to reels, we use creative that connects and converts.</p>",
+        "button_link": "shopify://pages/contact",
         "button_text": "Help Grow My Business",
         "image_right": false,
         "text_align": "left",
@@ -190,7 +210,12 @@
     "advertise_DnFdqE": {
       "type": "advertise",
       "settings": {
+        "loop_video": true,
+        "autoplay_video": true,
         "main_image": "shopify://shop_images/AnAgencyInstgramAds06.png",
+        "media_border_radius": 0,
+        "media_border_width": 0,
+        "media_border_color": "#000000",
         "secondary_image_roate_angle": 12,
         "desktop_left": -1,
         "desktop_top": -1,
@@ -202,8 +227,8 @@
         "mobile_bottom": -1,
         "heading": "Local Reach with Big Impact",
         "sub_heading": "Local Reach with Big Impact",
-        "text": "<p>We dial in on your ideal customer—down to their location, interests, and buying intent. No fluff, no wasted impressions. Just ads that show up at the right time, in the right feed, to the right people.</p>",
-        "button_link": "#",
+        "text": "<p>We dial in on your ideal customer down to their location, interests, and buying intent. No fluff, no wasted impressions. Just ads that show up at the right time, in the right feed, to the right people.</p>",
+        "button_link": "shopify://pages/contact",
         "button_text": "Help Grow My Business",
         "image_right": true,
         "text_align": "left",
@@ -217,7 +242,12 @@
     "advertise_JebRqW": {
       "type": "advertise",
       "settings": {
+        "loop_video": true,
+        "autoplay_video": true,
         "main_image": "shopify://shop_images/AnAgencyInstgramAds07.png",
+        "media_border_radius": 0,
+        "media_border_width": 0,
+        "media_border_color": "#000000",
         "secondary_image_roate_angle": 0,
         "desktop_left": -1,
         "desktop_top": 160,
@@ -229,8 +259,8 @@
         "mobile_bottom": -1,
         "heading": "Strategy That Doesn’t Miss",
         "sub_heading": "Built on data, refined with experience",
-        "text": "<p>We don’t roll out cookie-cutter campaigns. Everything is set up with intent—tested, tracked, and fine-tuned. From launch to retargeting, we keep performance sharp and your spend smart.</p>",
-        "button_link": "#",
+        "text": "<p>We don’t roll out cookie-cutter campaigns. Everything is set up with intent. Tested, tracked, and fine-tuned. From launch to retargeting, we keep performance sharp and your spend smart.</p>",
+        "button_link": "shopify://pages/contact",
         "button_text": "Get More High-Quality Leads",
         "image_right": false,
         "text_align": "left",
@@ -321,7 +351,7 @@
       ],
       "settings": {
         "heading": "Industries We Work With",
-        "text": "We don’t just run ads — we run ads that get results in your space. From sleek Shopify stores to boots-on-the-ground tradies, we work with businesses that actually benefit from Instagram. If your product or service can be shown, styled, or shouted about — we know how to put it in front of the right people.",
+        "text": "We don’t just run ads , we run ads that get results in your space. From sleek Shopify stores to boots-on-the-ground tradies, we work with businesses that actually benefit from Instagram. If your product or service can be shown, styled, or shouted about we know how to put it in front of the right people.",
         "desktop_padding_top": 60,
         "desktop_padding_bottom": 60,
         "mobile_padding_top": 40,
@@ -498,6 +528,21 @@
         "mobile_padding_top": 30,
         "mobile_padding_bottom": 30
       }
+    },
+    "marketing_focus_3WUhcJ": {
+      "type": "marketing-focus",
+      "name": "Marketing Focus Section",
+      "settings": {
+        "logo_image": "shopify://shop_images/04.jpg",
+        "headline": "Get Seen. Get Clicked. Get Sales.",
+        "sub_text": "We’ll help you stand out, grow your audience, and turn followers into buyers.",
+        "button_text": "Request a Quote",
+        "button_link": "shopify://pages/contact",
+        "desktop_padding_top": 0,
+        "desktop_padding_bottom": 0,
+        "mobile_padding_top": 0,
+        "mobile_padding_bottom": 0
+      }
     }
   },
   "order": [
@@ -511,6 +556,7 @@
     "advertise_JebRqW",
     "tradies_D9qHzj",
     "faq_cYAhKJ",
-    "partner_with_U86NgH"
+    "partner_with_U86NgH",
+    "marketing_focus_3WUhcJ"
   ]
 }

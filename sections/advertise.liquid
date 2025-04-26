@@ -7,6 +7,10 @@
      padding-bottom: {{ section.settings.desktop_padding_bottom }}px;
 		 background-color: {{ section.settings.background_color }};
    }
+   #shopify-section-{{ section.id }} .advertise-media video,#shopify-section-{{ section.id }} .advertise-media .main-image {
+    border-radius: {{ section.settings.media_border_radius }}px;
+    border: {{ section.settings.media_border_width }}px solid {{ section.settings.media_border_color |  default : 'transparent' }};
+   }
 	 @media screen and (min-width: 750px) {
 		#shopify-section-{{ section.id }} .secondary-image {
 			{%- if section.settings.desktop_left != -1 -%}
@@ -131,6 +135,36 @@
       "type": "image_picker",
       "id": "secondary_image",
       "label": "Secondary Image"
+    },
+    {
+      "type": "header",
+      "content": "Media Border Settings"
+    },
+    {
+      "type": "range",
+      "id": "media_border_radius",
+      "min": 0,
+      "max": 300,
+      "step": 3,
+      "unit": "px",
+      "label": "Media Border Radius",
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "media_border_width",
+      "min": 0,
+      "max": 20,
+      "step": 1,
+      "unit": "px",
+      "label": "Media Border Width",
+      "default": 0
+    },
+    {
+      "type": "color",
+      "id": "media_border_color",
+      "label": "Media Border Color",
+      "default": "#000000"
     },
 		{
 			"type": "header",

@@ -15,7 +15,7 @@
         "text_Ln9QYL": {
           "type": "text",
           "settings": {
-            "text": "<p>Plans for every stage of your creator journey</p>",
+            "text": "<p><strong>Clear Pricing, Real Value — No Surprises</strong></p><h3></h3>",
             "desktop_margin": 20,
             "mobile_margin": 12,
             "desktop_align": "center",
@@ -37,7 +37,7 @@
         "text_GFR7gM": {
           "type": "text",
           "settings": {
-            "text": "<p>How many email subscribers do you have?</p>",
+            "text": "<p>We believe in upfront pricing that respects your time and budget. No vague quotes, no hidden fees, no games. Just premium websites, marketing, and branding services built properly, by a team that actually cares about your business.</p>",
             "desktop_margin": 0,
             "mobile_margin": 0,
             "desktop_align": "center",
@@ -62,7 +62,7 @@
         "text_GFR7gM"
       ],
       "settings": {
-        "bg_color": "#eafefe",
+        "bg_color": "#ffffff",
         "desktop_padding_top": 60,
         "desktop_padding_bottom": 40,
         "mobile_padding_top": 30,
@@ -76,7 +76,7 @@
           "type": "tab_item",
           "settings": {
             "handle_number": 1,
-            "tab_text": "Ecommerce Websites"
+            "tab_text": "Shopify Websites"
           }
         },
         "tab_item_UgV8rF": {
@@ -102,131 +102,194 @@
         },
         "pricing_item_YheRDG": {
           "type": "pricing_item",
+          "name": "Shopify Pricing Item",
           "settings": {
             "handle_number": 1,
             "icon": "shopify://shop_images/logo_8676fd03-d3d9-496f-bc2c-f1b1a9fd3c18.svg",
             "heading": "Launch",
             "sub_heading": "Shopify Design & Development",
-            "link_text": "Get Started",
-            "link": "#",
-            "main_content": "<p>[price] /month</p><p></p><p>Seriously totally free for up to <strong>1,000</strong> subscribers</p>",
-            "secondary_content": "<ul><li>Set-up Shopify theme</li><li>Homepage design</li><li>Up to 10 collections or categories</li><li>Up to 100 products</li><li>Up to 5 content pages</li><li>Shopify payment / Pay-Pal setup</li><li><em>Newsletter signup and social media links</em></li><li><em>Up to 3 blog index and article pages</em></li><li><em>Personalised admin guide</em></li></ul>",
+            "link_text": "Learn More",
+            "link": "shopify://pages/launch-shopify-store-package-basic-ecommerce-setup",
+            "main_content": "<p>[price] /once-off</p><p></p><p>Perfect for new stores that just need to get moving.<br/></p>",
+            "secondary_content": "<p><strong>What’s included</strong></p><p></p><ul><li>Set-up Shopify theme</li><li>Homepage design</li><li>Up to 10 collections or categories</li><li>Up to 100 products</li><li>Up to 5 content pages</li><li>Shopify payment / PayPal setup</li><li><em>Newsletter signup and social media links</em></li><li><em>Up to 3 blog index and article pages</em></li><li><em>Personalised admin guide</em></li><li><em>SEO titles & descriptions</em></li><li><em>Post-launch training call</em></li><li><em>Conversion tracking setup</em></li><li><em>Dedicated project manager</em></li></ul>",
             "badge_text": "",
-            "price": 20
+            "price": 3500
           }
         },
         "pricing_item_ezdbcT": {
           "type": "pricing_item",
+          "name": "Shopify Pricing Item",
           "settings": {
             "handle_number": 1,
             "icon": "shopify://shop_images/logo_8676fd03-d3d9-496f-bc2c-f1b1a9fd3c18.svg",
-            "heading": "Launch",
+            "heading": "Growth",
             "sub_heading": "Shopify Design & Development",
-            "link_text": "Get Started",
-            "link": "#",
-            "main_content": "<p>[price] /month</p><p></p><p>Seriously totally free for up to <strong>1,000</strong> subscribers</p>",
-            "secondary_content": "<ul><li>Set-up Shopify theme</li><li>Homepage design</li><li>Up to 10 collections or categories</li><li>Up to 100 products</li><li>Up to 5 content pages</li><li>Shopify payment / Pay-Pal setup</li><li><em>Newsletter signup and social media links</em></li><li><em>Up to 3 blog index and article pages</em></li><li><em>Personalised admin guide</em></li></ul>",
+            "link_text": "Learn More",
+            "link": "shopify://pages/growth-shopify-store-package-advanced-online-store",
+            "main_content": "<p>[price] /once-off</p><p></p><p>For brands ready to scale with more products and SEO built-in.<br/></p>",
+            "secondary_content": "<p><strong>What’s included</strong></p><p></p><ul><li>Set-up Shopify theme</li><li>Homepage design</li><li>Up to 15 collections or categories</li><li>Up to 200 products</li><li>Up to 8 content pages</li><li>Shopify payment / PayPal setup</li><li>Newsletter signup and social media links</li><li>Up to 3 blog index and article pages</li><li>Personalised admin guide</li><li>SEO titles & descriptions</li><li>Post-launch training call</li><li>Conversion tracking setup</li><li>Dedicated project manager</li><li><em>Custom design or animations</em></li><li><em>Advanced app integration (3+ apps)</em></li><li><em>Shopify Plus support</em></li></ul>",
             "badge_text": "RECOMMENDED",
-            "price": 20
+            "price": 7000
           }
         },
         "pricing_item_N4xReh": {
           "type": "pricing_item",
+          "name": "Shopify Pricing Item",
           "settings": {
             "handle_number": 1,
             "icon": "shopify://shop_images/logo_8676fd03-d3d9-496f-bc2c-f1b1a9fd3c18.svg",
-            "heading": "Launch",
-            "sub_heading": "Shopify Design & Development",
-            "link_text": "Get Started",
-            "link": "#",
-            "main_content": "<p>[price] /month</p><p></p><p>Seriously totally free for up to <strong>1,000</strong> subscribers</p>",
-            "secondary_content": "<ul><li>Set-up Shopify theme</li><li>Homepage design</li><li>Up to 10 collections or categories</li><li>Up to 100 products</li><li>Up to 5 content pages</li><li>Shopify payment / Pay-Pal setup</li><li><em>Newsletter signup and social media links</em></li><li><em>Up to 3 blog index and article pages</em></li><li><em>Personalised admin guide</em></li></ul>",
+            "heading": "Enterprise",
+            "sub_heading": "Custom Shopify Plus Store with Support",
+            "link_text": "Learn More",
+            "link": "shopify://pages/enterprise-shopify-store-package-custom-scalable",
+            "main_content": "<p>From [price] </p><p></p><p>High-converting, brand-led builds for serious eCommerce growth.<br/></p>",
+            "secondary_content": "<p><strong>What’s included</strong></p><p></p><ul><li>Set-up Shopify theme OR bespoke design</li><li>Homepage design with custom UI/UX</li><li>Unlimited collections</li><li>Unlimited products</li><li>Up to 15+ content pages</li><li>Shopify payment / PayPal setup</li><li>Newsletter signup and social media links</li><li>Blog setup & styling</li><li>Personalised admin guide</li><li>SEO titles & descriptions</li><li>Post-launch training (3 sessions)</li><li>Conversion tracking (GA4, Meta Pixel, etc)</li><li>Dedicated project manager</li><li>Custom animations & effects</li><li>Advanced app integration (up to 5)</li><li>Shopify Plus migration</li><li>Theme warranty (1 year)</li><li>Priority build timeline</li><li>Ongoing support option</li><li><em>Product import assistance (over 1,000 SKUs may be quoted)</em></li><li><em>Copywriting for all pages (available as add-on)</em></li></ul>",
             "badge_text": "",
-            "price": 20
+            "price": 10000
           }
         },
         "pricing_item_pEEMFH": {
           "type": "pricing_item",
+          "name": "Service Pricing Item",
           "settings": {
             "handle_number": 2,
-            "heading": "Launch",
-            "sub_heading": "Shopify Design & Development",
+            "icon": "shopify://shop_images/logo-variation-3.png",
+            "heading": "Starter",
+            "sub_heading": "Service Website Design & Build",
             "link_text": "Get Started",
             "link": "#",
-            "main_content": "<p>[price] /month</p><p></p><p>Seriously totally free for up to <strong>1,000</strong> subscribers</p>",
-            "secondary_content": "<ul><li>Set-up Shopify theme</li><li>Homepage design</li><li>Up to 10 collections or categories</li><li>Up to 100 products</li><li>Up to 5 content pages</li><li>Shopify payment / Pay-Pal setup</li><li><em>Newsletter signup and social media links</em></li><li><em>Up to 3 blog index and article pages</em></li><li><em>Personalised admin guide</em></li></ul>",
+            "main_content": "<p>[price] /(once-off)</p><p></p><p>Built for solo tradies and service providers who need to get online with the essentials.</p><p></p>",
+            "secondary_content": "<p><strong>What’s included</strong></p><p></p><ul><li>Homepage design</li><li>Up to 6 pages (Home, About, Services, Contact, etc.)</li><li>Mobile-responsive layout</li><li>Google Maps embed</li><li>Contact form or quote form</li><li>Integration with your Google Business Profile</li><li>Image sourcing (stock & client-provided)</li><li><em>Online bookings</em></li><li><em>Payment gateway setup</em></li><li><em>Blog setup</em></li><li><em>CRM or email integration</em></li><li><em>Photo upload functionality for customers</em></li></ul>",
             "badge_text": "",
-            "price": 20
+            "price": 2800
           }
         },
-        "pricing_item_8L4MLW": {
+        "pricing_item_HFjRJQ": {
           "type": "pricing_item",
+          "name": "Service Pricing Item",
           "settings": {
             "handle_number": 2,
-            "heading": "Launch",
-            "sub_heading": "Shopify Design & Development",
+            "icon": "shopify://shop_images/logo-variation-3.png",
+            "heading": "Growth",
+            "sub_heading": "Service Website Design & Build",
             "link_text": "Get Started",
             "link": "#",
-            "main_content": "<p>[price] /month</p><p></p><p>Seriously totally free for up to <strong>1,000</strong> subscribers</p>",
-            "secondary_content": "<ul><li>Set-up Shopify theme</li><li>Homepage design</li><li>Up to 10 collections or categories</li><li>Up to 100 products</li><li>Up to 5 content pages</li><li>Shopify payment / Pay-Pal setup</li><li><em>Newsletter signup and social media links</em></li><li><em>Up to 3 blog index and article pages</em></li><li><em>Personalised admin guide</em></li></ul>",
+            "main_content": "<p>[price] /(once-off)</p><p></p><p>For service businesses ready to level up with lead-generation features and extras.</p>",
+            "secondary_content": "<p><strong>Everything in Starter, plus:</strong></p><p></p><ul><li>Up to 12 pages</li><li>Online booking system integration</li><li>Photo upload feature for job quotes</li><li>Customer review integration (Google or other)</li><li>Conversion-optimised content writing for key pages</li><li>Social media integration</li><li><em>Payment gateway setup</em></li><li><em>CRM or email marketing integration</em></li><li><em>Custom animations or interactive sections</em></li></ul><p></p>",
+            "badge_text": "RECOMMENDED",
+            "price": 4900
+          }
+        },
+        "pricing_item_BjXeJc": {
+          "type": "pricing_item",
+          "name": "Service Pricing Item",
+          "settings": {
+            "handle_number": 2,
+            "icon": "shopify://shop_images/logo-variation-3.png",
+            "heading": "Custom",
+            "sub_heading": "Advanced Build for Service Businesses",
+            "link_text": "Get Started",
+            "link": "#",
+            "main_content": "<p>From [price]+ (scoped project)</p><p></p><p>Built from the ground up with custom sections</p>",
+            "secondary_content": "<p><strong>Everything in Growth, plus:</strong></p><p></p><ul><li>Custom-built features tailored to your industry</li><li>Booking and payment workflows</li><li>CRM and email marketing integrations</li><li>Built-in customer dashboard (where applicable)</li><li>Interactive elements, calculators, video banners</li><li>SEO setup (titles, descriptions, sitemap)</li><li>Advanced form logic and conditional fields</li><li>Full brand styling (colours, fonts, image treatment)</li></ul>",
             "badge_text": "",
-            "price": 20
+            "price": 9500
           }
         },
         "pricing_item_T3akPQ": {
           "type": "pricing_item",
+          "name": "Marketing Pricing Item",
           "settings": {
             "handle_number": 3,
+            "icon": "shopify://shop_images/logo-variation-3.png",
             "heading": "Launch",
-            "sub_heading": "Shopify Design & Development",
+            "sub_heading": "Run your first profitable ad campaigns without the guesswork.",
             "link_text": "Get Started",
             "link": "#",
-            "main_content": "<p>[price] /month</p><p></p><p>Seriously totally free for up to <strong>1,000</strong> subscribers</p>",
-            "secondary_content": "<ul><li>Set-up Shopify theme</li><li>Homepage design</li><li>Up to 10 collections or categories</li><li>Up to 100 products</li><li>Up to 5 content pages</li><li>Shopify payment / Pay-Pal setup</li><li><em>Newsletter signup and social media links</em></li><li><em>Up to 3 blog index and article pages</em></li><li><em>Personalised admin guide</em></li></ul>",
+            "main_content": "<p>From [price] /month</p><p></p><p>Get your ads running profitably on one platform.</p>",
+            "secondary_content": "<ul><li>One advertising platform (Google Ads OR Facebook/Instagram Ads OR TikTok Ads)</li><li>Ad campaign setup and launch</li><li>Keyword research or audience targeting</li><li>Ad copywriting and creative setup</li><li>Weekly optimisation and bid adjustments</li><li>Basic conversion tracking setup</li><li>Monthly performance reporting</li><li>30-minute monthly strategy call</li><li><em>Multi-platform management</em></li><li><em>Landing page creation/optimisation</em></li><li><em>Complex funnel or CRM integration</em></li><li><em>Video ad production beyond simple edits</em></li></ul>",
             "badge_text": "",
-            "price": 20
+            "price": 1100
           }
         },
         "pricing_item_gPdTi4": {
           "type": "pricing_item",
+          "name": "Marketing Pricing Item",
           "settings": {
             "handle_number": 3,
-            "heading": "Launch",
-            "sub_heading": "Shopify Design & Development",
+            "icon": "shopify://shop_images/logo-variation-3.png",
+            "heading": "Growth",
+            "sub_heading": "Scale your brand across two major platforms with smarter strategies.",
             "link_text": "Get Started",
             "link": "#",
-            "main_content": "<p>[price] /month</p><p></p><p>Seriously totally free for up to <strong>1,000</strong> subscribers</p>",
-            "secondary_content": "<ul><li>Set-up Shopify theme</li><li>Homepage design</li><li>Up to 10 collections or categories</li><li>Up to 100 products</li><li>Up to 5 content pages</li><li>Shopify payment / Pay-Pal setup</li><li><em>Newsletter signup and social media links</em></li><li><em>Up to 3 blog index and article pages</em></li><li><em>Personalised admin guide</em></li></ul>",
-            "badge_text": "",
-            "price": 20
+            "main_content": "<p>From [price] /month</p><p></p><p>Multi-platform ad campaigns built to scale your leads & sales.</p>",
+            "secondary_content": "<ul><li>Management of two advertising platforms (e.g., Google + Facebook, or Facebook + TikTok)</li><li>Complete funnel strategy and audience segmentation</li><li>Ad creative creation (up to 5 new assets per month)</li><li>Advanced conversion tracking setup (Google Tag Manager, pixels)</li><li>A/B testing of ad creatives and copy</li><li>Monthly detailed reports and insights</li><li>1-hour monthly strategy call</li><li>Priority campaign adjustments and creative refreshes</li><li><em>Management of 3 or more platforms</em></li><li><em>Dedicated video production services</em></li><li><em>Ongoing SEO management</em></li></ul>",
+            "badge_text": "RECOMMENDED",
+            "price": 1800
           }
         },
         "pricing_item_4PhrtT": {
           "type": "pricing_item",
+          "name": "Marketing Pricing Item",
           "settings": {
-            "handle_number": 4,
-            "heading": "Launch",
-            "sub_heading": "Shopify Design & Development",
+            "handle_number": 3,
+            "icon": "shopify://shop_images/logo-variation-3.png",
+            "heading": "Enterprise",
+            "sub_heading": "Dominate your industry with full-funnel, multi-channel ad campaigns.",
             "link_text": "Get Started",
             "link": "#",
-            "main_content": "<p>[price] /month</p><p></p><p>Seriously totally free for up to <strong>1,000</strong> subscribers</p>",
-            "secondary_content": "<ul><li>Set-up Shopify theme</li><li>Homepage design</li><li>Up to 10 collections or categories</li><li>Up to 100 products</li><li>Up to 5 content pages</li><li>Shopify payment / Pay-Pal setup</li><li><em>Newsletter signup and social media links</em></li><li><em>Up to 3 blog index and article pages</em></li><li><em>Personalised admin guide</em></li></ul>",
+            "main_content": "<p>From [price] /month</p><p></p><p>Omnichannel campaigns for serious scaling & market domination.</p>",
+            "secondary_content": "<ul><li>Management across 3+ platforms (Google, Facebook/Instagram, TikTok, LinkedIn, YouTube, etc.)</li><li>Unified multi-touch ad strategy and retargeting funnels</li><li>Landing page creation and A/B testing included</li><li>Custom audience building and behavioural tracking</li><li>Advanced CRM integration and lead tracking</li><li>Weekly reporting with full ROI analysis</li><li>Dedicated account manager + on-demand calls</li><li>Rapid-launch campaigns (48-hour turnaround when needed)</li><li>Custom dashboards (Google Data Studio/Looker)</li><li><em>Organic social media management</em></li><li><em>Ongoing full SEO campaigns</em></li><li><em>Large-scale video production costs (can be managed externally if needed)</em></li></ul>",
             "badge_text": "",
-            "price": 20
+            "price": 3000
           }
         },
         "pricing_item_4HaEyq": {
           "type": "pricing_item",
+          "name": "Branding Pricing Item",
           "settings": {
             "handle_number": 4,
+            "icon": "shopify://shop_images/logo-variation-3.png",
             "heading": "Launch",
-            "sub_heading": "Shopify Design & Development",
+            "sub_heading": "Branding Package",
             "link_text": "Get Started",
             "link": "#",
-            "main_content": "<p>[price] /month</p><p></p><p>Seriously totally free for up to <strong>1,000</strong> subscribers</p>",
-            "secondary_content": "<ul><li>Set-up Shopify theme</li><li>Homepage design</li><li>Up to 10 collections or categories</li><li>Up to 100 products</li><li>Up to 5 content pages</li><li>Shopify payment / Pay-Pal setup</li><li><em>Newsletter signup and social media links</em></li><li><em>Up to 3 blog index and article pages</em></li><li><em>Personalised admin guide</em></li></ul>",
+            "main_content": "<p>From [price] /Once Off</p><p></p><p>Build a solid foundation for your brand.<br/></p>",
+            "secondary_content": "<ul><li>Logo Design (1 concept + 2 revisions)</li><li>Colour Palette (Primary + Secondary)</li><li>Typography Recommendations</li><li>Mini Brand Style Guide (2-3 pages)</li><li>Deliverables in all major file formats</li><li>Basic Brand Voice Snapshot</li><li><em>Multiple logo variations (submarks)</em></li><li><em>Business card, email signature, social media designs</em></li></ul>",
+            "badge_text": "RECOMMENDED",
+            "price": 1500
+          }
+        },
+        "pricing_item_tVgnXg": {
+          "type": "pricing_item",
+          "name": "Branding Pricing Item",
+          "settings": {
+            "handle_number": 4,
+            "icon": "shopify://shop_images/logo-variation-3.png",
+            "heading": "Enterprise",
+            "sub_heading": "Branding Package",
+            "link_text": "Get Started",
+            "link": "#",
+            "main_content": "<p>From [price] /Once Off</p><p></p><p>Bespoke branding ready for scale.<br/></p>",
+            "secondary_content": "<ul><li>Brand Strategy Mini Workshop</li><li>Competitive Branding Audit</li><li>Custom Logo Suite (Primary, Secondary, Brandmark, Tagline Lockups)</li><li>Comprehensive Brand Style Guide (20+ pages)</li><li>Collateral Suite (5+ items: Business Card, Letterhead, Signage Mockups, etc.)</li><li>Advanced Brand Voice and Messaging Playbook</li><li>Internal Brand Training Session</li><li>Quarterly Brand Health Check (for 12 months)</li><li><em>Full marketing campaign execution</em></li></ul>",
             "badge_text": "",
-            "price": 20
+            "price": 7000
+          }
+        },
+        "pricing_item_cQk88x": {
+          "type": "pricing_item",
+          "name": "Branding Pricing Item",
+          "settings": {
+            "handle_number": 4,
+            "icon": "shopify://shop_images/logo-variation-3.png",
+            "heading": "Growth",
+            "sub_heading": "Branding Package",
+            "link_text": "Get Started",
+            "link": "#",
+            "main_content": "<p>From [price] /Once Off</p><p></p><p>Full visual identity to make you stand out.<br/></p>",
+            "secondary_content": "<ul><li>Logo Design (3 concepts + 3 revisions)</li><li>Alternate Logo Versions (Icon, Badge etc.)</li><li>Extended Colour Palette (Primary, Secondary, Accents)</li><li>Typography Set & Styling Rules</li><li>Full Brand Style Guide (10-15 pages)</li><li>Basic Social Media Graphics (Profile + Header)</li><li>Collateral Design (2 pieces e.g. Business Card + Email Signature)</li><li>Expanded Brand Voice Guidelines</li><li><em>Deep brand strategy workshop</em></li></ul>",
+            "badge_text": "",
+            "price": 3500
           }
         }
       },
@@ -239,770 +302,374 @@
         "pricing_item_ezdbcT",
         "pricing_item_N4xReh",
         "pricing_item_pEEMFH",
-        "pricing_item_8L4MLW",
+        "pricing_item_HFjRJQ",
+        "pricing_item_BjXeJc",
         "pricing_item_T3akPQ",
         "pricing_item_gPdTi4",
         "pricing_item_4PhrtT",
-        "pricing_item_4HaEyq"
+        "pricing_item_4HaEyq",
+        "pricing_item_tVgnXg",
+        "pricing_item_cQk88x"
       ],
       "settings": {
-        "bg_color": "#eafefe",
-        "tab_bg_color": "#c9dfe7",
-        "tab_text_color": "#4662a1",
-        "tab_bg_color_selected": "#4662a1",
-        "tab_text_color_selected": "#ffffff",
+        "bg_color": "#ffffff",
+        "tab_bg_color": "#000000",
+        "tab_text_color": "#ffffff",
+        "tab_bg_color_selected": "#fdd328",
+        "tab_text_color_selected": "#000000",
         "desktop_gap": 0,
         "mobile_gap": 20,
         "card_bg_color": "#ffffff",
         "card_border_radius": 6,
-        "card_border_color": "#e8f0f2",
+        "card_border_color": "#121212",
         "card_heading_color": "#000000",
         "card_text_color": "#1e1e1e",
         "card_old_text_color": "#686868",
-        "card_link_bg_color": "#52a575",
+        "card_link_bg_color": "#121212",
         "card_link_text_color": "#ffffff",
-        "card_link_bg_color_hover": "#52a575",
-        "card_link_text_color_hover": "#ffffff",
-        "badge_bg_color": "#49619d",
-        "badge_text_color": "#ffffff",
+        "card_link_bg_color_hover": "#fdd317",
+        "card_link_text_color_hover": "#121212",
+        "badge_bg_color": "#fdd328",
+        "badge_text_color": "#121212",
         "desktop_padding_top": 20,
         "desktop_padding_bottom": 80,
         "mobile_padding_top": 12,
         "mobile_padding_bottom": 50
       }
     },
-    "main": {
-      "type": "text-list",
+    "collapsible_content_9XaAAt": {
+      "type": "collapsible-content",
       "blocks": {
-        "text_wf66tG": {
-          "type": "text",
+        "collapsible_row_k7Pwd4": {
+          "type": "collapsible_row",
           "settings": {
-            "text": "<p>Pricing that's simple, predictable, and built to scale.</p>",
-            "desktop_margin": 40,
-            "mobile_margin": 26,
-            "desktop_align": "center",
-            "mobile_align": "center",
-            "desktop_font_size": 70,
-            "mobile_font_size": 32,
-            "desktop_font_weight": "600",
-            "mobile_font_weight": "600",
-            "desktop_line_height": 1,
-            "mobile_line_height": 1.2,
-            "desktop_letter_spacing": -1,
-            "mobile_letter_spacing": -1,
-            "desktop_text_transform": "capitalize",
-            "mobile_text_transform": "capitalize",
-            "desktop_max_width": 1000,
-            "mobile_max_width": 1000
+            "heading": "What You’re Really Paying For",
+            "icon": "none",
+            "row_content": "<p>Most Shopify builds just cover the basics. We build stores that perform.<br/><br/>When you invest in a Shopify site with us, you're not just getting a nice-looking homepage. You're getting strategy, performance, and the backend plumbing that helps real stores grow. Everything from load speed to mobile responsiveness to upsell flows is designed to work from day one.</p>",
+            "page": ""
           }
         },
-        "text_aCpejk": {
-          "type": "text",
+        "collapsible_row_BTA6g6": {
+          "type": "collapsible_row",
           "settings": {
-            "text": "<p>Scroll down to view our services and pricing packages for Shopify, WordPress and Webflow in AUD. </p>",
-            "desktop_margin": 40,
-            "mobile_margin": 26,
-            "desktop_align": "center",
-            "mobile_align": "center",
-            "desktop_font_size": 20,
-            "mobile_font_size": 18,
-            "desktop_font_weight": "600",
-            "mobile_font_weight": "600",
-            "desktop_line_height": 1.2,
-            "mobile_line_height": 1.2,
-            "desktop_letter_spacing": -1,
-            "mobile_letter_spacing": 1,
-            "desktop_text_transform": "none",
-            "mobile_text_transform": "default",
-            "desktop_max_width": 1000,
-            "mobile_max_width": 1000
+            "heading": "What's Actually Included (and Why It Matters)",
+            "icon": "none",
+            "row_content": "<p><strong>Set-up Shopify Theme</strong><br/><br/>We don’t reinvent the wheel unless you need us to. A smart theme setup gives you speed, stability, and flexibility. We tailor every element — no messy DIY leftovers, no bloated features you won’t use.</p><p><strong>Homepage Design</strong><br/><br/>Your homepage is your online first impression. We build it to convert. Clean layout, trust elements, mobile-optimised, and conversion-friendly from the jump.</p><p><strong>Collections & Categories</strong><br/><br/>Shoppers should never be confused. That’s why we organise your store with the right taxonomy — so people (and Google) can find what they need fast.</p><p><strong>Product Uploads</strong><br/><br/>Each package includes a different volume, but every product gets the basics right: title, description, price, variants, and SEO-friendly tagging.</p><p><strong>Content Pages</strong><br/><br/>Need an About, Contact, FAQ, and Policies? We’ve got it covered. Clear structure, friendly copy, and consistent design — your site will look unified and trustworthy.</p><p><strong>Payment Setup</strong><br/><br/>From Shopify Payments to PayPal, we handle the setup, test everything, and make sure funds land where they’re supposed to.</p><p><strong>Newsletter & Social Media Links</strong><br/><br/>Your footer and key areas will link out to your socials, and we’ll drop in a newsletter form for future email marketing.</p><p><strong>Blog Setup</strong><br/><br/>Yes, blogs still work for SEO. If you're planning to create content, we'll structure your blog the right way and get you set up to publish.</p><p><strong>Personalised Admin Guide</strong><br/><br/>We don’t leave you stranded. Our guides help you understand the backend so you know how to manage your store day-to-day. No jargon, just plain English.</p>",
+            "page": ""
           }
         },
-        "text_JLqTja": {
-          "type": "text",
+        "collapsible_row_FGYXji": {
+          "type": "collapsible_row",
           "settings": {
-            "text": "<p>Explore our fully built Shopify stores and marketing services tailored to help you succeed.</p>",
-            "desktop_margin": 0,
-            "mobile_margin": 0,
-            "desktop_align": "center",
-            "mobile_align": "center",
-            "desktop_font_size": 20,
-            "mobile_font_size": 18,
-            "desktop_font_weight": "400",
-            "mobile_font_weight": "400",
-            "desktop_line_height": 1.2,
-            "mobile_line_height": 1.2,
-            "desktop_letter_spacing": 0.6,
-            "mobile_letter_spacing": 0.7,
-            "desktop_text_transform": "none",
-            "mobile_text_transform": "default",
-            "desktop_max_width": 1000,
-            "mobile_max_width": 1000
+            "heading": "How Our Builds Are Different",
+            "icon": "none",
+            "row_content": "<p><strong>In-House Only</strong><br/><br/>We don’t outsource. Every build is done by our Canberra-based team. That means better quality control, faster updates, and no middlemen.</p><p><strong>Support After Build</strong><br/><br/>Depending on your package, we offer one-on-one Google Meets or in-person support. We'll walk you through connecting your domain, setting up payments, and understanding your admin.</p><p><strong>No Cookie-Cutter Templates</strong><br/><br/>Even if we start with a theme, the result is custom. Fonts, colour palettes, layout, copy — all tailored to your brand. You won’t look like the store next door.</p><p><strong>SEO Basics Included</strong><br/><br/>We structure your content to rank: clean URLs, meta titles and descriptions, alt tags, and fast load speeds. SEO foundations are baked in.</p><p><strong>Mobile-First Design</strong><br/><br/>70%+ of shoppers are on mobile. Your site has to look sharp and work fast on any device. We optimise everything to look and sell well on the small screen.</p><p><strong>Future-Proofed</strong><br/><br/>As your store grows, your setup shouldn’t hold you back. Our builds are scalable, upgrade-ready, and built with clean architecture so you can add apps, expand, or customise further down the track.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_RDPfiN": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Why This Isn’t “Cheap” – And Shouldn’t Be",
+            "icon": "none",
+            "row_content": "<p>Anyone can build a Shopify site. Not everyone builds one that converts, scales, and gets results. When you work with us, you’re paying for experience, conversion know-how, and a process that works.</p><p>A $3,500 build with us will often outperform a $10,000 overseas site that looks pretty but fails to bring in sales. Why? Because we <strong>know</strong> what works — and we don’t cut corners.</p>",
+            "page": ""
           }
         }
       },
       "block_order": [
-        "text_wf66tG",
-        "text_aCpejk",
-        "text_JLqTja"
+        "collapsible_row_k7Pwd4",
+        "collapsible_row_BTA6g6",
+        "collapsible_row_FGYXji",
+        "collapsible_row_RDPfiN"
       ],
-      "disabled": true,
+      "name": "Shopify Collapsible content",
       "settings": {
-        "bg_color": "#aeddf9",
-        "desktop_padding_top": 50,
-        "desktop_padding_bottom": 50,
-        "mobile_padding_top": 30,
-        "mobile_padding_bottom": 30
+        "caption": "",
+        "heading": "<strong>What’s Actually Included in Our Shopify Builds</strong>",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "none",
+        "color_scheme": "",
+        "container_color_scheme": "",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
-    "text_list_dimgRF": {
-      "type": "text-list",
+    "marketing_focus_3m6ihY": {
+      "type": "marketing-focus",
+      "name": "Shopify Marketing Focus Section",
+      "settings": {
+        "logo_image": "shopify://shop_images/04.jpg",
+        "headline": "Want to Know What’s Right For You?",
+        "sub_text": "We’ll walk you through the packages, answer your questions, and map out exactly what your store needs to launch or grow.",
+        "button_text": "Speak To Our Shopify Experts",
+        "button_link": "shopify://pages/contact",
+        "desktop_padding_top": 0,
+        "desktop_padding_bottom": 0,
+        "mobile_padding_top": 0,
+        "mobile_padding_bottom": 0
+      }
+    },
+    "collapsible_content_HTJpwf": {
+      "type": "collapsible-content",
       "blocks": {
-        "text_iq9MiQ": {
-          "type": "text",
+        "collapsible_row_MBjwbm": {
+          "type": "collapsible_row",
           "settings": {
-            "text": "<p>Shopify Packages</p>",
-            "desktop_margin": 10,
-            "mobile_margin": 6,
-            "desktop_align": "center",
-            "mobile_align": "center",
-            "desktop_font_size": 50,
-            "mobile_font_size": 32,
-            "desktop_font_weight": "600",
-            "mobile_font_weight": "600",
-            "desktop_line_height": 1.2,
-            "mobile_line_height": 1.2,
-            "desktop_letter_spacing": 1,
-            "mobile_letter_spacing": 1,
-            "desktop_text_transform": "none",
-            "mobile_text_transform": "default",
-            "desktop_max_width": 1000,
-            "mobile_max_width": 1000
+            "heading": "Why Pages Matter",
+            "icon": "none",
+            "row_content": "<p>Most tradies and service providers don’t need a 30-page site—but you do need the right 6–12 pages. That includes a solid homepage, service pages tailored for SEO, an About page that builds trust, and a contact or quote form that actually works. We build around what your business <em>actually does</em>—not a cookie-cutter template</p>",
+            "page": ""
           }
         },
-        "text_QCL79U": {
-          "type": "text",
+        "collapsible_row_iP9zjK": {
+          "type": "collapsible_row",
           "settings": {
-            "text": "<p>Choose one of our packages crafted as a base to start with so you can easily launch within weeks, not months or years!</p>",
-            "desktop_margin": 0,
-            "mobile_margin": 0,
-            "desktop_align": "center",
-            "mobile_align": "center",
-            "desktop_font_size": 16,
-            "mobile_font_size": 14,
-            "desktop_font_weight": "400",
-            "mobile_font_weight": "400",
-            "desktop_line_height": 1.2,
-            "mobile_line_height": 1.2,
-            "desktop_letter_spacing": 1,
-            "mobile_letter_spacing": 1,
-            "desktop_text_transform": "none",
-            "mobile_text_transform": "default",
-            "desktop_max_width": 1400,
-            "mobile_max_width": 1400
+            "heading": "Integrations That Make Life Easier",
+            "icon": "none",
+            "row_content": "<p>We integrate booking calendars, contact forms, payment gateways, and even photo upload options so leads come in ready to go. No more back-and-forth to get job details—you’ll get everything at once.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_nnkcgV": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Built to Convert, Not Just Sit Pretty",
+            "icon": "none",
+            "row_content": "<p>A good website isn’t just about design—it’s about function. Ours are built to work hard for you: clean calls-to-action, lead capture, mobile responsiveness, and fast page load speeds. We write clear content that speaks your customer’s language.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_AXchGJ": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Mobile First, Always",
+            "icon": "none",
+            "row_content": "<p>Over 70% of service website traffic comes from phones. We design mobile-first so your site works perfectly on every device—and we test it like your customer would.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_6aCGxm": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Security & Peace of Mind",
+            "icon": "none",
+            "row_content": "<p>Your website is secured with SSL, runs on fast hosting, and is protected with form spam filters and best practices. We build every project to last—and give you a handover session so you know exactly how to use it.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_f8mXdk": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Real Support, No Outsourcing",
+            "icon": "none",
+            "row_content": "<p>Every site is built by our in-house Aussie team. After launch, we’ll guide you through everything—connecting your domain, setting up your email, or learning the CMS. You get real support, not a bot.</p>",
+            "page": ""
           }
         }
       },
       "block_order": [
-        "text_iq9MiQ",
-        "text_QCL79U"
+        "collapsible_row_MBjwbm",
+        "collapsible_row_iP9zjK",
+        "collapsible_row_nnkcgV",
+        "collapsible_row_AXchGJ",
+        "collapsible_row_6aCGxm",
+        "collapsible_row_f8mXdk"
       ],
-      "disabled": true,
+      "name": "Service Collapsible content",
+      "settings": {
+        "caption": "",
+        "heading": "<strong>What’s Included in a Proper Service-Based Website Build?</strong>",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "none",
+        "color_scheme": "",
+        "container_color_scheme": "",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "marketing_focus_PdGT6c": {
+      "type": "marketing-focus",
+      "name": "Service Marketing Focus Section",
+      "settings": {
+        "logo_image": "shopify://shop_images/04.jpg",
+        "headline": "Ready to Build a Website That Actually Brings in Leads?",
+        "sub_text": "Your next customer is already searching for you.\nLet’s build a site that helps them find you — and makes them want to book, call, or buy.",
+        "button_text": "Request a Free Quote",
+        "button_link": "shopify://pages/contact",
+        "desktop_padding_top": 0,
+        "desktop_padding_bottom": 0,
+        "mobile_padding_top": 0,
+        "mobile_padding_bottom": 0
+      }
+    },
+    "rich_text_VxqB3W": {
+      "type": "rich-text",
+      "blocks": {
+        "text_BWhQHY": {
+          "type": "text",
+          "settings": {
+            "text": "<h3>Marketing Notes</h3><p><br/>$500 once-off for Launch Package<br/><br/>$1,000 once-off for Growth Package<br/><br/><strong>$1,500 once-off</strong> for Enterprise Package<br/><br/><em>(Setup fees can be waived with longer commitments.)</em></p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_BWhQHY"
+      ],
+      "name": "t:sections.rich-text.presets.name",
       "settings": {
         "bg_color": "#ffffff",
-        "desktop_padding_top": 100,
-        "desktop_padding_bottom": 40,
-        "mobile_padding_top": 60,
-        "mobile_padding_bottom": 20
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
       }
     },
-    "service_pricing_wn6PH8": {
-      "type": "service-pricing",
+    "collapsible_content_AaqC7V": {
+      "type": "collapsible-content",
       "blocks": {
-        "service_item_hpMPjq": {
-          "type": "service_item",
+        "collapsible_row_cmnmxH": {
+          "type": "collapsible_row",
           "settings": {
-            "heading": "Launch",
-            "sub_heading": "Shopify Design & Development",
-            "badge_text": "",
-            "price_symbol": "$",
-            "price": "3500",
-            "payment_method": "Once Off Payment",
-            "pricing_items": "pricing-item-ihgwkbnh",
-            "button_text": "Get Started",
-            "button_link": "#",
-            "text": "Designed for entrepreneurs ready to start strong. Get your store online fast with essential Shopify setup and design.",
-            "header_color": "#ffffff",
-            "header_bg_color": "#000000",
-            "badge_bg_color": "#000000",
-            "badge_color": "#000000",
-            "button_text_color": "#ffffff",
-            "button_bg_color": "#000000",
-            "card_bg_color": "#f9fafa",
-            "card_text_color": "#000000"
+            "heading": "What’s the difference between the Launch, Growth, and Enterprise Paid Ads Packages?",
+            "icon": "none",
+            "row_content": "<ul><li><strong>Launch</strong> is perfect if you’re running a small, single-platform ad campaign — like Google Search or Facebook Lead Ads — and just need to get profitable fast.</li><li><strong>Growth</strong> is for businesses ready to be seen across <strong>multiple platforms at once</strong>, like Google + Facebook or Facebook + TikTok, with real strategy between them.</li><li><strong>Enterprise</strong> is for brands ready to <strong>dominate</strong> their market with multi-channel ad campaigns, funnel building, high-volume budgets, and constant optimisations across Google, Facebook, TikTok, YouTube, and even LinkedIn if needed.</li></ul>",
+            "page": ""
           }
         },
-        "service_item_86m9EU": {
-          "type": "service_item",
+        "collapsible_row_jPFM4h": {
+          "type": "collapsible_row",
           "settings": {
-            "heading": "Scale",
-            "sub_heading": "Shopify Design & Development",
-            "badge_text": "Popular",
-            "price_symbol": "$",
-            "price": "7000",
-            "payment_method": "Once Off Payment",
-            "pricing_items": "pricing-item-mev568ht",
-            "button_text": "Get Started",
-            "button_link": "#",
-            "text": "For businesses eager to grow. Custom Shopify designs with added features to fuel your brand’s growth and expansion.",
-            "header_color": "#ffffff",
-            "header_bg_color": "#000000",
-            "badge_bg_color": "#d9e021",
-            "badge_color": "#ffffff",
-            "button_text_color": "#ffffff",
-            "button_bg_color": "#d9e021",
-            "card_bg_color": "#f9fafa",
-            "card_text_color": "#000000"
+            "heading": "Do I have to sign a long contract?",
+            "icon": "none",
+            "row_content": "<p>No.<br/><br/>All our Paid Ads packages now only require a <strong>3-month minimum</strong>.<br/><br/>We do this because serious results need at least 90 days to gather real data, optimise properly, and start scaling.<br/><br/>After that? It's month-to-month — you stay because you’re happy, not because you’re locked in.</p>",
+            "page": ""
           }
         },
-        "service_item_p7QthF": {
-          "type": "service_item",
+        "collapsible_row_GezWQt": {
+          "type": "collapsible_row",
           "settings": {
-            "heading": "Enterprise",
-            "sub_heading": "Shopify Design & Development",
-            "badge_text": "",
-            "price_symbol": "$",
-            "price": "20,000",
-            "payment_method": "Once Off Payment",
-            "pricing_items": "pricing-item-rrg8r8ft",
-            "button_text": "Get Started",
-            "button_link": "#",
-            "text": "Premium, high-end service for visionary entrepreneurs. Fully bespoke designs with advanced features to build your eCommerce empire.",
-            "header_color": "#ffffff",
-            "header_bg_color": "#000000",
-            "badge_bg_color": "#000000",
-            "badge_color": "#000000",
-            "button_text_color": "#ffffff",
-            "button_bg_color": "#000000",
-            "card_bg_color": "#f9fafa",
-            "card_text_color": "#000000"
+            "heading": "What happens during onboarding?",
+            "icon": "none",
+            "row_content": "<ul><li>We kick off with a strategy session to understand your business, goals, and target audience.</li><li>We build your campaigns from scratch or overhaul what you already have.</li><li>We set up full tracking (Google Analytics, Pixels, Conversion Events) to make sure every dollar spent is tracked properly.</li><li>You’ll get a clear roadmap of what we’re doing and when — no guessing.</li></ul>",
+            "page": ""
+          }
+        },
+        "collapsible_row_d4QKEi": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What’s included in the setup fee?",
+            "icon": "none",
+            "row_content": "<p>The one-time setup fee covers the heavy lifting at the start:</p><ul><li>Full strategy mapping</li><li>Campaign architecture</li><li>Target audience research</li><li>Copywriting for ad creatives</li><li>Designing image or video ads if needed</li><li>Pixel & conversion tracking setups</li><li>Launching your first ads</li></ul><p>Once that’s done, your monthly fee covers <strong>optimisation and scaling</strong>.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_CEw3Rk": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How much should I spend on ads?",
+            "icon": "none",
+            "row_content": "<p>Here’s the honest answer:<br/><br/>Your monthly ad spend should match your revenue goals.</p><p>As a very loose guide:</p><ul><li>Small local service businesses often start at <strong>$1,000–$2,000/month</strong> in ad spend.</li><li>Growing eCommerce stores typically invest <strong>$3,000–$10,000/month</strong> across Google and Meta.</li><li>Serious scaling brands sometimes spend <strong>$15,000+ monthly</strong>.</li></ul><p>We’ll help you figure out the best starting budget based on your goals.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_Yy3fiN": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Will you create the ads too?",
+            "icon": "none",
+            "row_content": "<p>Yes — if you’re on Growth or Enterprise, <strong>ad creative support is included</strong> every month.<br/><br/>We can design:</p><ul><li>Static image ads</li><li>Carousel ads</li><li>Video edits (basic social-style videos)</li><li>Responsive search ads</li></ul><p>If you’re on Launch, we help create simple ads too — and we’ll guide you if you want to supply your own creatives.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_BRx94N": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How do you track results?",
+            "icon": "none",
+            "row_content": "<ul><li>Google Analytics</li><li>Facebook/TikTok Pixels</li><li>Conversion Events</li><li>Google Tag Manager</li><li>Looker Studio (Google Data Studio) dashboards</li></ul><p>We’ll set up everything needed to track leads, sales, and ROI — not just impressions and clicks.</p><p>You’ll know exactly <strong>what’s working</strong> and <strong>what’s not</strong>.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_yLcw3q": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What’s the reporting like?",
+            "icon": "none",
+            "row_content": "<p>You get a clean, human-readable report every month — no confusing spreadsheets.</p><ul><li>We tell you how many leads, sales, or actions you got.</li><li>We explain what we optimised and why.</li><li>You’ll know where your money went — and how we’re making it stretch further.</li></ul><p>If you’re on Enterprise, you also get a live dashboard you can check any time.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_gNVJEi": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Can I change plans later?",
+            "icon": "none",
+            "row_content": "<p>Of course.<br/><br/>If you start with Launch and want to scale bigger after 3 months, you can upgrade to Growth or Enterprise.<br/><br/>If you slow down? You can scale back too.<br/><br/>We flex with your business, not the other way around.</p><h3></h3>",
+            "page": ""
+          }
+        },
+        "collapsible_row_dmm73M": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Why trust An Agency with my paid ads?",
+            "icon": "none",
+            "row_content": "<ul><li>We don’t outsource — your ads are managed <strong>in-house</strong> by real Aussie marketers.</li><li>We know how to drive traffic <strong>and</strong> how to make sure that traffic <strong>converts</strong>.</li><li>No fluff, no bloated costs, no locked-in, painful contracts.</li><li>We run ads for ourselves too — so we treat your money like it's our own.</li></ul>",
+            "page": ""
           }
         }
       },
       "block_order": [
-        "service_item_hpMPjq",
-        "service_item_86m9EU",
-        "service_item_p7QthF"
+        "collapsible_row_cmnmxH",
+        "collapsible_row_jPFM4h",
+        "collapsible_row_GezWQt",
+        "collapsible_row_d4QKEi",
+        "collapsible_row_CEw3Rk",
+        "collapsible_row_Yy3fiN",
+        "collapsible_row_BRx94N",
+        "collapsible_row_yLcw3q",
+        "collapsible_row_gNVJEi",
+        "collapsible_row_dmm73M"
       ],
-      "disabled": true,
+      "name": "Marketing Collapsible content",
       "settings": {
-        "border_width": 100,
-        "border_color": "#646464",
-        "desktop_border_margin": 50,
-        "mobile_border_margin": 32,
+        "caption": "",
+        "heading": "<strong>Everything You Need to Know About Paid Ads Management</strong>",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "none",
+        "color_scheme": "",
+        "container_color_scheme": "",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "marketing_focus_bCRJyA": {
+      "type": "marketing-focus",
+      "name": "Marketing Focus Section",
+      "settings": {
+        "logo_image": "shopify://shop_images/04.jpg",
+        "headline": "Ready to Run Ads That Actually Deliver?",
+        "sub_text": "Stop guessing – start scaling. Book a free strategy call with our team and let’s map out a paid ads plan that brings in real leads and real sales.",
+        "button_text": "Book My Free Strategy Call",
+        "button_link": "shopify://pages/contact",
         "desktop_padding_top": 0,
-        "desktop_padding_bottom": 60,
+        "desktop_padding_bottom": 0,
         "mobile_padding_top": 0,
-        "mobile_padding_bottom": 32
-      }
-    },
-    "text_list_Hmc64m": {
-      "type": "text-list",
-      "blocks": {
-        "text_zRTAam": {
-          "type": "text",
-          "settings": {
-            "text": "<p>WordPress Packages</p>",
-            "desktop_margin": 10,
-            "mobile_margin": 6,
-            "desktop_align": "center",
-            "mobile_align": "center",
-            "desktop_font_size": 50,
-            "mobile_font_size": 32,
-            "desktop_font_weight": "600",
-            "mobile_font_weight": "600",
-            "desktop_line_height": 1.2,
-            "mobile_line_height": 1.2,
-            "desktop_letter_spacing": 1,
-            "mobile_letter_spacing": 1,
-            "desktop_text_transform": "none",
-            "mobile_text_transform": "default",
-            "desktop_max_width": 1400,
-            "mobile_max_width": 1000
-          }
-        },
-        "text_9Ry4Fq": {
-          "type": "text",
-          "settings": {
-            "text": "<p><strong>Fast turnaround and unique to your brand</strong></p>",
-            "desktop_margin": 10,
-            "mobile_margin": 6,
-            "desktop_align": "center",
-            "mobile_align": "center",
-            "desktop_font_size": 16,
-            "mobile_font_size": 14,
-            "desktop_font_weight": "400",
-            "mobile_font_weight": "400",
-            "desktop_line_height": 1.2,
-            "mobile_line_height": 1.2,
-            "desktop_letter_spacing": 1,
-            "mobile_letter_spacing": 1,
-            "desktop_text_transform": "none",
-            "mobile_text_transform": "default",
-            "desktop_max_width": 1400,
-            "mobile_max_width": 1000
-          }
-        },
-        "text_hziMtQ": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Choose one of our packages crafted as a base to start with, so you can easily launch within weeks, not months or years!</p>",
-            "desktop_margin": 0,
-            "mobile_margin": 0,
-            "desktop_align": "center",
-            "mobile_align": "center",
-            "desktop_font_size": 16,
-            "mobile_font_size": 14,
-            "desktop_font_weight": "400",
-            "mobile_font_weight": "400",
-            "desktop_line_height": 1.2,
-            "mobile_line_height": 1.2,
-            "desktop_letter_spacing": 1,
-            "mobile_letter_spacing": 1,
-            "desktop_text_transform": "none",
-            "mobile_text_transform": "default",
-            "desktop_max_width": 1400,
-            "mobile_max_width": 1000
-          }
-        }
-      },
-      "block_order": [
-        "text_zRTAam",
-        "text_9Ry4Fq",
-        "text_hziMtQ"
-      ],
-      "disabled": true,
-      "settings": {
-        "bg_color": "#ffffff",
-        "desktop_padding_top": 100,
-        "desktop_padding_bottom": 40,
-        "mobile_padding_top": 60,
-        "mobile_padding_bottom": 26
-      }
-    },
-    "service_pricing_KYVkBg": {
-      "type": "service-pricing",
-      "blocks": {
-        "service_item_LnHrUU": {
-          "type": "service_item",
-          "settings": {
-            "heading": "Essentials Package",
-            "sub_heading": "WordPress Design & Development​",
-            "badge_text": "",
-            "price_symbol": "$",
-            "price": "3,000",
-            "payment_method": "(One-Off Payment)",
-            "pricing_items": "pricing-item-bb9hkide",
-            "button_text": "Get Started",
-            "button_link": "#",
-            "text": "Designed for businesses needing a simple, clean website. Get your site online fast with essential WordPress setup and design.",
-            "header_color": "#ffffff",
-            "header_bg_color": "#000000",
-            "badge_bg_color": "#000000",
-            "badge_color": "#000000",
-            "button_text_color": "#ffffff",
-            "button_bg_color": "#000000",
-            "card_bg_color": "#f9fafa",
-            "card_text_color": "#000000"
-          }
-        },
-        "service_item_WPYmBP": {
-          "type": "service_item",
-          "settings": {
-            "heading": "Pro Package",
-            "sub_heading": "WordPress Design & Development​",
-            "badge_text": "Popular",
-            "price_symbol": "$",
-            "price": "5,500",
-            "payment_method": "(Once Off Payment)",
-            "pricing_items": "pricing-item-bcggkyqk",
-            "button_text": "Get Started",
-            "button_link": "#",
-            "text": "Built for businesses ready to grow. Achieve a professional, responsive website with advanced SEO and content that drives results.",
-            "header_color": "#ffffff",
-            "header_bg_color": "#000000",
-            "badge_bg_color": "#d9e021",
-            "badge_color": "#ffffff",
-            "button_text_color": "#ffffff",
-            "button_bg_color": "#d9e021",
-            "card_bg_color": "#f9fafa",
-            "card_text_color": "#000000"
-          }
-        },
-        "service_item_Q8Ag3R": {
-          "type": "service_item",
-          "settings": {
-            "heading": "Business Plus Package",
-            "sub_heading": "WordPress Design & Development​",
-            "badge_text": "",
-            "price_symbol": "$",
-            "price": "8,000",
-            "payment_method": "(One-Off Payment)",
-            "pricing_items": "pricing-item-iyknhs2s",
-            "button_text": "Get Started",
-            "button_link": "#",
-            "text": "Tailored for larger businesses with complex needs. A full WordPress solution designed to handle high traffic, eCommerce, and long-term growth.",
-            "header_color": "#ffffff",
-            "header_bg_color": "#000000",
-            "badge_bg_color": "#000000",
-            "badge_color": "#000000",
-            "button_text_color": "#ffffff",
-            "button_bg_color": "#000000",
-            "card_bg_color": "#f9fafa",
-            "card_text_color": "#000000"
-          }
-        }
-      },
-      "block_order": [
-        "service_item_LnHrUU",
-        "service_item_WPYmBP",
-        "service_item_Q8Ag3R"
-      ],
-      "disabled": true,
-      "settings": {
-        "border_width": 100,
-        "border_color": "#646464",
-        "desktop_border_margin": 50,
-        "mobile_border_margin": 32,
-        "desktop_padding_top": 0,
-        "desktop_padding_bottom": 60,
-        "mobile_padding_top": 0,
-        "mobile_padding_bottom": 32
-      }
-    },
-    "text_list_VAGTRy": {
-      "type": "text-list",
-      "blocks": {
-        "text_wrcLeK": {
-          "type": "text",
-          "settings": {
-            "text": "<p>WebFlow Packages</p>",
-            "desktop_margin": 10,
-            "mobile_margin": 6,
-            "desktop_align": "center",
-            "mobile_align": "center",
-            "desktop_font_size": 50,
-            "mobile_font_size": 32,
-            "desktop_font_weight": "600",
-            "mobile_font_weight": "600",
-            "desktop_line_height": 1.2,
-            "mobile_line_height": 1.2,
-            "desktop_letter_spacing": 1,
-            "mobile_letter_spacing": 1,
-            "desktop_text_transform": "none",
-            "mobile_text_transform": "default",
-            "desktop_max_width": 1400,
-            "mobile_max_width": 1000
-          }
-        },
-        "text_GYmHzr": {
-          "type": "text",
-          "settings": {
-            "text": "<p><strong>Tailored designs and seamless functionality</strong></p>",
-            "desktop_margin": 10,
-            "mobile_margin": 6,
-            "desktop_align": "center",
-            "mobile_align": "center",
-            "desktop_font_size": 16,
-            "mobile_font_size": 14,
-            "desktop_font_weight": "400",
-            "mobile_font_weight": "400",
-            "desktop_line_height": 1.2,
-            "mobile_line_height": 1.2,
-            "desktop_letter_spacing": 1,
-            "mobile_letter_spacing": 1,
-            "desktop_text_transform": "none",
-            "mobile_text_transform": "default",
-            "desktop_max_width": 1400,
-            "mobile_max_width": 1000
-          }
-        },
-        "text_HahHQJ": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Choose one of our packages crafted as a base to start with, so you can easily launch within weeks, not months or years!</p>",
-            "desktop_margin": 0,
-            "mobile_margin": 0,
-            "desktop_align": "center",
-            "mobile_align": "center",
-            "desktop_font_size": 16,
-            "mobile_font_size": 14,
-            "desktop_font_weight": "400",
-            "mobile_font_weight": "400",
-            "desktop_line_height": 1.2,
-            "mobile_line_height": 1.2,
-            "desktop_letter_spacing": 1,
-            "mobile_letter_spacing": 1,
-            "desktop_text_transform": "none",
-            "mobile_text_transform": "default",
-            "desktop_max_width": 1400,
-            "mobile_max_width": 1000
-          }
-        }
-      },
-      "block_order": [
-        "text_wrcLeK",
-        "text_GYmHzr",
-        "text_HahHQJ"
-      ],
-      "disabled": true,
-      "settings": {
-        "bg_color": "#ffffff",
-        "desktop_padding_top": 100,
-        "desktop_padding_bottom": 40,
-        "mobile_padding_top": 60,
-        "mobile_padding_bottom": 18
-      }
-    },
-    "service_pricing_aJKCf4": {
-      "type": "service-pricing",
-      "blocks": {
-        "service_item_kFaQd6": {
-          "type": "service_item",
-          "settings": {
-            "heading": "Startup Package",
-            "sub_heading": "WebFlow Design & Development​",
-            "badge_text": "",
-            "price_symbol": "$",
-            "price": "2,500",
-            "payment_method": "(One-Off Payment)",
-            "pricing_items": "pricing-item-amivtoxh",
-            "button_text": "Get Started",
-            "button_link": "#",
-            "text": "Built for small businesses and startups needing a polished Webflow site that’s quick to launch and easy to manage.",
-            "header_color": "#ffffff",
-            "header_bg_color": "#000000",
-            "badge_bg_color": "#000000",
-            "badge_color": "#000000",
-            "button_text_color": "#ffffff",
-            "button_bg_color": "#000000",
-            "card_bg_color": "#f9fafa",
-            "card_text_color": "#000000"
-          }
-        },
-        "service_item_w3e9Pf": {
-          "type": "service_item",
-          "settings": {
-            "heading": "Growth Package",
-            "sub_heading": "WebFlow Design & Development​",
-            "badge_text": "Popular",
-            "price_symbol": "$",
-            "price": "4,500",
-            "payment_method": "(Once Off Payment)",
-            "pricing_items": "pricing-item-srz8keeh",
-            "button_text": "Get Started",
-            "button_link": "#",
-            "text": "Designed for growing businesses, this package delivers a fully customised Webflow website with advanced features to support expansion.",
-            "header_color": "#ffffff",
-            "header_bg_color": "#000000",
-            "badge_bg_color": "#d9e021",
-            "badge_color": "#ffffff",
-            "button_text_color": "#ffffff",
-            "button_bg_color": "#d9e021",
-            "card_bg_color": "#f9fafa",
-            "card_text_color": "#000000"
-          }
-        },
-        "service_item_BWJMqQ": {
-          "type": "service_item",
-          "settings": {
-            "heading": "Enterprise Package",
-            "sub_heading": "WebFlow Design & Development​",
-            "badge_text": "",
-            "price_symbol": "$",
-            "price": "7,000",
-            "payment_method": "(One-Off Payment)",
-            "pricing_items": "pricing-item-w4usjnot",
-            "button_text": "Get Started",
-            "button_link": "#",
-            "text": "Tailored for large companies or agencies that need complex integrations and a fully custom Webflow solution with ongoing support.",
-            "header_color": "#ffffff",
-            "header_bg_color": "#000000",
-            "badge_bg_color": "#000000",
-            "badge_color": "#000000",
-            "button_text_color": "#ffffff",
-            "button_bg_color": "#000000",
-            "card_bg_color": "#f9fafa",
-            "card_text_color": "#000000"
-          }
-        }
-      },
-      "block_order": [
-        "service_item_kFaQd6",
-        "service_item_w3e9Pf",
-        "service_item_BWJMqQ"
-      ],
-      "disabled": true,
-      "settings": {
-        "border_width": 80,
-        "border_color": "#646464",
-        "desktop_border_margin": 50,
-        "mobile_border_margin": 32,
-        "desktop_padding_top": 0,
-        "desktop_padding_bottom": 60,
-        "mobile_padding_top": 0,
-        "mobile_padding_bottom": 32
-      }
-    },
-    "text_list_3FHC7j": {
-      "type": "text-list",
-      "blocks": {
-        "text_Hq6eX4": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Marketing Packages</p>",
-            "desktop_margin": 10,
-            "mobile_margin": 6,
-            "desktop_align": "center",
-            "mobile_align": "center",
-            "desktop_font_size": 50,
-            "mobile_font_size": 32,
-            "desktop_font_weight": "600",
-            "mobile_font_weight": "600",
-            "desktop_line_height": 1.2,
-            "mobile_line_height": 1.2,
-            "desktop_letter_spacing": 1,
-            "mobile_letter_spacing": 1,
-            "desktop_text_transform": "none",
-            "mobile_text_transform": "default",
-            "desktop_max_width": 1400,
-            "mobile_max_width": 1000
-          }
-        },
-        "text_zRjxeB": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Get expert-managed ad campaigns and tailored strategies to grow your business and reach the right audience.</p>",
-            "desktop_margin": 0,
-            "mobile_margin": 0,
-            "desktop_align": "center",
-            "mobile_align": "center",
-            "desktop_font_size": 16,
-            "mobile_font_size": 14,
-            "desktop_font_weight": "400",
-            "mobile_font_weight": "400",
-            "desktop_line_height": 1.2,
-            "mobile_line_height": 1.2,
-            "desktop_letter_spacing": 1,
-            "mobile_letter_spacing": 1,
-            "desktop_text_transform": "none",
-            "mobile_text_transform": "default",
-            "desktop_max_width": 1400,
-            "mobile_max_width": 1000
-          }
-        }
-      },
-      "block_order": [
-        "text_Hq6eX4",
-        "text_zRjxeB"
-      ],
-      "disabled": true,
-      "settings": {
-        "bg_color": "#ffffff",
-        "desktop_padding_top": 50,
-        "desktop_padding_bottom": 40,
-        "mobile_padding_top": 30,
-        "mobile_padding_bottom": 20
-      }
-    },
-    "service_pricing_Fb3LWf": {
-      "type": "service-pricing",
-      "blocks": {
-        "service_item_YBpMxb": {
-          "type": "service_item",
-          "settings": {
-            "heading": "Google Ads",
-            "sub_heading": "",
-            "badge_text": "",
-            "price_symbol": "$",
-            "price": "1,200",
-            "payment_method": "Monthly",
-            "pricing_items": "pricing-item-otf2td7m",
-            "button_text": "Get Started",
-            "button_link": "#",
-            "text": "This package is perfect for eCommerce brands looking to increase visibility and sales through precise targeting and regular optimisation. Ideal for those ready to scale their marketing efforts with expert management and measurable results.",
-            "header_color": "#ffffff",
-            "header_bg_color": "#000000",
-            "badge_bg_color": "#000000",
-            "badge_color": "#000000",
-            "button_text_color": "#ffffff",
-            "button_bg_color": "#000000",
-            "card_bg_color": "#f9fafa",
-            "card_text_color": "#000000"
-          }
-        },
-        "service_item_DKVaUb": {
-          "type": "service_item",
-          "settings": {
-            "heading": "E-Commerce Coaching",
-            "sub_heading": "",
-            "badge_text": "",
-            "price_symbol": "$",
-            "price": "1500",
-            "payment_method": "Monthly",
-            "pricing_items": "pricing-item-qfvfjxls",
-            "button_text": "Get Started",
-            "button_link": "#",
-            "text": "Designed for entrepreneurs who want hands-on guidance to grow their business. Get tailored coaching with actionable strategies, product launch support, and regular feedback to accelerate your growth journey.",
-            "header_color": "#ffffff",
-            "header_bg_color": "#000000",
-            "badge_bg_color": "#000000",
-            "badge_color": "#000000",
-            "button_text_color": "#ffffff",
-            "button_bg_color": "#d9e021",
-            "card_bg_color": "#f9fafa",
-            "card_text_color": "#000000"
-          }
-        },
-        "service_item_zPrq8k": {
-          "type": "service_item",
-          "settings": {
-            "heading": "Facebook Ads",
-            "sub_heading": "",
-            "badge_text": "",
-            "price_symbol": "$",
-            "price": "1100",
-            "payment_method": "Monthly",
-            "pricing_items": "pricing-item-oumkdjuw",
-            "button_text": "Get Started",
-            "button_link": "#",
-            "text": "Tailored for brands looking to harness the power of Facebook’s vast audience. This package delivers high-performing ad campaigns with a focus on engagement, conversions, and optimising ad spend to maximise ROI.",
-            "header_color": "#ffffff",
-            "header_bg_color": "#000000",
-            "badge_bg_color": "#000000",
-            "badge_color": "#000000",
-            "button_text_color": "#ffffff",
-            "button_bg_color": "#000000",
-            "card_bg_color": "#f9fafa",
-            "card_text_color": "#000000"
-          }
-        }
-      },
-      "block_order": [
-        "service_item_YBpMxb",
-        "service_item_DKVaUb",
-        "service_item_zPrq8k"
-      ],
-      "disabled": true,
-      "settings": {
-        "border_width": 0,
-        "border_color": "#000000",
-        "desktop_border_margin": 0,
-        "mobile_border_margin": 0,
-        "desktop_padding_top": 0,
-        "desktop_padding_bottom": 70,
-        "mobile_padding_top": 0,
-        "mobile_padding_bottom": 40
+        "mobile_padding_bottom": 0
       }
     },
     "text_list_MXX9HP": {
@@ -1057,6 +724,7 @@
         "text_KNG6mb",
         "text_d4X3dk"
       ],
+      "disabled": true,
       "settings": {
         "bg_color": "#ffffff",
         "desktop_padding_top": 80,
@@ -1064,20 +732,157 @@
         "mobile_padding_top": 50,
         "mobile_padding_bottom": 50
       }
+    },
+    "collapsible_content_D44Qaj": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_iCWAfT": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How long does a branding project usually take?",
+            "icon": "none",
+            "row_content": "<p>Branding timelines vary by package, but typically:</p><ul><li>Launch Package: 2-3 weeks</li><li>Growth Package: 4-5 weeks</li><li>Enterprise Package: 6-8 weeks<br/></li></ul><p>We move fast but make sure there's enough time for proper creative rounds.<br/><br/><em>Need it faster? Talk to us about priority scheduling.</em></p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_patkYK": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Will I own my logo and brand files?",
+            "icon": "none",
+            "row_content": "<p>Yes, 100%. You receive full ownership of all brand assets we create for you, including final logo files and any collateral designed. No hidden fees or licensing issues down the track.<br/><br/><em>We’ll even organise all your files neatly for easy handover.</em></p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_KzfJix": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What happens if I want extra collateral after launch?",
+            "icon": "none",
+            "row_content": "<p>No problem! We can design additional pieces like signage, brochures, or even full social media kits. You'll have access to discounted add-on pricing as a branding client.<br/><br/><em>Ask us for a custom bundle if you’re planning future marketing materials.</em></p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_3kqxf4": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Do I need to have a business name or idea before branding?",
+            "icon": "none",
+            "row_content": "<p>Ideally yes – branding comes <em>after</em> you've locked down your name. If you still need help naming your business, we can recommend a separate name development service.<br/><br/><em>Already got your name? Perfect. Let's build your identity around it.</em></p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_JeVcxj": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Can I upgrade my branding package later?",
+            "icon": "none",
+            "row_content": "<p>Absolutely. If you start with the Launch package and later want to expand into Growth or Enterprise, we’ll credit part of your original payment toward the upgrade.<br/><br/><em>Talk to us anytime if you’re ready to level up.</em></p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_xrHqpL": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What if I’m not 100% happy with the logo concepts?",
+            "icon": "none",
+            "row_content": "<p>We include revision rounds for each package to make sure you’re thrilled. And for Enterprise branding clients, we guarantee satisfaction with flexible extra revisions if needed.<br/><br/><em>We don’t stop tweaking until you’re proud to show it off.</em></p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_Xmq6Jn": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Will you help guide how to use the brand in real-world marketing?",
+            "icon": "none",
+            "row_content": "<p>Yes. Our Brand Guides show you how to apply your branding across social media, websites, and marketing materials. For Enterprise clients, we also run live team training sessions to get everyone aligned.<br/><br/><em>We'll set you up with everything you need to roll it out like a pro.</em></p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_HN3fq3": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Is this just for online branding or for print materials too?",
+            "icon": "none",
+            "row_content": "<p>Both. Every logo and asset we deliver is suitable for both print (like signage and business cards) and digital (like your website, socials, and email marketing).<br/><br/><em>Your brand will look sharp everywhere you show up.</em></p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_jXbM6H": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How much input do I have in the process?",
+            "icon": "none",
+            "row_content": "<p>Plenty. We’ll work closely with you at the start to understand your vision. You’ll then review concepts, give feedback, and shape the final outcome together with our designers.<br/><br/><em>It’s a collaborative process, not a hand-off.</em></p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_8y94Ea": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What if I already have a logo but need a full brand refresh?",
+            "icon": "none",
+            "row_content": "<p>We can work with your existing logo if it’s strong – or recommend a refresh if needed. A Growth or Enterprise package is perfect for businesses ready to upgrade their whole identity while keeping some brand equity intact.<br/><br/><em>Let’s audit your current branding and build a plan together.</em></p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_iCWAfT",
+        "collapsible_row_patkYK",
+        "collapsible_row_KzfJix",
+        "collapsible_row_3kqxf4",
+        "collapsible_row_JeVcxj",
+        "collapsible_row_xrHqpL",
+        "collapsible_row_Xmq6Jn",
+        "collapsible_row_HN3fq3",
+        "collapsible_row_jXbM6H",
+        "collapsible_row_8y94Ea"
+      ],
+      "name": "Branding Collapsible content",
+      "settings": {
+        "caption": "",
+        "heading": "<strong>Everything You Need to Know About Branding With Us</strong>",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "none",
+        "color_scheme": "",
+        "container_color_scheme": "",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "marketing_focus_66Ui8T": {
+      "type": "marketing-focus",
+      "name": "Branding Marketing Focus Section",
+      "settings": {
+        "logo_image": "shopify://shop_images/04.jpg",
+        "headline": "Your Brand Is Too Important To DIY.",
+        "sub_text": "Let's create a brand identity that’s trusted, memorable, and built to grow. Book a free branding chat with our team today.",
+        "button_text": "Book Your Free Branding Consultation",
+        "button_link": "shopify://pages/contact",
+        "desktop_padding_top": 0,
+        "desktop_padding_bottom": 0,
+        "mobile_padding_top": 0,
+        "mobile_padding_bottom": 0
+      }
     }
   },
   "order": [
     "text_list_Gj8YAb",
     "pricing_new_3erV7g",
-    "main",
-    "text_list_dimgRF",
-    "service_pricing_wn6PH8",
-    "text_list_Hmc64m",
-    "service_pricing_KYVkBg",
-    "text_list_VAGTRy",
-    "service_pricing_aJKCf4",
-    "text_list_3FHC7j",
-    "service_pricing_Fb3LWf",
-    "text_list_MXX9HP"
+    "collapsible_content_9XaAAt",
+    "marketing_focus_3m6ihY",
+    "collapsible_content_HTJpwf",
+    "marketing_focus_PdGT6c",
+    "rich_text_VxqB3W",
+    "collapsible_content_AaqC7V",
+    "marketing_focus_bCRJyA",
+    "text_list_MXX9HP",
+    "collapsible_content_D44Qaj",
+    "marketing_focus_66Ui8T"
   ]
 }

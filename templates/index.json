@@ -119,7 +119,12 @@
       "type": "advertise",
       "custom_css": [],
       "settings": {
+        "loop_video": true,
+        "autoplay_video": true,
         "main_image": "shopify://shop_images/9158264f569b0ba69761e856037de151.png",
+        "media_border_radius": 0,
+        "media_border_width": 0,
+        "media_border_color": "#000000",
         "secondary_image_roate_angle": -36,
         "desktop_left": 329,
         "desktop_top": -10,
@@ -217,8 +222,13 @@
       "type": "advertise",
       "custom_css": [],
       "settings": {
+        "loop_video": true,
+        "autoplay_video": true,
         "main_image": "shopify://shop_images/Artboard_3_copy-100.jpg",
         "secondary_image": "shopify://shop_images/get-found-on-the-web-right_94f0db54-ee90-4bcc-aca3-ff6d1681dbac.svg",
+        "media_border_radius": 0,
+        "media_border_width": 0,
+        "media_border_color": "#000000",
         "secondary_image_roate_angle": 0,
         "desktop_left": -38,
         "desktop_top": 380,
@@ -672,11 +682,11 @@
           "type": "button",
           "settings": {
             "button_label": "Speak To Our Team",
-            "button_link": "",
+            "button_link": "shopify://pages/contact",
             "button_style_secondary": false,
             "button_label_2": "",
             "button_link_2": "",
-            "button_style_secondary_2": false
+            "button_style_secondary_2": true
           }
         },
         "text_qiPVCJ": {
@@ -711,8 +721,13 @@
       "type": "advertise",
       "custom_css": [],
       "settings": {
+        "loop_video": true,
+        "autoplay_video": true,
         "main_image": "shopify://shop_images/2e5877eca35c499b4057cf3e49e166c6.png",
         "secondary_image": "shopify://shop_images/this-could-be-you_86b78ffa-fae9-4fc7-9bda-3b42602401a5.svg",
+        "media_border_radius": 0,
+        "media_border_width": 0,
+        "media_border_color": "#000000",
         "secondary_image_roate_angle": 16,
         "desktop_left": -8,
         "desktop_top": 100,
@@ -845,8 +860,13 @@
       "type": "advertise",
       "custom_css": [],
       "settings": {
+        "loop_video": true,
+        "autoplay_video": true,
         "main_image": "shopify://shop_images/HomePage_newleads.jpg",
         "secondary_image": "shopify://shop_images/get-new-customers_14c1764b-9932-4e7e-851a-7851c99c425f.svg",
+        "media_border_radius": 0,
+        "media_border_width": 0,
+        "media_border_color": "#000000",
         "secondary_image_roate_angle": -28,
         "desktop_left": 330,
         "desktop_top": 143,
@@ -947,8 +967,8 @@
     "review_image_with_text_Lqpfjw": {
       "type": "review-image-with-text",
       "settings": {
-        "review_image": "shopify://shop_images/review-stars-new_c29b87db-b7be-4045-88d6-6ed0253b3672.svg",
-        "text": "Trusted by Hundreds of Aussie Businesses",
+        "review_image": "shopify://shop_images/Artboard_13.png",
+        "text": "",
         "bg_color": "#ffffff",
         "text_color": "#000000",
         "desktop_padding_top": 40,
@@ -960,8 +980,13 @@
     "advertise_FfNzr9": {
       "type": "advertise",
       "settings": {
+        "loop_video": true,
+        "autoplay_video": true,
         "main_image": "shopify://shop_images/01.jpg",
         "secondary_image": "shopify://shop_images/grow-your-brand_a831e197-6984-4fb5-af1a-f72723d0f61b.svg",
+        "media_border_radius": 0,
+        "media_border_width": 0,
+        "media_border_color": "#000000",
         "secondary_image_roate_angle": -32,
         "desktop_left": 370,
         "desktop_top": 140,
@@ -989,8 +1014,13 @@
       "type": "advertise",
       "custom_css": [],
       "settings": {
+        "loop_video": true,
+        "autoplay_video": true,
         "main_image": "shopify://shop_images/HomePage_eight83_plumbing.jpg",
         "secondary_image": "shopify://shop_images/get-the-work-you-want_1deebdca-42cf-48ef-ad08-2c7a30b21259.svg",
+        "media_border_radius": 0,
+        "media_border_width": 0,
+        "media_border_color": "#000000",
         "secondary_image_roate_angle": -8,
         "desktop_left": -50,
         "desktop_top": 343,

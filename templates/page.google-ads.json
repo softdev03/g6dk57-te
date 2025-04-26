@@ -12,8 +12,13 @@
     "advertise_xMT9mA": {
       "type": "advertise",
       "settings": {
+        "loop_video": true,
+        "autoplay_video": true,
         "main_image": "shopify://shop_images/GoogleAds03.jpg",
         "secondary_image": "shopify://shop_images/get-found-on-the-web-right.svg",
+        "media_border_radius": 0,
+        "media_border_width": 0,
+        "media_border_color": "#000000",
         "secondary_image_roate_angle": -16,
         "desktop_left": -48,
         "desktop_top": -1,
@@ -25,8 +30,8 @@
         "mobile_bottom": -26,
         "heading": "Google Ads That Actually Drive Sales",
         "sub_heading": "For eComm Brands, Local Businesses & Growth-Ready Stores",
-        "text": "<h4></h4><p>You’ve got a great product. But if the right people aren’t seeing it, you’re leaving sales on the table. Google Ads is how we fix that.</p><p>We help Shopify stores get found by high-intent shoppers already searching for what you sell. Our campaigns are built to convert — no fluff, no wasted spend. Just the right clicks from the right buyers.</p><p>Running a service business? Whether you’re an electrician, plumber or builder, Google Ads can keep your phone ringing and your calendar full. You don’t need to chase leads — we’ll bring them to you.</p><p><strong>No templates. No guessing. Just results.</strong></p>",
-        "button_link": "#",
+        "text": "<p>You’ve got a great product. But if the right people aren’t seeing it, you’re leaving sales on the table. Google Ads is how we fix that.</p><p>We help Shopify stores get found by high-intent shoppers already searching for what you sell. Our campaigns are built to convert, no fluff, no wasted spend. Just the right clicks from the right buyers.</p><p>Running a service business? Whether you’re an electrician, plumber or builder, Google Ads can keep your phone ringing and your calendar full. You don’t need to chase leads, we’ll bring them to you.</p><p><strong>No templates. No guessing. Just results.</strong></p>",
+        "button_link": "shopify://pages/contact",
         "button_text": "Speak To Our Team",
         "image_right": false,
         "text_align": "left",
@@ -44,11 +49,11 @@
         "heading_1": "We Drive Sales,",
         "heading_2": "Not Just Clicks",
         "sub_heading": "We’re here for eComm brands that want to scale profitably.",
-        "text": "For store owners tired of burning cash on ads that don’t convert. For brands ready to shift from slow sales to steady growth. If you're serious about scaling your Shopify store with data-backed Google Ads, we’re the crew to talk to.No generic campaigns. No vanity metrics. Just real customers buying your products — on autopilot. Let’s get your brand in front of the people ready to buy.",
+        "text": "For store owners tired of burning cash on ads that don’t convert. For brands ready to shift from slow sales to steady growth. If you're serious about scaling your Shopify store with data-backed Google Ads, we’re the crew to talk to. No generic campaigns. No vanity metrics. Just real customers buying your products, on autopilot. Let’s get your brand in front of the people ready to buy.",
         "phone_button_text": "0499226600",
         "phone_number": "0499226600",
         "enquire_button_text": "Enquire Now",
-        "enquire_button_link": "#",
+        "enquire_button_link": "shopify://pages/contact",
         "image_right": true,
         "text_align": "left",
         "desktop_padding_top": 100,
@@ -60,8 +65,13 @@
     "advertise_KLNL33": {
       "type": "advertise",
       "settings": {
+        "loop_video": true,
+        "autoplay_video": true,
         "main_image": "shopify://shop_images/GoogleAds_06.jpg",
         "secondary_image": "shopify://shop_images/this-could-be-you.svg",
+        "media_border_radius": 0,
+        "media_border_width": 0,
+        "media_border_color": "#000000",
         "secondary_image_roate_angle": -16,
         "desktop_left": -50,
         "desktop_top": -1,
@@ -72,9 +82,9 @@
         "mobile_right": -1,
         "mobile_bottom": -30,
         "heading": "We Turn Clicks Into Booked Jobs",
-        "sub_heading": "Service-based businesses need more than just traffic – you need real enquiries.",
-        "text": "<p>If you’re running a plumbing biz, electrical company, or a local service — the only clicks that matter are the ones that lead to actual phone calls or quote requests. That’s where we come in.</p><p>We don’t just run Google Ads. We build laser-focused campaigns that make your phone ring with real customers, not tyre kickers. It's not about more impressions or fancy reports. It's about filling your calendar with jobs from people who are ready to pay.</p><p>If your last campaign didn’t deliver leads, it wasn’t the platform’s fault. It’s how it was set up. Let’s fix that.</p>",
-        "button_link": "#",
+        "sub_heading": "Service-based businesses need more than just traffic,  you need real enquiries.",
+        "text": "<p>If you’re running a plumbing biz, electrical company, or a local service,  the only clicks that matter are the ones that lead to actual phone calls or quote requests. That’s where we come in.</p><p>We don’t just run Google Ads. We build laser-focused campaigns that make your phone ring with real customers, not tyre kickers. It's not about more impressions or fancy reports. It's about filling your calendar with jobs from people who are ready to pay.</p><p>If your last campaign didn’t deliver leads, it wasn’t the platform’s fault. It’s how it was set up. Let’s fix that.</p>",
+        "button_link": "shopify://pages/contact",
         "button_text": "Help Grow My Business",
         "image_right": false,
         "text_align": "left",
@@ -88,8 +98,13 @@
     "advertise_qQYPyj": {
       "type": "advertise",
       "settings": {
+        "loop_video": true,
+        "autoplay_video": true,
         "main_image": "shopify://shop_images/GoogleAds_ecommerce02_e703f8dd-1cdd-477a-b4b5-791b629c3d19.jpg",
         "secondary_image": "shopify://shop_images/google-ads-for-tradies-text.svg",
+        "media_border_radius": 0,
+        "media_border_width": 0,
+        "media_border_color": "#000000",
         "secondary_image_roate_angle": 0,
         "desktop_left": -1,
         "desktop_top": 160,
@@ -101,8 +116,8 @@
         "mobile_bottom": -1,
         "heading": "Advertising Solutions for Online Stores",
         "sub_heading": "Targeted ads that drive real sales",
-        "text": "<p>When you’re running an online store, every click counts. That’s why we build Google Ads campaigns that don’t just attract traffic – they bring in the right kind of shoppers.</p><p>We help Shopify store owners get found fast, sell more of their hero products, and avoid wasting money on clicks that don’t convert. Whether it’s a niche product or a high-volume bestseller, we tailor campaigns to meet your goals and margins.</p><p>Our team keeps your ads sharp – adjusting bids, testing copy, and finding pockets of high-intent buyers across Google Search, Shopping, and Display. The result? Better visibility, lower cost per conversion, and steady, scalable growth.</p><p>No fluff, just strategy that gets results.</p>",
-        "button_link": "#",
+        "text": "<p>When you’re running an online store, every click counts. That’s why we build Google Ads campaigns that don’t just attract traffic – they bring in the right kind of shoppers.</p><p>We help Shopify store owners get found fast, sell more of their hero products, and avoid wasting money on clicks that don’t convert. Whether it’s a niche product or a high-volume bestseller, we tailor campaigns to meet your goals and margins.</p><p>Our team keeps your ads sharp. Adjusting bids, testing copy, and finding pockets of high-intent buyers across Google Search, Shopping, and Display. The result? Better visibility, lower cost per conversion, and steady, scalable growth.</p><p>No fluff, just strategy that gets results.</p>",
+        "button_link": "shopify://pages/contact",
         "button_text": "Help Grow My Business",
         "image_right": true,
         "text_align": "left",
@@ -120,7 +135,7 @@
           "type": "trust_item",
           "settings": {
             "heading": "WHAT WORKS (AND WHAT DOESN’T)",
-            "main_text": "<p>Our Google Ads team has seen it all. We know which strategies drive real growth — and which ones just burn your budget. Experience means we skip the fluff and focus on what gets results.</p>",
+            "main_text": "<p>Our Google Ads team has seen it all. We know which strategies drive real growth and which ones just burn your budget. Experience means we skip the fluff and focus on what gets results.</p>",
             "button_text": "Read More",
             "additional_text": "<p>We don’t waste time on outdated tactics or surface-level optimisations. We deep-dive into campaign structure, match types, bid strategies, audience signals, and product data to make sure every dollar is pulling its weight. For eCom, that might mean rebuilding your Shopping feed to get better product visibility. For lead gen, it could be cutting out broad match campaigns that bring in tyre kickers. We’re performance-driven and know how to scale without blowing your margins.</p>",
             "accordion_image": "shopify://shop_images/plus_1.png"
@@ -130,9 +145,9 @@
           "type": "trust_item",
           "settings": {
             "heading": "BUILT FOR YOUR BUSINESS",
-            "main_text": "<p>We tailor campaigns around your industry. Whether it’s a Shopify store chasing sales or a local plumber chasing leads, we know how your audience searches — and how to get them to click.</p>",
+            "main_text": "<p>We tailor campaigns around your industry. Whether it’s a Shopify store chasing sales or a local plumber chasing leads, we know how your audience searches and how to get them to click.</p>",
             "button_text": "Read More",
-            "additional_text": "<p>Every brand has a different path to conversion. Some need a tight sales funnel with aggressive remarketing, while others do better with trust-building and long-tail search terms. That’s why our first step is understanding your product or service inside out. From there, we build out a custom ad strategy — from campaign structure to copywriting to budget distribution — that fits your goals and market. We don’t believe in cookie-cutter setups. You’ll get a campaign that actually reflects how your buyers shop or book.</p>",
+            "additional_text": "<p>Every brand has a different path to conversion. Some need a tight sales funnel with aggressive remarketing, while others do better with trust-building and long-tail search terms. That’s why our first step is understanding your product or service inside out. From there, we build out a custom ad strategy  from campaign structure to copywriting to budget distribution that fits your goals and market. We don’t believe in cookie-cutter setups. You’ll get a campaign that actually reflects how your buyers shop or book.</p>",
             "accordion_image": "shopify://shop_images/plus_1.png"
           }
         },
@@ -142,7 +157,7 @@
             "heading": "LOCAL, SHARP, AND STRAIGHT-UP",
             "main_text": "<p>We’re an Aussie team that knows the local market better than any overseas agency. No bloated retainers. No lost-in-translation strategy. Just clear, honest work that actually moves the needle.</p>",
             "button_text": "Read More",
-            "additional_text": "<p>We get what makes an Aussie buyer click. Whether you're selling custom vanities out of Sydney or offering 24/7 plumbing in Melbourne, we know how to position your brand to win. Being local also means we’re in your timezone, available when you need us, and not hiding behind support tickets or five-day delays. Our team doesn’t talk in circles — we speak plainly, act fast, and treat your budget like it’s our own. No gimmicks. No BS. Just results.</p>",
+            "additional_text": "<p>We get what makes an Aussie buyer click. Whether you're selling custom vanities out of Sydney or offering 24/7 plumbing in Melbourne, we know how to position your brand to win. Being local also means we’re in your timezone, available when you need us, and not hiding behind support tickets or five-day delays. Our team doesn’t talk in circles we speak plainly, act fast, and treat your budget like it’s our own. No gimmicks. No BS. Just results.</p>",
             "accordion_image": "shopify://shop_images/plus_1.png"
           }
         }
@@ -154,7 +169,7 @@
       ],
       "settings": {
         "heading": "We Know Google Ads Inside Out",
-        "text": "<p>Whether you're selling premium products online or booking in high-value services, we build campaigns that actually deliver.</p><p>For eCommerce stores, we don’t just focus on clicks — we focus on profitable conversions. From Shopping Ads that show up at the right time, to smart retargeting that brings browsers back to buy, we know how to drive sales without draining your margin.</p><p>And if you’re a service-based business? We turn searches into phone calls. We know how to get your ads in front of locals looking to book, not just browse. Our lead gen strategies are tuned for quality over quantity — so you spend less time chasing and more time closing.</p><p>No guesswork. No cookie-cutter campaigns. Just clear, proven strategy tailored to your goals.</p>",
+        "text": "<p>Whether you're selling premium products online or booking in high-value services, we build campaigns that actually deliver.</p><p>For eCommerce stores, we don’t just focus on clicks, we focus on profitable conversions. From Shopping Ads that show up at the right time, to smart retargeting that brings browsers back to buy, we know how to drive sales without draining your margin.</p><p>And if you’re a service-based business? We turn searches into phone calls. We know how to get your ads in front of locals looking to book, not just browse. Our lead gen strategies are tuned for quality over quantity, so you spend less time chasing and more time closing.</p><p>No guesswork. No cookie-cutter campaigns. Just clear, proven strategy tailored to your goals.</p>",
         "trust_image": "shopify://shop_images/Artboard_13.png",
         "desktop_padding_top": 60,
         "desktop_padding_bottom": 60,
@@ -165,8 +180,13 @@
     "advertise_PAQGf7": {
       "type": "advertise",
       "settings": {
+        "loop_video": true,
+        "autoplay_video": true,
         "main_image": "shopify://shop_images/GoogleAds05.jpg",
         "secondary_image": "shopify://shop_images/get-the-work-you-want.svg",
+        "media_border_radius": 0,
+        "media_border_width": 0,
+        "media_border_color": "#000000",
         "secondary_image_roate_angle": 0,
         "desktop_left": -80,
         "desktop_top": -1,
@@ -178,8 +198,8 @@
         "mobile_bottom": -30,
         "heading": "Google Ads That Bring In The Right Leads",
         "sub_heading": "Stop Chasing Work. Start Booking It.",
-        "text": "<p>If you're a service-based business, leads are everything. But not just any leads — you want the kind of clients who are ready to pick up the phone and book. That’s where we come in.</p><p>We build Google Ads campaigns that target your ideal customers with pinpoint precision. Whether you're a local plumber, electrician, builder, or pest control expert, we make sure your ads show up exactly when people are searching for the services you offer — not before, not after.</p><p>Every click matters. We set up smart campaigns that turn clicks into calls, forms into bookings, and enquiries into high-paying jobs. From call tracking to suburb-level targeting, we’ve got the strategy that gets your phone buzzing.</p><p>This is lead generation done right — no fluff, no wasted budget, just solid enquiries from customers who need you now.</p><p><strong>Let’s get you booked out.</strong></p>",
-        "button_link": "#",
+        "text": "<p>If you're a service-based business, leads are everything. But not just any leads you want the kind of clients who are ready to pick up the phone and book. That’s where we come in.</p><p>We build Google Ads campaigns that target your ideal customers with pinpoint precision. Whether you're a local plumber, electrician, builder, or pest control expert, we make sure your ads show up exactly when people are searching for the services you offer  not before, not after.</p><p>Every click matters. We set up smart campaigns that turn clicks into calls, forms into bookings, and enquiries into high-paying jobs. From call tracking to suburb-level targeting, we’ve got the strategy that gets your phone buzzing.</p><p>This is lead generation done right, no fluff, no wasted budget, just solid enquiries from customers who need you now.</p><p><strong>Let’s get you booked out.</strong></p>",
+        "button_link": "shopify://pages/contact",
         "button_text": "Help Grow My Business",
         "image_right": false,
         "text_align": "left",
@@ -193,7 +213,12 @@
     "advertise_DnFdqE": {
       "type": "advertise",
       "settings": {
+        "loop_video": true,
+        "autoplay_video": true,
         "main_image": "shopify://shop_images/GoogleAds_09.jpg",
+        "media_border_radius": 0,
+        "media_border_width": 0,
+        "media_border_color": "#000000",
         "secondary_image_roate_angle": 12,
         "desktop_left": -1,
         "desktop_top": -1,
@@ -205,8 +230,8 @@
         "mobile_bottom": -1,
         "heading": "Get More Sales Without Guesswork",
         "sub_heading": "Smart Google Ads Campaigns That Actually Convert",
-        "text": "<p>Getting clicks is easy. Turning those clicks into actual orders? That’s where most eComm brands struggle. We don’t just launch campaigns and hope for the best — we build funnels that guide the right shopper all the way from search to checkout.</p><p>We optimise for high-intent traffic — people who are already looking for what you sell. And we track everything: product page views, cart activity, conversion rates, and ROAS. So you’re not just spending, you’re scaling.</p><p>Want more abandoned carts recovered? Higher AOV? We run remarketing ads that pull shoppers back in and product feed campaigns that put your bestsellers in front of buyers who are ready to spend.</p><p>Whether you're trying to grow your customer base or boost LTV, our eCommerce Google Ads strategies are built to do one thing: sell more, profitably.</p><p><strong>Let’s turn browsers into buyers.</strong></p>",
-        "button_link": "#",
+        "text": "<p>Getting clicks is easy. Turning those clicks into actual orders? That’s where most eComm brands struggle. We don’t just launch campaigns and hope for the best. We build funnels that guide the right shopper all the way from search to checkout.</p><p>We optimise for high-intent traffic, people who are already looking for what you sell. And we track everything: product page views, cart activity, conversion rates, and ROAS. So you’re not just spending, you’re scaling.</p><p>Want more abandoned carts recovered? Higher AOV? We run remarketing ads that pull shoppers back in and product feed campaigns that put your bestsellers in front of buyers who are ready to spend.</p><p>Whether you're trying to grow your customer base or boost LTV, our eCommerce Google Ads strategies are built to do one thing: sell more, profitably.</p><p><strong>Let’s turn browsers into buyers.</strong></p>",
+        "button_link": "shopify://pages/contact",
         "button_text": "Help Grow My Business",
         "image_right": true,
         "text_align": "left",
@@ -220,8 +245,13 @@
     "advertise_JebRqW": {
       "type": "advertise",
       "settings": {
+        "loop_video": true,
+        "autoplay_video": true,
         "main_image": "shopify://shop_images/GoogleAds_10.jpg",
         "secondary_image": "shopify://shop_images/get-new-customers.svg",
+        "media_border_radius": 0,
+        "media_border_width": 0,
+        "media_border_color": "#000000",
         "secondary_image_roate_angle": 0,
         "desktop_left": -1,
         "desktop_top": 160,
@@ -233,8 +263,8 @@
         "mobile_bottom": -1,
         "heading": "Leads That Book Themselves",
         "sub_heading": "Smart Targeting. Real Calls. More Booked Jobs.",
-        "text": "<p>It’s not just about getting leads — it’s about getting the right ones. The kind that actually pick up the phone, request a quote, and are ready to go. That’s what a good Google Ads strategy should deliver.</p><p>We track exactly what time of day your audience is most active, what keywords drive action (not just clicks), and which ad copy leads to phone calls. You’ll know what’s working, what needs tweaking, and where your next job is likely to come from.</p><p>Plus, we set up call tracking so you can listen in on lead quality. No fluff metrics, just real conversations with real people looking for your services.</p><p>If you’ve wasted money on ads before, we get it. But with the right setup and constant optimisation, your campaigns don’t just sit there — they do the heavy lifting.</p><p><strong>Let’s make the phone ring for the right reasons.</strong></p>",
-        "button_link": "#",
+        "text": "<p>It’s not just about getting leads,  it’s about getting the right ones. The kind that actually pick up the phone, request a quote, and are ready to go. That’s what a good Google Ads strategy should deliver.</p><p>We track exactly what time of day your audience is most active, what keywords drive action (not just clicks), and which ad copy leads to phone calls. You’ll know what’s working, what needs tweaking, and where your next job is likely to come from.</p><p>Plus, we set up call tracking so you can listen in on lead quality. No fluff metrics, just real conversations with real people looking for your services.</p><p>If you’ve wasted money on ads before, we get it. But with the right setup and constant optimisation, your campaigns don’t just sit there, they do the heavy lifting.</p><p><strong>Let’s make the phone ring for the right reasons.</strong></p>",
+        "button_link": "shopify://pages/contact",
         "button_text": "Get More High-Quality Leads",
         "image_right": false,
         "text_align": "left",
@@ -494,11 +524,26 @@
       ],
       "settings": {
         "heading": "Partnered With",
-        "bg_color": "#fbfbfb",
+        "bg_color": "#ffffff",
         "desktop_card_border_radius": 10,
         "mobile_card_border_radius": 6,
         "desktop_padding_top": 30,
         "desktop_padding_bottom": 30,
+        "mobile_padding_top": 30,
+        "mobile_padding_bottom": 30
+      }
+    },
+    "marketing_focus_M6QMCX": {
+      "type": "marketing-focus",
+      "name": "Marketing Focus Section",
+      "settings": {
+        "logo_image": "shopify://shop_images/04.jpg",
+        "headline": "We Know Google Ads Like the Back of Our Hand",
+        "sub_text": "Search, Display, Shopping, we’ll manage the lot and make sure every dollar works harder.",
+        "button_text": "Request a Quote",
+        "button_link": "shopify://pages/contact",
+        "desktop_padding_top": 40,
+        "desktop_padding_bottom": 40,
         "mobile_padding_top": 30,
         "mobile_padding_bottom": 30
       }
@@ -515,6 +560,7 @@
     "advertise_JebRqW",
     "tradies_D9qHzj",
     "faq_cYAhKJ",
-    "partner_with_U86NgH"
+    "partner_with_U86NgH",
+    "marketing_focus_M6QMCX"
   ]
 }

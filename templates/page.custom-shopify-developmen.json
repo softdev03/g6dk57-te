@@ -9,29 +9,16 @@
  */
 {
   "sections": {
-    "video_R4VXBh": {
-      "type": "video",
-      "disabled": true,
-      "settings": {
-        "heading": "",
-        "heading_size": "h1",
-        "enable_video_looping": true,
-        "video": "shopify://files/videos/633c71cb149483075b8995e9_Shopify (1)-transcode.mp4",
-        "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-        "description": "",
-        "full_width": false,
-        "color_scheme": "",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "advertise_xMT9mA": {
       "type": "advertise",
+      "name": "New Video Section",
       "settings": {
         "video": "shopify://files/videos/633c71cb149483075b8995e9_Shopify (1)-transcode.mp4",
         "loop_video": true,
         "autoplay_video": true,
-        "main_image": "shopify://shop_images/AnAgencyServiceWebsite01.png",
+        "media_border_radius": 18,
+        "media_border_width": 1,
+        "media_border_color": "#cccccc",
         "secondary_image_roate_angle": 8,
         "desktop_left": -150,
         "desktop_top": -1,
@@ -43,7 +30,7 @@
         "mobile_bottom": -26,
         "heading": "Build a Shopify Store That Actually Sells",
         "sub_heading": "Your Shopify store shouldn’t just look good, it needs to bring in cash.",
-        "text": "<p>At An Agency, we build custom Shopify stores specifically designed for your business, your customers, and your products. Forget generic templates, we’ll set you up with an eCommerce machine that actually converts.</p><p>We’re certified Shopify Partners and store owners ourselves. We know firsthand what it takes to run a profitable online store. From smooth operations to scaling quickly and boosting revenue.</p><p>Every Shopify store we build is custom-designed, blazing fast, mobile-optimised, and tuned to drive conversions. We seamlessly connect payments, shipping, email marketing, and automations so your backend runs just as well as your storefront.</p>",
+        "text": "",
         "button_link": "shopify://pages/contact",
         "button_text": "Speak To Our Team",
         "image_right": false,
@@ -61,6 +48,9 @@
         "loop_video": true,
         "autoplay_video": true,
         "main_image": "shopify://shop_images/AnAgencyServiceWebsite01.png",
+        "media_border_radius": 0,
+        "media_border_width": 0,
+        "media_border_color": "#000000",
         "secondary_image_roate_angle": 8,
         "desktop_left": -150,
         "desktop_top": -1,
@@ -70,9 +60,9 @@
         "mobile_top": -1,
         "mobile_right": -1,
         "mobile_bottom": -26,
-        "heading": "Build a Shopify Store That Actually Sells",
-        "sub_heading": "Your Shopify store shouldn’t just look good, it needs to bring in cash.",
-        "text": "<p>At An Agency, we build custom Shopify stores specifically designed for your business, your customers, and your products. Forget generic templates, we’ll set you up with an eCommerce machine that actually converts.</p><p>We’re certified Shopify Partners and store owners ourselves. We know firsthand what it takes to run a profitable online store. From smooth operations to scaling quickly and boosting revenue.</p><p>Every Shopify store we build is custom-designed, blazing fast, mobile-optimised, and tuned to drive conversions. We seamlessly connect payments, shipping, email marketing, and automations so your backend runs just as well as your storefront.</p>",
+        "heading": "We’re certified Shopify Partners and store owners ourselves.",
+        "sub_heading": "We know firsthand what it takes to run a profitable online store",
+        "text": "<p>At An Agency, we build custom Shopify stores specifically designed for your business, your customers, and your products. Forget generic templates, we’ll set you up with an eCommerce machine that actually converts.</p><p>Being certified Shopify Partners and store owners, we have firsthand experience in managing a profitable online stores. Our expertise covers smooth operations, quick scaling, and revenue growth.</p><p>Every Shopify store we build is custom-designed, blazing fast, mobile-optimised, and tuned to drive conversions. We seamlessly connect payments, shipping, email marketing, and automations so your backend runs just as well as your storefront.</p>",
         "button_link": "shopify://pages/contact",
         "button_text": "Speak To Our Team",
         "image_right": true,
@@ -110,6 +100,9 @@
         "loop_video": true,
         "autoplay_video": true,
         "main_image": "shopify://shop_images/AnAgencyShopifyWebsite05.png",
+        "media_border_radius": 0,
+        "media_border_width": 0,
+        "media_border_color": "#000000",
         "secondary_image_roate_angle": -64,
         "desktop_left": -80,
         "desktop_top": -1,
@@ -139,6 +132,9 @@
         "loop_video": true,
         "autoplay_video": true,
         "main_image": "shopify://shop_images/AnAgencyShopifyWebsite07.png",
+        "media_border_radius": 0,
+        "media_border_width": 0,
+        "media_border_color": "#000000",
         "secondary_image_roate_angle": 12,
         "desktop_left": -1,
         "desktop_top": -1,
@@ -168,6 +164,9 @@
         "loop_video": true,
         "autoplay_video": true,
         "main_image": "shopify://shop_images/AnAgencyShopifyWebsite08.png",
+        "media_border_radius": 0,
+        "media_border_width": 0,
+        "media_border_color": "#000000",
         "secondary_image_roate_angle": -52,
         "desktop_left": -1,
         "desktop_top": 160,
@@ -196,7 +195,10 @@
       "settings": {
         "loop_video": true,
         "autoplay_video": true,
-        "main_image": "shopify://shop_images/AnAgencyShopifyWebsite01.png",
+        "main_image": "shopify://shop_images/AnAgencyShopifyWebsite10.png",
+        "media_border_radius": 0,
+        "media_border_width": 0,
+        "media_border_color": "#000000",
         "secondary_image_roate_angle": 8,
         "desktop_left": -80,
         "desktop_top": -1,
@@ -226,6 +228,9 @@
         "loop_video": true,
         "autoplay_video": true,
         "main_image": "shopify://shop_images/AnAgencyShopifyWebsite09.png",
+        "media_border_radius": 0,
+        "media_border_width": 0,
+        "media_border_color": "#000000",
         "secondary_image_roate_angle": 0,
         "desktop_left": -1,
         "desktop_top": 160,
@@ -306,6 +311,9 @@
         "autoplay_video": true,
         "main_image": "shopify://shop_images/GoogleAds_09.jpg",
         "secondary_image": "shopify://shop_images/this-could-be-you_86b78ffa-fae9-4fc7-9bda-3b42602401a5.svg",
+        "media_border_radius": 0,
+        "media_border_width": 0,
+        "media_border_color": "#000000",
         "secondary_image_roate_angle": 16,
         "desktop_left": -1,
         "desktop_top": 146,
@@ -440,14 +448,6 @@
           "settings": {
             "question": "3. What should I do to launch my Shopify store successfully?",
             "answer": "<p>Launching your store is a big milestone! Before you go live, run through a pre-launch checklist to make sure everything is in tip-top shape. Here are some must-dos before the big launch:</p><ul><li>Attach your custom domain and confirm it loads your site correctly.</li><li>Test your payment gateway with a real or test order.</li><li>Double-check shipping rates.</li><li>Add essential pages: About, Contact, Shipping, Returns.</li><li>Check your mobile layout.</li></ul><p>Once everything looks good, disable the storefront password so the public can access your site. Consider a soft launch by sharing it with friends or on social media to gather initial feedback.<br/><br/><strong>Not sure if you’ve covered everything for launch?</strong> We’ve helped many Aussie entrepreneurs go live smoothly. The experts at An Agency can review your store and help with any last-minute tweaks – let’s get you set up for success.</p><p></p>",
-            "icon": "shopify://shop_images/plus_1.png"
-          }
-        },
-        "faq_item_akFz96": {
-          "type": "faq_item",
-          "settings": {
-            "question": "What if I need support after launch?",
-            "answer": "<p>We don’t just build your store and disappear. We offer ongoing support, optimisations, and growth strategies.</p>",
             "icon": "shopify://shop_images/plus_1.png"
           }
         },
@@ -592,7 +592,6 @@
         "faq_item_rrnAHz",
         "faq_item_AdgFRX",
         "faq_item_E6VP9h",
-        "faq_item_akFz96",
         "faq_item_QBr3LB",
         "faq_item_Ti7hUf",
         "faq_item_tJxanT",
@@ -685,10 +684,24 @@
         "mobile_padding_top": 30,
         "mobile_padding_bottom": 30
       }
+    },
+    "marketing_focus_zYMyt8": {
+      "type": "marketing-focus",
+      "name": "Marketing Focus Section",
+      "settings": {
+        "logo_image": "shopify://shop_images/04.jpg",
+        "headline": "We Know Shopify & Sales Funnels (Inside Out)",
+        "sub_text": "Your store should be converting. We’ll fix the funnel, speed things up, and bring in better customers.",
+        "button_text": "Request a Quote",
+        "button_link": "shopify://pages/contact",
+        "desktop_padding_top": 40,
+        "desktop_padding_bottom": 40,
+        "mobile_padding_top": 30,
+        "mobile_padding_bottom": 30
+      }
     }
   },
   "order": [
-    "video_R4VXBh",
     "advertise_xMT9mA",
     "advertise_HPp6jH",
     "phone_ring_MzFcJr",
@@ -701,6 +714,7 @@
     "advertise_6VLxp7",
     "tradies_D9qHzj",
     "faq_cYAhKJ",
-    "partner_with_U86NgH"
+    "partner_with_U86NgH",
+    "marketing_focus_zYMyt8"
   ]
 }

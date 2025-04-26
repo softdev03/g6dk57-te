@@ -12,8 +12,12 @@
     "advertise_xMT9mA": {
       "type": "advertise",
       "settings": {
-        "main_image": "shopify://shop_images/seo-for-trades.webp",
-        "secondary_image": "shopify://shop_images/get-found-on-the-web-right.svg",
+        "video": "shopify://files/videos/polo-shirt-video-featuring-a-happy-woman-posing-in-an-office-7346v (1) (2).mp4",
+        "loop_video": true,
+        "autoplay_video": true,
+        "media_border_radius": 18,
+        "media_border_width": 0,
+        "media_border_color": "#000000",
         "secondary_image_roate_angle": 8,
         "desktop_left": -90,
         "desktop_top": -1,
@@ -23,14 +27,14 @@
         "mobile_top": -1,
         "mobile_right": -1,
         "mobile_bottom": -26,
-        "heading": "Websites and Marketing For Tradies",
-        "sub_heading": "How An Agency Helps You Stand Out Online",
-        "text": "<p>If you're like most tradies, landing small jobs isn’t the problem—your phone’s always buzzing. The real challenge is scoring those bigger, high-paying gigs. Residential and commercial contracts need a different approach since the folks who care more about quality than price aren’t easy to reach.</p><p>Let's be real: the bigger players are nabbing those top jobs before you even get a shot.</p><p>If you’re an electrician aiming for steady, well-paid work, getting online is a must. A solid website and smart marketing plan boost your brand, draw in quality leads, free you from third-party platforms, and even make your business more valuable.</p><p>An Agency is here to help you connect with more customers through our all-in-one website, branding, and marketing services for electricians.</p>",
-        "button_link": "#",
-        "button_text": "Speak To Our Team",
+        "heading": "Branding That Actually Means Something",
+        "sub_heading": "Stand out, look pro, and connect with the right people from day one.",
+        "text": "<p>Your brand isn’t just a logo. It’s how people see you, remember you, and trust you. We build branding that reflects your story, speaks to your audience, and gets taken seriously. Whether you’re starting from scratch or levelling up, we’ll create an identity that makes you proud and makes customers take notice.</p><p></p>",
+        "button_link": "shopify://pages/contact",
+        "button_text": "Let’s Build Your Brand →",
         "image_right": false,
         "text_align": "left",
-        "background_color": "#aeddf9",
+        "background_color": "#ffffff",
         "desktop_padding_top": 60,
         "desktop_padding_bottom": 60,
         "mobile_padding_top": 40,
@@ -40,15 +44,15 @@
     "phone_ring_MzFcJr": {
       "type": "phone-ring",
       "settings": {
-        "image": "shopify://shop_images/MTS-Incoming-Call_png.webp",
-        "heading_1": "We Make",
-        "heading_2": "Your Phone Ring.",
-        "sub_heading": "We’re here for tradies who want less hassle and more enquiries.",
-        "text": "For business owners who need real action and proven know-how—not endless plans and empty promises.And for companies looking for solid growth instead of uncertain results.If you're serious about digital marketing that really works for your trade business, let's have a chat.",
+        "image": "shopify://shop_images/AnAgencyBranding03.png",
+        "heading_1": "Look Like a Brand.",
+        "heading_2": "Feel Like One Too.",
+        "sub_heading": "Because inconsistent branding confuses customers and kills credibility.",
+        "text": "We help you get clear on your message, tone, colours, typography, and visuals — then package it into a complete brand system that works everywhere you show up.",
         "phone_button_text": "0499226600",
         "phone_number": "0499226600",
-        "enquire_button_text": "Enquire Now",
-        "enquire_button_link": "#",
+        "enquire_button_text": "Book a Brand Discovery Call",
+        "enquire_button_link": "shopify://pages/contact",
         "image_right": true,
         "text_align": "left",
         "desktop_padding_top": 100,
@@ -60,8 +64,12 @@
     "advertise_KLNL33": {
       "type": "advertise",
       "settings": {
-        "main_image": "shopify://shop_images/get-more-leads-for-your-trade.webp",
-        "secondary_image": "shopify://shop_images/this-could-be-you.svg",
+        "loop_video": true,
+        "autoplay_video": true,
+        "main_image": "shopify://shop_images/AnAgencyBranding04.png",
+        "media_border_radius": 0,
+        "media_border_width": 0,
+        "media_border_color": "#000000",
         "secondary_image_roate_angle": 8,
         "desktop_left": -80,
         "desktop_top": -1,
@@ -71,11 +79,11 @@
         "mobile_top": -1,
         "mobile_right": -1,
         "mobile_bottom": -30,
-        "heading": "Digital Marketing for Tradesmen Matters",
-        "sub_heading": "How An Agency Helps You Stand Out Online",
-        "text": "<p>Setting up your business for long-term success starts with the right marketing. You need a smart strategy to build your online presence—this means an optimized website that helps high-level clients find you fast, plus a lead generation system that works with proven advertising. Whether you're an electrician, plumber, carpenter, builder, roofer, or painter, getting noticed by the right clients is key.</p><p>But digital marketing only goes so far without solid branding.</p><p>Your branding shows your professionalism and what your clients can expect from your work. From your website landing page to your business cards and even your van wrap, you want to be proud of the image you're putting out there. An Agency's branding team for tradesmen builds the strong foundation you need for all your digital marketing efforts.</p>",
-        "button_link": "#",
-        "button_text": "Help Grow My Business",
+        "heading": "You Only Get One First Impression",
+        "sub_heading": "Let’s make it count.",
+        "text": "<p>Your branding is the difference between being seen as a side hustle or a serious business. We create cohesive brand kits that include your logo, fonts, colour palette, visual direction and messaging,  all tailored to your industry and audience. It's more than a look, it's a feeling.</p><p></p>",
+        "button_link": "shopify://pages/contact",
+        "button_text": "Get a Complete Brand Kit →",
         "image_right": false,
         "text_align": "left",
         "background_color": "#ffffff",
@@ -87,9 +95,15 @@
     },
     "advertise_qQYPyj": {
       "type": "advertise",
+      "disabled": true,
       "settings": {
+        "loop_video": true,
+        "autoplay_video": true,
         "main_image": "shopify://shop_images/google-ads-for-tradies-australia.webp",
         "secondary_image": "shopify://shop_images/google-ads-for-tradies-text.svg",
+        "media_border_radius": 0,
+        "media_border_width": 0,
+        "media_border_color": "#000000",
         "secondary_image_roate_angle": 0,
         "desktop_left": -1,
         "desktop_top": 160,
@@ -152,6 +166,7 @@
         "trust_item_YFytD9",
         "trust_item_JfVUzV"
       ],
+      "disabled": true,
       "settings": {
         "heading": "An Agency: An Australian Web Design Company You Can Trust",
         "text": "<p>With so many website developers and designers out there, you might ask, why us? Maybe you could even build it yourself. But let’s be honest—that’s probably the last thing you want to do. Even those DIY website builders miss the mark on the technical details, not to mention understanding the unique needs of the trades industry.</p><p>That’s where An Agency comes in. We know what it takes to create a website that not only looks great but also works for tradies. We get the trade business and the hard work you put in every day. No need to be modest about it—here’s what sets us apart.</p>",
@@ -164,9 +179,15 @@
     },
     "advertise_PAQGf7": {
       "type": "advertise",
+      "disabled": true,
       "settings": {
+        "loop_video": true,
+        "autoplay_video": true,
         "main_image": "shopify://shop_images/website-design-and-dev-for-tradies.png",
         "secondary_image": "shopify://shop_images/get-the-work-you-want.svg",
+        "media_border_radius": 0,
+        "media_border_width": 0,
+        "media_border_color": "#000000",
         "secondary_image_roate_angle": 0,
         "desktop_left": -80,
         "desktop_top": -1,
@@ -192,8 +213,14 @@
     },
     "advertise_DnFdqE": {
       "type": "advertise",
+      "disabled": true,
       "settings": {
+        "loop_video": true,
+        "autoplay_video": true,
         "main_image": "shopify://shop_images/Web-Designs-for-trades.png",
+        "media_border_radius": 0,
+        "media_border_width": 0,
+        "media_border_color": "#000000",
         "secondary_image_roate_angle": 12,
         "desktop_left": -1,
         "desktop_top": -1,
@@ -220,8 +247,12 @@
     "advertise_JebRqW": {
       "type": "advertise",
       "settings": {
-        "main_image": "shopify://shop_images/email-marketing-for-tradies-edm.webp",
-        "secondary_image": "shopify://shop_images/get-new-customers.svg",
+        "loop_video": true,
+        "autoplay_video": true,
+        "main_image": "shopify://shop_images/AnAgencyBranding02.png",
+        "media_border_radius": 0,
+        "media_border_width": 0,
+        "media_border_color": "#000000",
         "secondary_image_roate_angle": 0,
         "desktop_left": -1,
         "desktop_top": 160,
@@ -231,14 +262,14 @@
         "mobile_top": -25,
         "mobile_right": 0,
         "mobile_bottom": -1,
-        "heading": "The Challenge of Marketing for Tradies",
-        "sub_heading": "You’re up against a crowded market, and let’s be real—your expertise is in your trade, not marketing.",
-        "text": "<p><strong>If you’re not using the right strategies, your ideal clients won’t find you. In today’s digital world, being good at what you do isn’t enough—you need to be seen.</strong></p><p>That’s where we come in. An Agency has years of experience helping Aussie tradies grow their businesses. We know what works, what doesn’t, and how to get real results—so you can focus on the job while we handle the marketing.</p>",
-        "button_link": "#",
-        "button_text": "Get More High-Quality Leads",
+        "heading": "Your Brand Sets the Tone for Every Sale You’ll Ever Make",
+        "sub_heading": "We help you build one that attracts, connects, and converts.",
+        "text": "<p>A strong brand makes everything easier - selling, marketing, pricing, growth. We take the time to understand who you are and where you’re going, then shape your visual and verbal identity to match. Whether you’re a builder, a beauty brand, or a bold new store, we’ll give you a brand you can run with.</p><p></p>",
+        "button_link": "shopify://pages/contact",
+        "button_text": "Start Your Branding Project →",
         "image_right": true,
         "text_align": "left",
-        "background_color": "#aeddf9",
+        "background_color": "#ffffff",
         "desktop_padding_top": 60,
         "desktop_padding_bottom": 60,
         "mobile_padding_top": 40,
@@ -323,6 +354,7 @@
         "tradies_item_6qHYz4",
         "tradies_item_tDB4YR"
       ],
+      "disabled": true,
       "settings": {
         "heading": "Tradies we work with",
         "text": "Looking for an affordable and effective web design service for your trade business in Australia? We’ve got you.",
@@ -428,6 +460,7 @@
         "faq_item_Htp8HR",
         "faq_item_Fb4Rdq"
       ],
+      "disabled": true,
       "settings": {
         "heading": "Frequently Asked Questions",
         "bg_color": "#f9f9f9",
@@ -444,14 +477,21 @@
         "partner_item_Am8rMX": {
           "type": "partner_item",
           "settings": {
-            "image": "shopify://shop_images/semrush-agency-partner.webp",
+            "image": "shopify://shop_images/shopify-partner-logo.jpg",
             "link": "#"
           }
         },
         "partner_item_gQr6pr": {
           "type": "partner_item",
           "settings": {
-            "image": "shopify://shop_images/Tradify.webp",
+            "image": "shopify://shop_images/google_partner.png",
+            "link": ""
+          }
+        },
+        "partner_item_gizEVP": {
+          "type": "partner_item",
+          "settings": {
+            "image": "shopify://shop_images/tiktokpartners.webp",
             "link": ""
           }
         },
@@ -462,24 +502,17 @@
             "link": ""
           }
         },
-        "partner_item_gizEVP": {
+        "partner_item_ppj4Q9": {
           "type": "partner_item",
           "settings": {
-            "image": "shopify://shop_images/evnex-partner.webp",
+            "image": "shopify://shop_images/meta-for-business-partner.webp",
             "link": ""
           }
         },
         "partner_item_nMMzBY": {
           "type": "partner_item",
           "settings": {
-            "image": "shopify://shop_images/google-partner.webp",
-            "link": ""
-          }
-        },
-        "partner_item_ppj4Q9": {
-          "type": "partner_item",
-          "settings": {
-            "image": "shopify://shop_images/meta-for-business-partner.webp",
+            "image": "shopify://shop_images/bingads.png",
             "link": ""
           }
         }
@@ -487,18 +520,33 @@
       "block_order": [
         "partner_item_Am8rMX",
         "partner_item_gQr6pr",
-        "partner_item_peizWL",
         "partner_item_gizEVP",
-        "partner_item_nMMzBY",
-        "partner_item_ppj4Q9"
+        "partner_item_peizWL",
+        "partner_item_ppj4Q9",
+        "partner_item_nMMzBY"
       ],
       "settings": {
         "heading": "Partnered With",
-        "bg_color": "#fbfbfb",
+        "bg_color": "#ffffff",
         "desktop_card_border_radius": 10,
         "mobile_card_border_radius": 6,
         "desktop_padding_top": 30,
         "desktop_padding_bottom": 30,
+        "mobile_padding_top": 30,
+        "mobile_padding_bottom": 30
+      }
+    },
+    "marketing_focus_HqR36j": {
+      "type": "marketing-focus",
+      "name": "Marketing Focus Section",
+      "settings": {
+        "logo_image": "shopify://shop_images/04.jpg",
+        "headline": "Stop Looking Like Every Other Business",
+        "sub_text": "Let’s create a brand identity that’s clear, memorable, and built to grow with you.",
+        "button_text": "Request a Quote",
+        "button_link": "shopify://pages/contact",
+        "desktop_padding_top": 40,
+        "desktop_padding_bottom": 40,
         "mobile_padding_top": 30,
         "mobile_padding_bottom": 30
       }
@@ -515,6 +563,7 @@
     "advertise_JebRqW",
     "tradies_D9qHzj",
     "faq_cYAhKJ",
-    "partner_with_U86NgH"
+    "partner_with_U86NgH",
+    "marketing_focus_HqR36j"
   ]
 }

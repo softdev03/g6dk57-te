@@ -12,8 +12,13 @@
     "advertise_xMT9mA": {
       "type": "advertise",
       "settings": {
+        "loop_video": true,
+        "autoplay_video": true,
         "main_image": "shopify://shop_images/AnAgencyTikTokAds02.png",
         "secondary_image": "shopify://shop_images/google-ads-for-tradies-text_fa2d97fc-da4f-4232-a902-3880c9eef3a3.svg",
+        "media_border_radius": 0,
+        "media_border_width": 0,
+        "media_border_color": "#000000",
         "secondary_image_roate_angle": -4,
         "desktop_left": 300,
         "desktop_top": -1,
@@ -25,7 +30,7 @@
         "mobile_bottom": -26,
         "heading": "TikTok Ads for Aussie Brands",
         "sub_heading": "Where Attention Spans Are Short, But Impact Runs Deep",
-        "text": "<p>TikTok isn’t just a trend—it’s a conversion machine. With over a billion monthly users and an algorithm that favours high-engagement content, TikTok Ads are perfect for brands that want to get in front of real people fast. Whether you're running an e-commerce store on Shopify or generating leads for a local service, this platform offers high-impact reach at a low cost.</p><p>If your ideal customer scrolls more than they search, you’re already late to the party. TikTok Ads let you tap into native-style video that blends right into the feed, builds trust, and drives action.</p><p>An Agency builds TikTok campaigns that are lean, punchy, and built for the Aussie market. From product showcases to lead gen hooks, we’ll help you stand out where the scroll never stops.</p>",
+        "text": "<p>TikTok isn’t just a trend, it’s a conversion machine. With over a billion monthly users and an algorithm that favours high-engagement content, TikTok Ads are perfect for brands that want to get in front of real people fast. Whether you're running an e-commerce store on Shopify or generating leads for a local service, this platform offers high-impact reach at a low cost.</p><p>If your ideal customer scrolls more than they search, you’re already late to the party. TikTok Ads let you tap into native-style video that blends right into the feed, builds trust, and drives action.</p><p>An Agency builds TikTok campaigns that are lean, punchy, and built for the Aussie market. From product showcases to lead gen hooks, we’ll help you stand out where the scroll never stops.</p>",
         "button_link": "shopify://pages/contact",
         "button_text": "Speak To Our Team",
         "image_right": false,
@@ -44,7 +49,7 @@
         "heading_1": "We Make TikTok Work for Business",
         "heading_2": "Work for Business",
         "sub_heading": "Not Just Dances. Real Sales. Real Enquiries.",
-        "text": "We’re not here to waste your ad spend on trendy videos with no ROI. We build short-form content that pulls eyes, clicks, and conversions. Whether you're a plumber in Parramatta or pushing product sales from your Shopify store, TikTok gives you a real shot at reaching people before your competitors do.For businesses chasing real outcomes—not vanity metrics—TikTok Ads deliver leads and sales without the fluff. If you’re serious about growing with smart, strategic marketing, let’s chat.",
+        "text": "We’re not here to waste your ad spend on trendy videos with no ROI. We build short-form content that pulls eyes, clicks, and conversions. Whether you're a plumber in Parramatta or pushing product sales from your Shopify store, TikTok gives you a real shot at reaching people before your competitors do.For businesses chasing real outcomes, not vanity metrics. TikTok Ads deliver leads and sales without the fluff. If you’re serious about growing with smart, strategic marketing, let’s chat.",
         "phone_button_text": "0499226600",
         "phone_number": "0499226600",
         "enquire_button_text": "Enquire Now",
@@ -60,8 +65,13 @@
     "advertise_KLNL33": {
       "type": "advertise",
       "settings": {
+        "loop_video": true,
+        "autoplay_video": true,
         "main_image": "shopify://shop_images/AnAgencyTikTokAds04.png",
         "secondary_image": "shopify://shop_images/this-could-be-you.svg",
+        "media_border_radius": 0,
+        "media_border_width": 0,
+        "media_border_color": "#000000",
         "secondary_image_roate_angle": 8,
         "desktop_left": -80,
         "desktop_top": -1,
@@ -73,8 +83,8 @@
         "mobile_bottom": -30,
         "heading": "Why TikTok Ads Are a Smart Move",
         "sub_heading": "How An Agency Helps You Stand Out Online",
-        "text": "<p>TikTok’s user base is growing older and spending more—and that’s your window. A well-built campaign on TikTok isn’t about trends, it’s about strategy. We help you show up with the right message, for the right audience, at the right time.</p><p>E-commerce brands can demonstrate product value in seconds with visual hooks that stick. Tradies and service providers can position themselves as local legends with simple, effective storytelling.</p><p>From scriptwriting and creative to campaign setup and optimisation, we handle the heavy lifting. You get the clicks, calls, and conversions.</p>",
-        "button_link": "#",
+        "text": "<p>TikTok’s user base is growing older and spending more and that’s your window. A well-built campaign on TikTok isn’t about trends, it’s about strategy. We help you show up with the right message, for the right audience, at the right time.</p><p>E-commerce brands can demonstrate product value in seconds with visual hooks that stick. Tradies and service providers can position themselves as local legends with simple, effective storytelling.</p><p>From scriptwriting and creative to campaign setup and optimisation, we handle the heavy lifting. You get the clicks, calls, and conversions.</p>",
+        "button_link": "shopify://pages/contact",
         "button_text": "Help Grow My Business",
         "image_right": false,
         "text_align": "left",
@@ -88,7 +98,12 @@
     "advertise_qQYPyj": {
       "type": "advertise",
       "settings": {
+        "loop_video": true,
+        "autoplay_video": true,
         "main_image": "shopify://shop_images/AnAgencyTikTokAds06.png",
+        "media_border_radius": 0,
+        "media_border_width": 0,
+        "media_border_color": "#000000",
         "secondary_image_roate_angle": 0,
         "desktop_left": -1,
         "desktop_top": 160,
@@ -100,7 +115,7 @@
         "mobile_bottom": -1,
         "heading": "We Help You Go Viral for the Right Reasons",
         "sub_heading": "Standout TikTok Ads for Trades and Ecomm Brands",
-        "text": "<p>Most people scroll TikTok for fun — we turn that scroll into a sale, lead or booking. Whether you're selling products on Shopify or offering local services, TikTok Ads give you a chance to cut through fast with creative that sticks. Short-form video works when it’s built around strategy, not guesswork.</p><p>We don’t do cookie-cutter. We create thumb-stopping campaigns tailored to your business goals — from brand awareness to direct conversions. Our creatives get people to stop, watch, and act.</p><p>If your audience is under 45, chances are they’re already on TikTok. So the real question is — are you?</p>",
+        "text": "<p>Most people scroll TikTok for fun, we turn that scroll into a sale, lead or booking. Whether you're selling products on Shopify or offering local services, TikTok Ads give you a chance to cut through fast with creative that sticks. Short-form video works when it’s built around strategy, not guesswork.</p><p>We don’t do cookie-cutter. We create thumb-stopping campaigns tailored to your business goals. From brand awareness to direct conversions. Our creatives get people to stop, watch, and act.</p><p>If your audience is under 45, chances are they’re already on TikTok. So the real question is,  are you?</p>",
         "button_link": "shopify://pages/contact",
         "button_text": "Help Grow My Business",
         "image_right": true,
@@ -119,7 +134,7 @@
           "type": "trust_item",
           "settings": {
             "heading": "TREND-SMART STRATEGY",
-            "main_text": "<p>We don’t chase trends — we use them to your advantage. Our team knows how to frame your offer in a way that gets attention and turns traffic into action. Strategy first, always.</p><p></p>",
+            "main_text": "<p>We don’t chase trends, we use them to your advantage. Our team knows how to frame your offer in a way that gets attention and turns traffic into action. Strategy first, always.</p><p></p>",
             "button_text": "",
             "additional_text": "",
             "accordion_image": "shopify://shop_images/yellow-arrow.svg"
@@ -139,7 +154,7 @@
           "type": "trust_item",
           "settings": {
             "heading": "AUSSIE THROUGH AND THROUGH",
-            "main_text": "<p>We’re based here, we get the local market, and we know what Aussies actually engage with online. No offshore fluff — just clear, conversion-focused results for real businesses.</p><p></p>",
+            "main_text": "<p>We’re based here, we get the local market, and we know what Aussies actually engage with online. No offshore fluff,  just clear, conversion-focused results for real businesses.</p><p></p>",
             "button_text": "",
             "additional_text": "",
             "accordion_image": "shopify://shop_images/yellow-arrow.svg"
@@ -153,7 +168,7 @@
       ],
       "settings": {
         "heading": "An Agency: A TikTok Ads Partner You Can Count On",
-        "text": "<p>You’ve probably been told to “get on TikTok” — and sure, the platform is exploding. But it’s not about jumping on every trend. It’s about showing up with purpose, building trust, and delivering ads that actually lead to real enquiries, not just views.</p><p>That’s what we do at An Agency. We’re not here to sell you hype. We build campaigns for tradies and Shopify brands that know who they are, what they offer, and who they want to reach. Whether you're a local service business or a fast-moving product store, we’ll help you show up, stand out, and grow your business the smart way.</p>",
+        "text": "<p>You’ve probably been told to “get on TikTok”  and sure, the platform is exploding. But it’s not about jumping on every trend. It’s about showing up with purpose, building trust, and delivering ads that actually lead to real enquiries, not just views.</p><p>That’s what we do at An Agency. We’re not here to sell you hype. We build campaigns for tradies and Shopify brands that know who they are, what they offer, and who they want to reach. Whether you're a local service business or a fast-moving product store, we’ll help you show up, stand out, and grow your business the smart way.</p>",
         "trust_image": "shopify://shop_images/Artboard_13.png",
         "desktop_padding_top": 60,
         "desktop_padding_bottom": 60,
@@ -164,8 +179,13 @@
     "advertise_PAQGf7": {
       "type": "advertise",
       "settings": {
+        "loop_video": true,
+        "autoplay_video": true,
         "main_image": "shopify://shop_images/AnAgencyTikTokAds07.png",
         "secondary_image": "shopify://shop_images/get-the-work-you-want.svg",
+        "media_border_radius": 0,
+        "media_border_width": 0,
+        "media_border_color": "#000000",
         "secondary_image_roate_angle": 0,
         "desktop_left": -80,
         "desktop_top": -1,
@@ -175,9 +195,9 @@
         "mobile_top": -1,
         "mobile_right": -1,
         "mobile_bottom": -30,
-        "heading": "Digital Campaigns That Don’t Just Look Good — They Work",
+        "heading": "Digital Campaigns That Don’t Just Look Good, They Work",
         "sub_heading": "How An Agency Helps You Win on TikTok",
-        "text": "<p>Running TikTok Ads isn’t just about putting up a video and hoping for views. Our team builds campaigns that are backed by data, optimised for your audience, and crafted to convert.</p><p>We work with both Shopify businesses and tradies to create high-performing ads that match what your audience actually wants to see. From creative hooks to compelling CTAs, we do it all in-house — and we test until it clicks.</p><p>Whether it’s a 15-second punchy promo or a 60-second walkthrough, we help you create content that gets attention and drives results.</p><h3></h3>",
+        "text": "<p>Running TikTok Ads isn’t just about putting up a video and hoping for views. Our team builds campaigns that are backed by data, optimised for your audience, and crafted to convert.</p><p>We work with both Shopify businesses and tradies to create high-performing ads that match what your audience actually wants to see. From creative hooks to compelling CTAs, we do it all in-house  and we test until it clicks.</p><p>Whether it’s a 15-second punchy promo or a 60-second walkthrough, we help you create content that gets attention and drives results.</p><h3></h3>",
         "button_link": "shopify://pages/contact",
         "button_text": "Help Grow My Business",
         "image_right": false,
@@ -192,7 +212,12 @@
     "advertise_DnFdqE": {
       "type": "advertise",
       "settings": {
+        "loop_video": true,
+        "autoplay_video": true,
         "main_image": "shopify://shop_images/AnAgencyTikTokAds08.png",
+        "media_border_radius": 0,
+        "media_border_width": 0,
+        "media_border_color": "#000000",
         "secondary_image_roate_angle": 12,
         "desktop_left": -1,
         "desktop_top": -1,
@@ -204,7 +229,7 @@
         "mobile_bottom": -1,
         "heading": "Strategic Ads, Real Results",
         "sub_heading": "More Eyes. More Clicks. More Customers.",
-        "text": "<p>Let’s talk numbers. TikTok has over 8 million users in Australia alone — and it’s still growing. If you're not running ads here, you're leaving serious money on the table.</p><p>For eCommerce, TikTok drives impulse buys and repeat traffic. For tradies, it builds trust and authority fast. We tailor each campaign based on your niche, audience behaviour, and what gets results in your space.</p><p>You don’t need to be a dancing plumber or a trend-savvy fashion label to win on TikTok — you just need the right strategy.</p>",
+        "text": "<p>Let’s talk numbers. TikTok has over 8 million users in Australia alone and it’s still growing. If you're not running ads here, you're leaving serious money on the table.</p><p>For eCommerce, TikTok drives impulse buys and repeat traffic. For tradies, it builds trust and authority fast. We tailor each campaign based on your niche, audience behaviour, and what gets results in your space.</p><p>You don’t need to be a dancing plumber or a trend-savvy fashion label to win on TikTok, you just need the right strategy.</p>",
         "button_link": "shopify://pages/contact",
         "button_text": "Help Grow My Business",
         "image_right": true,
@@ -220,8 +245,13 @@
       "type": "advertise",
       "disabled": true,
       "settings": {
+        "loop_video": true,
+        "autoplay_video": true,
         "main_image": "shopify://shop_images/email-marketing-for-tradies-edm.webp",
         "secondary_image": "shopify://shop_images/get-new-customers.svg",
+        "media_border_radius": 0,
+        "media_border_width": 0,
+        "media_border_color": "#000000",
         "secondary_image_roate_angle": 0,
         "desktop_left": -1,
         "desktop_top": 160,
@@ -503,6 +533,21 @@
         "mobile_padding_top": 30,
         "mobile_padding_bottom": 30
       }
+    },
+    "marketing_focus_WQjzfy": {
+      "type": "marketing-focus",
+      "name": "Marketing Focus Section",
+      "settings": {
+        "logo_image": "shopify://shop_images/04.jpg",
+        "headline": "We Know What Stops the Scroll",
+        "sub_text": "TikTok Ads built to hook attention, build brand, and drive direct response.",
+        "button_text": "Request a Quote",
+        "button_link": "shopify://pages/contact",
+        "desktop_padding_top": 0,
+        "desktop_padding_bottom": 0,
+        "mobile_padding_top": 0,
+        "mobile_padding_bottom": 0
+      }
     }
   },
   "order": [
@@ -516,6 +561,7 @@
     "advertise_JebRqW",
     "tradies_D9qHzj",
     "faq_cYAhKJ",
-    "partner_with_U86NgH"
+    "partner_with_U86NgH",
+    "marketing_focus_WQjzfy"
   ]
 }

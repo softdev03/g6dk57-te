@@ -12,8 +12,12 @@
     "advertise_xMT9mA": {
       "type": "advertise",
       "settings": {
-        "main_image": "shopify://shop_images/seo-for-trades.webp",
-        "secondary_image": "shopify://shop_images/get-found-on-the-web-right.svg",
+        "loop_video": true,
+        "autoplay_video": true,
+        "main_image": "shopify://shop_images/AnAgencySEO_03.png",
+        "media_border_radius": 0,
+        "media_border_width": 0,
+        "media_border_color": "#000000",
         "secondary_image_roate_angle": 8,
         "desktop_left": -90,
         "desktop_top": -1,
@@ -23,11 +27,11 @@
         "mobile_top": -1,
         "mobile_right": -1,
         "mobile_bottom": -26,
-        "heading": "Websites and Marketing For Tradies",
-        "sub_heading": "How An Agency Helps You Stand Out Online",
-        "text": "<p>If you're like most tradies, landing small jobs isn’t the problem—your phone’s always buzzing. The real challenge is scoring those bigger, high-paying gigs. Residential and commercial contracts need a different approach since the folks who care more about quality than price aren’t easy to reach.</p><p>Let's be real: the bigger players are nabbing those top jobs before you even get a shot.</p><p>If you’re an electrician aiming for steady, well-paid work, getting online is a must. A solid website and smart marketing plan boost your brand, draw in quality leads, free you from third-party platforms, and even make your business more valuable.</p><p>An Agency is here to help you connect with more customers through our all-in-one website, branding, and marketing services for electricians.</p>",
-        "button_link": "#",
-        "button_text": "Speak To Our Team",
+        "heading": "SEO That Actually Moves the Needle",
+        "sub_heading": "More traffic. More leads. More sales. No fluff.",
+        "text": "<p>If your website’s buried past page 1, it’s invisible. And if your SEO strategy is just keyword stuffing and hope, it's time for a reset. At An Agency, we build search strategies that bring in real buyers, not just clicks. From local service businesses to national eCommerce brands, we tailor every campaign to rank where it matters and convert where it counts.</p>",
+        "button_link": "shopify://pages/contact",
+        "button_text": "Let’s Talk Rankings →",
         "image_right": false,
         "text_align": "left",
         "background_color": "#ffffff",
@@ -40,15 +44,15 @@
     "phone_ring_MzFcJr": {
       "type": "phone-ring",
       "settings": {
-        "image": "shopify://shop_images/MTS-Incoming-Call_png.webp",
-        "heading_1": "We Make",
-        "heading_2": "Your Phone Ring.",
-        "sub_heading": "We’re here for tradies who want less hassle and more enquiries.",
-        "text": "For business owners who need real action and proven know-how—not endless plans and empty promises.And for companies looking for solid growth instead of uncertain results.If you're serious about digital marketing that really works for your trade business, let's have a chat.",
+        "image": "shopify://shop_images/AnAgencySEO_01.png",
+        "heading_1": "We Get You Found.",
+        "heading_2": "Then Chosen.",
+        "sub_heading": "Because what’s the point of traffic if no one converts?",
+        "text": "If your site’s not showing up on Google, or if your competitors are outranking you with half the experience, we’ve got work to do. At An Agency, we don’t just bring traffic, we bring the right traffic. We focus on high-intent searches, proven on-page fixes, and localised strategies that attract people already looking for what you offer. SEO doesn’t have to be slow or vague. Done right, it becomes your most reliable sales channel.",
         "phone_button_text": "0499226600",
         "phone_number": "0499226600",
-        "enquire_button_text": "Enquire Now",
-        "enquire_button_link": "#",
+        "enquire_button_text": "Let’s Get You Ranking",
+        "enquire_button_link": "shopify://pages/contact",
         "image_right": true,
         "text_align": "left",
         "desktop_padding_top": 100,
@@ -60,8 +64,12 @@
     "advertise_KLNL33": {
       "type": "advertise",
       "settings": {
-        "main_image": "shopify://shop_images/get-more-leads-for-your-trade.webp",
-        "secondary_image": "shopify://shop_images/this-could-be-you.svg",
+        "loop_video": true,
+        "autoplay_video": true,
+        "main_image": "shopify://shop_images/AnAgencySEO_02.png",
+        "media_border_radius": 0,
+        "media_border_width": 0,
+        "media_border_color": "#000000",
         "secondary_image_roate_angle": 8,
         "desktop_left": -80,
         "desktop_top": -1,
@@ -71,11 +79,11 @@
         "mobile_top": -1,
         "mobile_right": -1,
         "mobile_bottom": -30,
-        "heading": "Digital Marketing for Tradesmen Matters",
-        "sub_heading": "How An Agency Helps You Stand Out Online",
-        "text": "<p>Setting up your business for long-term success starts with the right marketing. You need a smart strategy to build your online presence—this means an optimized website that helps high-level clients find you fast, plus a lead generation system that works with proven advertising. Whether you're an electrician, plumber, carpenter, builder, roofer, or painter, getting noticed by the right clients is key.</p><p>But digital marketing only goes so far without solid branding.</p><p>Your branding shows your professionalism and what your clients can expect from your work. From your website landing page to your business cards and even your van wrap, you want to be proud of the image you're putting out there. An Agency's branding team for tradesmen builds the strong foundation you need for all your digital marketing efforts.</p>",
-        "button_link": "#",
-        "button_text": "Help Grow My Business",
+        "heading": "Built for Google, Written for Humans",
+        "sub_heading": "We balance the algorithm with real brand storytelling.",
+        "text": "<p>Ranking high is only half the battle, your content needs to speak to people, not just search engines. We combine expert-level optimisation with words that feel natural, helpful, and built to sell. Whether it's service pages, product descriptions or blog content, we craft SEO that’s smart, strategic, and made to grow with you.</p><p></p>",
+        "button_link": "shopify://pages/contact",
+        "button_text": "Get Your Custom SEO Strategy →",
         "image_right": false,
         "text_align": "left",
         "background_color": "#ffffff",
@@ -89,8 +97,13 @@
       "type": "advertise",
       "disabled": true,
       "settings": {
+        "loop_video": true,
+        "autoplay_video": true,
         "main_image": "shopify://shop_images/google-ads-for-tradies-australia.webp",
         "secondary_image": "shopify://shop_images/google-ads-for-tradies-text.svg",
+        "media_border_radius": 0,
+        "media_border_width": 0,
+        "media_border_color": "#000000",
         "secondary_image_roate_angle": 0,
         "desktop_left": -1,
         "desktop_top": 160,
@@ -120,31 +133,31 @@
         "trust_item_KtaqTQ": {
           "type": "trust_item",
           "settings": {
-            "heading": "Decades of experience",
-            "main_text": "<p>Our team of web experts has spent decades in the game, building websites that don’t just look good—they perform. We’ve seen trends come and go, and we know what works.</p><p></p>",
+            "heading": "RESULTS-DRIVEN STRATEGY",
+            "main_text": "<p>Our SEO plans are built around real results,  not vanity metrics. We go after high-intent keywords, clean up on-page issues, and build a site that Google loves and customers trust.</p>",
             "button_text": "Read More",
-            "additional_text": "<p>…We bring this deep experience and understanding of the ever-changing web design industry to every project, making sure your website is built to get results.</p>",
-            "accordion_image": "shopify://shop_images/yellow-arrow.svg"
+            "additional_text": "<p>…We focus on driving leads, not just traffic. You’ll get keyword strategies based on buyer intent, SEO audits that uncover hidden gaps, and content plans built to bring in the right visitors, not just any visitors.</p>",
+            "accordion_image": "shopify://shop_images/plus_1.png"
           }
         },
         "trust_item_YFytD9": {
           "type": "trust_item",
           "settings": {
-            "heading": "We get you, mate",
-            "main_text": "<p>Our website packages are built specifically for Aussie tradies. We know the industry, we know your market, and we know what makes customers pick up the phone.</p><p></p>",
+            "heading": "LOCALISED FOR AUSTRALIA",
+            "main_text": "<p>We know the Aussie market, suburbs, and search trends. From tradies in Melbourne to retailers in Brisbane, we tailor SEO strategies that target your local customers with pinpoint accuracy.</p>",
             "button_text": "Read More",
-            "additional_text": "<p>…Your best clients want to see a business that looks professional, with clear information and high-quality visuals. We make sure your website ticks all the right boxes. With decades of experience building sites for tradies, we know what works.</p>",
-            "accordion_image": "shopify://shop_images/yellow-arrow.svg"
+            "additional_text": "<p>…We optimise for local search terms, Google Business Profiles, suburb-based pages, and region-specific backlinks. Your business will start showing up where it actually matters,  nearby and ready to buy.</p>",
+            "accordion_image": "shopify://shop_images/plus_1.png"
           }
         },
         "trust_item_JfVUzV": {
           "type": "trust_item",
           "settings": {
-            "heading": "100% Aussie",
-            "main_text": "<p>We’re proudly Australian-owned and operated, working exclusively with local businesses. We believe in keeping it local and supporting Aussie tradies.</p><p></p>",
+            "heading": "TECHNICAL SEO THAT ACTUALLY WORKS",
+            "main_text": "<p>We handle the back-end tech stuff that most people ignore,  page speed, mobile optimisation, crawlability, schema markup and more.</p>",
             "button_text": "Read More",
-            "additional_text": "<p>…An Agency handles everything—design, content, and site upkeep—so you don’t have to stress. Your website will be built specifically for your trade, industry, and the local market.</p><p>We’ll create a site that looks great, is easy to use, and is optimised to rank high in search results—so more customers find you and reach out for a quote.</p>",
-            "accordion_image": "shopify://shop_images/yellow-arrow.svg"
+            "additional_text": "<p>…Your site will load faster, be easier for search engines to read, and meet all the technical benchmarks Google expects in 2025. That means higher rankings and a better user experience from day one.</p>",
+            "accordion_image": "shopify://shop_images/plus_1.png"
           }
         }
       },
@@ -154,9 +167,9 @@
         "trust_item_JfVUzV"
       ],
       "settings": {
-        "heading": "An Agency: An Australian Web Design Company You Can Trust",
-        "text": "<p>With so many website developers and designers out there, you might ask, why us? Maybe you could even build it yourself. But let’s be honest—that’s probably the last thing you want to do. Even those DIY website builders miss the mark on the technical details, not to mention understanding the unique needs of the trades industry.</p><p>That’s where An Agency comes in. We know what it takes to create a website that not only looks great but also works for tradies. We get the trade business and the hard work you put in every day. No need to be modest about it—here’s what sets us apart.</p>",
-        "trust_image": "shopify://shop_images/review-bar-green.svg",
+        "heading": "Why Businesses Trust Us With Their SEO",
+        "text": "<p><strong>We’ve helped hundreds of Aussie companies climb the ranks and convert more traffic — because we know what actually works in today’s market.</strong></p>",
+        "trust_image": "shopify://shop_images/Artboard_13.png",
         "desktop_padding_top": 60,
         "desktop_padding_bottom": 60,
         "mobile_padding_top": 40,
@@ -167,8 +180,13 @@
       "type": "advertise",
       "disabled": true,
       "settings": {
+        "loop_video": true,
+        "autoplay_video": true,
         "main_image": "shopify://shop_images/website-design-and-dev-for-tradies.png",
         "secondary_image": "shopify://shop_images/get-the-work-you-want.svg",
+        "media_border_radius": 0,
+        "media_border_width": 0,
+        "media_border_color": "#000000",
         "secondary_image_roate_angle": 0,
         "desktop_left": -80,
         "desktop_top": -1,
@@ -196,7 +214,12 @@
       "type": "advertise",
       "disabled": true,
       "settings": {
+        "loop_video": true,
+        "autoplay_video": true,
         "main_image": "shopify://shop_images/Web-Designs-for-trades.png",
+        "media_border_radius": 0,
+        "media_border_width": 0,
+        "media_border_color": "#000000",
         "secondary_image_roate_angle": 12,
         "desktop_left": -1,
         "desktop_top": -1,
@@ -224,8 +247,13 @@
       "type": "advertise",
       "disabled": true,
       "settings": {
+        "loop_video": true,
+        "autoplay_video": true,
         "main_image": "shopify://shop_images/email-marketing-for-tradies-edm.webp",
         "secondary_image": "shopify://shop_images/get-new-customers.svg",
+        "media_border_radius": 0,
+        "media_border_width": 0,
+        "media_border_color": "#000000",
         "secondary_image_roate_angle": 0,
         "desktop_left": -1,
         "desktop_top": 160,
@@ -330,6 +358,7 @@
         "tradies_item_6qHYz4",
         "tradies_item_tDB4YR"
       ],
+      "disabled": true,
       "settings": {
         "heading": "Tradies we work with",
         "text": "Looking for an affordable and effective web design service for your trade business in Australia? We’ve got you.",
@@ -452,14 +481,21 @@
         "partner_item_Am8rMX": {
           "type": "partner_item",
           "settings": {
-            "image": "shopify://shop_images/semrush-agency-partner.webp",
+            "image": "shopify://shop_images/shopify-partner-logo.jpg",
             "link": "#"
           }
         },
         "partner_item_gQr6pr": {
           "type": "partner_item",
           "settings": {
-            "image": "shopify://shop_images/Tradify.webp",
+            "image": "shopify://shop_images/google_partner.png",
+            "link": ""
+          }
+        },
+        "partner_item_gizEVP": {
+          "type": "partner_item",
+          "settings": {
+            "image": "shopify://shop_images/tiktokpartners.webp",
             "link": ""
           }
         },
@@ -470,24 +506,17 @@
             "link": ""
           }
         },
-        "partner_item_gizEVP": {
+        "partner_item_ppj4Q9": {
           "type": "partner_item",
           "settings": {
-            "image": "shopify://shop_images/evnex-partner.webp",
+            "image": "shopify://shop_images/meta-for-business-partner.webp",
             "link": ""
           }
         },
         "partner_item_nMMzBY": {
           "type": "partner_item",
           "settings": {
-            "image": "shopify://shop_images/google-partner.webp",
-            "link": ""
-          }
-        },
-        "partner_item_ppj4Q9": {
-          "type": "partner_item",
-          "settings": {
-            "image": "shopify://shop_images/meta-for-business-partner.webp",
+            "image": "shopify://shop_images/bingads.png",
             "link": ""
           }
         }
@@ -495,18 +524,33 @@
       "block_order": [
         "partner_item_Am8rMX",
         "partner_item_gQr6pr",
-        "partner_item_peizWL",
         "partner_item_gizEVP",
-        "partner_item_nMMzBY",
-        "partner_item_ppj4Q9"
+        "partner_item_peizWL",
+        "partner_item_ppj4Q9",
+        "partner_item_nMMzBY"
       ],
       "settings": {
         "heading": "Partnered With",
-        "bg_color": "#fbfbfb",
+        "bg_color": "#ffffff",
         "desktop_card_border_radius": 10,
         "mobile_card_border_radius": 6,
         "desktop_padding_top": 30,
         "desktop_padding_bottom": 30,
+        "mobile_padding_top": 30,
+        "mobile_padding_bottom": 30
+      }
+    },
+    "marketing_focus_GAmwWY": {
+      "type": "marketing-focus",
+      "name": "Marketing Focus Section",
+      "settings": {
+        "logo_image": "shopify://shop_images/04.jpg",
+        "headline": "We Know SEO & Local Search (Inside Out)",
+        "sub_text": "Focus on running your business. We’ll handle the rankings, content, and traffic.",
+        "button_text": "Request a Quote",
+        "button_link": "shopify://pages/contact",
+        "desktop_padding_top": 40,
+        "desktop_padding_bottom": 40,
         "mobile_padding_top": 30,
         "mobile_padding_bottom": 30
       }
@@ -523,6 +567,7 @@
     "advertise_JebRqW",
     "tradies_D9qHzj",
     "faq_cYAhKJ",
-    "partner_with_U86NgH"
+    "partner_with_U86NgH",
+    "marketing_focus_GAmwWY"
   ]
 }

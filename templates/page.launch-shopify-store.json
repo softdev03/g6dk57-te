@@ -1,0 +1,531 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "results_guaranteed_MJcj9M": {
+      "type": "results-guaranteed",
+      "name": "Results Guaranteed",
+      "settings": {
+        "main_heading": "Launch | Shopify Store Package",
+        "sub_heading": "(Basic Ecommerce Setup)",
+        "description": "Ideal for: New or small businesses launching their first online store on Shopify.",
+        "button_text": "Request A Free Quote",
+        "button_link": "shopify://pages/contact",
+        "desktop_padding_top": 20,
+        "desktop_padding_bottom": 0,
+        "mobile_padding_top": 0,
+        "mobile_padding_bottom": 0
+      }
+    },
+    "phone_ring_MzFcJr": {
+      "type": "phone-ring",
+      "settings": {
+        "image": "shopify://shop_images/GoogleAds_08.jpg",
+        "heading_1": "Price",
+        "heading_2": "Range:",
+        "sub_heading": "A$3,000 – A$5,000 one-time investment (depending on complexity).",
+        "text": "This is competitively priced, typical basic Shopify sites in the market cost around A$3K–$6K.",
+        "phone_button_text": "",
+        "phone_number": "",
+        "enquire_button_text": "",
+        "enquire_button_link": "",
+        "image_right": true,
+        "text_align": "left",
+        "desktop_padding_top": 0,
+        "desktop_padding_bottom": 0,
+        "mobile_padding_top": 0,
+        "mobile_padding_bottom": 40
+      }
+    },
+    "advertise_qQYPyj": {
+      "type": "advertise",
+      "settings": {
+        "loop_video": true,
+        "autoplay_video": true,
+        "media_border_radius": 0,
+        "media_border_width": 0,
+        "media_border_color": "#000000",
+        "secondary_image_roate_angle": 0,
+        "desktop_left": -1,
+        "desktop_top": 160,
+        "desktop_right": -90,
+        "desktop_bottom": -1,
+        "mobile_left": -1,
+        "mobile_top": -25,
+        "mobile_right": 0,
+        "mobile_bottom": -1,
+        "heading": "Inclusions:",
+        "sub_heading": "",
+        "text": "",
+        "button_link": "",
+        "button_text": "",
+        "image_right": true,
+        "text_align": "left",
+        "background_color": "#ffffff",
+        "desktop_padding_top": 30,
+        "desktop_padding_bottom": 30,
+        "mobile_padding_top": 20,
+        "mobile_padding_bottom": 20
+      }
+    },
+    "benefits_section_Jw3wfd": {
+      "type": "benefits-section",
+      "blocks": {
+        "benefit_gtM4Hd": {
+          "type": "benefit",
+          "settings": {
+            "benefit_title": "",
+            "benefit_description": "Custom Shopify theme setup with branded homepage design (no cookie-cutter templates).",
+            "benefit_icon": "shopify://shop_images/checkmark.png"
+          }
+        },
+        "benefit_fCCiq3": {
+          "type": "benefit",
+          "settings": {
+            "benefit_title": "",
+            "benefit_description": "Up to 10 product collections/categories organised and up to 100 products added (client to provide product info).",
+            "benefit_icon": "shopify://shop_images/checkmark.png"
+          }
+        },
+        "benefit_8TwXDd": {
+          "type": "benefit",
+          "settings": {
+            "benefit_title": "",
+            "benefit_description": "Up to 5 content pages (e.g. About, Services, Contact) using your supplied content.",
+            "benefit_icon": "shopify://shop_images/checkmark.png"
+          }
+        },
+        "benefit_ykcHFF": {
+          "type": "benefit",
+          "settings": {
+            "benefit_title": "",
+            "benefit_description": "Standard Shopify features configured: shopping cart, checkout, payment gateway setup (Shopify Payments/PayPal), and basic shipping settings.",
+            "benefit_icon": "shopify://shop_images/checkmark.png"
+          }
+        },
+        "benefit_h4jAeM": {
+          "type": "benefit",
+          "settings": {
+            "benefit_title": "",
+            "benefit_description": "Basic SEO on-page setup (meta titles, descriptions) and submission to Google.",
+            "benefit_icon": "shopify://shop_images/checkmark.png"
+          }
+        },
+        "benefit_UJdjfr": {
+          "type": "benefit",
+          "settings": {
+            "benefit_title": "",
+            "benefit_description": "Newsletter signup form and social media profile link integration.",
+            "benefit_icon": "shopify://shop_images/checkmark.png"
+          }
+        },
+        "benefit_hAWmpP": {
+          "type": "benefit",
+          "settings": {
+            "benefit_title": "",
+            "benefit_description": "Post-launch support: 1x training session for Shopify admin usage (how to manage products, orders, settings).",
+            "benefit_icon": "shopify://shop_images/checkmark.png"
+          }
+        },
+        "benefit_3pCfqn": {
+          "type": "benefit",
+          "settings": {
+            "benefit_title": "",
+            "benefit_description": "Help connecting and configuring your custom domain.",
+            "benefit_icon": "shopify://shop_images/checkmark.png"
+          }
+        }
+      },
+      "block_order": [
+        "benefit_gtM4Hd",
+        "benefit_fCCiq3",
+        "benefit_8TwXDd",
+        "benefit_ykcHFF",
+        "benefit_h4jAeM",
+        "benefit_UJdjfr",
+        "benefit_hAWmpP",
+        "benefit_3pCfqn"
+      ],
+      "name": "Benefits Grid",
+      "settings": {
+        "section_title": "Why Having an Online Presence Matters",
+        "bg_color": "#ffffff",
+        "desktop_padding_top": 0,
+        "desktop_padding_bottom": 0,
+        "mobile_padding_top": 0,
+        "mobile_padding_bottom": 0
+      }
+    },
+    "advertise_TKEWWA": {
+      "type": "advertise",
+      "settings": {
+        "loop_video": true,
+        "autoplay_video": true,
+        "media_border_radius": 0,
+        "media_border_width": 0,
+        "media_border_color": "#000000",
+        "secondary_image_roate_angle": 0,
+        "desktop_left": -1,
+        "desktop_top": 160,
+        "desktop_right": -90,
+        "desktop_bottom": -1,
+        "mobile_left": -1,
+        "mobile_top": -25,
+        "mobile_right": 0,
+        "mobile_bottom": -1,
+        "heading": "Exclusions:",
+        "sub_heading": "",
+        "text": "",
+        "button_link": "",
+        "button_text": "Help Grow My Business",
+        "image_right": true,
+        "text_align": "left",
+        "background_color": "#ffffff",
+        "desktop_padding_top": 30,
+        "desktop_padding_bottom": 30,
+        "mobile_padding_top": 20,
+        "mobile_padding_bottom": 20
+      }
+    },
+    "benefits_section_nyY6yE": {
+      "type": "benefits-section",
+      "blocks": {
+        "benefit_Vb8Vep": {
+          "type": "benefit",
+          "settings": {
+            "benefit_title": "",
+            "benefit_description": "Custom functionality or third-party apps outside Shopify’s standard features (available as paid add-ons if needed).",
+            "benefit_icon": "shopify://shop_images/close.png"
+          }
+        },
+        "benefit_ihmzRY": {
+          "type": "benefit",
+          "settings": {
+            "benefit_title": "",
+            "benefit_description": "Content writing or product data entry beyond the included pages/products (available separately if required).",
+            "benefit_icon": "shopify://shop_images/close.png"
+          }
+        }
+      },
+      "block_order": [
+        "benefit_Vb8Vep",
+        "benefit_ihmzRY"
+      ],
+      "name": "Benefits Grid",
+      "settings": {
+        "section_title": "Why Having an Online Presence Matters",
+        "bg_color": "#fff",
+        "desktop_padding_top": 0,
+        "desktop_padding_bottom": 0,
+        "mobile_padding_top": 0,
+        "mobile_padding_bottom": 0
+      }
+    },
+    "trust_Q37M3R": {
+      "type": "trust",
+      "blocks": {
+        "trust_item_KtaqTQ": {
+          "type": "trust_item",
+          "settings": {
+            "heading": "Decades of experience",
+            "main_text": "<p>Our team of web experts has spent decades in the game, building websites that don’t just look good—they perform. We’ve seen trends come and go, and we know what works.</p><p></p>",
+            "button_text": "Read More",
+            "additional_text": "<p>…We bring this deep experience and understanding of the ever-changing web design industry to every project, making sure your website is built to get results.</p>",
+            "accordion_image": "shopify://shop_images/yellow-arrow.svg"
+          }
+        },
+        "trust_item_YFytD9": {
+          "type": "trust_item",
+          "settings": {
+            "heading": "We get you, mate",
+            "main_text": "<p>Our website packages are built specifically for Aussie tradies. We know the industry, we know your market, and we know what makes customers pick up the phone.</p><p></p>",
+            "button_text": "Read More",
+            "additional_text": "<p>…Your best clients want to see a business that looks professional, with clear information and high-quality visuals. We make sure your website ticks all the right boxes. With decades of experience building sites for tradies, we know what works.</p>",
+            "accordion_image": "shopify://shop_images/yellow-arrow.svg"
+          }
+        },
+        "trust_item_JfVUzV": {
+          "type": "trust_item",
+          "settings": {
+            "heading": "100% Aussie",
+            "main_text": "<p>We’re proudly Australian-owned and operated, working exclusively with local businesses. We believe in keeping it local and supporting Aussie tradies.</p><p></p>",
+            "button_text": "Read More",
+            "additional_text": "<p>…An Agency handles everything—design, content, and site upkeep—so you don’t have to stress. Your website will be built specifically for your trade, industry, and the local market.</p><p>We’ll create a site that looks great, is easy to use, and is optimised to rank high in search results—so more customers find you and reach out for a quote.</p>",
+            "accordion_image": "shopify://shop_images/yellow-arrow.svg"
+          }
+        }
+      },
+      "block_order": [
+        "trust_item_KtaqTQ",
+        "trust_item_YFytD9",
+        "trust_item_JfVUzV"
+      ],
+      "disabled": true,
+      "settings": {
+        "heading": "An Agency: An Australian Web Design Company You Can Trust",
+        "text": "<p>With so many website developers and designers out there, you might ask, why us? Maybe you could even build it yourself. But let’s be honest—that’s probably the last thing you want to do. Even those DIY website builders miss the mark on the technical details, not to mention understanding the unique needs of the trades industry.</p><p>That’s where An Agency comes in. We know what it takes to create a website that not only looks great but also works for tradies. We get the trade business and the hard work you put in every day. No need to be modest about it—here’s what sets us apart.</p>",
+        "trust_image": "shopify://shop_images/review-bar-green.svg",
+        "desktop_padding_top": 60,
+        "desktop_padding_bottom": 60,
+        "mobile_padding_top": 40,
+        "mobile_padding_bottom": 40
+      }
+    },
+    "advertise_PAQGf7": {
+      "type": "advertise",
+      "settings": {
+        "loop_video": true,
+        "autoplay_video": true,
+        "main_image": "shopify://shop_images/omnisend-material.jpg",
+        "media_border_radius": 0,
+        "media_border_width": 0,
+        "media_border_color": "#000000",
+        "secondary_image_roate_angle": 0,
+        "desktop_left": -80,
+        "desktop_top": -1,
+        "desktop_right": -1,
+        "desktop_bottom": 82,
+        "mobile_left": 0,
+        "mobile_top": -1,
+        "mobile_right": -1,
+        "mobile_bottom": -30,
+        "heading": "Add-Ons Available:",
+        "sub_heading": "As your store grows, we offer optional add-ons like:",
+        "text": "<p></p><ul><li>Email marketing integration</li><li>SEO packages<br/></li></ul><p>These can be purchased separately to speed up your marketing after launch.</p>",
+        "button_link": "",
+        "button_text": "",
+        "image_right": false,
+        "text_align": "left",
+        "background_color": "#ffffff",
+        "desktop_padding_top": 60,
+        "desktop_padding_bottom": 60,
+        "mobile_padding_top": 40,
+        "mobile_padding_bottom": 40
+      }
+    },
+    "advertise_DnFdqE": {
+      "type": "advertise",
+      "settings": {
+        "loop_video": true,
+        "autoplay_video": true,
+        "main_image": "shopify://shop_images/Artboard_45.png",
+        "media_border_radius": 0,
+        "media_border_width": 0,
+        "media_border_color": "#000000",
+        "secondary_image_roate_angle": 12,
+        "desktop_left": -1,
+        "desktop_top": -1,
+        "desktop_right": -1,
+        "desktop_bottom": -1,
+        "mobile_left": -1,
+        "mobile_top": -1,
+        "mobile_right": -1,
+        "mobile_bottom": -1,
+        "heading": "Competitive Insight:",
+        "sub_heading": "",
+        "text": "<p>Our Launch package offers far more value than typical freelance or offshore developers charging ~$1K–$2K.</p><p>While cheap Shopify setups often rely on free templates and minimal customisation, we create a truly branded experience ready to scale.</p><p>The ~$3–5K range is below the market for <em>customised</em> Australian-built Shopify stores (industry average ~$3K–$6K).</p><p>You're getting a professionally designed, fully functional store, ready for real-world trading, built 100% in-house (no outsourcing).</p>",
+        "button_link": "",
+        "button_text": "Help Grow My Business",
+        "image_right": true,
+        "text_align": "left",
+        "background_color": "#aeddf9",
+        "desktop_padding_top": 60,
+        "desktop_padding_bottom": 60,
+        "mobile_padding_top": 40,
+        "mobile_padding_bottom": 40
+      }
+    },
+    "advertise_L6PbPp": {
+      "type": "advertise",
+      "settings": {
+        "loop_video": true,
+        "autoplay_video": true,
+        "main_image": "shopify://shop_images/05.jpg",
+        "media_border_radius": 0,
+        "media_border_width": 0,
+        "media_border_color": "#000000",
+        "secondary_image_roate_angle": 0,
+        "desktop_left": -80,
+        "desktop_top": -1,
+        "desktop_right": -1,
+        "desktop_bottom": 82,
+        "mobile_left": 0,
+        "mobile_top": -1,
+        "mobile_right": -1,
+        "mobile_bottom": -30,
+        "heading": "Commitment & Guarantee:",
+        "sub_heading": "All our Shopify website packages come with a transparent project commitment. When you sign up:",
+        "text": "<p>You’ll receive a discovery consultation within 1–2 business days.</p><p></p><ul><li>A clear project timeline is set, covering key milestones (design drafts, revisions, launch date).</li><li>You’ll have full visibility throughout the process, no hidden fees.</li></ul><p></p><p>Every website comes with a <strong>12-month warranty</strong> against bugs or issues related to our development, if anything’s wrong on our end, we fix it at no cost.</p><p><strong>Results Guaranteed:</strong><br/>If we don’t deliver what’s agreed upon, you simply don’t pay the final milestone, no risks, no drama.</p>",
+        "button_link": "",
+        "button_text": "Help Grow My Business",
+        "image_right": false,
+        "text_align": "left",
+        "background_color": "#ffffff",
+        "desktop_padding_top": 60,
+        "desktop_padding_bottom": 60,
+        "mobile_padding_top": 40,
+        "mobile_padding_bottom": 40
+      }
+    },
+    "advertise_JebRqW": {
+      "type": "advertise",
+      "settings": {
+        "loop_video": true,
+        "autoplay_video": true,
+        "main_image": "shopify://shop_images/AnAgencyShopifyWebsite05.png",
+        "media_border_radius": 0,
+        "media_border_width": 0,
+        "media_border_color": "#000000",
+        "secondary_image_roate_angle": 0,
+        "desktop_left": -1,
+        "desktop_top": 160,
+        "desktop_right": -90,
+        "desktop_bottom": -1,
+        "mobile_left": -1,
+        "mobile_top": -25,
+        "mobile_right": 0,
+        "mobile_bottom": -1,
+        "heading": "Onboarding & Delivery:",
+        "sub_heading": "",
+        "text": "<p>-Discovery call booked within 1-2 business days after signing.</p><p>-We provide you a checklist of everything we need (e.g. product details, brand assets) so there's no confusion.</p><p>-Your dedicated project lead will guide you through the build stages.</p><p>-Launch typically happens within 4–6 weeks depending on client response times.</p>",
+        "button_link": "shopify://pages/contact",
+        "button_text": "Request A Free Quote",
+        "image_right": true,
+        "text_align": "left",
+        "background_color": "#ffffff",
+        "desktop_padding_top": 60,
+        "desktop_padding_bottom": 60,
+        "mobile_padding_top": 40,
+        "mobile_padding_bottom": 40
+      }
+    },
+    "faq_cYAhKJ": {
+      "type": "faq",
+      "blocks": {
+        "faq_item_rrnAHz": {
+          "type": "faq_item",
+          "settings": {
+            "question": "What experience does An Agency have working with tradesmen?",
+            "answer": "<p>As a team led by an ex-tradesman, we understand the unique challenges and needs of the trade industry. We've successfully partnered with numerous Australian tradies, delivering tailored website designs, effective SEO strategies, and targeted paid advertising campaigns that generate quality leads.</p>",
+            "icon": "shopify://shop_images/yellow-arrow.svg"
+          }
+        },
+        "faq_item_AdgFRX": {
+          "type": "faq_item",
+          "settings": {
+            "question": "How long does it take to see results from SEO efforts?",
+            "answer": "<p>SEO is a long-term investment. While some improvements can be seen within a few months, it typically takes 6 to 12 months to achieve significant results. Our team implements proven strategies to enhance your online visibility and attract the right clients over time.</p>",
+            "icon": "shopify://shop_images/yellow-arrow.svg"
+          }
+        },
+        "faq_item_E6VP9h": {
+          "type": "faq_item",
+          "settings": {
+            "question": "Will I have a dedicated point of contact at An Agency?",
+            "answer": "<p>Absolutely. We assign a dedicated account manager to each client, ensuring clear communication and personalized service. Your account manager will keep you updated on progress, answer your questions, and ensure your marketing goals are met.</p>",
+            "icon": "shopify://shop_images/yellow-arrow.svg"
+          }
+        },
+        "faq_item_akFz96": {
+          "type": "faq_item",
+          "settings": {
+            "question": "Do you provide regular reports on campaign performance?",
+            "answer": "<p>Yes, transparency is key to our approach. We provide detailed monthly reports outlining the performance of your website, SEO, and advertising campaigns. These reports include key metrics and insights to keep you informed and confident in our services.</p>",
+            "icon": "shopify://shop_images/yellow-arrow.svg"
+          }
+        },
+        "faq_item_jdQR46": {
+          "type": "faq_item",
+          "settings": {
+            "question": "Can you guarantee specific results with your services?",
+            "answer": "<p>No agency can promise exact rankings or lead numbers—but here’s what we can guarantee: if you don’t get any leads, inquiries, or phone calls in the first 30 days, we’ll refund your marketing money, no questions asked. That’s how confident we are in what we do.We’re not just making bold claims—we have the track record to back it up. We have never worked with a tradie who didn’t get inquiries or phone calls within their first 30 days. In most cases, you’ll start seeing results within the first two weeks, and it only gets better from there as the algorithm learns and optimizes.We don’t just set up campaigns—we build systems that bring in real work.</p>",
+            "icon": "shopify://shop_images/yellow-arrow.svg"
+          }
+        },
+        "faq_item_nyFTVE": {
+          "type": "faq_item",
+          "settings": {
+            "question": "What ongoing support does An Agency offer?",
+            "answer": "<p>We offer continuous support to ensure your marketing efforts remain effective. This includes regular performance reviews, updates to your website and campaigns as needed, and ongoing consultation to adapt strategies in line with your business goals.Partner with An Agency and experience the difference that a confident, knowledgeable, and dedicated marketing team can make for your trade business.</p>",
+            "icon": "shopify://shop_images/yellow-arrow.svg"
+          }
+        },
+        "faq_item_XN9Db9": {
+          "type": "faq_item",
+          "settings": {
+            "question": "How do you ensure the quality of leads generated?",
+            "answer": "<p>Through precise targeting, compelling ad copy, and strategic SEO practices, we attract clients who are actively seeking your services. Our approach focuses on quality over quantity, ensuring the leads generated are a good fit for your business.</p>",
+            "icon": "shopify://shop_images/yellow-arrow.svg"
+          }
+        },
+        "faq_item_C7MHEi": {
+          "type": "faq_item",
+          "settings": {
+            "question": "What types of paid advertising do you manage?",
+            "answer": "<p>We manage various paid advertising channels, including Google Ads, social media advertising (Facebook, Instagram), and display advertising. Our team develops targeted campaigns to reach your ideal clients, maximize your return on investment, and keep your phone ringing with new business.</p>",
+            "icon": "shopify://shop_images/yellow-arrow.svg"
+          }
+        },
+        "faq_item_Htp8HR": {
+          "type": "faq_item",
+          "settings": {
+            "question": "How do you approach website design for tradesmen?",
+            "answer": "<p>We create custom, responsive websites that reflect your brand and appeal to your target audience. Our designs are user-friendly, mobile-optimized, and built with SEO best practices to ensure your site ranks well and converts visitors into clients.</p>",
+            "icon": "shopify://shop_images/yellow-arrow.svg"
+          }
+        },
+        "faq_item_Fb4Rdq": {
+          "type": "faq_item",
+          "settings": {
+            "question": "What sets An Agency apart from other marketing agencies?",
+            "answer": "<p>Our deep understanding of the trades industry, combined with our comprehensive service offerings—including website design, SEO, and paid advertising—sets us apart. Being Australian-owned and operated, we know the local market and are dedicated to helping fellow Aussie tradies succeed.</p>",
+            "icon": "shopify://shop_images/yellow-arrow.svg"
+          }
+        }
+      },
+      "block_order": [
+        "faq_item_rrnAHz",
+        "faq_item_AdgFRX",
+        "faq_item_E6VP9h",
+        "faq_item_akFz96",
+        "faq_item_jdQR46",
+        "faq_item_nyFTVE",
+        "faq_item_XN9Db9",
+        "faq_item_C7MHEi",
+        "faq_item_Htp8HR",
+        "faq_item_Fb4Rdq"
+      ],
+      "disabled": true,
+      "settings": {
+        "heading": "Frequently Asked Questions",
+        "bg_color": "#f9f9f9",
+        "max_width": 684,
+        "desktop_padding_top": 60,
+        "desktop_padding_bottom": 60,
+        "mobile_padding_top": 40,
+        "mobile_padding_bottom": 40
+      }
+    }
+  },
+  "order": [
+    "results_guaranteed_MJcj9M",
+    "phone_ring_MzFcJr",
+    "advertise_qQYPyj",
+    "benefits_section_Jw3wfd",
+    "advertise_TKEWWA",
+    "benefits_section_nyY6yE",
+    "trust_Q37M3R",
+    "advertise_PAQGf7",
+    "advertise_DnFdqE",
+    "advertise_L6PbPp",
+    "advertise_JebRqW",
+    "faq_cYAhKJ"
+  ]
+}

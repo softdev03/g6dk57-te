@@ -13,6 +13,7 @@
   "sections": {
     "marketing_focus_3gtc4t": {
       "type": "marketing-focus",
+      "disabled": true,
       "settings": {
         "logo_image": "shopify://shop_images/04.jpg",
         "headline": "We Know Shopify & Digital Ads (Inside Out)",
@@ -30,6 +31,7 @@
       "blocks": {
         "card_Ybb8Rm": {
           "type": "card",
+          "disabled": true,
           "settings": {
             "card_cta_text": "Struggling to Rank on Google? We Can Help",
             "card_cta_link": "",
@@ -38,6 +40,7 @@
         },
         "card_EUkEqU": {
           "type": "card",
+          "disabled": true,
           "settings": {
             "card_cta_text": "Convert More Visitors with a Better Website",
             "card_cta_link": "",
@@ -49,6 +52,7 @@
         "card_Ybb8Rm",
         "card_EUkEqU"
       ],
+      "disabled": true,
       "custom_css": [],
       "settings": {
         "section_bg_color": "#feda15",

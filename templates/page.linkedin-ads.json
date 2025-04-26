@@ -12,8 +12,13 @@
     "advertise_xMT9mA": {
       "type": "advertise",
       "settings": {
+        "loop_video": true,
+        "autoplay_video": true,
         "main_image": "shopify://shop_images/AnAgencyLinkedInAds02.png",
         "secondary_image": "shopify://shop_images/get-found-on-the-web-right.svg",
+        "media_border_radius": 0,
+        "media_border_width": 0,
+        "media_border_color": "#000000",
         "secondary_image_roate_angle": 8,
         "desktop_left": -115,
         "desktop_top": -1,
@@ -25,7 +30,7 @@
         "mobile_bottom": -26,
         "heading": "LinkedIn Ads Built For Business Growth",
         "sub_heading": "For B2B Companies, Tradies & Agencies Ready To Reach Decision Makers",
-        "text": "<p>If your customers wear boots or blazers, LinkedIn is where they’re lurking. Unlike Facebook or Insta, LinkedIn’s not just social—it’s strategic. You’re not advertising to random scrollers—you’re showing up in front of business owners, project managers, builders, CEOs, and procurement leads who can greenlight serious work.</p><p>At An Agency, we use LinkedIn Ads to help local businesses crack into commercial markets, win more tenders, and get past the gatekeepers. Whether you want to promote a service, drive enquiries, or get your brand in front of the right eyeballs, we build campaigns with clear goals and commercial intent.</p><p>No fluff. Just leads worth chasing.</p><p></p>",
+        "text": "<p>If your customers wear boots or blazers, LinkedIn is where they’re lurking. Unlike Facebook or Insta, LinkedIn’s not just social, it’s strategic. You’re not advertising to random scrollers, you’re showing up in front of business owners, project managers, builders, CEOs, and procurement leads who can greenlight serious work.</p><p>At An Agency, we use LinkedIn Ads to help local businesses crack into commercial markets, win more tenders, and get past the gatekeepers. Whether you want to promote a service, drive enquiries, or get your brand in front of the right eyeballs, we build campaigns with clear goals and commercial intent.</p><p>No fluff. Just leads worth chasing.</p>",
         "button_link": "shopify://pages/contact",
         "button_text": "Speak To Our Team",
         "image_right": false,
@@ -44,7 +49,7 @@
         "heading_1": "We Make LinkedIn",
         "heading_2": "Work for You.",
         "sub_heading": "For B2B brands that want more than just impressions",
-        "text": "For business owners who need real action and proven know-how—not endless plans and empty promises.And for companies looking for solid growth instead of uncertain results.If you're serious about digital marketing that really works for your trade business, let's have a chat.",
+        "text": "For business owners who need real action and proven know-how, not endless plans and empty promises.And for companies looking for solid growth instead of uncertain results.If you're serious about digital marketing that really works for your trade business, let's have a chat.",
         "phone_button_text": "0499226600",
         "phone_number": "0499226600",
         "enquire_button_text": "Enquire Now",
@@ -60,7 +65,12 @@
     "advertise_KLNL33": {
       "type": "advertise",
       "settings": {
+        "loop_video": true,
+        "autoplay_video": true,
         "main_image": "shopify://shop_images/AnAgencyLinkedInAds04.png",
+        "media_border_radius": 0,
+        "media_border_width": 0,
+        "media_border_color": "#000000",
         "secondary_image_roate_angle": 8,
         "desktop_left": -80,
         "desktop_top": -1,
@@ -72,8 +82,8 @@
         "mobile_bottom": -30,
         "heading": "Digital Marketing for Tradesmen Matters",
         "sub_heading": "How An Agency Helps You Stand Out Online",
-        "text": "<p>Setting up your business for long-term success starts with the right marketing. You need a smart strategy to build your online presence—this means an optimized website that helps high-level clients find you fast, plus a lead generation system that works with proven advertising. Whether you're an electrician, plumber, carpenter, builder, roofer, or painter, getting noticed by the right clients is key.</p><p>But digital marketing only goes so far without solid branding.</p><p>Your branding shows your professionalism and what your clients can expect from your work. From your website landing page to your business cards and even your van wrap, you want to be proud of the image you're putting out there. An Agency's branding team for tradesmen builds the strong foundation you need for all your digital marketing efforts.</p>",
-        "button_link": "#",
+        "text": "<p>Setting up your business for long-term success starts with the right marketing. You need a smart strategy to build your online presence, this means an optimized website that helps high-level clients find you fast, plus a lead generation system that works with proven advertising. Whether you're an electrician, plumber, carpenter, builder, roofer, or painter, getting noticed by the right clients is key.</p><p>But digital marketing only goes so far without solid branding.</p><p>Your branding shows your professionalism and what your clients can expect from your work. From your website landing page to your business cards and even your van wrap, you want to be proud of the image you're putting out there. An Agency's branding team for tradesmen builds the strong foundation you need for all your digital marketing efforts.</p>",
+        "button_link": "shopify://pages/contact",
         "button_text": "Help Grow My Business",
         "image_right": false,
         "text_align": "left",
@@ -88,8 +98,13 @@
       "type": "advertise",
       "disabled": true,
       "settings": {
+        "loop_video": true,
+        "autoplay_video": true,
         "main_image": "shopify://shop_images/google-ads-for-tradies-australia.webp",
         "secondary_image": "shopify://shop_images/google-ads-for-tradies-text.svg",
+        "media_border_radius": 0,
+        "media_border_width": 0,
+        "media_border_color": "#000000",
         "secondary_image_roate_angle": 0,
         "desktop_left": -1,
         "desktop_top": 160,
@@ -130,7 +145,7 @@
           "type": "trust_item",
           "settings": {
             "heading": "Built for B2B, Not Boring to Boring.",
-            "main_text": "<p>LinkedIn is full of dull, robotic ads. We don’t do that. Your brand will stand out with content that speaks human—while still hitting every strategic checkbox your buyers care about.</p><p></p><p></p>",
+            "main_text": "<p>LinkedIn is full of dull, robotic ads. We don’t do that. Your brand will stand out with content that speaks human, while still hitting every strategic checkbox your buyers care about.</p><p></p><p></p>",
             "button_text": "",
             "additional_text": "",
             "accordion_image": "shopify://shop_images/yellow-arrow.svg"
@@ -140,7 +155,7 @@
           "type": "trust_item",
           "settings": {
             "heading": "You’ll Be Seen by the Right People.",
-            "main_text": "<p>We zero in on your ideal customers—job titles, industries, company sizes, and more—so you're not wasting a cent talking to the wrong crowd.</p><p></p>",
+            "main_text": "<p>We zero in on your ideal customers,job titles, industries, company sizes, and more so you're not wasting a cent talking to the wrong crowd.</p><p></p>",
             "button_text": "",
             "additional_text": "",
             "accordion_image": "shopify://shop_images/yellow-arrow.svg"
@@ -154,7 +169,7 @@
       ],
       "settings": {
         "heading": "Why LinkedIn Ads with An Agency Just Work",
-        "text": "<p>We don’t just run ads. We build strategic LinkedIn campaigns that cut through the corporate noise and actually reach the people who matter—CEOs, marketing managers, procurement leads, decision-makers. Whether you're after high-value B2B leads, partnership opportunities, or talent, our campaigns are built to connect you with the right professionals at the right time—with none of the fluff and all of the intent.</p>",
+        "text": "<p>We don’t just run ads. We build strategic LinkedIn campaigns that cut through the corporate noise and actually reach the people who matter. CEOs, marketing managers, procurement leads, decision-makers. Whether you're after high-value B2B leads, partnership opportunities, or talent, our campaigns are built to connect you with the right professionals at the right time, with none of the fluff and all of the intent.</p>",
         "trust_image": "shopify://shop_images/Artboard_13.png",
         "desktop_padding_top": 60,
         "desktop_padding_bottom": 60,
@@ -166,8 +181,13 @@
       "type": "advertise",
       "disabled": true,
       "settings": {
+        "loop_video": true,
+        "autoplay_video": true,
         "main_image": "shopify://shop_images/website-design-and-dev-for-tradies.png",
         "secondary_image": "shopify://shop_images/get-the-work-you-want.svg",
+        "media_border_radius": 0,
+        "media_border_width": 0,
+        "media_border_color": "#000000",
         "secondary_image_roate_angle": 0,
         "desktop_left": -80,
         "desktop_top": -1,
@@ -195,7 +215,12 @@
       "type": "advertise",
       "disabled": true,
       "settings": {
+        "loop_video": true,
+        "autoplay_video": true,
         "main_image": "shopify://shop_images/Web-Designs-for-trades.png",
+        "media_border_radius": 0,
+        "media_border_width": 0,
+        "media_border_color": "#000000",
         "secondary_image_roate_angle": 12,
         "desktop_left": -1,
         "desktop_top": -1,
@@ -223,8 +248,13 @@
       "type": "advertise",
       "disabled": true,
       "settings": {
+        "loop_video": true,
+        "autoplay_video": true,
         "main_image": "shopify://shop_images/email-marketing-for-tradies-edm.webp",
         "secondary_image": "shopify://shop_images/get-new-customers.svg",
+        "media_border_radius": 0,
+        "media_border_width": 0,
+        "media_border_color": "#000000",
         "secondary_image_roate_angle": 0,
         "desktop_left": -1,
         "desktop_top": 160,
@@ -508,6 +538,21 @@
         "mobile_padding_top": 30,
         "mobile_padding_bottom": 30
       }
+    },
+    "marketing_focus_7fdnGQ": {
+      "type": "marketing-focus",
+      "name": "Marketing Focus Section",
+      "settings": {
+        "logo_image": "shopify://shop_images/04.jpg",
+        "headline": "Target Decision-Makers, Not Just Clicks",
+        "sub_text": "We’ll position your brand on LinkedIn to attract real, high-value business leads.",
+        "button_text": "Request a Quote",
+        "button_link": "shopify://pages/contact",
+        "desktop_padding_top": 40,
+        "desktop_padding_bottom": 40,
+        "mobile_padding_top": 30,
+        "mobile_padding_bottom": 30
+      }
     }
   },
   "order": [
@@ -521,6 +566,7 @@
     "advertise_JebRqW",
     "tradies_D9qHzj",
     "faq_cYAhKJ",
-    "partner_with_U86NgH"
+    "partner_with_U86NgH",
+    "marketing_focus_7fdnGQ"
   ]
 }
