@@ -1,0 +1,516 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "results_guaranteed_MJcj9M": {
+      "type": "results-guaranteed",
+      "name": "Results Guaranteed",
+      "settings": {
+        "main_heading": "Enterprise | Service Web Package",
+        "sub_heading": "(Advanced Business Website)",
+        "description": "Mid-sized to large businesses, franchises, or service providers that require a premium website with advanced features, CRM integration, custom lead generation tools, and a robust online presence to scale their operations.",
+        "button_text": "Request A Free Quote",
+        "button_link": "shopify://pages/contact",
+        "desktop_padding_top": 20,
+        "desktop_padding_bottom": 0,
+        "mobile_padding_top": 0,
+        "mobile_padding_bottom": 0
+      }
+    },
+    "phone_ring_MzFcJr": {
+      "type": "phone-ring",
+      "settings": {
+        "image": "shopify://shop_images/AnAgencyServiceWebsite07.png",
+        "heading_1": "Price",
+        "heading_2": "Range:",
+        "sub_heading": "Starting from A$8,000+ one-time (custom quoted based on complexity and inclusions).",
+        "text": "Typically falls between A$8,000–A$12,000 for advanced service business websites requiring strategy, integrations, and custom UX design.",
+        "phone_button_text": "",
+        "phone_number": "",
+        "enquire_button_text": "",
+        "enquire_button_link": "",
+        "image_right": true,
+        "text_align": "left",
+        "desktop_padding_top": 0,
+        "desktop_padding_bottom": 0,
+        "mobile_padding_top": 0,
+        "mobile_padding_bottom": 40
+      }
+    },
+    "advertise_qQYPyj": {
+      "type": "advertise",
+      "settings": {
+        "loop_video": true,
+        "autoplay_video": true,
+        "media_border_radius": 0,
+        "media_border_width": 0,
+        "media_border_color": "#000000",
+        "secondary_image_roate_angle": 0,
+        "desktop_left": -1,
+        "desktop_top": 160,
+        "desktop_right": -90,
+        "desktop_bottom": -1,
+        "mobile_left": -1,
+        "mobile_top": -25,
+        "mobile_right": 0,
+        "mobile_bottom": -1,
+        "heading": "Inclusions:",
+        "sub_heading": "",
+        "text": "",
+        "button_link": "",
+        "button_text": "",
+        "image_right": true,
+        "text_align": "left",
+        "background_color": "#ffffff",
+        "desktop_padding_top": 30,
+        "desktop_padding_bottom": 30,
+        "mobile_padding_top": 20,
+        "mobile_padding_bottom": 20
+      }
+    },
+    "benefits_section_Jw3wfd": {
+      "type": "benefits-section",
+      "blocks": {
+        "benefit_gtM4Hd": {
+          "type": "benefit",
+          "settings": {
+            "benefit_title": "Brand Discovery Workshop:",
+            "benefit_description": "In-depth session to map your brand positioning, services, ideal customer journeys, and site goals.",
+            "benefit_icon": "shopify://shop_images/checkmark.png"
+          }
+        },
+        "benefit_fCCiq3": {
+          "type": "benefit",
+          "settings": {
+            "benefit_title": "Premium Custom Website Design:",
+            "benefit_description": "Bespoke designs for key pages with advanced visuals like icons, custom illustrations, subtle animations if needed.",
+            "benefit_icon": "shopify://shop_images/checkmark.png"
+          }
+        },
+        "benefit_mzq8yA": {
+          "type": "benefit",
+          "settings": {
+            "benefit_title": "Up to 15–20 Pages:",
+            "benefit_description": "Flexible page structure based on your needs — service details, project galleries, team pages, location-based landing pages, FAQs, blogs, careers, and more.",
+            "benefit_icon": "shopify://shop_images/checkmark.png"
+          }
+        },
+        "benefit_4qRPLp": {
+          "type": "benefit",
+          "settings": {
+            "benefit_title": "CRM & Third-Party Integrations:",
+            "benefit_description": "Seamless connections to platforms like Salesforce, HubSpot, ServiceM8, or other lead management tools.",
+            "benefit_icon": "shopify://shop_images/checkmark.png"
+          }
+        },
+        "benefit_McrFKT": {
+          "type": "benefit",
+          "settings": {
+            "benefit_title": "Custom Interactive Features:",
+            "benefit_description": "Quote calculators, dynamic enquiry forms, multi-step funnels or lead magnets to boost conversions.",
+            "benefit_icon": "shopify://shop_images/checkmark.png"
+          }
+        },
+        "benefit_7rVc8b": {
+          "type": "benefit",
+          "settings": {
+            "benefit_title": "Blog & Resource Hub Setup:",
+            "benefit_description": "Fully built-out blog or resources hub with categories and search functions to drive content marketing.",
+            "benefit_icon": "shopify://shop_images/checkmark.png"
+          }
+        },
+        "benefit_38DYPL": {
+          "type": "benefit",
+          "settings": {
+            "benefit_title": "Advanced SEO Setup:",
+            "benefit_description": "Full meta data, SEO-friendly URLs, schema markup for service areas/reviews/FAQs, plus Google Search Console and Analytics integration.",
+            "benefit_icon": "shopify://shop_images/checkmark.png"
+          }
+        },
+        "benefit_TDYbJ8": {
+          "type": "benefit",
+          "settings": {
+            "benefit_title": "Security and Site Speed Optimisation:",
+            "benefit_description": "SSL setup, CDN implementation, spam and firewall protection, and site performance tuned to meet Core Web Vitals.",
+            "benefit_icon": "shopify://shop_images/checkmark.png"
+          }
+        },
+        "benefit_jEDrPP": {
+          "type": "benefit",
+          "settings": {
+            "benefit_title": "Managed Launch:",
+            "benefit_description": "Full site deployment including DNS setup, pre-launch checklists, and live troubleshooting to ensure a smooth go-live.",
+            "benefit_icon": "shopify://shop_images/checkmark.png"
+          }
+        },
+        "benefit_MJ6f3f": {
+          "type": "benefit",
+          "settings": {
+            "benefit_title": "Post-Launch Priority Support:",
+            "benefit_description": "3 months of content updates, minor tweaks, and strategic consultations to keep your site sharp after launch.",
+            "benefit_icon": "shopify://shop_images/checkmark.png"
+          }
+        },
+        "benefit_R4NV6M": {
+          "type": "benefit",
+          "settings": {
+            "benefit_title": "Training",
+            "benefit_description": "Three sessions covering CMS usage, CRM integration walkthrough, and performance analytics reporting.",
+            "benefit_icon": "shopify://shop_images/checkmark.png"
+          }
+        }
+      },
+      "block_order": [
+        "benefit_gtM4Hd",
+        "benefit_fCCiq3",
+        "benefit_mzq8yA",
+        "benefit_4qRPLp",
+        "benefit_McrFKT",
+        "benefit_7rVc8b",
+        "benefit_38DYPL",
+        "benefit_TDYbJ8",
+        "benefit_jEDrPP",
+        "benefit_MJ6f3f",
+        "benefit_R4NV6M"
+      ],
+      "name": "Benefits Grid",
+      "settings": {
+        "section_title": "",
+        "bg_color": "#ffffff",
+        "desktop_padding_top": 0,
+        "desktop_padding_bottom": 0,
+        "mobile_padding_top": 0,
+        "mobile_padding_bottom": 0
+      }
+    },
+    "advertise_TKEWWA": {
+      "type": "advertise",
+      "settings": {
+        "loop_video": true,
+        "autoplay_video": true,
+        "media_border_radius": 0,
+        "media_border_width": 0,
+        "media_border_color": "#000000",
+        "secondary_image_roate_angle": 0,
+        "desktop_left": -1,
+        "desktop_top": 160,
+        "desktop_right": -90,
+        "desktop_bottom": -1,
+        "mobile_left": -1,
+        "mobile_top": -25,
+        "mobile_right": 0,
+        "mobile_bottom": -1,
+        "heading": "Exclusions:",
+        "sub_heading": "",
+        "text": "",
+        "button_link": "",
+        "button_text": "Help Grow My Business",
+        "image_right": true,
+        "text_align": "left",
+        "background_color": "#ffffff",
+        "desktop_padding_top": 30,
+        "desktop_padding_bottom": 30,
+        "mobile_padding_top": 20,
+        "mobile_padding_bottom": 20
+      }
+    },
+    "benefits_section_nyY6yE": {
+      "type": "benefits-section",
+      "blocks": {
+        "benefit_Vb8Vep": {
+          "type": "benefit",
+          "settings": {
+            "benefit_title": "",
+            "benefit_description": "Highly complex software development outside the website (e.g. building proprietary platforms or apps).",
+            "benefit_icon": "shopify://shop_images/close.png"
+          }
+        },
+        "benefit_ihmzRY": {
+          "type": "benefit",
+          "settings": {
+            "benefit_title": "",
+            "benefit_description": "Content creation (you provide text and images; full copywriting/photo services quoted separately if needed).",
+            "benefit_icon": "shopify://shop_images/close.png"
+          }
+        },
+        "benefit_LWRpDr": {
+          "type": "benefit",
+          "settings": {
+            "benefit_title": "",
+            "benefit_description": "Long-term SEO/content campaigns (available separately after launch).",
+            "benefit_icon": "shopify://shop_images/close.png"
+          }
+        }
+      },
+      "block_order": [
+        "benefit_Vb8Vep",
+        "benefit_ihmzRY",
+        "benefit_LWRpDr"
+      ],
+      "name": "Benefits Grid",
+      "settings": {
+        "section_title": "",
+        "bg_color": "#ffffff",
+        "desktop_padding_top": 0,
+        "desktop_padding_bottom": 0,
+        "mobile_padding_top": 0,
+        "mobile_padding_bottom": 0
+      }
+    },
+    "advertise_PAQGf7": {
+      "type": "advertise",
+      "settings": {
+        "loop_video": true,
+        "autoplay_video": true,
+        "main_image": "shopify://shop_images/AnAgencyGMB03.png",
+        "media_border_radius": 0,
+        "media_border_width": 0,
+        "media_border_color": "#000000",
+        "secondary_image_roate_angle": 0,
+        "desktop_left": -80,
+        "desktop_top": -1,
+        "desktop_right": -1,
+        "desktop_bottom": 82,
+        "mobile_left": 0,
+        "mobile_top": -1,
+        "mobile_right": -1,
+        "mobile_bottom": -30,
+        "heading": "Add-Ons Available:",
+        "sub_heading": "As your business grows, we offer optional add-ons like:",
+        "text": "<p><strong>Ongoing SEO Campaigns: </strong>Monthly content and backlink programs to lift your site’s authority.</p><p><strong>Retainer Support Plans: </strong>Flexible monthly or quarterly website update packages post-warranty.</p><p><strong>Extra CRM or Software Integrations: </strong>Complex setups (multi-step automations, marketing CRM syncing) available at additional cost.</p>",
+        "button_link": "",
+        "button_text": "",
+        "image_right": false,
+        "text_align": "left",
+        "background_color": "#ffffff",
+        "desktop_padding_top": 60,
+        "desktop_padding_bottom": 60,
+        "mobile_padding_top": 40,
+        "mobile_padding_bottom": 40
+      }
+    },
+    "advertise_DnFdqE": {
+      "type": "advertise",
+      "settings": {
+        "loop_video": true,
+        "autoplay_video": true,
+        "main_image": "shopify://shop_images/Artboard_45.png",
+        "media_border_radius": 0,
+        "media_border_width": 0,
+        "media_border_color": "#000000",
+        "secondary_image_roate_angle": 12,
+        "desktop_left": -1,
+        "desktop_top": -1,
+        "desktop_right": -1,
+        "desktop_bottom": -1,
+        "mobile_left": -1,
+        "mobile_top": -1,
+        "mobile_right": -1,
+        "mobile_bottom": -1,
+        "heading": "Competitive Insight:",
+        "sub_heading": "",
+        "text": "<p>Basic template websites range from ~$1K but lack customisation and scaling ability.</p><p>Mid-tier custom service sites in Australia typically range between A$7K–$15K.</p><p>Large agencies easily charge A$15K–$20K+ for similar complexity, with slower turnarounds.</p><p><strong>Where we stand:</strong><br/>Our Enterprise Web Package hits the sweet spot by providing a big-agency quality build for around A$8K–$12K, backed by faster timelines, senior designers, full SEO, and integration expertise — without the big-agency bloat or hidden costs.</p>",
+        "button_link": "",
+        "button_text": "",
+        "image_right": true,
+        "text_align": "left",
+        "background_color": "#feda2a",
+        "desktop_padding_top": 60,
+        "desktop_padding_bottom": 60,
+        "mobile_padding_top": 40,
+        "mobile_padding_bottom": 40
+      }
+    },
+    "advertise_L6PbPp": {
+      "type": "advertise",
+      "settings": {
+        "loop_video": true,
+        "autoplay_video": true,
+        "main_image": "shopify://shop_images/05.jpg",
+        "media_border_radius": 0,
+        "media_border_width": 0,
+        "media_border_color": "#000000",
+        "secondary_image_roate_angle": 0,
+        "desktop_left": -80,
+        "desktop_top": -1,
+        "desktop_right": -1,
+        "desktop_bottom": 82,
+        "mobile_left": 0,
+        "mobile_top": -1,
+        "mobile_right": -1,
+        "mobile_bottom": -30,
+        "heading": "Commitment & Guarantee:",
+        "sub_heading": "",
+        "text": "<p>Every website we build comes with a <strong>full 12-month warranty</strong> on the codebase and a <strong>Results Guaranteed Promise</strong>:</p><ul><li><strong>12-month website warranty:</strong> Full coverage against any technical faults arising from our work.</li><li><strong>Results Guaranteed:</strong> If we don’t deliver the agreed site features and integrations, you don’t pay the final balance.</li></ul><p><strong>Extra Costs (if applicable):</strong></p><ul><li>Major layout or functionality changes requested mid-project may require a variation quote.</li><li>Additional collateral designs (e.g. multiple landing pages, extra custom sections) can be added separately if needed.</li></ul>",
+        "button_link": "",
+        "button_text": "",
+        "image_right": false,
+        "text_align": "left",
+        "background_color": "#ffffff",
+        "desktop_padding_top": 60,
+        "desktop_padding_bottom": 60,
+        "mobile_padding_top": 40,
+        "mobile_padding_bottom": 40
+      }
+    },
+    "advertise_JebRqW": {
+      "type": "advertise",
+      "settings": {
+        "loop_video": true,
+        "autoplay_video": true,
+        "main_image": "shopify://shop_images/AnAgencyShopifyWebsite05.png",
+        "media_border_radius": 0,
+        "media_border_width": 0,
+        "media_border_color": "#000000",
+        "secondary_image_roate_angle": 0,
+        "desktop_left": -1,
+        "desktop_top": 160,
+        "desktop_right": -90,
+        "desktop_bottom": -1,
+        "mobile_left": -1,
+        "mobile_top": -25,
+        "mobile_right": 0,
+        "mobile_bottom": -1,
+        "heading": "Onboarding & Delivery:",
+        "sub_heading": "",
+        "text": "<p>We start with a discovery session to confirm your brand guidelines, page structure, SEO targets, and any special integrations.<br/>Average project delivery timeline is 4–6 weeks depending on client response times and content supply.</p>",
+        "button_link": "shopify://pages/contact",
+        "button_text": "Request A Free Quote",
+        "image_right": true,
+        "text_align": "left",
+        "background_color": "#ffffff",
+        "desktop_padding_top": 60,
+        "desktop_padding_bottom": 60,
+        "mobile_padding_top": 40,
+        "mobile_padding_bottom": 40
+      }
+    },
+    "faq_cYAhKJ": {
+      "type": "faq",
+      "blocks": {
+        "faq_item_rrnAHz": {
+          "type": "faq_item",
+          "settings": {
+            "question": "What experience does An Agency have working with tradesmen?",
+            "answer": "<p>As a team led by an ex-tradesman, we understand the unique challenges and needs of the trade industry. We've successfully partnered with numerous Australian tradies, delivering tailored website designs, effective SEO strategies, and targeted paid advertising campaigns that generate quality leads.</p>",
+            "icon": "shopify://shop_images/yellow-arrow.svg"
+          }
+        },
+        "faq_item_AdgFRX": {
+          "type": "faq_item",
+          "settings": {
+            "question": "How long does it take to see results from SEO efforts?",
+            "answer": "<p>SEO is a long-term investment. While some improvements can be seen within a few months, it typically takes 6 to 12 months to achieve significant results. Our team implements proven strategies to enhance your online visibility and attract the right clients over time.</p>",
+            "icon": "shopify://shop_images/yellow-arrow.svg"
+          }
+        },
+        "faq_item_E6VP9h": {
+          "type": "faq_item",
+          "settings": {
+            "question": "Will I have a dedicated point of contact at An Agency?",
+            "answer": "<p>Absolutely. We assign a dedicated account manager to each client, ensuring clear communication and personalized service. Your account manager will keep you updated on progress, answer your questions, and ensure your marketing goals are met.</p>",
+            "icon": "shopify://shop_images/yellow-arrow.svg"
+          }
+        },
+        "faq_item_akFz96": {
+          "type": "faq_item",
+          "settings": {
+            "question": "Do you provide regular reports on campaign performance?",
+            "answer": "<p>Yes, transparency is key to our approach. We provide detailed monthly reports outlining the performance of your website, SEO, and advertising campaigns. These reports include key metrics and insights to keep you informed and confident in our services.</p>",
+            "icon": "shopify://shop_images/yellow-arrow.svg"
+          }
+        },
+        "faq_item_jdQR46": {
+          "type": "faq_item",
+          "settings": {
+            "question": "Can you guarantee specific results with your services?",
+            "answer": "<p>No agency can promise exact rankings or lead numbers—but here’s what we can guarantee: if you don’t get any leads, inquiries, or phone calls in the first 30 days, we’ll refund your marketing money, no questions asked. That’s how confident we are in what we do.We’re not just making bold claims—we have the track record to back it up. We have never worked with a tradie who didn’t get inquiries or phone calls within their first 30 days. In most cases, you’ll start seeing results within the first two weeks, and it only gets better from there as the algorithm learns and optimizes.We don’t just set up campaigns—we build systems that bring in real work.</p>",
+            "icon": "shopify://shop_images/yellow-arrow.svg"
+          }
+        },
+        "faq_item_nyFTVE": {
+          "type": "faq_item",
+          "settings": {
+            "question": "What ongoing support does An Agency offer?",
+            "answer": "<p>We offer continuous support to ensure your marketing efforts remain effective. This includes regular performance reviews, updates to your website and campaigns as needed, and ongoing consultation to adapt strategies in line with your business goals.Partner with An Agency and experience the difference that a confident, knowledgeable, and dedicated marketing team can make for your trade business.</p>",
+            "icon": "shopify://shop_images/yellow-arrow.svg"
+          }
+        },
+        "faq_item_XN9Db9": {
+          "type": "faq_item",
+          "settings": {
+            "question": "How do you ensure the quality of leads generated?",
+            "answer": "<p>Through precise targeting, compelling ad copy, and strategic SEO practices, we attract clients who are actively seeking your services. Our approach focuses on quality over quantity, ensuring the leads generated are a good fit for your business.</p>",
+            "icon": "shopify://shop_images/yellow-arrow.svg"
+          }
+        },
+        "faq_item_C7MHEi": {
+          "type": "faq_item",
+          "settings": {
+            "question": "What types of paid advertising do you manage?",
+            "answer": "<p>We manage various paid advertising channels, including Google Ads, social media advertising (Facebook, Instagram), and display advertising. Our team develops targeted campaigns to reach your ideal clients, maximize your return on investment, and keep your phone ringing with new business.</p>",
+            "icon": "shopify://shop_images/yellow-arrow.svg"
+          }
+        },
+        "faq_item_Htp8HR": {
+          "type": "faq_item",
+          "settings": {
+            "question": "How do you approach website design for tradesmen?",
+            "answer": "<p>We create custom, responsive websites that reflect your brand and appeal to your target audience. Our designs are user-friendly, mobile-optimized, and built with SEO best practices to ensure your site ranks well and converts visitors into clients.</p>",
+            "icon": "shopify://shop_images/yellow-arrow.svg"
+          }
+        },
+        "faq_item_Fb4Rdq": {
+          "type": "faq_item",
+          "settings": {
+            "question": "What sets An Agency apart from other marketing agencies?",
+            "answer": "<p>Our deep understanding of the trades industry, combined with our comprehensive service offerings—including website design, SEO, and paid advertising—sets us apart. Being Australian-owned and operated, we know the local market and are dedicated to helping fellow Aussie tradies succeed.</p>",
+            "icon": "shopify://shop_images/yellow-arrow.svg"
+          }
+        }
+      },
+      "block_order": [
+        "faq_item_rrnAHz",
+        "faq_item_AdgFRX",
+        "faq_item_E6VP9h",
+        "faq_item_akFz96",
+        "faq_item_jdQR46",
+        "faq_item_nyFTVE",
+        "faq_item_XN9Db9",
+        "faq_item_C7MHEi",
+        "faq_item_Htp8HR",
+        "faq_item_Fb4Rdq"
+      ],
+      "disabled": true,
+      "settings": {
+        "heading": "Frequently Asked Questions",
+        "bg_color": "#f9f9f9",
+        "max_width": 684,
+        "desktop_padding_top": 60,
+        "desktop_padding_bottom": 60,
+        "mobile_padding_top": 40,
+        "mobile_padding_bottom": 40
+      }
+    }
+  },
+  "order": [
+    "results_guaranteed_MJcj9M",
+    "phone_ring_MzFcJr",
+    "advertise_qQYPyj",
+    "benefits_section_Jw3wfd",
+    "advertise_TKEWWA",
+    "benefits_section_nyY6yE",
+    "advertise_PAQGf7",
+    "advertise_DnFdqE",
+    "advertise_L6PbPp",
+    "advertise_JebRqW",
+    "faq_cYAhKJ"
+  ]
+}
