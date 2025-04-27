@@ -109,3 +109,6 @@ img {
   top: 0px;
   height: fit-content;
 }
+.shopify-section:has([tab][key]:not(.show)) {
+  display: none !important;
+}

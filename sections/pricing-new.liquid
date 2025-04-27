@@ -1,80 +1,80 @@
 {{ 'pricing-new.css' | asset_url | stylesheet_tag }}
 {%- style -%}
-   #shopify-section-{{ section.id }} {
-   	background-color: {{ section.settings.bg_color |  default : 'transparent' }};
-   	padding-top: {{ section.settings.desktop_padding_top }}px;
-   	padding-bottom: {{ section.settings.desktop_padding_bottom }}px;
+    #shopify-section-{{ section.id }} {
+    	background-color: {{ section.settings.bg_color |  default : 'transparent' }};
+    	padding-top: {{ section.settings.desktop_padding_top }}px;
+    	padding-bottom: {{ section.settings.desktop_padding_bottom }}px;
+    }
+   #shopify-section-{{ section.id }} .tab-header {
+   	background-color: {{ section.settings.tab_bg_color |  default : 'transparent' }};
+   	color: {{ section.settings.tab_text_color |  default : 'transparent' }};
    }
-  #shopify-section-{{ section.id }} .tab-header {
-  	background-color: {{ section.settings.tab_bg_color |  default : 'transparent' }};
-  	color: {{ section.settings.tab_text_color |  default : 'transparent' }};
+   #shopify-section-{{ section.id }} .tab-header-item.selected {
+   	color: {{ section.settings.tab_text_color_selected |  default : 'transparent' }};
+   }
+   #shopify-section-{{ section.id }} .tab-thumb {
+   	background-color: {{ section.settings.tab_bg_color_selected |  default : 'transparent' }};
   }
-  #shopify-section-{{ section.id }} .tab-header-item.selected {
-  	color: {{ section.settings.tab_text_color_selected |  default : 'transparent' }};
+  #shopify-section-{{ section.id }} .tab-content {
+  	gap: {{ section.settings.desktop_gap }}px;
   }
-  #shopify-section-{{ section.id }} .tab-thumb {
-  	background-color: {{ section.settings.tab_bg_color_selected |  default : 'transparent' }};
-	}
-	#shopify-section-{{ section.id }} .tab-content {
-		gap: {{ section.settings.desktop_gap }}px;
-	}
-  #shopify-section-{{ section.id }} .pricing-item {
-  	min-width: calc((100% - {{ section.settings.desktop_gap }}px) / 3);
-  	border: 1px solid {{ section.settings.card_border_color |  default : 'transparent' }};
-  	border-radius: {{ section.settings.card_border_radius }}px;
-  	color: {{ section.settings.card_text_color |  default : 'transparent' }};
-  	background-color: {{ section.settings.card_bg_color |  default : 'transparent' }};
+   #shopify-section-{{ section.id }} .pricing-item {
+   	min-width: calc((100% - {{ section.settings.desktop_gap }}px) / 3);
+   	border: 1px solid {{ section.settings.card_border_color |  default : 'transparent' }};
+   	border-radius: {{ section.settings.card_border_radius }}px;
+   	color: {{ section.settings.card_text_color |  default : 'transparent' }};
+   	background-color: {{ section.settings.card_bg_color |  default : 'transparent' }};
+   }
+  #shopify-section-{{ section.id }} .pricing-item:has(.highlight) {
+  	border-left-color: {{ section.settings.badge_bg_color }};
+  	border-bottom-color: {{ section.settings.badge_bg_color }};
+  	border-right-color: {{ section.settings.badge_bg_color }};
+  	border-top-left-radius: 0px;
+  	border-top-right-radius: 0px;
   }
-	#shopify-section-{{ section.id }} .pricing-item:has(.highlight) {
-		border-left-color: {{ section.settings.badge_bg_color }};
-		border-bottom-color: {{ section.settings.badge_bg_color }};
-		border-right-color: {{ section.settings.badge_bg_color }};
-		border-top-left-radius: 0px;
-		border-top-right-radius: 0px;
-	}
-	#shopify-section-{{ section.id }} .pricing-item:has(.secondary-description ) .main-description {
-		border-bottom: 1px solid {{ section.settings.card_border_color |  default : 'transparent' }};
-	}
-  #shopify-section-{{ section.id }} .link {
-  	background-color: {{ section.settings.card_link_bg_color |  default : 'transparent' }};
-  	color: {{ section.settings.card_link_text_color |  default : 'transparent' }};
+  #shopify-section-{{ section.id }} .pricing-item:has(.secondary-description ) .main-description {
+  	border-bottom: 1px solid {{ section.settings.card_border_color |  default : 'transparent' }};
   }
-  #shopify-section-{{ section.id }} .link:hover {
-  	background-color: {{ section.settings.card_link_bg_color_hover |  default : 'transparent' }};
-  	color: {{ section.settings.card_link_text_color_hover |  default : 'transparent' }};
+   #shopify-section-{{ section.id }} .link {
+   	background-color: {{ section.settings.card_link_bg_color |  default : 'transparent' }};
+   	color: {{ section.settings.card_link_text_color |  default : 'transparent' }};
+   }
+   #shopify-section-{{ section.id }} .link:hover {
+   	background-color: {{ section.settings.card_link_bg_color_hover |  default : 'transparent' }};
+   	color: {{ section.settings.card_link_text_color_hover |  default : 'transparent' }};
+   }
+  #shopify-section-{{ section.id }} .highlight {
+  	background-color: {{ section.settings.badge_bg_color }};
+  	color: {{ section.settings.badge_text_color }};
   }
-	#shopify-section-{{ section.id }} .highlight {
-		background-color: {{ section.settings.badge_bg_color }};
-		color: {{ section.settings.badge_text_color }};
-	}
-  #shopify-section-{{ section.id }} .pricing-item h1,#shopify-section-{{ section.id }} .pricing-item h2,#shopify-section-{{ section.id }} .pricing-item h3,#shopify-section-{{ section.id }} .pricing-item h4,#shopify-section-{{ section.id }} .pricing-item h5,#shopify-section-{{ section.id }} .pricing-item h6 {
-  	color: {{ section.settings.card_heading_color |  default : 'transparent' }};
-  }
-  #shopify-section-{{ section.id }} .pricing-item em {
-  	color: {{ section.settings.card_old_text_color |  default : 'transparent' }};
-  }
-	@media screen and (max-width: 1023px) {
-		#shopify-section-{{ section.id }} .pricing-item {
-  		min-width: 60%;
-  	}
-		#shopify-section-{{ section.id }} .tab-content {
-			gap: {{ section.settings.mobile_gap }}px;
-		}
-	}
-  @media screen and (max-width: 749px) {
-   	#shopify-section-{{ section.id }} {
-   		padding-top: {{ section.settings.mobile_padding_top }}px;
-   		padding-bottom: {{ section.settings.mobile_padding_bottom }}px;
+   #shopify-section-{{ section.id }} .pricing-item h1,#shopify-section-{{ section.id }} .pricing-item h2,#shopify-section-{{ section.id }} .pricing-item h3,#shopify-section-{{ section.id }} .pricing-item h4,#shopify-section-{{ section.id }} .pricing-item h5,#shopify-section-{{ section.id }} .pricing-item h6 {
+   	color: {{ section.settings.card_heading_color |  default : 'transparent' }};
+   }
+   #shopify-section-{{ section.id }} .pricing-item em {
+   	color: {{ section.settings.card_old_text_color |  default : 'transparent' }};
+   }
+  @media screen and (max-width: 1023px) {
+  	#shopify-section-{{ section.id }} .pricing-item {
+   		min-width: 60%;
    	}
-		#shopify-section-{{ section.id }} .pricing-item {
-  		min-width: 80%;
+  	#shopify-section-{{ section.id }} .tab-content {
+  		gap: {{ section.settings.mobile_gap }}px;
   	}
+  }
+   @media screen and (max-width: 749px) {
+    	#shopify-section-{{ section.id }} {
+    		padding-top: {{ section.settings.mobile_padding_top }}px;
+    		padding-bottom: {{ section.settings.mobile_padding_bottom }}px;
+    	}
+  	#shopify-section-{{ section.id }} .pricing-item {
+   		min-width: 80%;
+   	}
+    }
+   @media screen and (max-width: 500px) {
+  	#shopify-section-{{ section.id }} .pricing-item {
+   		min-width: 100%;
+   	}
    }
-	 @media screen and (max-width: 500px) {
-		#shopify-section-{{ section.id }} .pricing-item {
-  		min-width: 100%;
-  	}
-	 }
 {%- endstyle -%}
 <div class="shopify-section--pricing-new page-width">
   {%- if section.settings.heading != blank -%}
@@ -86,57 +86,120 @@
   {%- assign tabItems = section.blocks | where: 'type', 'tab_item' -%}
   {%- assign pricingItems = section.blocks | where: 'type', 'pricing_item' | map: 'settings' -%}
   <div class="tab-header">
-		<div class="tab-header-content">
-			{%- for block in tabItems -%}
-				<span class="tab-header-item" key="{{ block.settings.handle_number }}">{{ block.settings.tab_text }}</span>
-			{%- endfor -%}
-		</div>
+    <div class="tab-header-content">
+      {%- for block in tabItems -%}
+        <span class="tab-header-item" key="{{ block.settings.handle_number }}">{{ block.settings.tab_text }}</span>
+      {%- endfor -%}
+    </div>
     <span class="tab-thumb"></span>
   </div>
   {%- for i in (1..10) -%}
     {%- assign subPricingItems = pricingItems | where: 'handle_number', i -%}
-		{%- if subPricingItems.size > 0 -%}
-			<div class="tab-content" key="{{ i }}">
-      {%- for block in subPricingItems -%}
-        <div class="pricing-item">
-          {%- if block.badge_text != blank -%}
-            <p class="highlight">{{ block.badge_text }}</p>
+    {%- if subPricingItems.size > 0 -%}
+      <div class="tab-content" key="{{ i }}">
+        {%- for block in subPricingItems -%}
+          {%- if block.enable_tip -%}
+            {%- assign tipContent = '<span class="tip">' -%}
+            {%- if block.use_icon_for_mark -%}
+              {%- assign markIconURL = block.mark_icon |  img_url: '20x' -%}
+              {%- assign markIconHoverURL = block.mark_icon_hover |  img_url: '20x' -%}
+              {%- assign markIcon = "<img src='" |  append: markIconURL |  append: "' width='20px' height='auto' />" -%}
+              {%- if block.mark_icon_hover != blank -%}
+                {%- assign markHoverIcon = "<img src='" |  append: markIconHoverURL |  append: "' width='20px' height='auto' />" -%}
+              {%- else -%}
+                {%- assign markHoverIcon = "<img src='" |  append: markIconURL |  append: "' width='20px' height='auto' />" -%}
+              {%- endif -%}
+              {%- assign tipContent = tipContent |  append: markIcon |  append: markHoverIcon  -%}
+            {%- else -%}
+              {%- assign tipContent = tipContent |  append: block.mark_text -%}
+            {%- endif -%}
+            {%- assign tipContent = tipContent | append : '</span>' -%}
           {%- endif -%}
-          <div class="main-description">
-            {%- if block.icon != blank -%}
-              <div class="icon">
-                <img src="{{ block.icon | img_url: '100x' }}" alt="" width="100px" height="auto">
+          <div class="pricing-item" id="pricing-{{i}}-{{ forloop.index }}">
+            {%- if block.enable_tip -%}
+              {{ '<div class="tip-content"><div class="triangle"></div>' |  append: block.tip_text |  append: '</div>' }}
+            {%- endif -%}
+            {%- if block.badge_text != blank -%}
+              {%- if section.settings.tip_position == 'badge' -%}
+                <p class="highlight">{{ block.badge_text | replace_first : '[tip]', tipContent }}</p>
+              {%- else -%}
+                <p class="highlight">{{ block.badge_text }}</p>
+              {%- endif -%}
+            {%- endif -%}
+            <div class="main-description">
+              {%- if block.icon != blank -%}
+                <div class="icon">
+                  <img src="{{ block.icon | img_url: '100x' }}" alt="" width="100px" height="auto">
+                </div>
+              {%- endif -%}
+              {%- if block.heading != blank -%}
+                {%- if block.tip_position == 'heading' -%}
+                  <h2 class="heading">{{ block.heading |  replace_first : '[tip]', tipContent }}</h2>
+                {%- else -%}
+                  <h2 class="heading">{{ block.heading }}</h2>
+                {%- endif -%}
+              {%- endif -%}
+              {%- if block.sub_heading != blank -%}
+                {%- if block.tip_position == 'sub_heading' -%}
+                  <h3 class="sub-heading">{{ block.sub_heading | replace_first: '[tip]', tipContent }}</h3>
+                {%- else -%}
+                  <h3 class="sub-heading">{{ block.sub_heading }}</h3>
+                {%- endif -%}
+              {%- endif -%}
+              {%- if block.main_content != blank -%}
+                <div>
+                  {%- assign price = block.price | times: 100 | money | remove: '.00' -%}
+                  {%- assign replace_content = '<span>' | append: price | append: '</span>' -%}
+                  {%- if block.tip_position == 'main_content' -%}
+                    {{ block.main_content | replace: '[price]', replace_content |  replace_first: '[tip]', tipContent }}
+                  {%- else -%}
+                    {{ block.main_content | replace: '[price]', replace_content }}
+                  {%- endif -%}
+                </div>
+              {%- endif -%}
+              {%- if block.link_text != blank and block.link != blank -%}
+                <a href="{{ block.link }}" class="link">{{ block.link_text }}</a>
+              {%- endif -%}
+            </div>
+            {%- if block.secondary_content != blank -%}
+              <div class="secondary-description ">
+                {%- if tipContent == 'secondary_content' -%}
+                  {{ block.secondary_content | replace_first: '[tip]', tipContent }}
+                {%- else -%}
+                  {{ block.secondary_content }}
+                {%- endif -%}
               </div>
             {%- endif -%}
-            {%- if block.heading != blank -%}
-              <h2 class="heading">{{ block.heading }}</h2>
-            {%- endif -%}
-            {%- if block.sub_heading != blank -%}
-              <h3 class="sub-heading">{{ block.sub_heading }}</h3>
-            {%- endif -%}
-            {%- if block.main_content != blank -%}
-							<div>
-								{%- assign price = block.price |  times: 100 |  money |  remove: '.00'  -%}
-								{%- assign replace_content = '<span>' |  append: price |  append: '</span>' -%}
-                {{ block.main_content |  replace: '[price]', replace_content }}
-							</div>
-            {%- endif -%}
-						{%- if block.link_text != blank and block.link != blank -%}
-							<a href="{{ block.link }}" class="link">{{ block.link_text }}</a>
-						{%- endif -%}
+            {%- if block.badge_text != blank -%}
+              <div class="empty-space"></div>
+            {% endif %}
+            {%- style -%}
+              #pricing-{{i}}-{{ forloop.index }} .tip {
+                background-color: {{ block.mark_bg_color }};
+                color: {{ block.mark_text_color }};
+                border-radius: {{ block.mark_border_radius }}px;
+              }
+              #pricing-{{i}}-{{ forloop.index }} .tip:hover {
+                background-color: {{ block.mark_bg_color_hover }};
+                color: {{ block.mark_text_color_hover }};
+              }
+              {%- assign rgb = block.tip_shadow_color |  color_to_rgb |  remove: 'rgb(' |  remove: ')' |  remove: 'rgba(' |  remove: ',0.0'   -%}
+              #pricing-{{i}}-{{ forloop.index }} .tip-content {
+                background-color: {{ block.tip_bg_color }};
+                color: {{ block.tip_text_color }};
+                border-radius: {{ block.tip_border_radius }}px;
+                text-align: {{ block.tip_text_align }};
+                box-shadow: 0 0.0625rem 0.25rem 0 rgba({{ rgb }}, {{ block.tip_shadow_opacity }});
+              }
+              #pricing-{{i}}-{{ forloop.index }} .tip-content .triangle {
+                box-shadow: -3px 3px 4.3px 0px rgba({{ rgb }}, {{ block.tip_shadow_opacity }});
+                color: {{ block.tip_bg_color }};
+              }
+            {%- endstyle -%}
           </div>
-          {%- if block.secondary_content != blank -%}
-            <div class="secondary-description ">
-              {{ block.secondary_content }}
-            </div>
-          {%- endif -%}
-					{%- if block.badge_text != blank -%}
-						<div class="empty-space"></div>
-					{% endif %}
-        </div>
-      {%- endfor -%}
-    </div>
-		{%- endif -%}
+        {%- endfor -%}
+      </div>
+    {%- endif -%}
   {%- endfor -%}
 </div>
 {% schema %}
@@ -370,11 +433,151 @@
           "id": "badge_text",
           "label": "Badge Text"
         },
-				{
-					"type": "number",
-					"id": "price",
-					"label": "Price"
-				}
+        {
+          "type": "number",
+          "id": "price",
+          "label": "Price"
+        },
+        {
+          "type": "header",
+          "content": "Tip Settings"
+        },
+        {
+          "type": "checkbox",
+          "id": "enable_tip",
+          "label": "Enable Tip",
+          "default": false
+        },
+        {
+          "type": "checkbox",
+          "id": "use_icon_for_mark",
+          "label": "Use Icon for Mark",
+          "default": false
+        },
+        {
+          "type": "select",
+          "id": "tip_position",
+          "label": "Tip Position",
+          "options": [
+            {
+              "value": "badge",
+              "label": "Badge"
+            },
+            {
+              "value": "heading",
+              "label": "Heading"
+            },
+            {
+              "value": "sub_heading",
+              "label": "Sub Heading"
+            },
+            {
+              "value": "main_content",
+              "label": "Main Content"
+            },
+            {
+              "value": "secondary_content",
+              "label": "Secondary Content"
+            }
+          ],
+          "default": "main_content"
+        },
+        {
+          "type": "image_picker",
+          "id": "mark_icon",
+          "label": "Mark Icon"
+        },
+        {
+          "type": "image_picker",
+          "id": "mark_icon_hover",
+          "label": "Mark Icon when Hover"
+        },
+        {
+          "type": "text",
+          "id": "mark_text",
+          "label": "Mark Text"
+        },
+        {
+          "type": "richtext",
+          "id": "tip_text",
+          "label": "Tip Text"
+        },
+        {
+          "type": "text_alignment",
+          "id": "tip_text_align",
+          "label": "Tip Text Alignment"
+        },
+        {
+          "type": "color",
+          "id": "mark_bg_color",
+          "label": "Mark Background Color",
+          "default": "#fff"
+        },
+        {
+          "type": "color",
+          "id": "mark_bg_color_hover",
+          "label": "Mark Background Color when Hover",
+          "default": "#000000"
+        },
+        {
+          "type": "color",
+          "id": "mark_text_color",
+          "label": "Mark Text Color",
+          "default": "#000000"
+        },
+        {
+          "type": "color",
+          "id": "mark_text_color_hover",
+          "label": "Mark Text Color when Hover",
+          "default": "#000000"
+        },
+        {
+          "type": "color",
+          "id": "tip_bg_color",
+          "label": "Tip Background Color",
+          "default": "#fff"
+        },
+        {
+          "type": "color",
+          "id": "tip_shadow_color",
+          "label": "Tip Shadow Color",
+          "default": "#000000"
+        },
+        {
+          "type": "color",
+          "id": "tip_text_color",
+          "label": "Tip Text Color",
+          "default": "#000000"
+        },
+        {
+          "type": "range",
+          "id": "tip_shadow_opacity",
+          "min": 0,
+          "max": 1,
+          "step": 0.1,
+          "label": "Tip Shadow Opacity",
+          "default": 0.5
+        },
+        {
+          "type": "range",
+          "id": "mark_border_radius",
+          "min": 0,
+          "max": 100,
+          "step": 1,
+          "unit": "px",
+          "label": "Mark Border Radius",
+          "default": 0
+        },
+        {
+          "type": "range",
+          "id": "tip_border_radius",
+          "min": 0,
+          "max": 100,
+          "step": 1,
+          "unit": "px",
+          "label": "Tip Border Radius",
+          "default": 0
+        }
       ]
     },
     {

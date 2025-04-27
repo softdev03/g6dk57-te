@@ -3,6 +3,11 @@
   "name": "Marketing Focus Section",
   "settings": [
     {
+      "type": "text",
+      "id": "key",
+      "label": "Key"
+    },
+    {
       "type": "image_picker",
       "id": "logo_image",
       "label": "Logo Image"
@@ -98,7 +103,7 @@
       }
   }
 {%- endstyle -%}
-<section class="marketing-focus-section page-width">
+<section class="marketing-focus-section page-width" {% if section.settings.key != blank %} tab key="{{ section.settings.key }}" {% endif %}>
   <div class="marketing-focus-container">
     <!-- Logo -->
     <div class="marketing-logo">

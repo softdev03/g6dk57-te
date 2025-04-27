@@ -113,7 +113,23 @@
             "main_content": "<p>[price] /once-off</p><p></p><p>Perfect for new stores that just need to get moving.<br/></p>",
             "secondary_content": "<p><strong>What’s included</strong></p><p></p><ul><li>Set-up Shopify theme</li><li>Homepage design</li><li>Up to 10 collections or categories</li><li>Up to 100 products</li><li>Up to 5 content pages</li><li>Shopify payment / PayPal setup</li><li><em>Newsletter signup and social media links</em></li><li><em>Up to 3 blog index and article pages</em></li><li><em>Personalised admin guide</em></li><li><em>SEO titles & descriptions</em></li><li><em>Post-launch training call</em></li><li><em>Conversion tracking setup</em></li><li><em>Dedicated project manager</em></li></ul>",
             "badge_text": "",
-            "price": 3500
+            "price": 3500,
+            "enable_tip": false,
+            "use_icon_for_mark": false,
+            "tip_position": "main_content",
+            "mark_text": "",
+            "tip_text": "",
+            "tip_text_align": "center",
+            "mark_bg_color": "#f3f3f3",
+            "mark_bg_color_hover": "#d8d8d8",
+            "mark_text_color": "#000000",
+            "mark_text_color_hover": "#000000",
+            "tip_bg_color": "#ffffff",
+            "tip_shadow_color": "#000000",
+            "tip_text_color": "#000000",
+            "tip_shadow_opacity": 0.5,
+            "mark_border_radius": 100,
+            "tip_border_radius": 5
           }
         },
         "pricing_item_ezdbcT": {
@@ -129,7 +145,23 @@
             "main_content": "<p>[price] /once-off</p><p></p><p>For brands ready to scale with more products and SEO built-in.<br/></p>",
             "secondary_content": "<p><strong>What’s included</strong></p><p></p><ul><li>Set-up Shopify theme</li><li>Homepage design</li><li>Up to 15 collections or categories</li><li>Up to 200 products</li><li>Up to 8 content pages</li><li>Shopify payment / PayPal setup</li><li>Newsletter signup and social media links</li><li>Up to 3 blog index and article pages</li><li>Personalised admin guide</li><li>SEO titles & descriptions</li><li>Post-launch training call</li><li>Conversion tracking setup</li><li>Dedicated project manager</li><li><em>Custom design or animations</em></li><li><em>Advanced app integration (3+ apps)</em></li><li><em>Shopify Plus support</em></li></ul>",
             "badge_text": "RECOMMENDED",
-            "price": 7000
+            "price": 7000,
+            "enable_tip": false,
+            "use_icon_for_mark": true,
+            "tip_position": "main_content",
+            "mark_text": "",
+            "tip_text": "",
+            "tip_text_align": "left",
+            "mark_bg_color": "#ffffff",
+            "mark_bg_color_hover": "#000000",
+            "mark_text_color": "#000000",
+            "mark_text_color_hover": "#000000",
+            "tip_bg_color": "#ffffff",
+            "tip_shadow_color": "#000000",
+            "tip_text_color": "#000000",
+            "tip_shadow_opacity": 0.5,
+            "mark_border_radius": 0,
+            "tip_border_radius": 0
           }
         },
         "pricing_item_N4xReh": {
@@ -145,7 +177,23 @@
             "main_content": "<p>From [price] </p><p></p><p>High-converting, brand-led builds for serious eCommerce growth.<br/></p>",
             "secondary_content": "<p><strong>What’s included</strong></p><p></p><ul><li>Set-up Shopify theme OR bespoke design</li><li>Homepage design with custom UI/UX</li><li>Unlimited collections</li><li>Unlimited products</li><li>Up to 15+ content pages</li><li>Shopify payment / PayPal setup</li><li>Newsletter signup and social media links</li><li>Blog setup & styling</li><li>Personalised admin guide</li><li>SEO titles & descriptions</li><li>Post-launch training (3 sessions)</li><li>Conversion tracking (GA4, Meta Pixel, etc)</li><li>Dedicated project manager</li><li>Custom animations & effects</li><li>Advanced app integration (up to 5)</li><li>Shopify Plus migration</li><li>Theme warranty (1 year)</li><li>Priority build timeline</li><li>Ongoing support option</li><li><em>Product import assistance (over 1,000 SKUs may be quoted)</em></li><li><em>Copywriting for all pages (available as add-on)</em></li></ul>",
             "badge_text": "",
-            "price": 10000
+            "price": 10000,
+            "enable_tip": false,
+            "use_icon_for_mark": true,
+            "tip_position": "main_content",
+            "mark_text": "",
+            "tip_text": "",
+            "tip_text_align": "left",
+            "mark_bg_color": "#ffffff",
+            "mark_bg_color_hover": "#000000",
+            "mark_text_color": "#000000",
+            "mark_text_color_hover": "#000000",
+            "tip_bg_color": "#ffffff",
+            "tip_shadow_color": "#000000",
+            "tip_text_color": "#000000",
+            "tip_shadow_opacity": 0.5,
+            "mark_border_radius": 0,
+            "tip_border_radius": 0
           }
         },
         "pricing_item_pEEMFH": {
@@ -161,7 +209,23 @@
             "main_content": "<p>[price] /(once-off)</p><p></p><p>Built for solo tradies and service providers who need to get online with the essentials.</p><p></p>",
             "secondary_content": "<p><strong>What’s included</strong></p><p></p><ul><li>Homepage design</li><li>Up to 6 pages (Home, About, Services, Contact, etc.)</li><li>Mobile-responsive layout</li><li>Google Maps embed</li><li>Contact form or quote form</li><li>Integration with your Google Business Profile</li><li>Image sourcing (stock & client-provided)</li><li><em>Online bookings</em></li><li><em>Payment gateway setup</em></li><li><em>Blog setup</em></li><li><em>CRM or email integration</em></li><li><em>Photo upload functionality for customers</em></li></ul>",
             "badge_text": "",
-            "price": 2800
+            "price": 2800,
+            "enable_tip": false,
+            "use_icon_for_mark": true,
+            "tip_position": "main_content",
+            "mark_text": "",
+            "tip_text": "",
+            "tip_text_align": "left",
+            "mark_bg_color": "#ffffff",
+            "mark_bg_color_hover": "#000000",
+            "mark_text_color": "#000000",
+            "mark_text_color_hover": "#000000",
+            "tip_bg_color": "#ffffff",
+            "tip_shadow_color": "#000000",
+            "tip_text_color": "#000000",
+            "tip_shadow_opacity": 0.5,
+            "mark_border_radius": 0,
+            "tip_border_radius": 0
           }
         },
         "pricing_item_HFjRJQ": {
@@ -177,7 +241,23 @@
             "main_content": "<p>[price] /(once-off)</p><p></p><p>For service businesses ready to level up with lead-generation features and extras.</p>",
             "secondary_content": "<p><strong>Everything in Starter, plus:</strong></p><p></p><ul><li>Up to 12 pages</li><li>Online booking system integration</li><li>Photo upload feature for job quotes</li><li>Customer review integration (Google or other)</li><li>Conversion-optimised content writing for key pages</li><li>Social media integration</li><li><em>Payment gateway setup</em></li><li><em>CRM or email marketing integration</em></li><li><em>Custom animations or interactive sections</em></li></ul><p></p>",
             "badge_text": "RECOMMENDED",
-            "price": 4900
+            "price": 4900,
+            "enable_tip": false,
+            "use_icon_for_mark": true,
+            "tip_position": "main_content",
+            "mark_text": "",
+            "tip_text": "",
+            "tip_text_align": "left",
+            "mark_bg_color": "#ffffff",
+            "mark_bg_color_hover": "#000000",
+            "mark_text_color": "#000000",
+            "mark_text_color_hover": "#000000",
+            "tip_bg_color": "#ffffff",
+            "tip_shadow_color": "#000000",
+            "tip_text_color": "#000000",
+            "tip_shadow_opacity": 0.5,
+            "mark_border_radius": 0,
+            "tip_border_radius": 0
           }
         },
         "pricing_item_BjXeJc": {
@@ -193,7 +273,23 @@
             "main_content": "<p>From [price]+ (scoped project)</p><p></p><p>Built from the ground up with custom sections</p>",
             "secondary_content": "<p><strong>Everything in Growth, plus:</strong></p><p></p><ul><li>Custom-built features tailored to your industry</li><li>Booking and payment workflows</li><li>CRM and email marketing integrations</li><li>Built-in customer dashboard (where applicable)</li><li>Interactive elements, calculators, video banners</li><li>SEO setup (titles, descriptions, sitemap)</li><li>Advanced form logic and conditional fields</li><li>Full brand styling (colours, fonts, image treatment)</li></ul>",
             "badge_text": "",
-            "price": 9500
+            "price": 9500,
+            "enable_tip": false,
+            "use_icon_for_mark": true,
+            "tip_position": "main_content",
+            "mark_text": "",
+            "tip_text": "",
+            "tip_text_align": "left",
+            "mark_bg_color": "#ffffff",
+            "mark_bg_color_hover": "#000000",
+            "mark_text_color": "#000000",
+            "mark_text_color_hover": "#000000",
+            "tip_bg_color": "#ffffff",
+            "tip_shadow_color": "#000000",
+            "tip_text_color": "#000000",
+            "tip_shadow_opacity": 0.5,
+            "mark_border_radius": 0,
+            "tip_border_radius": 0
           }
         },
         "pricing_item_T3akPQ": {
@@ -206,10 +302,26 @@
             "sub_heading": "Run your first profitable ad campaigns without the guesswork.",
             "link_text": "Get Started",
             "link": "#",
-            "main_content": "<p>From [price] /month</p><p></p><p>Get your ads running profitably on one platform.</p>",
+            "main_content": "<p>From [price] /month [tip]</p><p></p><p>Get your ads running profitably on one platform.</p>",
             "secondary_content": "<ul><li>One advertising platform (Google Ads OR Facebook/Instagram Ads OR TikTok Ads)</li><li>Ad campaign setup and launch</li><li>Keyword research or audience targeting</li><li>Ad copywriting and creative setup</li><li>Weekly optimisation and bid adjustments</li><li>Basic conversion tracking setup</li><li>Monthly performance reporting</li><li>30-minute monthly strategy call</li><li><em>Multi-platform management</em></li><li><em>Landing page creation/optimisation</em></li><li><em>Complex funnel or CRM integration</em></li><li><em>Video ad production beyond simple edits</em></li></ul>",
             "badge_text": "",
-            "price": 1100
+            "price": 1100,
+            "enable_tip": true,
+            "use_icon_for_mark": false,
+            "tip_position": "main_content",
+            "mark_text": "?",
+            "tip_text": "<h3>Marketing Notes</h3><p><br/>$500 once-off for Launch Package<br/><br/>$1,000 once-off for Growth Package<br/><br/><strong>$1,500 once-off</strong> for Enterprise Package<br/><br/><em>(Setup fees can be waived with longer commitments.)</em></p>",
+            "tip_text_align": "left",
+            "mark_bg_color": "#e8e8e8",
+            "mark_bg_color_hover": "#b0b0b0",
+            "mark_text_color": "#000000",
+            "mark_text_color_hover": "#000000",
+            "tip_bg_color": "#ffffff",
+            "tip_shadow_color": "#000000",
+            "tip_text_color": "#000000",
+            "tip_shadow_opacity": 0.5,
+            "mark_border_radius": 100,
+            "tip_border_radius": 5
           }
         },
         "pricing_item_gPdTi4": {
@@ -225,7 +337,23 @@
             "main_content": "<p>From [price] /month</p><p></p><p>Multi-platform ad campaigns built to scale your leads & sales.</p>",
             "secondary_content": "<ul><li>Management of two advertising platforms (e.g., Google + Facebook, or Facebook + TikTok)</li><li>Complete funnel strategy and audience segmentation</li><li>Ad creative creation (up to 5 new assets per month)</li><li>Advanced conversion tracking setup (Google Tag Manager, pixels)</li><li>A/B testing of ad creatives and copy</li><li>Monthly detailed reports and insights</li><li>1-hour monthly strategy call</li><li>Priority campaign adjustments and creative refreshes</li><li><em>Management of 3 or more platforms</em></li><li><em>Dedicated video production services</em></li><li><em>Ongoing SEO management</em></li></ul>",
             "badge_text": "RECOMMENDED",
-            "price": 1800
+            "price": 1800,
+            "enable_tip": false,
+            "use_icon_for_mark": true,
+            "tip_position": "main_content",
+            "mark_text": "",
+            "tip_text": "",
+            "tip_text_align": "left",
+            "mark_bg_color": "#ffffff",
+            "mark_bg_color_hover": "#000000",
+            "mark_text_color": "#000000",
+            "mark_text_color_hover": "#000000",
+            "tip_bg_color": "#ffffff",
+            "tip_shadow_color": "#000000",
+            "tip_text_color": "#000000",
+            "tip_shadow_opacity": 0.5,
+            "mark_border_radius": 0,
+            "tip_border_radius": 0
           }
         },
         "pricing_item_4PhrtT": {
@@ -241,7 +369,23 @@
             "main_content": "<p>From [price] /month</p><p></p><p>Omnichannel campaigns for serious scaling & market domination.</p>",
             "secondary_content": "<ul><li>Management across 3+ platforms (Google, Facebook/Instagram, TikTok, LinkedIn, YouTube, etc.)</li><li>Unified multi-touch ad strategy and retargeting funnels</li><li>Landing page creation and A/B testing included</li><li>Custom audience building and behavioural tracking</li><li>Advanced CRM integration and lead tracking</li><li>Weekly reporting with full ROI analysis</li><li>Dedicated account manager + on-demand calls</li><li>Rapid-launch campaigns (48-hour turnaround when needed)</li><li>Custom dashboards (Google Data Studio/Looker)</li><li><em>Organic social media management</em></li><li><em>Ongoing full SEO campaigns</em></li><li><em>Large-scale video production costs (can be managed externally if needed)</em></li></ul>",
             "badge_text": "",
-            "price": 3000
+            "price": 3000,
+            "enable_tip": false,
+            "use_icon_for_mark": true,
+            "tip_position": "main_content",
+            "mark_text": "",
+            "tip_text": "",
+            "tip_text_align": "left",
+            "mark_bg_color": "#ffffff",
+            "mark_bg_color_hover": "#000000",
+            "mark_text_color": "#000000",
+            "mark_text_color_hover": "#000000",
+            "tip_bg_color": "#ffffff",
+            "tip_shadow_color": "#000000",
+            "tip_text_color": "#000000",
+            "tip_shadow_opacity": 0.5,
+            "mark_border_radius": 0,
+            "tip_border_radius": 0
           }
         },
         "pricing_item_4HaEyq": {
@@ -257,7 +401,23 @@
             "main_content": "<p>From [price] /Once Off</p><p></p><p>Build a solid foundation for your brand.<br/></p>",
             "secondary_content": "<ul><li>Logo Design (1 concept + 2 revisions)</li><li>Colour Palette (Primary + Secondary)</li><li>Typography Recommendations</li><li>Mini Brand Style Guide (2-3 pages)</li><li>Deliverables in all major file formats</li><li>Basic Brand Voice Snapshot</li><li><em>Multiple logo variations (submarks)</em></li><li><em>Business card, email signature, social media designs</em></li></ul>",
             "badge_text": "RECOMMENDED",
-            "price": 1500
+            "price": 1500,
+            "enable_tip": false,
+            "use_icon_for_mark": true,
+            "tip_position": "main_content",
+            "mark_text": "",
+            "tip_text": "",
+            "tip_text_align": "left",
+            "mark_bg_color": "#ffffff",
+            "mark_bg_color_hover": "#000000",
+            "mark_text_color": "#000000",
+            "mark_text_color_hover": "#000000",
+            "tip_bg_color": "#ffffff",
+            "tip_shadow_color": "#000000",
+            "tip_text_color": "#000000",
+            "tip_shadow_opacity": 0.5,
+            "mark_border_radius": 0,
+            "tip_border_radius": 0
           }
         },
         "pricing_item_tVgnXg": {
@@ -273,7 +433,23 @@
             "main_content": "<p>From [price] /Once Off</p><p></p><p>Bespoke branding ready for scale.<br/></p>",
             "secondary_content": "<ul><li>Brand Strategy Mini Workshop</li><li>Competitive Branding Audit</li><li>Custom Logo Suite (Primary, Secondary, Brandmark, Tagline Lockups)</li><li>Comprehensive Brand Style Guide (20+ pages)</li><li>Collateral Suite (5+ items: Business Card, Letterhead, Signage Mockups, etc.)</li><li>Advanced Brand Voice and Messaging Playbook</li><li>Internal Brand Training Session</li><li>Quarterly Brand Health Check (for 12 months)</li><li><em>Full marketing campaign execution</em></li></ul>",
             "badge_text": "",
-            "price": 7000
+            "price": 7000,
+            "enable_tip": false,
+            "use_icon_for_mark": true,
+            "tip_position": "main_content",
+            "mark_text": "",
+            "tip_text": "",
+            "tip_text_align": "left",
+            "mark_bg_color": "#ffffff",
+            "mark_bg_color_hover": "#000000",
+            "mark_text_color": "#000000",
+            "mark_text_color_hover": "#000000",
+            "tip_bg_color": "#ffffff",
+            "tip_shadow_color": "#000000",
+            "tip_text_color": "#000000",
+            "tip_shadow_opacity": 0.5,
+            "mark_border_radius": 0,
+            "tip_border_radius": 0
           }
         },
         "pricing_item_cQk88x": {
@@ -289,7 +465,23 @@
             "main_content": "<p>From [price] /Once Off</p><p></p><p>Full visual identity to make you stand out.<br/></p>",
             "secondary_content": "<ul><li>Logo Design (3 concepts + 3 revisions)</li><li>Alternate Logo Versions (Icon, Badge etc.)</li><li>Extended Colour Palette (Primary, Secondary, Accents)</li><li>Typography Set & Styling Rules</li><li>Full Brand Style Guide (10-15 pages)</li><li>Basic Social Media Graphics (Profile + Header)</li><li>Collateral Design (2 pieces e.g. Business Card + Email Signature)</li><li>Expanded Brand Voice Guidelines</li><li><em>Deep brand strategy workshop</em></li></ul>",
             "badge_text": "",
-            "price": 3500
+            "price": 3500,
+            "enable_tip": false,
+            "use_icon_for_mark": true,
+            "tip_position": "main_content",
+            "mark_text": "",
+            "tip_text": "",
+            "tip_text_align": "left",
+            "mark_bg_color": "#ffffff",
+            "mark_bg_color_hover": "#000000",
+            "mark_text_color": "#000000",
+            "mark_text_color_hover": "#000000",
+            "tip_bg_color": "#ffffff",
+            "tip_shadow_color": "#000000",
+            "tip_text_color": "#000000",
+            "tip_shadow_opacity": 0.5,
+            "mark_border_radius": 0,
+            "tip_border_radius": 0
           }
         }
       },
@@ -385,6 +577,7 @@
       ],
       "name": "Shopify Collapsible content",
       "settings": {
+        "key": "1",
         "caption": "",
         "heading": "<strong>What’s Actually Included in Our Shopify Builds</strong>",
         "heading_size": "h1",
@@ -403,15 +596,16 @@
       "type": "marketing-focus",
       "name": "Shopify Marketing Focus Section",
       "settings": {
+        "key": "1",
         "logo_image": "shopify://shop_images/04.jpg",
         "headline": "Want to Know What’s Right For You?",
         "sub_text": "We’ll walk you through the packages, answer your questions, and map out exactly what your store needs to launch or grow.",
         "button_text": "Speak To Our Shopify Experts",
         "button_link": "shopify://pages/contact",
-        "desktop_padding_top": 0,
-        "desktop_padding_bottom": 0,
-        "mobile_padding_top": 0,
-        "mobile_padding_bottom": 0
+        "desktop_padding_top": 30,
+        "desktop_padding_bottom": 30,
+        "mobile_padding_top": 20,
+        "mobile_padding_bottom": 20
       }
     },
     "collapsible_content_HTJpwf": {
@@ -482,6 +676,7 @@
       ],
       "name": "Service Collapsible content",
       "settings": {
+        "key": "2",
         "caption": "",
         "heading": "<strong>What’s Included in a Proper Service-Based Website Build?</strong>",
         "heading_size": "h1",
@@ -500,15 +695,16 @@
       "type": "marketing-focus",
       "name": "Service Marketing Focus Section",
       "settings": {
+        "key": "2",
         "logo_image": "shopify://shop_images/04.jpg",
         "headline": "Ready to Build a Website That Actually Brings in Leads?",
         "sub_text": "Your next customer is already searching for you.\nLet’s build a site that helps them find you — and makes them want to book, call, or buy.",
         "button_text": "Request a Free Quote",
         "button_link": "shopify://pages/contact",
-        "desktop_padding_top": 0,
-        "desktop_padding_bottom": 0,
-        "mobile_padding_top": 0,
-        "mobile_padding_bottom": 0
+        "desktop_padding_top": 30,
+        "desktop_padding_bottom": 30,
+        "mobile_padding_top": 20,
+        "mobile_padding_bottom": 20
       }
     },
     "rich_text_VxqB3W": {
@@ -526,6 +722,7 @@
       ],
       "name": "t:sections.rich-text.presets.name",
       "settings": {
+        "key": "3",
         "bg_color": "#ffffff",
         "desktop_content_position": "center",
         "content_alignment": "center",
@@ -643,6 +840,7 @@
       ],
       "name": "Marketing Collapsible content",
       "settings": {
+        "key": "3",
         "caption": "",
         "heading": "<strong>Everything You Need to Know About Paid Ads Management</strong>",
         "heading_size": "h1",
@@ -661,15 +859,16 @@
       "type": "marketing-focus",
       "name": "Marketing Focus Section",
       "settings": {
+        "key": "3",
         "logo_image": "shopify://shop_images/04.jpg",
         "headline": "Ready to Run Ads That Actually Deliver?",
         "sub_text": "Stop guessing – start scaling. Book a free strategy call with our team and let’s map out a paid ads plan that brings in real leads and real sales.",
         "button_text": "Book My Free Strategy Call",
         "button_link": "shopify://pages/contact",
-        "desktop_padding_top": 0,
-        "desktop_padding_bottom": 0,
-        "mobile_padding_top": 0,
-        "mobile_padding_bottom": 0
+        "desktop_padding_top": 30,
+        "desktop_padding_bottom": 30,
+        "mobile_padding_top": 20,
+        "mobile_padding_bottom": 20
       }
     },
     "text_list_MXX9HP": {
@@ -841,6 +1040,7 @@
       ],
       "name": "Branding Collapsible content",
       "settings": {
+        "key": "4",
         "caption": "",
         "heading": "<strong>Everything You Need to Know About Branding With Us</strong>",
         "heading_size": "h1",
@@ -859,15 +1059,16 @@
       "type": "marketing-focus",
       "name": "Branding Marketing Focus Section",
       "settings": {
+        "key": "4",
         "logo_image": "shopify://shop_images/04.jpg",
         "headline": "Your Brand Is Too Important To DIY.",
         "sub_text": "Let's create a brand identity that’s trusted, memorable, and built to grow. Book a free branding chat with our team today.",
         "button_text": "Book Your Free Branding Consultation",
         "button_link": "shopify://pages/contact",
-        "desktop_padding_top": 0,
-        "desktop_padding_bottom": 0,
-        "mobile_padding_top": 0,
-        "mobile_padding_bottom": 0
+        "desktop_padding_top": 30,
+        "desktop_padding_bottom": 30,
+        "mobile_padding_top": 20,
+        "mobile_padding_bottom": 20
       }
     }
   },
