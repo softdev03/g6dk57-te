@@ -423,3 +423,6 @@ summary.list-menu__item > a {
 .menu-drawer__close-button:hover {
   background-color: transparent;
 }
+.shopify-section-header-sticky .header .mega-menu__content {
+  max-height: unset;
+}
