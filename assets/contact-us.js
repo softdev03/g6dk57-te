@@ -1,6 +1,7 @@
 document.addEventListener('DOMContentLoaded', () => {
 	const contactForm = document.querySelector('.shopify-section-cfn');
 	if (contactForm) {
+		const contactFormWrapper = contactForm.closest('.shopify-section--contact-form-new');
 		const nextButton = contactForm.querySelector('.next-step');
 		const backButton = contactForm.querySelector('.back-step');
 		const progressBar = contactForm.querySelector('.progress-track');
@@ -49,6 +50,7 @@ document.addEventListener('DOMContentLoaded', () => {
 			} else {
 				e.preventDefault();
 			}
+			keepScrollPos();
 		});
 		backButton.addEventListener('click', (e) => {
 			e.preventDefault();
@@ -275,5 +277,14 @@ document.addEventListener('DOMContentLoaded', () => {
 				contactForm.querySelector('.dropdown.show')?.classList.remove('show');
 			}
 		});
+		const keepScrollPos = () => {
+			const rect = contactFormWrapper.getBoundingClientRect();
+			if(rect.top < 0) {
+				contactFormWrapper.scrollIntoView({
+					behavior: 'smooth',
+					block: 'start'
+				});
+			}
+		}
 	}
 });
