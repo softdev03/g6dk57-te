@@ -1,0 +1,516 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "results_guaranteed_MJcj9M": {
+      "type": "results-guaranteed",
+      "name": "Results Guaranteed",
+      "settings": {
+        "main_heading": "Enterprise | Marketing Package",
+        "sub_heading": "(Full-Service Ads Management)",
+        "description": "Businesses with high advertising budgets (A$20K+/month) or those requiring complex, multi-channel campaigns across Google, Facebook, TikTok, YouTube, LinkedIn and more.Perfect for companies wanting an extension of their marketing team without paying bloated agency overheads.",
+        "button_text": "Request A Free Quote",
+        "button_link": "shopify://pages/contact",
+        "desktop_padding_top": 20,
+        "desktop_padding_bottom": 0,
+        "mobile_padding_top": 0,
+        "mobile_padding_bottom": 0
+      }
+    },
+    "phone_ring_MzFcJr": {
+      "type": "phone-ring",
+      "settings": {
+        "image": "shopify://shop_images/FacebookAds09.png",
+        "heading_1": "Price",
+        "heading_2": "Range:",
+        "sub_heading": "Management Fee: Starting from A$3,000+ per month (custom-quoted based on your specific ad spend and campaign complexity).",
+        "text": "One-Time Setup Fee: A$1,500 (often waived with a longer-term commitment or bundled service agreement). Note: Many agencies in this tier charge 15–20% of total ad spend — our flat rates are designed to keep your costs predictable and fair.",
+        "phone_button_text": "",
+        "phone_number": "",
+        "enquire_button_text": "",
+        "enquire_button_link": "",
+        "image_right": true,
+        "text_align": "left",
+        "desktop_padding_top": 0,
+        "desktop_padding_bottom": 0,
+        "mobile_padding_top": 0,
+        "mobile_padding_bottom": 40
+      }
+    },
+    "advertise_qQYPyj": {
+      "type": "advertise",
+      "settings": {
+        "loop_video": true,
+        "autoplay_video": true,
+        "media_border_radius": 0,
+        "media_border_width": 0,
+        "media_border_color": "#000000",
+        "secondary_image_roate_angle": 0,
+        "desktop_left": -1,
+        "desktop_top": 160,
+        "desktop_right": -90,
+        "desktop_bottom": -1,
+        "mobile_left": -1,
+        "mobile_top": -25,
+        "mobile_right": 0,
+        "mobile_bottom": -1,
+        "heading": "Inclusions:",
+        "sub_heading": "",
+        "text": "",
+        "button_link": "",
+        "button_text": "",
+        "image_right": true,
+        "text_align": "left",
+        "background_color": "#ffffff",
+        "desktop_padding_top": 30,
+        "desktop_padding_bottom": 30,
+        "mobile_padding_top": 20,
+        "mobile_padding_bottom": 20
+      }
+    },
+    "benefits_section_Jw3wfd": {
+      "type": "benefits-section",
+      "blocks": {
+        "benefit_gtM4Hd": {
+          "type": "benefit",
+          "settings": {
+            "benefit_title": "Multi-Platform Campaign Management:",
+            "benefit_description": "Google (Search, Display, Shopping, YouTube), Facebook/Instagram Ads, TikTok Ads, LinkedIn Ads — wherever your audience is, we manage it.",
+            "benefit_icon": "shopify://shop_images/checkmark.png"
+          }
+        },
+        "benefit_fCCiq3": {
+          "type": "benefit",
+          "settings": {
+            "benefit_title": "Holistic Strategy Development:",
+            "benefit_description": "Unified strategy across all channels, multi-touch attribution planning (e.g. TikTok for awareness, Facebook for retargeting, Google for high-intent conversions).",
+            "benefit_icon": "shopify://shop_images/checkmark.png"
+          }
+        },
+        "benefit_mzq8yA": {
+          "type": "benefit",
+          "settings": {
+            "benefit_title": "Unlimited Campaign Creation:",
+            "benefit_description": "Run Search, Display, Remarketing, YouTube, Facebook Retargeting, TikTok Awareness, and more — no limit on the number of campaigns needed to win.",
+            "benefit_icon": "shopify://shop_images/checkmark.png"
+          }
+        },
+        "benefit_4qRPLp": {
+          "type": "benefit",
+          "settings": {
+            "benefit_title": "Advanced Creative Support:",
+            "benefit_description": "We coordinate professional ad creatives (graphics, videos, copy) working with your assets or through our production partners if needed (external production costs quoted separately).",
+            "benefit_icon": "shopify://shop_images/checkmark.png"
+          }
+        },
+        "benefit_McrFKT": {
+          "type": "benefit",
+          "settings": {
+            "benefit_title": "Landing Page Optimisation:",
+            "benefit_description": "We design and A/B test up to two landing pages/variants per month to continually improve conversion rates and campaign performance.",
+            "benefit_icon": "shopify://shop_images/checkmark.png"
+          }
+        },
+        "benefit_dxLbNr": {
+          "type": "benefit",
+          "settings": {
+            "benefit_title": "Conversion Tracking & Analytics Setup:",
+            "benefit_description": "Complex tracking using Google Analytics, Facebook Events Manager, TikTok Pixel, LinkedIn Insight Tag and more. Setup of custom reporting dashboards for real-time visibility.",
+            "benefit_icon": "shopify://shop_images/checkmark.png"
+          }
+        },
+        "benefit_miG9Fz": {
+          "type": "benefit",
+          "settings": {
+            "benefit_title": "Daily Campaign Management & Optimisation:",
+            "benefit_description": "Adjust bids, refresh creatives, manage pacing, test new audiences, add negative keywords, and fine-tune budgets — hands-on daily management.",
+            "benefit_icon": "shopify://shop_images/checkmark.png"
+          }
+        },
+        "benefit_7nydjC": {
+          "type": "benefit",
+          "settings": {
+            "benefit_title": "Priority Reporting & Strategic Reviews:",
+            "benefit_description": "Bi-weekly or monthly deep-dive reports, plus monthly or on-demand strategy calls (60–90 minutes) with your senior account manager and the actual strategist managing your campaigns.",
+            "benefit_icon": "shopify://shop_images/checkmark.png"
+          }
+        },
+        "benefit_wnUReh": {
+          "type": "benefit",
+          "settings": {
+            "benefit_title": "Dedicated Account Manager:",
+            "benefit_description": "Direct access to your point of contact, not just a generic agency help desk.",
+            "benefit_icon": "shopify://shop_images/checkmark.png"
+          }
+        },
+        "benefit_NNXKT6": {
+          "type": "benefit",
+          "settings": {
+            "benefit_title": "Performance Guarantee:",
+            "benefit_description": "If we fail to hit agreed KPIs after three months, we refund one month’s management fee — no drama.",
+            "benefit_icon": "shopify://shop_images/checkmark.png"
+          }
+        }
+      },
+      "block_order": [
+        "benefit_gtM4Hd",
+        "benefit_fCCiq3",
+        "benefit_mzq8yA",
+        "benefit_4qRPLp",
+        "benefit_McrFKT",
+        "benefit_dxLbNr",
+        "benefit_miG9Fz",
+        "benefit_7nydjC",
+        "benefit_wnUReh",
+        "benefit_NNXKT6"
+      ],
+      "name": "Benefits Grid",
+      "settings": {
+        "section_title": "",
+        "bg_color": "#ffffff",
+        "desktop_padding_top": 0,
+        "desktop_padding_bottom": 0,
+        "mobile_padding_top": 0,
+        "mobile_padding_bottom": 0
+      }
+    },
+    "advertise_TKEWWA": {
+      "type": "advertise",
+      "settings": {
+        "loop_video": true,
+        "autoplay_video": true,
+        "media_border_radius": 0,
+        "media_border_width": 0,
+        "media_border_color": "#000000",
+        "secondary_image_roate_angle": 0,
+        "desktop_left": -1,
+        "desktop_top": 160,
+        "desktop_right": -90,
+        "desktop_bottom": -1,
+        "mobile_left": -1,
+        "mobile_top": -25,
+        "mobile_right": 0,
+        "mobile_bottom": -1,
+        "heading": "Exclusions:",
+        "sub_heading": "",
+        "text": "",
+        "button_link": "",
+        "button_text": "",
+        "image_right": true,
+        "text_align": "left",
+        "background_color": "#ffffff",
+        "desktop_padding_top": 30,
+        "desktop_padding_bottom": 30,
+        "mobile_padding_top": 20,
+        "mobile_padding_bottom": 20
+      }
+    },
+    "benefits_section_nyY6yE": {
+      "type": "benefits-section",
+      "blocks": {
+        "benefit_Vb8Vep": {
+          "type": "benefit",
+          "settings": {
+            "benefit_title": "",
+            "benefit_description": "Ad spend itself (paid directly to the ad platforms).",
+            "benefit_icon": "shopify://shop_images/close.png"
+          }
+        },
+        "benefit_ihmzRY": {
+          "type": "benefit",
+          "settings": {
+            "benefit_title": "",
+            "benefit_description": "Extensive organic social media posting (we focus solely on paid performance).",
+            "benefit_icon": "shopify://shop_images/close.png"
+          }
+        },
+        "benefit_LWRpDr": {
+          "type": "benefit",
+          "settings": {
+            "benefit_title": "",
+            "benefit_description": "Email marketing, SEO management, or CRM management (can be quoted separately).",
+            "benefit_icon": "shopify://shop_images/close.png"
+          }
+        },
+        "benefit_YtRDAE": {
+          "type": "benefit",
+          "settings": {
+            "benefit_title": "",
+            "benefit_description": "Major video production (coordination included, production costs extra).",
+            "benefit_icon": "shopify://shop_images/close.png"
+          }
+        }
+      },
+      "block_order": [
+        "benefit_Vb8Vep",
+        "benefit_ihmzRY",
+        "benefit_LWRpDr",
+        "benefit_YtRDAE"
+      ],
+      "name": "Benefits Grid",
+      "settings": {
+        "section_title": "",
+        "bg_color": "#ffffff",
+        "desktop_padding_top": 0,
+        "desktop_padding_bottom": 0,
+        "mobile_padding_top": 0,
+        "mobile_padding_bottom": 0
+      }
+    },
+    "advertise_PAQGf7": {
+      "type": "advertise",
+      "settings": {
+        "loop_video": true,
+        "autoplay_video": true,
+        "main_image": "shopify://shop_images/AnAgencyShopifyWebsite08.png",
+        "media_border_radius": 0,
+        "media_border_width": 0,
+        "media_border_color": "#000000",
+        "secondary_image_roate_angle": 0,
+        "desktop_left": -80,
+        "desktop_top": -1,
+        "desktop_right": -1,
+        "desktop_bottom": 82,
+        "mobile_left": 0,
+        "mobile_top": -1,
+        "mobile_right": -1,
+        "mobile_bottom": -30,
+        "heading": "Add-Ons Available:",
+        "sub_heading": "As your business grows, we offer optional add-ons like:",
+        "text": "<p><strong>Full Marketing Retainer: </strong>Bundle paid ads, SEO, content marketing and social media for a full-service solution at discounted rates.</p><p><strong>Rapid Campaign Launches: </strong>Priority execution if you need an urgent new campaign or flash sale.</p><p><strong>Landing Page Retainers: </strong>Expand your landing page builds monthly to match new campaigns.</p>",
+        "button_link": "",
+        "button_text": "",
+        "image_right": false,
+        "text_align": "left",
+        "background_color": "#ffffff",
+        "desktop_padding_top": 60,
+        "desktop_padding_bottom": 60,
+        "mobile_padding_top": 40,
+        "mobile_padding_bottom": 40
+      }
+    },
+    "advertise_DnFdqE": {
+      "type": "advertise",
+      "settings": {
+        "loop_video": true,
+        "autoplay_video": true,
+        "main_image": "shopify://shop_images/Artboard_45.png",
+        "media_border_radius": 0,
+        "media_border_width": 0,
+        "media_border_color": "#000000",
+        "secondary_image_roate_angle": 12,
+        "desktop_left": -1,
+        "desktop_top": -1,
+        "desktop_right": -1,
+        "desktop_bottom": -1,
+        "mobile_left": -1,
+        "mobile_top": -1,
+        "mobile_right": -1,
+        "mobile_bottom": -1,
+        "heading": "Competitive Insight:",
+        "sub_heading": "",
+        "text": "<p><strong>Typical Costs in Market:</strong></p><ul><li>High-end agencies often charge a percentage of ad spend (15–20%) plus setup fees of $3K–$10K+.</li><li>Some even bundle unnecessary services into huge retainer contracts, creating bloated monthly fees.</li></ul><p><strong>Common Agency Practices:</strong></p><ul><li>Locking you into 12-month minimums without a real guarantee.</li><li>Hiding markups on media spend.</li><li>Prioritising ad volume over actual profitability.</li></ul><p></p><p><strong>Where We Sit:</strong></p><p>We deliberately structured our Enterprise Marketing Package to provide serious performance management without the fat.<br/><br/>At around A$3,000+ per month for full multi-platform management (no hidden fees or markups), we are significantly below the average cost of a full-service digital agency offering the same service.<br/><br/>We also back it up with a 3-month initial commitment, clear KPIs, and a satisfaction guarantee, making us one of the most client-friendly high-end marketing service options in Australia.</p>",
+        "button_link": "",
+        "button_text": "",
+        "image_right": true,
+        "text_align": "left",
+        "background_color": "#feda2a",
+        "desktop_padding_top": 60,
+        "desktop_padding_bottom": 60,
+        "mobile_padding_top": 40,
+        "mobile_padding_bottom": 40
+      }
+    },
+    "advertise_L6PbPp": {
+      "type": "advertise",
+      "settings": {
+        "loop_video": true,
+        "autoplay_video": true,
+        "main_image": "shopify://shop_images/05.jpg",
+        "media_border_radius": 0,
+        "media_border_width": 0,
+        "media_border_color": "#000000",
+        "secondary_image_roate_angle": 0,
+        "desktop_left": -80,
+        "desktop_top": -1,
+        "desktop_right": -1,
+        "desktop_bottom": 82,
+        "mobile_left": 0,
+        "mobile_top": -1,
+        "mobile_right": -1,
+        "mobile_bottom": -30,
+        "heading": "Commitment & Guarantee:",
+        "sub_heading": "Three-month minimum engagement to allow proper optimisation. After that, monthly rolling contract.",
+        "text": "<p>We back every Enterprise client with a satisfaction guarantee — if we do not meet our agreed KPIs after three months, you get a refund of one month's management fee.</p><p><strong>Extra Costs (if applicable): </strong>If you require extensive new video production, major CRM integration, or additional landing page designs beyond the two per month included, these will be quoted separately.<br/><br/>All extras are always discussed and agreed upfront — no surprise invoices.</p>",
+        "button_link": "",
+        "button_text": "",
+        "image_right": false,
+        "text_align": "left",
+        "background_color": "#ffffff",
+        "desktop_padding_top": 60,
+        "desktop_padding_bottom": 60,
+        "mobile_padding_top": 40,
+        "mobile_padding_bottom": 40
+      }
+    },
+    "advertise_JebRqW": {
+      "type": "advertise",
+      "settings": {
+        "loop_video": true,
+        "autoplay_video": true,
+        "main_image": "shopify://shop_images/AnAgencyShopifyWebsite05.png",
+        "media_border_radius": 0,
+        "media_border_width": 0,
+        "media_border_color": "#000000",
+        "secondary_image_roate_angle": 0,
+        "desktop_left": -1,
+        "desktop_top": 160,
+        "desktop_right": -90,
+        "desktop_bottom": -1,
+        "mobile_left": -1,
+        "mobile_top": -25,
+        "mobile_right": 0,
+        "mobile_bottom": -1,
+        "heading": "Onboarding & Delivery:",
+        "sub_heading": "",
+        "text": "<p>Upon signing, we immediately conduct a strategy workshop (online or in-person) to map out platforms, budgets, messaging, and timelines.<br/>Typical onboarding and first campaign launch happens within 5–7 business days.</p>",
+        "button_link": "shopify://pages/contact",
+        "button_text": "Request A Free Quote",
+        "image_right": true,
+        "text_align": "left",
+        "background_color": "#ffffff",
+        "desktop_padding_top": 60,
+        "desktop_padding_bottom": 60,
+        "mobile_padding_top": 40,
+        "mobile_padding_bottom": 40
+      }
+    },
+    "faq_cYAhKJ": {
+      "type": "faq",
+      "blocks": {
+        "faq_item_rrnAHz": {
+          "type": "faq_item",
+          "settings": {
+            "question": "What experience does An Agency have working with tradesmen?",
+            "answer": "<p>As a team led by an ex-tradesman, we understand the unique challenges and needs of the trade industry. We've successfully partnered with numerous Australian tradies, delivering tailored website designs, effective SEO strategies, and targeted paid advertising campaigns that generate quality leads.</p>",
+            "icon": "shopify://shop_images/yellow-arrow.svg"
+          }
+        },
+        "faq_item_AdgFRX": {
+          "type": "faq_item",
+          "settings": {
+            "question": "How long does it take to see results from SEO efforts?",
+            "answer": "<p>SEO is a long-term investment. While some improvements can be seen within a few months, it typically takes 6 to 12 months to achieve significant results. Our team implements proven strategies to enhance your online visibility and attract the right clients over time.</p>",
+            "icon": "shopify://shop_images/yellow-arrow.svg"
+          }
+        },
+        "faq_item_E6VP9h": {
+          "type": "faq_item",
+          "settings": {
+            "question": "Will I have a dedicated point of contact at An Agency?",
+            "answer": "<p>Absolutely. We assign a dedicated account manager to each client, ensuring clear communication and personalized service. Your account manager will keep you updated on progress, answer your questions, and ensure your marketing goals are met.</p>",
+            "icon": "shopify://shop_images/yellow-arrow.svg"
+          }
+        },
+        "faq_item_akFz96": {
+          "type": "faq_item",
+          "settings": {
+            "question": "Do you provide regular reports on campaign performance?",
+            "answer": "<p>Yes, transparency is key to our approach. We provide detailed monthly reports outlining the performance of your website, SEO, and advertising campaigns. These reports include key metrics and insights to keep you informed and confident in our services.</p>",
+            "icon": "shopify://shop_images/yellow-arrow.svg"
+          }
+        },
+        "faq_item_jdQR46": {
+          "type": "faq_item",
+          "settings": {
+            "question": "Can you guarantee specific results with your services?",
+            "answer": "<p>No agency can promise exact rankings or lead numbers—but here’s what we can guarantee: if you don’t get any leads, inquiries, or phone calls in the first 30 days, we’ll refund your marketing money, no questions asked. That’s how confident we are in what we do.We’re not just making bold claims—we have the track record to back it up. We have never worked with a tradie who didn’t get inquiries or phone calls within their first 30 days. In most cases, you’ll start seeing results within the first two weeks, and it only gets better from there as the algorithm learns and optimizes.We don’t just set up campaigns—we build systems that bring in real work.</p>",
+            "icon": "shopify://shop_images/yellow-arrow.svg"
+          }
+        },
+        "faq_item_nyFTVE": {
+          "type": "faq_item",
+          "settings": {
+            "question": "What ongoing support does An Agency offer?",
+            "answer": "<p>We offer continuous support to ensure your marketing efforts remain effective. This includes regular performance reviews, updates to your website and campaigns as needed, and ongoing consultation to adapt strategies in line with your business goals.Partner with An Agency and experience the difference that a confident, knowledgeable, and dedicated marketing team can make for your trade business.</p>",
+            "icon": "shopify://shop_images/yellow-arrow.svg"
+          }
+        },
+        "faq_item_XN9Db9": {
+          "type": "faq_item",
+          "settings": {
+            "question": "How do you ensure the quality of leads generated?",
+            "answer": "<p>Through precise targeting, compelling ad copy, and strategic SEO practices, we attract clients who are actively seeking your services. Our approach focuses on quality over quantity, ensuring the leads generated are a good fit for your business.</p>",
+            "icon": "shopify://shop_images/yellow-arrow.svg"
+          }
+        },
+        "faq_item_C7MHEi": {
+          "type": "faq_item",
+          "settings": {
+            "question": "What types of paid advertising do you manage?",
+            "answer": "<p>We manage various paid advertising channels, including Google Ads, social media advertising (Facebook, Instagram), and display advertising. Our team develops targeted campaigns to reach your ideal clients, maximize your return on investment, and keep your phone ringing with new business.</p>",
+            "icon": "shopify://shop_images/yellow-arrow.svg"
+          }
+        },
+        "faq_item_Htp8HR": {
+          "type": "faq_item",
+          "settings": {
+            "question": "How do you approach website design for tradesmen?",
+            "answer": "<p>We create custom, responsive websites that reflect your brand and appeal to your target audience. Our designs are user-friendly, mobile-optimized, and built with SEO best practices to ensure your site ranks well and converts visitors into clients.</p>",
+            "icon": "shopify://shop_images/yellow-arrow.svg"
+          }
+        },
+        "faq_item_Fb4Rdq": {
+          "type": "faq_item",
+          "settings": {
+            "question": "What sets An Agency apart from other marketing agencies?",
+            "answer": "<p>Our deep understanding of the trades industry, combined with our comprehensive service offerings—including website design, SEO, and paid advertising—sets us apart. Being Australian-owned and operated, we know the local market and are dedicated to helping fellow Aussie tradies succeed.</p>",
+            "icon": "shopify://shop_images/yellow-arrow.svg"
+          }
+        }
+      },
+      "block_order": [
+        "faq_item_rrnAHz",
+        "faq_item_AdgFRX",
+        "faq_item_E6VP9h",
+        "faq_item_akFz96",
+        "faq_item_jdQR46",
+        "faq_item_nyFTVE",
+        "faq_item_XN9Db9",
+        "faq_item_C7MHEi",
+        "faq_item_Htp8HR",
+        "faq_item_Fb4Rdq"
+      ],
+      "disabled": true,
+      "settings": {
+        "heading": "Frequently Asked Questions",
+        "bg_color": "#f9f9f9",
+        "max_width": 684,
+        "desktop_padding_top": 60,
+        "desktop_padding_bottom": 60,
+        "mobile_padding_top": 40,
+        "mobile_padding_bottom": 40
+      }
+    }
+  },
+  "order": [
+    "results_guaranteed_MJcj9M",
+    "phone_ring_MzFcJr",
+    "advertise_qQYPyj",
+    "benefits_section_Jw3wfd",
+    "advertise_TKEWWA",
+    "benefits_section_nyY6yE",
+    "advertise_PAQGf7",
+    "advertise_DnFdqE",
+    "advertise_L6PbPp",
+    "advertise_JebRqW",
+    "faq_cYAhKJ"
+  ]
+}

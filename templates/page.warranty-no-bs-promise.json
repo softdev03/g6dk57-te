@@ -1,0 +1,569 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "advertise_xMT9mA": {
+      "type": "advertise",
+      "settings": {
+        "loop_video": true,
+        "autoplay_video": true,
+        "main_image": "shopify://shop_images/05.jpg",
+        "media_border_radius": 0,
+        "media_border_width": 0,
+        "media_border_color": "#000000",
+        "secondary_image_roate_angle": -16,
+        "desktop_left": -48,
+        "desktop_top": -1,
+        "desktop_right": -1,
+        "desktop_bottom": -50,
+        "mobile_left": 0,
+        "mobile_top": -1,
+        "mobile_right": -1,
+        "mobile_bottom": -26,
+        "heading": "Warranty & No-BS Promise. Why Clients Trust An Agency",
+        "sub_heading": "1-Year Warranty on Websites",
+        "text": "<p>Every website we build is backed by a full <strong>12-month warranty</strong>.<br/>If any bugs or technical issues pop up that are related to our development work, we fix them — no stress, no extra charges.</p><p>We stand by the quality of what we deliver.<br/>This warranty gives you the peace of mind that your investment is protected for a full year after launch.</p>",
+        "button_link": "",
+        "button_text": "",
+        "image_right": false,
+        "text_align": "left",
+        "background_color": "#ffffff",
+        "desktop_padding_top": 60,
+        "desktop_padding_bottom": 60,
+        "mobile_padding_top": 40,
+        "mobile_padding_bottom": 40
+      }
+    },
+    "phone_ring_MzFcJr": {
+      "type": "phone-ring",
+      "disabled": true,
+      "settings": {
+        "image": "shopify://shop_images/GoogleAds_08.jpg",
+        "heading_1": "Results Guaranteed",
+        "heading_2": "",
+        "sub_heading": "(Our No-Risk, No-BS Promise)",
+        "text": "If we don't deliver what we agree on, you simply don't pay the final balance. That’s it. No long-winded excuses. No fine print hiding behind \"industry best effort\" clauses.We operate on real outcomes, not marketing fluff: For websites: If the agreed scope isn't delivered, you won't be asked for full payment until it is. For marketing: If we don’t hit agreed KPIs after the initial three-month runway, we refund one month’s management fee, no drama. We don't want clients locked into services they aren't happy with. We want partnerships based on trust, performance, and transparency",
+        "phone_button_text": "",
+        "phone_number": "",
+        "enquire_button_text": "",
+        "enquire_button_link": "",
+        "image_right": true,
+        "text_align": "left",
+        "desktop_padding_top": 100,
+        "desktop_padding_bottom": 100,
+        "mobile_padding_top": 60,
+        "mobile_padding_bottom": 40
+      }
+    },
+    "advertise_KLNL33": {
+      "type": "advertise",
+      "settings": {
+        "loop_video": true,
+        "autoplay_video": true,
+        "main_image": "shopify://shop_images/AnAgencySEO_01.png",
+        "media_border_radius": 0,
+        "media_border_width": 0,
+        "media_border_color": "#000000",
+        "secondary_image_roate_angle": -16,
+        "desktop_left": -50,
+        "desktop_top": -1,
+        "desktop_right": -1,
+        "desktop_bottom": 82,
+        "mobile_left": 0,
+        "mobile_top": -1,
+        "mobile_right": -1,
+        "mobile_bottom": -30,
+        "heading": "Results Guaranteed (Our No-Risk, No-BS Promise)",
+        "sub_heading": "If we don't deliver what we agree on, you simply don't pay the final balance. That’s it. No long-winded excuses. No fine print hiding behind \"industry best effort\" clauses.",
+        "text": "<p><strong>We operate on real outcomes, not marketing fluff:</strong></p><p><strong>For websites:</strong> If the agreed scope isn't delivered, you won't be asked for full payment until it is.</p><p><strong>For marketing:</strong> If we don’t hit agreed KPIs after the initial three-month runway, we refund one month’s management fee, no drama.</p><p><strong>We don't want clients locked into services they aren't happy with.</strong><br/><br/>We want partnerships based on trust, performance, and transparency.</p>",
+        "button_link": "",
+        "button_text": "",
+        "image_right": true,
+        "text_align": "left",
+        "background_color": "#ffffff",
+        "desktop_padding_top": 60,
+        "desktop_padding_bottom": 60,
+        "mobile_padding_top": 40,
+        "mobile_padding_bottom": 40
+      }
+    },
+    "advertise_qQYPyj": {
+      "type": "advertise",
+      "settings": {
+        "loop_video": true,
+        "autoplay_video": true,
+        "main_image": "shopify://shop_images/AnAgencyServiceWebsite07.png",
+        "media_border_radius": 0,
+        "media_border_width": 0,
+        "media_border_color": "#000000",
+        "secondary_image_roate_angle": 0,
+        "desktop_left": -1,
+        "desktop_top": 160,
+        "desktop_right": -90,
+        "desktop_bottom": -1,
+        "mobile_left": -1,
+        "mobile_top": -25,
+        "mobile_right": 0,
+        "mobile_bottom": -1,
+        "heading": "How Our Warranty Works",
+        "sub_heading": "",
+        "text": "<p><strong>Covers: </strong>All technical bugs related to code, layout, or integrations that we built during your project.</p><p><strong>Does Not Cover: </strong>Issues caused by third-party plugins, apps, user errors, or hosting changes you make after delivery without consultation (but we are always happy to help troubleshoot if you need it).</p><p><strong>Simple Process: </strong>If something breaks, email us. We prioritise warranty fixes ahead of new work so you’re not left hanging.</p>",
+        "button_link": "",
+        "button_text": "Help Grow My Business",
+        "image_right": true,
+        "text_align": "left",
+        "background_color": "#ffffff",
+        "desktop_padding_top": 60,
+        "desktop_padding_bottom": 60,
+        "mobile_padding_top": 40,
+        "mobile_padding_bottom": 40
+      }
+    },
+    "trust_Q37M3R": {
+      "type": "trust",
+      "blocks": {
+        "trust_item_KtaqTQ": {
+          "type": "trust_item",
+          "settings": {
+            "heading": "Covers:",
+            "main_text": "<p>All technical bugs related to code, layout, or integrations that we built during your project.</p>",
+            "button_text": "",
+            "additional_text": "",
+            "accordion_image": "shopify://shop_images/plus_1.png"
+          }
+        },
+        "trust_item_YFytD9": {
+          "type": "trust_item",
+          "settings": {
+            "heading": "Does Not Cover:",
+            "main_text": "<p>Issues caused by third-party plugins, apps, user errors, or hosting changes you make after delivery without consultation (but we are always happy to help troubleshoot if you need it).</p>",
+            "button_text": "",
+            "additional_text": "",
+            "accordion_image": "shopify://shop_images/plus_1.png"
+          }
+        },
+        "trust_item_JfVUzV": {
+          "type": "trust_item",
+          "settings": {
+            "heading": "Simple Process:",
+            "main_text": "<p>If something breaks, email us. We prioritise warranty fixes ahead of new work so you’re not left hanging.</p>",
+            "button_text": "",
+            "additional_text": "",
+            "accordion_image": "shopify://shop_images/plus_1.png"
+          }
+        }
+      },
+      "block_order": [
+        "trust_item_KtaqTQ",
+        "trust_item_YFytD9",
+        "trust_item_JfVUzV"
+      ],
+      "settings": {
+        "heading": "How Our Warranty Works",
+        "text": "",
+        "trust_image": "shopify://shop_images/Artboard_13.png",
+        "desktop_padding_top": 60,
+        "desktop_padding_bottom": 60,
+        "mobile_padding_top": 40,
+        "mobile_padding_bottom": 40
+      }
+    },
+    "advertise_PAQGf7": {
+      "type": "advertise",
+      "settings": {
+        "loop_video": true,
+        "autoplay_video": true,
+        "main_image": "shopify://shop_images/AnAgencyServiceWebsite03.png",
+        "media_border_radius": 0,
+        "media_border_width": 0,
+        "media_border_color": "#000000",
+        "secondary_image_roate_angle": 0,
+        "desktop_left": -80,
+        "desktop_top": -1,
+        "desktop_right": -1,
+        "desktop_bottom": 82,
+        "mobile_left": 0,
+        "mobile_top": -1,
+        "mobile_right": -1,
+        "mobile_bottom": -30,
+        "heading": "Our Promise to You",
+        "sub_heading": "",
+        "text": "<p>No hidden fees</p><p>No sneaky contracts</p><p>No locked-in fine print</p><p>No outsourcing overseas</p><p>No half-built websites or half-run ads<br/><br/><strong>You get real work, real accountability, and real results — or you don't pay.</strong></p><p>We don’t make promises lightly. We deliver them.</p>",
+        "button_link": "shopify://pages/contact",
+        "button_text": "Help Grow My Business",
+        "image_right": false,
+        "text_align": "left",
+        "background_color": "#ffffff",
+        "desktop_padding_top": 60,
+        "desktop_padding_bottom": 60,
+        "mobile_padding_top": 40,
+        "mobile_padding_bottom": 40
+      }
+    },
+    "advertise_DnFdqE": {
+      "type": "advertise",
+      "disabled": true,
+      "settings": {
+        "loop_video": true,
+        "autoplay_video": true,
+        "main_image": "shopify://shop_images/GoogleAds_09.jpg",
+        "media_border_radius": 0,
+        "media_border_width": 0,
+        "media_border_color": "#000000",
+        "secondary_image_roate_angle": 12,
+        "desktop_left": -1,
+        "desktop_top": -1,
+        "desktop_right": -1,
+        "desktop_bottom": -1,
+        "mobile_left": -1,
+        "mobile_top": -1,
+        "mobile_right": -1,
+        "mobile_bottom": -1,
+        "heading": "Get More Sales Without Guesswork",
+        "sub_heading": "Smart Google Ads Campaigns That Actually Convert",
+        "text": "<p>Getting clicks is easy. Turning those clicks into actual orders? That’s where most eComm brands struggle. We don’t just launch campaigns and hope for the best. We build funnels that guide the right shopper all the way from search to checkout.</p><p>We optimise for high-intent traffic, people who are already looking for what you sell. And we track everything: product page views, cart activity, conversion rates, and ROAS. So you’re not just spending, you’re scaling.</p><p>Want more abandoned carts recovered? Higher AOV? We run remarketing ads that pull shoppers back in and product feed campaigns that put your bestsellers in front of buyers who are ready to spend.</p><p>Whether you're trying to grow your customer base or boost LTV, our eCommerce Google Ads strategies are built to do one thing: sell more, profitably.</p><p><strong>Let’s turn browsers into buyers.</strong></p>",
+        "button_link": "shopify://pages/contact",
+        "button_text": "Help Grow My Business",
+        "image_right": true,
+        "text_align": "left",
+        "background_color": "#ffffff",
+        "desktop_padding_top": 60,
+        "desktop_padding_bottom": 60,
+        "mobile_padding_top": 40,
+        "mobile_padding_bottom": 40
+      }
+    },
+    "advertise_JebRqW": {
+      "type": "advertise",
+      "disabled": true,
+      "settings": {
+        "loop_video": true,
+        "autoplay_video": true,
+        "main_image": "shopify://shop_images/GoogleAds_10.jpg",
+        "secondary_image": "shopify://shop_images/get-new-customers.svg",
+        "media_border_radius": 0,
+        "media_border_width": 0,
+        "media_border_color": "#000000",
+        "secondary_image_roate_angle": 0,
+        "desktop_left": -1,
+        "desktop_top": 160,
+        "desktop_right": -70,
+        "desktop_bottom": -1,
+        "mobile_left": -1,
+        "mobile_top": -25,
+        "mobile_right": 0,
+        "mobile_bottom": -1,
+        "heading": "Leads That Book Themselves",
+        "sub_heading": "Smart Targeting. Real Calls. More Booked Jobs.",
+        "text": "<p>It’s not just about getting leads,  it’s about getting the right ones. The kind that actually pick up the phone, request a quote, and are ready to go. That’s what a good Google Ads strategy should deliver.</p><p>We track exactly what time of day your audience is most active, what keywords drive action (not just clicks), and which ad copy leads to phone calls. You’ll know what’s working, what needs tweaking, and where your next job is likely to come from.</p><p>Plus, we set up call tracking so you can listen in on lead quality. No fluff metrics, just real conversations with real people looking for your services.</p><p>If you’ve wasted money on ads before, we get it. But with the right setup and constant optimisation, your campaigns don’t just sit there, they do the heavy lifting.</p><p><strong>Let’s make the phone ring for the right reasons.</strong></p>",
+        "button_link": "shopify://pages/contact",
+        "button_text": "Get More High-Quality Leads",
+        "image_right": false,
+        "text_align": "left",
+        "background_color": "#ffffff",
+        "desktop_padding_top": 60,
+        "desktop_padding_bottom": 60,
+        "mobile_padding_top": 40,
+        "mobile_padding_bottom": 40
+      }
+    },
+    "tradies_D9qHzj": {
+      "type": "Tradies",
+      "blocks": {
+        "tradies_item_YQarCg": {
+          "type": "tradies-item",
+          "settings": {
+            "image": "shopify://shop_images/AnAgencyOurWork01.png",
+            "detail_info_heading": "Plant Stores",
+            "detail_info_text": "<p></p><p></p><p></p>",
+            "icon": "shopify://shop_images/plus_1.png",
+            "detail_button_link": "#",
+            "detail_button_text": "Free Quote"
+          }
+        },
+        "tradies_item_TMkHRR": {
+          "type": "tradies-item",
+          "settings": {
+            "image": "shopify://shop_images/AnAgencyOurWork04.png",
+            "detail_info_heading": "Hardeware Stores",
+            "detail_info_text": "<p>Blocked drains, burst pipes, hot water installs—your customers want help fast. We build plumbing websites that make it easy for people to find your services, get a quick quote, and book a job on the spot. Plus, we highlight your experience and qualifications so customers know they’re in good hands.</p><p></p><p></p>",
+            "icon": "shopify://shop_images/plus_1.png",
+            "detail_button_link": "#",
+            "detail_button_text": "Free Quote"
+          }
+        },
+        "tradies_item_yT7wgX": {
+          "type": "tradies-item",
+          "settings": {
+            "image": "shopify://shop_images/AnAgencyOurWork19.png",
+            "detail_info_heading": "Plumbers",
+            "detail_info_text": "<p>Your work speaks for itself—your website should too. Whether you’re crafting custom furniture, framing houses, or handling detailed renovations, we create carpenter websites that showcase your best projects, highlight your craftsmanship, and bring in high-paying clients.</p><p></p><p></p>",
+            "icon": "shopify://shop_images/plus_1.png",
+            "detail_button_link": "#",
+            "detail_button_text": "Free Quote"
+          }
+        },
+        "tradies_item_X3Db9y": {
+          "type": "tradies-item",
+          "settings": {
+            "image": "shopify://shop_images/AnAgencyOurWork14.png",
+            "detail_info_heading": "Cabinet Makers",
+            "detail_info_text": "<p>Customers need to trust their pest control expert. We design websites that clearly show your experience in dealing with termites, rodents, and everything in between. We make it easy for clients to book inspections, learn about your methods, and understand why your service is the best choice for keeping their home pest-free.</p><p></p><p></p>",
+            "icon": "shopify://shop_images/plus_1.png",
+            "detail_button_link": "#",
+            "detail_button_text": "Free Quote"
+          }
+        },
+        "tradies_item_6qHYz4": {
+          "type": "tradies-item",
+          "settings": {
+            "image": "shopify://shop_images/AnAgencyOurWork12.png",
+            "detail_info_heading": "Retail Stores",
+            "detail_info_text": "<p>Whether you’re running a commercial cleaning business or handling end-of-lease deep cleans, a strong website helps you get more bookings. We highlight your services, customer testimonials, and guarantees, with a simple contact system that makes it easy for clients to reach out and book a clean.</p><p></p><p></p>",
+            "icon": "shopify://shop_images/plus_1.png",
+            "detail_button_link": "#",
+            "detail_button_text": "Free Quote"
+          }
+        },
+        "tradies_item_tDB4YR": {
+          "type": "tradies-item",
+          "settings": {
+            "image": "shopify://shop_images/AnAgencyOurWork06.png",
+            "detail_info_heading": "Pet Stores",
+            "detail_info_text": "<p>No matter your trade, we build websites that work for you. From builders and tilers to landscapers and painters, we design sites that show off your skills, bring in more work, and make booking you a no-brainer.</p><p></p><p></p>",
+            "icon": "shopify://shop_images/plus_1.png",
+            "detail_button_link": "#",
+            "detail_button_text": "Free Quote"
+          }
+        }
+      },
+      "block_order": [
+        "tradies_item_YQarCg",
+        "tradies_item_TMkHRR",
+        "tradies_item_yT7wgX",
+        "tradies_item_X3Db9y",
+        "tradies_item_6qHYz4",
+        "tradies_item_tDB4YR"
+      ],
+      "disabled": true,
+      "settings": {
+        "heading": "Industries we work with",
+        "text": "Looking for an affordable and effective web design service for your trade business in Australia? We’ve got you.",
+        "desktop_padding_top": 60,
+        "desktop_padding_bottom": 60,
+        "mobile_padding_top": 40,
+        "mobile_padding_bottom": 40
+      }
+    },
+    "faq_cYAhKJ": {
+      "type": "faq",
+      "blocks": {
+        "faq_item_rrnAHz": {
+          "type": "faq_item",
+          "settings": {
+            "question": "What experience does An Agency have working with tradesmen?",
+            "answer": "<p>As a team led by an ex-tradesman, we understand the unique challenges and needs of the trade industry. We've successfully partnered with numerous Australian tradies, delivering tailored website designs, effective SEO strategies, and targeted paid advertising campaigns that generate quality leads.</p>",
+            "icon": "shopify://shop_images/plus_1.png"
+          }
+        },
+        "faq_item_AdgFRX": {
+          "type": "faq_item",
+          "settings": {
+            "question": "How long does it take to see results from SEO efforts?",
+            "answer": "<p>SEO is a long-term investment. While some improvements can be seen within a few months, it typically takes 6 to 12 months to achieve significant results. Our team implements proven strategies to enhance your online visibility and attract the right clients over time.</p>",
+            "icon": "shopify://shop_images/plus_1.png"
+          }
+        },
+        "faq_item_E6VP9h": {
+          "type": "faq_item",
+          "settings": {
+            "question": "Will I have a dedicated point of contact at An Agency?",
+            "answer": "<p>Absolutely. We assign a dedicated account manager to each client, ensuring clear communication and personalized service. Your account manager will keep you updated on progress, answer your questions, and ensure your marketing goals are met.</p>",
+            "icon": "shopify://shop_images/plus_1.png"
+          }
+        },
+        "faq_item_akFz96": {
+          "type": "faq_item",
+          "settings": {
+            "question": "Do you provide regular reports on campaign performance?",
+            "answer": "<p>Yes, transparency is key to our approach. We provide detailed monthly reports outlining the performance of your website, SEO, and advertising campaigns. These reports include key metrics and insights to keep you informed and confident in our services.</p>",
+            "icon": "shopify://shop_images/plus_1.png"
+          }
+        },
+        "faq_item_jdQR46": {
+          "type": "faq_item",
+          "settings": {
+            "question": "Can you guarantee specific results with your services?",
+            "answer": "<p>No agency can promise exact rankings or lead numbers—but here’s what we can guarantee: if you don’t get any leads, inquiries, or phone calls in the first 30 days, we’ll refund your marketing money, no questions asked. That’s how confident we are in what we do.We’re not just making bold claims—we have the track record to back it up. We have never worked with a tradie who didn’t get inquiries or phone calls within their first 30 days. In most cases, you’ll start seeing results within the first two weeks, and it only gets better from there as the algorithm learns and optimizes.We don’t just set up campaigns—we build systems that bring in real work.</p>",
+            "icon": "shopify://shop_images/plus_1.png"
+          }
+        },
+        "faq_item_nyFTVE": {
+          "type": "faq_item",
+          "settings": {
+            "question": "What ongoing support does An Agency offer?",
+            "answer": "<p>We offer continuous support to ensure your marketing efforts remain effective. This includes regular performance reviews, updates to your website and campaigns as needed, and ongoing consultation to adapt strategies in line with your business goals.Partner with An Agency and experience the difference that a confident, knowledgeable, and dedicated marketing team can make for your trade business.</p>",
+            "icon": "shopify://shop_images/plus_1.png"
+          }
+        },
+        "faq_item_XN9Db9": {
+          "type": "faq_item",
+          "settings": {
+            "question": "How do you ensure the quality of leads generated?",
+            "answer": "<p>Through precise targeting, compelling ad copy, and strategic SEO practices, we attract clients who are actively seeking your services. Our approach focuses on quality over quantity, ensuring the leads generated are a good fit for your business.</p>",
+            "icon": "shopify://shop_images/plus_1.png"
+          }
+        },
+        "faq_item_C7MHEi": {
+          "type": "faq_item",
+          "settings": {
+            "question": "What types of paid advertising do you manage?",
+            "answer": "<p>We manage various paid advertising channels, including Google Ads, social media advertising (Facebook, Instagram), and display advertising. Our team develops targeted campaigns to reach your ideal clients, maximize your return on investment, and keep your phone ringing with new business.</p>",
+            "icon": "shopify://shop_images/plus_1.png"
+          }
+        },
+        "faq_item_Htp8HR": {
+          "type": "faq_item",
+          "settings": {
+            "question": "How do you approach website design for tradesmen?",
+            "answer": "<p>We create custom, responsive websites that reflect your brand and appeal to your target audience. Our designs are user-friendly, mobile-optimized, and built with SEO best practices to ensure your site ranks well and converts visitors into clients.</p>",
+            "icon": "shopify://shop_images/plus_1.png"
+          }
+        },
+        "faq_item_Fb4Rdq": {
+          "type": "faq_item",
+          "settings": {
+            "question": "What sets An Agency apart from other marketing agencies?",
+            "answer": "<p>Our deep understanding of the trades industry, combined with our comprehensive service offerings—including website design, SEO, and paid advertising—sets us apart. Being Australian-owned and operated, we know the local market and are dedicated to helping fellow Aussie tradies succeed.</p>",
+            "icon": "shopify://shop_images/plus_1.png"
+          }
+        }
+      },
+      "block_order": [
+        "faq_item_rrnAHz",
+        "faq_item_AdgFRX",
+        "faq_item_E6VP9h",
+        "faq_item_akFz96",
+        "faq_item_jdQR46",
+        "faq_item_nyFTVE",
+        "faq_item_XN9Db9",
+        "faq_item_C7MHEi",
+        "faq_item_Htp8HR",
+        "faq_item_Fb4Rdq"
+      ],
+      "disabled": true,
+      "settings": {
+        "heading": "Frequently Asked Questions",
+        "bg_color": "#fbfbfb",
+        "max_width": 684,
+        "desktop_padding_top": 60,
+        "desktop_padding_bottom": 60,
+        "mobile_padding_top": 40,
+        "mobile_padding_bottom": 40
+      }
+    },
+    "partner_with_U86NgH": {
+      "type": "partner-with",
+      "blocks": {
+        "partner_item_Am8rMX": {
+          "type": "partner_item",
+          "settings": {
+            "image": "shopify://shop_images/shopify-partner-logo.jpg",
+            "link": "#"
+          }
+        },
+        "partner_item_gQr6pr": {
+          "type": "partner_item",
+          "settings": {
+            "image": "shopify://shop_images/google_partner.png",
+            "link": ""
+          }
+        },
+        "partner_item_dT3dm7": {
+          "type": "partner_item",
+          "settings": {
+            "image": "shopify://shop_images/tiktokpartners.webp",
+            "link": ""
+          }
+        },
+        "partner_item_peizWL": {
+          "type": "partner_item",
+          "settings": {
+            "image": "shopify://shop_images/servicem8-partner.webp",
+            "link": ""
+          }
+        },
+        "partner_item_gizEVP": {
+          "type": "partner_item",
+          "settings": {
+            "image": "shopify://shop_images/meta-for-business-partner_66a9ef36-a15c-4d61-9a3d-20fa845029eb.webp",
+            "link": ""
+          }
+        },
+        "partner_item_ppj4Q9": {
+          "type": "partner_item",
+          "settings": {
+            "image": "shopify://shop_images/bingads.png",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "partner_item_Am8rMX",
+        "partner_item_gQr6pr",
+        "partner_item_dT3dm7",
+        "partner_item_peizWL",
+        "partner_item_gizEVP",
+        "partner_item_ppj4Q9"
+      ],
+      "settings": {
+        "heading": "Partnered With",
+        "bg_color": "#ffffff",
+        "desktop_card_border_radius": 10,
+        "mobile_card_border_radius": 6,
+        "desktop_padding_top": 30,
+        "desktop_padding_bottom": 30,
+        "mobile_padding_top": 30,
+        "mobile_padding_bottom": 30
+      }
+    },
+    "marketing_focus_M6QMCX": {
+      "type": "marketing-focus",
+      "disabled": true,
+      "name": "Marketing Focus Section",
+      "settings": {
+        "key": "",
+        "logo_image": "shopify://shop_images/04.jpg",
+        "headline": "We Know Google Ads Like the Back of Our Hand",
+        "sub_text": "Search, Display, Shopping, we’ll manage the lot and make sure every dollar works harder.",
+        "button_text": "Request a Quote",
+        "button_link": "shopify://pages/contact",
+        "desktop_padding_top": 40,
+        "desktop_padding_bottom": 40,
+        "mobile_padding_top": 30,
+        "mobile_padding_bottom": 30
+      }
+    }
+  },
+  "order": [
+    "advertise_xMT9mA",
+    "phone_ring_MzFcJr",
+    "advertise_KLNL33",
+    "advertise_qQYPyj",
+    "trust_Q37M3R",
+    "advertise_PAQGf7",
+    "advertise_DnFdqE",
+    "advertise_JebRqW",
+    "tradies_D9qHzj",
+    "faq_cYAhKJ",
+    "partner_with_U86NgH",
+    "marketing_focus_M6QMCX"
+  ]
+}

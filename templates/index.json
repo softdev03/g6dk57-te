@@ -36,6 +36,7 @@
       ],
       "custom_css": [],
       "settings": {
+        "key": "",
         "bg_color": "#ffffff",
         "desktop_content_position": "center",
         "content_alignment": "center",
@@ -55,7 +56,7 @@
             "heading": "1-YEAR WARRANTY",
             "text": "Every website backed by a full 12-month guarantee",
             "button_text": "",
-            "button_link": ""
+            "button_link": "shopify://pages/warranty-no-bs-promise-why-clients-trust-an-agency"
           }
         },
         "icon_with_text_ECHhAY": {
@@ -405,6 +406,7 @@
       ],
       "custom_css": [],
       "settings": {
+        "key": "",
         "bg_color": "#ffffff",
         "desktop_content_position": "center",
         "content_alignment": "center",
@@ -708,6 +710,7 @@
         ".button {font-size: 20px; font-family: Mulish, sans-serif; font-weight: 400; width: 350px; margin: 10px 0px; padding: 10px 15px; display: block; border-radius: 5px; opacity: 1; color: rgb(0, 0, 0); background: rgb(254, 218, 21);}"
       ],
       "settings": {
+        "key": "",
         "bg_color": "#e8f1fc",
         "desktop_content_position": "center",
         "content_alignment": "center",
@@ -796,6 +799,7 @@
         ".rich-text {background: #e7f1f7;}"
       ],
       "settings": {
+        "key": "",
         "bg_color": "#f3f3f3",
         "desktop_content_position": "center",
         "content_alignment": "center",
@@ -898,8 +902,8 @@
         "main_heading": "RESULTS GUARANTEED",
         "sub_heading": "(Our No-Risk, No-BS Promise)",
         "description": "If we don’t deliver what we agree on, you simply don’t pay. That’s how confident we are in our results.",
-        "button_text": "Request Your Free Quote",
-        "button_link": "shopify://pages/contact",
+        "button_text": "Warranty & No-BS Promise",
+        "button_link": "shopify://pages/warranty-no-bs-promise-why-clients-trust-an-agency",
         "desktop_padding_top": 70,
         "desktop_padding_bottom": 60,
         "mobile_padding_top": 40,

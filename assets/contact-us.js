@@ -134,6 +134,10 @@ document.addEventListener('DOMContentLoaded', () => {
 							result = false;
 						} else {
 							field.closest('.field-wrapper').classList.remove('error');
+							const formError = contactForm.querySelector('.form-error');
+							if (formError) {
+								formError.remove();
+							}
 						}
 					} else {
 						if (field.querySelector('input').value === '') {
@@ -190,6 +194,11 @@ document.addEventListener('DOMContentLoaded', () => {
 						} else if (field.classList.contains('email')) {
 							if (!emailRegex.test(value)) {
 								fieldWrapper.classList.add('error');
+							} else {
+								const formError = contactForm.querySelector('.form-error');
+								if (formError) {
+									formError.remove();
+								}
 							}
 						}
 					});
@@ -209,17 +218,17 @@ document.addEventListener('DOMContentLoaded', () => {
 							checkForm.classList.remove('error');
 						}
 						checkbox.classList.add('selected');
-						if(checkField.classList.contains('unique')) {
-							checkFields.forEach(otherField=>{
-								if(otherField !== checkField) {
-									if(otherField.querySelector('span').classList.contains('selected')) {
+						if (checkField.classList.contains('unique')) {
+							checkFields.forEach(otherField => {
+								if (otherField !== checkField) {
+									if (otherField.querySelector('span').classList.contains('selected')) {
 										otherField.click();
 									}
 								}
 							});
 						} else {
-							checkForm.querySelectorAll('.check-field.unique').forEach(uniqueCheckField=>{
-								if(uniqueCheckField.querySelector('span').classList.contains('selected')) {
+							checkForm.querySelectorAll('.check-field.unique').forEach(uniqueCheckField => {
+								if (uniqueCheckField.querySelector('span').classList.contains('selected')) {
 									uniqueCheckField.click();
 								}
 							});
@@ -251,7 +260,7 @@ document.addEventListener('DOMContentLoaded', () => {
 			dropdown.querySelectorAll('.dropdown-item').forEach(dropdownItem => {
 				dropdownItem.addEventListener('click', (e) => {
 					e.preventDefault();
-					const v = dropdownItem.querySelector('label').innerHTML;
+					const v = dropdownItem.querySelector('label').innerText;
 					const stepSection = dropdown.closest('.form-step-section');
 					const secondaryField = stepSection.querySelector('.field.secondary');
 					if (secondaryField) {
@@ -279,7 +288,7 @@ document.addEventListener('DOMContentLoaded', () => {
 		});
 		const keepScrollPos = () => {
 			const rect = contactFormWrapper.getBoundingClientRect();
-			if(rect.top < 0) {
+			if (rect.top < 0) {
 				contactFormWrapper.scrollIntoView({
 					behavior: 'smooth',
 					block: 'start'
