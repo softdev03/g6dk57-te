@@ -112,3 +112,8 @@ img {
 .shopify-section:has([tab][key]:not(.show)) {
   display: none !important;
 }
+@media screen and (max-width: 749px) {
+  .hide_on_mobile {
+    display: none;
+  } 
+}

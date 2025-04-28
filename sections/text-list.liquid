@@ -25,7 +25,8 @@
             margin-bottom: {{ block.settings.desktop_margin }}px;
             max-width: {{ block.settings.desktop_max_width }}px;
             line-height: {{ block.settings.desktop_line_height }};
-          letter-spacing: {{ block.settings.mobile_letter_spacing }}px;
+            letter-spacing: {{ block.settings.mobile_letter_spacing }}px;
+            color: {{ block.settings.desktop_color }};
             {%- case block.settings.desktop_align -%}
               {%- when 'center' -%}
                 margin-left: auto;
@@ -46,7 +47,8 @@
             margin-bottom: {{ block.settings.mobile_margin }}px;
             max-width: {{ block.settings.mobile_max_width }}px;
             line-height: {{ block.settings.mobile_line_height }};
-          letter-spacing: {{ block.settings.mobile_letter_spacing }}px;
+            letter-spacing: {{ block.settings.mobile_letter_spacing }}px;
+            color: {{ block.settings.mobile_color }};
             {%- case block.settings.mobile_align -%}
               {%- when 'center' -%}
                 margin-left: auto;
@@ -388,7 +390,19 @@
           "id": "mobile_max_width",
           "label": "Mobile Max Width",
           "default": 1000
-        }
+        },
+        {
+          "type": "color",
+          "id": "desktop_color",
+          "label": "Desktop Color",
+          "default": "#000000"
+        },
+        {
+          "type": "color",
+          "id": "mobile_color",
+          "label": "Mobile Color",
+          "default": "#000000"
+        },
       ]
     }
   ],
