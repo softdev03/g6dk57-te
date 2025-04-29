@@ -36,9 +36,9 @@
       </div>
       <div class="main-content">
         <div class="description">{{ section.settings.left_desc }}</div>
-        <div class="footer-second-right">
-          <div class="footer-second-right-image">
-            <img
+    <div class="footer-second-right">
+      <div class="footer-second-right-image">
+        <img
               src="{{ section.settings.right_img | img_url: '600x' }}"
               width="600px"
               height="auto"
@@ -54,13 +54,13 @@
               {%- endif -%}
               {%- render 'social-icons', class: 'footer__list-social' -%}
             </div>
-          </div>
-
-          <a href="{{ section.settings.button_link }}" class="footer-second-right-btn">
-            {{ section.settings.button_label }}
-          </a>
-        </div>
       </div>
+
+      <a href="{{ section.settings.button_link }}" class="footer-second-right-btn">
+        {{ section.settings.button_label }}
+      </a>
+    </div>
+  </div>
   </div>
 </section>
 {% schema %}
@@ -191,24 +191,7 @@
       "default": 0
     }
   ],
-  "blocks": [
-    {
-      "type": "image_with_link",
-      "name": "Image with Link",
-      "settings": [
-        {
-          "type": "image_picker",
-          "id": "image",
-          "label": "Image"
-        },
-        {
-          "type": "url",
-          "id": "link",
-          "label": "Link"
-        }
-      ]
-    }
-  ],
+
   "presets": [
     {
       "name": "Footer Second",
