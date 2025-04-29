@@ -3,21 +3,7 @@ const fuckingStrings = ['"```html"', '"```"', "introduction", "overview", "brief
 const model = 'gpt-4o-mini';
 // const model = 'gpt-4o-realtime-preview';
 const additionalPattern = `
-	NOTE: FORMAT THE CONTENT USING HTML TAGS LIKE <ul>,<li> without missing descriptions.
-	IMPORTANT: 	Don't include fucking string like '${fuckingStrings.join(',')}, NEVER!, NEVER!, NEVER!'.
-	IMPORTANT: Please format the content like other AI such as monica or chatgpt or gemini.
-	IMPORTANT: Don't use <a> tag to link something.
-	IMPORTANT: Don't use the language for the site urls.
-	And please use h2 tag for heading and h3 tag for sub heading.
-	IMPORTANT: Please use English for domains.
 	※ : The writing style must be [writing style] and please use "[language]" language for all of the content.
-	NOTE: There is no relationship between the languages for input and output.
-	Output format: 
-		Introduction & overview & brief(Please include some greetings such as "sure or of course or here", Replace greeting word every times.:Must be contained.: Don't use heading tags for this! NEVER! NEVER!)
-		Items(※ include index number for each items and the count of the items must be the count of the items in this pattern. the default is over 10.)
-			Each Item must be formatted like : {index number} : {item content}
-		Rest Description & simple greeting like "feel free to ask if you have any questions"
-		※ : Please don't include words of the pattern as possible.
 `;
 document.addEventListener('DOMContentLoaded', () => {
 	const aiToolSection = document.querySelector('.shopify-section-ai-tools');
@@ -32,14 +18,12 @@ document.addEventListener('DOMContentLoaded', () => {
 		const toneSelect = aiToolSection.querySelector('.tone select');
 		const writingStyleSelect = aiToolSection.querySelector('.writing-style select');
 		const input = aiToolSection.querySelector('.input');
-		const pattern = input.getAttribute('pattern');
+		const pattern = aiToolSection.querySelector('.pattern').innerHTML;
 		const output = aiToolSection.querySelector('.output');
 		const generatedResult = output.querySelector('.output .result');
 		const selectedImage = aiToolSection.querySelector('.selected-file');
 		const fileInput = aiToolSection.querySelector('#photo');
 		const enterButton = aiToolSection.querySelector('.enter-button');
-
-		input.removeAttribute('pattern');
 
 		let language = languageSelect.value;
 		let writingStyle = writingStyleSelect.value;

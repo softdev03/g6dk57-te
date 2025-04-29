@@ -88,7 +88,8 @@
       {{ unique_page_data.sub_heading }}
     </h2>
   {%- endif -%}
-  <div class="input" pattern="{{ unique_page_data.pattern }}">
+  <div class="pattern">{{ unique_page_data.pattern }}</div>
+  <div class="input">
     <div class="output">
       <div class="result"></div>
       {%- if unique_page_data.loading_icon != blank -%}
