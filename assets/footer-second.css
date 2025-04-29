@@ -7,37 +7,42 @@
 .shopify-section-footer-second .footer-second {
 	display: flex;
 	margin: 15px;
-	align-items: center;
+	flex-direction: column;
 	margin: 0px;
 	width: 100%;
 	justify-content: space-between;
 	flex-wrap: wrap;
-	row-gap: 60px;
+	row-gap: 15px;
 }
 
-.shopify-section-footer-second .footer-second-left {
-	justify-content: space-between;
-	width: 40%;
-	display: flex;
-	flex-direction: column;
-}
-
-.shopify-section-footer-second .footer-second-left-logo {
+.shopify-section-footer-second .footer-logo {
 	width: 50px;
 	height: auto;
 	line-height: 0px;
-	margin-bottom: 10px;
 }
-
-.shopify-section-footer-second .footer-second-left-desc {
+.shopify-section-footer-second .main-content {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	row-gap: 25px;
+}
+.shopify-section-footer-second .description {
 	font-size: 12px;
+	display: flex;
+	flex-direction: column;
+	row-gap: 8px;
+	width: 40%;
+}
+.shopify-section-footer-second .description * {
+	margin: 0px;
+	color: inherit;
+	line-height: 1.3;
 }
 
 .shopify-section-footer-second .footer-second-right {
 	width: 50%;
 	justify-content: space-between;
 	display: flex;
-	align-items: center;
 }
 
 .shopify-section-footer-second .footer-second-right-image {
@@ -45,6 +50,9 @@
 	min-width: 300px;
 	height: auto;
 	line-height: 0px;
+	display: flex;
+	flex-direction: column;
+	row-gap: 15px;
 }
 
 .shopify-section-footer-second .footer-second-right-btn {
@@ -64,7 +72,7 @@
 }
 
 @media screen and (max-width: 1099px) {
-	.shopify-section-footer-second .footer-second-left {
+	.shopify-section-footer-second .description {
 		width: 80%;
 	}
 
@@ -74,18 +82,13 @@
 }
 
 @media(max-width:749px) {
-	.shopify-section-footer-second .footer-second-left {
+	.shopify-section-footer-second .description {
 		width: 100%;
 	}
-
-	.shopify-section-footer-second .footer-second-left-desc {
-		width: 100%;
-	}
-
 	.shopify-section-footer-second .footer-second-right {
 		flex-direction: column;
 		align-items: flex-start;
-		row-gap: 20px;
+		row-gap: 25px;
 	}
 
 	.shopify-section-footer-second .footer-second-right-image {
@@ -100,25 +103,6 @@
 	}
 }
 
-.shopify-section-footer-second .location {
-	display: flex;
-	row-gap: 20px;
-	column-gap: 20px;
-}
-
-.shopify-section-footer-second .map {
-	display: block;
-	width: calc(50% - 10px);
-	height: fit-content;
-}
-
-.shopify-section-footer-second .location-details {
-	width: calc(50% - 10px);
-	display: flex;
-	flex-direction: column;
-	row-gap: 30px;
-}
-
 .shopify-section-footer-second .location-contact {
 	display: flex;
 	flex-direction: column;
@@ -131,6 +115,7 @@
 	display: flex;
 	column-gap: 20px;
 	font-size: 24px;
+	line-height: 1.2;
 }
 
 .shopify-section-footer-second .contact-heading img {
@@ -153,6 +138,8 @@
 	box-sizing: content-box;
 	border-radius: 100px;
 	transition: all .3s;
+	height: auto;
+	aspect-ratio: 1;
 }
 
 .shopify-section-footer-second .svg-wrapper svg {
@@ -162,77 +149,9 @@
 .shopify-section-footer-second .svg-wrapper:hover svg {
 	transform: scale(1.05);
 }
-
-.shopify-section-footer-second .description-wrapper {
-	display: flex;
-	flex-direction: column;
-	row-gap: 20px;
-}
-
-.shopify-section-footer-second .description {
-	display: flex;
-	font-size: 16px;
-}
-
-.shopify-section-footer-second .description * {
-	margin: 0px;
-	color: inherit;
-}
-
-.shopify-section-footer-second .description p:empty {
-	margin-top: 10px;
-}
-
-.shopify-section-footer-second .image-items {
-	display: flex;
-	column-gap: 10px;
-	flex-wrap: wrap;
-}
-
-.shopify-section-footer-second .image-item {
-	display: block;
-	line-height: 0;
-	width: 100px;
-	height: fit-content;
-}
-
-@media screen and (min-width: 1100px) {
-	.shopify-section-footer-second .location.mobile {
-		display: none;
-	}
-
-	.shopify-section-footer-second .location.map-right {
-		flex-direction: row-reverse;
-	}
-}
-
-@media screen and (max-width: 1099px) {
-	.shopify-section-footer-second .location.desktop {
-		display: none;
-	}
-
-	.shopify-section-footer-second .location {
-		width: 100%;
-	}
-
-	.shopify-section-footer-second .map.hide_on_mobile {
-		display: none;
-	}
-	.shopify-section-footer-second .location:has(.hide_on_mobile) .location-details {
-		width: 100%;
-	}
-	.shopify-section-footer-second .contact-heading {
-		font-size: 16px;
-	}
-
-	.shopify-section-footer-second .contact-heading img {
-		width: 16px;
-	}
-
-	.shopify-section-footer-second .description {
-		font-size: 14px;
-	}
-	.shopify-section-footer-second .image-item {
-		width: 80px;
-	}
+@media screen and (max-width: 749px) {
+	.shopify-section-footer-second .svg-wrapper  {
+		width: 15px;
+		padding: 8px;
+	}	
 }

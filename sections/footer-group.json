@@ -65,57 +65,24 @@
     },
     "footer_second_jHdxW9": {
       "type": "footer-second",
-      "blocks": {
-        "image_with_link_GpT6PN": {
-          "type": "image_with_link",
-          "settings": {
-            "image": "shopify://shop_images/certified-badge.png",
-            "link": ""
-          }
-        },
-        "image_with_link_TdA9Fb": {
-          "type": "image_with_link",
-          "settings": {
-            "image": "shopify://shop_images/Wotso_flexspace_2023_certification_badge-1086x1536.png",
-            "link": "#"
-          }
-        },
-        "image_with_link_9kQjnf": {
-          "type": "image_with_link",
-          "settings": {
-            "image": "shopify://shop_images/Wotso_flexspace_2023_certification_badge-1086x1536.png",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "image_with_link_GpT6PN",
-        "image_with_link_TdA9Fb",
-        "image_with_link_9kQjnf"
-      ],
       "settings": {
         "bg_color": "#feda15",
         "left_logo": "shopify://shop_images/Logo.svg",
-        "left_desc": "We help Aussie businesses get online, grow sales, and build brands that last. Whether you're running a Shopify store or a service-based business, we’ve got the tools and team to back you.",
+        "left_desc": "<p>We help Aussie businesses get online, grow sales, and build brands that last. Whether you're running a Shopify store or a service-based business, we’ve got the tools and team to back you.</p><p><strong>Address</strong>: 490 Northbourne Avenue, Dickson ACT 2602</p><p><strong>Phone</strong>: 0499 226 600</p>",
         "right_img": "shopify://shop_images/Artboard_13.png",
         "section_bg_color": "#ffd000",
+        "text_color": "#000000",
         "button_label": "Request a Call",
         "button_link": "",
-        "map_right": false,
-        "show_map_on_mobile": false,
         "contact_heading": "Connect with us:",
-        "contact_image": "shopify://shop_images/image.png",
-        "location_first_description": "<p><strong>WOTSO FlexSpace.<br/>No lock-in contracts, true flexibility.</strong></p>",
-        "location_second_description": "<p>32 locations across Australia & New Zealand.</p>",
-        "location_text_color": "#121212",
-        "social_icon_bg_color": "rgba(0,0,0,0)",
-        "social_icon_color": "#202020",
-        "social_icon_bg_color_hover": "#848484",
-        "social_icon_color_hover": "#dfdfdf",
+        "social_icon_bg_color": "#424242",
+        "social_icon_color": "#fff",
+        "social_icon_bg_color_hover": "#000000",
+        "social_icon_color_hover": "#fff",
         "desktop_padding_top": 20,
-        "desktop_padding_bottom": 60,
+        "desktop_padding_bottom": 20,
         "mobile_padding_top": 16,
-        "mobile_padding_bottom": 40
+        "mobile_padding_bottom": 16
       }
     },
     "footer_menu_xG3hhG": {

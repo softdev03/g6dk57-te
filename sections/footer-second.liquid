@@ -4,6 +4,7 @@
      background-color: {{ section.settings.bg_color }};
      padding-top: {{ section.settings.desktop_padding_top }}px;
       padding-bottom: {{ section.settings.desktop_padding_bottom }}px;
+      color: {{ section.settings.text_color }};
    }
    #shopify-section-{{ section.id }} .svg-wrapper {
     background-color: {{ section.settings.social_icon_bg_color }};
@@ -28,109 +29,38 @@
 {% endstyle %}
 <section class="page-width shopify-section-footer-second">
   <div class="footer-second">
-    <div class="footer-second-left">
-      <div class="footer-second-left-logo">
+    <div class="footer-logo">
         <img
           src="{{ section.settings.left_logo | image_url }}"
         >
       </div>
-      <div class="footer-second-left-desc">{{ section.settings.left_desc }}</div>
-    </div>
-    <div
-      class="location mobile {% if section.settings.map_right %} map-right {% endif %}"
-      style="color: {{ section.settings.location_text_color }}"
-    >
-      <div class="map {% if section.settings.show_map_on_mobile == false %} hide_on_mobile {% endif %}"></div>
-      <div class="location-details">
-        <div class="location-contact">
-          {%- if section.settings.contact_heading != blank -%}
-            <h2 class="contact-heading">
-              {{ section.settings.contact_heading }}
-              {%- if section.settings.contact_image != blank -%}
-                <img src="{{ section.settings.contact_image |  img_url: '50x' }}" alt="" width="50px" height="auto">
+      <div class="main-content">
+        <div class="description">{{ section.settings.left_desc }}</div>
+        <div class="footer-second-right">
+          <div class="footer-second-right-image">
+            <img
+              src="{{ section.settings.right_img | img_url: '600x' }}"
+              width="600px"
+              height="auto"
+            >
+            <div class="location-contact">
+              {%- if section.settings.contact_heading != blank -%}
+                <h2 class="contact-heading">
+                  {{ section.settings.contact_heading }}
+                  {%- if section.settings.contact_image != blank -%}
+                    <img src="{{ section.settings.contact_image |  img_url: '50x' }}" alt="" width="50px" height="auto">
+                  {%- endif -%}
+                </h2>
               {%- endif -%}
-            </h2>
-          {%- endif -%}
-          {%- render 'social-icons', class: 'footer__list-social' -%}
-        </div>
-        <div class="description-wrapper">
-          {%- if section.settings.location_first_description != blank -%}
-            <div class="description">{{ section.settings.location_first_description }}</div>
-          {%- endif -%}
-          {%- if section.settings.location_second_description != blank -%}
-            <div class="description">{{ section.settings.location_second_description }}</div>
-          {%- endif -%}
-        </div>
-        <div class="image-items">
-          {%- for block in section.blocks -%}
-            {%- if block.settings.image != blank -%}
-              {%- if block.settings.link != blank -%}
-                <a href="{{ block.settings.link }}" class="image-item">
-                  <img src="{{ block.settings.image |  img_url: '100x' }}" alt="" width="100px" height="auto">
-                </a>
-              {%- else -%}
-                <div class="image-item">
-                  <img src="{{ block.settings.image |  img_url: '100x' }}" alt="" width="100px" height="auto">
-                </div>
-              {%- endif -%}
-            {%- endif -%}
-          {%- endfor -%}
-        </div>
-      </div>
-    </div>
-    <div class="footer-second-right">
-      <div class="footer-second-right-image">
-        <img
-          src="{{ section.settings.right_img | image_url }}"
-        >
-      </div>
+              {%- render 'social-icons', class: 'footer__list-social' -%}
+            </div>
+          </div>
 
-      <a href="{{ section.settings.button_link }}" class="footer-second-right-btn">
-        {{ section.settings.button_label }}
-      </a>
-    </div>
-  </div>
-  <div
-    class="location desktop {% if section.settings.map_right %} map-right {% endif %}"
-    style="color: {{ section.settings.location_text_color }}"
-  >
-    <div class="map {% if section.settings.show_map_on_mobile == false %} hide_on_mobile {% endif %}"></div>
-    <div class="location-details">
-      <div class="location-contact">
-        {%- if section.settings.contact_heading != blank -%}
-          <h2 class="contact-heading">
-            {{ section.settings.contact_heading }}
-            {%- if section.settings.contact_image != blank -%}
-              <img src="{{ section.settings.contact_image |  img_url: '50x' }}" alt="" width="50px" height="auto">
-            {%- endif -%}
-          </h2>
-        {%- endif -%}
-        {%- render 'social-icons', class: 'footer__list-social' -%}
+          <a href="{{ section.settings.button_link }}" class="footer-second-right-btn">
+            {{ section.settings.button_label }}
+          </a>
+        </div>
       </div>
-      <div class="description-wrapper">
-        {%- if section.settings.location_first_description != blank -%}
-          <div class="description">{{ section.settings.location_first_description }}</div>
-        {%- endif -%}
-        {%- if section.settings.location_second_description != blank -%}
-          <div class="description">{{ section.settings.location_second_description }}</div>
-        {%- endif -%}
-      </div>
-      <div class="image-items">
-        {%- for block in section.blocks -%}
-          {%- if block.settings.image != blank -%}
-            {%- if block.settings.link != blank -%}
-              <a href="{{ block.settings.link }}" class="image-item">
-                <img src="{{ block.settings.image |  img_url: '100x' }}" alt="" width="100px" height="auto">
-              </a>
-            {%- else -%}
-              <div class="image-item">
-                <img src="{{ block.settings.image |  img_url: '100x' }}" alt="" width="100px" height="auto">
-              </div>
-            {%- endif -%}
-          {%- endif -%}
-        {%- endfor -%}
-      </div>
-    </div>
   </div>
 </section>
 {% schema %}
@@ -149,7 +79,7 @@
       "label": "Left Logo"
     },
     {
-      "type": "text",
+      "type": "richtext",
       "id": "left_desc",
       "label": "Left Desc"
     },
@@ -166,6 +96,12 @@
       "default": "#FFD000"
     },
     {
+      "type": "color",
+      "id": "text_color",
+      "label": "Text Color",
+      "default": "#000000"
+    },
+    {
       "type": "text",
       "id": "button_label",
       "label": "Button Label",
@@ -177,22 +113,6 @@
       "label": "Button Link"
     },
     {
-      "type": "header",
-      "content": "Location Settings"
-    },
-    {
-      "type": "checkbox",
-      "id": "map_right",
-      "label": "Map Right",
-      "default": false
-    },
-    {
-      "type": "checkbox",
-      "id": "show_map_on_mobile",
-      "label": "Show Map on Mobile",
-      "default": true
-    },
-    {
       "type": "text",
       "id": "contact_heading",
       "label": "Contact Heading"
@@ -201,22 +121,6 @@
       "type": "image_picker",
       "id": "contact_image",
       "label": "Contact Image"
-    },
-    {
-      "type": "richtext",
-      "id": "location_first_description",
-      "label": "First Description for Location"
-    },
-    {
-      "type": "richtext",
-      "id": "location_second_description",
-      "label": "Second Description for Location"
-    },
-    {
-      "type": "color",
-      "id": "location_text_color",
-      "label": "Text Color for Location",
-      "default": "#000000"
     },
     {
       "type": "color",
