@@ -59,6 +59,7 @@
 	display: flex;
 	flex-direction: column;
 	row-gap: 15px;
+	justify-content: space-between;
 }
 
 .shopify-section-footer-second .footer-second-right-btn {
