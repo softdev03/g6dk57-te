@@ -30,7 +30,7 @@
 	width: 40%;
 	display: flex;
 	flex-direction: column;
-	row-gap: 15px;
+	row-gap: 10px;
 	justify-content: space-between;
 }
 .shopify-section-footer-second .description {
