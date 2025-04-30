@@ -35,7 +35,10 @@
         >
       </div>
       <div class="main-content">
-        <div class="description">{{ section.settings.left_desc }}</div>
+        <div class="description-wrapper">
+          <div class="description">{{ section.settings.first_description }}</div>
+          <div class="description">{{ section.settings.second_description }}</div>
+        </div>
     <div class="footer-second-right">
       <div class="footer-second-right-image">
         <img
@@ -80,8 +83,13 @@
     },
     {
       "type": "richtext",
-      "id": "left_desc",
-      "label": "Left Desc"
+      "id": "first_description",
+      "label": "First Description"
+    },
+    {
+      "type": "richtext",
+      "id": "second_description",
+      "label": "Second Description"
     },
     {
       "type": "image_picker",

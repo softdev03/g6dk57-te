@@ -26,12 +26,18 @@
 	flex-wrap: wrap;
 	row-gap: 25px;
 }
+.shopify-section-footer-second .description-wrapper {
+	width: 40%;
+	display: flex;
+	flex-direction: column;
+	row-gap: 15px;
+	justify-content: space-between;
+}
 .shopify-section-footer-second .description {
 	font-size: 12px;
 	display: flex;
 	flex-direction: column;
 	row-gap: 8px;
-	width: 40%;
 }
 .shopify-section-footer-second .description * {
 	margin: 0px;
@@ -72,7 +78,7 @@
 }
 
 @media screen and (max-width: 1099px) {
-	.shopify-section-footer-second .description {
+	.shopify-section-footer-second .description-wrapper {
 		width: 80%;
 	}
 
@@ -82,7 +88,7 @@
 }
 
 @media(max-width:749px) {
-	.shopify-section-footer-second .description {
+	.shopify-section-footer-second .description-wrapper {
 		width: 100%;
 	}
 	.shopify-section-footer-second .footer-second-right {
