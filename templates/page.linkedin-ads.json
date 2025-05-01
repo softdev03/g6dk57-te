@@ -286,10 +286,10 @@
           "settings": {
             "image": "shopify://shop_images/AnAgencyOurWork18.png",
             "detail_info_heading": "Not for Profits",
-            "detail_info_text": "<p>Customers don’t just want a sparky—they want a reliable expert. We design electrician websites that make it easy for clients to see your services, book a job, and trust your work. Whether it’s rewires, switchboard upgrades, or commercial fit-outs, we showcase your skills with a clean, professional website that helps you stand out.</p><p></p><p></p>",
+            "detail_info_text": "<p></p><p></p><p></p>",
             "icon": "shopify://shop_images/plus_1.png",
-            "detail_button_link": "#",
-            "detail_button_text": "Free Quote"
+            "detail_button_link": "shopify://pages/our-work",
+            "detail_button_text": "See Our Shopify Stores →"
           }
         },
         "tradies_item_TMkHRR": {
@@ -297,10 +297,10 @@
           "settings": {
             "image": "shopify://shop_images/AnAgencyOurWork16.png",
             "detail_info_heading": "Medical Tester",
-            "detail_info_text": "<p>Blocked drains, burst pipes, hot water installs—your customers want help fast. We build plumbing websites that make it easy for people to find your services, get a quick quote, and book a job on the spot. Plus, we highlight your experience and qualifications so customers know they’re in good hands.</p><p></p><p></p>",
+            "detail_info_text": "<p></p><p></p><p></p>",
             "icon": "shopify://shop_images/plus_1.png",
-            "detail_button_link": "#",
-            "detail_button_text": "Free Quote"
+            "detail_button_link": "shopify://pages/our-work",
+            "detail_button_text": "See Our Shopify Stores →"
           }
         },
         "tradies_item_yT7wgX": {
@@ -308,10 +308,10 @@
           "settings": {
             "image": "shopify://shop_images/AnAgencyOurWork23_e993529b-0ab6-4ed0-8e3d-9629a116f37c.png",
             "detail_info_heading": "Medical Practitioners",
-            "detail_info_text": "<p>Your work speaks for itself—your website should too. Whether you’re crafting custom furniture, framing houses, or handling detailed renovations, we create carpenter websites that showcase your best projects, highlight your craftsmanship, and bring in high-paying clients.</p><p></p><p></p>",
+            "detail_info_text": "<p></p><p></p><p></p>",
             "icon": "shopify://shop_images/plus_1.png",
-            "detail_button_link": "#",
-            "detail_button_text": "Free Quote"
+            "detail_button_link": "shopify://pages/our-work",
+            "detail_button_text": "See Our Shopify Stores →"
           }
         },
         "tradies_item_X3Db9y": {
@@ -543,6 +543,7 @@
       "type": "marketing-focus",
       "name": "Marketing Focus Section",
       "settings": {
+        "key": "",
         "logo_image": "shopify://shop_images/04.jpg",
         "headline": "Target Decision-Makers, Not Just Clicks",
         "sub_text": "We’ll position your brand on LinkedIn to attract real, high-value business leads.",

@@ -285,8 +285,8 @@
             "detail_info_heading": "Plant Stores",
             "detail_info_text": "<p></p><p></p><p></p>",
             "icon": "shopify://shop_images/plus_1.png",
-            "detail_button_link": "#",
-            "detail_button_text": "Free Quote"
+            "detail_button_link": "shopify://pages/our-work",
+            "detail_button_text": "See Our Shopify Stores →"
           }
         },
         "tradies_item_TMkHRR": {
@@ -294,10 +294,10 @@
           "settings": {
             "image": "shopify://shop_images/AnAgencyOurWork04.png",
             "detail_info_heading": "Hardeware Stores",
-            "detail_info_text": "<p>Blocked drains, burst pipes, hot water installs—your customers want help fast. We build plumbing websites that make it easy for people to find your services, get a quick quote, and book a job on the spot. Plus, we highlight your experience and qualifications so customers know they’re in good hands.</p><p></p><p></p>",
+            "detail_info_text": "<p></p><p></p><p></p>",
             "icon": "shopify://shop_images/plus_1.png",
-            "detail_button_link": "#",
-            "detail_button_text": "Free Quote"
+            "detail_button_link": "shopify://pages/our-work",
+            "detail_button_text": "See Our Shopify Stores →"
           }
         },
         "tradies_item_yT7wgX": {
@@ -305,10 +305,10 @@
           "settings": {
             "image": "shopify://shop_images/AnAgencyOurWork19.png",
             "detail_info_heading": "Plumbers",
-            "detail_info_text": "<p>Your work speaks for itself—your website should too. Whether you’re crafting custom furniture, framing houses, or handling detailed renovations, we create carpenter websites that showcase your best projects, highlight your craftsmanship, and bring in high-paying clients.</p><p></p><p></p>",
+            "detail_info_text": "<p></p><p></p><p></p>",
             "icon": "shopify://shop_images/plus_1.png",
-            "detail_button_link": "#",
-            "detail_button_text": "Free Quote"
+            "detail_button_link": "shopify://pages/our-work",
+            "detail_button_text": "See Our Shopify Stores →"
           }
         },
         "tradies_item_X3Db9y": {
@@ -316,10 +316,10 @@
           "settings": {
             "image": "shopify://shop_images/AnAgencyOurWork14.png",
             "detail_info_heading": "Cabinet Makers",
-            "detail_info_text": "<p>Customers need to trust their pest control expert. We design websites that clearly show your experience in dealing with termites, rodents, and everything in between. We make it easy for clients to book inspections, learn about your methods, and understand why your service is the best choice for keeping their home pest-free.</p><p></p><p></p>",
+            "detail_info_text": "<p></p><p></p><p></p>",
             "icon": "shopify://shop_images/plus_1.png",
-            "detail_button_link": "#",
-            "detail_button_text": "Free Quote"
+            "detail_button_link": "shopify://pages/our-work",
+            "detail_button_text": "See Our Shopify Stores →"
           }
         },
         "tradies_item_6qHYz4": {
@@ -327,10 +327,10 @@
           "settings": {
             "image": "shopify://shop_images/AnAgencyOurWork12.png",
             "detail_info_heading": "Retail Stores",
-            "detail_info_text": "<p>Whether you’re running a commercial cleaning business or handling end-of-lease deep cleans, a strong website helps you get more bookings. We highlight your services, customer testimonials, and guarantees, with a simple contact system that makes it easy for clients to reach out and book a clean.</p><p></p><p></p>",
+            "detail_info_text": "<p></p><p></p><p></p>",
             "icon": "shopify://shop_images/plus_1.png",
-            "detail_button_link": "#",
-            "detail_button_text": "Free Quote"
+            "detail_button_link": "shopify://pages/our-work",
+            "detail_button_text": "See Our Shopify Stores →"
           }
         },
         "tradies_item_tDB4YR": {
@@ -338,10 +338,10 @@
           "settings": {
             "image": "shopify://shop_images/AnAgencyOurWork06.png",
             "detail_info_heading": "Pet Stores",
-            "detail_info_text": "<p>No matter your trade, we build websites that work for you. From builders and tilers to landscapers and painters, we design sites that show off your skills, bring in more work, and make booking you a no-brainer.</p><p></p><p></p>",
+            "detail_info_text": "<p></p><p></p><p></p>",
             "icon": "shopify://shop_images/plus_1.png",
-            "detail_button_link": "#",
-            "detail_button_text": "Free Quote"
+            "detail_button_link": "shopify://pages/our-work",
+            "detail_button_text": "See Our Shopify Stores →"
           }
         }
       },
@@ -537,6 +537,7 @@
       "type": "marketing-focus",
       "name": "Marketing Focus Section",
       "settings": {
+        "key": "",
         "logo_image": "shopify://shop_images/04.jpg",
         "headline": "We Know Google Ads Like the Back of Our Hand",
         "sub_text": "Search, Display, Shopping, we’ll manage the lot and make sure every dollar works harder.",

@@ -279,10 +279,10 @@
           "settings": {
             "image": "shopify://shop_images/AnAgencyOurWork03.png",
             "detail_info_heading": "Skincare & Beauty Brands",
-            "detail_info_text": "<p>Instagram was made for glow-ups. We help beauty brands get noticed, get followed, and get added to cart.</p><p><br/></p><p></p><p></p>",
+            "detail_info_text": "<p></p><p><br/></p><p></p><p></p>",
             "icon": "shopify://shop_images/plus_1.png",
-            "detail_button_link": "#",
-            "detail_button_text": "Free Quote"
+            "detail_button_link": "shopify://pages/our-work",
+            "detail_button_text": "See Our Shopify Stores →"
           }
         },
         "tradies_item_TMkHRR": {
@@ -290,10 +290,10 @@
           "settings": {
             "image": "shopify://shop_images/AnAgencyOurWork04.png",
             "detail_info_heading": "Fashion & Apparel Stores",
-            "detail_info_text": "<p>Visual-first and fast-moving. Our ads stop thumbs and drive sales for fashion labels with something to say.</p><p><br/></p><p></p><p></p>",
+            "detail_info_text": "<p></p><p><br/></p><p></p><p></p>",
             "icon": "shopify://shop_images/plus_1.png",
-            "detail_button_link": "#",
-            "detail_button_text": "Free Quote"
+            "detail_button_link": "shopify://pages/our-work",
+            "detail_button_text": "See Our Shopify Stores →"
           }
         },
         "tradies_item_yT7wgX": {
@@ -301,10 +301,10 @@
           "settings": {
             "image": "shopify://shop_images/AnAgencyOurWork02.png",
             "detail_info_heading": "Pet Products & Accessories",
-            "detail_info_text": "<p>From stylish collars to plush beds — we turn furry friends into scroll-stopping stars and products into must-haves.</p><p></p><p></p>",
+            "detail_info_text": "<p></p><p></p><p></p>",
             "icon": "shopify://shop_images/plus_1.png",
-            "detail_button_link": "#",
-            "detail_button_text": "Free Quote"
+            "detail_button_link": "shopify://pages/our-work",
+            "detail_button_text": "See Our Shopify Stores →"
           }
         },
         "tradies_item_X3Db9y": {
@@ -314,8 +314,8 @@
             "detail_info_heading": "Electricians & Plumbers",
             "detail_info_text": "<p>Clean jobs, clever installs, safety first — we make it all Instagram-worthy and get new clients looking your way.</p><p><br/></p><p></p><p></p>",
             "icon": "shopify://shop_images/plus_1.png",
-            "detail_button_link": "#",
-            "detail_button_text": "Free Quote"
+            "detail_button_link": "shopify://pages/our-work",
+            "detail_button_text": "See Our Shopify Stores →"
           }
         },
         "tradies_item_6qHYz4": {
@@ -323,10 +323,10 @@
           "settings": {
             "image": "shopify://shop_images/AnAgencyOurWork05.png",
             "detail_info_heading": "Landscaping & Garden Services",
-            "detail_info_text": "<p>Before-and-afters? Gold. We turn your transformations into ads that attract home owners ready to book.</p><p><br/></p><p></p><p></p>",
+            "detail_info_text": "<p></p><p><br/></p><p></p><p></p>",
             "icon": "shopify://shop_images/plus_1.png",
-            "detail_button_link": "#",
-            "detail_button_text": "Free Quote"
+            "detail_button_link": "shopify://pages/our-work",
+            "detail_button_text": "See Our Shopify Stores →"
           }
         },
         "tradies_item_tDB4YR": {
@@ -334,10 +334,10 @@
           "settings": {
             "image": "shopify://shop_images/AnAgencyOurWork06.png",
             "detail_info_heading": "Cleaning Services",
-            "detail_info_text": "<p>Nothing beats a good ‘satisfying clean’ video. We package your work into reels and stories that get shared, saved, and converted.</p><p></p><p></p>",
+            "detail_info_text": "<p></p><p></p><p></p>",
             "icon": "shopify://shop_images/plus_1.png",
-            "detail_button_link": "#",
-            "detail_button_text": "Free Quote"
+            "detail_button_link": "shopify://pages/our-work",
+            "detail_button_text": "See Our Shopify Stores →"
           }
         }
       },
@@ -533,6 +533,7 @@
       "type": "marketing-focus",
       "name": "Marketing Focus Section",
       "settings": {
+        "key": "",
         "logo_image": "shopify://shop_images/04.jpg",
         "headline": "Get Seen. Get Clicked. Get Sales.",
         "sub_text": "We’ll help you stand out, grow your audience, and turn followers into buyers.",

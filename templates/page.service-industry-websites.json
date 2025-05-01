@@ -280,10 +280,10 @@
           "settings": {
             "image": "shopify://shop_images/AnAgencyOurWork22.png",
             "detail_info_heading": "Excavation",
-            "detail_info_text": "<p>Local SEO, quote forms, and mobile-first design.</p><p></p><p></p>",
+            "detail_info_text": "<p></p><p></p><p></p>",
             "icon": "shopify://shop_images/plus_1.png",
-            "detail_button_link": "#",
-            "detail_button_text": "[See Our Shopify Stores →]"
+            "detail_button_link": "shopify://pages/our-work",
+            "detail_button_text": "See Our Shopify Stores →"
           }
         },
         "tradies_item_TMkHRR": {
@@ -291,10 +291,10 @@
           "settings": {
             "image": "shopify://shop_images/AnAgencyOurWork25.png",
             "detail_info_heading": "Car Services",
-            "detail_info_text": "<p><strong>Builders & Concreters</strong> – Image galleries, customer testimonials, and project showcases.<br/></p><p></p><p></p>",
+            "detail_info_text": "<p></p><p></p><p></p>",
             "icon": "shopify://shop_images/plus_1.png",
-            "detail_button_link": "#",
-            "detail_button_text": "[See Our Shopify Stores →]"
+            "detail_button_link": "shopify://pages/our-work",
+            "detail_button_text": "See Our Shopify Stores →"
           }
         },
         "tradies_item_yT7wgX": {
@@ -302,10 +302,10 @@
           "settings": {
             "image": "shopify://shop_images/AnAgencyOurWork21.png",
             "detail_info_heading": "Concreting",
-            "detail_info_text": "<p><strong>Finance & Legal Services</strong> – Trust-building design, contact forms, and SEO strategies.</p><p></p><p></p>",
+            "detail_info_text": "<p></p><p></p><p></p>",
             "icon": "shopify://shop_images/plus_1.png",
-            "detail_button_link": "#",
-            "detail_button_text": "[See Our Shopify Stores →]"
+            "detail_button_link": "shopify://pages/our-work",
+            "detail_button_text": "See Our Shopify Stores →"
           }
         },
         "tradies_item_X3Db9y": {
@@ -515,6 +515,7 @@
       "type": "marketing-focus",
       "name": "Marketing Focus Section",
       "settings": {
+        "key": "",
         "logo_image": "shopify://shop_images/04.jpg",
         "headline": "We Build Websites That Bring You Jobs",
         "sub_text": "From design to launch, we create lead-generating machines tailored to your trade.",

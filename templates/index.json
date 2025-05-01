@@ -460,7 +460,7 @@
           "settings": {
             "service_icon": "shopify://shop_images/email-marketing_ac55f679-0d95-4352-8ebf-7342ecf2372e.png",
             "service_title": "Email Marketing",
-            "service_link": "",
+            "service_link": "shopify://pages/email-marketing",
             "service_description": "Keep customers coming back with strategic, high-converting email campaigns."
           }
         },
@@ -478,7 +478,7 @@
           "settings": {
             "service_icon": "shopify://shop_images/search-engine-optimisation.png",
             "service_title": "Search Engine Optimisation (SEO)",
-            "service_link": "",
+            "service_link": "shopify://pages/search-engine-optimisation",
             "service_description": "Organic strategies that put your business in front of customers without paying for ads."
           }
         },
@@ -487,7 +487,7 @@
           "settings": {
             "service_icon": "shopify://shop_images/creative.png",
             "service_title": "Content That Converts",
-            "service_link": "",
+            "service_link": "shopify://pages/content-writing",
             "service_description": "Persuasive copy and visuals that get your customers clicking, calling, and buying."
           }
         }

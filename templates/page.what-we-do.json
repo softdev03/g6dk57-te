@@ -14,8 +14,7 @@
       "settings": {
         "loop_video": true,
         "autoplay_video": true,
-        "main_image": "shopify://shop_images/seo-for-trades.webp",
-        "secondary_image": "shopify://shop_images/get-found-on-the-web-right.svg",
+        "main_image": "shopify://shop_images/GoogleAds_07.jpg",
         "media_border_radius": 0,
         "media_border_width": 0,
         "media_border_color": "#000000",
@@ -28,32 +27,47 @@
         "mobile_top": -1,
         "mobile_right": -1,
         "mobile_bottom": -26,
-        "heading": "What We Do",
-        "sub_heading": "Driving Growth with Smart Digital Solutions",
-        "text": "<p>At <strong>An Agency</strong>, we don’t just build websites—we create <strong>high-converting digital experiences</strong> that help businesses <strong>scale fast</strong>. </p><p>As a <strong>boutique digital marketing firm</strong>, we specialise in <strong>Shopify development, eCommerce growth strategies, and data-driven marketing campaigns</strong> that turn clicks into customers.</p><ul><li><strong>380+ Shopify stores launched</strong></li><li><strong>Rapid website deployment (as quick as 14 days!)</strong></li><li><strong>Proven track record—clients see up to 500% sales growth</strong></li></ul><p>We take a <strong>hands-on, tailored approach</strong> with every project, ensuring that <strong>businesses of all sizes</strong>—from startups to enterprise brands—get the <strong>right tools, strategies, and support</strong> to succeed online.</p>",
-        "button_link": "#",
+        "heading": "About Us",
+        "sub_heading": "Built for Growth. Backed by Results.",
+        "text": "<p>We’re not your typical agency. We’re a hands-on Shopify and marketing team that builds high-converting websites fast  and then sticks around to help you scale.</p><p>Since launch, we’ve rolled out 380+ Shopify stores, helping brands hit up to 500% growth in sales. Whether you’re just starting out or shifting gears into serious scaling, we’re the team brands come to when they’re ready to move fast and do it right.</p><p>We focus on results, not fluff. Our stores are clean, conversion-focused, mobile-optimised, and ready to launch in as little as 14 days.</p>",
+        "button_link": "shopify://pages/contact",
         "button_text": "Speak To Our Team",
         "image_right": false,
         "text_align": "left",
-        "background_color": "#aeddf9",
+        "background_color": "#ffffff",
         "desktop_padding_top": 60,
         "desktop_padding_bottom": 60,
         "mobile_padding_top": 40,
         "mobile_padding_bottom": 40
       }
     },
+    "results_guaranteed_maQg8g": {
+      "type": "results-guaranteed",
+      "name": "Results Guaranteed",
+      "settings": {
+        "main_heading": "What We Do",
+        "sub_heading": "Shopify Development. Service-Based Business Websites. Logo Design & Branding. Google, Meta & TikTok Ads. SEO, Content & GMB Optimisation",
+        "description": "Every site is built from scratch by our local team. No outsourcing. No templates. Just high-performing, good-looking stores that sell.",
+        "button_text": "",
+        "button_link": "",
+        "desktop_padding_top": 0,
+        "desktop_padding_bottom": 0,
+        "mobile_padding_top": 0,
+        "mobile_padding_bottom": 0
+      }
+    },
     "phone_ring_MzFcJr": {
       "type": "phone-ring",
       "settings": {
-        "image": "shopify://shop_images/MTS-Incoming-Call_png.webp",
-        "heading_1": "Why Work",
-        "heading_2": "With Us?",
-        "sub_heading": "Whether you need a new Shopify store, a marketing strategy that works, or AI-powered business tools, we’ve got the expertise to take your brand to the next level.",
-        "text": "Certified Shopify Experts – We know Shopify inside out and use best-in-class tools to build high-performing online stores. We are focused on ROI & Conversions – Our strategies aren’t just pretty; they drive real business results like higher sales and better customer retention. We offer you fast & efficient executions . We deliver fully optimised Shopify stores in as little as 14 days with real results in 30 days. We offer personalised, Hands-On Support – No cookie-cutter solutions—just tailored growth strategies that fit your business.",
+        "image": "shopify://shop_images/AnAgencyServiceWebsite05.png",
+        "heading_1": "Why Brands",
+        "heading_2": "Work With Us",
+        "sub_heading": "",
+        "text": "Certified Shopify Experts. We’ve mastered the platform. No guesswork,  just fast, effective execution. We Care About ROI. Your site won’t just look good. It’ll convert. Our builds focus on the numbers. Quick Turnarounds. Launch in 14 days. See results in 30. We don’t waste time. You Get Real Support. We’re not a call centre. We’re your team. You get guidance, updates, and clear timelines.",
         "phone_button_text": "0499226600",
         "phone_number": "0499226600",
         "enquire_button_text": "Enquire Now",
-        "enquire_button_link": "#",
+        "enquire_button_link": "shopify://pages/contact",
         "image_right": true,
         "text_align": "left",
         "desktop_padding_top": 100,
@@ -169,8 +183,7 @@
       "settings": {
         "loop_video": true,
         "autoplay_video": true,
-        "main_image": "shopify://shop_images/website-design-and-dev-for-tradies.png",
-        "secondary_image": "shopify://shop_images/get-the-work-you-want.svg",
+        "main_image": "shopify://shop_images/AnAgencyServiceWebsite03.png",
         "media_border_radius": 0,
         "media_border_width": 0,
         "media_border_color": "#000000",
@@ -183,14 +196,14 @@
         "mobile_top": -1,
         "mobile_right": -1,
         "mobile_bottom": -30,
-        "heading": "We believe in keeping things easy and effective.",
+        "heading": "Our Difference",
         "sub_heading": "",
-        "text": "<h2><strong>Step 1: Free Consultation</strong></h2><p>We kick things off by diving deep into your business goals and challenges. This no-obligation chat helps us understand where you are and where you want to be. It's all about aligning our strategies with your vision to ensure we're on the same page from the get-go.​</p>",
+        "text": "<p>An Agency was built to be different. Every project is managed, designed, and built right here in Australia by people who know the local market and who care about your results. We don’t believe in offshoring or cookie-cutter templates. We believe in quality, speed, and accountability from start to finish. If you need a partner who will treat your business like their own, you’re in the right place.</p>",
         "button_link": "#",
-        "button_text": "[ Book Your Free Consultation → ]",
+        "button_text": "",
         "image_right": false,
         "text_align": "left",
-        "background_color": "#aeddf9",
+        "background_color": "#ffffff",
         "desktop_padding_top": 60,
         "desktop_padding_bottom": 60,
         "mobile_padding_top": 40,
@@ -202,7 +215,7 @@
       "settings": {
         "loop_video": true,
         "autoplay_video": true,
-        "main_image": "shopify://shop_images/Web-Designs-for-trades.png",
+        "main_image": "shopify://shop_images/AnAgencyShopifyWebsite05.png",
         "media_border_radius": 0,
         "media_border_width": 0,
         "media_border_color": "#000000",
@@ -215,14 +228,14 @@
         "mobile_top": -1,
         "mobile_right": -1,
         "mobile_bottom": -1,
-        "heading": "Step 2: Custom Design & Development",
-        "sub_heading": "Once we’ve nailed your strategy, we design & build a Shopify store.",
-        "text": "<p>Next, our team of certified Shopify experts rolls up their sleeves to craft a website that's not just visually appealing but also conversion-focused. We tailor every element to resonate with your brand and captivate your target audience. Our goal is to create a seamless user experience that turns visitors into loyal customers.​</p>",
+        "heading": "What We Stand For",
+        "sub_heading": "",
+        "text": "<p>We believe websites should make sales, not just look good. We believe fast service beats long drawn-out timelines. We believe being straight-up and clear beats hiding behind jargon. And we believe the only work worth doing is work that drives real growth for our clients.</p>",
         "button_link": "#",
-        "button_text": "[ Start Your Custom Build → ]",
+        "button_text": "",
         "image_right": true,
         "text_align": "left",
-        "background_color": "#aeddf9",
+        "background_color": "#ffffff",
         "desktop_padding_top": 60,
         "desktop_padding_bottom": 60,
         "mobile_padding_top": 40,
@@ -234,8 +247,7 @@
       "settings": {
         "loop_video": true,
         "autoplay_video": true,
-        "main_image": "shopify://shop_images/email-marketing-for-tradies-edm.webp",
-        "secondary_image": "shopify://shop_images/get-new-customers.svg",
+        "main_image": "shopify://shop_images/AnAgencyShopifyWebsite08.png",
         "media_border_radius": 0,
         "media_border_width": 0,
         "media_border_color": "#000000",
@@ -248,14 +260,14 @@
         "mobile_top": -25,
         "mobile_right": 0,
         "mobile_bottom": -1,
-        "heading": "Step 3: Launch & Ongoing Optimisation",
-        "sub_heading": "Going live is just the beginning! We continuously refine and optimise to maximise conversions and growth.",
-        "text": "<p>Once your site is live, we don't just set it and forget it. We continuously monitor performance, making data-driven tweaks to maximise conversions and sales. Our commitment is to ensure your online presence evolves with your business, keeping you ahead of the competition.​</p>",
+        "heading": "Our Commitment",
+        "sub_heading": "",
+        "text": "<p>We’re based in Canberra and we serve businesses Australia-wide. Whether you’re building your first store, rebranding, or scaling hard, we move with you. From your first call to your site going live (and beyond), you’ll deal with real people who know what they’re doing and who actually care about getting you results.</p>",
         "button_link": "#",
-        "button_text": "[ Start Selling Faster → ]",
+        "button_text": "",
         "image_right": false,
         "text_align": "left",
-        "background_color": "#aeddf9",
+        "background_color": "#ffffff",
         "desktop_padding_top": 60,
         "desktop_padding_bottom": 60,
         "mobile_padding_top": 40,
@@ -301,6 +313,7 @@
         "trust_item_YFytD9",
         "trust_item_JfVUzV"
       ],
+      "disabled": true,
       "settings": {
         "heading": "Why Partner with An Agency?",
         "text": "<p>With <strong>380+ successful store launches</strong>, we build high-converting Shopify websites and marketing strategies that <strong>drive real growth</strong>. Our <strong>rapid deployment</strong> gets you live in as little as 1<strong>0 days</strong>, and our <strong>data-driven approach</strong> has helped clients boost sales by <strong>up to 500%</strong>. Plus, we’re not just another agency—we’re <strong>your digital partner</strong>, providing <strong>ongoing support and optimisation</strong> to help your business scale.</p><p></p>",
@@ -389,6 +402,7 @@
         "tradies_item_6qHYz4",
         "tradies_item_tDB4YR"
       ],
+      "disabled": true,
       "settings": {
         "heading": "Case Studies & Success Stories",
         "text": "At An Agency, we pride ourselves on delivering customised digital solutions that drive measurable success. Here's how we've partnered with clients to overcome challenges and achieve remarkable results",
@@ -505,20 +519,36 @@
         "mobile_padding_bottom": 40
       }
     },
+    "marketing_focus_gHXzYp": {
+      "type": "marketing-focus",
+      "name": "Marketing Focus Section",
+      "settings": {
+        "key": "",
+        "logo_image": "shopify://shop_images/Artboard_13.png",
+        "headline": "Ready to Build Something That Works?",
+        "sub_text": "Book a free 15-minute call with our team. No pressure. No waffle. Just real advice, useful insights, and a clear next step if you’re ready to move forward.",
+        "button_text": "Book a Call",
+        "button_link": "shopify://pages/contact",
+        "desktop_padding_top": 0,
+        "desktop_padding_bottom": 0,
+        "mobile_padding_top": 0,
+        "mobile_padding_bottom": 0
+      }
+    },
     "partner_with_U86NgH": {
       "type": "partner-with",
       "blocks": {
         "partner_item_Am8rMX": {
           "type": "partner_item",
           "settings": {
-            "image": "shopify://shop_images/semrush-agency-partner.webp",
+            "image": "shopify://shop_images/shopify-partner-logo.jpg",
             "link": "#"
           }
         },
         "partner_item_gQr6pr": {
           "type": "partner_item",
           "settings": {
-            "image": "shopify://shop_images/Tradify.webp",
+            "image": "shopify://shop_images/tiktokpartners.webp",
             "link": ""
           }
         },
@@ -529,17 +559,17 @@
             "link": ""
           }
         },
-        "partner_item_gizEVP": {
-          "type": "partner_item",
-          "settings": {
-            "image": "shopify://shop_images/evnex-partner.webp",
-            "link": ""
-          }
-        },
         "partner_item_nMMzBY": {
           "type": "partner_item",
           "settings": {
             "image": "shopify://shop_images/google-partner.webp",
+            "link": ""
+          }
+        },
+        "partner_item_BU8dwX": {
+          "type": "partner_item",
+          "settings": {
+            "image": "shopify://shop_images/CR-Agency-Partner-Logo.png",
             "link": ""
           }
         },
@@ -555,8 +585,8 @@
         "partner_item_Am8rMX",
         "partner_item_gQr6pr",
         "partner_item_peizWL",
-        "partner_item_gizEVP",
         "partner_item_nMMzBY",
+        "partner_item_BU8dwX",
         "partner_item_ppj4Q9"
       ],
       "settings": {
@@ -573,6 +603,7 @@
   },
   "order": [
     "advertise_xMT9mA",
+    "results_guaranteed_maQg8g",
     "phone_ring_MzFcJr",
     "advertise_KLNL33",
     "advertise_qQYPyj",
@@ -583,6 +614,7 @@
     "trust_Q37M3R",
     "tradies_D9qHzj",
     "faq_cYAhKJ",
+    "marketing_focus_gHXzYp",
     "partner_with_U86NgH"
   ]
 }

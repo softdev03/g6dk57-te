@@ -280,10 +280,10 @@
           "settings": {
             "image": "shopify://shop_images/AnAgencyOurWork29.png",
             "detail_info_heading": "Construction",
-            "detail_info_text": "<p>From skincare to furniture, we run proven conversion-optimised campaigns that drive consistent sales and keep your ROAS healthy.</p><p></p><p></p><p></p>",
+            "detail_info_text": "<p></p><p></p><p></p><p></p>",
             "icon": "shopify://shop_images/plus_1.png",
-            "detail_button_link": "#",
-            "detail_button_text": "Free Quote"
+            "detail_button_link": "shopify://pages/our-work",
+            "detail_button_text": "See Our Shopify Stores →"
           }
         },
         "tradies_item_jkGR8z": {
@@ -291,10 +291,10 @@
           "settings": {
             "image": "shopify://shop_images/AnAgencyOurWork16.png",
             "detail_info_heading": "Medical Testing",
-            "detail_info_text": "<p>Massage chairs, supplements, beauty devices—we help niche brands grow with strategy-led Facebook ads.</p><p></p>",
+            "detail_info_text": "<p></p><p></p>",
             "icon": "shopify://shop_images/plus_1.png",
-            "detail_button_link": "#",
-            "detail_button_text": "Free Quote"
+            "detail_button_link": "shopify://pages/our-work",
+            "detail_button_text": "See Our Shopify Stores →"
           }
         },
         "tradies_item_Xh8jYb": {
@@ -302,10 +302,10 @@
           "settings": {
             "image": "shopify://shop_images/AnAgencyOurWork18.png",
             "detail_info_heading": "Not For Profit",
-            "detail_info_text": "<p>We know how to market what makes tails wag. From eco-friendly toys to grooming supplies, we help pet brands grow loyal, returning customers.</p><p><br/></p><p><br/></p><p><br/></p><p></p><p></p>",
+            "detail_info_text": "<p></p><p><br/></p><p><br/></p><p><br/></p><p></p><p></p>",
             "icon": "shopify://shop_images/plus_1.png",
-            "detail_button_link": "#",
-            "detail_button_text": "Free Quote"
+            "detail_button_link": "shopify://pages/our-work",
+            "detail_button_text": "See Our Shopify Stores →"
           }
         },
         "tradies_item_YQarCg": {
@@ -558,6 +558,7 @@
       "type": "marketing-focus",
       "name": "Marketing Focus Section",
       "settings": {
+        "key": "",
         "logo_image": "shopify://shop_images/04.jpg",
         "headline": "We Help Businesses Sell More on Facebook",
         "sub_text": "Whether you're after more leads or product sales, our ad strategies deliver.",

@@ -74,7 +74,7 @@
         "section_bg_color": "#ffd000",
         "text_color": "#000000",
         "button_label": "Request a Call",
-        "button_link": "",
+        "button_link": "shopify://pages/contact",
         "contact_heading": "Connect with us:",
         "social_icon_bg_color": "#424242",
         "social_icon_color": "#ffffff",
@@ -177,7 +177,7 @@
         "menu_item_hk4WCx": {
           "type": "menu_item",
           "settings": {
-            "heading": "Trades",
+            "heading": "Free Tools",
             "menu": "trades"
           }
         },

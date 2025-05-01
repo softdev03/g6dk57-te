@@ -23,10 +23,10 @@
         "free_ai_tool_Up8FFY": {
           "type": "free_ai_tool",
           "settings": {
-            "tool_image": "shopify://shop_images/upscalemedia-transformed.jpg",
-            "heading": "Shopify Retail & POS",
-            "text": "<p>Seamless Shopify solutions tailored for both online and in-store success. From setup to integrations, we make selling effortless.</p><p></p>",
-            "tool_link": "shopify://pages/shopify-retail-pos",
+            "tool_image": "shopify://shop_images/AnAencyContent03.png",
+            "heading": "Shopify Websites",
+            "text": "<p>Custom eComm builds that move product. SEO, UX, and mobile-first design baked in.<br/></p><p></p>",
+            "tool_link": "shopify://pages/custom-shopify-development",
             "link_text": "Get Started",
             "featured": true
           }
@@ -34,150 +34,143 @@
         "free_ai_tool_NabWPy": {
           "type": "free_ai_tool",
           "settings": {
-            "tool_image": "shopify://shop_images/NGbMeU26iMGujFtk9eu2goCXI.svg",
-            "heading": "Domain Name Idea Generator",
-            "text": "<p>Make your brand memorable, unique and with catchy domain names.</p>",
-            "tool_link": "shopify://pages/domain-name-idea-generator",
-            "link_text": "Generate Instantly",
+            "tool_image": "shopify://shop_images/AnAgencyServiceWebsite06.png",
+            "heading": "Service Websites",
+            "text": "<p>Professional, fast-loading websites for service businesses. Built to rank and drive leads.<br/></p>",
+            "tool_link": "shopify://pages/service-industry-websites",
+            "link_text": "Get Started",
             "featured": false
           }
         },
         "free_ai_tool_GUjN6Y": {
           "type": "free_ai_tool",
           "settings": {
-            "tool_image": "shopify://shop_images/j8PTlqrDM6wuv5v2CwStKSBs0w.png",
-            "heading": "Clickbait Title Generator",
-            "text": "<p>Craft catchy, clickbait-style styles tailored to get more visibility.</p>",
-            "tool_link": "shopify://pages/clickbait-title-generator",
-            "link_text": "Generate Instantly",
+            "tool_image": "shopify://shop_images/GoogleAds_ecommerce02_e703f8dd-1cdd-477a-b4b5-791b629c3d19.jpg",
+            "heading": "Google Ads",
+            "text": "<p>Search campaigns that pull high-intent clicks. ROI-focused, data-backed.<br/></p>",
+            "tool_link": "shopify://pages/google-ads",
+            "link_text": "Get Started",
             "featured": false
           }
         },
         "free_ai_tool_RBTQNN": {
           "type": "free_ai_tool",
           "settings": {
-            "tool_image": "shopify://shop_images/UBDf5mR1iX2b6OnedZM8F3EoDwo.jpg",
-            "heading": "Meta Tag Generator",
-            "text": "<p>Optimize your meta tags for maximum impact and search engine visibility.</p>",
-            "tool_link": "shopify://pages/meta-tag-generator",
-            "link_text": "Generate Instantly",
+            "tool_image": "shopify://shop_images/Facebook08.png",
+            "heading": "Facebook Ads",
+            "text": "<p>Scroll-stopping creative with sharp targeting. Ideal for B2C and broad reach.<br/></p>",
+            "tool_link": "shopify://pages/facebook-ads",
+            "link_text": "Get Started",
             "featured": false
           }
         },
         "free_ai_tool_Qq8gCV": {
           "type": "free_ai_tool",
           "settings": {
-            "tool_image": "shopify://shop_images/69f8Z4LWyfLssaQXcej6ayErYDo.jpg",
-            "heading": "AI Blog Generator",
-            "text": "<p>Generate a captivating and well-crafted blog ready to publish in no time!</p>",
-            "tool_link": "shopify://pages/ai-blog-generator",
-            "link_text": "Generate Instantly",
+            "tool_image": "shopify://shop_images/InstagramAds01.png",
+            "heading": "Instagram Ads",
+            "text": "<p>Visual-first ads that sell on sight. Built for engagement and DMs.<br/></p>",
+            "tool_link": "shopify://pages/instagram-ads",
+            "link_text": "Get Started",
             "featured": false
           }
         },
         "free_ai_tool_mVBxC8": {
           "type": "free_ai_tool",
           "settings": {
-            "tool_image": "shopify://shop_images/UuR6JZKc217M9BIQ4tJhp2bcq0.png",
-            "heading": "Blog Topic Generator",
-            "text": "<p>Generate a list of search intent topics, and blog titles for your niche.</p>",
-            "tool_link": "shopify://pages/blog-topic-generator",
-            "link_text": "Generate Instantly",
+            "tool_image": "shopify://shop_images/AnAgency_BingAds01.png",
+            "heading": "LinkedIn Ads",
+            "text": "<p>B2B targeting that lands in the inbox. Suited for high-ticket or service sales.<br/></p>",
+            "tool_link": "shopify://pages/linkedin-ads",
+            "link_text": "Get Started",
             "featured": false
           }
         },
         "free_ai_tool_7JTnEh": {
           "type": "free_ai_tool",
           "settings": {
-            "tool_image": "shopify://shop_images/fHC0mVLxt4HkAX5IPOR7ozKGT0k.png",
-            "heading": "Product Description Generator",
-            "text": "<p>Write compelling product descriptions to make customers want to buy.</p>",
-            "tool_link": "shopify://pages/product-description-generator",
-            "link_text": "Generate Instantly",
+            "tool_image": "shopify://shop_images/AnAgency_BingAds05.png",
+            "heading": "Bing Ads",
+            "text": "<p>Lower competition, higher margins. A smart add-on to Google.<br/></p>",
+            "tool_link": "shopify://pages/bing-ads",
+            "link_text": "Get Started",
             "featured": false
           }
         },
         "free_ai_tool_3KJYdx": {
           "type": "free_ai_tool",
-          "disabled": true,
           "settings": {
-            "tool_image": "shopify://shop_images/dMishi2ZLbf5QZwdDSoNSF0JJ08.jpg",
-            "heading": "Promotional Email Generator",
-            "text": "<p>Send out engaging promotional emails for your product easily.</p>",
-            "tool_link": "shopify://pages/promotional-email-generator",
+            "tool_image": "shopify://shop_images/AnAgencyTikTokAds08.png",
+            "heading": "TikTok Ads",
+            "text": "<p>Short-form ads built for fast traction. For brands ready to move at speed.<br/></p>",
+            "tool_link": "shopify://pages/tiktok-ads",
             "link_text": "Generate Instantly",
             "featured": false
           }
         },
         "free_ai_tool_8ayVBb": {
           "type": "free_ai_tool",
-          "disabled": true,
           "settings": {
-            "tool_image": "shopify://shop_images/EvZAxbIVXJ7a4XjodcKWu5ce3g.jpg",
-            "heading": "Abandoned Cart Email",
-            "text": "<p>Regain your lost sales with our AI abandoned cart emails generators.</p>",
-            "tool_link": "shopify://pages/abandoned-cart-email",
-            "link_text": "Generate Instantly",
+            "tool_image": "shopify://shop_images/AnAgencySEO_02.png",
+            "heading": "Search Engine Optimisation",
+            "text": "<p>On-page and technical SEO done right. Rank, get found, convert.<br/></p>",
+            "tool_link": "shopify://pages/search-engine-optimisation",
+            "link_text": "Get Started",
             "featured": false
           }
         },
         "free_ai_tool_fjFeex": {
           "type": "free_ai_tool",
-          "disabled": true,
           "settings": {
-            "tool_image": "shopify://shop_images/amIDSWdW8qqHkhtZkiJ64tyOY8.jpg",
-            "heading": "Article Rewriter Tool",
-            "text": "<p>Revamp your articles to sound human while avoiding AI detection.</p>",
-            "tool_link": "shopify://pages/article-rewriter-tool",
-            "link_text": "Generate Instantly",
+            "tool_image": "shopify://shop_images/AnAgencyGMB04.png",
+            "heading": "Google My Business",
+            "text": "<p>Optimise your local presence. Show up where your customers are.<br/></p>",
+            "tool_link": "shopify://pages/google-by-business",
+            "link_text": "Get Started",
             "featured": false
           }
         },
         "free_ai_tool_ewFVew": {
           "type": "free_ai_tool",
-          "disabled": true,
           "settings": {
-            "tool_image": "shopify://shop_images/Ot9Cwo0dzxHc5WYUAmZdgMXzDE.png",
-            "heading": "YouTube Idea Generator",
-            "text": "<p>Get unique and interesting YouTube Ideas to attract your audience.</p>",
-            "tool_link": "shopify://pages/youtube-idea-generator",
-            "link_text": "Generate Instantly",
+            "tool_image": "shopify://shop_images/AnAencyContent04.png",
+            "heading": "Content Writing",
+            "text": "<p>Conversion-led copy for websites, ads, and SEO. No fluff, just clarity.<br/></p>",
+            "tool_link": "shopify://pages/content-writing",
+            "link_text": "Get Started",
             "featured": false
           }
         },
         "free_ai_tool_xhCUzz": {
           "type": "free_ai_tool",
-          "disabled": true,
           "settings": {
-            "tool_image": "shopify://shop_images/Hr63NonEyMv4SiIm8vWmjUIU.png",
-            "heading": "YouTube Title Generator",
-            "text": "<p>Generates attractive YouTube titles that engage your audience.</p>",
-            "tool_link": "shopify://pages/youtube-title-generator",
-            "link_text": "Generate Instantly",
+            "tool_image": "shopify://shop_images/email-marketing-solutions-for-trades-people_707acc76-a398-4df5-aee0-8902f1020180.webp",
+            "heading": "Email Marketing",
+            "text": "<p>Flows and campaigns that sell while you sleep. Automated and strategic.<br/></p>",
+            "tool_link": "shopify://pages/email-marketing",
+            "link_text": "Get Started",
             "featured": false
           }
         },
         "free_ai_tool_VRLVFP": {
           "type": "free_ai_tool",
-          "disabled": true,
           "settings": {
-            "tool_image": "shopify://shop_images/IaUhePWsoL45F4pJHjN7o1dNkqU.jpg",
-            "heading": "Social Media Post Generator",
-            "text": "<p>Create effective, high-quality social media posts in no time using AI.</p>",
-            "tool_link": "shopify://pages/social-media-post-generator",
-            "link_text": "Generate Instantly",
+            "tool_image": "shopify://shop_images/AnAgencyBranding04.png",
+            "heading": "Branding",
+            "text": "<p>Clarity, positioning, identity. Brand strategy that earns attention.<br/></p>",
+            "tool_link": "shopify://pages/branding",
+            "link_text": "Get Started",
             "featured": false
           }
         },
         "free_ai_tool_t7DwBz": {
           "type": "free_ai_tool",
-          "disabled": true,
           "settings": {
-            "tool_image": "shopify://shop_images/LZppkYLByUXy0YWmFdQaETQik.jpg",
-            "heading": "Email Subject Line Generator",
-            "text": "<p>Get more open rates for your emails with captivating email lines.</p>",
-            "tool_link": "shopify://pages/email-subject-line-generator",
-            "link_text": "Generate Instantly",
+            "tool_image": "shopify://shop_images/AnAgencyLogo01.png",
+            "heading": "Logo Design",
+            "text": "<p>Clean, timeless marks that scale. Built to match your brand’s trajectory.<br/></p>",
+            "tool_link": "shopify://pages/logo-design",
+            "link_text": "Get Started",
             "featured": false
           }
         },
@@ -225,8 +218,8 @@
         "free_ai_tool_PhGJEW"
       ],
       "settings": {
-        "heading": "Digital Solutions That Drive Real Growth",
-        "text": "<h2><strong>Websites, Ads & AI—Built for Performance.</strong></h2><p>Your business needs more than just a website or ads—it needs a <strong>scalable digital strategy</strong> that delivers <strong>results</strong>. At <strong>An Agency</strong>, we build <strong>high-performing Shopify stores</strong>, create <strong>data-driven marketing campaigns</strong>, and provide <strong>AI-powered tools</strong> that help you scale <strong>smarter and faster</strong>.</p>",
+        "heading": "Everything We Do. Built In-House. No Guesswork.",
+        "text": "<p>Full-stack digital delivery across websites, ads, and brand. Built to convert, priced to move, backed by real support.</p>",
         "desktop_padding_top": 80,
         "desktop_padding_bottom": 80,
         "mobile_padding_top": 50,
@@ -255,7 +248,9 @@
             "desktop_text_transform": "none",
             "mobile_text_transform": "default",
             "desktop_max_width": 1000,
-            "mobile_max_width": 1000
+            "mobile_max_width": 1000,
+            "desktop_color": "#000000",
+            "mobile_color": "#000000"
           }
         },
         "text_eK9Cwe": {
@@ -277,7 +272,9 @@
             "desktop_text_transform": "none",
             "mobile_text_transform": "default",
             "desktop_max_width": 780,
-            "mobile_max_width": 1000
+            "mobile_max_width": 1000,
+            "desktop_color": "#000000",
+            "mobile_color": "#000000"
           }
         }
       },
@@ -285,6 +282,7 @@
         "text_WPQBJF",
         "text_eK9Cwe"
       ],
+      "disabled": true,
       "settings": {
         "bg_color": "#f9f9f9",
         "desktop_padding_top": 80,
@@ -344,6 +342,7 @@
         "faq_item_q9aLWt",
         "faq_item_fC967c"
       ],
+      "disabled": true,
       "settings": {
         "heading": "",
         "bg_color": "#f9f9f9",

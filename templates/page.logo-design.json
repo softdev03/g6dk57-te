@@ -542,11 +542,12 @@
       "type": "marketing-focus",
       "name": "Marketing Focus Section",
       "settings": {
+        "key": "",
         "logo_image": "shopify://shop_images/04.jpg",
         "headline": "A Cheap Logo Costs More in the Long Run",
         "sub_text": "Let’s build one that actually reflects the business you’re building.",
         "button_text": "Request a Quote",
-        "button_link": "",
+        "button_link": "shopify://pages/contact",
         "desktop_padding_top": 40,
         "desktop_padding_bottom": 40,
         "mobile_padding_top": 30,

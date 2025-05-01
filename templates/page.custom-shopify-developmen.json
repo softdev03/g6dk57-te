@@ -345,7 +345,7 @@
           "settings": {
             "image": "shopify://shop_images/AnAgencyOurWork07.png",
             "detail_info_heading": "Sporting",
-            "detail_info_text": "<p><strong>Fashion & Apparel</strong> – High-converting product pages, seamless checkout.<br/></p><p></p><p></p>",
+            "detail_info_text": "<p><br/></p><p></p><p></p>",
             "icon": "shopify://shop_images/plus_1.png",
             "detail_button_link": "shopify://pages/our-work",
             "detail_button_text": "See Our Shopify Stores →"
@@ -356,9 +356,9 @@
           "settings": {
             "image": "shopify://shop_images/AnAgencyOurWork12.png",
             "detail_info_heading": "Bathroom Supplies",
-            "detail_info_text": "<p><strong>Tech & Electronics</strong> – Advanced filtering, payment flexibility, and custom integrations.<br/></p><p></p><p></p>",
+            "detail_info_text": "<p></p><p></p><p></p>",
             "icon": "shopify://shop_images/plus_1.png",
-            "detail_button_link": "#",
+            "detail_button_link": "shopify://pages/our-work",
             "detail_button_text": "See Our Shopify Stores →"
           }
         },
@@ -367,10 +367,10 @@
           "settings": {
             "image": "shopify://shop_images/AnAgencyOurWork11.png",
             "detail_info_heading": "Furniture",
-            "detail_info_text": "<p><strong>Health & Wellness</strong> – Subscription models, trust-building design, and mobile-first UX.<br/></p><p></p><p></p>",
+            "detail_info_text": "<p></p><p></p><p></p>",
             "icon": "shopify://shop_images/plus_1.png",
-            "detail_button_link": "#",
-            "detail_button_text": "[See Our Shopify Stores →]"
+            "detail_button_link": "shopify://pages/our-work",
+            "detail_button_text": "See Our Shopify Stores →"
           }
         },
         "tradies_item_X3Db9y": {
@@ -378,10 +378,10 @@
           "settings": {
             "image": "shopify://shop_images/AnAgencyOurWork10.png",
             "detail_info_heading": "Pets",
-            "detail_info_text": "<p><strong>Home & Lifestyle</strong> – Beautiful, fast, and easy-to-navigate stores that increase AOV.</p><p></p><p></p><p></p>",
+            "detail_info_text": "<p></p><p></p><p></p><p></p>",
             "icon": "shopify://shop_images/plus_1.png",
-            "detail_button_link": "#",
-            "detail_button_text": "[See Our Shopify Stores →]"
+            "detail_button_link": "shopify://pages/our-work",
+            "detail_button_text": "See Our Shopify Stores →"
           }
         },
         "tradies_item_6qHYz4": {
@@ -389,10 +389,10 @@
           "settings": {
             "image": "shopify://shop_images/AnAgencyOurWork09.png",
             "detail_info_heading": "Kids Toys",
-            "detail_info_text": "<p>Whether you’re running a commercial cleaning business or handling end-of-lease deep cleans, a strong website helps you get more bookings. We highlight your services, customer testimonials, and guarantees, with a simple contact system that makes it easy for clients to reach out and book a clean.</p><p></p><p></p>",
+            "detail_info_text": "<p></p><p></p><p></p>",
             "icon": "shopify://shop_images/plus_1.png",
-            "detail_button_link": "#",
-            "detail_button_text": "Free Quote"
+            "detail_button_link": "shopify://pages/our-work",
+            "detail_button_text": "See Our Shopify Stores →"
           }
         },
         "tradies_item_tDB4YR": {
@@ -400,10 +400,10 @@
           "settings": {
             "image": "shopify://shop_images/AnAgencyOurWork08.png",
             "detail_info_heading": "Home Luxury",
-            "detail_info_text": "<p>No matter your trade, we build websites that work for you. From builders and tilers to landscapers and painters, we design sites that show off your skills, bring in more work, and make booking you a no-brainer.</p><p></p><p></p>",
+            "detail_info_text": "<p></p><p></p><p></p>",
             "icon": "shopify://shop_images/plus_1.png",
-            "detail_button_link": "#",
-            "detail_button_text": "Free Quote"
+            "detail_button_link": "shopify://pages/our-work",
+            "detail_button_text": "See Our Shopify Stores →"
           }
         }
       },
@@ -689,6 +689,7 @@
       "type": "marketing-focus",
       "name": "Marketing Focus Section",
       "settings": {
+        "key": "",
         "logo_image": "shopify://shop_images/04.jpg",
         "headline": "We Know Shopify & Sales Funnels (Inside Out)",
         "sub_text": "Your store should be converting. We’ll fix the funnel, speed things up, and bring in better customers.",
