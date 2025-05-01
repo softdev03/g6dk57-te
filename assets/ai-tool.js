@@ -112,11 +112,11 @@ const generateText = (pattern, language, tone, writingStyle, inputText) => {
 		}
 		let newPattern;
 		if (!language || !tone || !writingStyle) {
-			newPattern = pattern.replace('[pattern]', inputText).replace('[tone]', 'Formal');
-			newPattern += additionalPattern.replace('[language]', 'English').replace('[writing style]', 'Professional');
+			newPattern = pattern.replace('[pattern]', inputText);
+			newPattern += additionalPattern.replace('[language]', 'English').replace('[writing style]', 'Professional').replace('[tone]', 'Formal');
 		} else {
-			newPattern = pattern.replace('[pattern]', inputText).replace('[tone]', tone);
-			newPattern += additionalPattern.replace('[language]', language).replace('[writing style]', writingStyle);
+			newPattern = pattern.replace('[pattern]', inputText);
+			newPattern += additionalPattern.replace('[language]', language).replace('[writing style]', writingStyle).replace('[tone]', tone);
 		}
 		fetch(' https://api.openai.com/v1/chat/completions', {
 			method: 'POST',
