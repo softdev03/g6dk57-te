@@ -1,9 +1,8 @@
 const APIKEY = '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';
-const fuckingStrings = ['"```html"', '"```"', "introduction", "overview", "brief", "items", "index"];
 const model = 'gpt-4o-mini';
-// const model = 'gpt-4o-realtime-preview';
 const additionalPattern = `
 	※ : The writing style must be [writing style] and please use "[language]" language for all of the content.
+	The content should be written in a [tone] tone.
 `;
 document.addEventListener('DOMContentLoaded', () => {
 	const aiToolSection = document.querySelector('.shopify-section-ai-tools');
