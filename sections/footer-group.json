@@ -208,6 +208,74 @@
     },
     "footer_bottom_6r7ihY": {
       "type": "footer-bottom",
+      "blocks": {
+        "link_item_WfJ8GN": {
+          "type": "link_item",
+          "settings": {
+            "label": "Privacy",
+            "link": "shopify://policies/privacy-policy"
+          }
+        },
+        "link_item_mK9ini": {
+          "type": "link_item",
+          "settings": {
+            "label": "Terms",
+            "link": "shopify://policies/terms-of-service"
+          }
+        },
+        "link_item_33qV9U": {
+          "type": "link_item",
+          "settings": {
+            "label": "Refunds",
+            "link": "shopify://policies/refund-policy"
+          }
+        },
+        "link_item_NFjxDy": {
+          "type": "link_item",
+          "settings": {
+            "label": "Delivery",
+            "link": "shopify://policies/shipping-policy"
+          }
+        },
+        "link_item_NDyzn4": {
+          "type": "link_item",
+          "settings": {
+            "label": "Contact",
+            "link": "shopify://policies/contact-information"
+          }
+        },
+        "link_item_xTND9M": {
+          "type": "link_item",
+          "settings": {
+            "label": "Ad Policy",
+            "link": "shopify://pages/performance-disclaimer"
+          }
+        },
+        "link_item_ddPpQp": {
+          "type": "link_item",
+          "settings": {
+            "label": "Access",
+            "link": "shopify://pages/accessibility-statement"
+          }
+        },
+        "link_item_zmc34K": {
+          "type": "link_item",
+          "settings": {
+            "label": "Cookie Policy",
+            "link": "shopify://pages/cookie-policy"
+          }
+        }
+      },
+      "block_order": [
+        "link_item_WfJ8GN",
+        "link_item_mK9ini",
+        "link_item_33qV9U",
+        "link_item_NFjxDy",
+        "link_item_NDyzn4",
+        "link_item_xTND9M",
+        "link_item_ddPpQp",
+        "link_item_zmc34K"
+      ],
       "custom_css": [],
       "settings": {
         "footer_bottom_text": "All Content © An Agency 2025 | Proudly Australian Owned & Operated | Privacy | Terms | Refunds | Delivery | Ad Policy | Access | Cookie Policy | Contact"
