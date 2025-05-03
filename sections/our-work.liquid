@@ -152,8 +152,8 @@
 				{%- if section.settings.banner_button_link != blank and section.settings.banner_button_text != blank -%}
 					<a href="{{ section.settings.banner_button_link }}" class="banner-link">{{ section.settings.banner_button_text }}</a>
 				{%- endif -%}
-				{%- if section.settings.banenr_secondary_description != blank -%}
-					<p class="banner-secondary-description">{{ section.settings.banenr_secondary_description }}</p>
+				{%- if section.settings.banner_secondary_description != blank -%}
+					<p class="banner-secondary-description">{{ section.settings.banner_secondary_description }}</p>
 				{%- endif -%}
 			</div>
 		</div>
@@ -360,7 +360,7 @@
     },
     {
       "type": "text",
-      "id": "banenr_secondary_description",
+      "id": "banner_secondary_description",
       "label": "Secondary Description"
     },
     {

@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
@@ -33,7 +42,30 @@
         "share",
         "content"
       ],
-      "settings": {}
+      "settings": {
+        "bg_color": "#ffffff",
+        "text_color": "#000000",
+        "enable_banner": true,
+        "banner_bg_color": "#feda15",
+        "banner_box_shadow_color": "#000000",
+        "banner_border_radius": 6,
+        "banner_heading": "Websites, Branding & Ads",
+        "banner_description": "We help Aussie businesses get online, grow faster, and look the part — without the agency fluff or wasted ad spend.",
+        "banner_secondary_description": "",
+        "banner_text_color": "#0b0a33",
+        "banner_image": "shopify://shop_images/Artboard_46.png",
+        "banner_button_text": "Get a Free Quote",
+        "banner_button_link": "shopify://pages/contact",
+        "banner_button_bg_color": "#000000",
+        "banner_button_text_color": "#ffffff",
+        "banner_button_bg_color_hover": "#000000",
+        "banner_button_text_color_hover": "#feda15",
+        "banner_button_border_radius": 3,
+        "desktop_padding_top": 60,
+        "desktop_padding_bottom": 60,
+        "mobile_padding_top": 40,
+        "mobile_padding_bottom": 40
+      }
     }
   },
   "order": [
