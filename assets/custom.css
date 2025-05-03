@@ -117,3 +117,13 @@ img {
     display: none;
   } 
 }
+
+.article-card .card__inner {
+  background-color: transparent;
+}
+.article-card .article-card__image {
+  background-color: transparent;
+}
+.article-card .card__media .article-card__image img {
+  object-fit: contain;
+}

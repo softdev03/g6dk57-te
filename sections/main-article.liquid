@@ -42,11 +42,17 @@
               class="{% unless section.settings.enable_banner %}page-width page-width--narrow{% endunless %} {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}"
               {{ block.shopify_attributes }}
             >
+              {%- if block.settings.max_height > 100 -%}
+                {%- style -%}
+                  #article-image-{{ block.id }} img {
+                    max-height: {{ block.settings.max_height }}px;
+                    position: static;
+                  }
+                {%- endstyle -%}
+              {%- endif -%}
               <div
-                class="article-template__hero-{{ block.settings.image_height }} media"
-                {% if block.settings.image_height == 'adapt' and article.image %}
-                  style="padding-bottom: {{ 1 | divided_by: article.image.aspect_ratio | times: 100 }}%;"
-                {% endif %}
+                class="media"
+                id="article-image-{{ block.id }}"
               >
                 <img
                   srcset="
@@ -58,7 +64,6 @@
                     {% if article.image.width >= 3000 %}{{ article.image | image_url: width: 3000 }} 3000w,{% endif %}
                     {{ article.image | image_url }} {{ article.image.width }}w
                   "
-                  sizes="(min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 }}px, (min-width: 750px) calc(100vw - 10rem), 100vw"
                   src="{{ article.image | image_url: width: 1100 }}"
                   loading="eager"
                   fetchpriority="high"
@@ -539,6 +544,12 @@
           "default": "adapt",
           "label": "t:sections.main-article.blocks.featured_image.settings.image_height.label",
           "info": "t:sections.main-article.blocks.featured_image.settings.image_height.info"
+        },
+        {
+          "type": "number",
+          "id": "max_height",
+          "label": "Max Height",
+          "default": 100
         }
       ]
     },

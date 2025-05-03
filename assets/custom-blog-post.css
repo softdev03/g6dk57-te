@@ -53,6 +53,12 @@
 	line-height: 1;
 	margin: 0px;
 }
+.article-template .media {
+	background-color: transparent;
+}
+.article-template .media img {
+	object-fit: contain;
+}
 @media screen and (max-width: 1149px) {
 	.shopify-section-article:has(.banner) .article-main, .shopify-section-article .banner {
 		width: 100%;
