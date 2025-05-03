@@ -30,7 +30,7 @@
         "image": "shopify://shop_images/GoogleAds_08.jpg",
         "heading_1": "Price",
         "heading_2": "Range:",
-        "sub_heading": "A$3,000 – A$5,000 one-time investment (depending on complexity).",
+        "sub_heading": "A$3,500 – A$5,000 + GST one-time investment (depending on complexity).",
         "text": "This is competitively priced, typical basic Shopify sites in the market cost around A$3K–$6K.",
         "phone_button_text": "",
         "phone_number": "",
@@ -118,16 +118,9 @@
             "benefit_icon": "shopify://shop_images/checkmark.png"
           }
         },
-        "benefit_UJdjfr": {
-          "type": "benefit",
-          "settings": {
-            "benefit_title": "",
-            "benefit_description": "Newsletter signup form and social media profile link integration.",
-            "benefit_icon": "shopify://shop_images/checkmark.png"
-          }
-        },
         "benefit_hAWmpP": {
           "type": "benefit",
+          "disabled": true,
           "settings": {
             "benefit_title": "",
             "benefit_description": "Post-launch support: 1x training session for Shopify admin usage (how to manage products, orders, settings).",
@@ -149,7 +142,6 @@
         "benefit_8TwXDd",
         "benefit_ykcHFF",
         "benefit_h4jAeM",
-        "benefit_UJdjfr",
         "benefit_hAWmpP",
         "benefit_3pCfqn"
       ],
@@ -212,11 +204,29 @@
             "benefit_description": "Content writing or product data entry beyond the included pages/products (available separately if required).",
             "benefit_icon": "shopify://shop_images/close.png"
           }
+        },
+        "benefit_fUe7G4": {
+          "type": "benefit",
+          "settings": {
+            "benefit_title": "",
+            "benefit_description": "Newsletter signup form and social media profile link integration.",
+            "benefit_icon": "shopify://shop_images/close.png"
+          }
+        },
+        "benefit_aVGcGd": {
+          "type": "benefit",
+          "settings": {
+            "benefit_title": "",
+            "benefit_description": "Post-launch support: 1x training session for Shopify admin usage (how to manage products, orders, settings).",
+            "benefit_icon": "shopify://shop_images/close.png"
+          }
         }
       },
       "block_order": [
         "benefit_Vb8Vep",
-        "benefit_ihmzRY"
+        "benefit_ihmzRY",
+        "benefit_fUe7G4",
+        "benefit_aVGcGd"
       ],
       "name": "Benefits Grid",
       "settings": {
@@ -330,7 +340,7 @@
         "mobile_bottom": -1,
         "heading": "Competitive Insight:",
         "sub_heading": "",
-        "text": "<p>Our Launch package offers far more value than typical freelance or offshore developers charging ~$1K–$2K.</p><p>While cheap Shopify setups often rely on free templates and minimal customisation, we create a truly branded experience ready to scale.</p><p>The ~$3–5K range is below the market for <em>customised</em> Australian-built Shopify stores (industry average ~$3K–$6K).</p><p>You're getting a professionally designed, fully functional store, ready for real-world trading, built 100% in-house (no outsourcing).</p>",
+        "text": "<p>Our Launch package offers far more value than typical freelance or offshore developers charging ~$1K–$2K.</p><p>While cheap Shopify setups often rely on free templates and minimal customisation, we create a truly branded experience ready to scale.</p><p>The $3.5–5K range is below the market for <em>customised</em> Australian-built Shopify stores (industry average ~$3.5K–$6K).</p><p>You're getting a professionally designed, fully functional store, ready for real-world trading, built 100% in-house (no outsourcing).</p>",
         "button_link": "",
         "button_text": "",
         "image_right": true,
@@ -362,7 +372,7 @@
         "mobile_bottom": -30,
         "heading": "Commitment & Guarantee:",
         "sub_heading": "All our Shopify website packages come with a transparent project commitment. When you sign up:",
-        "text": "<p>You’ll receive a discovery consultation within 1–2 business days.</p><p></p><ul><li>A clear project timeline is set, covering key milestones (design drafts, revisions, launch date).</li><li>You’ll have full visibility throughout the process, no hidden fees.</li></ul><p></p><p>Every website comes with a <strong>12-month warranty</strong> against bugs or issues related to our development, if anything’s wrong on our end, we fix it at no cost.</p><p><strong>Results Guaranteed:</strong><br/>If we don’t deliver what’s agreed upon, you simply don’t pay the final milestone, no risks, no drama.</p>",
+        "text": "<p>You’ll receive a discovery consultation within 1–2 business days.</p><p></p><ul><li>A clear project timeline is set, covering key milestones (design drafts, revisions, launch date).</li><li>You’ll have full visibility throughout the process, no hidden fees.</li></ul><p></p><p>Every website comes with a <strong>12-month warranty</strong> against bugs or issues related to our development, if anything’s wrong on our end, we fix it at no cost.</p><p><strong>Satisfaction Guaranteed</strong></p>",
         "button_link": "",
         "button_text": "Help Grow My Business",
         "image_right": false,

@@ -30,8 +30,8 @@
         "image": "shopify://shop_images/AnAgencyServiceWebsite06.png",
         "heading_1": "Price",
         "heading_2": "Range:",
-        "sub_heading": "A$2,000 – A$3,500 one-time investment.",
-        "text": "This is positioned below the typical industry average for small business websites, where basic custom sites usually start around A$2K–$5K.",
+        "sub_heading": "A$3,500 – A$5,000 + GST one-time investment.",
+        "text": "This is positioned on par with the typical industry average for small business websites, where basic custom sites usually start around A$2K–$5K.",
         "phone_button_text": "",
         "phone_number": "",
         "enquire_button_text": "",
@@ -82,31 +82,15 @@
           "type": "benefit",
           "settings": {
             "benefit_title": "Custom homepage and branded styling:",
-            "benefit_description": "No templates. Unique design that reflects your brand identity.",
+            "benefit_description": "Unique design that reflects your brand identity.",
             "benefit_icon": "shopify://shop_images/checkmark.png"
           }
         },
         "benefit_fCCiq3": {
           "type": "benefit",
           "settings": {
-            "benefit_title": "Up to 5 pages:",
+            "benefit_title": "Up to 6 pages:",
             "benefit_description": "(Typical structure: Home, About, Services, Testimonials, Contact).",
-            "benefit_icon": "shopify://shop_images/checkmark.png"
-          }
-        },
-        "benefit_8TwXDd": {
-          "type": "benefit",
-          "settings": {
-            "benefit_title": "Contact/inquiry form:",
-            "benefit_description": "Direct submissions straight to your inbox.",
-            "benefit_icon": "shopify://shop_images/checkmark.png"
-          }
-        },
-        "benefit_ykcHFF": {
-          "type": "benefit",
-          "settings": {
-            "benefit_title": "Basic SEO setup:",
-            "benefit_description": "SEO-friendly URL structure, meta titles, and descriptions for every page.",
             "benefit_icon": "shopify://shop_images/checkmark.png"
           }
         },
@@ -126,8 +110,42 @@
             "benefit_icon": "shopify://shop_images/checkmark.png"
           }
         },
+        "benefit_8TwXDd": {
+          "type": "benefit",
+          "settings": {
+            "benefit_title": "Contact/ quote form:",
+            "benefit_description": "Direct submissions straight to your inbox.",
+            "benefit_icon": "shopify://shop_images/checkmark.png"
+          }
+        },
+        "benefit_WE9ibY": {
+          "type": "benefit",
+          "settings": {
+            "benefit_title": "Integration",
+            "benefit_description": "Integration with your Google Business Profile",
+            "benefit_icon": "shopify://shop_images/checkmark.png"
+          }
+        },
+        "benefit_fnLHnz": {
+          "type": "benefit",
+          "settings": {
+            "benefit_title": "Image sourcing",
+            "benefit_description": "Subject matter royalty free images and or client provided images",
+            "benefit_icon": "shopify://shop_images/checkmark.png"
+          }
+        },
+        "benefit_ykcHFF": {
+          "type": "benefit",
+          "disabled": true,
+          "settings": {
+            "benefit_title": "Basic SEO setup:",
+            "benefit_description": "SEO-friendly URL structure, meta titles, and descriptions for every page.",
+            "benefit_icon": "shopify://shop_images/checkmark.png"
+          }
+        },
         "benefit_hAWmpP": {
           "type": "benefit",
+          "disabled": true,
           "settings": {
             "benefit_title": "Basic blog setup:",
             "benefit_description": "Blog page ready to go with one sample post uploaded.",
@@ -144,6 +162,7 @@
         },
         "benefit_ARdPnD": {
           "type": "benefit",
+          "disabled": true,
           "settings": {
             "benefit_title": "1-hour training session:",
             "benefit_description": "Learn how to update content and manage your site post-launch.",
@@ -154,10 +173,12 @@
       "block_order": [
         "benefit_gtM4Hd",
         "benefit_fCCiq3",
-        "benefit_8TwXDd",
-        "benefit_ykcHFF",
         "benefit_h4jAeM",
         "benefit_UJdjfr",
+        "benefit_8TwXDd",
+        "benefit_WE9ibY",
+        "benefit_fnLHnz",
+        "benefit_ykcHFF",
         "benefit_hAWmpP",
         "benefit_3pCfqn",
         "benefit_ARdPnD"
@@ -229,12 +250,21 @@
             "benefit_description": "Long-term site maintenance (available via ongoing retainers after launch).",
             "benefit_icon": "shopify://shop_images/close.png"
           }
+        },
+        "benefit_EdjbeK": {
+          "type": "benefit",
+          "settings": {
+            "benefit_title": "",
+            "benefit_description": "Blog set up and creation in not included in this package and can be added on.",
+            "benefit_icon": "shopify://shop_images/close.png"
+          }
         }
       },
       "block_order": [
         "benefit_Vb8Vep",
         "benefit_ihmzRY",
-        "benefit_LWRpDr"
+        "benefit_LWRpDr",
+        "benefit_EdjbeK"
       ],
       "name": "Benefits Grid",
       "settings": {
@@ -380,7 +410,7 @@
         "mobile_bottom": -30,
         "heading": "Commitment & Guarantee:",
         "sub_heading": "",
-        "text": "<p>Every website we build comes with a <strong>full 12-month warranty</strong> on the codebase and a <strong>Results Guaranteed Promise</strong>:</p><ul><li><strong>12-month website warranty</strong>: If any bugs occur related to our work, we fix them at no cost.</li><li><strong>Results Guaranteed</strong>: If we don’t deliver the agreed scope, you won’t pay the balance. No hidden surprises.</li></ul><p><strong>Extra Costs (if applicable):</strong></p><ul><li>If you require major design revisions after finalising the initial layout, we’ll provide a variation quote before proceeding.</li><li>Copywriting, additional pages, or custom integrations can be added on request and quoted upfront.</li></ul>",
+        "text": "<p>Every website we build comes with a <strong>full 12-month warranty</strong> on the codebase and a <strong>Results Guaranteed Promise</strong>:</p><ul><li><strong>12-month website warranty</strong>: If any bugs occur related to our work, we fix them at no cost.</li><li><strong>Satisfaction Guaranteed</strong></li></ul><p><strong>Extra Costs (if applicable):</strong></p><ul><li>If you require major design revisions after finalising the initial layout, we’ll provide a variation quote before proceeding.</li><li>Copywriting, additional pages, or custom integrations can be added on request and quoted upfront.</li></ul>",
         "button_link": "",
         "button_text": "",
         "image_right": false,

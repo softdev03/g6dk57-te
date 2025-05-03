@@ -20,7 +20,7 @@
         "media_border_width": 0,
         "media_border_color": "#000000",
         "secondary_image_roate_angle": 8,
-        "desktop_left": -150,
+        "desktop_left": -50,
         "desktop_top": -1,
         "desktop_right": -1,
         "desktop_bottom": 20,

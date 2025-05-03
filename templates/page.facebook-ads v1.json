@@ -1,0 +1,588 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "advertise_xMT9mA": {
+      "type": "advertise",
+      "settings": {
+        "loop_video": true,
+        "autoplay_video": true,
+        "main_image": "shopify://shop_images/FacebookAds03.png",
+        "media_border_radius": 0,
+        "media_border_width": 0,
+        "media_border_color": "#000000",
+        "secondary_image_roate_angle": 8,
+        "desktop_left": -90,
+        "desktop_top": -1,
+        "desktop_right": -1,
+        "desktop_bottom": 20,
+        "mobile_left": 0,
+        "mobile_top": -1,
+        "mobile_right": -1,
+        "mobile_bottom": -26,
+        "heading": "Facebook Ads That Convert for Shopify Stores",
+        "sub_heading": "Turn Scrollers Into Shoppers, Fast.",
+        "text": "<p>If you’re running a Shopify store and not tapping into Facebook Ads properly, you’re leaving money on the table. We build campaigns that stop the scroll, spark interest, and push people to purchase. From retargeting abandoned carts to setting up winning cold campaigns. We don’t guess, we test, track and scale.</p><p>Whether you're pushing limited-edition drops, evergreen bestsellers, or seasonal promos, we know how to get your product in front of the right eyes, without wasting budget on window shoppers. Our creatives are built for conversions, our audiences are dialled in, and we monitor performance daily.</p><p>Let’s turn that product feed into real sales.</p><p></p>",
+        "button_link": "shopify://pages/contact",
+        "button_text": "Help Grow My Store",
+        "image_right": false,
+        "text_align": "left",
+        "background_color": "#ffffff",
+        "desktop_padding_top": 60,
+        "desktop_padding_bottom": 60,
+        "mobile_padding_top": 40,
+        "mobile_padding_bottom": 40
+      }
+    },
+    "phone_ring_MzFcJr": {
+      "type": "phone-ring",
+      "settings": {
+        "image": "shopify://shop_images/FacebookAds02.png",
+        "heading_1": "Facebook Ads That Make",
+        "heading_2": "Your Phone Ring.",
+        "sub_heading": "Local Leads. Real Jobs. Less Time Wasted.",
+        "text": "For tradies, Facebook Ads done right can fill up your calendar without the usual chasing. We build service-based campaigns that generate high-intent leads—people looking for what you offer, in your area, right now.From roofers to sparkies and pest control, we’ve helped service businesses get more calls, more bookings, and more value out of every dollar. Our ads are built to grab attention and get straight to the point—what you do, how you help, and how to book.Forget the “boost post” button. We’re talking full-funnel, lead-focused campaigns that drive real results.",
+        "phone_button_text": "0499226600",
+        "phone_number": "0499226600",
+        "enquire_button_text": "Get More Enquiries",
+        "enquire_button_link": "shopify://pages/contact",
+        "image_right": true,
+        "text_align": "left",
+        "desktop_padding_top": 100,
+        "desktop_padding_bottom": 100,
+        "mobile_padding_top": 60,
+        "mobile_padding_bottom": 40
+      }
+    },
+    "advertise_KLNL33": {
+      "type": "advertise",
+      "settings": {
+        "loop_video": true,
+        "autoplay_video": true,
+        "main_image": "shopify://shop_images/FacebookAds04.png",
+        "secondary_image": "shopify://shop_images/this-could-be-you.svg",
+        "media_border_radius": 0,
+        "media_border_width": 0,
+        "media_border_color": "#000000",
+        "secondary_image_roate_angle": 8,
+        "desktop_left": -80,
+        "desktop_top": -1,
+        "desktop_right": -1,
+        "desktop_bottom": 120,
+        "mobile_left": 0,
+        "mobile_top": -1,
+        "mobile_right": -1,
+        "mobile_bottom": -30,
+        "heading": "An Agency That Actually Gets Facebook Ads",
+        "sub_heading": "Not all ad agencies are built the same. Here’s what makes us different.",
+        "text": "<p>We’re not here to blow smoke. We’ve run Facebook Ads across hundreds of campaigns, for Shopify brands scaling to six-figures and local service businesses who just want their phones buzzing again.</p><p>We test like mad scientists, track performance religiously, and adjust fast. We know how to read the data, understand the customer journey, and find the ad angles that actually get people to act. Whether it's clicks, checkouts, or calendar bookings. We get how Facebook works, and we know how to make it work for <em>you</em>.</p><p>You won’t find bloated retainers or cookie-cutter campaigns here. Just real people doing smart work with sharp thinking. That’s our edge.</p>",
+        "button_link": "shopify://pages/contact",
+        "button_text": "Help Grow My Business",
+        "image_right": false,
+        "text_align": "left",
+        "background_color": "#ffffff",
+        "desktop_padding_top": 60,
+        "desktop_padding_bottom": 60,
+        "mobile_padding_top": 40,
+        "mobile_padding_bottom": 40
+      }
+    },
+    "advertise_qQYPyj": {
+      "type": "advertise",
+      "settings": {
+        "loop_video": true,
+        "autoplay_video": true,
+        "main_image": "shopify://shop_images/FacebookAds05.png",
+        "secondary_image": "shopify://shop_images/google-ads-for-tradies-text.svg",
+        "media_border_radius": 0,
+        "media_border_width": 0,
+        "media_border_color": "#000000",
+        "secondary_image_roate_angle": 0,
+        "desktop_left": -1,
+        "desktop_top": 160,
+        "desktop_right": -50,
+        "desktop_bottom": -1,
+        "mobile_left": -1,
+        "mobile_top": -25,
+        "mobile_right": 0,
+        "mobile_bottom": -1,
+        "heading": "Advertising Solutions That Actually Work",
+        "sub_heading": "Results-driven Facebook Ads for eCommerce and Service-Based Businesses",
+        "text": "<p>If you're an eCommerce brand, scaling with Facebook Ads takes more than just nice images and a promo code. You need creative that converts, targeting that makes sense, and a team that knows how to optimise across every stage of the funnel. That’s us.</p><p>And if you're a tradie, we know your goal is simple: get more enquiries, more quote requests, and more jobs locked in without wasting your ad spend on the wrong audience. We use Facebook’s full toolkit from local geo-targeting to custom lead forms to get your phone ringing.</p><p>We’ve helped brands move serious volume and service businesses dominate their local area. If you're serious about Facebook Ads, we're the agency that gets you there.</p>",
+        "button_link": "shopify://pages/contact",
+        "button_text": "Help Grow My Business",
+        "image_right": true,
+        "text_align": "left",
+        "background_color": "#ffffff",
+        "desktop_padding_top": 60,
+        "desktop_padding_bottom": 60,
+        "mobile_padding_top": 40,
+        "mobile_padding_bottom": 40
+      }
+    },
+    "trust_Q37M3R": {
+      "type": "trust",
+      "blocks": {
+        "trust_item_KtaqTQ": {
+          "type": "trust_item",
+          "settings": {
+            "heading": "What We’ve Learned From Millions of Impressions",
+            "main_text": "<p>We’ve managed Facebook Ads across every niche from fashion to furniture, from builders to barbers. We’ve seen what works, what tanks, and what skyrockets. </p>",
+            "button_text": "Read More",
+            "additional_text": "<p>That knowledge gets baked into every campaign we run, giving you a head start and saving you cash from day one.</p><p></p>",
+            "accordion_image": "shopify://shop_images/plus_1.png"
+          }
+        },
+        "trust_item_YFytD9": {
+          "type": "trust_item",
+          "settings": {
+            "heading": "Built Around Your Business Goals",
+            "main_text": "<p>Whether you're selling $89 beauty products or securing $25K solar install jobs, your strategy needs to match your goals.</p><p></p>",
+            "button_text": "Read More",
+            "additional_text": "<p>We tailor everything from creatives and copy to targeting and conversion tracking so it suits your customer, your market, and your brand</p>",
+            "accordion_image": "shopify://shop_images/plus_1.png"
+          }
+        },
+        "trust_item_JfVUzV": {
+          "type": "trust_item",
+          "settings": {
+            "heading": "Local Team, Local Insight",
+            "main_text": "<p>We’re not some overseas team guessing what works in Sydney or Melbourne. We’re based here. We get the culture, the buyer behaviour, and how to talk to Aussies in a way that gets action. </p><p></p>",
+            "button_text": "Read More",
+            "additional_text": "<p>That insight gives your campaigns an edge no template or offshore team can match.</p>",
+            "accordion_image": "shopify://shop_images/plus_1.png"
+          }
+        }
+      },
+      "block_order": [
+        "trust_item_KtaqTQ",
+        "trust_item_YFytD9",
+        "trust_item_JfVUzV"
+      ],
+      "settings": {
+        "heading": "Why Partner With An Agency for Facebook Ads",
+        "text": "<p><strong>Experience, local insight, and no wasted budget.</strong></p><p>You’ve probably run a few ads before, boosted a post here, tried a ‘set and forget’ campaign there. But let’s be real: Facebook Ads can either blow up your sales or blow your budget. We’ve spent years fine-tuning campaigns that actually work for both eCommerce brands and trades-based businesses.</p><p>We know how to read the data, tweak the targeting, and craft ad creative that speaks directly to your audience. No guesswork. No generic strategies. Just proper, high-performance campaigns designed to bring in results.</p>",
+        "trust_image": "shopify://shop_images/Artboard_13.png",
+        "desktop_padding_top": 60,
+        "desktop_padding_bottom": 60,
+        "mobile_padding_top": 40,
+        "mobile_padding_bottom": 40
+      }
+    },
+    "advertise_PAQGf7": {
+      "type": "advertise",
+      "settings": {
+        "loop_video": true,
+        "autoplay_video": true,
+        "main_image": "shopify://shop_images/FacebookAds06.png",
+        "media_border_radius": 0,
+        "media_border_width": 0,
+        "media_border_color": "#000000",
+        "secondary_image_roate_angle": 0,
+        "desktop_left": -80,
+        "desktop_top": -1,
+        "desktop_right": -1,
+        "desktop_bottom": 82,
+        "mobile_left": 0,
+        "mobile_top": -1,
+        "mobile_right": -1,
+        "mobile_bottom": -30,
+        "heading": "How To Get More Leads as a Tradie",
+        "sub_heading": "Smart Facebook Ads & Retargeting That Actually Works",
+        "text": "<p>If you're a tradie, you don’t need more vanity metrics you need phones ringing. We build Facebook ad campaigns that cut through the noise and target locals ready to book your service today. From urgent jobs to long-term clients, we’ll help you show up at the right time, in front of the right people.<br/><br/>We also set up retargeting so no enquiry slips through the cracks. Whether you're an electrician, plumber, or pest control expert, we’ll help fill your calendar without wasting your budget.</p>",
+        "button_link": "shopify://pages/contact",
+        "button_text": "Help Grow My Business",
+        "image_right": false,
+        "text_align": "left",
+        "background_color": "#ffffff",
+        "desktop_padding_top": 60,
+        "desktop_padding_bottom": 60,
+        "mobile_padding_top": 40,
+        "mobile_padding_bottom": 40
+      }
+    },
+    "advertise_DnFdqE": {
+      "type": "advertise",
+      "settings": {
+        "loop_video": true,
+        "autoplay_video": true,
+        "main_image": "shopify://shop_images/Facebook08.png",
+        "media_border_radius": 0,
+        "media_border_width": 0,
+        "media_border_color": "#000000",
+        "secondary_image_roate_angle": 12,
+        "desktop_left": -1,
+        "desktop_top": -1,
+        "desktop_right": -1,
+        "desktop_bottom": -1,
+        "mobile_left": -1,
+        "mobile_top": -1,
+        "mobile_right": -1,
+        "mobile_bottom": -1,
+        "heading": "Driving Sales for Shopify Stores",
+        "sub_heading": "Facebook Ads That Turn Browsers into Buyers",
+        "text": "<p>For e-commerce stores, it’s all about catching eyes and driving clicks. We create ad strategies that stop the scroll, highlight your best products, and bring in the kind of customers who actually convert.<br/><br/>We don’t just run ads, we run funnels. From dynamic product ads to abandoned cart retargeting and custom audience stacking, every campaign is dialled in for performance. Whether you're launching a new range or scaling a proven winner, we’ll help you get those orders flying in.</p>",
+        "button_link": "shopify://pages/contact",
+        "button_text": "Help Grow My Business",
+        "image_right": true,
+        "text_align": "left",
+        "background_color": "#ffffff",
+        "desktop_padding_top": 60,
+        "desktop_padding_bottom": 60,
+        "mobile_padding_top": 40,
+        "mobile_padding_bottom": 40
+      }
+    },
+    "advertise_JebRqW": {
+      "type": "advertise",
+      "settings": {
+        "loop_video": true,
+        "autoplay_video": true,
+        "main_image": "shopify://shop_images/FacebookAds09.png",
+        "media_border_radius": 0,
+        "media_border_width": 0,
+        "media_border_color": "#000000",
+        "secondary_image_roate_angle": 0,
+        "desktop_left": -1,
+        "desktop_top": 160,
+        "desktop_right": -90,
+        "desktop_bottom": -1,
+        "mobile_left": -1,
+        "mobile_top": -25,
+        "mobile_right": 0,
+        "mobile_bottom": -1,
+        "heading": "Campaigns That Grow With You",
+        "sub_heading": "Flexible Strategy for Long-Term Results",
+        "text": "<p>Some agencies throw together a few ads and hope for the best. Not us. We build your campaigns to evolve as your business does. Testing, learning, and scaling along the way.<br/><br/>Whether you're a busy tradie or a growing online store, we keep your strategy fresh, your leads consistent, and your ROAS strong. When you partner with An Agency, you’re not just buying ads, you’re building a system that works day in, day out.</p>",
+        "button_link": "shopify://pages/contact",
+        "button_text": "Get More High-Quality Leads",
+        "image_right": false,
+        "text_align": "left",
+        "background_color": "#ffffff",
+        "desktop_padding_top": 60,
+        "desktop_padding_bottom": 60,
+        "mobile_padding_top": 40,
+        "mobile_padding_bottom": 40
+      }
+    },
+    "tradies_D9qHzj": {
+      "type": "Tradies",
+      "blocks": {
+        "tradies_item_tDB4YR": {
+          "type": "tradies-item",
+          "settings": {
+            "image": "shopify://shop_images/AnAgencyOurWork29.png",
+            "detail_info_heading": "Construction",
+            "detail_info_text": "<p></p><p></p><p></p><p></p>",
+            "icon": "shopify://shop_images/plus_1.png",
+            "detail_button_link": "shopify://pages/our-work",
+            "detail_button_text": "See Our Shopify Stores →"
+          }
+        },
+        "tradies_item_jkGR8z": {
+          "type": "tradies-item",
+          "settings": {
+            "image": "shopify://shop_images/AnAgencyOurWork16.png",
+            "detail_info_heading": "Medical Testing",
+            "detail_info_text": "<p></p><p></p>",
+            "icon": "shopify://shop_images/plus_1.png",
+            "detail_button_link": "shopify://pages/our-work",
+            "detail_button_text": "See Our Shopify Stores →"
+          }
+        },
+        "tradies_item_Xh8jYb": {
+          "type": "tradies-item",
+          "settings": {
+            "image": "shopify://shop_images/AnAgencyOurWork18.png",
+            "detail_info_heading": "Not For Profit",
+            "detail_info_text": "<p></p><p><br/></p><p><br/></p><p><br/></p><p></p><p></p>",
+            "icon": "shopify://shop_images/plus_1.png",
+            "detail_button_link": "shopify://pages/our-work",
+            "detail_button_text": "See Our Shopify Stores →"
+          }
+        },
+        "tradies_item_YQarCg": {
+          "type": "tradies-item",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/electrician-website.webp",
+            "detail_info_heading": "Electricians",
+            "detail_info_text": "<p>From emergency services to large-scale installs, we’ll get the phones ringing with high-intent local leads.</p><p><br/></p><p></p><p></p>",
+            "icon": "shopify://shop_images/yellow-arrow.svg",
+            "detail_button_link": "#",
+            "detail_button_text": "Free Quote"
+          }
+        },
+        "tradies_item_TMkHRR": {
+          "type": "tradies-item",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/plumbing-websites.webp",
+            "detail_info_heading": "Plumbers",
+            "detail_info_text": "<p>No more low-paying callouts. We focus on bigger jobs, real enquiries, and smart retargeting to keep you booked.</p><p><br/></p><p></p><p></p>",
+            "icon": "shopify://shop_images/yellow-arrow.svg",
+            "detail_button_link": "#",
+            "detail_button_text": "Free Quote"
+          }
+        },
+        "tradies_item_yT7wgX": {
+          "type": "tradies-item",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/carpenter-websites.webp",
+            "detail_info_heading": "Carpenters",
+            "detail_info_text": "<p>We know the right messaging and targeting that gets you the kind of projects you want—residential or commercial.</p><p><br/></p><p></p><p></p>",
+            "icon": "shopify://shop_images/yellow-arrow.svg",
+            "detail_button_link": "#",
+            "detail_button_text": "Free Quote"
+          }
+        },
+        "tradies_item_X3Db9y": {
+          "type": "tradies-item",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/pest-control-website-development-1.webp",
+            "detail_info_heading": "Pest Control",
+            "detail_info_text": "<p>Precision targeting for seasonal spikes, urgent jobs, and high-margin treatment packages.</p><p><br/></p><p></p><p></p>",
+            "icon": "shopify://shop_images/yellow-arrow.svg",
+            "detail_button_link": "#",
+            "detail_button_text": "Free Quote"
+          }
+        },
+        "tradies_item_6qHYz4": {
+          "type": "tradies-item",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/cleaning-website-design.webp",
+            "detail_info_heading": "Cleaning",
+            "detail_info_text": "<p>Whether it’s residential, commercial or end-of-lease, we’ll help you stay top-of-mind and fully booked.</p><p><br/></p><p></p><p></p>",
+            "icon": "shopify://shop_images/yellow-arrow.svg",
+            "detail_button_link": "#",
+            "detail_button_text": "Free Quote"
+          }
+        },
+        "tradies_item_9FAnpQ": {
+          "type": "tradies-item",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/cleaning-website-design.webp",
+            "detail_info_heading": "All Other Local Service Businesses",
+            "detail_info_text": "<p>Builders, HVAC, landscapers—you name it. If your business relies on quality leads or consistent bookings, we’ll help you get both.</p><p><br/></p><p><br/></p><p></p><p></p>",
+            "icon": "shopify://shop_images/yellow-arrow.svg",
+            "detail_button_link": "#",
+            "detail_button_text": "Free Quote"
+          }
+        }
+      },
+      "block_order": [
+        "tradies_item_tDB4YR",
+        "tradies_item_jkGR8z",
+        "tradies_item_Xh8jYb",
+        "tradies_item_YQarCg",
+        "tradies_item_TMkHRR",
+        "tradies_item_yT7wgX",
+        "tradies_item_X3Db9y",
+        "tradies_item_6qHYz4",
+        "tradies_item_9FAnpQ"
+      ],
+      "settings": {
+        "heading": "Industries We Work With",
+        "text": "We know your industry inside-out. Whether you're a busy tradie chasing high-quality leads or an e-commerce store looking to scale with smart, high-converting campaigns, we’ve got you covered. We’ve helped businesses just like yours:",
+        "desktop_padding_top": 60,
+        "desktop_padding_bottom": 60,
+        "mobile_padding_top": 40,
+        "mobile_padding_bottom": 40
+      }
+    },
+    "faq_cYAhKJ": {
+      "type": "faq",
+      "blocks": {
+        "faq_item_rrnAHz": {
+          "type": "faq_item",
+          "settings": {
+            "question": "What experience does An Agency have with Facebook Ads?",
+            "answer": "<p>We’ve managed Facebook campaigns across both e-commerce and service industries. From $20 test budgets to $2K/day spenders, we know how to scale, optimise, and drive results.</p><p><br/></p>",
+            "icon": "shopify://shop_images/plus_1.png"
+          }
+        },
+        "faq_item_AdgFRX": {
+          "type": "faq_item",
+          "settings": {
+            "question": "Do you work with small businesses or only large brands?",
+            "answer": "<p>Both. We’ve helped solo tradies fill their calendar and helped Shopify stores hit six-figure months. We scale strategies to suit your size.</p><p><br/></p>",
+            "icon": "shopify://shop_images/plus_1.png"
+          }
+        },
+        "faq_item_E6VP9h": {
+          "type": "faq_item",
+          "settings": {
+            "question": "Will I have a dedicated contact?",
+            "answer": "<p>Yes—no runarounds. You’ll speak with a real expert who manages your campaign, not a call centre or rotating team.</p><p><br/></p>",
+            "icon": "shopify://shop_images/plus_1.png"
+          }
+        },
+        "faq_item_akFz96": {
+          "type": "faq_item",
+          "settings": {
+            "question": "Can you help with creative and ad copy?",
+            "answer": "<p>Absolutely. We create scroll-stopping visuals, write ads that convert, and help refine your offer so it hits harder.</p><p><br/></p>",
+            "icon": "shopify://shop_images/plus_1.png"
+          }
+        },
+        "faq_item_jdQR46": {
+          "type": "faq_item",
+          "settings": {
+            "question": "What kind of results should I expect?",
+            "answer": "<p>Every business is different, but we focus on improving your return on ad spend, increasing your conversions, and lowering your cost per lead or sale.</p><p><br/></p>",
+            "icon": "shopify://shop_images/plus_1.png"
+          }
+        },
+        "faq_item_nyFTVE": {
+          "type": "faq_item",
+          "settings": {
+            "question": "Do you offer reporting and transparency?",
+            "answer": "<p>Yes—100%. You’ll receive regular updates, clear data, and honest insight into what’s working (and what’s not).</p><p><br/></p>",
+            "icon": "shopify://shop_images/plus_1.png"
+          }
+        },
+        "faq_item_XN9Db9": {
+          "type": "faq_item",
+          "settings": {
+            "question": "How do you ensure the quality of leads generated?",
+            "answer": "<p>Through precise targeting, compelling ad copy, and strategic SEO practices, we attract clients who are actively seeking your services. Our approach focuses on quality over quantity, ensuring the leads generated are a good fit for your business.</p>",
+            "icon": "shopify://shop_images/plus_1.png"
+          }
+        },
+        "faq_item_C7MHEi": {
+          "type": "faq_item",
+          "settings": {
+            "question": "How fast can I start seeing results?",
+            "answer": "<p>Some clients see traction within days, others take a few weeks. We optimise fast and communicate clearly as we scale your performance.</p>",
+            "icon": "shopify://shop_images/plus_1.png"
+          }
+        }
+      },
+      "block_order": [
+        "faq_item_rrnAHz",
+        "faq_item_AdgFRX",
+        "faq_item_E6VP9h",
+        "faq_item_akFz96",
+        "faq_item_jdQR46",
+        "faq_item_nyFTVE",
+        "faq_item_XN9Db9",
+        "faq_item_C7MHEi"
+      ],
+      "settings": {
+        "heading": "Frequently Asked Questions",
+        "bg_color": "#fbfbfb",
+        "max_width": 684,
+        "desktop_padding_top": 60,
+        "desktop_padding_bottom": 60,
+        "mobile_padding_top": 40,
+        "mobile_padding_bottom": 40
+      }
+    },
+    "partner_with_U86NgH": {
+      "type": "partner-with",
+      "blocks": {
+        "partner_item_Am8rMX": {
+          "type": "partner_item",
+          "settings": {
+            "image": "shopify://shop_images/shopify-partner-logo.jpg",
+            "link": "#"
+          }
+        },
+        "partner_item_gQr6pr": {
+          "type": "partner_item",
+          "settings": {
+            "image": "shopify://shop_images/google_partner.png",
+            "link": ""
+          }
+        },
+        "partner_item_peizWL": {
+          "type": "partner_item",
+          "settings": {
+            "image": "shopify://shop_images/tiktokpartners.webp",
+            "link": ""
+          }
+        },
+        "partner_item_gizEVP": {
+          "type": "partner_item",
+          "settings": {
+            "image": "shopify://shop_images/servicem8-partner_acea9ba5-178b-40b0-aa4f-e1dd8d841972.webp",
+            "link": ""
+          }
+        },
+        "partner_item_ppj4Q9": {
+          "type": "partner_item",
+          "settings": {
+            "image": "shopify://shop_images/meta-for-business-partner.webp",
+            "link": ""
+          }
+        },
+        "partner_item_nMMzBY": {
+          "type": "partner_item",
+          "settings": {
+            "image": "shopify://shop_images/bingads.png",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "partner_item_Am8rMX",
+        "partner_item_gQr6pr",
+        "partner_item_peizWL",
+        "partner_item_gizEVP",
+        "partner_item_ppj4Q9",
+        "partner_item_nMMzBY"
+      ],
+      "settings": {
+        "heading": "Partnered With",
+        "bg_color": "#fbfbfb",
+        "desktop_card_border_radius": 10,
+        "mobile_card_border_radius": 6,
+        "desktop_padding_top": 30,
+        "desktop_padding_bottom": 30,
+        "mobile_padding_top": 30,
+        "mobile_padding_bottom": 30
+      }
+    },
+    "marketing_focus_QDG99t": {
+      "type": "marketing-focus",
+      "name": "Marketing Focus Section",
+      "settings": {
+        "key": "",
+        "logo_image": "shopify://shop_images/04.jpg",
+        "headline": "We Help Businesses Sell More on Facebook",
+        "sub_text": "Whether you're after more leads or product sales, our ad strategies deliver.",
+        "button_text": "Request a Quote",
+        "button_link": "shopify://pages/contact",
+        "desktop_padding_top": 40,
+        "desktop_padding_bottom": 40,
+        "mobile_padding_top": 30,
+        "mobile_padding_bottom": 30
+      }
+    }
+  },
+  "order": [
+    "advertise_xMT9mA",
+    "phone_ring_MzFcJr",
+    "advertise_KLNL33",
+    "advertise_qQYPyj",
+    "trust_Q37M3R",
+    "advertise_PAQGf7",
+    "advertise_DnFdqE",
+    "advertise_JebRqW",
+    "tradies_D9qHzj",
+    "faq_cYAhKJ",
+    "partner_with_U86NgH",
+    "marketing_focus_QDG99t"
+  ]
+}

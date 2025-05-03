@@ -30,7 +30,7 @@
         "image": "shopify://shop_images/GoogleAds_09.jpg",
         "heading_1": "Price",
         "heading_2": "Range:",
-        "sub_heading": "Starting from A$10,000 (fully custom quotes up to A$15,000 for large-scale stores).",
+        "sub_heading": "Starting from A$10,000 + GST",
         "text": "This reflects a premium solution; note that established agencies often charge A$15K–$20K for custom Shopify builds of this magnitude.",
         "phone_button_text": "",
         "phone_number": "",
@@ -200,7 +200,7 @@
           "type": "benefit",
           "settings": {
             "benefit_title": "",
-            "benefit_description": "Product content creation (we format and upload your provided content, but don’t write descriptions or shoot photography unless separately quoted).",
+            "benefit_description": "Product content creation (we do not create  descriptions or shoot photography unless separately quoted).",
             "benefit_icon": "shopify://shop_images/close.png"
           }
         }
@@ -353,7 +353,7 @@
         "mobile_bottom": -30,
         "heading": "Commitment & Guarantee:",
         "sub_heading": "Every Enterprise project is backed by:",
-        "text": "<p></p><ul><li><strong>12-month code warranty</strong> for any theme-related bugs,</li><li><strong>Our Results Guaranteed Promise</strong>: if we don’t deliver the agreed scope, you don't pay the balance.</li></ul><p><strong>Extra Costs (if applicable):</strong></p><p>If any major external system integrations arise (e.g. custom APIs for third-party logistics or memberships), they are quoted separately after scope clarification.</p><p>Any major design changes post-approval may incur a variation fee, fully outlined and approved before work.</p>",
+        "text": "<p></p><ul><li><strong>12-month code warranty</strong> for any theme-related bugs,</li><li><strong>Satisfaction Guarantee</strong></li></ul><p><strong>Extra Costs (if applicable):</strong></p><p>If any major external system integrations arise (e.g. custom APIs for third-party logistics or memberships), they are quoted separately after scope clarification.</p><p>Any major design changes post-approval may incur a variation fee, fully outlined and approved before work.</p>",
         "button_link": "",
         "button_text": "Help Grow My Business",
         "image_right": false,
