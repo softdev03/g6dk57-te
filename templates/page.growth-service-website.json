@@ -14,7 +14,7 @@
       "name": "Results Guaranteed",
       "settings": {
         "main_heading": "Growth | Service Web Package",
-        "sub_heading": "(Custom Pro Website)",
+        "sub_heading": "",
         "description": "Growing service-based businesses, SMEs, consultants, and professional trades who need a polished, conversion-focused site with booking systems, live chat, and better SEO performance.",
         "button_text": "Request A Free Quote",
         "button_link": "shopify://pages/contact",
@@ -30,8 +30,8 @@
         "image": "shopify://shop_images/GoogleAds_10.jpg",
         "heading_1": "Price",
         "heading_2": "Range:",
-        "sub_heading": "A$4,000 – A$6,500 one-time investment.",
-        "text": "Perfectly aligned with high-quality custom websites in Australia, where full-service business websites generally fall between A$5K–$10K.",
+        "sub_heading": "A$9,000 – A$12,000 + GST one-time investment.",
+        "text": "Perfectly aligned with high-quality custom websites in Australia, where full-service business websites generally fall between A$15K–$18K.",
         "phone_button_text": "",
         "phone_number": "",
         "enquire_button_text": "",
@@ -81,7 +81,7 @@
         "benefit_gtM4Hd": {
           "type": "benefit",
           "settings": {
-            "benefit_title": "Bespoke custom website design:",
+            "benefit_title": "Branded  Home Page design:",
             "benefit_description": "Two homepage concepts to choose from and up to two rounds of design revisions.",
             "benefit_icon": "shopify://shop_images/checkmark.png"
           }
@@ -89,7 +89,7 @@
         "benefit_fCCiq3": {
           "type": "benefit",
           "settings": {
-            "benefit_title": "Up to 8 total custom-designed pages:",
+            "benefit_title": "Up to 12 total designed pages:",
             "benefit_description": "Examples include Home, About, Services, Service Detail Pages, Gallery/Portfolio, Blog, Testimonials, Contact.",
             "benefit_icon": "shopify://shop_images/checkmark.png"
           }
@@ -325,7 +325,7 @@
         "mobile_bottom": -1,
         "heading": "Competitive Insight:",
         "sub_heading": "",
-        "text": "<p>Custom business websites with real booking features, strong SEO, and custom graphics typically cost between A$5K–$10K+ across Australia.</p><p>Our Growth Service Web Package starts from A$4K and caps around A$6.5K depending on complexity — intentionally positioned to offer better inclusions than many boutique agencies at the same level.</p><p>Competitors often charge separately for things like live chat integration, booking system setup, or SEO plugins. We bundle them in.</p><p>It means better value, faster launch, and stronger ROI from day one without “add-on shock” later.</p>",
+        "text": "<p>Custom business websites with real booking features, strong SEO, and custom graphics typically cost between A$15K–$18K+ across Australia.</p><p>Our Growth Service Web Package starts from A$8K and caps around A$6.5K depending on complexity — intentionally positioned to offer better inclusions than many boutique agencies at the same level.</p><p>Competitors often charge separately for things like live chat integration, booking system setup, or SEO plugins. We bundle them in.</p><p>It means better value, faster launch, and stronger ROI from day one without “add-on shock” later.</p>",
         "button_link": "",
         "button_text": "",
         "image_right": true,

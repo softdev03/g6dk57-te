@@ -30,7 +30,7 @@
         "image": "shopify://shop_images/AnAgencyServiceWebsite07.png",
         "heading_1": "Price",
         "heading_2": "Range:",
-        "sub_heading": "Starting from A$8,000+ one-time (custom quoted based on complexity and inclusions).",
+        "sub_heading": "from A$9,500+ GST | once off (custom quoted based on complexity and inclusions).",
         "text": "Typically falls between A$8,000–A$12,000 for advanced service business websites requiring strategy, integrations, and custom UX design.",
         "phone_button_text": "",
         "phone_number": "",
@@ -97,7 +97,7 @@
         "benefit_mzq8yA": {
           "type": "benefit",
           "settings": {
-            "benefit_title": "Up to 15–20 Pages:",
+            "benefit_title": "Up to 20 Pages:",
             "benefit_description": "Flexible page structure based on your needs — service details, project galleries, team pages, location-based landing pages, FAQs, blogs, careers, and more.",
             "benefit_icon": "shopify://shop_images/checkmark.png"
           }
@@ -234,9 +234,18 @@
         },
         "benefit_ihmzRY": {
           "type": "benefit",
+          "disabled": true,
           "settings": {
             "benefit_title": "",
             "benefit_description": "Content creation (you provide text and images; full copywriting/photo services quoted separately if needed).",
+            "benefit_icon": "shopify://shop_images/close.png"
+          }
+        },
+        "benefit_4JafFN": {
+          "type": "benefit",
+          "settings": {
+            "benefit_title": "",
+            "benefit_description": "Custom Images - Royalty free images only in this package (custom photography services can be quoted separately)",
             "benefit_icon": "shopify://shop_images/close.png"
           }
         },
@@ -252,6 +261,7 @@
       "block_order": [
         "benefit_Vb8Vep",
         "benefit_ihmzRY",
+        "benefit_4JafFN",
         "benefit_LWRpDr"
       ],
       "name": "Benefits Grid",

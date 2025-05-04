@@ -24,14 +24,72 @@
         "mobile_padding_bottom": 0
       }
     },
+    "pricing_new_MQEUeC": {
+      "type": "pricing-new",
+      "blocks": {
+        "tab_item_qgCKbw": {
+          "type": "tab_item",
+          "settings": {
+            "handle_number": 1,
+            "tab_text": "launch"
+          }
+        },
+        "tab_item_ePC86c": {
+          "type": "tab_item",
+          "settings": {
+            "handle_number": 2,
+            "tab_text": "Growth"
+          }
+        },
+        "tab_item_VT3p8x": {
+          "type": "tab_item",
+          "settings": {
+            "handle_number": 3,
+            "tab_text": "Enterprise"
+          }
+        }
+      },
+      "block_order": [
+        "tab_item_qgCKbw",
+        "tab_item_ePC86c",
+        "tab_item_VT3p8x"
+      ],
+      "disabled": true,
+      "name": "Pricing(New)",
+      "settings": {
+        "bg_color": "#ffffff",
+        "tab_bg_color": "#000000",
+        "tab_text_color": "#ffffff",
+        "tab_bg_color_selected": "#000000",
+        "tab_text_color_selected": "#fdd328",
+        "desktop_gap": 0,
+        "mobile_gap": 0,
+        "card_bg_color": "#ffffff",
+        "card_border_radius": 0,
+        "card_border_color": "#000000",
+        "card_heading_color": "#000000",
+        "card_text_color": "#000000",
+        "card_old_text_color": "#000000",
+        "card_link_bg_color": "#000000",
+        "card_link_text_color": "#000000",
+        "card_link_bg_color_hover": "#000000",
+        "card_link_text_color_hover": "#000000",
+        "badge_bg_color": "#000000",
+        "badge_text_color": "#000000",
+        "desktop_padding_top": 0,
+        "desktop_padding_bottom": 0,
+        "mobile_padding_top": 0,
+        "mobile_padding_bottom": 0
+      }
+    },
     "phone_ring_MzFcJr": {
       "type": "phone-ring",
       "settings": {
         "image": "shopify://shop_images/GoogleAds_09.jpg",
         "heading_1": "Price",
         "heading_2": "Range:",
-        "sub_heading": "A$6,000 – A$9,500 + GST one-time investment.",
-        "text": "This mid-tier investment is still within industry averages for a full-featured eCommerce site, which can run up to A$7K–$12K for a more advanced store.",
+        "sub_heading": "A$9,500 – A$12,500 + GST one-time investment.",
+        "text": "This mid-tier investment is still within industry averages for a full-featured eCommerce site, which can run up to A$15K–$20K for a more advanced store.",
         "phone_button_text": "",
         "phone_number": "",
         "enquire_button_text": "",
@@ -348,7 +406,7 @@
         "mobile_bottom": -1,
         "heading": "Competitive Insight:",
         "sub_heading": "",
-        "text": "<p>Our Growth Shopify package is designed to match (and often beat) what’s available in the market for similar custom-built eCommerce websites.</p><p>Where other agencies might price mid-tier stores anywhere from A$7K–$12K, our Growth Package keeps you firmly in the $6K–$9K range without cutting corners.</p><p>You get a fully custom look, SEO included, abandoned cart flows, and essential app setups that many competitors only offer as paid add-ons.</p><p>Because we do everything in-house (100% Australian-based, no outsourcing), the quality stays high, and the timeline stays tight – and you avoid the common pitfalls of generic templates or overseas freelancers.</p>",
+        "text": "<p>Our Growth Shopify package is designed to match (and often beat) what’s available in the market for similar custom-built eCommerce websites.</p><p>Where other agencies might price mid-tier stores anywhere from A$15K–$20K, our Growth Package keeps you firmly in the $9K–$12kK range without cutting corners.</p><p>You get a fully custom look, SEO included, abandoned cart flows, and essential app setups that many competitors only offer as paid add-ons.</p><p>Because we do everything in-house (100% Australian-based, no outsourcing), the quality stays high, and the timeline stays tight – and you avoid the common pitfalls of generic templates or overseas freelancers.</p>",
         "button_link": "",
         "button_text": "",
         "image_right": true,
@@ -534,6 +592,7 @@
   },
   "order": [
     "results_guaranteed_MJcj9M",
+    "pricing_new_MQEUeC",
     "phone_ring_MzFcJr",
     "advertise_qQYPyj",
     "benefits_section_Jw3wfd",
