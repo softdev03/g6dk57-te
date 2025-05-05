@@ -1,9 +1,3 @@
-const APIKEY = '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';
-const model = 'gpt-4o-mini';
-const additionalPattern = `
-	※ : The writing style must be [writing style] and please use "[language]" language for all of the content.
-	The content should be written in a [tone] tone.
-`;
 document.addEventListener('DOMContentLoaded', () => {
 	const aiToolSection = document.querySelector('.shopify-section-ai-tools');
 	if (aiToolSection) {
@@ -17,7 +11,7 @@ document.addEventListener('DOMContentLoaded', () => {
 		const toneSelect = aiToolSection.querySelector('.tone select');
 		const writingStyleSelect = aiToolSection.querySelector('.writing-style select');
 		const input = aiToolSection.querySelector('.input');
-		const pattern = aiToolSection.querySelector('.pattern').innerHTML;
+		const toolName = aiToolSection.getAttribute('tool-name');
 		const output = aiToolSection.querySelector('.output');
 		const generatedResult = output.querySelector('.output .result');
 		const selectedImage = aiToolSection.querySelector('.selected-file');
@@ -42,23 +36,16 @@ document.addEventListener('DOMContentLoaded', () => {
 			fileInput?.setAttribute('disabled', true);
 			let oldHeight = generatedResult.scrollHeight
 			output.scrollTo({ top: oldHeight, behavior: 'smooth' });
-			generateText(pattern, language, tone, writingStyle, inputArea.value).then((generatedValue) => {
+			generateText(toolName, language, tone, writingStyle, inputArea.value).then((generatedValue) => {
 				aiToolSection.classList.remove('generating');
 				inputArea.removeAttribute('readonly');
 				writingStyleSelect.removeAttribute('disabled');
 				toneSelect.removeAttribute('disabled');
 				languageSelect.removeAttribute('disabled');
 				fileInput?.removeAttribute('disabled');
-				let content = '';
-				for (const choice of generatedValue.choices) {
-					content += wrapText(choice.message.content);
-				}
-				if (generatedResult.innerHTML !== '') {
-					oldHeight += 20;
-				}
 				generatedResult.innerHTML += `
 							<div class="query">${inputArea.value.replace(/\n/g, '<br />')}</div>
-							${content}
+							${generatedValue}
 						`;
 				output.scrollTo({ top: oldHeight, behavior: 'smooth' });
 				inputArea.value = '';
@@ -104,19 +91,9 @@ document.addEventListener('DOMContentLoaded', () => {
 	}
 });
 
-const generateText = (pattern, language, tone, writingStyle, inputText) => {
+const generateText = (toolName, language, tone, writingStyle, inputText) => {
 	return new Promise((resolve, reject) => {
-		if (!pattern || !inputText) {
-			reject('Pattern must be filled');
-		}
-		let newPattern;
-		if (!language || !tone || !writingStyle) {
-			newPattern = pattern.replace('[pattern]', inputText);
-			newPattern += additionalPattern.replace('[language]', 'English').replace('[writing style]', 'Professional').replace('[tone]', 'Formal');
-		} else {
-			newPattern = pattern.replace('[pattern]', inputText);
-			newPattern += additionalPattern.replace('[language]', language).replace('[writing style]', writingStyle).replace('[tone]', tone);
-		}
+		debugger;
 		fetch(' https://api.openai.com/v1/chat/completions', {
 			method: 'POST',
 			headers: {
@@ -124,13 +101,7 @@ const generateText = (pattern, language, tone, writingStyle, inputText) => {
 				"Authorization": `Bearer ${APIKEY}`
 			},
 			body: JSON.stringify({
-				model: model,
-				messages: [
-					{
-						role: "user",
-						content: newPattern
-					}
-				]
+				ip,tool_name:toolName,input_text:inputText,tone,language,writing_style:writingStyle
 			})
 		}).then(res => res.json()).then(res => {
 			resolve(res);

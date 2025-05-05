@@ -78,8 +78,8 @@
    	}
    }
 {%- endstyle -%}
-<div class="shopify-section-ai-tools page-width">
-  {%- assign unique_page_data = page.metafields.custom.ai_tool.value -%}
+{%- assign unique_page_data = page.metafields.custom.ai_tool.value -%}
+<div class="shopify-section-ai-tools page-width" tool-name="{{ unique_page_data.tool_name }}">
   {%- if page.title != blank -%}
     <h1 class="heading" style="color: {{ section.settings.heading_color }}">{{ page.title }}</h1>
   {%- endif -%}
