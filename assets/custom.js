@@ -79,7 +79,7 @@ document.addEventListener('DOMContentLoaded', () => {
 			});
 		});
 
-		milsSection.querySelector('.loadmore').addEventListener('click',(e)=>{
+		milsSection.querySelector('.loadmore')?.addEventListener('click',(e)=>{
 			const hiddenSliders = milsSection.querySelectorAll('.image-slider.hidden');
 			hiddenSliders[0]?.classList.remove('hidden');
 			if(hiddenSliders.length < 2) {
