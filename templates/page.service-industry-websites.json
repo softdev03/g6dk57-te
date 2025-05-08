@@ -97,39 +97,6 @@
         "mobile_padding_bottom": 40
       }
     },
-    "advertise_PAQGf7": {
-      "type": "advertise",
-      "settings": {
-        "key": "",
-        "loop_video": true,
-        "autoplay_video": true,
-        "main_image": "shopify://shop_images/AnAgencyServiceWebsite03.png",
-        "media_border_radius": 0,
-        "media_border_width": 0,
-        "media_border_color": "#000000",
-        "secondary_image_roate_angle": -64,
-        "desktop_left": -80,
-        "desktop_top": -1,
-        "desktop_right": -1,
-        "desktop_bottom": 82,
-        "mobile_left": 0,
-        "mobile_top": -1,
-        "mobile_right": -1,
-        "mobile_bottom": -30,
-        "heading": "Here’s how we turn browsers into booked jobs, without wasting your time or budget:",
-        "sub_heading": "",
-        "text": "<h1>Step 1: Strategy & Planning</h1><p>We dig deep into your service, location, and ideal customers to map the site around what people actually search for.</p><p></p><p></p>",
-        "button_link": "",
-        "button_text": "",
-        "image_right": false,
-        "text_align": "left",
-        "background_color": "#fbfbfb",
-        "desktop_padding_top": 60,
-        "desktop_padding_bottom": 60,
-        "mobile_padding_top": 40,
-        "mobile_padding_bottom": 40
-      }
-    },
     "text_list_MNPzdp": {
       "type": "text-list",
       "blocks": {
@@ -776,98 +743,84 @@
         "image_item_X8aLT8": {
           "type": "image_item",
           "settings": {
-            "image": "shopify://shop_images/luxaroma-logo-img.webp",
             "image_link": ""
           }
         },
         "image_item_E7tdwn": {
           "type": "image_item",
           "settings": {
-            "image": "shopify://shop_images/eroma-logo-img.webp",
             "image_link": ""
           }
         },
         "image_item_XrF97F": {
           "type": "image_item",
           "settings": {
-            "image": "shopify://shop_images/vitamin-outlet-logo-img.webp",
             "image_link": ""
           }
         },
         "image_item_HbWH99": {
           "type": "image_item",
           "settings": {
-            "image": "shopify://shop_images/Clinet-Logo-72.png",
             "image_link": ""
           }
         },
         "image_item_LahhGQ": {
           "type": "image_item",
           "settings": {
-            "image": "shopify://shop_images/Clinet-Logo-58.png",
             "image_link": ""
           }
         },
         "image_item_7BDKct": {
           "type": "image_item",
           "settings": {
-            "image": "shopify://shop_images/Clinet-Logo-54.png",
             "image_link": ""
           }
         },
         "image_item_gXHNNK": {
           "type": "image_item",
           "settings": {
-            "image": "shopify://shop_images/Clinet-Logo-38.png",
             "image_link": ""
           }
         },
         "image_item_kXtPQK": {
           "type": "image_item",
           "settings": {
-            "image": "shopify://shop_images/Clinet-Logo-44.png",
             "image_link": ""
           }
         },
         "image_item_iyKmJG": {
           "type": "image_item",
           "settings": {
-            "image": "shopify://shop_images/Clinet-Logo-21.png",
             "image_link": ""
           }
         },
         "image_item_nyVFY8": {
           "type": "image_item",
           "settings": {
-            "image": "shopify://shop_images/Clinet-Logo-49.png",
             "image_link": ""
           }
         },
         "image_item_wNCbDW": {
           "type": "image_item",
           "settings": {
-            "image": "shopify://shop_images/Clinet-Logo-62.png",
             "image_link": ""
           }
         },
         "image_item_K3VhpK": {
           "type": "image_item",
           "settings": {
-            "image": "shopify://shop_images/Clinet-Logo-45.png",
             "image_link": ""
           }
         },
         "image_item_YrNLWe": {
           "type": "image_item",
           "settings": {
-            "image": "shopify://shop_images/Client-Logo-16.png",
             "image_link": ""
           }
         },
         "image_item_YrcBwG": {
           "type": "image_item",
           "settings": {
-            "image": "shopify://shop_images/Clinet-Logo-33.png",
             "image_link": "#"
           }
         },
@@ -952,6 +905,39 @@
         "desktop_padding_bottom": 80,
         "mobile_padding_top": 50,
         "mobile_padding_bottom": 50
+      }
+    },
+    "advertise_PAQGf7": {
+      "type": "advertise",
+      "settings": {
+        "key": "",
+        "loop_video": true,
+        "autoplay_video": true,
+        "main_image": "shopify://shop_images/AnAgencyServiceWebsite03.png",
+        "media_border_radius": 0,
+        "media_border_width": 0,
+        "media_border_color": "#000000",
+        "secondary_image_roate_angle": -64,
+        "desktop_left": -80,
+        "desktop_top": -1,
+        "desktop_right": -1,
+        "desktop_bottom": 82,
+        "mobile_left": 0,
+        "mobile_top": -1,
+        "mobile_right": -1,
+        "mobile_bottom": -30,
+        "heading": "Here’s how we turn browsers into booked jobs, without wasting your time or budget:",
+        "sub_heading": "",
+        "text": "<h1>Step 1: Strategy & Planning</h1><p>We dig deep into your service, location, and ideal customers to map the site around what people actually search for.</p><p></p><p></p>",
+        "button_link": "",
+        "button_text": "",
+        "image_right": false,
+        "text_align": "left",
+        "background_color": "#fbfbfb",
+        "desktop_padding_top": 60,
+        "desktop_padding_bottom": 60,
+        "mobile_padding_top": 40,
+        "mobile_padding_bottom": 40
       }
     },
     "advertise_DnFdqE": {
@@ -1398,7 +1384,6 @@
     "advertise_xMT9mA",
     "advertise_8hDrgN",
     "phone_ring_MzFcJr",
-    "advertise_PAQGf7",
     "text_list_MNPzdp",
     "multi_image_list_slider_zE97CJ",
     "text_list_VeQkgV",
@@ -1406,6 +1391,7 @@
     "text_list_zidnT7",
     "custom_review_new_Bp63JF",
     "image_grid_nwzeK8",
+    "advertise_PAQGf7",
     "advertise_DnFdqE",
     "advertise_JebRqW",
     "advertise_KLNL33",

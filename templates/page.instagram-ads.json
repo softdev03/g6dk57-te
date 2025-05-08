@@ -12,6 +12,7 @@
     "advertise_xMT9mA": {
       "type": "advertise",
       "settings": {
+        "key": "",
         "loop_video": true,
         "autoplay_video": true,
         "main_image": "shopify://shop_images/AnAgencyInstgramAds05.png",
@@ -45,6 +46,7 @@
     "phone_ring_MzFcJr": {
       "type": "phone-ring",
       "settings": {
+        "key": "",
         "image": "shopify://shop_images/AnAgencyInstgramAds02.png",
         "heading_1": "We Make Your Brand",
         "heading_2": "Scroll-Stopping",
@@ -65,6 +67,7 @@
     "advertise_KLNL33": {
       "type": "advertise",
       "settings": {
+        "key": "",
         "loop_video": true,
         "autoplay_video": true,
         "main_image": "shopify://shop_images/AnAgencyInstagramAds03.png",
@@ -97,6 +100,7 @@
     "advertise_qQYPyj": {
       "type": "advertise",
       "settings": {
+        "key": "",
         "loop_video": true,
         "autoplay_video": true,
         "main_image": "shopify://shop_images/AnAgencyInstagramAds04.png",
@@ -772,98 +776,84 @@
         "image_item_X8aLT8": {
           "type": "image_item",
           "settings": {
-            "image": "shopify://shop_images/luxaroma-logo-img.webp",
             "image_link": ""
           }
         },
         "image_item_E7tdwn": {
           "type": "image_item",
           "settings": {
-            "image": "shopify://shop_images/eroma-logo-img.webp",
             "image_link": ""
           }
         },
         "image_item_XrF97F": {
           "type": "image_item",
           "settings": {
-            "image": "shopify://shop_images/vitamin-outlet-logo-img.webp",
             "image_link": ""
           }
         },
         "image_item_HbWH99": {
           "type": "image_item",
           "settings": {
-            "image": "shopify://shop_images/Clinet-Logo-72.png",
             "image_link": ""
           }
         },
         "image_item_LahhGQ": {
           "type": "image_item",
           "settings": {
-            "image": "shopify://shop_images/Clinet-Logo-58.png",
             "image_link": ""
           }
         },
         "image_item_7BDKct": {
           "type": "image_item",
           "settings": {
-            "image": "shopify://shop_images/Clinet-Logo-54.png",
             "image_link": ""
           }
         },
         "image_item_gXHNNK": {
           "type": "image_item",
           "settings": {
-            "image": "shopify://shop_images/Clinet-Logo-38.png",
             "image_link": ""
           }
         },
         "image_item_kXtPQK": {
           "type": "image_item",
           "settings": {
-            "image": "shopify://shop_images/Clinet-Logo-44.png",
             "image_link": ""
           }
         },
         "image_item_iyKmJG": {
           "type": "image_item",
           "settings": {
-            "image": "shopify://shop_images/Clinet-Logo-21.png",
             "image_link": ""
           }
         },
         "image_item_nyVFY8": {
           "type": "image_item",
           "settings": {
-            "image": "shopify://shop_images/Clinet-Logo-49.png",
             "image_link": ""
           }
         },
         "image_item_wNCbDW": {
           "type": "image_item",
           "settings": {
-            "image": "shopify://shop_images/Clinet-Logo-62.png",
             "image_link": ""
           }
         },
         "image_item_K3VhpK": {
           "type": "image_item",
           "settings": {
-            "image": "shopify://shop_images/Clinet-Logo-45.png",
             "image_link": ""
           }
         },
         "image_item_YrNLWe": {
           "type": "image_item",
           "settings": {
-            "image": "shopify://shop_images/Client-Logo-16.png",
             "image_link": ""
           }
         },
         "image_item_YrcBwG": {
           "type": "image_item",
           "settings": {
-            "image": "shopify://shop_images/Clinet-Logo-33.png",
             "image_link": "#"
           }
         },
@@ -1002,6 +992,7 @@
     "advertise_PAQGf7": {
       "type": "advertise",
       "settings": {
+        "key": "",
         "loop_video": true,
         "autoplay_video": true,
         "main_image": "shopify://shop_images/InstagramAds01.png",
@@ -1034,6 +1025,7 @@
     "advertise_DnFdqE": {
       "type": "advertise",
       "settings": {
+        "key": "",
         "loop_video": true,
         "autoplay_video": true,
         "main_image": "shopify://shop_images/AnAgencyInstgramAds06.png",
@@ -1066,6 +1058,7 @@
     "advertise_JebRqW": {
       "type": "advertise",
       "settings": {
+        "key": "",
         "loop_video": true,
         "autoplay_video": true,
         "main_image": "shopify://shop_images/AnAgencyInstgramAds07.png",
