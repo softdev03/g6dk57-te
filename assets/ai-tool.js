@@ -93,7 +93,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
 const generateText = (toolName, language, tone, writingStyle, inputText) => {
 	return new Promise((resolve, reject) => {
-		debugger;
 		fetch(' https://api.openai.com/v1/chat/completions', {
 			method: 'POST',
 			headers: {
