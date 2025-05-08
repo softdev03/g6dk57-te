@@ -127,6 +127,830 @@
         "mobile_padding_bottom": 40
       }
     },
+    "text_list_MNPzdp": {
+      "type": "text-list",
+      "blocks": {
+        "text_E46V74": {
+          "type": "text",
+          "settings": {
+            "text": "<p>CHECK OUT SOME SHOPIFY ECOMMERCE WEBSITES WE’VE BUILT</p>",
+            "desktop_margin": 20,
+            "mobile_margin": 12,
+            "desktop_align": "center",
+            "mobile_align": "center",
+            "desktop_font_size": 50,
+            "mobile_font_size": 22,
+            "desktop_font_weight": "700",
+            "mobile_font_weight": "700",
+            "desktop_line_height": 1.2,
+            "mobile_line_height": 1.2,
+            "desktop_letter_spacing": 1,
+            "mobile_letter_spacing": 1,
+            "desktop_text_transform": "none",
+            "mobile_text_transform": "default",
+            "desktop_max_width": 1440,
+            "mobile_max_width": 1440,
+            "desktop_color": "#000000",
+            "mobile_color": "#1a3760"
+          }
+        },
+        "text_VfFdk4": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Explore a curated selection of Shopify stores we've built - each designed to convert visitors into customers, drive sales, and support real business growth. These sites aren’t just pretty; they’re built for online success from day one.</p>",
+            "desktop_margin": 0,
+            "mobile_margin": 0,
+            "desktop_align": "center",
+            "mobile_align": "center",
+            "desktop_font_size": 18,
+            "mobile_font_size": 16,
+            "desktop_font_weight": "400",
+            "mobile_font_weight": "400",
+            "desktop_line_height": 1.2,
+            "mobile_line_height": 1.2,
+            "desktop_letter_spacing": 1,
+            "mobile_letter_spacing": 1,
+            "desktop_text_transform": "none",
+            "mobile_text_transform": "default",
+            "desktop_max_width": 1000,
+            "mobile_max_width": 1000,
+            "desktop_color": "#000000",
+            "mobile_color": "#000000"
+          }
+        }
+      },
+      "block_order": [
+        "text_E46V74",
+        "text_VfFdk4"
+      ],
+      "disabled": true,
+      "name": "Text List",
+      "settings": {
+        "bg_color": "#ffffff",
+        "desktop_padding_top": 60,
+        "desktop_padding_bottom": 40,
+        "mobile_padding_top": 40,
+        "mobile_padding_bottom": 30
+      }
+    },
+    "multi_image_list_slider_zE97CJ": {
+      "type": "multi--image-list-slider",
+      "blocks": {
+        "image_list_eckyx9": {
+          "type": "image_list",
+          "settings": {
+            "handle": 1,
+            "image": "shopify://shop_images/playfulpets-au-_2.png",
+            "link": ""
+          }
+        },
+        "image_list_aryFcW": {
+          "type": "image_list",
+          "settings": {
+            "handle": 1,
+            "image": "shopify://shop_images/swiftpayapp.png",
+            "link": ""
+          }
+        },
+        "image_list_KyXhW8": {
+          "type": "image_list",
+          "settings": {
+            "handle": 1,
+            "image": "shopify://shop_images/bbta-au.png",
+            "link": ""
+          }
+        },
+        "image_list_M3gBpQ": {
+          "type": "image_list",
+          "settings": {
+            "handle": 1,
+            "image": "shopify://shop_images/cgroupconstruction_com_au__4e39cb228d7b.png",
+            "link": ""
+          }
+        },
+        "image_list_wbgVNK": {
+          "type": "image_list",
+          "settings": {
+            "handle": 1,
+            "image": "shopify://shop_images/smeatonbathrooms_com_au__9495d37a1a71.png",
+            "link": "https://smeatonbathrooms.com.au/"
+          }
+        },
+        "image_list_WkXEAK": {
+          "type": "image_list",
+          "settings": {
+            "handle": 1,
+            "image": "shopify://shop_images/smeatonbathrooms_com_au___ab_0__fd_0__sc_1_preview_7b17f175a299.png",
+            "link": ""
+          }
+        },
+        "image_list_idVJ4F": {
+          "type": "image_list",
+          "settings": {
+            "handle": 1,
+            "image": "shopify://shop_images/elitedriveways-au.png",
+            "link": ""
+          }
+        },
+        "image_list_CMmVq9": {
+          "type": "image_list",
+          "settings": {
+            "handle": 2,
+            "image": "shopify://shop_images/eight83plumbing-au.png",
+            "link": ""
+          }
+        },
+        "image_list_FchFzB": {
+          "type": "image_list",
+          "settings": {
+            "handle": 2,
+            "image": "shopify://shop_images/quickfixplumber-au_b1f12873-a4ab-405a-9d26-ed7e8705e2df.png",
+            "link": ""
+          }
+        },
+        "breakpoint_46mjpr": {
+          "type": "breakpoint",
+          "settings": {
+            "min_width": 0,
+            "item_count": 1,
+            "gap": 10,
+            "image_aspect_ratio": 1.1
+          }
+        },
+        "breakpoint_z7gNKm": {
+          "type": "breakpoint",
+          "settings": {
+            "min_width": 425,
+            "item_count": 1.5,
+            "gap": 10,
+            "image_aspect_ratio": 0.8
+          }
+        },
+        "breakpoint_6GLPLD": {
+          "type": "breakpoint",
+          "settings": {
+            "min_width": 0,
+            "item_count": 2.1,
+            "gap": 10,
+            "image_aspect_ratio": 1.2
+          }
+        },
+        "breakpoint_Cfnixa": {
+          "type": "breakpoint",
+          "settings": {
+            "min_width": 900,
+            "item_count": 2.8,
+            "gap": 15,
+            "image_aspect_ratio": 0.5
+          }
+        },
+        "breakpoint_nEkwH8": {
+          "type": "breakpoint",
+          "settings": {
+            "min_width": 1024,
+            "item_count": 3.6,
+            "gap": 20,
+            "image_aspect_ratio": 0.5
+          }
+        },
+        "breakpoint_Dakag9": {
+          "type": "breakpoint",
+          "settings": {
+            "min_width": 1280,
+            "item_count": 4.2,
+            "gap": 24,
+            "image_aspect_ratio": 0.5
+          }
+        },
+        "breakpoint_c6QjXi": {
+          "type": "breakpoint",
+          "settings": {
+            "min_width": 1366,
+            "item_count": 4,
+            "gap": 30,
+            "image_aspect_ratio": 0.5
+          }
+        }
+      },
+      "block_order": [
+        "image_list_eckyx9",
+        "image_list_aryFcW",
+        "image_list_KyXhW8",
+        "image_list_M3gBpQ",
+        "image_list_wbgVNK",
+        "image_list_WkXEAK",
+        "image_list_idVJ4F",
+        "image_list_CMmVq9",
+        "image_list_FchFzB",
+        "breakpoint_46mjpr",
+        "breakpoint_z7gNKm",
+        "breakpoint_6GLPLD",
+        "breakpoint_Cfnixa",
+        "breakpoint_nEkwH8",
+        "breakpoint_Dakag9",
+        "breakpoint_c6QjXi"
+      ],
+      "disabled": true,
+      "name": "Multi Image List Slider",
+      "settings": {
+        "bg_color": "#ffffff",
+        "image_item_border_radius": 4,
+        "loadmore_btn_text": "Load More",
+        "loadmore_btn_bg_color": "#454545",
+        "loadmore_btn_text_color": "#ffffff",
+        "loadmore_btn_bg_color_hover": "#000000",
+        "loadmore_btn_text_color_hover": "#fafafa",
+        "loadmore_btn_border_radius": 7,
+        "slider_arrow_btn_bg_color": "#9f9f9f",
+        "slider_arrow_btn_text_color": "#ffffff",
+        "slider_arrow_btn_bg_color_hover": "#000000",
+        "slider_arrow_btn_text_color_hover": "#ffffff",
+        "slider_arrow_btn_border_radius": 100,
+        "desktop_padding_top": 0,
+        "desktop_padding_bottom": 60,
+        "mobile_padding_top": 0,
+        "mobile_padding_bottom": 40
+      }
+    },
+    "text_list_VeQkgV": {
+      "type": "text-list",
+      "blocks": {
+        "text_iELMnY": {
+          "type": "text",
+          "settings": {
+            "text": "<p>NUMBERS THAT BACK US</p>",
+            "desktop_margin": 40,
+            "mobile_margin": 28,
+            "desktop_align": "center",
+            "mobile_align": "center",
+            "desktop_font_size": 50,
+            "mobile_font_size": 22,
+            "desktop_font_weight": "600",
+            "mobile_font_weight": "600",
+            "desktop_line_height": 1.3,
+            "mobile_line_height": 1.2,
+            "desktop_letter_spacing": 0.3,
+            "mobile_letter_spacing": 0.7,
+            "desktop_text_transform": "none",
+            "mobile_text_transform": "default",
+            "desktop_max_width": 1000,
+            "mobile_max_width": 1000,
+            "desktop_color": "#000000",
+            "mobile_color": "#000000"
+          }
+        },
+        "text_eBjNbe": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We’ve helped businesses of all shapes and sizes across Australia grow online with clear, measurable results. If you're after no-fluff, performance-driven outcomes, get in touch - we’ll show you what smart digital work can really do.</p>",
+            "desktop_margin": 0,
+            "mobile_margin": 0,
+            "desktop_align": "center",
+            "mobile_align": "center",
+            "desktop_font_size": 18,
+            "mobile_font_size": 16,
+            "desktop_font_weight": "400",
+            "mobile_font_weight": "400",
+            "desktop_line_height": 1.3,
+            "mobile_line_height": 1.2,
+            "desktop_letter_spacing": 1,
+            "mobile_letter_spacing": 1,
+            "desktop_text_transform": "none",
+            "mobile_text_transform": "default",
+            "desktop_max_width": 1440,
+            "mobile_max_width": 1440,
+            "desktop_color": "#000000",
+            "mobile_color": "#000000"
+          }
+        }
+      },
+      "block_order": [
+        "text_iELMnY",
+        "text_eBjNbe"
+      ],
+      "disabled": true,
+      "name": "Text List",
+      "settings": {
+        "bg_color": "#ffffff",
+        "desktop_padding_top": 60,
+        "desktop_padding_bottom": 40,
+        "mobile_padding_top": 40,
+        "mobile_padding_bottom": 20
+      }
+    },
+    "score_grid_9YtCmi": {
+      "type": "score-grid",
+      "blocks": {
+        "score_item_9aiWT6": {
+          "type": "score_item",
+          "name": "Revenue Generated",
+          "settings": {
+            "score": 35,
+            "prefix_text": "$",
+            "suffix_text": "M+",
+            "score_text": "Revenue Generated"
+          }
+        },
+        "score_item_AL4qTU": {
+          "type": "score_item",
+          "name": "Sales Generated",
+          "settings": {
+            "score": 45000,
+            "prefix_text": "",
+            "suffix_text": "+",
+            "score_text": "Sales Generated"
+          }
+        },
+        "score_item_G4tQdr": {
+          "type": "score_item",
+          "name": "Leads Generated",
+          "settings": {
+            "score": 700,
+            "prefix_text": "",
+            "suffix_text": "+",
+            "score_text": "Leads Generated"
+          }
+        },
+        "score_item_McyEJk": {
+          "type": "score_item",
+          "name": "Ads Spend",
+          "settings": {
+            "score": 1.7,
+            "prefix_text": "$",
+            "suffix_text": "M+",
+            "score_text": "Ads Spend"
+          }
+        },
+        "score_item_iy6RJH": {
+          "type": "score_item",
+          "name": "Clients Engage",
+          "settings": {
+            "score": 100,
+            "prefix_text": "",
+            "suffix_text": "+",
+            "score_text": "Clients Engage"
+          }
+        },
+        "score_item_3LtFYk": {
+          "type": "score_item",
+          "name": "Team Members",
+          "settings": {
+            "score": 10,
+            "prefix_text": "",
+            "suffix_text": "+",
+            "score_text": "Team Members"
+          }
+        },
+        "score_item_cnFxqH": {
+          "type": "score_item",
+          "name": "Years of Experience",
+          "settings": {
+            "score": 5,
+            "prefix_text": "",
+            "suffix_text": "+",
+            "score_text": "Years of Experience"
+          }
+        },
+        "score_item_g64MTa": {
+          "type": "score_item",
+          "name": "Years of Business",
+          "settings": {
+            "score": 3,
+            "prefix_text": "",
+            "suffix_text": "+",
+            "score_text": "Years of Business"
+          }
+        },
+        "breakpoint_9KHkF3": {
+          "type": "breakpoint",
+          "settings": {
+            "max_width": 749,
+            "card_border_radius": 12,
+            "card_row_gap": 10,
+            "item_count": 2,
+            "row_gap": 20,
+            "col_gap": 10,
+            "score_font_size": 21,
+            "score_text_font_size": 16
+          }
+        },
+        "breakpoint_LxiYGi": {
+          "type": "breakpoint",
+          "settings": {
+            "max_width": 1023,
+            "card_border_radius": 15,
+            "card_row_gap": 15,
+            "item_count": 3,
+            "row_gap": 25,
+            "col_gap": 20,
+            "score_font_size": 36,
+            "score_text_font_size": 18
+          }
+        },
+        "breakpoint_apF6AV": {
+          "type": "breakpoint",
+          "settings": {
+            "max_width": 0,
+            "card_border_radius": 15,
+            "card_row_gap": 20,
+            "item_count": 4,
+            "row_gap": 25,
+            "col_gap": 30,
+            "score_font_size": 50,
+            "score_text_font_size": 20
+          }
+        }
+      },
+      "block_order": [
+        "score_item_9aiWT6",
+        "score_item_AL4qTU",
+        "score_item_G4tQdr",
+        "score_item_McyEJk",
+        "score_item_iy6RJH",
+        "score_item_3LtFYk",
+        "score_item_cnFxqH",
+        "score_item_g64MTa",
+        "breakpoint_9KHkF3",
+        "breakpoint_LxiYGi",
+        "breakpoint_apF6AV"
+      ],
+      "disabled": true,
+      "name": "Score Grid",
+      "settings": {
+        "bg_color": "#ffffff",
+        "card_bg_color": "#ffffff",
+        "card_border_color": "#e5e5e5",
+        "score_color": "#fdd328",
+        "score_text_color": "#000000",
+        "desktop_padding_top": 0,
+        "desktop_padding_bottom": 60,
+        "mobile_padding_top": 0,
+        "mobile_padding_bottom": 40
+      }
+    },
+    "text_list_zidnT7": {
+      "type": "text-list",
+      "blocks": {
+        "text_MTAixR": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Reviews & Testimonials</p>",
+            "desktop_margin": 20,
+            "mobile_margin": 16,
+            "desktop_align": "center",
+            "mobile_align": "center",
+            "desktop_font_size": 18,
+            "mobile_font_size": 16,
+            "desktop_font_weight": "600",
+            "mobile_font_weight": "600",
+            "desktop_line_height": 1.2,
+            "mobile_line_height": 1.2,
+            "desktop_letter_spacing": 1,
+            "mobile_letter_spacing": 1,
+            "desktop_text_transform": "uppercase",
+            "mobile_text_transform": "upper",
+            "desktop_max_width": 1000,
+            "mobile_max_width": 1000,
+            "desktop_color": "#121212",
+            "mobile_color": "#121212"
+          }
+        },
+        "text_MBaFDg": {
+          "type": "text",
+          "settings": {
+            "text": "<p>What Clients Say About Us?</p>",
+            "desktop_margin": 0,
+            "mobile_margin": 0,
+            "desktop_align": "center",
+            "mobile_align": "center",
+            "desktop_font_size": 50,
+            "mobile_font_size": 22,
+            "desktop_font_weight": "600",
+            "mobile_font_weight": "600",
+            "desktop_line_height": 1.2,
+            "mobile_line_height": 1.2,
+            "desktop_letter_spacing": 1,
+            "mobile_letter_spacing": 1,
+            "desktop_text_transform": "uppercase",
+            "mobile_text_transform": "upper",
+            "desktop_max_width": 1000,
+            "mobile_max_width": 1000,
+            "desktop_color": "#fdd328",
+            "mobile_color": "#fdd328"
+          }
+        }
+      },
+      "block_order": [
+        "text_MTAixR",
+        "text_MBaFDg"
+      ],
+      "disabled": true,
+      "name": "Text List",
+      "settings": {
+        "bg_color": "#ffffff",
+        "desktop_padding_top": 60,
+        "desktop_padding_bottom": 40,
+        "mobile_padding_top": 40,
+        "mobile_padding_bottom": 30
+      }
+    },
+    "custom_review_new_Bp63JF": {
+      "type": "custom-review-new",
+      "blocks": {
+        "review_items_RkQRAL": {
+          "type": "review_items",
+          "settings": {
+            "review_items": [
+              "review-summary",
+              "daniel-spata",
+              "sarah-johnson-1",
+              "sarah-johnson",
+              "klara-truden",
+              "adams",
+              "dave-sullivan",
+              "reshma-raghavani",
+              "xion-corp",
+              "garden-mc-victoria",
+              "andys-toybox",
+              "stools-r-us",
+              "playful-pets",
+              "smeaton-bathrooms",
+              "mattew-boynes",
+              "akur-aleer",
+              "brandon-ewing",
+              "lynette-labrooy",
+              "simon-krajacic",
+              "enrico-cittadino",
+              "antons-sapriko",
+              "brendan-mc-kernan"
+            ]
+          }
+        },
+        "breakpoint_UMRkMy": {
+          "type": "breakpoint",
+          "settings": {
+            "max_width": 424,
+            "item_count": 1,
+            "col_gap": 0,
+            "row_gap": 20,
+            "card_border_radius": 10
+          }
+        },
+        "breakpoint_XhjNYe": {
+          "type": "breakpoint",
+          "settings": {
+            "max_width": 749,
+            "item_count": 2,
+            "col_gap": 15,
+            "row_gap": 20,
+            "card_border_radius": 10
+          }
+        },
+        "breakpoint_ExWjai": {
+          "type": "breakpoint",
+          "settings": {
+            "max_width": 900,
+            "item_count": 3,
+            "col_gap": 15,
+            "row_gap": 20,
+            "card_border_radius": 10
+          }
+        },
+        "breakpoint_PMwB3w": {
+          "type": "breakpoint",
+          "settings": {
+            "max_width": 0,
+            "item_count": 4,
+            "col_gap": 20,
+            "row_gap": 25,
+            "card_border_radius": 10
+          }
+        }
+      },
+      "block_order": [
+        "review_items_RkQRAL",
+        "breakpoint_UMRkMy",
+        "breakpoint_XhjNYe",
+        "breakpoint_ExWjai",
+        "breakpoint_PMwB3w"
+      ],
+      "disabled": true,
+      "name": "Custom Review(new)",
+      "settings": {
+        "bg_color": "#ffffff",
+        "card_bg_color": "#ffffff",
+        "card_text_color": "#000000",
+        "card_border_color": "rgba(0,0,0,0)",
+        "card_shadow_color": "#000000",
+        "card_shadow_opacity": 28,
+        "shadow_x": 0,
+        "shadow_y": 0,
+        "shadow_blur": 10,
+        "shadow_spread": 0,
+        "max_height": 196,
+        "read_more_btn_text": "Read",
+        "read_more_btn_text_shown": "Hide",
+        "read_more_btn_color": "#000000",
+        "read_more_btn_color_hover": "#787878",
+        "link_btn_text": "FIND MORE OUT",
+        "link": "shopify://pages/contact",
+        "link_btn_bg_color": "#121212",
+        "link_btn_text_color": "#ffffff",
+        "link_btn_bg_color_hover": "#fdd328",
+        "link_btn_text_color_hover": "#121212",
+        "link_btn_border_radius": 100,
+        "link_btn_icon": "shopify://shop_images/rocket_5680648a-6c2e-46c0-b3a4-5a08858140c4.svg",
+        "link_btn_icon_hover": "shopify://shop_images/rocket.svg",
+        "desktop_padding_top": 0,
+        "desktop_padding_bottom": 60,
+        "mobile_padding_top": 0,
+        "mobile_padding_bottom": 40
+      }
+    },
+    "image_grid_nwzeK8": {
+      "type": "image-grid",
+      "blocks": {
+        "image_item_X8aLT8": {
+          "type": "image_item",
+          "settings": {
+            "image": "shopify://shop_images/luxaroma-logo-img.webp",
+            "image_link": ""
+          }
+        },
+        "image_item_E7tdwn": {
+          "type": "image_item",
+          "settings": {
+            "image": "shopify://shop_images/eroma-logo-img.webp",
+            "image_link": ""
+          }
+        },
+        "image_item_XrF97F": {
+          "type": "image_item",
+          "settings": {
+            "image": "shopify://shop_images/vitamin-outlet-logo-img.webp",
+            "image_link": ""
+          }
+        },
+        "image_item_HbWH99": {
+          "type": "image_item",
+          "settings": {
+            "image": "shopify://shop_images/Clinet-Logo-72.png",
+            "image_link": ""
+          }
+        },
+        "image_item_LahhGQ": {
+          "type": "image_item",
+          "settings": {
+            "image": "shopify://shop_images/Clinet-Logo-58.png",
+            "image_link": ""
+          }
+        },
+        "image_item_7BDKct": {
+          "type": "image_item",
+          "settings": {
+            "image": "shopify://shop_images/Clinet-Logo-54.png",
+            "image_link": ""
+          }
+        },
+        "image_item_gXHNNK": {
+          "type": "image_item",
+          "settings": {
+            "image": "shopify://shop_images/Clinet-Logo-38.png",
+            "image_link": ""
+          }
+        },
+        "image_item_kXtPQK": {
+          "type": "image_item",
+          "settings": {
+            "image": "shopify://shop_images/Clinet-Logo-44.png",
+            "image_link": ""
+          }
+        },
+        "image_item_iyKmJG": {
+          "type": "image_item",
+          "settings": {
+            "image": "shopify://shop_images/Clinet-Logo-21.png",
+            "image_link": ""
+          }
+        },
+        "image_item_nyVFY8": {
+          "type": "image_item",
+          "settings": {
+            "image": "shopify://shop_images/Clinet-Logo-49.png",
+            "image_link": ""
+          }
+        },
+        "image_item_wNCbDW": {
+          "type": "image_item",
+          "settings": {
+            "image": "shopify://shop_images/Clinet-Logo-62.png",
+            "image_link": ""
+          }
+        },
+        "image_item_K3VhpK": {
+          "type": "image_item",
+          "settings": {
+            "image": "shopify://shop_images/Clinet-Logo-45.png",
+            "image_link": ""
+          }
+        },
+        "image_item_YrNLWe": {
+          "type": "image_item",
+          "settings": {
+            "image": "shopify://shop_images/Client-Logo-16.png",
+            "image_link": ""
+          }
+        },
+        "image_item_YrcBwG": {
+          "type": "image_item",
+          "settings": {
+            "image": "shopify://shop_images/Clinet-Logo-33.png",
+            "image_link": "#"
+          }
+        },
+        "breakpoint_dFNEn7": {
+          "type": "breakpoint",
+          "settings": {
+            "max_width": 424,
+            "item_count": 2,
+            "col_gap": 20,
+            "row_gap": 30
+          }
+        },
+        "breakpoint_xbeKnL": {
+          "type": "breakpoint",
+          "settings": {
+            "max_width": 749,
+            "item_count": 3,
+            "col_gap": 20,
+            "row_gap": 30
+          }
+        },
+        "breakpoint_qrBQVN": {
+          "type": "breakpoint",
+          "settings": {
+            "max_width": 1023,
+            "item_count": 4,
+            "col_gap": 20,
+            "row_gap": 30
+          }
+        },
+        "breakpoint_gR6QyE": {
+          "type": "breakpoint",
+          "settings": {
+            "max_width": 0,
+            "item_count": 7,
+            "col_gap": 15,
+            "row_gap": 30
+          }
+        }
+      },
+      "block_order": [
+        "image_item_X8aLT8",
+        "image_item_E7tdwn",
+        "image_item_XrF97F",
+        "image_item_HbWH99",
+        "image_item_LahhGQ",
+        "image_item_7BDKct",
+        "image_item_gXHNNK",
+        "image_item_kXtPQK",
+        "image_item_iyKmJG",
+        "image_item_nyVFY8",
+        "image_item_wNCbDW",
+        "image_item_K3VhpK",
+        "image_item_YrNLWe",
+        "image_item_YrcBwG",
+        "breakpoint_dFNEn7",
+        "breakpoint_xbeKnL",
+        "breakpoint_qrBQVN",
+        "breakpoint_gR6QyE"
+      ],
+      "disabled": true,
+      "name": "Image Grid",
+      "settings": {
+        "bg_color": "#ffffff",
+        "heading": "BIG OR SMALL, []",
+        "secondary_heading": "FAST GROWTH",
+        "description": "We work with businesses of all sizes and industries across Australia. If you're after clear, honest, and measurable results online, reach out to An Agency and see how we can support your goals.",
+        "heading_color": "#121212",
+        "secondary_heading_color": "#fdd328",
+        "description_color": "#000000",
+        "text_max_width": 1000,
+        "link_btn_text": "FIND MORE OUT",
+        "link": "shopify://pages/contact",
+        "link_btn_bg_color": "#121212",
+        "link_btn_text_color": "#ffffff",
+        "link_btn_bg_color_hover": "#fdd328",
+        "link_btn_text_color_hover": "#121212",
+        "link_btn_border_radius": 100,
+        "link_btn_icon": "shopify://shop_images/rocket_5680648a-6c2e-46c0-b3a4-5a08858140c4.svg",
+        "link_btn_icon_hover": "shopify://shop_images/rocket.svg",
+        "desktop_padding_top": 80,
+        "desktop_padding_bottom": 80,
+        "mobile_padding_top": 50,
+        "mobile_padding_bottom": 50
+      }
+    },
     "trust_Q37M3R": {
       "type": "trust",
       "blocks": {
@@ -555,6 +1379,13 @@
     "phone_ring_MzFcJr",
     "advertise_KLNL33",
     "advertise_qQYPyj",
+    "text_list_MNPzdp",
+    "multi_image_list_slider_zE97CJ",
+    "text_list_VeQkgV",
+    "score_grid_9YtCmi",
+    "text_list_zidnT7",
+    "custom_review_new_Bp63JF",
+    "image_grid_nwzeK8",
     "trust_Q37M3R",
     "advertise_PAQGf7",
     "advertise_DnFdqE",

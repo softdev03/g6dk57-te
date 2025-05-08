@@ -1,0 +1,36 @@
+.shopify-section-tab-header .tab-header {
+	margin: 0px auto;
+	border-radius: 100px;
+	position: relative;
+	overflow: auto;
+	max-width: 100%;
+	width: fit-content;
+}
+
+.shopify-section-tab-header .tab-header-content {
+	z-index: 2;
+	display: flex;
+	position: relative;
+	padding: 3px;
+}
+
+.shopify-section-tab-header .tab-header-item {
+	padding: 8px 15px;
+	cursor: pointer;
+	transition: all .3s;
+	white-space: nowrap;
+	display: block;
+	text-decoration: none;
+	color: inherit;
+}
+
+.shopify-section-tab-header .tab-thumb {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	transition: all .3s;
+	height: 100%;
+	padding: 3px 0px;
+	background-clip: content-box;
+	border-radius: 100px;
+}

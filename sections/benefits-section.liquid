@@ -4,6 +4,11 @@
   "settings": [
     {
       "type": "text",
+      "id": "key",
+      "label": "Key"
+    },
+    {
+      "type": "text",
       "id": "section_title",
       "label": "Section Title",
       "default": "Why Having an Online Presence Matters"
@@ -121,7 +126,7 @@
       }
   }
 {%- endstyle -%}
-<section class="benefits-section page-width">
+<section class="benefits-section page-width" {% if section.settings.key != blank %} tab key="{{ section.settings.key }}" {% endif %}>
   <div class="benefits-container">
     {% for block in section.blocks %}
       <div class="benefit-card">

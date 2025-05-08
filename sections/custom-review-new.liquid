@@ -1,0 +1,401 @@
+{{ 'custom-review-new.css' | asset_url | stylesheet_tag }}
+{%- style -%}
+   #shopify-section-{{ section.id }} {
+     padding-top: {{ section.settings.desktop_padding_top }}px;
+     padding-bottom: {{ section.settings.desktop_padding_bottom }}px;
+   	background-color: {{ section.settings.bg_color }};
+   }
+  #shopify-section-{{ section.id }} .review-item {
+  	background-color: {{ section.settings.card_bg_color }};
+  	color: {{ section.settings.card_text_color }};
+  	border: 1px solid {{ section.settings.card_border_color }};
+  	{%- assign rgb = section.settings.card_shadow_color |  color_to_rgb |  remove: 'rgb(' |  remove: ')' -%}
+  	{%- unless rgb contains 'rgb' -%}
+  		box-shadow: {{ section.settings.shadow_x }}px {{ section.settings.shadow_y }}px {{ section.settings.shadow_blur }}px {{ section.settings.shadow_spread }}px rgba({{ rgb }},{{ section.settings.card_shadow_opacity |  divided_by: 100.0 }});
+  	{%- endunless -%}
+  }
+  #shopify-section-{{ section.id }} .review-content {
+  	max-height: {{ section.settings.max_height }}px;
+  }
+  #shopify-section-{{ section.id }} .read-more {
+  	color: {{ section.settings.read_more_btn_color }};
+  }
+  #shopify-section-{{ section.id }} .read-more:hover {
+  	color: {{ section.settings.read_more_btn_color_hover }};
+  }
+  #shopify-section-{{ section.id }} .link {
+  	border-radius: {{ section.settings.link_btn_border_radius }}px;
+  	background-color: {{ section.settings.link_btn_bg_color }};
+  	color: {{ section.settings.link_btn_text_color }};
+  }
+  #shopify-section-{{ section.id }} .link:hover {
+  	background-color: {{ section.settings.link_btn_bg_color_hover }};
+  	color: {{ section.settings.link_btn_text_color_hover }};
+  }
+  {%- assign breakpoints = section.blocks |  where: 'type', 'breakpoint' |  map: 'settings' | reverse -%}
+  {%- for breakpoint in breakpoints -%}
+  	{% if breakpoint.max_width > 0 %}@media screen and (max-width: {{ breakpoint.max_width }}px) { {% endif %}
+  		#shopify-section-{{ section.id }} .review-items {
+  			column-gap: {{ breakpoint.col_gap }}px;
+  			row-gap: {{ breakpoint.row_gap }}px;
+  		}
+  		#shopify-section-{{ section.id }} .review-item {
+  			border-radius: {{ breakpoint.card_border_radius }}px;
+  			{%- assign gapCount = breakpoint.item_count|  minus: 1 -%}
+  			{%- assign gapWidth = gapCount |  times: breakpoint.col_gap -%}
+  			width: calc((100% - {{ gapWidth }}px) / {{ breakpoint.item_count }});
+  		}
+  	{% if breakpoint.max_width > 0 %}}{% endif %}
+  {%- endfor -%}
+   @media screen and (max-width: 749px) {
+       #shopify-section-{{ section.id }} {
+         padding-top: {{ section.settings.mobile_padding_top }}px;
+         padding-bottom: {{ section.settings.mobile_padding_bottom }}px;
+       }
+   }
+{%- endstyle -%}
+<div class="shopify-section-csn page-width">
+  {%- assign reviewBlocks = section.blocks | where: 'type', 'review_items' | map: 'settings' -%}
+  <div class="review-items">
+    {%- for block in reviewBlocks -%}
+      {%- for reviewItem in block.review_items -%}
+        <div class="review-item">
+          <div class="review-header">
+            <div class="client-info">
+              <div class="avatars">
+                {%- for avatar in reviewItem.avatars.value -%}
+                  <div class="avatar">
+                    <img src="{{ avatar |  img_url: '40x' }}" alt="" width="40px" height="auto">
+                  </div>
+                {%- endfor -%}
+              </div>
+              <span class="name">{{ reviewItem.name }}</span>
+            </div>
+            <div class="site-logo">
+              {%- if reviewItem.site_logo != blank -%}
+                <img src="{{ reviewItem.site_logo |  img_url: '20x' }}" alt="" width="20px" height="auto">
+              {%- endif -%}
+            </div>
+          </div>
+          <div class="review-stars">
+            {%- for starIcon in reviewItem.review_star_icons.value -%}
+              <div class="review-star-icon">
+                <img src="{{ starIcon |  img_url: '20x' }}" alt="" width="20px" height="auto">
+              </div>
+            {%- endfor -%}
+          </div>
+          <div class="review-content-wrapper">
+            <div class="review-content" max-height="{{ section.settings.max_height }}">
+              {{ reviewItem.review_content | metafield_tag }}
+            </div>
+            <span class="read-more">{{ section.settings.read_more_btn_text }}</span>
+            <span class="read-more to-hide">{{ section.settings.read_more_btn_text_shown }}</span>
+          </div>
+        </div>
+      {%- endfor -%}
+    {%- endfor -%}
+  </div>
+  {%- if section.settings.link != blank and section.settings.link_btn_text != blank -%}
+    <a href="{{ section.settings.link }}" class="link">
+      {{ section.settings.link_btn_text }}
+      {%- if section.settings.link_btn_icon != blank -%}
+        <img src="{{ section.settings.link_btn_icon |  img_url: '20x' }}" alt="" width="20px" height="auto">
+        {%- if section.settings.link_btn_icon_hover != blank -%}
+          <img src="{{ section.settings.link_btn_icon_hover |  img_url: '20x' }}" alt="" width="20px" height="auto">
+        {%- endif -%}
+      {%- endif -%}
+    </a>
+  {%- endif -%}
+</div>
+{% schema %}
+{
+  "name": "Custom Review(new)",
+  "tag": "section",
+  "class": "shopify-section--custom-review-new",
+  "settings": [
+    {
+      "type": "color",
+      "id": "bg_color",
+      "label": "Background Color",
+      "default": "#fff"
+    },
+    {
+      "type": "color",
+      "id": "card_bg_color",
+      "label": "Card Background Color",
+      "default": "#fff"
+    },
+    {
+      "type": "color",
+      "id": "card_text_color",
+      "label": "Card Text Color",
+      "default": "#000000"
+    },
+    {
+      "type": "color",
+      "id": "card_border_color",
+      "label": "Card Border Color",
+      "default": "#000000"
+    },
+    {
+      "type": "color",
+      "id": "card_shadow_color",
+      "label": "Card Shadow Color",
+      "default": "#000000"
+    },
+    {
+      "type": "range",
+      "id": "card_shadow_opacity",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "%",
+      "label": "Card Shadow Opacity",
+      "default": 10
+    },
+    {
+      "type": "range",
+      "id": "shadow_x",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "label": "Shadow X",
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "shadow_y",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "label": "Shadow Y",
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "shadow_blur",
+      "min": 0,
+      "max": 30,
+      "step": 1,
+      "unit": "px",
+      "label": "Shadow Blur",
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "shadow_spread",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "label": "Shadow Spread",
+      "default": 3
+    },
+    {
+      "type": "range",
+      "id": "max_height",
+      "min": 0,
+      "max": 400,
+      "step": 4,
+      "label": "Max Height(Review Content)",
+      "default": 200
+    },
+    {
+      "type": "text",
+      "id": "read_more_btn_text",
+      "label": "Read More Btn Text"
+    },
+    {
+      "type": "text",
+      "id": "read_more_btn_text_shown",
+      "label": "Read More Btn Text when Shown"
+    },
+    {
+      "type": "color",
+      "id": "read_more_btn_color",
+      "label": "Read More Button Color",
+      "default": "#000000"
+    },
+    {
+      "type": "color",
+      "id": "read_more_btn_color_hover",
+      "label": "Read More Button Color when Hover",
+      "default": "#000000"
+    },
+    {
+      "type": "header",
+      "content": "Link Button Settings"
+    },
+    {
+      "type": "text",
+      "id": "link_btn_text",
+      "label": "Link Button Text"
+    },
+    {
+      "type": "url",
+      "id": "link",
+      "label": "Link"
+    },
+    {
+      "type": "color",
+      "id": "link_btn_bg_color",
+      "label": "Link Button Background Color",
+      "default": "#000000"
+    },
+    {
+      "type": "color",
+      "id": "link_btn_text_color",
+      "label": "Link Button Text Color",
+      "default": "#fff"
+    },
+    {
+      "type": "color",
+      "id": "link_btn_bg_color_hover",
+      "label": "Link Button Background Color when Hover",
+      "default": "#000000"
+    },
+    {
+      "type": "color",
+      "id": "link_btn_text_color_hover",
+      "label": "Link Button Text Color when Hover",
+      "default": "#fff"
+    },
+    {
+      "type": "range",
+      "id": "link_btn_border_radius",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "label": "Link Button Border Radius",
+      "default": 0
+    },
+    {
+      "type": "image_picker",
+      "id": "link_btn_icon",
+      "label": "Link Button Icon"
+    },
+    {
+      "type": "image_picker",
+      "id": "link_btn_icon_hover",
+      "label": "Link Button Icon when Hover"
+    },
+    {
+      "type": "header",
+      "content": "Padding Settings"
+    },
+    {
+      "type": "range",
+      "id": "desktop_padding_top",
+      "min": 0,
+      "max": 200,
+      "step": 2,
+      "unit": "px",
+      "label": "Desktop Padding Top",
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "desktop_padding_bottom",
+      "min": 0,
+      "max": 200,
+      "step": 2,
+      "unit": "px",
+      "label": "Desktop Padding Bottom",
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "mobile_padding_top",
+      "min": 0,
+      "max": 200,
+      "step": 2,
+      "unit": "px",
+      "label": "Mobile Padding Top",
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "mobile_padding_bottom",
+      "min": 0,
+      "max": 200,
+      "step": 2,
+      "unit": "px",
+      "label": "Mobile Padding Bottom",
+      "default": 0
+    }
+  ],
+  "blocks": [
+    {
+      "type": "review_items",
+      "name": "Review Items",
+      "settings": [
+        {
+          "type": "metaobject_list",
+          "id": "review_items",
+          "label": "Review Items",
+          "metaobject_type": "custom_review"
+        }
+      ]
+    },
+    {
+      "type": "breakpoint",
+      "name": "Breakpoint",
+      "settings": [
+        {
+          "type": "number",
+          "id": "max_width",
+          "label": "Max Width"
+        },
+        {
+          "type": "range",
+          "id": "item_count",
+          "min": 1,
+          "max": 10,
+          "step": 1,
+          "label": "Item Count Per Row",
+          "default": 4
+        },
+        {
+          "type": "range",
+          "id": "col_gap",
+          "min": 0,
+          "max": 100,
+          "step": 1,
+          "unit": "px",
+          "label": "Column Gap",
+          "default": 10
+        },
+        {
+          "type": "range",
+          "id": "row_gap",
+          "min": 0,
+          "max": 100,
+          "step": 1,
+          "unit": "px",
+          "label": "Row Gap",
+          "default": 10
+        },
+        {
+          "type": "range",
+          "id": "card_border_radius",
+          "min": 0,
+          "max": 100,
+          "step": 1,
+          "unit": "px",
+          "label": "Card Border Radius",
+          "default": 10
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Custom Review(new)",
+      "settings": {}
+    }
+  ]
+}
+{% endschema %}

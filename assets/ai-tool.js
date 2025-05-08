@@ -1,3 +1,9 @@
+const APIKEY = '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';
+const model = 'gpt-4o-mini';
+const additionalPattern = `
+	※ : The writing style must be [writing style] and please use "[language]" language for all of the content.
+	The content should be written in a [tone] tone.
+`;
 document.addEventListener('DOMContentLoaded', () => {
 	const aiToolSection = document.querySelector('.shopify-section-ai-tools');
 	if (aiToolSection) {
@@ -11,7 +17,7 @@ document.addEventListener('DOMContentLoaded', () => {
 		const toneSelect = aiToolSection.querySelector('.tone select');
 		const writingStyleSelect = aiToolSection.querySelector('.writing-style select');
 		const input = aiToolSection.querySelector('.input');
-		const toolName = aiToolSection.getAttribute('tool-name');
+		const pattern = aiToolSection.querySelector('.pattern').innerHTML;
 		const output = aiToolSection.querySelector('.output');
 		const generatedResult = output.querySelector('.output .result');
 		const selectedImage = aiToolSection.querySelector('.selected-file');
@@ -36,16 +42,23 @@ document.addEventListener('DOMContentLoaded', () => {
 			fileInput?.setAttribute('disabled', true);
 			let oldHeight = generatedResult.scrollHeight
 			output.scrollTo({ top: oldHeight, behavior: 'smooth' });
-			generateText(toolName, language, tone, writingStyle, inputArea.value).then((generatedValue) => {
+			generateText(pattern, language, tone, writingStyle, inputArea.value).then((generatedValue) => {
 				aiToolSection.classList.remove('generating');
 				inputArea.removeAttribute('readonly');
 				writingStyleSelect.removeAttribute('disabled');
 				toneSelect.removeAttribute('disabled');
 				languageSelect.removeAttribute('disabled');
 				fileInput?.removeAttribute('disabled');
+				let content = '';
+				for (const choice of generatedValue.choices) {
+					content += wrapText(choice.message.content);
+				}
+				if (generatedResult.innerHTML !== '') {
+					oldHeight += 20;
+				}
 				generatedResult.innerHTML += `
 							<div class="query">${inputArea.value.replace(/\n/g, '<br />')}</div>
-							${generatedValue}
+							${content}
 						`;
 				output.scrollTo({ top: oldHeight, behavior: 'smooth' });
 				inputArea.value = '';
@@ -59,6 +72,13 @@ document.addEventListener('DOMContentLoaded', () => {
 				}
 			}).catch((error) => {
 				console.log(error);
+				aiToolSection.classList.remove('generating');
+				inputArea.removeAttribute('readonly');
+				writingStyleSelect.removeAttribute('disabled');
+				toneSelect.removeAttribute('disabled');
+				languageSelect.removeAttribute('disabled');
+				fileInput?.removeAttribute('disabled');
+				enterButton.classList.remove('disable');
 			});
 		}
 		inputArea.addEventListener('keypress', (e) => {
@@ -91,8 +111,19 @@ document.addEventListener('DOMContentLoaded', () => {
 	}
 });
 
-const generateText = (toolName, language, tone, writingStyle, inputText) => {
+const generateText = (pattern, language, tone, writingStyle, inputText) => {
 	return new Promise((resolve, reject) => {
+		if (!pattern || !inputText) {
+			reject('Pattern must be filled');
+		}
+		let newPattern;
+		if (!language || !tone || !writingStyle) {
+			newPattern = pattern.replace('[pattern]', inputText);
+			newPattern += additionalPattern.replace('[language]', 'English').replace('[writing style]', 'Professional').replace('[tone]', 'Formal');
+		} else {
+			newPattern = pattern.replace('[pattern]', inputText);
+			newPattern += additionalPattern.replace('[language]', language).replace('[writing style]', writingStyle).replace('[tone]', tone);
+		}
 		fetch(' https://api.openai.com/v1/chat/completions', {
 			method: 'POST',
 			headers: {
@@ -100,10 +131,21 @@ const generateText = (toolName, language, tone, writingStyle, inputText) => {
 				"Authorization": `Bearer ${APIKEY}`
 			},
 			body: JSON.stringify({
-				ip,tool_name:toolName,input_text:inputText,tone,language,writing_style:writingStyle
+				model: model,
+				messages: [
+					{
+						role: "user",
+						content: newPattern
+					}
+				]
 			})
 		}).then(res => res.json()).then(res => {
-			resolve(res);
+			if(res.error) {
+				reject(res.error);
+				console.log(res.error);
+			} else {
+				resolve(res);
+			}
 		}).catch(err => {
 			reject(err);
 		});

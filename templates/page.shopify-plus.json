@@ -1,0 +1,1506 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "advertise_xMT9mA": {
+      "type": "advertise",
+      "name": "New Video Section",
+      "settings": {
+        "key": "",
+        "video": "shopify://files/videos/0507.mp4",
+        "loop_video": true,
+        "autoplay_video": true,
+        "media_border_radius": 18,
+        "media_border_width": 0,
+        "media_border_color": "#cccccc",
+        "secondary_image_roate_angle": 8,
+        "desktop_left": -150,
+        "desktop_top": -1,
+        "desktop_right": -1,
+        "desktop_bottom": 20,
+        "mobile_left": 0,
+        "mobile_top": -1,
+        "mobile_right": -1,
+        "mobile_bottom": -26,
+        "heading": "Shopify Plus Migration Experts",
+        "sub_heading": "Switch platforms. Scale faster.",
+        "text": "<p>We’re a <strong>Shopify Plus migration agency</strong> trusted by growing brands across Australia. Whether you're on Magento, WooCommerce, BigCommerce, or Salesforce, we’ll help you <strong>migrate to Shopify Plus</strong> smoothly, no breakage, no fluff, no delays.</p>",
+        "button_link": "shopify://pages/contact",
+        "button_text": "Speak To Our Team",
+        "image_right": false,
+        "text_align": "left",
+        "background_color": "#ffffff",
+        "desktop_padding_top": 60,
+        "desktop_padding_bottom": 60,
+        "mobile_padding_top": 40,
+        "mobile_padding_bottom": 40
+      }
+    },
+    "advertise_HPp6jH": {
+      "type": "advertise",
+      "settings": {
+        "key": "",
+        "loop_video": true,
+        "autoplay_video": true,
+        "main_image": "shopify://shop_images/AnAgencyServiceWebsite01.png",
+        "media_border_radius": 0,
+        "media_border_width": 0,
+        "media_border_color": "#000000",
+        "secondary_image_roate_angle": 8,
+        "desktop_left": -150,
+        "desktop_top": -1,
+        "desktop_right": -1,
+        "desktop_bottom": 20,
+        "mobile_left": 0,
+        "mobile_top": -1,
+        "mobile_right": -1,
+        "mobile_bottom": -26,
+        "heading": "Why Brands Migrate to Shopify Plus",
+        "sub_heading": "Most eCommerce platforms don’t scale well. They slow you down, cost more to maintain, and make even simple changes feel like a dev sprint.",
+        "text": "<p>Here’s what brands are leaving behind:</p><ul><li><strong>Magento</strong>: Endless updates, hosting headaches, and dev reliance.</li><li><strong>WooCommerce</strong>: Plugin conflicts, fragile themes, inconsistent checkout.</li><li><strong>Salesforce</strong>: High licensing costs, complex workflows, and vendor lock-in.</li><li><strong>BigCommerce</strong>: Rigid templates, design limits, and dated UX.</li></ul><p>When you <strong>migrate from Salesforce to Shopify Plus</strong>, or any platform for that matter, you're unlocking faster deployment, easier workflows, and lower total cost of ownership.</p>",
+        "button_link": "shopify://pages/contact",
+        "button_text": "Speak To Our Team",
+        "image_right": true,
+        "text_align": "left",
+        "background_color": "#ffffff",
+        "desktop_padding_top": 60,
+        "desktop_padding_bottom": 60,
+        "mobile_padding_top": 40,
+        "mobile_padding_bottom": 40
+      }
+    },
+    "phone_ring_MzFcJr": {
+      "type": "phone-ring",
+      "settings": {
+        "key": "",
+        "image": "shopify://shop_images/GoogleAds_08.jpg",
+        "heading_1": "Who We",
+        "heading_2": "Help",
+        "sub_heading": "We’re a go-to Shopify Plus agency in Australia for fast-growing eCommerce brands making the switch. Whether you’re based in Sydney, Melbourne, Queensland, or beyond, we work nationwide.",
+        "text": "Need a Shopify store setup in Adelaide or looking for Shopify store setup services to relaunch a local business? We’ve done that too.",
+        "phone_button_text": "0499226600",
+        "phone_number": "0499226600",
+        "enquire_button_text": "See Our Work",
+        "enquire_button_link": "shopify://pages/our-work",
+        "image_right": true,
+        "text_align": "left",
+        "desktop_padding_top": 100,
+        "desktop_padding_bottom": 100,
+        "mobile_padding_top": 60,
+        "mobile_padding_bottom": 40
+      }
+    },
+    "advertise_KLNL33": {
+      "type": "advertise",
+      "settings": {
+        "key": "",
+        "loop_video": true,
+        "autoplay_video": true,
+        "main_image": "shopify://shop_images/AnAgencyShopifyWebsite10.png",
+        "media_border_radius": 0,
+        "media_border_width": 0,
+        "media_border_color": "#000000",
+        "secondary_image_roate_angle": 8,
+        "desktop_left": -80,
+        "desktop_top": -1,
+        "desktop_right": -1,
+        "desktop_bottom": 82,
+        "mobile_left": 0,
+        "mobile_top": -1,
+        "mobile_right": -1,
+        "mobile_bottom": -30,
+        "heading": "What Our Shopify Plus Migration Services Include",
+        "sub_heading": "We’re not just a dev shop. As a Shopify Plus migration agency, we do it all:",
+        "text": "<ul><li>Product, collection, and variant migration</li><li>Customer data and full order history</li><li>SEO migration (301 redirects, URLs, meta tags)</li><li>Content migration (pages, blogs, assets)</li><li>Shopify Payments, shipping, tax setup</li><li>CRM, ERP, or WMS integrations</li><li>International store setup for <strong>Shopify Plus internationalisation</strong></li><li>GA4, Meta Pixel, TikTok tracking migration</li><li>Custom theme design built for conversion</li><li>Custom checkout (Shopify Plus feature)</li><li>Post-launch testing and performance audit</li></ul><p>All work is done in-house - we never outsource. That’s why we’re one of the few <strong>Shopify Plus migration experts</strong> who can deliver results fast, without compromise.</p>",
+        "button_link": "shopify://pages/contact",
+        "button_text": "Get a Custom Shopify Store →",
+        "image_right": true,
+        "text_align": "left",
+        "background_color": "#ffffff",
+        "desktop_padding_top": 60,
+        "desktop_padding_bottom": 60,
+        "mobile_padding_top": 40,
+        "mobile_padding_bottom": 40
+      }
+    },
+    "text_list_MNPzdp": {
+      "type": "text-list",
+      "blocks": {
+        "text_E46V74": {
+          "type": "text",
+          "settings": {
+            "text": "<p>CHECK OUT SOME SHOPIFY ECOMMERCE WEBSITES WE’VE BUILT</p>",
+            "desktop_margin": 20,
+            "mobile_margin": 12,
+            "desktop_align": "center",
+            "mobile_align": "center",
+            "desktop_font_size": 50,
+            "mobile_font_size": 22,
+            "desktop_font_weight": "700",
+            "mobile_font_weight": "700",
+            "desktop_line_height": 1.2,
+            "mobile_line_height": 1.2,
+            "desktop_letter_spacing": 1,
+            "mobile_letter_spacing": 1,
+            "desktop_text_transform": "none",
+            "mobile_text_transform": "default",
+            "desktop_max_width": 1440,
+            "mobile_max_width": 1440,
+            "desktop_color": "#000000",
+            "mobile_color": "#1a3760"
+          }
+        },
+        "text_VfFdk4": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Explore a curated selection of Shopify stores we've built - each designed to convert visitors into customers, drive sales, and support real business growth. These sites aren’t just pretty; they’re built for online success from day one.</p>",
+            "desktop_margin": 0,
+            "mobile_margin": 0,
+            "desktop_align": "center",
+            "mobile_align": "center",
+            "desktop_font_size": 18,
+            "mobile_font_size": 16,
+            "desktop_font_weight": "400",
+            "mobile_font_weight": "400",
+            "desktop_line_height": 1.2,
+            "mobile_line_height": 1.2,
+            "desktop_letter_spacing": 1,
+            "mobile_letter_spacing": 1,
+            "desktop_text_transform": "none",
+            "mobile_text_transform": "default",
+            "desktop_max_width": 1000,
+            "mobile_max_width": 1000,
+            "desktop_color": "#000000",
+            "mobile_color": "#000000"
+          }
+        }
+      },
+      "block_order": [
+        "text_E46V74",
+        "text_VfFdk4"
+      ],
+      "disabled": true,
+      "name": "Text List",
+      "settings": {
+        "bg_color": "#ffffff",
+        "desktop_padding_top": 60,
+        "desktop_padding_bottom": 40,
+        "mobile_padding_top": 40,
+        "mobile_padding_bottom": 30
+      }
+    },
+    "multi_image_list_slider_zE97CJ": {
+      "type": "multi--image-list-slider",
+      "blocks": {
+        "image_list_eckyx9": {
+          "type": "image_list",
+          "settings": {
+            "handle": 1,
+            "image": "shopify://shop_images/playfulpets-au-_2.png",
+            "link": ""
+          }
+        },
+        "image_list_aryFcW": {
+          "type": "image_list",
+          "settings": {
+            "handle": 1,
+            "image": "shopify://shop_images/swiftpayapp.png",
+            "link": ""
+          }
+        },
+        "image_list_KyXhW8": {
+          "type": "image_list",
+          "settings": {
+            "handle": 1,
+            "image": "shopify://shop_images/bbta-au.png",
+            "link": ""
+          }
+        },
+        "image_list_M3gBpQ": {
+          "type": "image_list",
+          "settings": {
+            "handle": 1,
+            "image": "shopify://shop_images/cgroupconstruction_com_au__4e39cb228d7b.png",
+            "link": ""
+          }
+        },
+        "image_list_wbgVNK": {
+          "type": "image_list",
+          "settings": {
+            "handle": 1,
+            "image": "shopify://shop_images/smeatonbathrooms_com_au__9495d37a1a71.png",
+            "link": "https://smeatonbathrooms.com.au/"
+          }
+        },
+        "image_list_WkXEAK": {
+          "type": "image_list",
+          "settings": {
+            "handle": 1,
+            "image": "shopify://shop_images/smeatonbathrooms_com_au___ab_0__fd_0__sc_1_preview_7b17f175a299.png",
+            "link": ""
+          }
+        },
+        "image_list_idVJ4F": {
+          "type": "image_list",
+          "settings": {
+            "handle": 1,
+            "image": "shopify://shop_images/elitedriveways-au.png",
+            "link": ""
+          }
+        },
+        "image_list_CMmVq9": {
+          "type": "image_list",
+          "settings": {
+            "handle": 2,
+            "image": "shopify://shop_images/eight83plumbing-au.png",
+            "link": ""
+          }
+        },
+        "image_list_FchFzB": {
+          "type": "image_list",
+          "settings": {
+            "handle": 2,
+            "image": "shopify://shop_images/quickfixplumber-au_b1f12873-a4ab-405a-9d26-ed7e8705e2df.png",
+            "link": ""
+          }
+        },
+        "breakpoint_46mjpr": {
+          "type": "breakpoint",
+          "settings": {
+            "min_width": 0,
+            "item_count": 1,
+            "gap": 10,
+            "image_aspect_ratio": 1.1
+          }
+        },
+        "breakpoint_z7gNKm": {
+          "type": "breakpoint",
+          "settings": {
+            "min_width": 425,
+            "item_count": 1.5,
+            "gap": 10,
+            "image_aspect_ratio": 0.8
+          }
+        },
+        "breakpoint_6GLPLD": {
+          "type": "breakpoint",
+          "settings": {
+            "min_width": 0,
+            "item_count": 2.1,
+            "gap": 10,
+            "image_aspect_ratio": 1.2
+          }
+        },
+        "breakpoint_Cfnixa": {
+          "type": "breakpoint",
+          "settings": {
+            "min_width": 900,
+            "item_count": 2.8,
+            "gap": 15,
+            "image_aspect_ratio": 0.5
+          }
+        },
+        "breakpoint_nEkwH8": {
+          "type": "breakpoint",
+          "settings": {
+            "min_width": 1024,
+            "item_count": 3.6,
+            "gap": 20,
+            "image_aspect_ratio": 0.5
+          }
+        },
+        "breakpoint_Dakag9": {
+          "type": "breakpoint",
+          "settings": {
+            "min_width": 1280,
+            "item_count": 4.2,
+            "gap": 24,
+            "image_aspect_ratio": 0.5
+          }
+        },
+        "breakpoint_c6QjXi": {
+          "type": "breakpoint",
+          "settings": {
+            "min_width": 1366,
+            "item_count": 4,
+            "gap": 30,
+            "image_aspect_ratio": 0.5
+          }
+        }
+      },
+      "block_order": [
+        "image_list_eckyx9",
+        "image_list_aryFcW",
+        "image_list_KyXhW8",
+        "image_list_M3gBpQ",
+        "image_list_wbgVNK",
+        "image_list_WkXEAK",
+        "image_list_idVJ4F",
+        "image_list_CMmVq9",
+        "image_list_FchFzB",
+        "breakpoint_46mjpr",
+        "breakpoint_z7gNKm",
+        "breakpoint_6GLPLD",
+        "breakpoint_Cfnixa",
+        "breakpoint_nEkwH8",
+        "breakpoint_Dakag9",
+        "breakpoint_c6QjXi"
+      ],
+      "disabled": true,
+      "name": "Multi Image List Slider",
+      "settings": {
+        "bg_color": "#ffffff",
+        "image_item_border_radius": 4,
+        "loadmore_btn_text": "Load More",
+        "loadmore_btn_bg_color": "#454545",
+        "loadmore_btn_text_color": "#ffffff",
+        "loadmore_btn_bg_color_hover": "#000000",
+        "loadmore_btn_text_color_hover": "#fafafa",
+        "loadmore_btn_border_radius": 7,
+        "slider_arrow_btn_bg_color": "#9f9f9f",
+        "slider_arrow_btn_text_color": "#ffffff",
+        "slider_arrow_btn_bg_color_hover": "#000000",
+        "slider_arrow_btn_text_color_hover": "#ffffff",
+        "slider_arrow_btn_border_radius": 100,
+        "desktop_padding_top": 0,
+        "desktop_padding_bottom": 60,
+        "mobile_padding_top": 0,
+        "mobile_padding_bottom": 40
+      }
+    },
+    "text_list_VeQkgV": {
+      "type": "text-list",
+      "blocks": {
+        "text_iELMnY": {
+          "type": "text",
+          "settings": {
+            "text": "<p>NUMBERS THAT BACK US</p>",
+            "desktop_margin": 40,
+            "mobile_margin": 28,
+            "desktop_align": "center",
+            "mobile_align": "center",
+            "desktop_font_size": 50,
+            "mobile_font_size": 22,
+            "desktop_font_weight": "600",
+            "mobile_font_weight": "600",
+            "desktop_line_height": 1.3,
+            "mobile_line_height": 1.2,
+            "desktop_letter_spacing": 0.3,
+            "mobile_letter_spacing": 0.7,
+            "desktop_text_transform": "none",
+            "mobile_text_transform": "default",
+            "desktop_max_width": 1000,
+            "mobile_max_width": 1000,
+            "desktop_color": "#000000",
+            "mobile_color": "#000000"
+          }
+        },
+        "text_eBjNbe": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We’ve helped businesses of all shapes and sizes across Australia grow online with clear, measurable results. If you're after no-fluff, performance-driven outcomes, get in touch - we’ll show you what smart digital work can really do.</p>",
+            "desktop_margin": 0,
+            "mobile_margin": 0,
+            "desktop_align": "center",
+            "mobile_align": "center",
+            "desktop_font_size": 18,
+            "mobile_font_size": 16,
+            "desktop_font_weight": "400",
+            "mobile_font_weight": "400",
+            "desktop_line_height": 1.3,
+            "mobile_line_height": 1.2,
+            "desktop_letter_spacing": 1,
+            "mobile_letter_spacing": 1,
+            "desktop_text_transform": "none",
+            "mobile_text_transform": "default",
+            "desktop_max_width": 1440,
+            "mobile_max_width": 1440,
+            "desktop_color": "#000000",
+            "mobile_color": "#000000"
+          }
+        }
+      },
+      "block_order": [
+        "text_iELMnY",
+        "text_eBjNbe"
+      ],
+      "disabled": true,
+      "name": "Text List",
+      "settings": {
+        "bg_color": "#ffffff",
+        "desktop_padding_top": 60,
+        "desktop_padding_bottom": 40,
+        "mobile_padding_top": 40,
+        "mobile_padding_bottom": 20
+      }
+    },
+    "score_grid_9YtCmi": {
+      "type": "score-grid",
+      "blocks": {
+        "score_item_9aiWT6": {
+          "type": "score_item",
+          "name": "Revenue Generated",
+          "settings": {
+            "score": 35,
+            "prefix_text": "$",
+            "suffix_text": "M+",
+            "score_text": "Revenue Generated"
+          }
+        },
+        "score_item_AL4qTU": {
+          "type": "score_item",
+          "name": "Sales Generated",
+          "settings": {
+            "score": 45000,
+            "prefix_text": "",
+            "suffix_text": "+",
+            "score_text": "Sales Generated"
+          }
+        },
+        "score_item_G4tQdr": {
+          "type": "score_item",
+          "name": "Leads Generated",
+          "settings": {
+            "score": 700,
+            "prefix_text": "",
+            "suffix_text": "+",
+            "score_text": "Leads Generated"
+          }
+        },
+        "score_item_McyEJk": {
+          "type": "score_item",
+          "name": "Ads Spend",
+          "settings": {
+            "score": 1.7,
+            "prefix_text": "$",
+            "suffix_text": "M+",
+            "score_text": "Ads Spend"
+          }
+        },
+        "score_item_iy6RJH": {
+          "type": "score_item",
+          "name": "Clients Engage",
+          "settings": {
+            "score": 100,
+            "prefix_text": "",
+            "suffix_text": "+",
+            "score_text": "Clients Engage"
+          }
+        },
+        "score_item_3LtFYk": {
+          "type": "score_item",
+          "name": "Team Members",
+          "settings": {
+            "score": 10,
+            "prefix_text": "",
+            "suffix_text": "+",
+            "score_text": "Team Members"
+          }
+        },
+        "score_item_cnFxqH": {
+          "type": "score_item",
+          "name": "Years of Experience",
+          "settings": {
+            "score": 5,
+            "prefix_text": "",
+            "suffix_text": "+",
+            "score_text": "Years of Experience"
+          }
+        },
+        "score_item_g64MTa": {
+          "type": "score_item",
+          "name": "Years of Business",
+          "settings": {
+            "score": 3,
+            "prefix_text": "",
+            "suffix_text": "+",
+            "score_text": "Years of Business"
+          }
+        },
+        "breakpoint_9KHkF3": {
+          "type": "breakpoint",
+          "settings": {
+            "max_width": 749,
+            "card_border_radius": 12,
+            "card_row_gap": 10,
+            "item_count": 2,
+            "row_gap": 20,
+            "col_gap": 10,
+            "score_font_size": 21,
+            "score_text_font_size": 16
+          }
+        },
+        "breakpoint_LxiYGi": {
+          "type": "breakpoint",
+          "settings": {
+            "max_width": 1023,
+            "card_border_radius": 15,
+            "card_row_gap": 15,
+            "item_count": 3,
+            "row_gap": 25,
+            "col_gap": 20,
+            "score_font_size": 36,
+            "score_text_font_size": 18
+          }
+        },
+        "breakpoint_apF6AV": {
+          "type": "breakpoint",
+          "settings": {
+            "max_width": 0,
+            "card_border_radius": 15,
+            "card_row_gap": 20,
+            "item_count": 4,
+            "row_gap": 25,
+            "col_gap": 30,
+            "score_font_size": 50,
+            "score_text_font_size": 20
+          }
+        }
+      },
+      "block_order": [
+        "score_item_9aiWT6",
+        "score_item_AL4qTU",
+        "score_item_G4tQdr",
+        "score_item_McyEJk",
+        "score_item_iy6RJH",
+        "score_item_3LtFYk",
+        "score_item_cnFxqH",
+        "score_item_g64MTa",
+        "breakpoint_9KHkF3",
+        "breakpoint_LxiYGi",
+        "breakpoint_apF6AV"
+      ],
+      "disabled": true,
+      "name": "Score Grid",
+      "settings": {
+        "bg_color": "#ffffff",
+        "card_bg_color": "#ffffff",
+        "card_border_color": "#e5e5e5",
+        "score_color": "#fdd328",
+        "score_text_color": "#000000",
+        "desktop_padding_top": 0,
+        "desktop_padding_bottom": 60,
+        "mobile_padding_top": 0,
+        "mobile_padding_bottom": 40
+      }
+    },
+    "text_list_zidnT7": {
+      "type": "text-list",
+      "blocks": {
+        "text_MTAixR": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Reviews & Testimonials</p>",
+            "desktop_margin": 20,
+            "mobile_margin": 16,
+            "desktop_align": "center",
+            "mobile_align": "center",
+            "desktop_font_size": 18,
+            "mobile_font_size": 16,
+            "desktop_font_weight": "600",
+            "mobile_font_weight": "600",
+            "desktop_line_height": 1.2,
+            "mobile_line_height": 1.2,
+            "desktop_letter_spacing": 1,
+            "mobile_letter_spacing": 1,
+            "desktop_text_transform": "uppercase",
+            "mobile_text_transform": "upper",
+            "desktop_max_width": 1000,
+            "mobile_max_width": 1000,
+            "desktop_color": "#121212",
+            "mobile_color": "#121212"
+          }
+        },
+        "text_MBaFDg": {
+          "type": "text",
+          "settings": {
+            "text": "<p>What Clients Say About Us?</p>",
+            "desktop_margin": 0,
+            "mobile_margin": 0,
+            "desktop_align": "center",
+            "mobile_align": "center",
+            "desktop_font_size": 50,
+            "mobile_font_size": 22,
+            "desktop_font_weight": "600",
+            "mobile_font_weight": "600",
+            "desktop_line_height": 1.2,
+            "mobile_line_height": 1.2,
+            "desktop_letter_spacing": 1,
+            "mobile_letter_spacing": 1,
+            "desktop_text_transform": "uppercase",
+            "mobile_text_transform": "upper",
+            "desktop_max_width": 1000,
+            "mobile_max_width": 1000,
+            "desktop_color": "#fdd328",
+            "mobile_color": "#fdd328"
+          }
+        }
+      },
+      "block_order": [
+        "text_MTAixR",
+        "text_MBaFDg"
+      ],
+      "disabled": true,
+      "name": "Text List",
+      "settings": {
+        "bg_color": "#ffffff",
+        "desktop_padding_top": 60,
+        "desktop_padding_bottom": 40,
+        "mobile_padding_top": 40,
+        "mobile_padding_bottom": 30
+      }
+    },
+    "custom_review_new_Bp63JF": {
+      "type": "custom-review-new",
+      "blocks": {
+        "review_items_RkQRAL": {
+          "type": "review_items",
+          "settings": {
+            "review_items": [
+              "review-summary",
+              "daniel-spata",
+              "sarah-johnson-1",
+              "sarah-johnson",
+              "klara-truden",
+              "adams",
+              "dave-sullivan",
+              "reshma-raghavani",
+              "xion-corp",
+              "garden-mc-victoria",
+              "andys-toybox",
+              "stools-r-us",
+              "playful-pets",
+              "smeaton-bathrooms",
+              "mattew-boynes",
+              "akur-aleer",
+              "brandon-ewing",
+              "lynette-labrooy",
+              "simon-krajacic",
+              "enrico-cittadino",
+              "antons-sapriko",
+              "brendan-mc-kernan"
+            ]
+          }
+        },
+        "breakpoint_UMRkMy": {
+          "type": "breakpoint",
+          "settings": {
+            "max_width": 424,
+            "item_count": 1,
+            "col_gap": 0,
+            "row_gap": 20,
+            "card_border_radius": 10
+          }
+        },
+        "breakpoint_XhjNYe": {
+          "type": "breakpoint",
+          "settings": {
+            "max_width": 749,
+            "item_count": 2,
+            "col_gap": 15,
+            "row_gap": 20,
+            "card_border_radius": 10
+          }
+        },
+        "breakpoint_ExWjai": {
+          "type": "breakpoint",
+          "settings": {
+            "max_width": 900,
+            "item_count": 3,
+            "col_gap": 15,
+            "row_gap": 20,
+            "card_border_radius": 10
+          }
+        },
+        "breakpoint_PMwB3w": {
+          "type": "breakpoint",
+          "settings": {
+            "max_width": 0,
+            "item_count": 4,
+            "col_gap": 20,
+            "row_gap": 25,
+            "card_border_radius": 10
+          }
+        }
+      },
+      "block_order": [
+        "review_items_RkQRAL",
+        "breakpoint_UMRkMy",
+        "breakpoint_XhjNYe",
+        "breakpoint_ExWjai",
+        "breakpoint_PMwB3w"
+      ],
+      "disabled": true,
+      "name": "Custom Review(new)",
+      "settings": {
+        "bg_color": "#ffffff",
+        "card_bg_color": "#ffffff",
+        "card_text_color": "#000000",
+        "card_border_color": "rgba(0,0,0,0)",
+        "card_shadow_color": "#000000",
+        "card_shadow_opacity": 28,
+        "shadow_x": 0,
+        "shadow_y": 0,
+        "shadow_blur": 10,
+        "shadow_spread": 0,
+        "max_height": 196,
+        "read_more_btn_text": "Read",
+        "read_more_btn_text_shown": "Hide",
+        "read_more_btn_color": "#000000",
+        "read_more_btn_color_hover": "#787878",
+        "link_btn_text": "FIND MORE OUT",
+        "link": "shopify://pages/contact",
+        "link_btn_bg_color": "#121212",
+        "link_btn_text_color": "#ffffff",
+        "link_btn_bg_color_hover": "#fdd328",
+        "link_btn_text_color_hover": "#121212",
+        "link_btn_border_radius": 100,
+        "link_btn_icon": "shopify://shop_images/rocket_5680648a-6c2e-46c0-b3a4-5a08858140c4.svg",
+        "link_btn_icon_hover": "shopify://shop_images/rocket.svg",
+        "desktop_padding_top": 0,
+        "desktop_padding_bottom": 60,
+        "mobile_padding_top": 0,
+        "mobile_padding_bottom": 40
+      }
+    },
+    "image_grid_nwzeK8": {
+      "type": "image-grid",
+      "blocks": {
+        "image_item_X8aLT8": {
+          "type": "image_item",
+          "settings": {
+            "image": "shopify://shop_images/luxaroma-logo-img.webp",
+            "image_link": ""
+          }
+        },
+        "image_item_E7tdwn": {
+          "type": "image_item",
+          "settings": {
+            "image": "shopify://shop_images/eroma-logo-img.webp",
+            "image_link": ""
+          }
+        },
+        "image_item_XrF97F": {
+          "type": "image_item",
+          "settings": {
+            "image": "shopify://shop_images/vitamin-outlet-logo-img.webp",
+            "image_link": ""
+          }
+        },
+        "image_item_HbWH99": {
+          "type": "image_item",
+          "settings": {
+            "image": "shopify://shop_images/Clinet-Logo-72.png",
+            "image_link": ""
+          }
+        },
+        "image_item_LahhGQ": {
+          "type": "image_item",
+          "settings": {
+            "image": "shopify://shop_images/Clinet-Logo-58.png",
+            "image_link": ""
+          }
+        },
+        "image_item_7BDKct": {
+          "type": "image_item",
+          "settings": {
+            "image": "shopify://shop_images/Clinet-Logo-54.png",
+            "image_link": ""
+          }
+        },
+        "image_item_gXHNNK": {
+          "type": "image_item",
+          "settings": {
+            "image": "shopify://shop_images/Clinet-Logo-38.png",
+            "image_link": ""
+          }
+        },
+        "image_item_kXtPQK": {
+          "type": "image_item",
+          "settings": {
+            "image": "shopify://shop_images/Clinet-Logo-44.png",
+            "image_link": ""
+          }
+        },
+        "image_item_iyKmJG": {
+          "type": "image_item",
+          "settings": {
+            "image": "shopify://shop_images/Clinet-Logo-21.png",
+            "image_link": ""
+          }
+        },
+        "image_item_nyVFY8": {
+          "type": "image_item",
+          "settings": {
+            "image": "shopify://shop_images/Clinet-Logo-49.png",
+            "image_link": ""
+          }
+        },
+        "image_item_wNCbDW": {
+          "type": "image_item",
+          "settings": {
+            "image": "shopify://shop_images/Clinet-Logo-62.png",
+            "image_link": ""
+          }
+        },
+        "image_item_K3VhpK": {
+          "type": "image_item",
+          "settings": {
+            "image": "shopify://shop_images/Clinet-Logo-45.png",
+            "image_link": ""
+          }
+        },
+        "image_item_YrNLWe": {
+          "type": "image_item",
+          "settings": {
+            "image": "shopify://shop_images/Client-Logo-16.png",
+            "image_link": ""
+          }
+        },
+        "image_item_YrcBwG": {
+          "type": "image_item",
+          "settings": {
+            "image": "shopify://shop_images/Clinet-Logo-33.png",
+            "image_link": "#"
+          }
+        },
+        "breakpoint_dFNEn7": {
+          "type": "breakpoint",
+          "settings": {
+            "max_width": 424,
+            "item_count": 2,
+            "col_gap": 20,
+            "row_gap": 30
+          }
+        },
+        "breakpoint_xbeKnL": {
+          "type": "breakpoint",
+          "settings": {
+            "max_width": 749,
+            "item_count": 3,
+            "col_gap": 20,
+            "row_gap": 30
+          }
+        },
+        "breakpoint_qrBQVN": {
+          "type": "breakpoint",
+          "settings": {
+            "max_width": 1023,
+            "item_count": 4,
+            "col_gap": 20,
+            "row_gap": 30
+          }
+        },
+        "breakpoint_gR6QyE": {
+          "type": "breakpoint",
+          "settings": {
+            "max_width": 0,
+            "item_count": 7,
+            "col_gap": 15,
+            "row_gap": 30
+          }
+        }
+      },
+      "block_order": [
+        "image_item_X8aLT8",
+        "image_item_E7tdwn",
+        "image_item_XrF97F",
+        "image_item_HbWH99",
+        "image_item_LahhGQ",
+        "image_item_7BDKct",
+        "image_item_gXHNNK",
+        "image_item_kXtPQK",
+        "image_item_iyKmJG",
+        "image_item_nyVFY8",
+        "image_item_wNCbDW",
+        "image_item_K3VhpK",
+        "image_item_YrNLWe",
+        "image_item_YrcBwG",
+        "breakpoint_dFNEn7",
+        "breakpoint_xbeKnL",
+        "breakpoint_qrBQVN",
+        "breakpoint_gR6QyE"
+      ],
+      "disabled": true,
+      "name": "Image Grid",
+      "settings": {
+        "bg_color": "#ffffff",
+        "heading": "BIG OR SMALL, []",
+        "secondary_heading": "FAST GROWTH",
+        "description": "We work with businesses of all sizes and industries across Australia. If you're after clear, honest, and measurable results online, reach out to An Agency and see how we can support your goals.",
+        "heading_color": "#121212",
+        "secondary_heading_color": "#fdd328",
+        "description_color": "#000000",
+        "text_max_width": 1000,
+        "link_btn_text": "FIND MORE OUT",
+        "link": "shopify://pages/contact",
+        "link_btn_bg_color": "#121212",
+        "link_btn_text_color": "#ffffff",
+        "link_btn_bg_color_hover": "#fdd328",
+        "link_btn_text_color_hover": "#121212",
+        "link_btn_border_radius": 100,
+        "link_btn_icon": "shopify://shop_images/rocket_5680648a-6c2e-46c0-b3a4-5a08858140c4.svg",
+        "link_btn_icon_hover": "shopify://shop_images/rocket.svg",
+        "desktop_padding_top": 80,
+        "desktop_padding_bottom": 80,
+        "mobile_padding_top": 50,
+        "mobile_padding_bottom": 50
+      }
+    },
+    "advertise_PAQGf7": {
+      "type": "advertise",
+      "settings": {
+        "key": "",
+        "loop_video": true,
+        "autoplay_video": true,
+        "main_image": "shopify://shop_images/AnAgencyShopifyWebsite05.png",
+        "media_border_radius": 0,
+        "media_border_width": 0,
+        "media_border_color": "#000000",
+        "secondary_image_roate_angle": -64,
+        "desktop_left": -80,
+        "desktop_top": -1,
+        "desktop_right": -1,
+        "desktop_bottom": 82,
+        "mobile_left": 0,
+        "mobile_top": -1,
+        "mobile_right": -1,
+        "mobile_bottom": -30,
+        "heading": "How We Migrate Your Store (3-Step Process)",
+        "sub_heading": "Step 1: Strategy & Audit",
+        "text": "<p>We run a deep-dive technical audit of your current store (Magento, WooCommerce, BigCommerce, or Salesforce), then map your ideal Shopify Plus setup. From multi-currency requirements to custom fields, we capture it all.</p><p></p>",
+        "button_link": "#",
+        "button_text": "",
+        "image_right": false,
+        "text_align": "left",
+        "background_color": "#fbfbfb",
+        "desktop_padding_top": 60,
+        "desktop_padding_bottom": 60,
+        "mobile_padding_top": 40,
+        "mobile_padding_bottom": 40
+      }
+    },
+    "advertise_DnFdqE": {
+      "type": "advertise",
+      "settings": {
+        "key": "",
+        "loop_video": true,
+        "autoplay_video": true,
+        "main_image": "shopify://shop_images/AnAgencyShopifyWebsite07.png",
+        "media_border_radius": 0,
+        "media_border_width": 0,
+        "media_border_color": "#000000",
+        "secondary_image_roate_angle": 12,
+        "desktop_left": -1,
+        "desktop_top": -1,
+        "desktop_right": -1,
+        "desktop_bottom": -1,
+        "mobile_left": -1,
+        "mobile_top": -1,
+        "mobile_right": -1,
+        "mobile_bottom": -1,
+        "heading": "",
+        "sub_heading": "Step 2: Design & Migration",
+        "text": "<p>We rebuild your store’s frontend using a clean, high-performance Shopify Plus theme, with improvements where it counts. All data (orders, products, customers, pages) is migrated, mapped, and tested. Apps and integrations are reconnected or improved.</p><p></p>",
+        "button_link": "",
+        "button_text": "",
+        "image_right": true,
+        "text_align": "left",
+        "background_color": "#ffffff",
+        "desktop_padding_top": 60,
+        "desktop_padding_bottom": 60,
+        "mobile_padding_top": 40,
+        "mobile_padding_bottom": 40
+      }
+    },
+    "advertise_JebRqW": {
+      "type": "advertise",
+      "settings": {
+        "key": "",
+        "loop_video": true,
+        "autoplay_video": true,
+        "main_image": "shopify://shop_images/AnAgencyShopifyWebsite08.png",
+        "media_border_radius": 0,
+        "media_border_width": 0,
+        "media_border_color": "#000000",
+        "secondary_image_roate_angle": -52,
+        "desktop_left": -1,
+        "desktop_top": 160,
+        "desktop_right": -90,
+        "desktop_bottom": -1,
+        "mobile_left": -1,
+        "mobile_top": -25,
+        "mobile_right": 0,
+        "mobile_bottom": -1,
+        "heading": "",
+        "sub_heading": "Step 3: QA, Training & Launch",
+        "text": "<p>Once migrated, we test every function across desktop and mobile. You’ll get full admin training and 90 days of support post-launch. If any bugs appear or changes are needed, we’re here, no ticketing systems, no overseas support lines.</p><p></p>",
+        "button_link": "shopify://pages/contact",
+        "button_text": "Get Your Shopify Store Built →",
+        "image_right": false,
+        "text_align": "left",
+        "background_color": "#fbfbfb",
+        "desktop_padding_top": 60,
+        "desktop_padding_bottom": 60,
+        "mobile_padding_top": 40,
+        "mobile_padding_bottom": 40
+      }
+    },
+    "advertise_qQYPyj": {
+      "type": "advertise",
+      "settings": {
+        "key": "",
+        "loop_video": true,
+        "autoplay_video": true,
+        "main_image": "shopify://shop_images/AnAgencyShopifyWebsite09.png",
+        "media_border_radius": 0,
+        "media_border_width": 0,
+        "media_border_color": "#000000",
+        "secondary_image_roate_angle": 0,
+        "desktop_left": -1,
+        "desktop_top": 160,
+        "desktop_right": -90,
+        "desktop_bottom": -1,
+        "mobile_left": -1,
+        "mobile_top": -25,
+        "mobile_right": 0,
+        "mobile_bottom": -1,
+        "heading": "Why Choose Us",
+        "sub_heading": "We Actually Run eCommerce Stores",
+        "text": "<p>Most migration agencies outsource overseas. We don’t. Every line of code, every integration, every pixel built in-house by our local team. We know the quirks of platforms like <strong>Magento</strong>, <strong>WooCommerce</strong>, and <strong>BigCommerce</strong>, and we don’t just migrate. We <strong>improve</strong>.</p><p>Our goal isn’t just to move your store — it’s to <strong>rebuild it stronger</strong>, faster, and better suited for scale on Shopify Plus.</p><p>You’ll work with <strong>certified Shopify Plus experts in Australia</strong>, backed by 380+ store builds and a stack of real-world growth results. If you're looking for a <strong>Shopify Plus agency that gets it done without the fuss</strong>, that’s us.</p>",
+        "button_link": "shopify://pages/contact",
+        "button_text": "Let’s Talk Shopify →",
+        "image_right": false,
+        "text_align": "left",
+        "background_color": "#ffffff",
+        "desktop_padding_top": 60,
+        "desktop_padding_bottom": 60,
+        "mobile_padding_top": 40,
+        "mobile_padding_bottom": 40
+      }
+    },
+    "trust_Q37M3R": {
+      "type": "trust",
+      "blocks": {
+        "trust_item_KtaqTQ": {
+          "type": "trust_item",
+          "settings": {
+            "heading": "Fashion & Apparel",
+            "main_text": "<p>High-converting product pages, seamless checkout.</p><p></p>",
+            "button_text": "",
+            "additional_text": "",
+            "accordion_image": "shopify://shop_images/yellow-arrow.svg"
+          }
+        },
+        "trust_item_YFytD9": {
+          "type": "trust_item",
+          "settings": {
+            "heading": "We get you, mate",
+            "main_text": "<p>Our website packages are built specifically for Aussie tradies. We know the industry, we know your market, and we know what makes customers pick up the phone.</p><p></p>",
+            "button_text": "Read More",
+            "additional_text": "<p>…Your best clients want to see a business that looks professional, with clear information and high-quality visuals. We make sure your website ticks all the right boxes. With decades of experience building sites for tradies, we know what works.</p>",
+            "accordion_image": "shopify://shop_images/yellow-arrow.svg"
+          }
+        },
+        "trust_item_JfVUzV": {
+          "type": "trust_item",
+          "settings": {
+            "heading": "100% Aussie",
+            "main_text": "<p>We’re proudly Australian-owned and operated, working exclusively with local businesses. We believe in keeping it local and supporting Aussie tradies.</p><p></p>",
+            "button_text": "Read More",
+            "additional_text": "<p>…An Agency handles everything—design, content, and site upkeep—so you don’t have to stress. Your website will be built specifically for your trade, industry, and the local market.</p><p>We’ll create a site that looks great, is easy to use, and is optimised to rank high in search results—so more customers find you and reach out for a quote.</p>",
+            "accordion_image": "shopify://shop_images/yellow-arrow.svg"
+          }
+        }
+      },
+      "block_order": [
+        "trust_item_KtaqTQ",
+        "trust_item_YFytD9",
+        "trust_item_JfVUzV"
+      ],
+      "disabled": true,
+      "settings": {
+        "heading": "Who’s This For?",
+        "text": "<p>Who’s This For?If you’re serious about growing your eCommerce business, you need a store that’s built right.</p>",
+        "trust_image": "shopify://shop_images/review-bar-green.svg",
+        "desktop_padding_top": 60,
+        "desktop_padding_bottom": 60,
+        "mobile_padding_top": 40,
+        "mobile_padding_bottom": 40
+      }
+    },
+    "advertise_6VLxp7": {
+      "type": "advertise",
+      "settings": {
+        "key": "",
+        "loop_video": true,
+        "autoplay_video": true,
+        "main_image": "shopify://shop_images/GoogleAds_09.jpg",
+        "secondary_image": "shopify://shop_images/this-could-be-you_86b78ffa-fae9-4fc7-9bda-3b42602401a5.svg",
+        "media_border_radius": 0,
+        "media_border_width": 0,
+        "media_border_color": "#000000",
+        "secondary_image_roate_angle": 16,
+        "desktop_left": -1,
+        "desktop_top": 146,
+        "desktop_right": 344,
+        "desktop_bottom": -1,
+        "mobile_left": 0,
+        "mobile_top": -25,
+        "mobile_right": 0,
+        "mobile_bottom": -1,
+        "heading": "Price & Guarantee",
+        "sub_heading": "A$15,500. No surprises.",
+        "text": "<p>Our Shopify Plus migrations start from <strong>A$15,500</strong>, fully custom quoted based on your site’s complexity, integrations, and data structure. Unlike agencies charging $30K+ for the same scope, we keep it lean, local, and laser-focused on conversion.</p><p><strong>✔ 90-day Priority Support</strong> after launch<br/><strong>✔ 1-Year Theme Warranty</strong> — we fix any bugs, no charge<br/><strong>✔ Fixed-Fee Confidence</strong> — no hidden scope creep</p><p></p>",
+        "button_link": "shopify://pages/contact",
+        "button_text": "Book a Free Chat →",
+        "image_right": true,
+        "text_align": "left",
+        "background_color": "#ffffff",
+        "desktop_padding_top": 60,
+        "desktop_padding_bottom": 60,
+        "mobile_padding_top": 40,
+        "mobile_padding_bottom": 40
+      }
+    },
+    "advertise_fqXC4G": {
+      "type": "advertise",
+      "settings": {
+        "key": "",
+        "loop_video": true,
+        "autoplay_video": true,
+        "main_image": "shopify://shop_images/GoogleAds_09.jpg",
+        "secondary_image": "shopify://shop_images/this-could-be-you_86b78ffa-fae9-4fc7-9bda-3b42602401a5.svg",
+        "media_border_radius": 0,
+        "media_border_width": 0,
+        "media_border_color": "#000000",
+        "secondary_image_roate_angle": 16,
+        "desktop_left": -1,
+        "desktop_top": 146,
+        "desktop_right": 344,
+        "desktop_bottom": -1,
+        "mobile_left": 0,
+        "mobile_top": -25,
+        "mobile_right": 0,
+        "mobile_bottom": -1,
+        "heading": "Need to Migrate to Shopify Plus?",
+        "sub_heading": "Let’s get it sorted.",
+        "text": "<p>Whether you’re stuck with slow page speeds on WooCommerce, clunky workflows in Magento, or limited functionality on BigCommerce - we’ll map out a <strong>clean, strategic migration</strong> to Shopify Plus with zero fluff.</p><p>You’ll walk away with:</p><ul><li>A lightning-fast, mobile-optimised Shopify Plus store</li><li>Improved UX and conversion flow</li><li>Consolidated apps and simplified backend management</li><li>Fully retained SEO and historical data (products, orders, customers)</li></ul>",
+        "button_link": "shopify://pages/contact",
+        "button_text": "Book a Free Chat →",
+        "image_right": false,
+        "text_align": "left",
+        "background_color": "#ffffff",
+        "desktop_padding_top": 60,
+        "desktop_padding_bottom": 60,
+        "mobile_padding_top": 40,
+        "mobile_padding_bottom": 40
+      }
+    },
+    "tradies_D9qHzj": {
+      "type": "Tradies",
+      "blocks": {
+        "tradies_item_YQarCg": {
+          "type": "tradies-item",
+          "settings": {
+            "image": "shopify://shop_images/AnAgencyOurWork07.png",
+            "detail_info_heading": "Sporting",
+            "detail_info_text": "<p><br/></p><p></p><p></p>",
+            "icon": "shopify://shop_images/plus_1.png",
+            "detail_button_link": "shopify://pages/our-work",
+            "detail_button_text": "See Our Shopify Stores →"
+          }
+        },
+        "tradies_item_TMkHRR": {
+          "type": "tradies-item",
+          "settings": {
+            "image": "shopify://shop_images/AnAgencyOurWork12.png",
+            "detail_info_heading": "Bathroom Supplies",
+            "detail_info_text": "<p></p><p></p><p></p>",
+            "icon": "shopify://shop_images/plus_1.png",
+            "detail_button_link": "shopify://pages/our-work",
+            "detail_button_text": "See Our Shopify Stores →"
+          }
+        },
+        "tradies_item_yT7wgX": {
+          "type": "tradies-item",
+          "settings": {
+            "image": "shopify://shop_images/AnAgencyOurWork11.png",
+            "detail_info_heading": "Furniture",
+            "detail_info_text": "<p></p><p></p><p></p>",
+            "icon": "shopify://shop_images/plus_1.png",
+            "detail_button_link": "shopify://pages/our-work",
+            "detail_button_text": "See Our Shopify Stores →"
+          }
+        },
+        "tradies_item_X3Db9y": {
+          "type": "tradies-item",
+          "settings": {
+            "image": "shopify://shop_images/AnAgencyOurWork10.png",
+            "detail_info_heading": "Pets",
+            "detail_info_text": "<p></p><p></p><p></p><p></p>",
+            "icon": "shopify://shop_images/plus_1.png",
+            "detail_button_link": "shopify://pages/our-work",
+            "detail_button_text": "See Our Shopify Stores →"
+          }
+        },
+        "tradies_item_6qHYz4": {
+          "type": "tradies-item",
+          "settings": {
+            "image": "shopify://shop_images/AnAgencyOurWork09.png",
+            "detail_info_heading": "Kids Toys",
+            "detail_info_text": "<p></p><p></p><p></p>",
+            "icon": "shopify://shop_images/plus_1.png",
+            "detail_button_link": "shopify://pages/our-work",
+            "detail_button_text": "See Our Shopify Stores →"
+          }
+        },
+        "tradies_item_tDB4YR": {
+          "type": "tradies-item",
+          "settings": {
+            "image": "shopify://shop_images/AnAgencyOurWork08.png",
+            "detail_info_heading": "Home Luxury",
+            "detail_info_text": "<p></p><p></p><p></p>",
+            "icon": "shopify://shop_images/plus_1.png",
+            "detail_button_link": "shopify://pages/our-work",
+            "detail_button_text": "See Our Shopify Stores →"
+          }
+        }
+      },
+      "block_order": [
+        "tradies_item_YQarCg",
+        "tradies_item_TMkHRR",
+        "tradies_item_yT7wgX",
+        "tradies_item_X3Db9y",
+        "tradies_item_6qHYz4",
+        "tradies_item_tDB4YR"
+      ],
+      "settings": {
+        "heading": "Who’s This For?",
+        "text": "If you’re serious about growing your eCommerce business, you need a store that’s built right.",
+        "desktop_padding_top": 60,
+        "desktop_padding_bottom": 60,
+        "mobile_padding_top": 40,
+        "mobile_padding_bottom": 40
+      }
+    },
+    "faq_cYAhKJ": {
+      "type": "faq",
+      "blocks": {
+        "faq_item_rrnAHz": {
+          "type": "faq_item",
+          "settings": {
+            "question": "How long does a Shopify Plus migration take?",
+            "answer": "<p>Most projects are completed in <strong>4–6 weeks</strong>, depending on the size of your store and platform complexity. We’ll give you a clear timeline before we begin.</p><p></p>",
+            "icon": "shopify://shop_images/plus_1.png"
+          }
+        },
+        "faq_item_AdgFRX": {
+          "type": "faq_item",
+          "settings": {
+            "question": "Do I lose my existing SEO or Google rankings during migration?",
+            "answer": "<p>No. We preserve your SEO structure by redirecting old URLs to new ones using Shopify best practices. We also transfer all meta titles, descriptions, and alt text.</p><p></p>",
+            "icon": "shopify://shop_images/plus_1.png"
+          }
+        },
+        "faq_item_E6VP9h": {
+          "type": "faq_item",
+          "settings": {
+            "question": "Can you migrate from Salesforce Commerce Cloud to Shopify Plus?",
+            "answer": "<p>Yes. We’ve handled complex migrations from Salesforce, including product variants, customer data, and legacy integrations.</p><p></p>",
+            "icon": "shopify://shop_images/plus_1.png"
+          }
+        },
+        "faq_item_QBr3LB": {
+          "type": "faq_item",
+          "settings": {
+            "question": "Do you handle Shopify Plus internationalisation?",
+            "answer": "<p>Absolutely. If you’re planning a multi-region store (currencies, languages, subdomains), we can configure Shopify Markets or create custom setups depending on your growth plans.</p><p></p>",
+            "icon": "shopify://shop_images/plus_1.png"
+          }
+        },
+        "faq_item_Ti7hUf": {
+          "type": "faq_item",
+          "settings": {
+            "question": "Can you migrate apps and third-party tools?",
+            "answer": "<p>Yes. We’ll recommend Shopify-native apps to replace bloated third-party tools where possible, improving site speed and admin flow.</p><p></p>",
+            "icon": "shopify://shop_images/plus_1.png"
+          }
+        },
+        "faq_item_tJxanT": {
+          "type": "faq_item",
+          "settings": {
+            "question": "Do you work with agencies or in-house marketing teams?",
+            "answer": "<p>Yes. We can white-label or work collaboratively with your internal devs or marketers. You’ll get a dedicated migration lead to keep things smooth.</p><p></p>",
+            "icon": "shopify://shop_images/plus_1.png"
+          }
+        },
+        "faq_item_3rBLY7": {
+          "type": "faq_item",
+          "settings": {
+            "question": "What if I have a massive product catalogue or custom fields?",
+            "answer": "<p>We handle <strong>bulk product migrations</strong> via CSV, JSON, or API. Custom fields and metafields are rebuilt properly in Shopify Plus. We don’t cut corners.</p><p></p>",
+            "icon": "shopify://shop_images/plus_1.png"
+          }
+        },
+        "faq_item_niNjJM": {
+          "type": "faq_item",
+          "settings": {
+            "question": "Do you offer post-launch support or training?",
+            "answer": "<p>Yes. Every Shopify Plus migration comes with <strong>90 days of priority support</strong>, admin training, and a 1-year theme warranty.</p><p></p>",
+            "icon": "shopify://shop_images/plus_1.png"
+          }
+        },
+        "faq_item_PYrdjE": {
+          "type": "faq_item",
+          "settings": {
+            "question": "How do you compare to other Shopify Plus migration agencies?",
+            "answer": "<p>Many agencies start at $25K–$30K+. Our pricing starts from <strong>A$15,500</strong>, and we build <strong>100% in-house</strong> with faster delivery and local support.</p><p></p>",
+            "icon": "shopify://shop_images/plus_1.png"
+          }
+        },
+        "faq_item_pGAqqF": {
+          "type": "faq_item",
+          "settings": {
+            "question": "Can you redesign our site as part of the migration?",
+            "answer": "<p>Yes. We’ll rebuild your frontend for Shopify Plus with speed, UX, and conversions in mind - not just replicate your old store.</p>",
+            "icon": "shopify://shop_images/plus_1.png"
+          }
+        }
+      },
+      "block_order": [
+        "faq_item_rrnAHz",
+        "faq_item_AdgFRX",
+        "faq_item_E6VP9h",
+        "faq_item_QBr3LB",
+        "faq_item_Ti7hUf",
+        "faq_item_tJxanT",
+        "faq_item_3rBLY7",
+        "faq_item_niNjJM",
+        "faq_item_PYrdjE",
+        "faq_item_pGAqqF"
+      ],
+      "settings": {
+        "heading": "Shopify Plus Migration FAQ",
+        "bg_color": "#fbfbfb",
+        "max_width": 684,
+        "desktop_padding_top": 60,
+        "desktop_padding_bottom": 60,
+        "mobile_padding_top": 40,
+        "mobile_padding_bottom": 40
+      }
+    },
+    "partner_with_U86NgH": {
+      "type": "partner-with",
+      "blocks": {
+        "partner_item_Am8rMX": {
+          "type": "partner_item",
+          "settings": {
+            "image": "shopify://shop_images/shopify-partner-logo.jpg",
+            "link": "#"
+          }
+        },
+        "partner_item_gQr6pr": {
+          "type": "partner_item",
+          "settings": {
+            "image": "shopify://shop_images/google_partner.png",
+            "link": ""
+          }
+        },
+        "partner_item_gizEVP": {
+          "type": "partner_item",
+          "settings": {
+            "image": "shopify://shop_images/tiktokpartners.webp",
+            "link": ""
+          }
+        },
+        "partner_item_peizWL": {
+          "type": "partner_item",
+          "settings": {
+            "image": "shopify://shop_images/servicem8-partner.webp",
+            "link": ""
+          }
+        },
+        "partner_item_ppj4Q9": {
+          "type": "partner_item",
+          "settings": {
+            "image": "shopify://shop_images/meta-for-business-partner.webp",
+            "link": ""
+          }
+        },
+        "partner_item_nMMzBY": {
+          "type": "partner_item",
+          "settings": {
+            "image": "shopify://shop_images/bingads.png",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "partner_item_Am8rMX",
+        "partner_item_gQr6pr",
+        "partner_item_gizEVP",
+        "partner_item_peizWL",
+        "partner_item_ppj4Q9",
+        "partner_item_nMMzBY"
+      ],
+      "settings": {
+        "heading": "Partnered With",
+        "bg_color": "#ffffff",
+        "desktop_card_border_radius": 10,
+        "mobile_card_border_radius": 6,
+        "desktop_padding_top": 30,
+        "desktop_padding_bottom": 30,
+        "mobile_padding_top": 30,
+        "mobile_padding_bottom": 30
+      }
+    },
+    "marketing_focus_zYMyt8": {
+      "type": "marketing-focus",
+      "name": "Marketing Focus Section",
+      "settings": {
+        "key": "",
+        "logo_image": "shopify://shop_images/04.jpg",
+        "headline": "We Know Shopify & Sales Funnels (Inside Out)",
+        "sub_text": "Your store should be converting. We’ll fix the funnel, speed things up, and bring in better customers.",
+        "button_text": "Request a Quote",
+        "button_link": "shopify://pages/contact",
+        "desktop_padding_top": 40,
+        "desktop_padding_bottom": 40,
+        "mobile_padding_top": 30,
+        "mobile_padding_bottom": 30
+      }
+    }
+  },
+  "order": [
+    "advertise_xMT9mA",
+    "advertise_HPp6jH",
+    "phone_ring_MzFcJr",
+    "advertise_KLNL33",
+    "text_list_MNPzdp",
+    "multi_image_list_slider_zE97CJ",
+    "text_list_VeQkgV",
+    "score_grid_9YtCmi",
+    "text_list_zidnT7",
+    "custom_review_new_Bp63JF",
+    "image_grid_nwzeK8",
+    "advertise_PAQGf7",
+    "advertise_DnFdqE",
+    "advertise_JebRqW",
+    "advertise_qQYPyj",
+    "trust_Q37M3R",
+    "advertise_6VLxp7",
+    "advertise_fqXC4G",
+    "tradies_D9qHzj",
+    "faq_cYAhKJ",
+    "partner_with_U86NgH",
+    "marketing_focus_zYMyt8"
+  ]
+}

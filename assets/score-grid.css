@@ -1,0 +1,17 @@
+.shopify-section-slg {
+	display: flex;
+	flex-wrap: wrap;
+}
+.shopify-section-slg .score-item {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+	padding: 20px;
+}
+.shopify-section-slg .score-item * {
+	margin: 0px;
+	font-weight: 600;
+	line-height: 1.2;
+}

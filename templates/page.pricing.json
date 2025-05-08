@@ -109,6 +109,7 @@
           "name": "Shopify Pricing Item",
           "settings": {
             "handle_number": 1,
+            "id": "shopify-lanuch",
             "icon": "shopify://shop_images/logo_8676fd03-d3d9-496f-bc2c-f1b1a9fd3c18.svg",
             "heading": "Launch",
             "sub_heading": "Shopify Design & Development",
@@ -141,6 +142,7 @@
           "name": "Shopify Pricing Item",
           "settings": {
             "handle_number": 1,
+            "id": "shopify-growth",
             "icon": "shopify://shop_images/logo_8676fd03-d3d9-496f-bc2c-f1b1a9fd3c18.svg",
             "heading": "Growth",
             "sub_heading": "Shopify Design & Development",
@@ -173,6 +175,7 @@
           "name": "Shopify Pricing Item",
           "settings": {
             "handle_number": 1,
+            "id": "shopify-enterprise",
             "icon": "shopify://shop_images/logo_8676fd03-d3d9-496f-bc2c-f1b1a9fd3c18.svg",
             "heading": "Enterprise",
             "sub_heading": "Custom Shopify Plus Store with Support",
@@ -205,6 +208,7 @@
           "name": "Service Pricing Item",
           "settings": {
             "handle_number": 2,
+            "id": "service-lanuch",
             "icon": "shopify://shop_images/logo-variation-3.png",
             "heading": "Launch",
             "sub_heading": "Service Website Design & Build",
@@ -237,6 +241,7 @@
           "name": "Service Pricing Item",
           "settings": {
             "handle_number": 2,
+            "id": "service-lanuch",
             "icon": "shopify://shop_images/logo-variation-3.png",
             "heading": "Growth",
             "sub_heading": "Service Website Design & Build",
@@ -269,6 +274,7 @@
           "name": "Service Pricing Item",
           "settings": {
             "handle_number": 2,
+            "id": "service-enterprise",
             "icon": "shopify://shop_images/logo-variation-3.png",
             "heading": "Enterprise",
             "sub_heading": "Advanced Build for Service Businesses",
@@ -301,6 +307,7 @@
           "name": "Marketing Pricing Item",
           "settings": {
             "handle_number": 3,
+            "id": "marketing-launch",
             "icon": "shopify://shop_images/logo-variation-3.png",
             "heading": "Launch",
             "sub_heading": "Run your first profitable ad campaigns without the guesswork.",
@@ -333,6 +340,7 @@
           "name": "Marketing Pricing Item",
           "settings": {
             "handle_number": 3,
+            "id": "marketing-growth",
             "icon": "shopify://shop_images/logo-variation-3.png",
             "heading": "Growth",
             "sub_heading": "Scale your brand across two major platforms with smarter strategies.",
@@ -365,6 +373,7 @@
           "name": "Marketing Pricing Item",
           "settings": {
             "handle_number": 3,
+            "id": "marketing-enterprise",
             "icon": "shopify://shop_images/logo-variation-3.png",
             "heading": "Enterprise",
             "sub_heading": "Dominate your industry with full-funnel, multi-channel ad campaigns.",
@@ -397,6 +406,7 @@
           "name": "Branding Pricing Item",
           "settings": {
             "handle_number": 4,
+            "id": "brand-launch",
             "icon": "shopify://shop_images/logo-variation-3.png",
             "heading": "Launch",
             "sub_heading": "Branding Package",
@@ -429,6 +439,7 @@
           "name": "Branding Pricing Item",
           "settings": {
             "handle_number": 4,
+            "id": "brand-growth",
             "icon": "shopify://shop_images/logo-variation-3.png",
             "heading": "Growth",
             "sub_heading": "Branding Package",
@@ -461,6 +472,7 @@
           "name": "Branding Pricing Item",
           "settings": {
             "handle_number": 4,
+            "id": "brand-enterprise",
             "icon": "shopify://shop_images/logo-variation-3.png",
             "heading": "Enterprise",
             "sub_heading": "Branding Package",
@@ -487,6 +499,46 @@
             "mark_border_radius": 0,
             "tip_border_radius": 0
           }
+        },
+        "breakpoint_GYdq76": {
+          "type": "breakpoint",
+          "settings": {
+            "min_width": 0,
+            "item_count": 1,
+            "gap": 10
+          }
+        },
+        "breakpoint_axwF7a": {
+          "type": "breakpoint",
+          "settings": {
+            "min_width": 425,
+            "item_count": 1.5,
+            "gap": 10
+          }
+        },
+        "breakpoint_TLpDfh": {
+          "type": "breakpoint",
+          "settings": {
+            "min_width": 768,
+            "item_count": 2,
+            "gap": 10
+          }
+        },
+        "breakpoint_XLhMfg": {
+          "type": "breakpoint",
+          "settings": {
+            "min_width": 900,
+            "item_count": 2.5,
+            "gap": 10
+          }
+        },
+        "breakpoint_JR7YcG": {
+          "type": "breakpoint",
+          "settings": {
+            "min_width": 1024,
+            "item_count": 3,
+            "gap": 10
+          }
         }
       },
       "block_order": [
@@ -505,7 +557,12 @@
         "pricing_item_4PhrtT",
         "pricing_item_4HaEyq",
         "pricing_item_cQk88x",
-        "pricing_item_tVgnXg"
+        "pricing_item_tVgnXg",
+        "breakpoint_GYdq76",
+        "breakpoint_axwF7a",
+        "breakpoint_TLpDfh",
+        "breakpoint_XLhMfg",
+        "breakpoint_JR7YcG"
       ],
       "settings": {
         "bg_color": "#ffffff",
@@ -513,8 +570,6 @@
         "tab_text_color": "#ffffff",
         "tab_bg_color_selected": "#fdd328",
         "tab_text_color_selected": "#000000",
-        "desktop_gap": 0,
-        "mobile_gap": 20,
         "card_bg_color": "#ffffff",
         "card_border_radius": 6,
         "card_border_color": "#121212",
@@ -527,6 +582,11 @@
         "card_link_text_color_hover": "#121212",
         "badge_bg_color": "#fdd328",
         "badge_text_color": "#121212",
+        "arrow_btn_bg_color": "#3d3d3d",
+        "arrow_btn_txt_color": "#ffffff",
+        "arrow_btn_bg_color_hover": "#000000",
+        "arrow_btn_txt_color_hover": "#ffffff",
+        "arrow_btn_border_radius": 100,
         "desktop_padding_top": 20,
         "desktop_padding_bottom": 0,
         "mobile_padding_top": 12,

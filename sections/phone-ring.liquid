@@ -11,7 +11,7 @@
     }
   }
 {%- endstyle -%}
-<div class="shopify-section-phone-ring page-width {% if section.settings.image_right == true %} image-right {% endif %}">
+<div class="shopify-section-phone-ring page-width {% if section.settings.image_right == true %} image-right {% endif %}" {% if section.settings.key != blank %} tab key="{{ section.settings.key }}" {% endif %}>
   <div class="text-content align-{{ section.settings.text_align }}">
     {%- if section.settings.heading_1 != blank or section.settings.heading_2 != blank -%}
       <div class="heading-wrapper">
@@ -55,6 +55,11 @@
   "tag": "section",
   "class": "shopify-section--phone-ring",
   "settings": [
+    {
+      "type": "text",
+      "id": "key",
+      "label": "Key"
+    },
     {
       "type": "image_picker",
       "id": "image",

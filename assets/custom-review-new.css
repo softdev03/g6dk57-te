@@ -1,0 +1,213 @@
+.shopify-section-csn {
+	display: flex;
+	flex-direction: column;
+	row-gap: 30px;
+}
+
+.shopify-section-csn .review-items {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.shopify-section-csn .review-item {
+	padding: 20px;
+	display: flex;
+	flex-direction: column;
+	row-gap: 20px;
+	transition: all .3s;
+}
+.shopify-section-csn .review-item:hover {
+	transform: translateY(-10px);
+}
+.shopify-section-csn .review-content-wrapper.show-all .read-more:not(.to-hide) {
+	display: none;
+}
+
+.shopify-section-csn .review-content-wrapper:not(.show-all) .review-content.all {
+	display: none;
+}
+
+.shopify-section-csn .read-more {
+	cursor: pointer;
+	margin-top: 10px;
+	display: inline-block;
+	line-height: 1.2;
+	font-size: 12px;
+}
+
+.shopify-section-csn .read-more.to-hide {
+	display: none;
+}
+
+.shopify-section-csn .review-content-wrapper.show-all .read-more.to-hide {
+	display: block;
+}
+.shopify-section-csn .review-content-wrapper.no-need-read-more .read-more {
+	display: none;
+}
+.shopify-section-csn .read-more:hover {
+	text-decoration: underline;
+}
+
+.shopify-section-csn .review-header {
+	display: flex;
+	column-gap: 20px;
+}
+.shopify-section-csn .client-info {
+	display: flex;
+	align-items: center;
+	column-gap: 15px;
+}
+.shopify-section-csn .client-info:has(.avatar:nth-child(3)) {
+	flex-wrap: wrap;
+	row-gap: 10px;
+}
+.shopify-section-csn .avatars {
+	display: flex;
+	align-items: center;
+}
+
+.shopify-section-csn .avatar {
+	line-height: 0;
+	width: 40px;
+	height: 40px;
+	border-radius: 100px;
+	overflow: hidden;
+}
+
+.shopify-section-csn .avatar:not(:first-child) {
+	margin-left: -10px;
+}
+
+.shopify-section-csn .name {
+	font-weight: 600;
+	line-height: 1.2;
+}
+
+.shopify-section-csn .site-logo {
+	min-width: 20px;
+	max-width: 20px;
+	height: auto;
+	line-height: 0px;
+	margin-left: auto;
+}
+
+.shopify-section-csn .review-stars {
+	display: flex;
+	align-items: center;
+	column-gap: 3px;
+}
+
+.shopify-section-csn .review-star-icon {
+	width: 20px;
+	line-height: 0;
+}
+
+.shopify-section-csn .review-content {
+	display: flex;
+	flex-direction: column;
+	row-gap: 10px;
+	font-size: 14px;
+	overflow: hidden;
+	transition: all .3s;
+}
+
+.shopify-section-csn .review-content * {
+	margin: 0px;
+	padding: 0px;
+	line-height: 1.4;
+	color: inherit;
+}
+
+.shopify-section-csn .review-content ul {
+	list-style: none;
+	display: flex;
+	flex-direction: column;
+	row-gap: 7px;
+}
+
+.shopify-section-csn .review-content ul li {
+	position: relative;
+	padding-left: 25px;
+}
+
+.shopify-section-csn .review-content ul li::before {
+	content: "";
+	position: absolute;
+	width: 12px;
+	height: 8px;
+	left: 0;
+	top: 4px;
+	border-left: 2px solid currentColor;
+	border-bottom: 2px solid currentColor;
+	transform: rotate(-45deg);
+}
+
+.shopify-section-csn .link {
+	padding: 15px 25px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	column-gap: 10px;
+	text-decoration: none;
+	margin: 0px auto;
+	font-weight: 600;
+}
+
+.shopify-section-csn .link img {
+	width: 16px;
+}
+
+.shopify-section-csn .link:hover img:last-of-type:not(:first-of-type) {
+	display: block;
+}
+
+.shopify-section-csn .link:hover img:first-of-type:not(:last-of-type) {
+	display: none;
+}
+
+.shopify-section-csn .link img:last-of-type:not(:first-of-type) {
+	display: none;
+}
+@media screen and (max-width: 1023px) {
+	.shopify-section-csn .avatar {
+		width: 35px;
+		height: 35px;
+	}
+	.shopify-section-csn .name {
+		font-size: 15px;
+	}
+	.shopify-section-csn .site-logo {
+		min-width: 18px;
+		max-width: 18px;
+	}
+}
+@media screen and (max-width: 749px) {
+	.shopify-section-csn .avatar {
+		width: 30px;
+		height: 30px;
+	}
+	.shopify-section-csn .name {
+		font-size: 14px;
+	}
+	.shopify-section-csn .site-logo {
+		min-width: 16px;
+		max-width: 16px;
+	}	
+}
+@media screen and (max-width: 424px) {
+	.shopify-section-csn .avatar {
+		width: 25px;
+		height: 25px;
+	}
+	.shopify-section-csn .name {
+		font-size: 13px;
+	}
+	.shopify-section-csn .site-logo {
+		min-width: 14px;
+		max-width: 14px;
+	}
+	.shopify-section-csn .link {
+		width: 100%;
+	}
+}

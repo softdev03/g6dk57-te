@@ -48,7 +48,7 @@
   	}
    }
 {%- endstyle -%}
-<div class="shopify-section-advertise page-width {% if section.settings.image_right == true %} media-right {% endif %}">
+<div class="shopify-section-advertise page-width {% if section.settings.image_right == true %} media-right {% endif %}" {% if section.settings.key != blank %} tab key="{{ section.settings.key }}" {% endif %}>
   <div class="advertise-media {% if section.settings.media_sticky %} sticky {% endif %}">
     {%- if section.settings.video != null or section.settings.video_url != blank -%}
       <video muted {% if section.settings.autoplay_video %}autoplay{% else %}controls{% endif %} playsinline {% if section.settings.loop_video %}loop{% endif %}>
@@ -101,6 +101,11 @@
   "tag": "section",
   "class": "shopify-section--advertise",
   "settings": [
+    {
+      "type": "text",
+      "id": "key",
+      "label": "Key"
+    },
     {
       "type": "header",
       "content": "Viedo Settings"

@@ -24,6 +24,54 @@
         "mobile_padding_bottom": 0
       }
     },
+    "tab_header_Q4r3FK": {
+      "type": "tab-header",
+      "blocks": {
+        "tab_item_AkGWKf": {
+          "type": "tab_item",
+          "settings": {
+            "tab_item_text": "Lanuch",
+            "key": "https://anagency.com.au/pages/launch-shopify-store-package-basic-ecommerce-setup",
+            "link": "shopify://pages/launch-shopify-store-package-basic-ecommerce-setup"
+          }
+        },
+        "tab_item_6MApg9": {
+          "type": "tab_item",
+          "settings": {
+            "tab_item_text": "Growth",
+            "key": "https://anagency.com.au/pages/growth-shopify-store-package-advanced-online-store",
+            "link": "shopify://pages/growth-shopify-store-package-advanced-online-store"
+          }
+        },
+        "tab_item_rjAJjm": {
+          "type": "tab_item",
+          "settings": {
+            "tab_item_text": "Enterprise",
+            "key": "https://anagency.com.au/pages/enterprise-shopify-store-package-custom-scalable",
+            "link": "shopify://pages/enterprise-shopify-store-package-custom-scalable"
+          }
+        }
+      },
+      "block_order": [
+        "tab_item_AkGWKf",
+        "tab_item_6MApg9",
+        "tab_item_rjAJjm"
+      ],
+      "name": "Tab Header",
+      "settings": {
+        "bg_color": "#ffffff",
+        "group": "pricing",
+        "fetch_init_key_from_site_url": true,
+        "tab_bg_color": "#000000",
+        "tab_text_color": "#ffffff",
+        "tab_bg_color_selected": "#fdd328",
+        "tab_text_color_selected": "#000000",
+        "desktop_padding_top": 30,
+        "desktop_padding_bottom": 30,
+        "mobile_padding_top": 20,
+        "mobile_padding_bottom": 20
+      }
+    },
     "phone_ring_MzFcJr": {
       "type": "phone-ring",
       "settings": {
@@ -507,6 +555,7 @@
   },
   "order": [
     "results_guaranteed_MJcj9M",
+    "tab_header_Q4r3FK",
     "phone_ring_MzFcJr",
     "advertise_qQYPyj",
     "benefits_section_Jw3wfd",

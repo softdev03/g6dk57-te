@@ -59,7 +59,7 @@
             "heading_color": "#343434",
             "description": "You can select as many that apply",
             "description_color": "#343434",
-            "field_items": "Shopify Website Design & Development | Service Website Design & Development | Google Ads Management | Facebook Ads Management | Instagram Ads Management | LinkedIn Ads Management | Bing Ads Management | TikTok Ads Management | Search Engine Optimisation (SEO) | Google My Business Optimisation | Content Writing Services | Email Marketing Services | Branding Packages | Logo Design Services | I Need Everything! | Other",
+            "field_items": "Shopify Website Design & Development | Shopify Plus Migration | Service Website Design & Development | Google Ads Management | Facebook Ads Management | Instagram Ads Management | LinkedIn Ads Management | Bing Ads Management | TikTok Ads Management | Search Engine Optimisation (SEO) | Google My Business Optimisation | Content Writing Services | Email Marketing Services | Branding Packages | Logo Design Services | I Need Everything! | Other",
             "field_items_bg_color": "#ffffff",
             "field_items_color": "#000000",
             "error_msg": "Please select at least 1 optionNext",
@@ -223,7 +223,7 @@
             "badge_border_color": "#ffffff",
             "title": "STEP TWO",
             "title_color": "#afafaf",
-            "description": "Pick a time that suits you for a call back.",
+            "description": "Our team will contact you within 4 hours",
             "description_color": "#000000"
           }
         }
@@ -241,9 +241,9 @@
       ],
       "settings": {
         "bg_color": "#ffffff",
-        "heading": "Request a Quote and Book a Quick Call",
+        "heading": "Book Your Free Strategy Call",
         "heading_color": "#0b0a33",
-        "description": "<p><strong>Let's Talk About What You Need</strong></p><p>Book a free 15-minute call with our team. We'll listen to your goals, give you real advice, and let you know if we're the right fit. No pressure, no pushy sales, just a straightforward chat with some insights you can actually use.</p>",
+        "description": "<p><strong>Let's Talk About What You Need</strong></p><p>Lock in a 15-minute call. Share your goals, get expert advice, and find out exactly how we can help grow your business.</p>",
         "description_color": "#0b0a33",
         "form_logo": "shopify://shop_images/04.jpg",
         "form_bg_color": "#ffffff",

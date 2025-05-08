@@ -1,0 +1,81 @@
+.shopify-section-mils {
+	overflow: hidden;
+	display: flex;
+	flex-direction: column;
+	row-gap: 30px;
+}
+.shopify-section-mils .image-slider {
+	overflow: hidden;
+	position: relative;
+	max-width: 100%;
+	padding: 3px 0px;
+}
+.shopify-section-mils .swiper-wrapper {
+	width: fit-content;
+	margin: 0px auto;
+}
+.shopify-section-mils .image-item {
+	display: flex;
+	align-items: flex-end;
+	aspect-ratio: 0.6;
+	background-size: cover;
+	background-position: top center;
+	transition-property: background-position;
+	transition-duration: 0.3s;
+	cursor: pointer;
+}
+
+.shopify-section-mils .image-item:hover {
+	background-position: bottom center;
+	transition-duration: 5s;
+}
+
+.shopify-section-mils .swiper-arrow {
+	display: block;
+	width: 45px;
+	height: 45px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.3);
+	pointer-events: all;
+}
+.shopify-section-mils .swiper-arrow::after {
+	font-size: 20px;
+	font-weight: 600;
+}
+.shopify-section-mils .image-slider:has(.swiper-button-prev.swiper-button-disabled) .swiper-button-next.swiper-button-disabled {
+	display: none;
+}
+.shopify-section-mils .image-slider:has(.swiper-button-next.swiper-button-disabled) .swiper-button-prev.swiper-button-disabled {
+	display: none;
+}
+.shopify-section-mils .loadmore {
+	border: none;
+	margin: 20px auto 0px;
+	padding: 15px 30px;
+	cursor: pointer;
+	text-align: center;
+	font-size: 16px;
+	font-weight: 600;
+}
+@media screen and (max-width: 749px) {
+	.shopify-section-mils {
+		row-gap: 15px;
+	}
+	.shopify-section-mils .loadmore {
+		margin-top: 15px;
+	}
+	.shopify-section-mils .swiper-arrow {
+		width: 30px;
+		height: 30px;
+	}
+	.shopify-section-mils .swiper-arrow::after {
+		font-size: 12px;
+	}
+}
+@media screen and (max-width: 424px) {
+	.shopify-section-mils .loadmore {
+		width: 100%;
+	}
+}
