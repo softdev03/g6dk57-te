@@ -1,4 +1,4 @@
-{{ 'multi--image-list-slider.css' | asset_url | stylesheet_tag }}
+{{ 'multi--image-list-grid.css' | asset_url | stylesheet_tag }}
 {%- assign breakpoints = section.blocks |  where: 'type', 'breakpoint' |  map: 'settings' -%}
 {%- style -%}
   #shopify-section-{{ section.id }} {
@@ -18,19 +18,20 @@
 		background-color: {{ section.settings.loadmore_btn_bg_color_hover }};
 		color: {{ section.settings.loadmore_btn_text_color_hover }};
 	}
-	#shopify-section-{{ section.id }} .swiper-arrow {
-		background-color: {{ section.settings.slider_arrow_btn_bg_color }};
-		color: {{ section.settings.slider_arrow_btn_text_color }};
-    border-radius: {{ section.settings.slider_arrow_btn_border_radius }}px;
-	}
-  #shopify-section-{{ section.id }} .swiper-arrow:hover {
-		background-color: {{ section.settings.slider_arrow_btn_bg_color_hover }};
-		color: {{ section.settings.slider_arrow_btn_text_color_hover }};
-	}
-  {%- for breakpoint in breakpoints -%}
+	{%- for breakpoint in breakpoints -%}
     @media screen and (min-width: {{ breakpoint.min_width }}px) {
       #shopify-section-{{ section.id }} .image-item {
         aspect-ratio: {{ breakpoint.image_aspect_ratio }};
+        {%- assign gapCount = breakpoint.item_count |  minus: 1 -%}
+        {%- assign gapWidth = gapCount |  times: breakpoint.gap -%}
+        width: calc((100% - {{ gapWidth }}px) / {{ breakpoint.item_count }});
+      }
+      #shopify-section-{{ section.id }} .image-item:hover {
+        transition-duration: {{ breakpoint.animation_time }}s;
+      }
+      #shopify-section-{{ section.id }} .image-grid {
+        row-gap: {{ breakpoint.row_gap }}px;
+        column-gap: {{ breakpoint.gap }}px;
       }
     }
   {%- endfor -%}
@@ -41,46 +42,43 @@
   	}
   }
 {%- endstyle -%}
-<div class="shopify-section-mils page-width">
+<div class="shopify-section-milg page-width">
   {%- assign imageBlocks = section.blocks | where: 'type', 'image_list' |  map: 'settings' -%}
   {%- assign count = 0 -%}
-  {%- for i in (1..10) -%}
-    {%- assign subImageList = imageBlocks |  where: 'handle', i -%}
-    {%- if subImageList.size > 0 -%}
-        <div class="image-slider {% if count > 0 %} hidden {% endif %}">
-          <div class="swiper-wrapper">
-            {%- for linkItem in subImageList -%}
-              {%- if linkItem.image != blank -%}
-                {%- if linkItem.link != blank -%}
-                  <a href="{{ linkItem.link }}" class="swiper-slide image-item" style="background-image: url('{{ linkItem.image |  img_url: '500x' }}');">
-                  </a>
-                {%- else -%}
-                  <div class="swiper-slide image-item" style="background-image: url('{{ linkItem.image |  img_url: '500x' }}');">
-                  </div>
-                {%- endif -%}
-              {%- endif -%}
-            {%- endfor -%}
+  {%- assign isClosed = true -%}
+  {%- for linkItem in imageBlocks -%}
+    {%- assign rest = forloop.index |  modulo: section.settings.max_count_per_view -%}
+    {% if rest == 1 %}<div class="image-grid {% if count > 0 %} hidden {% endif %}"> {%  assign isClosed = false %}{% endif %}
+      {%- if linkItem.image != blank -%}
+        {%- if linkItem.link != blank -%}
+          <a href="{{ linkItem.link }}" class="swiper-slide image-item" style="background-image: url('{{ linkItem.image |  img_url: '500x' }}');">
+          </a>
+        {%- else -%}
+          <div class="swiper-slide image-item" style="background-image: url('{{ linkItem.image |  img_url: '500x' }}');">
           </div>
-          <div class="swiper-arrow swiper-button-prev"></div>
-          <div class="swiper-arrow swiper-button-next"></div>
-        </div>
-      {%- assign count = count |  plus: 1 -%}
+        {%- endif -%}
+      {%- endif -%}
+    {%- if rest == 0 -%}
+      </div>
+      {%- assign isClosed = true -%}
     {%- endif -%}
+    {% if rest == 1 %}
+      {%- assign count = count | plus: 1 -%}
+    {% endif %}
   {%- endfor -%}
-	<div class="breakpoints hidden">
-		{%- for breakpoint in breakpoints -%}
-			<p class="breakpoint-item">{{ breakpoint.min_width }}|{{ breakpoint.item_count }}|{{ breakpoint.gap }}</p>
-		{%- endfor -%}
-	</div>
+  {%- if isClosed == false -%}
+    </div>
+    {%- assign count = count |  plus: 1 -%}
+  {%- endif -%}
 	{%- if section.settings.loadmore_btn_text != blank and count > 1 -%}
 		<button class="loadmore">{{ section.settings.loadmore_btn_text }}</button>
 	{%- endif -%}
 </div>
 {% schema %}
 {
-  "name": "Multi Image List Slider",
+  "name": "Multi Image List Grid",
   "tag": "section",
-  "class": "shopify-section--mils",
+  "class": "shopify-section--milg",
   "settings": [
     {
       "type": "color",
@@ -141,45 +139,16 @@
 			"label": "Button Border Radius",
 			"default": 0
 		},
-		{
-			"type": "header",
-			"content": "Slider Arrow Button Settings"
-		},
-		{
-			"type": "color",
-			"id": "slider_arrow_btn_bg_color",
-			"label": "Background Color",
-			"default": "#000000"
-		},
-		{
-			"type": "color",
-			"id": "slider_arrow_btn_text_color",
-			"label": "Button Text Color",
-			"default": "#fff"
-		},
-		{
-			"type": "color",
-			"id": "slider_arrow_btn_bg_color_hover",
-			"label": "Background Color when Hover",
-			"default": "#000000"
-		},
-		{
-			"type": "color",
-			"id": "slider_arrow_btn_text_color_hover",
-			"label": "Button Text Color when Hover",
-			"default": "#fff"
-		},
-		{
-			"type": "range",
-			"id": "slider_arrow_btn_border_radius",
-			"min": 0,
-			"max": 100,
-			"step": 1,
-			"unit": "px",
-			"label": "Button Border Radius",
-			"default": 0
-		},
     {
+      "type": "range",
+      "id": "max_count_per_view",
+      "min": 2,
+      "max": 30,
+      "step": 1,
+      "label": "Max Item Count to Show at Once",
+      "default": 4
+    },
+		{
       "type": "header",
       "content": "Padding Settings"
     },
@@ -230,15 +199,6 @@
       "name": "Image List",
       "settings": [
         {
-          "type": "range",
-          "id": "handle",
-          "min": 1,
-          "max": 10,
-          "step": 1,
-          "label": "Handle",
-          "default": 1
-        },
-        {
           "type": "image_picker",
           "id": "image",
           "label": "Image"
@@ -265,8 +225,8 @@
           "id": "item_count",
           "min": 1,
           "max": 10,
-          "step": 0.1,
-          "label": "Item Count",
+          "step": 1,
+          "label": "Item Count Per Row",
           "default": 5
         },
         {
@@ -276,8 +236,18 @@
           "max": 100,
           "step": 1,
           "unit": "px",
-          "label": "Gap",
+          "label": "Column Gap",
           "default": 0
+        },
+        {
+          "type": "range",
+          "id": "row_gap",
+          "min": 0,
+          "max": 100,
+          "step": 1,
+          "unit": "px",
+          "label": "Row Gap",
+          "default": 20
         },
         {
           "type": "range",
@@ -287,13 +257,23 @@
           "step": 0.1,
           "label": "Image Aspect Ratio",
           "default": 0.5
+        },
+        {
+          "type": "range",
+          "id": "animation_time",
+          "min": 0.5,
+          "max": 30,
+          "step": 0.5,
+          "unit": "s",
+          "label": "Animation Time",
+          "default": 8
         }
       ]
     }
   ],
   "presets": [
     {
-      "name": "Multi Image List Slider",
+      "name": "Multi Image List Grid",
       "settings": {}
     }
   ]

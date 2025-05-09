@@ -129,6 +129,7 @@
     },
     "text_list_MNPzdp": {
       "type": "text-list",
+      "disabled": true,
       "blocks": {
         "text_E46V74": {
           "type": "text",
@@ -151,13 +152,13 @@
             "desktop_max_width": 1440,
             "mobile_max_width": 1440,
             "desktop_color": "#000000",
-            "mobile_color": "#1a3760"
+            "mobile_color": "#121212"
           }
         },
         "text_VfFdk4": {
           "type": "text",
           "settings": {
-            "text": "<p>Explore a curated selection of Shopify stores we've built - each designed to convert visitors into customers, drive sales, and support real business growth. These sites aren’t just pretty; they’re built for online success from day one.</p>",
+            "text": "<p>Explore a curated selection of Shopify stores we've built - each designed to convert visitors into customers, drive sales, and support real business growth. These sites aren’t just pretty; they’re built for online success from day one.</p><h5></h5>",
             "desktop_margin": 0,
             "mobile_margin": 0,
             "desktop_align": "center",
@@ -183,7 +184,6 @@
         "text_E46V74",
         "text_VfFdk4"
       ],
-      "disabled": true,
       "name": "Text List",
       "settings": {
         "bg_color": "#ffffff",
@@ -194,8 +194,9 @@
       }
     },
     "multi_image_list_slider_zE97CJ": {
-      "type": "multi--image-list-slider",
-      "blocks": {
+      "type": "multi--image-list-grid",
+      "disabled": true,
+     "blocks": {
         "image_list_eckyx9": {
           "type": "image_list",
           "settings": {
@@ -206,9 +207,26 @@
         },
         "image_list_aryFcW": {
           "type": "image_list",
+          "disabled": true,
           "settings": {
             "handle": 1,
             "image": "shopify://shop_images/swiftpayapp.png",
+            "link": ""
+          }
+        },
+        "image_list_gAnDFy": {
+          "type": "image_list",
+          "settings": {
+            "handle": 1,
+            "image": "shopify://shop_images/screencapture-247gardenshop-au-2025-04-14-22_27_03.png",
+            "link": ""
+          }
+        },
+        "image_list_9nixiB": {
+          "type": "image_list",
+          "settings": {
+            "handle": 1,
+            "image": "shopify://shop_images/Crawfordbathroom01.png",
             "link": ""
           }
         },
@@ -222,6 +240,7 @@
         },
         "image_list_M3gBpQ": {
           "type": "image_list",
+          "disabled": true,
           "settings": {
             "handle": 1,
             "image": "shopify://shop_images/cgroupconstruction_com_au__4e39cb228d7b.png",
@@ -246,6 +265,7 @@
         },
         "image_list_idVJ4F": {
           "type": "image_list",
+          "disabled": true,
           "settings": {
             "handle": 1,
             "image": "shopify://shop_images/elitedriveways-au.png",
@@ -254,6 +274,7 @@
         },
         "image_list_CMmVq9": {
           "type": "image_list",
+          "disabled": true,
           "settings": {
             "handle": 2,
             "image": "shopify://shop_images/eight83plumbing-au.png",
@@ -262,6 +283,7 @@
         },
         "image_list_FchFzB": {
           "type": "image_list",
+          "disabled": true,
           "settings": {
             "handle": 2,
             "image": "shopify://shop_images/quickfixplumber-au_b1f12873-a4ab-405a-9d26-ed7e8705e2df.png",
@@ -270,60 +292,69 @@
         },
         "breakpoint_46mjpr": {
           "type": "breakpoint",
+          "name": "Mobile Breakpoint",
           "settings": {
             "min_width": 0,
-            "item_count": 1,
+            "item_count": 2,
             "gap": 10,
             "image_aspect_ratio": 1.1
           }
         },
         "breakpoint_z7gNKm": {
           "type": "breakpoint",
+          "disabled": true,
           "settings": {
             "min_width": 425,
-            "item_count": 1.5,
+            "item_count": 1,
             "gap": 10,
             "image_aspect_ratio": 0.8
           }
         },
         "breakpoint_6GLPLD": {
           "type": "breakpoint",
+          "name": "Mobile Breakpoint",
+          "disabled": true,
           "settings": {
             "min_width": 0,
-            "item_count": 2.1,
+            "item_count": 1,
             "gap": 10,
-            "image_aspect_ratio": 1.2
+            "image_aspect_ratio": 1
           }
         },
         "breakpoint_Cfnixa": {
           "type": "breakpoint",
+          "disabled": true,
           "settings": {
             "min_width": 900,
-            "item_count": 2.8,
+            "item_count": 2,
             "gap": 15,
             "image_aspect_ratio": 0.5
           }
         },
         "breakpoint_nEkwH8": {
           "type": "breakpoint",
+          "name": "Desktop Breakpoint",
           "settings": {
             "min_width": 1024,
-            "item_count": 3.6,
+            "item_count": 4,
             "gap": 20,
             "image_aspect_ratio": 0.5
           }
         },
         "breakpoint_Dakag9": {
           "type": "breakpoint",
+          "disabled": true,
           "settings": {
             "min_width": 1280,
-            "item_count": 4.2,
+            "item_count": 4,
             "gap": 24,
             "image_aspect_ratio": 0.5
           }
         },
         "breakpoint_c6QjXi": {
           "type": "breakpoint",
+          "disabled": true,
+          "name": "desktop Breakpoint",
           "settings": {
             "min_width": 1366,
             "item_count": 4,
@@ -335,6 +366,8 @@
       "block_order": [
         "image_list_eckyx9",
         "image_list_aryFcW",
+        "image_list_gAnDFy",
+        "image_list_9nixiB",
         "image_list_KyXhW8",
         "image_list_M3gBpQ",
         "image_list_wbgVNK",
@@ -350,7 +383,6 @@
         "breakpoint_Dakag9",
         "breakpoint_c6QjXi"
       ],
-      "disabled": true,
       "name": "Multi Image List Slider",
       "settings": {
         "bg_color": "#ffffff",
@@ -364,7 +396,7 @@
         "slider_arrow_btn_bg_color": "#9f9f9f",
         "slider_arrow_btn_text_color": "#ffffff",
         "slider_arrow_btn_bg_color_hover": "#000000",
-        "slider_arrow_btn_text_color_hover": "#ffffff",
+        "slider_arrow_btn_text_color_hover": "#fdd328",
         "slider_arrow_btn_border_radius": 100,
         "desktop_padding_top": 0,
         "desktop_padding_bottom": 60,
@@ -374,6 +406,7 @@
     },
     "text_list_VeQkgV": {
       "type": "text-list",
+      "disabled": true,
       "blocks": {
         "text_iELMnY": {
           "type": "text",
@@ -428,7 +461,6 @@
         "text_iELMnY",
         "text_eBjNbe"
       ],
-      "disabled": true,
       "name": "Text List",
       "settings": {
         "bg_color": "#ffffff",
@@ -440,6 +472,7 @@
     },
     "score_grid_9YtCmi": {
       "type": "score-grid",
+      "disabled": true,
       "blocks": {
         "score_item_9aiWT6": {
           "type": "score_item",
@@ -475,7 +508,7 @@
           "type": "score_item",
           "name": "Ads Spend",
           "settings": {
-            "score": 1.7,
+            "score": 1,
             "prefix_text": "$",
             "suffix_text": "M+",
             "score_text": "Ads Spend"
@@ -574,7 +607,6 @@
         "breakpoint_LxiYGi",
         "breakpoint_apF6AV"
       ],
-      "disabled": true,
       "name": "Score Grid",
       "settings": {
         "bg_color": "#ffffff",
@@ -590,6 +622,7 @@
     },
     "text_list_zidnT7": {
       "type": "text-list",
+      "disabled": true,
       "blocks": {
         "text_MTAixR": {
           "type": "text",
@@ -644,7 +677,6 @@
         "text_MTAixR",
         "text_MBaFDg"
       ],
-      "disabled": true,
       "name": "Text List",
       "settings": {
         "bg_color": "#ffffff",
@@ -656,6 +688,7 @@
     },
     "custom_review_new_Bp63JF": {
       "type": "custom-review-new",
+      "disabled": true,
       "blocks": {
         "review_items_RkQRAL": {
           "type": "review_items",
@@ -734,7 +767,6 @@
         "breakpoint_ExWjai",
         "breakpoint_PMwB3w"
       ],
-      "disabled": true,
       "name": "Custom Review(new)",
       "settings": {
         "bg_color": "#ffffff",
@@ -769,102 +801,103 @@
     },
     "image_grid_nwzeK8": {
       "type": "image-grid",
+      "disabled": true,
       "blocks": {
         "image_item_X8aLT8": {
           "type": "image_item",
           "settings": {
-            "image": "shopify://shop_images/luxaroma-logo-img.webp",
+            "image": "shopify://shop_images/AnAgencyLogo33.png",
             "image_link": ""
           }
         },
         "image_item_E7tdwn": {
           "type": "image_item",
           "settings": {
-            "image": "shopify://shop_images/eroma-logo-img.webp",
+            "image": "shopify://shop_images/AnAgencyLogo32.png",
             "image_link": ""
           }
         },
         "image_item_XrF97F": {
           "type": "image_item",
           "settings": {
-            "image": "shopify://shop_images/vitamin-outlet-logo-img.webp",
+            "image": "shopify://shop_images/AnAgencyLogo31.png",
             "image_link": ""
           }
         },
         "image_item_HbWH99": {
           "type": "image_item",
           "settings": {
-            "image": "shopify://shop_images/Clinet-Logo-72.png",
+            "image": "shopify://shop_images/AnAgencyLogo26.png",
             "image_link": ""
           }
         },
         "image_item_LahhGQ": {
           "type": "image_item",
           "settings": {
-            "image": "shopify://shop_images/Clinet-Logo-58.png",
-            "image_link": ""
-          }
-        },
-        "image_item_7BDKct": {
-          "type": "image_item",
-          "settings": {
-            "image": "shopify://shop_images/Clinet-Logo-54.png",
-            "image_link": ""
-          }
-        },
-        "image_item_gXHNNK": {
-          "type": "image_item",
-          "settings": {
-            "image": "shopify://shop_images/Clinet-Logo-38.png",
-            "image_link": ""
-          }
-        },
-        "image_item_kXtPQK": {
-          "type": "image_item",
-          "settings": {
-            "image": "shopify://shop_images/Clinet-Logo-44.png",
-            "image_link": ""
-          }
-        },
-        "image_item_iyKmJG": {
-          "type": "image_item",
-          "settings": {
-            "image": "shopify://shop_images/Clinet-Logo-21.png",
-            "image_link": ""
-          }
-        },
-        "image_item_nyVFY8": {
-          "type": "image_item",
-          "settings": {
-            "image": "shopify://shop_images/Clinet-Logo-49.png",
+            "image": "shopify://shop_images/AnAgencyLogo25.png",
             "image_link": ""
           }
         },
         "image_item_wNCbDW": {
           "type": "image_item",
           "settings": {
-            "image": "shopify://shop_images/Clinet-Logo-62.png",
+            "image": "shopify://shop_images/AnAgencyLogo05.png",
+            "image_link": ""
+          }
+        },
+        "image_item_7BDKct": {
+          "type": "image_item",
+          "settings": {
+            "image": "shopify://shop_images/AnAgencyLogo13.png",
+            "image_link": ""
+          }
+        },
+        "image_item_gXHNNK": {
+          "type": "image_item",
+          "settings": {
+            "image": "shopify://shop_images/AnAgencyLogo09.png",
+            "image_link": ""
+          }
+        },
+        "image_item_kXtPQK": {
+          "type": "image_item",
+          "settings": {
+            "image": "shopify://shop_images/AnAgencyLogo01_cacc2b53-0ea7-4c89-9cd0-7f63dcb4a332.png",
+            "image_link": ""
+          }
+        },
+        "image_item_iyKmJG": {
+          "type": "image_item",
+          "settings": {
+            "image": "shopify://shop_images/AnAgencyLogo03_67acb1a7-d90a-4fa6-a71c-943adf740064.png",
+            "image_link": ""
+          }
+        },
+        "image_item_nyVFY8": {
+          "type": "image_item",
+          "settings": {
+            "image": "shopify://shop_images/AnAgencyLogo04.png",
             "image_link": ""
           }
         },
         "image_item_K3VhpK": {
           "type": "image_item",
           "settings": {
-            "image": "shopify://shop_images/Clinet-Logo-45.png",
+            "image": "shopify://shop_images/AnAgencyLogo06.png",
             "image_link": ""
           }
         },
         "image_item_YrNLWe": {
           "type": "image_item",
           "settings": {
-            "image": "shopify://shop_images/Client-Logo-16.png",
+            "image": "shopify://shop_images/AnAgencyLogo07.png",
             "image_link": ""
           }
         },
         "image_item_YrcBwG": {
           "type": "image_item",
           "settings": {
-            "image": "shopify://shop_images/Clinet-Logo-33.png",
+            "image": "shopify://shop_images/AnAgencyLogo08.png",
             "image_link": "#"
           }
         },
@@ -911,12 +944,12 @@
         "image_item_XrF97F",
         "image_item_HbWH99",
         "image_item_LahhGQ",
+        "image_item_wNCbDW",
         "image_item_7BDKct",
         "image_item_gXHNNK",
         "image_item_kXtPQK",
         "image_item_iyKmJG",
         "image_item_nyVFY8",
-        "image_item_wNCbDW",
         "image_item_K3VhpK",
         "image_item_YrNLWe",
         "image_item_YrcBwG",
@@ -925,7 +958,6 @@
         "breakpoint_qrBQVN",
         "breakpoint_gR6QyE"
       ],
-      "disabled": true,
       "name": "Image Grid",
       "settings": {
         "bg_color": "#ffffff",

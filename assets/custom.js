@@ -24,65 +24,65 @@ document.addEventListener('DOMContentLoaded', () => {
 		});
 	});
 
-	const milsSections = document.querySelectorAll('.shopify-section-mils');
+	const milsSections = document.querySelectorAll('.shopify-section-milg');
 	milsSections.forEach(milsSection=>{
-		const breakpointEl = milsSection.querySelector('.breakpoints');
-		const breakpointListfromEl = {};
-		const breakpointItems = breakpointEl.querySelectorAll('.breakpoint-item');
-		let breakpointLength = breakpointItems.length;
-		breakpointItems.forEach(breakpointItem=>{
-			const [minWidth,itemCount,gap] = breakpointItem.innerHTML.split('|');
-			breakpointListfromEl[minWidth] = {
-				slidesPerView: parseFloat(itemCount),
-				spaceBetween: parseInt(gap),
-			};
-		});
-		const breakpointList = breakpointLength > 0 ? breakpointListfromEl : {
-			0: {
-				slidesPerView: 1,
-				spaceBetween: 10,
-			},
-			412: {
-				slidesPerView: 1.5,
-				spaceBetween: 10,
-			},
-			768: {
-				slidesPerView: 1.8,
-				spaceBetween: 10,
-			},
-			900: {
-				slidesPerView: 2.1,
-				spaceBetween: 10,
-			},
-			1024: {
-				slidesPerView: 2.5,
-				spaceBetween: 10,
-			},
-			1200: {
-				slidesPerView: 3.2,
-				spaceBetween: 10,
-			},
-			1400: {
-				slidesPerView: 4,
-				spaceBetween: 10,
-			}
-		};
-		milsSection.querySelectorAll('.image-slider').forEach(slider=>{
-			new Swiper(slider, {
-				navigation: {
-					nextEl: slider.querySelector('.swiper-button-next'),
-					prevEl: slider.querySelector('.swiper-button-prev'),
-				},
-				breakpoints: {
-					... breakpointList
-				},
-			});
-		});
+		// const breakpointEl = milsSection.querySelector('.breakpoints');
+		// const breakpointListfromEl = {};
+		// const breakpointItems = breakpointEl?.querySelectorAll('.breakpoint-item') || [];
+		// let breakpointLength = breakpointItems.length;
+		// breakpointItems.forEach(breakpointItem=>{
+		// 	const [minWidth,itemCount,gap] = breakpointItem.innerHTML.split('|');
+		// 	breakpointListfromEl[minWidth] = {
+		// 		slidesPerView: parseFloat(itemCount),
+		// 		spaceBetween: parseInt(gap),
+		// 	};
+		// });
+		// const breakpointList = breakpointLength > 0 ? breakpointListfromEl : {
+		// 	0: {
+		// 		slidesPerView: 1,
+		// 		spaceBetween: 10,
+		// 	},
+		// 	412: {
+		// 		slidesPerView: 1.5,
+		// 		spaceBetween: 10,
+		// 	},
+		// 	768: {
+		// 		slidesPerView: 1.8,
+		// 		spaceBetween: 10,
+		// 	},
+		// 	900: {
+		// 		slidesPerView: 2.1,
+		// 		spaceBetween: 10,
+		// 	},
+		// 	1024: {
+		// 		slidesPerView: 2.5,
+		// 		spaceBetween: 10,
+		// 	},
+		// 	1200: {
+		// 		slidesPerView: 3.2,
+		// 		spaceBetween: 10,
+		// 	},
+		// 	1400: {
+		// 		slidesPerView: 4,
+		// 		spaceBetween: 10,
+		// 	}
+		// };
+		// milsSection.querySelectorAll('.image-slider').forEach(slider=>{
+		// 	new Swiper(slider, {
+		// 		navigation: {
+		// 			nextEl: slider.querySelector('.swiper-button-next'),
+		// 			prevEl: slider.querySelector('.swiper-button-prev'),
+		// 		},
+		// 		breakpoints: {
+		// 			... breakpointList
+		// 		},
+		// 	});
+		// });
 
 		milsSection.querySelector('.loadmore')?.addEventListener('click',(e)=>{
-			const hiddenSliders = milsSection.querySelectorAll('.image-slider.hidden');
-			hiddenSliders[0]?.classList.remove('hidden');
-			if(hiddenSliders.length < 2) {
+			const hiddenGrids = milsSection.querySelectorAll('.image-grid.hidden');
+			hiddenGrids[0]?.classList.remove('hidden');
+			if(hiddenGrids.length < 2) {
 				e.target.remove();
 			}
 		});	
