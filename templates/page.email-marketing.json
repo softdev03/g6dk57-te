@@ -293,7 +293,7 @@
           "name": "Mobile Breakpoint",
           "settings": {
             "min_width": 0,
-            "item_count": 2,
+            "item_count": 1,
             "gap": 10,
             "image_aspect_ratio": 1.1
           }
@@ -321,9 +321,8 @@
         },
         "breakpoint_Cfnixa": {
           "type": "breakpoint",
-          "disabled": true,
           "settings": {
-            "min_width": 900,
+            "min_width": 750,
             "item_count": 2,
             "gap": 15,
             "image_aspect_ratio": 0.5
