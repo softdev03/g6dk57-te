@@ -15,7 +15,7 @@
         "text_Ln9QYL": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>Clear Pricing, Real Value — No Surprises</strong></p><h3></h3>",
+            "text": "<p>Clear Pricing. Real Value. No Surprises</p><h3></h3>",
             "desktop_margin": 20,
             "mobile_margin": 12,
             "desktop_align": "center",
@@ -104,6 +104,39 @@
             "tab_text": "Branding"
           }
         },
+        "pricing_item_NwxXbd": {
+          "type": "pricing_item",
+          "name": "Shopify Pricing Item",
+          "settings": {
+            "handle_number": 1,
+            "id": "shopify-lanuch",
+            "icon": "shopify://shop_images/logo_8676fd03-d3d9-496f-bc2c-f1b1a9fd3c18.svg",
+            "heading": "Starter",
+            "sub_heading": "Ready-Made Shopify Store",
+            "link_text": "Enquire Now",
+            "link": "shopify://pages/contact",
+            "main_content": "<p>from [price]+ GST / once-off</p><p></p><p>Perfect for launching a dropshipping store without the heavy investment.</p>",
+            "secondary_content": "<p><strong>What’s included</strong></p><p></p><ul><li>Shopify theme setup</li><li>Custom font-based logo</li><li>Up to 3 product collections + 1 New Arrivals collection</li><li>4 homepage sections</li><li>3 blog posts for enriched SEO</li><li>About Us, Contact Us (with form), and 4 policy pages</li><li>Newsletter subscription section</li><li>Supplier connection with premium Australian dropship network</li><li>50 high-demand products added</li><li>Basic branding & marketing material</li><li>Free business startup checklist</li><li><strong>30 days of email support</strong></li></ul>",
+            "badge_text": "",
+            "price": 3500,
+            "enable_tip": false,
+            "use_icon_for_mark": false,
+            "tip_position": "main_content",
+            "mark_text": "",
+            "tip_text": "",
+            "tip_text_align": "center",
+            "mark_bg_color": "#f3f3f3",
+            "mark_bg_color_hover": "#d8d8d8",
+            "mark_text_color": "#000000",
+            "mark_text_color_hover": "#000000",
+            "tip_bg_color": "#ffffff",
+            "tip_shadow_color": "#000000",
+            "tip_text_color": "#000000",
+            "tip_shadow_opacity": 0.5,
+            "mark_border_radius": 100,
+            "tip_border_radius": 5
+          }
+        },
         "pricing_item_YheRDG": {
           "type": "pricing_item",
           "name": "Shopify Pricing Item",
@@ -116,8 +149,8 @@
             "link_text": "Learn More",
             "link": "shopify://pages/launch-shopify-store-package-basic-ecommerce-setup",
             "main_content": "<p>from [price]+ GST / once-off</p><p></p><p>Perfect for new stores that just need to get moving.<br/></p>",
-            "secondary_content": "<p><strong>What’s included</strong></p><p></p><ul><li>Shopify theme tailored to your branding</li><li>Homepage design</li><li>Up to 10 collections or categories</li><li>Up to 100 products</li><li>Up to 5 content pages</li><li>Shopify payment / PayPal setup</li><li><strong>1 x post launch training session</strong></li><li><strong>10 days post launch support</strong></li><li><em>Newsletter signup and social media links</em></li><li><em>Up to 3 blog index and article pages</em></li><li><em>Personalised admin guide</em></li><li><em>SEO product titles & descriptions</em></li><li><em>Post-launch training call</em></li><li><em>Conversion tracking setup</em></li><li><em>Dedicated project manager</em></li></ul>",
-            "badge_text": "",
+            "secondary_content": "<p><strong>What’s included</strong></p><p></p><ul><li>Shopify theme tailored to your branding</li><li>Homepage design</li><li>Up to 10 collections or categories</li><li>Up to 100 products</li><li>Up to 5 content pages</li><li>Shopify payment / PayPal setup</li><li><strong>1 x post launch training session</strong></li><li><strong>10 days post launch support</strong></li><li>Newsletter signup and social media links</li><li>Up to 3 blog index and article pages</li><li><em>Personalised admin guide</em></li><li><em>SEO product titles & descriptions</em></li><li><em>Post-launch training call</em></li><li><em>Conversion tracking setup</em></li><li><em>Dedicated project manager</em></li></ul>",
+            "badge_text": "RECOMMENDED",
             "price": 5500,
             "enable_tip": false,
             "use_icon_for_mark": false,
@@ -150,7 +183,7 @@
             "link": "shopify://pages/growth-shopify-store-package-advanced-online-store",
             "main_content": "<p>from [price]+ GST / once-off</p><p></p><p>For brands ready to scale with more products and SEO built-in.<br/></p>",
             "secondary_content": "<p><strong>What’s included</strong></p><p></p><ul><li>Shopify theme tailored to your brand</li><li>Homepage design</li><li>Up to 15 collections or categories</li><li>Up to 200 products</li><li>Up to 8 content pages</li><li>Shopify payment / PayPal setup</li><li>Newsletter signup and social media links</li><li>Up to 3 blog index and article pages</li><li>Personalised admin guide</li><li>SEO titles & descriptions*</li><li>Post-launch training call</li><li>Conversion tracking setup</li><li>Dedicated project manager</li><li><strong>2 x post launch training sessions</strong></li><li><strong>30 days post launch support</strong></li><li><em>Custom design or animations</em></li><li><em>Advanced app integration (3+ apps)</em></li><li><em>Shopify Plus support</em></li></ul><p>*Products to be supplied by client in CSV format</p>",
-            "badge_text": "RECOMMENDED",
+            "badge_text": "",
             "price": 9500,
             "enable_tip": false,
             "use_icon_for_mark": true,
@@ -512,7 +545,7 @@
           "type": "breakpoint",
           "settings": {
             "min_width": 425,
-            "item_count": 1.5,
+            "item_count": 1,
             "gap": 10
           }
         },
@@ -546,6 +579,7 @@
         "tab_item_UgV8rF",
         "tab_item_bkQHgV",
         "tab_item_mXUE8B",
+        "pricing_item_NwxXbd",
         "pricing_item_YheRDG",
         "pricing_item_ezdbcT",
         "pricing_item_N4xReh",

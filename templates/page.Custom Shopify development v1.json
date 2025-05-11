@@ -97,42 +97,8 @@
         "mobile_padding_bottom": 40
       }
     },
-    "advertise_PAQGf7": {
-      "type": "advertise",
-      "settings": {
-        "key": "",
-        "loop_video": true,
-        "autoplay_video": true,
-        "main_image": "shopify://shop_images/AnAgencyShopifyWebsite05.png",
-        "media_border_radius": 0,
-        "media_border_width": 0,
-        "media_border_color": "#000000",
-        "secondary_image_roate_angle": -64,
-        "desktop_left": -80,
-        "desktop_top": -1,
-        "desktop_right": -1,
-        "desktop_bottom": 82,
-        "mobile_left": 0,
-        "mobile_top": -1,
-        "mobile_right": -1,
-        "mobile_bottom": -30,
-        "heading": "How We Build Your Shopify Store",
-        "sub_heading": "",
-        "text": "<h1>Step 1: Strategy & Planning</h1><p>We dive into your business, products, and audience. No guesswork, just a clear roadmap for a high-converting online store.</p><h3></h3><p></p>",
-        "button_link": "#",
-        "button_text": "",
-        "image_right": false,
-        "text_align": "left",
-        "background_color": "#fbfbfb",
-        "desktop_padding_top": 60,
-        "desktop_padding_bottom": 60,
-        "mobile_padding_top": 40,
-        "mobile_padding_bottom": 40
-      }
-    },
     "text_list_MNPzdp": {
       "type": "text-list",
-      "disabled": true,
       "blocks": {
         "text_E46V74": {
           "type": "text",
@@ -198,29 +164,31 @@
     },
     "multi_image_list_slider_zE97CJ": {
       "type": "multi--image-list-grid",
-      "disabled": true,
       "blocks": {
         "image_list_eckyx9": {
           "type": "image_list",
           "settings": {
-            "handle": 1,
             "image": "shopify://shop_images/playfulpets-au-_2.png",
             "link": ""
           }
         },
         "image_list_aryFcW": {
           "type": "image_list",
-          "disabled": true,
           "settings": {
-            "handle": 1,
-            "image": "shopify://shop_images/swiftpayapp.png",
+            "image": "shopify://shop_images/casalorena-au-2025-05-09-22_33_31.png",
+            "link": ""
+          }
+        },
+        "image_list_qjqda4": {
+          "type": "image_list",
+          "settings": {
+            "image": "shopify://shop_images/purelyhome-au-2025-05-09-22_30_47_1.png",
             "link": ""
           }
         },
         "image_list_gAnDFy": {
           "type": "image_list",
           "settings": {
-            "handle": 1,
             "image": "shopify://shop_images/screencapture-247gardenshop-au-2025-04-14-22_27_03.png",
             "link": ""
           }
@@ -228,7 +196,6 @@
         "image_list_9nixiB": {
           "type": "image_list",
           "settings": {
-            "handle": 1,
             "image": "shopify://shop_images/Crawfordbathroom01.png",
             "link": ""
           }
@@ -236,60 +203,77 @@
         "image_list_KyXhW8": {
           "type": "image_list",
           "settings": {
-            "handle": 1,
             "image": "shopify://shop_images/bbta-au.png",
             "link": ""
           }
         },
         "image_list_M3gBpQ": {
           "type": "image_list",
-          "disabled": true,
           "settings": {
-            "handle": 1,
-            "image": "shopify://shop_images/cgroupconstruction_com_au__4e39cb228d7b.png",
+            "image": "shopify://shop_images/planetplay-au-2025-05-09-22_38_50.jpg",
+            "link": ""
+          }
+        },
+        "image_list_WkXEAK": {
+          "type": "image_list",
+          "settings": {
+            "image": "shopify://shop_images/smeatonbathrooms_com_au___ab_0__fd_0__sc_1_preview_7b17f175a299.png",
             "link": ""
           }
         },
         "image_list_wbgVNK": {
           "type": "image_list",
           "settings": {
-            "handle": 1,
             "image": "shopify://shop_images/smeatonbathrooms_com_au__9495d37a1a71.png",
             "link": "https://smeatonbathrooms.com.au/"
           }
         },
-        "image_list_WkXEAK": {
-          "type": "image_list",
-          "settings": {
-            "handle": 1,
-            "image": "shopify://shop_images/smeatonbathrooms_com_au___ab_0__fd_0__sc_1_preview_7b17f175a299.png",
-            "link": ""
-          }
-        },
         "image_list_idVJ4F": {
           "type": "image_list",
-          "disabled": true,
           "settings": {
-            "handle": 1,
-            "image": "shopify://shop_images/elitedriveways-au.png",
+            "image": "shopify://shop_images/beachsacsecurity-au-2025-05-09-22_37_15.jpg",
             "link": ""
           }
         },
         "image_list_CMmVq9": {
           "type": "image_list",
-          "disabled": true,
           "settings": {
-            "handle": 2,
-            "image": "shopify://shop_images/eight83plumbing-au.png",
+            "image": "shopify://shop_images/babiesandpets-co-nz-2025-05-09-22_31_58.jpg",
             "link": ""
           }
         },
         "image_list_FchFzB": {
           "type": "image_list",
-          "disabled": true,
           "settings": {
-            "handle": 2,
-            "image": "shopify://shop_images/quickfixplumber-au_b1f12873-a4ab-405a-9d26-ed7e8705e2df.png",
+            "image": "shopify://shop_images/kiddokingdom-au-2025-05-09-22_36_43.jpg",
+            "link": ""
+          }
+        },
+        "image_list_TVNUm7": {
+          "type": "image_list",
+          "settings": {
+            "image": "shopify://shop_images/completelifestore-au-2025-05-09-22_36_04.jpg",
+            "link": ""
+          }
+        },
+        "image_list_tMfR74": {
+          "type": "image_list",
+          "settings": {
+            "image": "shopify://shop_images/cozyzone-au-2025-05-09-22_32_43.jpg",
+            "link": ""
+          }
+        },
+        "image_list_pxczXT": {
+          "type": "image_list",
+          "settings": {
+            "image": "shopify://shop_images/ozstylz-au-2025-05-09-22_35_09.jpg",
+            "link": ""
+          }
+        },
+        "image_list_g94p4f": {
+          "type": "image_list",
+          "settings": {
+            "image": "shopify://shop_images/theresonlyone-au-2025-05-09-22_34_10.jpg",
             "link": ""
           }
         },
@@ -300,7 +284,9 @@
             "min_width": 0,
             "item_count": 1,
             "gap": 10,
-            "image_aspect_ratio": 1.1
+            "row_gap": 20,
+            "image_aspect_ratio": 1.1,
+            "animation_time": 8
           }
         },
         "breakpoint_z7gNKm": {
@@ -310,7 +296,9 @@
             "min_width": 425,
             "item_count": 1,
             "gap": 10,
-            "image_aspect_ratio": 0.8
+            "row_gap": 20,
+            "image_aspect_ratio": 0.8,
+            "animation_time": 8
           }
         },
         "breakpoint_6GLPLD": {
@@ -321,7 +309,9 @@
             "min_width": 0,
             "item_count": 1,
             "gap": 10,
-            "image_aspect_ratio": 1
+            "row_gap": 20,
+            "image_aspect_ratio": 1,
+            "animation_time": 8
           }
         },
         "breakpoint_Cfnixa": {
@@ -330,7 +320,9 @@
             "min_width": 750,
             "item_count": 2,
             "gap": 15,
-            "image_aspect_ratio": 0.5
+            "row_gap": 20,
+            "image_aspect_ratio": 0.5,
+            "animation_time": 8
           }
         },
         "breakpoint_nEkwH8": {
@@ -340,7 +332,9 @@
             "min_width": 1024,
             "item_count": 4,
             "gap": 20,
-            "image_aspect_ratio": 0.5
+            "row_gap": 20,
+            "image_aspect_ratio": 0.5,
+            "animation_time": 8
           }
         },
         "breakpoint_Dakag9": {
@@ -350,33 +344,42 @@
             "min_width": 1280,
             "item_count": 4,
             "gap": 24,
-            "image_aspect_ratio": 0.5
+            "row_gap": 20,
+            "image_aspect_ratio": 0.5,
+            "animation_time": 8
           }
         },
         "breakpoint_c6QjXi": {
           "type": "breakpoint",
-          "disabled": true,
           "name": "desktop Breakpoint",
+          "disabled": true,
           "settings": {
             "min_width": 1366,
             "item_count": 4,
             "gap": 30,
-            "image_aspect_ratio": 0.5
+            "row_gap": 20,
+            "image_aspect_ratio": 0.5,
+            "animation_time": 8
           }
         }
       },
       "block_order": [
         "image_list_eckyx9",
         "image_list_aryFcW",
+        "image_list_qjqda4",
         "image_list_gAnDFy",
         "image_list_9nixiB",
         "image_list_KyXhW8",
         "image_list_M3gBpQ",
-        "image_list_wbgVNK",
         "image_list_WkXEAK",
+        "image_list_wbgVNK",
         "image_list_idVJ4F",
         "image_list_CMmVq9",
         "image_list_FchFzB",
+        "image_list_TVNUm7",
+        "image_list_tMfR74",
+        "image_list_pxczXT",
+        "image_list_g94p4f",
         "breakpoint_46mjpr",
         "breakpoint_z7gNKm",
         "breakpoint_6GLPLD",
@@ -392,14 +395,10 @@
         "loadmore_btn_text": "Load More",
         "loadmore_btn_bg_color": "#454545",
         "loadmore_btn_text_color": "#ffffff",
-        "loadmore_btn_bg_color_hover": "#000000",
-        "loadmore_btn_text_color_hover": "#fafafa",
+        "loadmore_btn_bg_color_hover": "#fdd328",
+        "loadmore_btn_text_color_hover": "#121212",
         "loadmore_btn_border_radius": 7,
-        "slider_arrow_btn_bg_color": "#9f9f9f",
-        "slider_arrow_btn_text_color": "#ffffff",
-        "slider_arrow_btn_bg_color_hover": "#000000",
-        "slider_arrow_btn_text_color_hover": "#fdd328",
-        "slider_arrow_btn_border_radius": 100,
+        "max_count_per_view": 4,
         "desktop_padding_top": 0,
         "desktop_padding_bottom": 60,
         "mobile_padding_top": 0,
@@ -408,7 +407,6 @@
     },
     "text_list_VeQkgV": {
       "type": "text-list",
-      "disabled": true,
       "blocks": {
         "text_iELMnY": {
           "type": "text",
@@ -474,7 +472,6 @@
     },
     "score_grid_9YtCmi": {
       "type": "score-grid",
-      "disabled": true,
       "blocks": {
         "score_item_9aiWT6": {
           "type": "score_item",
@@ -624,7 +621,6 @@
     },
     "text_list_zidnT7": {
       "type": "text-list",
-      "disabled": true,
       "blocks": {
         "text_MTAixR": {
           "type": "text",
@@ -690,7 +686,6 @@
     },
     "custom_review_new_Bp63JF": {
       "type": "custom-review-new",
-      "disabled": true,
       "blocks": {
         "review_items_RkQRAL": {
           "type": "review_items",
@@ -803,7 +798,6 @@
     },
     "image_grid_nwzeK8": {
       "type": "image-grid",
-      "disabled": true,
       "blocks": {
         "image_item_X8aLT8": {
           "type": "image_item",
@@ -983,6 +977,39 @@
         "desktop_padding_bottom": 80,
         "mobile_padding_top": 50,
         "mobile_padding_bottom": 50
+      }
+    },
+    "advertise_PAQGf7": {
+      "type": "advertise",
+      "settings": {
+        "key": "",
+        "loop_video": true,
+        "autoplay_video": true,
+        "main_image": "shopify://shop_images/AnAgencyShopifyWebsite05.png",
+        "media_border_radius": 0,
+        "media_border_width": 0,
+        "media_border_color": "#000000",
+        "secondary_image_roate_angle": -64,
+        "desktop_left": -80,
+        "desktop_top": -1,
+        "desktop_right": -1,
+        "desktop_bottom": 82,
+        "mobile_left": 0,
+        "mobile_top": -1,
+        "mobile_right": -1,
+        "mobile_bottom": -30,
+        "heading": "How We Build Your Shopify Store",
+        "sub_heading": "",
+        "text": "<h1>Step 1: Strategy & Planning</h1><p>We dive into your business, products, and audience. No guesswork, just a clear roadmap for a high-converting online store.</p><h3></h3><p></p>",
+        "button_link": "#",
+        "button_text": "",
+        "image_right": false,
+        "text_align": "left",
+        "background_color": "#fbfbfb",
+        "desktop_padding_top": 60,
+        "desktop_padding_bottom": 60,
+        "mobile_padding_top": 40,
+        "mobile_padding_bottom": 40
       }
     },
     "advertise_DnFdqE": {
@@ -1570,7 +1597,6 @@
     "advertise_xMT9mA",
     "advertise_HPp6jH",
     "phone_ring_MzFcJr",
-    "advertise_PAQGf7",
     "text_list_MNPzdp",
     "multi_image_list_slider_zE97CJ",
     "text_list_VeQkgV",
@@ -1578,6 +1604,7 @@
     "text_list_zidnT7",
     "custom_review_new_Bp63JF",
     "image_grid_nwzeK8",
+    "advertise_PAQGf7",
     "advertise_DnFdqE",
     "advertise_JebRqW",
     "advertise_KLNL33",

@@ -134,7 +134,6 @@
     },
     "text_list_MNPzdp": {
       "type": "text-list",
-      "disabled": true,
       "blocks": {
         "text_E46V74": {
           "type": "text",
@@ -189,6 +188,7 @@
         "text_E46V74",
         "text_VfFdk4"
       ],
+      "disabled": true,
       "name": "Text List",
       "settings": {
         "bg_color": "#ffffff",
@@ -200,12 +200,10 @@
     },
     "multi_image_list_slider_zE97CJ": {
       "type": "multi--image-list-grid",
-      "disabled": true,
       "blocks": {
         "image_list_eckyx9": {
           "type": "image_list",
           "settings": {
-            "handle": 1,
             "image": "shopify://shop_images/playfulpets-au-_2.png",
             "link": ""
           }
@@ -214,7 +212,6 @@
           "type": "image_list",
           "disabled": true,
           "settings": {
-            "handle": 1,
             "image": "shopify://shop_images/swiftpayapp.png",
             "link": ""
           }
@@ -222,7 +219,6 @@
         "image_list_gAnDFy": {
           "type": "image_list",
           "settings": {
-            "handle": 1,
             "image": "shopify://shop_images/screencapture-247gardenshop-au-2025-04-14-22_27_03.png",
             "link": ""
           }
@@ -230,7 +226,6 @@
         "image_list_9nixiB": {
           "type": "image_list",
           "settings": {
-            "handle": 1,
             "image": "shopify://shop_images/Crawfordbathroom01.png",
             "link": ""
           }
@@ -238,7 +233,6 @@
         "image_list_KyXhW8": {
           "type": "image_list",
           "settings": {
-            "handle": 1,
             "image": "shopify://shop_images/bbta-au.png",
             "link": ""
           }
@@ -247,7 +241,6 @@
           "type": "image_list",
           "disabled": true,
           "settings": {
-            "handle": 1,
             "image": "shopify://shop_images/cgroupconstruction_com_au__4e39cb228d7b.png",
             "link": ""
           }
@@ -255,7 +248,6 @@
         "image_list_wbgVNK": {
           "type": "image_list",
           "settings": {
-            "handle": 1,
             "image": "shopify://shop_images/smeatonbathrooms_com_au__9495d37a1a71.png",
             "link": "https://smeatonbathrooms.com.au/"
           }
@@ -263,7 +255,6 @@
         "image_list_WkXEAK": {
           "type": "image_list",
           "settings": {
-            "handle": 1,
             "image": "shopify://shop_images/smeatonbathrooms_com_au___ab_0__fd_0__sc_1_preview_7b17f175a299.png",
             "link": ""
           }
@@ -272,7 +263,6 @@
           "type": "image_list",
           "disabled": true,
           "settings": {
-            "handle": 1,
             "image": "shopify://shop_images/elitedriveways-au.png",
             "link": ""
           }
@@ -281,7 +271,6 @@
           "type": "image_list",
           "disabled": true,
           "settings": {
-            "handle": 2,
             "image": "shopify://shop_images/eight83plumbing-au.png",
             "link": ""
           }
@@ -290,7 +279,6 @@
           "type": "image_list",
           "disabled": true,
           "settings": {
-            "handle": 2,
             "image": "shopify://shop_images/quickfixplumber-au_b1f12873-a4ab-405a-9d26-ed7e8705e2df.png",
             "link": ""
           }
@@ -357,8 +345,8 @@
         },
         "breakpoint_c6QjXi": {
           "type": "breakpoint",
-          "disabled": true,
           "name": "desktop Breakpoint",
+          "disabled": true,
           "settings": {
             "min_width": 1366,
             "item_count": 4,
@@ -387,6 +375,7 @@
         "breakpoint_Dakag9",
         "breakpoint_c6QjXi"
       ],
+      "disabled": true,
       "name": "Multi Image List Slider",
       "settings": {
         "bg_color": "#ffffff",
@@ -397,11 +386,6 @@
         "loadmore_btn_bg_color_hover": "#000000",
         "loadmore_btn_text_color_hover": "#fafafa",
         "loadmore_btn_border_radius": 7,
-        "slider_arrow_btn_bg_color": "#9f9f9f",
-        "slider_arrow_btn_text_color": "#ffffff",
-        "slider_arrow_btn_bg_color_hover": "#000000",
-        "slider_arrow_btn_text_color_hover": "#fdd328",
-        "slider_arrow_btn_border_radius": 100,
         "desktop_padding_top": 0,
         "desktop_padding_bottom": 60,
         "mobile_padding_top": 0,
@@ -410,7 +394,6 @@
     },
     "text_list_VeQkgV": {
       "type": "text-list",
-      "disabled": true,
       "blocks": {
         "text_iELMnY": {
           "type": "text",
@@ -465,6 +448,7 @@
         "text_iELMnY",
         "text_eBjNbe"
       ],
+      "disabled": true,
       "name": "Text List",
       "settings": {
         "bg_color": "#ffffff",
@@ -476,7 +460,6 @@
     },
     "score_grid_9YtCmi": {
       "type": "score-grid",
-      "disabled": true,
       "blocks": {
         "score_item_9aiWT6": {
           "type": "score_item",
@@ -611,6 +594,7 @@
         "breakpoint_LxiYGi",
         "breakpoint_apF6AV"
       ],
+      "disabled": true,
       "name": "Score Grid",
       "settings": {
         "bg_color": "#ffffff",
@@ -626,7 +610,6 @@
     },
     "text_list_zidnT7": {
       "type": "text-list",
-      "disabled": true,
       "blocks": {
         "text_MTAixR": {
           "type": "text",
@@ -681,6 +664,7 @@
         "text_MTAixR",
         "text_MBaFDg"
       ],
+      "disabled": true,
       "name": "Text List",
       "settings": {
         "bg_color": "#ffffff",
@@ -692,7 +676,6 @@
     },
     "custom_review_new_Bp63JF": {
       "type": "custom-review-new",
-      "disabled": true,
       "blocks": {
         "review_items_RkQRAL": {
           "type": "review_items",
@@ -771,6 +754,7 @@
         "breakpoint_ExWjai",
         "breakpoint_PMwB3w"
       ],
+      "disabled": true,
       "name": "Custom Review(new)",
       "settings": {
         "bg_color": "#ffffff",
@@ -805,7 +789,6 @@
     },
     "image_grid_nwzeK8": {
       "type": "image-grid",
-      "disabled": true,
       "blocks": {
         "image_item_X8aLT8": {
           "type": "image_item",
@@ -962,6 +945,7 @@
         "breakpoint_qrBQVN",
         "breakpoint_gR6QyE"
       ],
+      "disabled": true,
       "name": "Image Grid",
       "settings": {
         "bg_color": "#ffffff",

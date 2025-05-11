@@ -120,6 +120,7 @@
       "type": "advertise",
       "custom_css": [],
       "settings": {
+        "key": "",
         "loop_video": true,
         "autoplay_video": true,
         "main_image": "shopify://shop_images/9158264f569b0ba69761e856037de151.png",
@@ -223,6 +224,7 @@
       "type": "advertise",
       "custom_css": [],
       "settings": {
+        "key": "",
         "loop_video": true,
         "autoplay_video": true,
         "main_image": "shopify://shop_images/Artboard_3_copy-100.jpg",
@@ -724,6 +726,7 @@
       "type": "advertise",
       "custom_css": [],
       "settings": {
+        "key": "",
         "loop_video": true,
         "autoplay_video": true,
         "main_image": "shopify://shop_images/2e5877eca35c499b4057cf3e49e166c6.png",
@@ -852,6 +855,7 @@
         "benefit_wNGBXq"
       ],
       "settings": {
+        "key": "",
         "section_title": "Why Having an Online Presence Matters",
         "bg_color": "#f3f3f3",
         "desktop_padding_top": 20,
@@ -864,6 +868,7 @@
       "type": "advertise",
       "custom_css": [],
       "settings": {
+        "key": "",
         "loop_video": true,
         "autoplay_video": true,
         "main_image": "shopify://shop_images/HomePage_newleads.jpg",
@@ -883,7 +888,7 @@
         "heading": "The Challenge of Getting Leads Online",
         "sub_heading": "You’re an expert in your trade, not digital marketing. So why spend your time chasing leads?",
         "text": "<p>Truth is, most local businesses struggle to build a reliable pipeline of quality enquiries. Relying on word-of-mouth or online directories won't keep your calendar full. Without a clear online strategy, you’re invisible exactly when people need you most.</p><p>That’s where we step in. We don’t just know marketing, we know how Aussies search for trades and services. No fluff, no guesswork, just targeted, proven strategies designed to get your phone ringing with real customers that chase you.</p><p><strong>We make your phone ring. With the right people.</strong></p>",
-        "button_link": "shopify://blogs/news",
+        "button_link": "shopify://blogs/free-content/how-to-run-google-ads-that-actually-bring-in-leads-not-just-clicks",
         "button_text": "How We Generate Leads",
         "image_right": true,
         "text_align": "left",
@@ -984,6 +989,7 @@
     "advertise_FfNzr9": {
       "type": "advertise",
       "settings": {
+        "key": "",
         "loop_video": true,
         "autoplay_video": true,
         "main_image": "shopify://shop_images/01.jpg",
@@ -1018,6 +1024,7 @@
       "type": "advertise",
       "custom_css": [],
       "settings": {
+        "key": "",
         "loop_video": true,
         "autoplay_video": true,
         "main_image": "shopify://shop_images/HomePage_eight83_plumbing.jpg",

@@ -201,57 +201,48 @@
         "image_list_eckyx9": {
           "type": "image_list",
           "settings": {
-            "handle": 1,
             "image": "shopify://shop_images/playfulpets-au-_2.png",
             "link": ""
           }
         },
         "image_list_aryFcW": {
           "type": "image_list",
-          "disabled": true,
           "settings": {
-            "handle": 1,
-            "image": "shopify://shop_images/swiftpayapp.png",
+            "image": "shopify://shop_images/Crawfordbathroom01.png",
+            "link": ""
+          }
+        },
+        "image_list_hTJQkm": {
+          "type": "image_list",
+          "settings": {
+            "image": "shopify://shop_images/purelyhome-au-2025-05-09-22_30_47_1.png",
             "link": ""
           }
         },
         "image_list_gAnDFy": {
           "type": "image_list",
           "settings": {
-            "handle": 1,
             "image": "shopify://shop_images/screencapture-247gardenshop-au-2025-04-14-22_27_03.png",
-            "link": ""
-          }
-        },
-        "image_list_9nixiB": {
-          "type": "image_list",
-          "settings": {
-            "handle": 1,
-            "image": "shopify://shop_images/Crawfordbathroom01.png",
             "link": ""
           }
         },
         "image_list_KyXhW8": {
           "type": "image_list",
           "settings": {
-            "handle": 1,
             "image": "shopify://shop_images/bbta-au.png",
             "link": ""
           }
         },
         "image_list_M3gBpQ": {
           "type": "image_list",
-          "disabled": true,
           "settings": {
-            "handle": 1,
-            "image": "shopify://shop_images/cgroupconstruction_com_au__4e39cb228d7b.png",
+            "image": "shopify://shop_images/casalorena-au-2025-05-09-22_33_31.png",
             "link": ""
           }
         },
         "image_list_wbgVNK": {
           "type": "image_list",
           "settings": {
-            "handle": 1,
             "image": "shopify://shop_images/smeatonbathrooms_com_au__9495d37a1a71.png",
             "link": "https://smeatonbathrooms.com.au/"
           }
@@ -259,35 +250,63 @@
         "image_list_WkXEAK": {
           "type": "image_list",
           "settings": {
-            "handle": 1,
             "image": "shopify://shop_images/smeatonbathrooms_com_au___ab_0__fd_0__sc_1_preview_7b17f175a299.png",
             "link": ""
           }
         },
         "image_list_idVJ4F": {
           "type": "image_list",
-          "disabled": true,
           "settings": {
-            "handle": 1,
-            "image": "shopify://shop_images/elitedriveways-au.png",
+            "image": "shopify://shop_images/planetplay-au-2025-05-09-22_38_50.jpg",
             "link": ""
           }
         },
         "image_list_CMmVq9": {
           "type": "image_list",
-          "disabled": true,
           "settings": {
-            "handle": 2,
-            "image": "shopify://shop_images/eight83plumbing-au.png",
+            "image": "shopify://shop_images/beachsacsecurity-au-2025-05-09-22_37_15.jpg",
             "link": ""
           }
         },
-        "image_list_FchFzB": {
+        "image_list_mcm8KC": {
           "type": "image_list",
-          "disabled": true,
           "settings": {
-            "handle": 2,
-            "image": "shopify://shop_images/quickfixplumber-au_b1f12873-a4ab-405a-9d26-ed7e8705e2df.png",
+            "image": "shopify://shop_images/babiesandpets-co-nz-2025-05-09-22_31_58.jpg",
+            "link": ""
+          }
+        },
+        "image_list_jnLtEk": {
+          "type": "image_list",
+          "settings": {
+            "image": "shopify://shop_images/kiddokingdom-au-2025-05-09-22_36_43.jpg",
+            "link": ""
+          }
+        },
+        "image_list_mGpipp": {
+          "type": "image_list",
+          "settings": {
+            "image": "shopify://shop_images/completelifestore-au-2025-05-09-22_36_04.jpg",
+            "link": ""
+          }
+        },
+        "image_list_ycBfMF": {
+          "type": "image_list",
+          "settings": {
+            "image": "shopify://shop_images/cozyzone-au-2025-05-09-22_32_43.jpg",
+            "link": ""
+          }
+        },
+        "image_list_Ye7QNr": {
+          "type": "image_list",
+          "settings": {
+            "image": "shopify://shop_images/ozstylz-au-2025-05-09-22_35_09.jpg",
+            "link": ""
+          }
+        },
+        "image_list_XDKKx6": {
+          "type": "image_list",
+          "settings": {
+            "image": "shopify://shop_images/theresonlyone-au-2025-05-09-22_34_10.jpg",
             "link": ""
           }
         },
@@ -298,7 +317,9 @@
             "min_width": 0,
             "item_count": 1,
             "gap": 10,
-            "image_aspect_ratio": 1.1
+            "row_gap": 20,
+            "image_aspect_ratio": 1.1,
+            "animation_time": 8
           }
         },
         "breakpoint_z7gNKm": {
@@ -308,7 +329,9 @@
             "min_width": 425,
             "item_count": 1,
             "gap": 10,
-            "image_aspect_ratio": 0.8
+            "row_gap": 20,
+            "image_aspect_ratio": 0.8,
+            "animation_time": 8
           }
         },
         "breakpoint_6GLPLD": {
@@ -319,7 +342,9 @@
             "min_width": 0,
             "item_count": 1,
             "gap": 10,
-            "image_aspect_ratio": 1
+            "row_gap": 20,
+            "image_aspect_ratio": 1,
+            "animation_time": 8
           }
         },
         "breakpoint_Cfnixa": {
@@ -328,7 +353,9 @@
             "min_width": 750,
             "item_count": 2,
             "gap": 15,
-            "image_aspect_ratio": 0.5
+            "row_gap": 20,
+            "image_aspect_ratio": 0.5,
+            "animation_time": 8
           }
         },
         "breakpoint_nEkwH8": {
@@ -338,7 +365,9 @@
             "min_width": 1024,
             "item_count": 4,
             "gap": 20,
-            "image_aspect_ratio": 0.5
+            "row_gap": 20,
+            "image_aspect_ratio": 0.5,
+            "animation_time": 8
           }
         },
         "breakpoint_Dakag9": {
@@ -348,33 +377,42 @@
             "min_width": 1280,
             "item_count": 4,
             "gap": 24,
-            "image_aspect_ratio": 0.5
+            "row_gap": 20,
+            "image_aspect_ratio": 0.5,
+            "animation_time": 8
           }
         },
         "breakpoint_c6QjXi": {
           "type": "breakpoint",
-          "disabled": true,
           "name": "desktop Breakpoint",
+          "disabled": true,
           "settings": {
             "min_width": 1366,
             "item_count": 4,
             "gap": 30,
-            "image_aspect_ratio": 0.5
+            "row_gap": 20,
+            "image_aspect_ratio": 0.5,
+            "animation_time": 8
           }
         }
       },
       "block_order": [
         "image_list_eckyx9",
         "image_list_aryFcW",
+        "image_list_hTJQkm",
         "image_list_gAnDFy",
-        "image_list_9nixiB",
         "image_list_KyXhW8",
         "image_list_M3gBpQ",
         "image_list_wbgVNK",
         "image_list_WkXEAK",
         "image_list_idVJ4F",
         "image_list_CMmVq9",
-        "image_list_FchFzB",
+        "image_list_mcm8KC",
+        "image_list_jnLtEk",
+        "image_list_mGpipp",
+        "image_list_ycBfMF",
+        "image_list_Ye7QNr",
+        "image_list_XDKKx6",
         "breakpoint_46mjpr",
         "breakpoint_z7gNKm",
         "breakpoint_6GLPLD",
@@ -393,11 +431,7 @@
         "loadmore_btn_bg_color_hover": "#000000",
         "loadmore_btn_text_color_hover": "#fafafa",
         "loadmore_btn_border_radius": 7,
-        "slider_arrow_btn_bg_color": "#9f9f9f",
-        "slider_arrow_btn_text_color": "#ffffff",
-        "slider_arrow_btn_bg_color_hover": "#000000",
-        "slider_arrow_btn_text_color_hover": "#fdd328",
-        "slider_arrow_btn_border_radius": 100,
+        "max_count_per_view": 4,
         "desktop_padding_top": 0,
         "desktop_padding_bottom": 60,
         "mobile_padding_top": 0,
