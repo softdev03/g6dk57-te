@@ -12,10 +12,11 @@ document.addEventListener('DOMContentLoaded', () => {
 		let isClickedInput = false;
 		nextButton.addEventListener('click', (e) => {
 			const currentStepSection = contactForm.querySelector('.form-step-section.show');
+			let nextStepSection = null;
 			if (testValidation(currentStepSection)) {
 				const targetIndex = parseInt(currentStepSection.getAttribute('index')) + 1;
 
-				const nextStepSection = contactForm.querySelector(`.form-step-section[index='${targetIndex}']`);
+				nextStepSection = contactForm.querySelector(`.form-step-section[index='${targetIndex}']`);
 				if (nextStepSection) {
 					currentStepSection.classList.remove('show');
 					backButton.classList.add('show');
@@ -50,7 +51,8 @@ document.addEventListener('DOMContentLoaded', () => {
 			} else {
 				e.preventDefault();
 			}
-			keepScrollPos();
+
+			keepScrollPos(nextStepSection);
 		});
 		backButton.addEventListener('click', (e) => {
 			e.preventDefault();
@@ -65,6 +67,7 @@ document.addEventListener('DOMContentLoaded', () => {
 					if (targetIndex === 1) {
 						backButton.classList.remove('show');
 					}
+					keepScrollPos(beforeSection);
 				}
 			}
 		});
@@ -296,14 +299,12 @@ document.addEventListener('DOMContentLoaded', () => {
 				contactForm.querySelector('.dropdown.show')?.classList.remove('show');
 			}
 		});
-		const keepScrollPos = () => {
-			const rect = contactFormWrapper.getBoundingClientRect();
-			if (rect.top < 0) {
-				contactFormWrapper.scrollIntoView({
-					behavior: 'smooth',
-					block: 'start'
-				});
-			}
+		const keepScrollPos = (currentStep) => {
+			const target = currentStep?currentStep:contactFormWrapper;
+			target.scrollIntoView({
+				behavior: 'smooth',
+				block: 'start'
+			});
 		}
 	}
 });

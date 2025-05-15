@@ -2,7 +2,7 @@
 	display: flex;
 	justify-content: space-between;
 	flex-wrap: wrap;
-	row-gap: 120px;
+	row-gap: 75px;
 }
 
 .shopify-section-cfn .text-content {
@@ -141,7 +141,7 @@
 	line-height: 1.2;
 }
 
-.shopify-section-cfn .form-step-section.form-main .step-content {
+.shopify-section-cfn .form-step-section.form-main .step-content:not(.non-independent) {
 	display: flex;
 	flex-direction: column;
 	row-gap: 30px;
