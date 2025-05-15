@@ -110,7 +110,7 @@ document.addEventListener('DOMContentLoaded', () => {
 				for (const field of fields) {
 					if (field.classList.contains('phone')) {
 						const len = parseInt(selectedCountry.getAttribute('max'));
-						const value = field.querySelector('input').value.replace(' ', '');
+						const value = field.querySelector('input').value.replace(/\s/g, '');
 
 						if (!phoneRegex.test(value)) {
 							result = false;
@@ -140,11 +140,21 @@ document.addEventListener('DOMContentLoaded', () => {
 							}
 						}
 					} else {
+						const wrapper = field.closest('.field-wrapper');
 						if (field.querySelector('input').value === '') {
-							field.closest('.field-wrapper').classList.add('error');
-							result = false;
+							if(field.classList.contains('secondary')) {
+								if(wrapper.classList.contains('show')) {
+									wrapper.classList.add('error');
+									result = false;
+								} else {
+									wrapper.classList.remove('error');
+								}
+							} else {
+								wrapper.classList.add('error');
+								result = false;
+							}
 						} else {
-							field.closest('.field-wrapper').classList.remove('error');
+							wrapper.classList.remove('error');
 						}
 					}
 				}

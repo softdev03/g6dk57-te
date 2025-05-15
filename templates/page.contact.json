@@ -23,6 +23,8 @@
         "first_step_tDaw9E": {
           "type": "first_step",
           "settings": {
+            "step_id": "",
+            "child_step_id": "has-own-site",
             "final_step": false,
             "first_name_label": "First Name",
             "last_name_label": "Last Name",
@@ -52,6 +54,9 @@
         "second_step_9DnAqQ": {
           "type": "second_step",
           "settings": {
+            "step_id": "",
+            "child_step_id": "",
+            "is_independent": true,
             "final_step": false,
             "is_required": true,
             "field_name": "service",
@@ -72,7 +77,11 @@
         },
         "third_step_nFBJDQ": {
           "type": "third_step",
+          "disabled": true,
           "settings": {
+            "step_id": "",
+            "child_step_id": "",
+            "is_independent": true,
             "final_step": false,
             "field_name": "best-match",
             "is_required": false,
@@ -105,7 +114,11 @@
         },
         "second_step_xeYrLC": {
           "type": "second_step",
+          "disabled": true,
           "settings": {
+            "step_id": "",
+            "child_step_id": "",
+            "is_independent": true,
             "final_step": false,
             "is_required": false,
             "field_name": "team-scope",
@@ -127,6 +140,9 @@
         "third_step_VgiNab": {
           "type": "third_step",
           "settings": {
+            "step_id": "has-own-site",
+            "child_step_id": "",
+            "is_independent": false,
             "final_step": false,
             "field_name": "website-has",
             "is_required": true,
@@ -159,7 +175,11 @@
         },
         "second_step_ixE8j3": {
           "type": "second_step",
+          "disabled": true,
           "settings": {
+            "step_id": "",
+            "child_step_id": "",
+            "is_independent": true,
             "final_step": true,
             "is_required": false,
             "field_name": "ideal-outcome",
@@ -181,6 +201,9 @@
         "second_step_Em8DTx": {
           "type": "second_step",
           "settings": {
+            "step_id": "",
+            "child_step_id": "",
+            "is_independent": true,
             "final_step": false,
             "is_required": true,
             "field_name": "service",
@@ -266,7 +289,7 @@
         "back_button_color": "#9f9f9f",
         "desktop_padding_top": 120,
         "desktop_padding_bottom": 80,
-        "mobile_padding_top": 90,
+        "mobile_padding_top": 16,
         "mobile_padding_bottom": 60
       }
     },

@@ -42,16 +42,16 @@
 	top: 0px;
 }
 
-.shopify-section-cfn .form-heading {
+.shopify-section-cfn .form-main-heading {
 	margin: 0px;
 	font-size: 25px;
 	text-align: center;
 }
 
-.shopify-section-cfn .form-description {
+.shopify-section-cfn .form-main-description {
 	margin-top: 0px;
 	font-size: 15px;
-	margin-bottom: 50px;
+	margin-bottom: 40px;
 	text-align: center;
 }
 
@@ -141,7 +141,7 @@
 	line-height: 1.2;
 }
 
-.shopify-section-cfn .form-step-section.form-main {
+.shopify-section-cfn .form-step-section.form-main .step-content {
 	display: flex;
 	flex-direction: column;
 	row-gap: 30px;
@@ -349,17 +349,26 @@
 	margin-top: 0px;
 	margin-bottom: 16px;
 }
+.shopify-section-cfn .non-independent .part-heading {
+	font-size: 18px;
+	margin-bottom: 10px;
+}
 .shopify-section-cfn .form-step-section:not(:has(.part-description)) .part-heading {
 	margin-bottom: 30px;
 }
-
+.shopify-section-cfn .form-step-section:not(:has(.part-description)) .non-independent .part-heading {
+	margin-bottom: 15px;
+}
 .shopify-section-cfn .part-description {
 	font-size: 14px;
 	margin-top: 0px;
 	line-height: 1.2;
 	margin-bottom: 30px;
 }
-
+.shopify-section-cfn .non-independent .part-description {
+	font-size: 13px;
+	margin-bottom: 20px;
+}
 .shopify-section-cfn .check-field {
 	text-align: left;
 	font-size: 14px;
@@ -438,14 +447,14 @@
 	.shopify-section-cfn .form-content {
 		padding: 60px 15px 20px;
 	}
-	.shopify-section-cfn .form-heading {
+	.shopify-section-cfn .form-main-heading {
 		font-size: 20px;
 	}
-	.shopify-section-cfn .form-description {
+	.shopify-section-cfn .form-main-description {
 		font-size: 14px;
 		margin-bottom: 30px;
 	}
-	.shopify-section-cfn .form-step-section.form-main {
+	.shopify-section-cfn .form-step-section.form-main .step-content {
 		row-gap: 25px;
 	}
 	.shopify-section-cfn .name-field .field-wrapper {

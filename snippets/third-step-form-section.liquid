@@ -1,89 +1,108 @@
-<div
-  class="form-step-section {% if block.settings.is_required %} required {% endif %}{% if block.settings.final_step %} final {% endif %}"
-  id="form-part-{{ block.id }}"
-  index="{{ index }}"
->
-  {%- if block.settings.heading != blank -%}
-    <h1 class="part-heading" style="color: {{ block.settings.heading_color }}">{{ block.settings.heading }}</h1>
-  {%- endif -%}
-  {%- if block.settings.description != blank -%}
-    <p class="part-description" style="color: {{ block.settings.description_color }}">
-      {{ block.settings.description }}
-    </p>
-  {%- endif -%}
-  <div class="field-wrapper">
-    <div class="field dropdown-field">
-      <input
-        type="text"
-        id="ContactForm-{{ block.settings.field_name }}"
-        class="field__input"
-        autocomplete="text"
-        name="contact[{{ block.settings.field_name }}]"
-        placeholder="{{ block.settings.place_holder_text }}"
-      >
-      <label class="field__label" for="ContactForm-phone">{{ block.settings.place_holder_text }}</label>
-      {%- assign dropdownItems = block.settings.field_items | split: '|' -%}
-      {%- if dropdownItems.size > 0 -%}
-        <div class="dropdown">
-          {%- for dropdownItem in dropdownItems -%}
-            <div class="dropdown-item">
-              <label>{{ dropdownItem }}</label>
-            </div>
-          {%- endfor -%}
-        </div>
-        {%- style -%}
-               {%- assign rgb = block.settings.box_shadow_color |  color_to_rgb |  remove: 'rgb(' |  remove: ')' -%}
-               #form-part-{{ block.id }} input.field__input {
-               	color: {{ block.settings.field_items_color }};
-          	border-bottom: 1px solid {{ block.settings.field_border_color }};
-          	background-color: {{ block.settings.field_bg_color }};
-                 box-shadow: rgba({{ rgb }}, 0.2) 0px 0px 10px 0px;
-               }
-          #form-part-{{ block.id }} input:hover {
-          	border-color: {{ block.settings.field_border_color_hover }};
-          }
-          #form-part-{{ block.id }} .field::before {
-          	background-color: {{ block.settings.field_border_color_focus }};
-          }
-          #form-part-{{ block.id }} .field::after {
-          	background-color: {{ block.settings.field_border_color_error }};
-          }
-          #form-part-{{ block.id }} .dropdown {
-          	background-color: {{ block.settings.dropdown_bg_color }};
-                 box-shadow: rgba({{ rgb }}, 0.2) 0px 0px 10px 0px;
-          }
-               #form-part-{{ block.id }} .dropdown-item {
-               	background-color: {{ block.settings.dropdown_item_bg_color }};
-               	color: {{ block.settings.dropdown_item_color }};
-               }
-               #form-part-{{ block.id }} .dropdown-item:hover {
-               	background-color: {{ block.settings.dropdown_item_bg_color_hover }};
-               	color: {{ block.settings.dropdown_item_color_hover }};
-               }
-               #form-part-{{ block.id }} .dropdown-item.selected {
-               	background-color: {{ block.settings.dropdown_item_bg_color_selected }};
-               	color: {{ block.settings.dropdown_item_color_selected }};
-               }
-        {%- endstyle -%}
-      {%- endif -%}
-    </div>
-    <p class="error-msg" style="color: {{ block.settings.error_msg_color }}">{{ block.settings.error_msg }}</p>
-  </div>
-  {%- if block.settings.secondary_field_name != blank -%}
+{%- if is_independent == true -%}
+  <div
+    class="form-step-section {% if block.settings.is_required %} required {% endif %}{% if block.settings.final_step %} final {% endif %}"
+    index="{{ index }}"
+  >
+{%- endif -%}
+  <div class="step-content {% if is_independent == false %} non-independent {% endif %}" id="form-part-{{ block.id }}">
+    {%- if block.settings.heading != blank -%}
+      <h1 class="part-heading" style="color: {{ block.settings.heading_color }}">{{ block.settings.heading }}</h1>
+    {%- endif -%}
+    {%- if block.settings.description != blank -%}
+      <p class="part-description" style="color: {{ block.settings.description_color }}">
+        {{ block.settings.description }}
+      </p>
+    {%- endif -%}
     <div class="field-wrapper">
-      <div class="field secondary" appear-text="{{ block.settings.text_for_secondary }}">
+      <div class="field dropdown-field">
         <input
           type="text"
-          id="ContactForm-{{ block.settings.secondary_field_name }}"
+          id="ContactForm-{{ block.settings.field_name }}"
           class="field__input"
           autocomplete="text"
-          name="contact[{{ block.settings.secondary_field_name }}]"
-          placeholder="{{ block.settings.secondary_field_label }}"
+          name="contact[{{ block.settings.field_name }}]"
+          placeholder="{{ block.settings.place_holder_text }}"
         >
-        <label class="field__label" for="ContactForm-{{ block.settings.secondary_field_name }}">
-          {{- block.settings.secondary_field_label -}}
-        </label>
+        <label class="field__label" for="ContactForm-phone">{{ block.settings.place_holder_text }}</label>
+        {%- assign dropdownItems = block.settings.field_items | split: '|' -%}
+        {%- if dropdownItems.size > 0 -%}
+          <div class="dropdown">
+            {%- for dropdownItem in dropdownItems -%}
+              <div class="dropdown-item">
+                <label>{{ dropdownItem }}</label>
+              </div>
+            {%- endfor -%}
+          </div>
+          {%- style -%}
+                 {%- assign rgb = block.settings.box_shadow_color |  color_to_rgb |  remove: 'rgb(' |  remove: ')' -%}
+                 #form-part-{{ block.id }} input.field__input {
+                   color: {{ block.settings.field_items_color }};
+              border-bottom: 1px solid {{ block.settings.field_border_color }};
+              background-color: {{ block.settings.field_bg_color }};
+                   box-shadow: rgba({{ rgb }}, 0.2) 0px 0px 10px 0px;
+                 }
+            #form-part-{{ block.id }} input:hover {
+              border-color: {{ block.settings.field_border_color_hover }};
+            }
+            #form-part-{{ block.id }} .field::before {
+              background-color: {{ block.settings.field_border_color_focus }};
+            }
+            #form-part-{{ block.id }} .field::after {
+              background-color: {{ block.settings.field_border_color_error }};
+            }
+            #form-part-{{ block.id }} .dropdown {
+              background-color: {{ block.settings.dropdown_bg_color }};
+                   box-shadow: rgba({{ rgb }}, 0.2) 0px 0px 10px 0px;
+            }
+                 #form-part-{{ block.id }} .dropdown-item {
+                   background-color: {{ block.settings.dropdown_item_bg_color }};
+                   color: {{ block.settings.dropdown_item_color }};
+                 }
+                 #form-part-{{ block.id }} .dropdown-item:hover {
+                   background-color: {{ block.settings.dropdown_item_bg_color_hover }};
+                   color: {{ block.settings.dropdown_item_color_hover }};
+                 }
+                 #form-part-{{ block.id }} .dropdown-item.selected {
+                   background-color: {{ block.settings.dropdown_item_bg_color_selected }};
+                   color: {{ block.settings.dropdown_item_color_selected }};
+                 }
+          {%- endstyle -%}
+        {%- endif -%}
       </div>
+      <p class="error-msg" style="color: {{ block.settings.error_msg_color }}">{{ block.settings.error_msg }}</p>
     </div>
-  {%- endif -%}
-</div>
+    {%- if block.settings.secondary_field_name != blank -%}
+      <div class="field-wrapper">
+        <div class="field secondary" appear-text="{{ block.settings.text_for_secondary }}">
+          <input
+            type="text"
+            id="ContactForm-{{ block.settings.secondary_field_name }}"
+            class="field__input"
+            autocomplete="text"
+            name="contact[{{ block.settings.secondary_field_name }}]"
+            placeholder="{{ block.settings.secondary_field_label }}"
+          >
+          <label class="field__label" for="ContactForm-{{ block.settings.secondary_field_name }}">
+            {{- block.settings.secondary_field_label -}}
+          </label>
+        </div>
+      </div>
+    {%- endif -%}
+    {%- if block.settings.child_step_id != blank and childBlocks != blank -%}
+      {%- assign childIds = block.settings.child_step_id |  split: '|' -%}
+      {%- for childId in childIds -%}
+        {%- for childBlock in childBlocks -%}
+          {%- assign childBlockId = childBlock.settings.step_id |  replace: ' ', '' -%}
+          {%- if childBlockId != '' and childBlockId == childId and block.settings.step_id != childId and childBlock.settings.is_independent == false -%}
+            {%- case childBlock.type -%}
+              {%- when 'second_step' -%}
+                {%- render 'second-step-form-section', block: childBlock, is_independent: false -%}
+              {%- when 'third_step' -%}
+                {%- render 'third-step-form-section', block: childBlock, is_independent: false -%}
+            {% endcase %}
+          {%- endif -%}
+        {%- endfor -%}
+      {%- endfor -%}
+    {%- endif -%}
+  </div>
+{% if is_independent == true %}</div>{% endif %}
