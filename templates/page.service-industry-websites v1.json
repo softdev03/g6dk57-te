@@ -12,6 +12,7 @@
     "advertise_xMT9mA": {
       "type": "advertise",
       "settings": {
+        "key": "",
         "loop_video": true,
         "autoplay_video": true,
         "main_image": "shopify://shop_images/AnAgencyServiceWebsite02.png",
@@ -44,6 +45,7 @@
     "phone_ring_MzFcJr": {
       "type": "phone-ring",
       "settings": {
+        "key": "",
         "image": "shopify://shop_images/GoogleAds_10.jpg",
         "heading_1": "Your Website Should Be",
         "heading_2": "Your Best Salesperson",
@@ -61,45 +63,13 @@
         "mobile_padding_bottom": 40
       }
     },
-    "advertise_PAQGf7": {
-      "type": "advertise",
-      "settings": {
-        "loop_video": true,
-        "autoplay_video": true,
-        "main_image": "shopify://shop_images/AnAgencyServiceWebsite03.png",
-        "media_border_radius": 0,
-        "media_border_width": 0,
-        "media_border_color": "#000000",
-        "secondary_image_roate_angle": -64,
-        "desktop_left": -80,
-        "desktop_top": -1,
-        "desktop_right": -1,
-        "desktop_bottom": 82,
-        "mobile_left": 0,
-        "mobile_top": -1,
-        "mobile_right": -1,
-        "mobile_bottom": -30,
-        "heading": "How We Build Websites That Generate Leads",
-        "sub_heading": "",
-        "text": "<h1>Step 1: Strategy & Planning</h1><p>We deep-dive into your business, your competition, and your ideal customers, so we can build a website designed specifically to attract quality enquiries.</p><p></p>",
-        "button_link": "",
-        "button_text": "",
-        "image_right": false,
-        "text_align": "left",
-        "background_color": "#fbfbfb",
-        "desktop_padding_top": 60,
-        "desktop_padding_bottom": 60,
-        "mobile_padding_top": 40,
-        "mobile_padding_bottom": 40
-      }
-    },
     "text_list_MNPzdp": {
       "type": "text-list",
       "blocks": {
         "text_E46V74": {
           "type": "text",
           "settings": {
-            "text": "<p>CHECK OUT SOME SHOPIFY ECOMMERCE WEBSITES WE’VE BUILT</p>",
+            "text": "<p>CHECK OUT SOME SERVICE WEBSITES WE’VE BUILT</p>",
             "desktop_margin": 20,
             "mobile_margin": 12,
             "desktop_align": "center",
@@ -123,7 +93,7 @@
         "text_VfFdk4": {
           "type": "text",
           "settings": {
-            "text": "<p>Explore a curated selection of Shopify stores we've built - each designed to convert visitors into customers, drive sales, and support real business growth. These sites aren’t just pretty; they’re built for online success from day one.</p><h5></h5>",
+            "text": "<p>Explore a curated selection of Service websites we've built on Shopify  - each designed to convert visitors into customers, drive leads, bookings, and support real business growth. These sites aren’t just pretty; they’re built for online success from day one.</p>",
             "desktop_margin": 0,
             "mobile_margin": 0,
             "desktop_align": "center",
@@ -911,9 +881,43 @@
         "mobile_padding_bottom": 50
       }
     },
+    "advertise_PAQGf7": {
+      "type": "advertise",
+      "settings": {
+        "key": "",
+        "loop_video": true,
+        "autoplay_video": true,
+        "main_image": "shopify://shop_images/AnAgencyServiceWebsite03.png",
+        "media_border_radius": 0,
+        "media_border_width": 0,
+        "media_border_color": "#000000",
+        "secondary_image_roate_angle": -64,
+        "desktop_left": -80,
+        "desktop_top": -1,
+        "desktop_right": -1,
+        "desktop_bottom": 82,
+        "mobile_left": 0,
+        "mobile_top": -1,
+        "mobile_right": -1,
+        "mobile_bottom": -30,
+        "heading": "How We Build Websites That Generate Leads",
+        "sub_heading": "",
+        "text": "<h1>Step 1: Strategy & Planning</h1><p>We deep-dive into your business, your competition, and your ideal customers, so we can build a website designed specifically to attract quality enquiries.</p><p></p>",
+        "button_link": "",
+        "button_text": "",
+        "image_right": false,
+        "text_align": "left",
+        "background_color": "#fbfbfb",
+        "desktop_padding_top": 60,
+        "desktop_padding_bottom": 60,
+        "mobile_padding_top": 40,
+        "mobile_padding_bottom": 40
+      }
+    },
     "advertise_DnFdqE": {
       "type": "advertise",
       "settings": {
+        "key": "",
         "loop_video": true,
         "autoplay_video": true,
         "main_image": "shopify://shop_images/AnAgencyServiceWebsite04.png",
@@ -946,6 +950,7 @@
     "advertise_JebRqW": {
       "type": "advertise",
       "settings": {
+        "key": "",
         "loop_video": true,
         "autoplay_video": true,
         "main_image": "shopify://shop_images/AnAgencyServiceWebsite05.png",
@@ -978,6 +983,7 @@
     "advertise_KLNL33": {
       "type": "advertise",
       "settings": {
+        "key": "",
         "loop_video": true,
         "autoplay_video": true,
         "main_image": "shopify://shop_images/AnAgencyServiceWebsite06.png",
@@ -1011,6 +1017,7 @@
     "advertise_qQYPyj": {
       "type": "advertise",
       "settings": {
+        "key": "",
         "loop_video": true,
         "autoplay_video": true,
         "main_image": "shopify://shop_images/AnAgencyServiceWebsite07.png",
@@ -1235,6 +1242,7 @@
     "advertise_6VLxp7": {
       "type": "advertise",
       "settings": {
+        "key": "",
         "loop_video": true,
         "autoplay_video": true,
         "main_image": "shopify://shop_images/AnAgencyInstagramAds04.png",
@@ -1349,7 +1357,6 @@
   "order": [
     "advertise_xMT9mA",
     "phone_ring_MzFcJr",
-    "advertise_PAQGf7",
     "text_list_MNPzdp",
     "multi_image_list_slider_zE97CJ",
     "text_list_VeQkgV",
@@ -1357,6 +1364,7 @@
     "text_list_zidnT7",
     "custom_review_new_Bp63JF",
     "image_grid_nwzeK8",
+    "advertise_PAQGf7",
     "advertise_DnFdqE",
     "advertise_JebRqW",
     "advertise_KLNL33",
@@ -1369,4 +1377,3 @@
     "marketing_focus_fcpHTK"
   ]
 }
-
