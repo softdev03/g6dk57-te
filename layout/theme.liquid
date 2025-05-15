@@ -20,7 +20,7 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
       rel="stylesheet"
     >
-
+    {{ 'contact-form-new.css' | asset_url | stylesheet_tag }}
     {{ 'accordion.css' | asset_url | stylesheet_tag }}
 
     <title>
@@ -57,7 +57,6 @@
     {{ 'contact-us.js' |  asset_url |  script_tag }}
     {{ 'our-work.js' | asset_url |  script_tag}}
     {{ 'tab.js' |  asset_url | script_tag }}
-
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.min.js"></script>
 
@@ -400,6 +399,24 @@
 
     {%- if settings.cart_type == 'drawer' -%}
       <script src="{{ 'cart-drawer.js' | asset_url }}" defer="defer"></script>
+    {%- endif -%}
+    <div class="contact-form-modal">
+      <div class="modal-content"></div>
+    </div>
+    {%- if settings.sticky_btn_icon != blank -%}
+      <div class="contact-form-stickty-button">
+        <img src="{{ settings.sticky_btn_icon |  img_url: '50x' }}" alt="" width="50px" height="auto" />
+        <img src="{{ settings.sticky_btn_icon_opened |  img_url: '50x' }}" alt="" width="50px" height="auto" />
+      </div>
+      {%- style -%}
+        .contact-form-stickty-button {
+          border-radius: {{ settings.sticky_btn_border_radius }}px;
+          background-color: {{ settings.sticky_btn_bg_color }};
+        }
+        .contact-form-stickty-button.opened {
+          background-color: {{ settings.sticky_btn_bg_color_opened }};
+        }
+      {%- endstyle -%}
     {%- endif -%}
   </body>
 </html>

@@ -1470,5 +1470,40 @@
         "default": "scheme-1"
       }
     ]
+  },
+  {
+    "name": "Contact Form Sticky Button",
+    "settings": [
+      {
+        "type": "image_picker",
+        "id": "sticky_btn_icon",
+        "label": "Sticky Button Icon"
+      },
+      {
+        "type": "image_picker",
+        "id": "sticky_btn_icon_opened",
+        "label": "Sticky Button Icon when Opened"
+      },
+      {
+        "type": "color",
+        "id": "sticky_btn_bg_color",
+        "label": "Sticky Button Background Color"
+      },
+      {
+        "type": "color",
+        "id": "sticky_btn_bg_color_opened",
+        "label": "Sticky Button Background Color when Opened"
+      },
+      {
+        "type": "range",
+        "id": "sticky_btn_border_radius",
+        "label": "Sticky Button Border Radius",
+        "min": 0,
+        "max": 100,
+        "step": 1,
+        "unit": "px",
+        "default": 0
+      }
+    ]
   }
 ]

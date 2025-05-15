@@ -1,5 +1,41 @@
 document.addEventListener('DOMContentLoaded', () => {
-	const contactForm = document.querySelector('.shopify-section-cfn');
+	const contactFormWrapper = document.querySelector('.shopify-section--contact-form-new');
+	if(contactFormWrapper) {
+		document.dispatchEvent(new Event('contact-form-loaded'));
+		document.querySelector('.contact-form-stickty-button')?.remove();
+	} else {
+		const contactFormModal = document.querySelector('.contact-form-modal');
+		if(contactFormModal) {
+			fetch('/pages/contact').then(res=>res.text()).then(res=>{
+				const parser = new DOMParser();
+				const doc = parser.parseFromString(res, 'text/html');
+				const contactForm = doc.querySelector('.form-content-card');
+				contactFormModal.querySelector('.modal-content').appendChild(contactForm.cloneNode(true));
+				document.dispatchEvent(new Event('contact-form-loaded'));
+
+				const contactFormButton = document.querySelector('.contact-form-stickty-button');
+				contactFormModal.addEventListener('click',(e)=>{
+					if(!e.target.classList.contains('form-content-card') && !e.target.closest('.form-content-card')) {
+						contactFormModal.classList.remove('show');
+						contactFormButton?.classList.remove('opened');
+					}
+				});
+				if(contactFormButton) {
+					contactFormButton.addEventListener('click',(e)=>{
+						contactFormButton.classList.contains('opened')?contactFormModal.classList.remove('show'):contactFormModal.classList.add('show');
+						contactFormButton.classList.toggle('opened');
+					});
+					document.addEventListener('scroll',()=>{
+						document.documentElement.scrollTop > 200?contactFormButton.classList.add('show'):contactFormButton.classList.remove('show');
+					});
+					document.documentElement.scrollTop > 200?contactFormButton.classList.add('show'):contactFormButton.classList.remove('show');
+				}
+			});
+		}
+	}
+});
+document.addEventListener('contact-form-loaded',()=>{
+	const contactForm = document.querySelector('.form-content-card');
 	if (contactForm) {
 		const contactFormWrapper = contactForm.closest('.shopify-section--contact-form-new');
 		const nextButton = contactForm.querySelector('.next-step');
@@ -27,7 +63,10 @@ document.addEventListener('DOMContentLoaded', () => {
 				e.preventDefault();
 				return;
 			}
-			if (currentStepSection.classList.contains('final')) {
+			if(!nextButton && currentStepSection.classList.contains('final')) {
+				return;
+			}
+			if (nextStepSection?.classList.contains('final')) {
 				nextButton.classList.remove('show');
 				backButton.classList.remove('show');
 				progressBar.closest('.progressbar').classList.remove('show');
@@ -52,7 +91,7 @@ document.addEventListener('DOMContentLoaded', () => {
 				e.preventDefault();
 			}
 
-			keepScrollPos(nextStepSection);
+			keepScrollPos(contactForm);
 		});
 		backButton.addEventListener('click', (e) => {
 			e.preventDefault();
@@ -67,7 +106,7 @@ document.addEventListener('DOMContentLoaded', () => {
 					if (targetIndex === 1) {
 						backButton.classList.remove('show');
 					}
-					keepScrollPos(beforeSection);
+					keepScrollPos(contactForm);
 				}
 			}
 		});
@@ -164,7 +203,8 @@ document.addEventListener('DOMContentLoaded', () => {
 			} else if (stepSection.classList.contains('check-form')) {
 				if (stepSection.classList.contains('required')) {
 					const checkedField = stepSection.querySelector('.check-field span.selected');
-					if (!checkedField) {
+					const checkField = stepSection.querySelector('.check-field span');
+					if (checkField && !checkedField) {
 						stepSection.classList.add('error');
 						result = false;
 					} else {
@@ -292,7 +332,7 @@ document.addEventListener('DOMContentLoaded', () => {
 				});
 			});
 		});
-		contactForm.querySelector('.form-content')?.addEventListener('click', (e) => {
+		contactForm?.addEventListener('click', (e) => {
 			if (isClickedInput) {
 				isClickedInput = false;
 			} else {
@@ -301,7 +341,7 @@ document.addEventListener('DOMContentLoaded', () => {
 		});
 		const keepScrollPos = (currentStep) => {
 			const target = currentStep?currentStep:contactFormWrapper;
-			target.scrollIntoView({
+			target?.scrollIntoView({
 				behavior: 'smooth',
 				block: 'start'
 			});
