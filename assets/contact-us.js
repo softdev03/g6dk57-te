@@ -26,7 +26,13 @@ document.addEventListener('DOMContentLoaded', () => {
 						contactFormButton.classList.toggle('opened');
 					});
 					document.addEventListener('scroll',()=>{
-						document.documentElement.scrollTop > 200?contactFormButton.classList.add('show'):contactFormButton.classList.remove('show');
+						if(document.documentElement.scrollTop > 200) {
+							contactFormButton.classList.add('show')
+						} else {
+							contactFormButton.classList.remove('show');
+							contactFormButton.classList.remove('opened');
+							contactFormModal.classList.remove('show');
+						}
 					});
 					document.documentElement.scrollTop > 200?contactFormButton.classList.add('show'):contactFormButton.classList.remove('show');
 				}
