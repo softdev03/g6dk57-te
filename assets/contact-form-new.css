@@ -132,6 +132,7 @@
 
 .form-content-card .step-item .title p {
 	margin: 0px;
+	line-height: 1.2;
 }
 
 .form-content-card .step-item .description {
@@ -481,7 +482,7 @@
 	left: 0px;
 	top: 0px;
 	width: 100%;
-	z-index: 10;
+	z-index: 10000;
 	backdrop-filter: blur(3px);
 	background-color: rgba(0, 0, 0, 0.3);
 	transition: all .3s;
@@ -508,7 +509,7 @@
 	cursor: pointer;
 	right: 20px;
 	bottom: 20px;
-	z-index: 20;
+	z-index: 100000;
 	transition: all .3s;
 }
 .contact-form-stickty-button:not(.opened) img:last-child:not(:first-child) {
@@ -519,4 +520,26 @@
 }
 .contact-form-stickty-button:not(.show) {
 	display: none;
+}
+@media screen and (max-width: 1023px) {
+	.modal-content {
+		padding: 20px 40px;
+	}
+	.contact-form-stickty-button {
+		width: 50px;
+    height: 50px;
+    padding: 12px;
+    right: 10px;
+    bottom: 10px;
+	}
+}
+@media screen and (max-width: 749px) {
+	.modal-content {
+		padding: 20px 30px;
+	}
+}
+@media screen and (max-width: 424px) {
+	.modal-content {
+		padding: 15px 10px;
+	}
 }
