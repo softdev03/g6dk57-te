@@ -43,9 +43,11 @@ document.addEventListener('DOMContentLoaded', () => {
 				toneSelect.removeAttribute('disabled');
 				languageSelect.removeAttribute('disabled');
 				fileInput?.removeAttribute('disabled');
+
+				const queryText = inputArea.value.replace(/\n/g, '<br />');
 				generatedResult.innerHTML += `
-							<div class="query">${inputArea.value.replace(/\n/g, '<br />')}</div>
-							${generatedValue}
+							<div class="query">${queryText}</div>
+							${generatedValue.replace(/\n/g, '<br />')}
 						`;
 				output.scrollTo({ top: oldHeight, behavior: 'smooth' });
 				inputArea.value = '';
