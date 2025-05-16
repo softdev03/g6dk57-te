@@ -6,13 +6,17 @@ document.addEventListener('DOMContentLoaded', () => {
 	} else {
 		const contactFormModal = document.querySelector('.contact-form-modal');
 		if(contactFormModal) {
-			fetch('/pages/contact').then(res=>res.text()).then(res=>{
+			let param = '';
+			const iSearch = location.search.indexOf('contact_posted=');
+			if(iSearch !== -1 && location.hash === '#ContactForm') {
+				param = `?${location.search.substring(iSearch)}${location.hash}`;
+			}
+			fetch(`/pages/contact${param}`).then(res=>res.text()).then(res=>{
 				const parser = new DOMParser();
 				const doc = parser.parseFromString(res, 'text/html');
 				const contactForm = doc.querySelector('.form-content-card');
 				contactFormModal.querySelector('.modal-content').appendChild(contactForm.cloneNode(true));
 				document.dispatchEvent(new Event('contact-form-loaded'));
-
 				const contactFormButton = document.querySelector('.contact-form-stickty-button');
 				contactFormModal.addEventListener('click',(e)=>{
 					if(!e.target.classList.contains('form-content-card') && !e.target.closest('.form-content-card')) {
@@ -35,6 +39,12 @@ document.addEventListener('DOMContentLoaded', () => {
 						}
 					});
 					document.documentElement.scrollTop > 200?contactFormButton.classList.add('show'):contactFormButton.classList.remove('show');
+				}
+				if(param !== '') {
+					contactFormModal.classList.add('show');
+					if(contactFormButton?.classList.contains('show')) {
+						contactFormButton.classList.add('opened');
+					}
 				}
 			});
 		}
