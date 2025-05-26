@@ -42,7 +42,37 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     {% endif %}
 
     {% render 'meta-tags' %}
-
+    <script>
+      const redirects = {
+        "/services/shopify-store-setup/": "/pages/custom-shopify-development",
+        "/services/facebook-ads-management/": "/pages/facebook-ads",
+        "/services/web-development/": "/pages/custom-shopify-development",
+        "/services/web-development-2/": "/pages/service-industry-websites",
+        "/pages/about": "/pages/what-we-do",
+        "/services/shopify-plus-migration/": "/pages/shopify-plus-migration",
+        "/services/google-ads-management/": "/pages/google-ads",
+        "/services/google-ads/": "/pages/google-ads",
+        "/services/facebook-ads/": "/pages/facebook-ads",
+        "/services/contact-2/": "/pages/contact",
+        "/about-us/about/": "/pages/what-we-do",
+        "/about": "/pages/what-we-do",
+        "/team": "/pages/what-we-do",
+        "/team/muneeb-ur-rehman": "/pages/what-we-do",
+        "/team/mahnoor": "/pages/what-we-do",
+        "/cdn": "/",
+        "/${t}": "/",
+        "/anagency.com.au/*/(a": "/",
+        "/anagency.com.au/(a": "/",
+        "/www.anagency.com.au/about": "/pages/what-we-do"
+      };
+    
+      const currentPath = window.location.pathname;
+      const cleanPath = currentPath.toLowerCase().trim();
+    
+      if (redirects[cleanPath]) {
+        window.location.href = redirects[cleanPath];
+      }
+    </script>
     {{ 'pricing-tip.js' |  asset_url |  script_tag }}
     <script src="{{ 'constants.js' | asset_url }}" defer="defer"></script>
     <script src="{{ 'pubsub.js' | asset_url }}" defer="defer"></script>
