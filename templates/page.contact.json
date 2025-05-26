@@ -268,9 +268,9 @@
       ],
       "settings": {
         "bg_color": "#ffffff",
-        "heading": "Book Your Free Strategy Call",
+        "heading": "Let’s Talk",
         "heading_color": "#0b0a33",
-        "description": "<p><strong>Let's Talk About What You Need</strong></p><p>Lock in a 15-minute call. Share your goals, get expert advice, and find out exactly how we can help grow your business.</p>",
+        "description": "<p>Fill out the form to book your free 15-minute strategy call. Or skip the wait and call us now on <a href=\"tel:0499 226 600\" title=\"tel:0499 226 600\"><strong>0499 226 600</strong></a> or <a href=\"tel:(02) 8088 0768\" title=\"tel:(02) 8088 0768\"><strong>(02) 8088 0768</strong></a> to speak directly with our team.</p>",
         "description_color": "#0b0a33",
         "form_logo": "shopify://shop_images/04.png",
         "form_bg_color": "#ffffff",

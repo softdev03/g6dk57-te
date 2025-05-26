@@ -69,7 +69,7 @@
         "bg_color": "#feda15",
         "left_logo": "shopify://shop_images/Logo.svg",
         "first_description": "<p>We help Aussie businesses get online, grow sales, and build brands that last. Whether you're running a Shopify store or a service-based business, we’ve got the tools and team to back you.</p>",
-        "second_description": "<p><strong>Address</strong>: 490 Northbourne Avenue, Dickson ACT 2602</p><p><strong>Phone</strong>: 0499 226 600</p>",
+        "second_description": "<p><strong>Address: </strong>490 Northbourne Avenue, Dickson ACT 2602<br/><br/><strong>Phone: </strong><a href=\"tel:0499 226 600\" title=\"tel:0499 226 600\">0499 226 600</a> or <a href=\"tel:(02) 8088 0768\" title=\"tel:(02) 8088 0768\">(02) 8088 0768</a></p>",
         "right_img": "shopify://shop_images/Artboard_13.png",
         "section_bg_color": "#ffd000",
         "text_color": "#000000",

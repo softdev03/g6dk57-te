@@ -27,10 +27,11 @@
     "phone_ring_MzFcJr": {
       "type": "phone-ring",
       "settings": {
+        "key": "",
         "image": "shopify://shop_images/GoogleAds_ecommerce02_e703f8dd-1cdd-477a-b4b5-791b629c3d19.jpg",
         "heading_1": "Price",
         "heading_2": "Range:",
-        "sub_heading": "from A$850 - $1500+ GST per month management fee",
+        "sub_heading": "from A$1250 - $1500+ GST per month management fee",
         "text": "+ A $500-$1,500 one-time setup fee. This is highly competitive for a fully managed ads service - typical management fees for small campaigns range from A$1500–$2,500/month across the industry.",
         "phone_button_text": "",
         "phone_number": "",
@@ -47,6 +48,7 @@
     "advertise_qQYPyj": {
       "type": "advertise",
       "settings": {
+        "key": "",
         "loop_video": true,
         "autoplay_video": true,
         "media_border_radius": 0,
@@ -155,6 +157,7 @@
       ],
       "name": "Benefits Grid",
       "settings": {
+        "key": "",
         "section_title": "",
         "bg_color": "#ffffff",
         "desktop_padding_top": 0,
@@ -166,6 +169,7 @@
     "advertise_TKEWWA": {
       "type": "advertise",
       "settings": {
+        "key": "",
         "loop_video": true,
         "autoplay_video": true,
         "media_border_radius": 0,
@@ -238,6 +242,7 @@
       ],
       "name": "Benefits Grid",
       "settings": {
+        "key": "",
         "section_title": "",
         "bg_color": "#ffffff",
         "desktop_padding_top": 0,
@@ -249,6 +254,7 @@
     "advertise_PAQGf7": {
       "type": "advertise",
       "settings": {
+        "key": "",
         "loop_video": true,
         "autoplay_video": true,
         "main_image": "shopify://shop_images/11.31.49.jpg",
@@ -281,6 +287,7 @@
     "advertise_DnFdqE": {
       "type": "advertise",
       "settings": {
+        "key": "",
         "loop_video": true,
         "autoplay_video": true,
         "main_image": "shopify://shop_images/Artboard_45.png",
@@ -298,7 +305,7 @@
         "mobile_bottom": -1,
         "heading": "Competitive Insight:",
         "sub_heading": "",
-        "text": "<ul><li>Most agencies charge around 10-20% of ad spend or minimum base fees of A$1500–A$2,000 for small campaigns.</li><li>Some lower-priced services are automated and hands-off — we provide hands-on, in-house weekly optimisation for a flat, honest fee.</li><li>Launch Package is ideal for new advertisers needing proactive management without the agency bloat.</li></ul><p><strong>Where We Sit:</strong><br/>Our Launch Marketing Package sits comfortably at the affordable, professional end of the market.</p><p>From A$850 per month management fee (plus setup fee), we're not competing with low-cost freelancers offering \"set and forget\" ads.</p><p>Instead, we offer hands-on, weekly-managed campaigns with real optimisation.</p><p>Clients who need serious ad performance without serious bloat will find our Launch Package to be a smart, no-nonsense choice.</p>",
+        "text": "<ul><li>Most agencies charge around 10-20% of ad spend or minimum base fees of A$1500–A$2,000 for small campaigns.</li><li>Some lower-priced services are automated and hands-off — we provide hands-on, in-house weekly optimisation for a flat, honest fee.</li><li>Launch Package is ideal for new advertisers needing proactive management without the agency bloat.</li></ul><p><strong>Where We Sit:</strong><br/>Our Launch Marketing Package sits comfortably at the affordable, professional end of the market.</p><p>From A$1250 per month management fee (plus setup fee), we're not competing with low-cost freelancers offering \"set and forget\" ads.</p><p>Instead, we offer hands-on, weekly-managed campaigns with real optimisation.</p><p>Clients who need serious ad performance without serious bloat will find our Launch Package to be a smart, no-nonsense choice.</p>",
         "button_link": "",
         "button_text": "",
         "image_right": true,
@@ -313,6 +320,7 @@
     "advertise_L6PbPp": {
       "type": "advertise",
       "settings": {
+        "key": "",
         "loop_video": true,
         "autoplay_video": true,
         "main_image": "shopify://shop_images/05.jpg",
@@ -345,6 +353,7 @@
     "advertise_JebRqW": {
       "type": "advertise",
       "settings": {
+        "key": "",
         "loop_video": true,
         "autoplay_video": true,
         "main_image": "shopify://shop_images/AnAgencyShopifyWebsite05.png",
