@@ -76,8 +76,40 @@
       padding-top: 0.5rem;
     }
   }
-</style>
 
+  {%- if section.settings.enquire_link_color != blank -%}
+    .header .enquire-link::before {
+      width: calc(100% + {{ section.settings.enquire_link_color.border_width |  times: 2 }}px);
+      height: calc(100% + {{ section.settings.enquire_link_color.border_width |  times: 2 }}px);
+      left: -{{ section.settings.enquire_link_color.border_width | default : 0 }}px;
+      top: -{{ section.settings.enquire_link_color.border_width |  default : 0 }}px;
+      background: linear-gradient(to right, {{ section.settings.enquire_link_color.border_color.value |  join: ','  }});
+      border-radius: {{ section.settings.enquire_link_color.border_radius |  default : 0 }}px;
+      opacity: {{ section.settings.enquire_link_color.border_opacity |  default : 1 }};
+    }
+    .header .enquire-link::after {
+      background: linear-gradient(to right, {{ section.settings.enquire_link_color.background_gradient_color.value |  join: ','  }});
+      border-radius: {{ section.settings.enquire_link_color.border_radius | default : 0}}px;
+      opacity: {{ section.settings.enquire_link_color.background_gradient_opacity |  default : 1 }};
+    }
+    .header .enquire-link {
+      color: {{ section.settings.enquire_link_color.text_color |  default : 'black' }};
+      border-radius: {{ section.settings.enquire_link_color.border_radius | default : 0}}px;
+      background-color: {{ section.settings.enquire_link_color.background_color |  default : 'transparent' }};
+      transition: all {{ section.settings.enquire_link_color.animation_time |  default : 300 }}ms;
+    }
+    .header .enquire-link:hover::before {
+      opacity: {{ section.settings.enquire_link_color.border_opacity_hover |  default : 1 }};
+    }
+    .header .enquire-link:hover::after {
+      opacity: {{ section.settings.enquire_link_color.background_gradient_opacity_hover |  default : 1 }};
+    }
+    .header .enquire-link:hover {
+      color: {{ section.settings.enquire_link_color.text_color_hover |  default : 'black' }};
+      background-color: {{ section.settings.enquire_link_color.background_color_hover |  default : 'transparent' }};
+    }
+  {%- endif -%}
+</style>
 {%- style -%}
   .header {
     padding: {{ section.settings.padding_top | times: 0.5 | round: 0 }}px 3rem {{ section.settings.padding_bottom | times: 0.5 | round: 0 }}px 3rem;
@@ -284,7 +316,12 @@
       <a href="tel:{{ section.settings.phone_number }}" class="phone-number">{{ section.settings.phone_number_button_text }}</a>
     {%- endif -%} -->
     {%- if section.settings.enquire_link != blank and section.settings.enquire_link_text != blank -%}
-      <a href="{{ section.settings.enquire_link }}" class="enquire-link">{{ section.settings.enquire_link_text }}</a>
+      <a href="{{ section.settings.enquire_link }}" class="enquire-link" replace-pos="{{ section.settings.second_text_pos |  default : 100 }}" {% if section.settings.is_bigger %} is_bigger {% endif %}>
+          <span class="first-text">{{ section.settings.enquire_link_text }}</span>
+          {%- if section.settings.enquire_link_second_text != blank -%}
+            <span class="second-text">{{ section.settings.enquire_link_second_text }}</span>
+          {%- endif -%}
+      </a>
     {%- endif -%}
   </header>
 
@@ -579,6 +616,30 @@
       "type": "text",
       "id": "enquire_link_text",
       "label": "Enquire Link Text"
+    },
+    {
+      "type": "text",
+      "id": "enquire_link_second_text",
+      "label": "Enquire Link Second Text"
+    },
+    {
+      "type": "number",
+      "id": "second_text_pos",
+      "label": "Second Text Pos",
+      "default": 100,
+      "info": "Use this value to show the second text on specific position(Scroll Top)"
+    },
+    {
+      "type": "checkbox",
+      "id": "is_bigger",
+      "label": "When current scroll top is Bigger than specific pos",
+      "default": true
+    },
+    {
+      "type": "metaobject",
+      "id": "enquire_link_color",
+      "label": "Enquire Link Color Settings",
+      "metaobject_type": "gradient_button"
     },
     {
       "type": "checkbox",

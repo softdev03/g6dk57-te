@@ -313,6 +313,39 @@ src="https://www.facebook.com/tr?id=4102134336753644&ev=PageView&noscript=1"
           font-size: 1.6rem;
         }
       }
+
+      {%- if settings.global_enquire_link_color != blank -%}
+        .global-enquire-link.enquire-link::before {
+          width: calc(100% + {{ settings.global_enquire_link_color.border_width |  times: 2 }}px);
+          height: calc(100% + {{ settings.global_enquire_link_color.border_width |  times: 2 }}px);
+          left: -{{ settings.global_enquire_link_color.border_width | default : 0 }}px;
+          top: -{{ settings.global_enquire_link_color.border_width | default : 0 }}px;
+          background: linear-gradient(to right, {{ settings.global_enquire_link_color.border_color.value |  join: ','  }});
+          border-radius: {{ settings.global_enquire_link_color.border_radius | default : 0 }}px;
+          opacity: {{ settings.global_enquire_link_color.border_opacity | default : 0 }};
+        }
+        .global-enquire-link.enquire-link::after {
+          background: linear-gradient(to right, {{ settings.global_enquire_link_color.background_gradient_color.value |  join: ','  }});
+          border-radius: {{ settings.global_enquire_link_color.border_radius | default : 0 }}px;
+          opacity: {{ settings.global_enquire_link_color.background_gradient_opacity |  default : 1 }};
+        }
+        .global-enquire-link.enquire-link {
+          color: {{ settings.global_enquire_link_color.text_color |  default : 'black' }};
+          border-radius: {{ settings.global_enquire_link_color.border_radius | default : 0 }}px;
+          background-color: {{ settings.global_enquire_link_color.background_color | default : 'transparent' }};
+          transition: all {{ settings.global_enquire_link_color.animation_time | default : 300 }}ms;
+        }
+        .global-enquire-link.enquire-link:hover::before {
+          opacity: {{ settings.global_enquire_link_color.border_opacity_hover |  default : 1 }};
+        }
+        .global-enquire-link.enquire-link:hover::after {
+          opacity: {{ settings.global_enquire_link_color.background_gradient_opacity_hover |  default : 1 }};
+        }
+        .global-enquire-link.enquire-link:hover {
+          color: {{ settings.global_enquire_link_color.text_color_hover |  default : 'black' }};
+          background-color: {{ settings.global_enquire_link_color.background_color_hover |  default : 'transparent' }};
+        }
+      {%- endif -%}
     {% endstyle %}
 
     {{ 'base.css' | asset_url | stylesheet_tag }}
@@ -441,20 +474,12 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <div class="contact-form-modal">
       <div class="modal-content"></div>
     </div>
-    {%- if settings.sticky_btn_icon != blank -%}
-      <div class="contact-form-stickty-button">
-        <img src="{{ settings.sticky_btn_icon |  img_url: '50x' }}" alt="" width="50px" height="auto" />
-        <img src="{{ settings.sticky_btn_icon_opened |  img_url: '50x' }}" alt="" width="50px" height="auto" />
-      </div>
-      {%- style -%}
-        .contact-form-stickty-button {
-          border-radius: {{ settings.sticky_btn_border_radius }}px;
-          background-color: {{ settings.sticky_btn_bg_color }};
-        }
-        .contact-form-stickty-button.opened {
-          background-color: {{ settings.sticky_btn_bg_color_opened }};
-        }
-      {%- endstyle -%}
-    {%- endif -%}<link rel="preload" href="{{ 'splide.min.js' | asset_url }}" as="script"><script src="{{ 'splide.min.js' | asset_url }}"></script>
+    {%- if settings.global_enquire_link != blank and settings.global_enquire_link_text != blank -%}
+      <a href="{{ settings.global_enquire_link }}" class="global-enquire-link enquire-link" replace-pos="{{ settings.global_second_text_pos |  default : 100 }}" {% if settings.global_is_bigger %} is_bigger {% endif %}>
+        <span class="first-text">{{ settings.global_enquire_link_text }}</span>
+        <span class="second-text">{{ settings.global_enquire_link_second_text }}</span>
+      </a>
+    {%- endif -%}
+    <link rel="preload" href="{{ 'splide.min.js' | asset_url }}" as="script"><script src="{{ 'splide.min.js' | asset_url }}"></script>
   </body>
 </html>

@@ -1475,34 +1475,38 @@
     "name": "Contact Form Sticky Button",
     "settings": [
       {
-        "type": "image_picker",
-        "id": "sticky_btn_icon",
-        "label": "Sticky Button Icon"
+        "type": "url",
+        "id": "global_enquire_link",
+        "label": "Enquire Link"
       },
       {
-        "type": "image_picker",
-        "id": "sticky_btn_icon_opened",
-        "label": "Sticky Button Icon when Opened"
+        "type": "text",
+        "id": "global_enquire_link_text",
+        "label": "Enquire Link Text"
       },
       {
-        "type": "color",
-        "id": "sticky_btn_bg_color",
-        "label": "Sticky Button Background Color"
+        "type": "text",
+        "id": "global_enquire_link_second_text",
+        "label": "Enquire Link Second Text"
       },
       {
-        "type": "color",
-        "id": "sticky_btn_bg_color_opened",
-        "label": "Sticky Button Background Color when Opened"
+        "type": "number",
+        "id": "global_second_text_pos",
+        "label": "Second Text Pos",
+        "default": 100,
+        "info": "Use this value to show the second text on specific position(Scroll Top)"
       },
       {
-        "type": "range",
-        "id": "sticky_btn_border_radius",
-        "label": "Sticky Button Border Radius",
-        "min": 0,
-        "max": 100,
-        "step": 1,
-        "unit": "px",
-        "default": 0
+        "type": "checkbox",
+        "id": "global_is_bigger",
+        "label": "When current scroll top is Bigger than specific pos",
+        "default": true
+      },
+      {
+        "type": "metaobject",
+        "id": "global_enquire_link_color",
+        "label": "Enquire Link Color Settings",
+        "metaobject_type": "gradient_button"
       }
     ]
   }

@@ -127,3 +127,45 @@ img {
 .article-card .card__media .article-card__image img {
   object-fit: contain;
 }
+
+.enquire-link {
+  margin-left: auto;
+  display: block;
+  text-decoration: none;
+  padding: 10px 20px;
+  text-align: center;
+  border-radius: 3px;
+  position: relative;
+  background-color: transparent;
+  transition-timing-function: linear;
+}
+.enquire-link::after {
+  content: '';
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  transition: inherit;
+}
+.enquire-link::before {
+  content: '';
+  position: absolute;
+  z-index: -2;
+  transition: inherit;
+}
+.enquire-link.state-sticky .first-text {
+  display: none;
+}
+.enquire-link:not(.state-sticky) .second-text {
+  display: none;
+}
+.global-enquire-link {
+  position: fixed;
+  right: 20px;
+  bottom: -100px;
+}
+.global-enquire-link.show {
+  bottom: 20px;
+}
