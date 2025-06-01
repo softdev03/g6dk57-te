@@ -27,10 +27,11 @@
     "phone_ring_MzFcJr": {
       "type": "phone-ring",
       "settings": {
+        "key": "",
         "image": "shopify://shop_images/AnAgencyServiceWebsite06.png",
         "heading_1": "Price",
         "heading_2": "Range:",
-        "sub_heading": "A$5,000 – A$8,000 + GST one-time investment.",
+        "sub_heading": "A$3500+ GST one-time investment.",
         "text": "This is positioned on par with the typical industry average for small business websites, where basic custom sites usually start around A$7K–$12K.",
         "phone_button_text": "",
         "phone_number": "",
@@ -47,6 +48,7 @@
     "advertise_qQYPyj": {
       "type": "advertise",
       "settings": {
+        "key": "",
         "loop_video": true,
         "autoplay_video": true,
         "media_border_radius": 0,
@@ -185,6 +187,7 @@
       ],
       "name": "Benefits Grid",
       "settings": {
+        "key": "",
         "section_title": "",
         "bg_color": "#ffffff",
         "desktop_padding_top": 0,
@@ -196,6 +199,7 @@
     "advertise_TKEWWA": {
       "type": "advertise",
       "settings": {
+        "key": "",
         "loop_video": true,
         "autoplay_video": true,
         "media_border_radius": 0,
@@ -268,6 +272,7 @@
       ],
       "name": "Benefits Grid",
       "settings": {
+        "key": "",
         "section_title": "Why Having an Online Presence Matters",
         "bg_color": "#ffffff",
         "desktop_padding_top": 0,
@@ -329,6 +334,7 @@
     "advertise_PAQGf7": {
       "type": "advertise",
       "settings": {
+        "key": "",
         "loop_video": true,
         "autoplay_video": true,
         "main_image": "shopify://shop_images/AnAgencyGMB03.png",
@@ -361,6 +367,7 @@
     "advertise_DnFdqE": {
       "type": "advertise",
       "settings": {
+        "key": "",
         "loop_video": true,
         "autoplay_video": true,
         "main_image": "shopify://shop_images/Artboard_45.png",
@@ -393,6 +400,7 @@
     "advertise_L6PbPp": {
       "type": "advertise",
       "settings": {
+        "key": "",
         "loop_video": true,
         "autoplay_video": true,
         "main_image": "shopify://shop_images/05.jpg",
@@ -425,6 +433,7 @@
     "advertise_JebRqW": {
       "type": "advertise",
       "settings": {
+        "key": "",
         "loop_video": true,
         "autoplay_video": true,
         "main_image": "shopify://shop_images/AnAgencyShopifyWebsite05.png",

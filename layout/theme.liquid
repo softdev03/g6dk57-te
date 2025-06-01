@@ -1,6 +1,29 @@
 <!doctype html>
 <html class="js" lang="{{ request.locale.iso_code }}">
   <head>
+        <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="theme-color" content="">
+
+    {%- if settings.favicon != blank -%}
+      <link rel="icon" type="image/png" href="{{ settings.favicon | image_url: width: 32, height: 32 }}">
+    {%- endif -%}
+
+    {% if page_description %}
+      <meta name="description" content="{{ page_description | escape }}">
+    {% endif %}
+
+    {% render 'meta-tags' %}
+    <link rel="preload" href="{{ 'pricing-tip.js' | asset_url }}" as="script">
+    <link rel="preload" href="{{ 'our-work.js' | asset_url }}" as="script">
+    <link rel="preload" href="{{ 'phone-ring.js' | asset_url }}" as="script">
+    <link rel="preload" href="{{ 'contact-form-new.css' | asset_url }}" as="style">
+    <link rel="preload" href="{{ 'base.css' | asset_url }}" as="style">
+    <link rel="preload" href="{{ 'accordion.css' | asset_url }}" as="style">
+    <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.css" as="style">
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" as="style">
+   
 <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -8,15 +31,24 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
 })(window,document,'script','dataLayer','GTM-MVB6WH6');</script>
 <!-- End Google Tag Manager -->  
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="theme-color" content="">
+    <!-- Meta Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '4102134336753644');
+fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=4102134336753644&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Meta Pixel Code -->
     <link rel="canonical" href="{{ canonical_url }}">
-
-    {%- if settings.favicon != blank -%}
-      <link rel="icon" type="image/png" href="{{ settings.favicon | image_url: width: 32, height: 32 }}">
-    {%- endif -%}
 
     {%- unless settings.type_header_font.system? and settings.type_body_font.system? -%}
       <link rel="preconnect" href="https://fonts.shopifycdn.com" crossorigin>
@@ -37,39 +69,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
       {%- unless page_title contains shop.name %} &ndash; {{ shop.name }}{% endunless -%}
     </title>
 
-    {% if page_description %}
-      <meta name="description" content="{{ page_description | escape }}">
-    {% endif %}
-
-    {% render 'meta-tags' %}
-    <script>
-      const redirects = {
-        "/services/shopify-store-setup/": "/pages/custom-shopify-development",
-        "/services/facebook-ads-management/": "/pages/facebook-ads",
-        "/services/web-development/": "/pages/custom-shopify-development",
-        "/services/web-development-2/": "/pages/service-industry-websites",
-        "/pages/about": "/pages/what-we-do",
-        "/services/shopify-plus-migration/": "/pages/shopify-plus-migration",
-        "/services/google-ads-management/": "/pages/google-ads",
-        "/services/google-ads/": "/pages/google-ads",
-        "/services/facebook-ads/": "/pages/facebook-ads",
-        "/services/contact-2/": "/pages/contact",
-        "/about-us/about/": "/pages/what-we-do",
-        "/about": "/pages/what-we-do",
-        "/team": "/pages/what-we-do",
-        "/team/muneeb-ur-rehman": "/pages/what-we-do",
-        "/team/mahnoor": "/pages/what-we-do",
-        "/cdn": "/",
-        "/www.anagency.com.au/about": "/pages/what-we-do"
-      };
-    
-      const currentPath = window.location.pathname;
-      const cleanPath = currentPath.toLowerCase().trim();
-    
-      if (redirects[cleanPath]) {
-        window.location.href = redirects[cleanPath];
-      }
-    </script>
     {{ 'pricing-tip.js' |  asset_url |  script_tag }}
     <script src="{{ 'constants.js' | asset_url }}" defer="defer"></script>
     <script src="{{ 'pubsub.js' | asset_url }}" defer="defer"></script>
@@ -357,7 +356,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         document.documentElement.classList.add('shopify-design-mode');
       }
     </script>
-    {{ 'custom.css' | asset_url | stylesheet_tag }}
+    
+    {{ 'custom.css' | asset_url | stylesheet_tag }}{% render "scripts" %}
   </head>
 
   <body class="gradient{% if settings.animations_hover_elements != 'none' %} animate--hover-{{ settings.animations_hover_elements }}{% endif %}">
@@ -455,6 +455,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           background-color: {{ settings.sticky_btn_bg_color_opened }};
         }
       {%- endstyle -%}
-    {%- endif -%}
+    {%- endif -%}<link rel="preload" href="{{ 'splide.min.js' | asset_url }}" as="script"><script src="{{ 'splide.min.js' | asset_url }}"></script>
   </body>
 </html>

@@ -12,6 +12,7 @@
     "advertise_xMT9mA": {
       "type": "advertise",
       "settings": {
+        "key": "",
         "loop_video": true,
         "autoplay_video": true,
         "main_image": "shopify://shop_images/AnAgencyTikTokAds02.png",
@@ -45,8 +46,9 @@
     "phone_ring_MzFcJr": {
       "type": "phone-ring",
       "settings": {
+        "key": "",
         "image": "shopify://shop_images/AnAgencyTikTokAds03.png",
-        "heading_1": "We Make TikTok Work for Business",
+        "heading_1": "We Make TikTok",
         "heading_2": "Work for Business",
         "sub_heading": "Not Just Dances. Real Sales. Real Enquiries.",
         "text": "We’re not here to waste your ad spend on trendy videos with no ROI. We build short-form content that pulls eyes, clicks, and conversions. Whether you're a plumber in Parramatta or pushing product sales from your Shopify store, TikTok gives you a real shot at reaching people before your competitors do.For businesses chasing real outcomes, not vanity metrics. TikTok Ads deliver leads and sales without the fluff. If you’re serious about growing with smart, strategic marketing, let’s chat.",
@@ -65,6 +67,7 @@
     "advertise_KLNL33": {
       "type": "advertise",
       "settings": {
+        "key": "",
         "loop_video": true,
         "autoplay_video": true,
         "main_image": "shopify://shop_images/AnAgencyTikTokAds04.png",
@@ -98,6 +101,7 @@
     "advertise_qQYPyj": {
       "type": "advertise",
       "settings": {
+        "key": "",
         "loop_video": true,
         "autoplay_video": true,
         "main_image": "shopify://shop_images/AnAgencyTikTokAds06.png",
@@ -285,7 +289,9 @@
             "min_width": 0,
             "item_count": 1,
             "gap": 10,
-            "image_aspect_ratio": 1.1
+            "row_gap": 20,
+            "image_aspect_ratio": 1.1,
+            "animation_time": 8
           }
         },
         "breakpoint_z7gNKm": {
@@ -295,7 +301,9 @@
             "min_width": 425,
             "item_count": 1,
             "gap": 10,
-            "image_aspect_ratio": 0.8
+            "row_gap": 20,
+            "image_aspect_ratio": 0.8,
+            "animation_time": 8
           }
         },
         "breakpoint_6GLPLD": {
@@ -306,7 +314,9 @@
             "min_width": 0,
             "item_count": 1,
             "gap": 10,
-            "image_aspect_ratio": 1
+            "row_gap": 20,
+            "image_aspect_ratio": 1,
+            "animation_time": 8
           }
         },
         "breakpoint_Cfnixa": {
@@ -315,7 +325,9 @@
             "min_width": 750,
             "item_count": 2,
             "gap": 15,
-            "image_aspect_ratio": 0.5
+            "row_gap": 20,
+            "image_aspect_ratio": 0.5,
+            "animation_time": 8
           }
         },
         "breakpoint_nEkwH8": {
@@ -325,7 +337,9 @@
             "min_width": 1024,
             "item_count": 4,
             "gap": 20,
-            "image_aspect_ratio": 0.5
+            "row_gap": 20,
+            "image_aspect_ratio": 0.5,
+            "animation_time": 8
           }
         },
         "breakpoint_Dakag9": {
@@ -335,7 +349,9 @@
             "min_width": 1280,
             "item_count": 4,
             "gap": 24,
-            "image_aspect_ratio": 0.5
+            "row_gap": 20,
+            "image_aspect_ratio": 0.5,
+            "animation_time": 8
           }
         },
         "breakpoint_c6QjXi": {
@@ -346,7 +362,9 @@
             "min_width": 1366,
             "item_count": 4,
             "gap": 30,
-            "image_aspect_ratio": 0.5
+            "row_gap": 20,
+            "image_aspect_ratio": 0.5,
+            "animation_time": 8
           }
         }
       },
@@ -381,6 +399,7 @@
         "loadmore_btn_bg_color_hover": "#000000",
         "loadmore_btn_text_color_hover": "#fafafa",
         "loadmore_btn_border_radius": 7,
+        "max_count_per_view": 4,
         "desktop_padding_top": 0,
         "desktop_padding_bottom": 60,
         "mobile_padding_top": 0,
@@ -1018,6 +1037,7 @@
     "advertise_PAQGf7": {
       "type": "advertise",
       "settings": {
+        "key": "",
         "loop_video": true,
         "autoplay_video": true,
         "main_image": "shopify://shop_images/AnAgencyTikTokAds07.png",
@@ -1051,6 +1071,7 @@
     "advertise_DnFdqE": {
       "type": "advertise",
       "settings": {
+        "key": "",
         "loop_video": true,
         "autoplay_video": true,
         "main_image": "shopify://shop_images/AnAgencyTikTokAds08.png",
@@ -1084,6 +1105,7 @@
       "type": "advertise",
       "disabled": true,
       "settings": {
+        "key": "",
         "loop_video": true,
         "autoplay_video": true,
         "main_image": "shopify://shop_images/email-marketing-for-tradies-edm.webp",
@@ -1377,6 +1399,7 @@
       "type": "marketing-focus",
       "name": "Marketing Focus Section",
       "settings": {
+        "key": "",
         "logo_image": "shopify://shop_images/04.jpg",
         "headline": "We Know What Stops the Scroll",
         "sub_text": "TikTok Ads built to hook attention, build brand, and drive direct response.",

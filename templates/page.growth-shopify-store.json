@@ -122,6 +122,11 @@
         "card_link_text_color_hover": "#000000",
         "badge_bg_color": "#000000",
         "badge_text_color": "#000000",
+        "arrow_btn_bg_color": "#000000",
+        "arrow_btn_txt_color": "#ffffff",
+        "arrow_btn_bg_color_hover": "#000000",
+        "arrow_btn_txt_color_hover": "#ffffff",
+        "arrow_btn_border_radius": 100,
         "desktop_padding_top": 0,
         "desktop_padding_bottom": 0,
         "mobile_padding_top": 0,
@@ -131,11 +136,12 @@
     "phone_ring_MzFcJr": {
       "type": "phone-ring",
       "settings": {
+        "key": "",
         "image": "shopify://shop_images/GoogleAds_09.jpg",
         "heading_1": "Price",
         "heading_2": "Range:",
-        "sub_heading": "A$9,500 – A$12,500 + GST one-time investment.",
-        "text": "This mid-tier investment is still within industry averages for a full-featured eCommerce site, which can run up to A$15K–$20K for a more advanced store.",
+        "sub_heading": "A$4,800 + GST one-time investment.",
+        "text": "This mid-tier investment is still within industry averages for a full-featured eCommerce site, which can run up to A$10K–$15K for a more advanced store.",
         "phone_button_text": "",
         "phone_number": "",
         "enquire_button_text": "",
@@ -151,6 +157,7 @@
     "advertise_qQYPyj": {
       "type": "advertise",
       "settings": {
+        "key": "",
         "loop_video": true,
         "autoplay_video": true,
         "media_border_radius": 0,
@@ -277,6 +284,7 @@
       ],
       "name": "Benefits Grid",
       "settings": {
+        "key": "",
         "section_title": "Why Having an Online Presence Matters",
         "bg_color": "#ffffff",
         "desktop_padding_top": 0,
@@ -288,6 +296,7 @@
     "advertise_TKEWWA": {
       "type": "advertise",
       "settings": {
+        "key": "",
         "loop_video": true,
         "autoplay_video": true,
         "media_border_radius": 0,
@@ -342,6 +351,7 @@
       ],
       "name": "Benefits Grid",
       "settings": {
+        "key": "",
         "section_title": "Why Having an Online Presence Matters",
         "bg_color": "#ffffff",
         "desktop_padding_top": 0,
@@ -403,6 +413,7 @@
     "advertise_PAQGf7": {
       "type": "advertise",
       "settings": {
+        "key": "",
         "loop_video": true,
         "autoplay_video": true,
         "main_image": "shopify://shop_images/WhatsApp_Image_2025-04-01_at_15.59.32.jpg",
@@ -435,6 +446,7 @@
     "advertise_DnFdqE": {
       "type": "advertise",
       "settings": {
+        "key": "",
         "loop_video": true,
         "autoplay_video": true,
         "main_image": "shopify://shop_images/Artboard_45.png",
@@ -452,7 +464,7 @@
         "mobile_bottom": -1,
         "heading": "Competitive Insight:",
         "sub_heading": "",
-        "text": "<p>Our Growth Shopify package is designed to match (and often beat) what’s available in the market for similar custom-built eCommerce websites.</p><p>Where other agencies might price mid-tier stores anywhere from A$15K–$20K, our Growth Package keeps you firmly in the $9K–$12kK range without cutting corners.</p><p>You get a fully custom look, SEO included, abandoned cart flows, and essential app setups that many competitors only offer as paid add-ons.</p><p>Because we do everything in-house (100% Australian-based, no outsourcing), the quality stays high, and the timeline stays tight – and you avoid the common pitfalls of generic templates or overseas freelancers.</p>",
+        "text": "<p>Our Growth Shopify package is designed to match (and often beat) what’s available in the market for similar custom-built eCommerce websites.</p><p>Where other agencies might price mid-tier stores anywhere from A$10K–15K, our Growth Package keeps you firmly in the $4800 range without cutting corners.</p><p>You get a fully custom look, SEO included, abandoned cart flows, and essential app setups that many competitors only offer as paid add-ons.</p><p>Because we do everything in-house (100% Australian-based, no outsourcing), the quality stays high, and the timeline stays tight – and you avoid the common pitfalls of generic templates or overseas freelancers.</p>",
         "button_link": "",
         "button_text": "",
         "image_right": true,
@@ -467,6 +479,7 @@
     "advertise_L6PbPp": {
       "type": "advertise",
       "settings": {
+        "key": "",
         "loop_video": true,
         "autoplay_video": true,
         "main_image": "shopify://shop_images/05.jpg",
@@ -499,6 +512,7 @@
     "advertise_JebRqW": {
       "type": "advertise",
       "settings": {
+        "key": "",
         "loop_video": true,
         "autoplay_video": true,
         "main_image": "shopify://shop_images/AnAgencyShopifyWebsite05.png",

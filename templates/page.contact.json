@@ -57,6 +57,7 @@
         },
         "second_step_9DnAqQ": {
           "type": "second_step",
+          "disabled": true,
           "settings": {
             "step_id": "",
             "child_step_id": "",
@@ -228,6 +229,7 @@
         },
         "step_8dkkCf": {
           "type": "step",
+          "disabled": true,
           "settings": {
             "bg_color": "#f1f1f1",
             "border_radius": 8,
@@ -242,6 +244,7 @@
         },
         "step_ANT8Xk": {
           "type": "step",
+          "disabled": true,
           "settings": {
             "bg_color": "#f1f1f1",
             "border_radius": 8,
@@ -268,9 +271,9 @@
       ],
       "settings": {
         "bg_color": "#ffffff",
-        "heading": "Let’s Talk",
+        "heading": "Let’s Talk About Your Shopify Store",
         "heading_color": "#0b0a33",
-        "description": "<p>Fill out the form to book your free 15-minute strategy call. Or skip the wait and call us now on <a href=\"tel:0499 226 600\" title=\"tel:0499 226 600\"><strong>0499 226 600</strong></a> or <a href=\"tel:(02) 8088 0768\" title=\"tel:(02) 8088 0768\"><strong>(02) 8088 0768</strong></a> to speak directly with our team.</p>",
+        "description": "<p>Fill out the form below to book your <strong>free 15-minute strategy call</strong>. <br/><br/>Or skip the form and call us directly on <a href=\"tel:(02) 8088 0768\" title=\"tel:(02) 8088 0768\"><strong>(02) 8088 0768</strong></a> our team is ready to help.<br/><br/>No pressure. No pushy sales chat. Just practical advice from people who know Shopify inside and out.</p>",
         "description_color": "#0b0a33",
         "form_logo": "shopify://shop_images/04.png",
         "form_bg_color": "#ffffff",

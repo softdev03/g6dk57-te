@@ -46,7 +46,7 @@
         "tab_item_rjAJjm": {
           "type": "tab_item",
           "settings": {
-            "tab_item_text": "Enterprise",
+            "tab_item_text": "Advanced/Custom",
             "key": "https://anagency.com.au/pages/enterprise-shopify-store-package-custom-scalable",
             "link": "shopify://pages/enterprise-shopify-store-package-custom-scalable"
           }
@@ -79,8 +79,8 @@
         "image": "shopify://shop_images/GoogleAds_08.jpg",
         "heading_1": "Price",
         "heading_2": "Range:",
-        "sub_heading": "A$5,500 – A$8,500 + GST one-time investment (depending on complexity).",
-        "text": "This is competitively priced, typical basic Shopify sites in the market cost around A$10K–$15K.",
+        "sub_heading": "A$2800 + GST one-time investment",
+        "text": "This is competitively priced, typical basic Shopify sites in the market cost around A$5K–$10K.",
         "phone_button_text": "",
         "phone_number": "",
         "enquire_button_text": "",
@@ -184,6 +184,14 @@
             "benefit_description": "Help connecting and configuring your custom domain.",
             "benefit_icon": "shopify://shop_images/checkmark.png"
           }
+        },
+        "benefit_yLqhNm": {
+          "type": "benefit",
+          "settings": {
+            "benefit_title": "",
+            "benefit_description": "Post-launch support: 1x training session for Shopify admin usage (how to manage products, orders, settings).",
+            "benefit_icon": "shopify://shop_images/checkmark.png"
+          }
         }
       },
       "block_order": [
@@ -193,7 +201,8 @@
         "benefit_ykcHFF",
         "benefit_h4jAeM",
         "benefit_hAWmpP",
-        "benefit_3pCfqn"
+        "benefit_3pCfqn",
+        "benefit_yLqhNm"
       ],
       "name": "Benefits Grid",
       "settings": {
@@ -267,6 +276,7 @@
         },
         "benefit_aVGcGd": {
           "type": "benefit",
+          "disabled": true,
           "settings": {
             "benefit_title": "",
             "benefit_description": "Post-launch support: 1x training session for Shopify admin usage (how to manage products, orders, settings).",

@@ -75,10 +75,11 @@
     "phone_ring_MzFcJr": {
       "type": "phone-ring",
       "settings": {
+        "key": "",
         "image": "shopify://shop_images/GoogleAds_09.jpg",
         "heading_1": "Price",
         "heading_2": "Range:",
-        "sub_heading": "Starting from A$15,000 + GST once off",
+        "sub_heading": "Starting from $A7,500+ + GST once off",
         "text": "This reflects a premium solution; note that established agencies often charge A$20K+ for custom Shopify builds of this magnitude.",
         "phone_button_text": "",
         "phone_number": "",
@@ -95,6 +96,7 @@
     "advertise_qQYPyj": {
       "type": "advertise",
       "settings": {
+        "key": "",
         "loop_video": true,
         "autoplay_video": true,
         "media_border_radius": 0,
@@ -194,6 +196,7 @@
       ],
       "name": "Benefits Grid",
       "settings": {
+        "key": "",
         "section_title": "Why Having an Online Presence Matters",
         "bg_color": "#ffffff",
         "desktop_padding_top": 0,
@@ -205,6 +208,7 @@
     "advertise_TKEWWA": {
       "type": "advertise",
       "settings": {
+        "key": "",
         "loop_video": true,
         "autoplay_video": true,
         "media_border_radius": 0,
@@ -259,6 +263,7 @@
       ],
       "name": "Benefits Grid",
       "settings": {
+        "key": "",
         "section_title": "",
         "bg_color": "#ffffff",
         "desktop_padding_top": 0,
@@ -320,6 +325,7 @@
     "advertise_PAQGf7": {
       "type": "advertise",
       "settings": {
+        "key": "",
         "loop_video": true,
         "autoplay_video": true,
         "main_image": "shopify://shop_images/WhatsApp_Image_2025-04-01_at_15.59.32.jpg",
@@ -352,6 +358,7 @@
     "advertise_DnFdqE": {
       "type": "advertise",
       "settings": {
+        "key": "",
         "loop_video": true,
         "autoplay_video": true,
         "main_image": "shopify://shop_images/Artboard_45.png",
@@ -369,7 +376,7 @@
         "mobile_bottom": -1,
         "heading": "Competitive Insight:",
         "sub_heading": "",
-        "text": "<p>Most agencies charge between A$20K for serious Shopify builds at this scale.</p><p>Our Enterprise package starts at A$15K, delivering full customisation, advanced feature integrations, and post-launch support that others charge separately for.</p><p>Unlike many agencies that outsource to overseas developers, we build everything locally in Australia — meaning faster communication, higher quality, and zero lost-in-translation issues.</p><p>This positions our Enterprise package as an elite offering without the bloated price tag of larger, slower agencies.</p>",
+        "text": "<p>Most agencies charge between A$20K for serious Shopify builds at this scale.</p><p>Our Enterprise package starts at A$7,500, delivering full customisation, advanced feature integrations, and post-launch support that others charge separately for.</p><p>Unlike many agencies that outsource to overseas developers, we build everything locally in Australia — meaning faster communication, higher quality, and zero lost-in-translation issues.</p><p>This positions our Enterprise package as an elite offering without the bloated price tag of larger, slower agencies.</p>",
         "button_link": "",
         "button_text": "",
         "image_right": true,
@@ -384,6 +391,7 @@
     "advertise_L6PbPp": {
       "type": "advertise",
       "settings": {
+        "key": "",
         "loop_video": true,
         "autoplay_video": true,
         "main_image": "shopify://shop_images/05.jpg",
@@ -416,6 +424,7 @@
     "advertise_JebRqW": {
       "type": "advertise",
       "settings": {
+        "key": "",
         "loop_video": true,
         "autoplay_video": true,
         "main_image": "shopify://shop_images/AnAgencyShopifyWebsite05.png",
