@@ -12,6 +12,11 @@
     border-radius: {{ section.settings.media_border_radius }}px;
     border: {{ section.settings.media_border_width }}px solid {{ section.settings.media_border_color |  default : 'transparent' }};
    }
+   #shopify-section-{{ section.id }} .badge {
+    border-radius: {{ section.settings.badge_border_radius }}px;
+    background-color: {{ section.settings.badge_bg_color }};
+    color: {{ section.settings.badge_txt_color }};
+   }
 	 @media screen and (min-width: 750px) {
 		#shopify-section-{{ section.id }} .secondary-image {
 			{%- if section.settings.desktop_left != -1 -%}
@@ -81,14 +86,17 @@
     {%- endif -%}
   </div>
   <div class="text-content align-{{ section.settings.text_align }}">
+    {%- if section.settings.badge_text != blank -%}
+      <span class="badge {% if section.settings.hide_badge_on_mobile %} hide_on_mobile {% endif %}">{{ section.settings.badge_text }}</span>
+    {%- endif -%}
     {%- if section.settings.heading != blank -%}
       <h1 class="heading m-0">{{ section.settings.heading }}</h1>
     {%- endif -%}
     {%- if section.settings.sub_heading != blank -%}
-      <h2 class="sub-heading m-0">{{ section.settings.sub_heading }}</h2>
+      <h2 class="sub-heading m-0 {% if section.settings.hide_subheading_on_mobile %} hide_on_mobile {% endif %}">{{ section.settings.sub_heading }}</h2>
     {%- endif -%}
     {%- if section.settings.text != blank -%}
-      <div class="text">
+      <div class="text {% if section.settings.hide_text_on_mobile %} hide_on_mobile {% endif %}">
         <p class="advertise-text">{{ section.settings.text }}</p></div>
     {%- endif -%}
     {%- assign textItems = section.blocks |  where: 'type', 'text_item' |  map: 'settings' -%}
@@ -165,6 +173,51 @@
       "type": "text",
       "id": "key",
       "label": "Key"
+    },
+    {
+      "type": "text",
+      "id": "badge_text",
+      "label": "Badge Text"
+    },
+    {
+      "type": "color",
+      "id": "badge_bg_color",
+      "label": "Badge Background Color",
+      "default": "#fff"
+    },
+    {
+      "type": "color",
+      "id": "badge_txt_color",
+      "label": "Badge Text Color",
+      "default": "#000000"
+    },
+    {
+      "type": "range",
+      "id": "badge_border_radius",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "label": "Badge Border Radius",
+      "default":0 
+    },
+    {
+      "type": "checkbox",
+      "id": "hide_badge_on_mobile",
+      "label": "Hide Badge on Mobile",
+      "default": false
+    },
+    {
+      "type": "checkbox",
+      "id": "hide_subheading_on_mobile",
+      "label": "Hide Sub Heading on Mobile",
+      "default": false
+    },
+    {
+      "type": "checkbox",
+      "id": "hide_text_on_mobile",
+      "label": "Hide Description on Mobile",
+      "default": false
     },
     {
       "type": "header",

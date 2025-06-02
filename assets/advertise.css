@@ -140,7 +140,11 @@
   color: #feda15;
   background-color: black;
 }
-
+.shopify-section-advertise .badge {
+  width: fit-content;
+  padding: 10px 20px;
+  font-size: 15px;
+}
 /* Enhanced Responsive Tweaks */
 @media screen and (min-width: 993px) {
   .shopify-section-advertise .advertise-media:has(video) {
@@ -195,6 +199,10 @@
   }
   .shopify-section-advertise .logo-list {
     justify-content: center;
+    column-gap: 30px;
+  }
+  .shopify-section-advertise .logo {
+    width: 100px;
   }
 }
 

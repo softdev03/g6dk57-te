@@ -107,3 +107,9 @@
     width: 100%;
   }
 }
+.single-contact-form .form-state:empty {
+  display: none;
+}
+.single-contact-form .form-state {
+  width: 100%;
+}

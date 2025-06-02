@@ -74,18 +74,23 @@
   {%- endif -%}
   {%- assign tabItems = section.blocks | where: 'type', 'tab_item' -%}
   {%- assign pricingItems = section.blocks | where: 'type', 'pricing_item' | map: 'settings' -%}
-  <div class="tab-header">
-    <div class="tab-header-content">
-      {%- for block in tabItems -%}
-        <span class="tab-header-item" key="{{ block.settings.handle_number }}">{{ block.settings.tab_text }}</span>
-      {%- endfor -%}
+  {%- if tabItems.size > 0 -%}
+    <div class="tab-header">
+      <div class="tab-header-content">
+        {%- for block in tabItems -%}
+          <span class="tab-header-item" key="{{ block.settings.handle_number }}">{{ block.settings.tab_text }}</span>
+        {%- endfor -%}
+      </div>
+      <span class="tab-thumb"></span>
     </div>
-    <span class="tab-thumb"></span>
-  </div>
+  {%- endif -%}
   {%- for i in (1..10) -%}
     {%- assign subPricingItems = pricingItems | where: 'handle_number', i -%}
+    {%- if tabItems.size > 0 -%}
+      {%- assign subPricingItems = pricingItems -%}
+    {%- endif -%}
     {%- if subPricingItems.size > 0 -%}
-      <div class="tab-content" key="{{ i }}">
+      <div class="tab-content {% unless tabItems.size > 0 %} show {% endunless %}" key="{{ i }}">
         <div class="swiper-wrapper">
           {%- for block in subPricingItems -%}
             {%- if block.enable_tip -%}
@@ -105,7 +110,7 @@
               {%- endif -%}
               {%- assign tipContent = tipContent | append : '</span>' -%}
             {%- endif -%}
-            <div class="pricing-item swiper-slide" id="pricing-{{i}}-{{ forloop.index }}" key="pricing-{{ block.id }}">
+            <div class="pricing-item swiper-slide content-{{ block.content_align }}" id="pricing-{{i}}-{{ forloop.index }}" key="pricing-{{ block.id }}">
               {%- if block.enable_tip -%}
                 {{ '<div class="tip-content"><div class="triangle"></div>' |  append: block.tip_text |  append: '</div>' }}
               {%- endif -%}
@@ -116,7 +121,7 @@
                   <p class="highlight">{{ block.badge_text }}</p>
                 {%- endif -%}
               {%- endif -%}
-              <div class="main-description">
+              <div class="main-description description {% if block.main_list_item_icon != blank %} has-icon {% endif %}">
                 {%- if block.icon != blank -%}
                   <div class="icon">
                     <img src="{{ block.icon | img_url: '100x' }}" alt="" width="100px" height="auto">
@@ -152,7 +157,7 @@
                 {%- endif -%}
               </div>
               {%- if block.secondary_content != blank -%}
-                <div class="secondary-description ">
+                <div class="secondary-description description {% if block.secondary_list_item_icon != blank %} has-icon {% endif %}">
                   {%- if tipContent == 'secondary_content' -%}
                     {{ block.secondary_content | replace_first: '[tip]', tipContent }}
                   {%- else -%}
@@ -164,6 +169,12 @@
                 <div class="empty-space"></div>
               {% endif %}
               {%- style -%}
+                #pricing-{{i}}-{{ forloop.index }} .main-content li::before {
+                  background-image: url("{{ block.main_list_item_icon |  img_url: '30x' }}");
+                }
+                #pricing-{{i}}-{{ forloop.index }} .secondary-description  li::before {
+                  background-image: url("{{ block.secondary_list_item_icon |  img_url: '30x' }}");
+                }
                 #pricing-{{i}}-{{ forloop.index }} .tip {
                   background-color: {{ block.mark_bg_color }};
                   color: {{ block.mark_text_color }};
@@ -416,6 +427,26 @@
           "label": "Id"
         },
         {
+          "type": "select",
+          "id": "content_align",
+          "label": "Content Align",
+          "options": [
+            {
+              "value": "left",
+              "label": "Left"
+            },
+            {
+              "value": "center",
+              "label": "Center"
+            },
+            {
+              "value": "right",
+              "label": "Right"
+            }
+          ],
+          "default": "center"
+        },
+        {
           "type": "image_picker",
           "id": "icon",
           "label": "Icon"
@@ -446,9 +477,19 @@
           "label": "Main Content"
         },
         {
+          "type": "image_picker",
+          "id": "main_list_item_icon",
+          "label": "Main List Item Icon"
+        },
+        {
           "type": "richtext",
           "id": "secondary_content",
           "label": "Secondary Content"
+        },
+        {
+          "type": "image_picker",
+          "id": "secondary_list_item_icon",
+          "label": "Secondary List Item Icon"
         },
         {
           "type": "text",

@@ -5,6 +5,7 @@ document.addEventListener('DOMContentLoaded', () => {
     document.querySelector('.contact-form-stickty-button')?.remove();
   } else {
     const contactFormModal = document.querySelector('.contact-form-modal');
+    const contactForm = document.querySelector('form[action="/contact#ContactForm"]');
     if(contactFormModal) {
       let param = '';
       const iSearch = location.search.indexOf('contact_posted=');
@@ -40,7 +41,7 @@ document.addEventListener('DOMContentLoaded', () => {
           });
           document.documentElement.scrollTop > 200?contactFormButton.classList.add('show'):contactFormButton.classList.remove('show');
         }
-        if(param !== '') {
+        if(param !== '' && !contactForm) {
           contactFormModal.classList.add('show');
           if(contactFormButton?.classList.contains('show')) {
             contactFormButton.classList.add('opened');

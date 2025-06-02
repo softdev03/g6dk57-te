@@ -1,339 +1,369 @@
 .shopify-section-pricing-new {
-	display: flex;
-	flex-direction: column;
-	row-gap: 80px;
-	overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  row-gap: 80px;
+  overflow: hidden;
 }
-
 .shopify-section-pricing-new .tab-header {
-	margin: 0px auto;
-	border-radius: 100px;
-	position: relative;
-	overflow: auto;
-	max-width: 100%;
+  margin: 0px auto;
+  border-radius: 100px;
+  position: relative;
+  overflow: auto;
+  max-width: 100%;
 }
 
 .shopify-section-pricing-new .tab-header-content {
-	z-index: 2;
-	display: flex;
-	position: relative;
-	padding: 3px;
+  z-index: 2;
+  display: flex;
+  position: relative;
+  padding: 3px;
 }
 
 .shopify-section-pricing-new .tab-header-item {
-	padding: 8px 15px;
-	cursor: pointer;
-	transition: all .3s;
-	white-space: nowrap;
-	display: block;
+  padding: 8px 15px;
+  cursor: pointer;
+  transition: all .3s;
+  white-space: nowrap;
+  display: block;
 }
 
 .shopify-section-pricing-new .tab-thumb {
-	position: absolute;
-	left: 0px;
-	top: 0px;
-	transition: all .3s;
-	height: 100%;
-	padding: 3px 0px;
-	background-clip: content-box;
-	border-radius: 100px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  transition: all .3s;
+  height: 100%;
+  padding: 3px 0px;
+  background-clip: content-box;
+  border-radius: 100px;
 }
 
 .shopify-section-pricing-new .tab-content:not(.show) {
-	display: none;
+  display: none;
 }
 
 .shopify-section-pricing-new .tab-content {
-	display: flex;
-	justify-content: center;
-	flex-wrap: wrap;
-	overflow: hidden;
-	padding-top: 36px;
-	position: relative;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  overflow: hidden;
+  padding-top: 36px;
+  position: relative;
 }
 
 .shopify-section-pricing-new .pricing-item {
-	text-align: center;
-	position: relative;
-	font-size: 14px;
-	height: fit-content;
-	box-sizing: border-box;
+  text-align: center;
+  position: relative;
+  font-size: 14px;
+  height: fit-content;
+  box-sizing: border-box;
 }
-
+.shopify-section-pricing-new .pricing-item.content-left {
+  text-align: left;
+}
+.shopify-section-pricing-new .pricing-item.content-center {
+  text-align: center;
+}
+.shopify-section-pricing-new .pricing-item.content-right {
+  text-align: right;
+}
 .shopify-section-pricing-new .pricing-item .icon {
-	width: 60px;
-	line-height: 0;
-	margin-bottom: -15px;
+  width: 60px;
+  line-height: 0;
+  margin-bottom: -15px;
 }
 
 .shopify-section-pricing-new .pricing-item .heading {
-	margin: 0px;
-	font-size: 24px;
-	font-weight: 600;
+  margin: 0px;
+  font-size: 24px;
+  font-weight: 600;
 }
 
 .shopify-section-pricing-new .pricing-item .sub-heading {
-	margin: 0px;
-	font-size: 18px;
-	font-weight: 600;
+  margin: 0px;
+  font-size: 18px;
+  font-weight: 600;
 }
 
 .shopify-section-pricing-new .pricing-item:has(.highlight) .empty-space {
-	width: 100%;
-	display: block;
-	height: 20px;
-	padding: 0px;
+  width: 100%;
+  display: block;
+  height: 20px;
+  padding: 0px;
 }
 
 .shopify-section-pricing-new .pricing-item .tip {
-	font-size: 14px;
-	font-weight: 400;
-	display: inline-flex;
-	width: 18px;
-	height: 18px;
-	justify-content: center;
-	align-items: center;
-	cursor: pointer;
-	padding: 3px;
+  font-size: 14px;
+  font-weight: 400;
+  display: inline-flex;
+  width: 18px;
+  height: 18px;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  padding: 3px;
 }
 
 .shopify-section-pricing-new .pricing-item .tip:has(img) {
-	width: 24px;
-	height: 24px;
+  width: 24px;
+  height: 24px;
 }
 
 .shopify-section-pricing-new .pricing-item .tip img:last-child {
-	display: none;
+  display: none;
 }
 
 .shopify-section-pricing-new .pricing-item .tip:hover img:first-child {
-	display: none;
+  display: none;
 }
 
 .shopify-section-pricing-new .pricing-item .tip:hover img:last-child {
-	display: block;
+  display: block;
 }
 
 .shopify-section-pricing-new .tip-content {
-	padding: 15px 20px;
-	min-width: 200px;
-	box-sizing: content-box;
-	position: absolute;
-	display: none;
-	flex-direction: column;
-	row-gap: 10px;
-	z-index: 100;
+  padding: 15px 20px;
+  min-width: 200px;
+  box-sizing: content-box;
+  position: absolute;
+  display: none;
+  flex-direction: column;
+  row-gap: 10px;
+  z-index: 100;
 }
 
 .shopify-section-pricing-new .tip-content.show,
 .shopify-section-pricing-new .tip-content:hover {
-	display: flex;
+  display: flex;
 }
 
 .shopify-section-pricing-new .triangle {
-	width: 100%;
-	height: 100%;
-	position: absolute;
-	left: 0px;
-	top: 0px;
-	background-color: transparent;
-	display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  background-color: transparent;
+  display: block;
 }
 
 .shopify-section-pricing-new .triangle::before {
-	content: "";
-	position: absolute;
-	left: -8px;
-	top: 50%;
-	border: 8px solid transparent;
-	border-color: transparent transparent currentColor currentColor;
-	transform: translateY(-50%) rotate(45deg);
-	box-shadow: inherit;
+  content: "";
+  position: absolute;
+  left: -8px;
+  top: 50%;
+  border: 8px solid transparent;
+  border-color: transparent transparent currentColor currentColor;
+  transform: translateY(-50%) rotate(45deg);
+  box-shadow: inherit;
 }
 
 .shopify-section-pricing-new .tip-content * {
-	margin: 0px;
-	line-height: 1.2;
-	font-size: 12px;
-	color: inherit;
+  margin: 0px;
+  line-height: 1.2;
+  font-size: 12px;
+  color: inherit;
 }
 
 .shopify-section-pricing-new .tip-content *:not(a) {
-	text-decoration: none !important;
+  text-decoration: none !important;
 }
 
 .shopify-section-pricing-new .tip-content h1 {
-	font-size: 20px;
-	color: inherit;
+  font-size: 20px;
+  color: inherit;
 }
 
 .shopify-section-pricing-new .tip-content h2 {
-	font-size: 18px;
+  font-size: 18px;
 }
 
 .shopify-section-pricing-new .tip-content h3 {
-	font-size: 16px;
+  font-size: 16px;
 }
 
 .shopify-section-pricing-new .tip-content h4 {
-	font-size: 15px;
+  font-size: 15px;
 }
 
 .shopify-section-pricing-new .tip-content h5 {
-	font-size: 14px;
+  font-size: 14px;
 }
 
 .shopify-section-pricing-new .tip-content h6 {
-	font-size: 13px;
+  font-size: 13px;
 }
 
 .shopify-section-pricing-new .tip-content ul {
-	display: flex;
-	flex-direction: column;
-	row-gap: 5px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 5px;
 }
 
 .shopify-section-pricing-new .pricing-item .tip-content em {
-	font-style: italic;
+  font-style: italic;
 }
 
 .shopify-section-pricing-new .main-description {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	row-gap: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 20px;
 }
-
+.shopify-section-pricing-new .pricing-item.content-left .main-description {
+  align-items: flex-start;
+}
+.shopify-section-pricing-new .pricing-item.content-center .main-description {
+  align-items: center;
+}
+.shopify-section-pricing-new .pricing-item.content-right .main-description {
+  align-items: flex-end;
+}
 .shopify-section-pricing-new .pricing-item>div {
-	padding: 30px 20px;
+  padding: 30px 20px;
 }
-
+.shopify-section-pricing-new .secondary-description {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
 .shopify-section-pricing-new .pricing-item .highlight {
-	position: absolute;
-	left: -1px;
-	transform: translateY(-100%);
-	width: calc(100% + 2px);
-	padding: 10px 20px;
-	box-sizing: border-box;
+  position: absolute;
+  left: -1px;
+  transform: translateY(-100%);
+  width: calc(100% + 2px);
+  padding: 10px 20px;
+  box-sizing: border-box;
 }
 
 .shopify-section-pricing-new .pricing-item span {
-	font-size: 32px;
-	font-weight: 600;
-	line-height: 1;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 1;
 }
 
 .shopify-section-pricing-new .pricing-item p {
-	line-height: 1.2;
-	margin: 0px;
+  line-height: 1.2;
+  margin: 0px;
 }
 
 .shopify-section-pricing-new .pricing-item p:empty {
-	display: block;
-	margin: 8px 0px;
+  display: block;
+  margin: 8px 0px;
 }
 
 .shopify-section-pricing-new .pricing-item ul {
-	margin: 0px;
-	padding: 0px;
-	display: flex;
-	flex-direction: column;
-	row-gap: 15px;
-	line-height: 1.2;
-	list-style: none;
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 15px;
+  line-height: 1.2;
+  list-style: none;
 }
-
+.shopify-section-pricing-new .pricing-item .description.has-icon li {
+  position: relative;
+  padding-left: 25px;
+}
+.shopify-section-pricing-new .pricing-item .description.has-icon li::before {
+  content: '';
+  position: absolute;
+  left: 0px;
+  background-repeat: no-repeat;
+  width: 18px;
+  height: 18px;
+  background-size: contain;
+}
 .shopify-section-pricing-new .pricing-item em {
-	text-decoration: line-through;
-	font-style: normal;
+  text-decoration: line-through;
+  font-style: normal;
 }
 
 .shopify-section-pricing-new .link {
-	width: fit-content;
-	margin: 0px auto;
-	padding: 15px 24px;
-	line-height: 1;
-	border-radius: 100px;
-	text-decoration: none;
-	box-sizing: border-box;
+  width: fit-content;
+  padding: 15px 24px;
+  line-height: 1;
+  border-radius: 100px;
+  text-decoration: none;
+  box-sizing: border-box;
 }
 
 @media screen and (max-width: 1023px) {
-	.shopify-section-pricing-new {
-		row-gap: 40px;
-	}
+  .shopify-section-pricing-new {
+    row-gap: 40px;
+  }
 
-	/* .shopify-section-pricing-new .pricing-item:has(.highlight) {
-		margin-top: 30px;
-	} */
+  /* .shopify-section-pricing-new .pricing-item:has(.highlight) {
+    margin-top: 30px;
+  } */
 
-	.shopify-section-pricing-new .pricing-item:has(.highlight) .empty-space {
-		display: none;
-	}
+  .shopify-section-pricing-new .pricing-item:has(.highlight) .empty-space {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 749px) {
-	.shopify-section-pricing-new {
-		max-width: 100%;
-	}
+  .shopify-section-pricing-new {
+    max-width: 100%;
+  }
 
-	.shopify-section-pricing-new .pricing-item>div {
-		row-gap: 15px;
-	}
+  .shopify-section-pricing-new .pricing-item>div {
+    row-gap: 15px;
+  }
 
-	.shopify-section-pricing-new .pricing-item {
-		font-size: 13px;
-	}
+  .shopify-section-pricing-new .pricing-item {
+    font-size: 13px;
+  }
 
-	.shopify-section-pricing-new .pricing-item .icon {
-		width: 50px;
-	}
+  .shopify-section-pricing-new .pricing-item .icon {
+    width: 50px;
+  }
 
-	.shopify-section-pricing-new .pricing-item .heading {
-		font-size: 20px;
-	}
+  .shopify-section-pricing-new .pricing-item .heading {
+    font-size: 20px;
+  }
 
-	.shopify-section-pricing-new .pricing-item .sub-heading {
-		font-size: 16px;
-	}
+  .shopify-section-pricing-new .pricing-item .sub-heading {
+    font-size: 16px;
+  }
 
-	.shopify-section-pricing-new .pricing-item span {
-		font-size: 28px;
-	}
+  .shopify-section-pricing-new .pricing-item span {
+    font-size: 28px;
+  }
 
-	.shopify-section-pricing-new .pricing-item ul {
-		row-gap: 10px;
-	}
+  .shopify-section-pricing-new .pricing-item ul {
+    row-gap: 10px;
+  }
 
-	.shopify-section-pricing-new .triangle {
-		display: none;
-	}
+  .shopify-section-pricing-new .triangle {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 424px) {
-	.shopify-section-pricing-new .link {
-		width: 100%;
-	}
+  .shopify-section-pricing-new .link {
+    width: 100%;
+  }
 }
 
 .shopify-section-pricing-new .tab-content:has(.swiper-button-prev.swiper-button-disabled) .swiper-button-next.swiper-button-disabled {
-	display: none;
+  display: none;
 }
 
 .shopify-section-pricing-new .tab-content:has(.swiper-button-next.swiper-button-disabled) .swiper-button-prev.swiper-button-disabled {
-	display: none;
+  display: none;
 }
 
 .shopify-section-pricing-new .swiper-arrow {
-	width: 30px;
-	height: 30px;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	pointer-events: all;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  pointer-events: all;
 }
 
 .shopify-section-pricing-new .swiper-arrow::after {
-	font-size: 16px;
-	font-weight: 600;
+  font-size: 16px;
+  font-weight: 600;
 }

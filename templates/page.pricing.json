@@ -33,7 +33,10 @@
             "desktop_max_width": 600,
             "mobile_max_width": 600,
             "desktop_color": "#000000",
-            "mobile_color": "#000000"
+            "mobile_color": "#000000",
+            "highlight_text": "",
+            "desktop_highlight_text_color": "#000000",
+            "mobile_highlight_text_color": "#000000"
           }
         },
         "text_GFR7gM": {
@@ -57,7 +60,10 @@
             "desktop_max_width": 1000,
             "mobile_max_width": 1000,
             "desktop_color": "#000000",
-            "mobile_color": "#000000"
+            "mobile_color": "#000000",
+            "highlight_text": "",
+            "desktop_highlight_text_color": "#000000",
+            "mobile_highlight_text_color": "#000000"
           }
         }
       },
@@ -969,7 +975,10 @@
             "desktop_max_width": 1440,
             "mobile_max_width": 1000,
             "desktop_color": "#000000",
-            "mobile_color": "#000000"
+            "mobile_color": "#000000",
+            "highlight_text": "",
+            "desktop_highlight_text_color": "#000000",
+            "mobile_highlight_text_color": "#000000"
           }
         },
         "text_d4X3dk": {
@@ -993,7 +1002,10 @@
             "desktop_max_width": 1440,
             "mobile_max_width": 1000,
             "desktop_color": "#000000",
-            "mobile_color": "#000000"
+            "mobile_color": "#000000",
+            "highlight_text": "",
+            "desktop_highlight_text_color": "#000000",
+            "mobile_highlight_text_color": "#000000"
           }
         }
       },
