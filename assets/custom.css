@@ -169,3 +169,8 @@ img {
 .global-enquire-link.show {
   bottom: 20px;
 }
+@media screen and (max-width: 424px) {
+  .global-enquire-link {
+    width: calc(100% - 40px);
+  }
+}

@@ -226,9 +226,11 @@ document.addEventListener('DOMContentLoaded', () => {
   });
   const globalEnquireLink = document.querySelector('.global-enquire-link');
   if(globalEnquireLink) {
-    globalEnquireLink.classList.toggle('show',window.scrollY > 200);
+    const showPos = parseInt(globalEnquireLink.getAttribute('show-pos')) || 100;
+    const isBigger = globalEnquireLink.hasAttribute('is_bigger');
+    globalEnquireLink.classList.toggle('show',isBigger?window.scrollY >= showPos:window.scrollY < showPos);
     document.addEventListener('scroll',()=>{
-      globalEnquireLink.classList.toggle('show',window.scrollY > 200);
+      globalEnquireLink.classList.toggle('show',isBigger?window.scrollY >= showPos:window.scrollY < showPos);
     });
   }
   replaceSecondText();

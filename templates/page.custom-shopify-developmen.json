@@ -11,8 +11,61 @@
   "sections": {
     "advertise_xMT9mA": {
       "type": "advertise",
+      "blocks": {
+        "text_item_ccrpGF": {
+          "type": "text_item",
+          "settings": {
+            "icon": "shopify://shop_images/checkmark.png",
+            "text": "ROI-Focused Design"
+          }
+        },
+        "text_item_UbP4mn": {
+          "type": "text_item",
+          "settings": {
+            "icon": "shopify://shop_images/checkmark.png",
+            "text": "Shopify Plus & B2B Experts"
+          }
+        },
+        "text_item_WKrB3C": {
+          "type": "text_item",
+          "settings": {
+            "icon": "shopify://shop_images/checkmark.png",
+            "text": "Performance & Speed"
+          }
+        },
+        "text_item_nLepgj": {
+          "type": "text_item",
+          "settings": {
+            "icon": "shopify://shop_images/checkmark.png",
+            "text": "200+ Stores Delivered"
+          }
+        },
+        "logo_Qfj7tA": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/04.png",
+            "link": ""
+          }
+        },
+        "logo_mN7Rmr": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/shopify-icon.svg",
+            "link": "#"
+          }
+        }
+      },
+      "block_order": [
+        "text_item_ccrpGF",
+        "text_item_UbP4mn",
+        "text_item_WKrB3C",
+        "text_item_nLepgj",
+        "logo_Qfj7tA",
+        "logo_mN7Rmr"
+      ],
       "settings": {
         "key": "",
+        "hide_media_on_mobile": false,
         "loop_video": true,
         "autoplay_video": true,
         "main_image": "shopify://shop_images/AnAgencyServiceWebsite01.png",
@@ -36,6 +89,7 @@
         "image_right": true,
         "text_align": "left",
         "background_color": "#ffffff",
+        "text_color": "#000000",
         "desktop_padding_top": 60,
         "desktop_padding_bottom": 60,
         "mobile_padding_top": 40,
@@ -530,6 +584,7 @@
       "type": "advertise",
       "settings": {
         "key": "",
+        "hide_media_on_mobile": false,
         "loop_video": true,
         "autoplay_video": true,
         "main_image": "shopify://shop_images/9158264f569b0ba69761e856037de151.png",
@@ -553,6 +608,7 @@
         "image_right": true,
         "text_align": "left",
         "background_color": "#ffffff",
+        "text_color": "#000000",
         "desktop_padding_top": 60,
         "desktop_padding_bottom": 60,
         "mobile_padding_top": 40,
@@ -714,7 +770,7 @@
         "shadow_y": 0,
         "shadow_blur": 10,
         "shadow_spread": 0,
-        "max_height": 196,
+        "max_height": 40,
         "read_more_btn_text": "Read",
         "read_more_btn_text_shown": "Hide",
         "read_more_btn_color": "#000000",
@@ -1295,6 +1351,7 @@
       "type": "advertise",
       "settings": {
         "key": "",
+        "hide_media_on_mobile": false,
         "loop_video": true,
         "autoplay_video": true,
         "main_image": "shopify://shop_images/AnAgencyShopifyWebsite05.png",
@@ -1318,6 +1375,7 @@
         "image_right": false,
         "text_align": "left",
         "background_color": "#fbfbfb",
+        "text_color": "#000000",
         "desktop_padding_top": 60,
         "desktop_padding_bottom": 60,
         "mobile_padding_top": 40,
@@ -1328,6 +1386,7 @@
       "type": "advertise",
       "settings": {
         "key": "",
+        "hide_media_on_mobile": false,
         "loop_video": true,
         "autoplay_video": true,
         "main_image": "shopify://shop_images/AnAgencyShopifyWebsite07.png",
@@ -1351,6 +1410,7 @@
         "image_right": true,
         "text_align": "left",
         "background_color": "#ffffff",
+        "text_color": "#000000",
         "desktop_padding_top": 60,
         "desktop_padding_bottom": 60,
         "mobile_padding_top": 40,
@@ -1361,6 +1421,7 @@
       "type": "advertise",
       "settings": {
         "key": "",
+        "hide_media_on_mobile": false,
         "loop_video": true,
         "autoplay_video": true,
         "main_image": "shopify://shop_images/AnAgencyShopifyWebsite08.png",
@@ -1384,6 +1445,7 @@
         "image_right": false,
         "text_align": "left",
         "background_color": "#fbfbfb",
+        "text_color": "#000000",
         "desktop_padding_top": 60,
         "desktop_padding_bottom": 60,
         "mobile_padding_top": 40,
@@ -1394,6 +1456,7 @@
       "type": "advertise",
       "settings": {
         "key": "",
+        "hide_media_on_mobile": false,
         "loop_video": true,
         "autoplay_video": true,
         "main_image": "shopify://shop_images/AnAgencyShopifyWebsite09.png",
@@ -1417,6 +1480,7 @@
         "image_right": true,
         "text_align": "left",
         "background_color": "#ffffff",
+        "text_color": "#000000",
         "desktop_padding_top": 60,
         "desktop_padding_bottom": 60,
         "mobile_padding_top": 40,
@@ -1428,6 +1492,7 @@
       "disabled": true,
       "settings": {
         "key": "",
+        "hide_media_on_mobile": false,
         "loop_video": true,
         "autoplay_video": true,
         "main_image": "shopify://shop_images/AnAgencyShopifyWebsite09.png",
@@ -1451,6 +1516,7 @@
         "image_right": false,
         "text_align": "left",
         "background_color": "#ffffff",
+        "text_color": "#000000",
         "desktop_padding_top": 60,
         "desktop_padding_bottom": 60,
         "mobile_padding_top": 40,
@@ -1512,6 +1578,7 @@
       "disabled": true,
       "settings": {
         "key": "",
+        "hide_media_on_mobile": false,
         "loop_video": true,
         "autoplay_video": true,
         "main_image": "shopify://shop_images/GoogleAds_09.jpg",
@@ -1536,6 +1603,7 @@
         "image_right": true,
         "text_align": "left",
         "background_color": "#ffffff",
+        "text_color": "#000000",
         "desktop_padding_top": 60,
         "desktop_padding_bottom": 60,
         "mobile_padding_top": 40,

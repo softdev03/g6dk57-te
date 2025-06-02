@@ -13,6 +13,7 @@
       "type": "advertise",
       "settings": {
         "key": "",
+        "hide_media_on_mobile": false,
         "video": "shopify://files/videos/633c6c591c72ed63908cfe38_Gads (1).mp4",
         "loop_video": true,
         "autoplay_video": true,
@@ -48,6 +49,7 @@
       "type": "advertise",
       "settings": {
         "key": "",
+        "hide_media_on_mobile": false,
         "loop_video": true,
         "autoplay_video": true,
         "main_image": "shopify://shop_images/GoogleAds03.jpg",
@@ -103,6 +105,7 @@
       "type": "advertise",
       "settings": {
         "key": "",
+        "hide_media_on_mobile": false,
         "loop_video": true,
         "autoplay_video": true,
         "main_image": "shopify://shop_images/GoogleAds_06.jpg",
@@ -986,6 +989,7 @@
       "type": "advertise",
       "settings": {
         "key": "",
+        "hide_media_on_mobile": false,
         "loop_video": true,
         "autoplay_video": true,
         "main_image": "shopify://shop_images/GoogleAds_ecommerce02_e703f8dd-1cdd-477a-b4b5-791b629c3d19.jpg",
@@ -1072,6 +1076,7 @@
       "type": "advertise",
       "settings": {
         "key": "",
+        "hide_media_on_mobile": false,
         "loop_video": true,
         "autoplay_video": true,
         "main_image": "shopify://shop_images/GoogleAds05.jpg",
@@ -1106,6 +1111,7 @@
       "type": "advertise",
       "settings": {
         "key": "",
+        "hide_media_on_mobile": false,
         "loop_video": true,
         "autoplay_video": true,
         "main_image": "shopify://shop_images/GoogleAds_09.jpg",
@@ -1139,6 +1145,7 @@
       "type": "advertise",
       "settings": {
         "key": "",
+        "hide_media_on_mobile": false,
         "loop_video": true,
         "autoplay_video": true,
         "main_image": "shopify://shop_images/GoogleAds_10.jpg",

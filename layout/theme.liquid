@@ -475,7 +475,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <div class="modal-content"></div>
     </div>
     {%- if settings.global_enquire_link != blank and settings.global_enquire_link_text != blank -%}
-      <a href="{{ settings.global_enquire_link }}" class="global-enquire-link enquire-link" replace-pos="{{ settings.global_second_text_pos |  default : 100 }}" {% if settings.global_is_bigger %} is_bigger {% endif %}>
+      <a href="{{ settings.global_enquire_link }}" class="global-enquire-link enquire-link" show-pos="{{ settings.global_show_pos |  default : 100 }}" replace-pos="{{ settings.global_second_text_pos |  default : 100 }}" {% if settings.global_is_bigger %} is_bigger {% endif %}>
         <span class="first-text">{{ settings.global_enquire_link_text }}</span>
         <span class="second-text">{{ settings.global_enquire_link_second_text }}</span>
       </a>

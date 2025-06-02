@@ -14,42 +14,60 @@
     </p>
   {%- endif -%}
   <div class="step-content">
-    <div class="name-field">
+    {%- if section.settings.use_full_name -%}
+      <div class="name-field">
+        <div class="field-wrapper">
+          <div class="field">
+            <input
+              type="text"
+              id="ContactForm-first-name"
+              class="field__input"
+              autocomplete="first_name"
+              name="contact[first_name]"
+              value="{% if form.first_name %}{{ form.first_name }}{% endif %}"
+              placeholder="{{ block.settings.first_name_label }}"
+            >
+            <label class="field__label" for="ContactForm-first-name">{{ block.settings.first_name_label }}</label>
+          </div>
+          <p class="error-msg" style="color: {{ block.settings.error_msg_color }}">
+            {{ block.settings.first_name_error_msg }}
+          </p>
+        </div>
+        <div class="field-wrapper">
+          <div class="field">
+            <input
+              type="text"
+              id="ContactForm-last-name"
+              class="field__input"
+              autocomplete="last_name"
+              name="contact[last_name]"
+              value="{% if form.last_name %}{{ form.last_name }}{% endif %}"
+              placeholder="{{ block.settings.last_name_label }}"
+            >
+            <label class="field__label" for="ContactForm-last-name">{{ block.settings.last_name_label }}</label>
+          </div>
+          <p class="error-msg" style="color: {{ block.settings.error_msg_color }}">
+            {{ block.settings.last_name_error_msg }}
+          </p>
+        </div>
+      </div>
+      {%- else -%}
       <div class="field-wrapper">
-        <div class="field">
+        <div class="field name">
           <input
             type="text"
-            id="ContactForm-first-name"
+            id="ContactForm-email"
             class="field__input"
-            autocomplete="first_name"
-            name="contact[first_name]"
-            value="{% if form.first_name %}{{ form.first_name }}{% endif %}"
-            placeholder="{{ block.settings.first_name_label }}"
+            autocomplete="name"
+            name="contact[name]"
+            value="{% if form.name %}{{ form.name }}{% endif %}"
+            placeholder="{{ block.settings.full_name_label }}"
           >
-          <label class="field__label" for="ContactForm-first-name">{{ block.settings.first_name_label }}</label>
+          <label class="field__label" for="ContactForm-name">{{ block.settings.full_name_label }}</label>
         </div>
-        <p class="error-msg" style="color: {{ block.settings.error_msg_color }}">
-          {{ block.settings.first_name_error_msg }}
-        </p>
+        <p class="error-msg" style="color: {{ block.settings.error_msg_color }}">{{ block.settings.full_name_error_msg }}</p>
       </div>
-      <div class="field-wrapper">
-        <div class="field">
-          <input
-            type="text"
-            id="ContactForm-last-name"
-            class="field__input"
-            autocomplete="last_name"
-            name="contact[last_name]"
-            value="{% if form.last_name %}{{ form.last_name }}{% endif %}"
-            placeholder="{{ block.settings.last_name_label }}"
-          >
-          <label class="field__label" for="ContactForm-last-name">{{ block.settings.last_name_label }}</label>
-        </div>
-        <p class="error-msg" style="color: {{ block.settings.error_msg_color }}">
-          {{ block.settings.last_name_error_msg }}
-        </p>
-      </div>
-    </div>
+    {%- endif -%}
     <div class="field-wrapper">
       <div class="field email">
         <input
@@ -104,6 +122,36 @@
       </div>
       <p class="error-msg" style="color: {{ block.settings.error_msg_color }}">{{ block.settings.phone_error_msg }}</p>
     </div>
+    <div class="field-wrapper">
+        <div class="field company">
+          <input
+            type="text"
+            id="ContactForm-company"
+            class="field__input"
+            autocomplete="company"
+            name="contact[company]"
+            value="{% if form.company %}{{ form.company }}{% endif %}"
+            placeholder="{{ block.settings.company_name_label }}"
+          >
+          <label class="field__label" for="ContactForm-company">{{ block.settings.company_name_label }}</label>
+        </div>
+        <p class="error-msg" style="color: {{ block.settings.error_msg_color }}">{{ block.settings.company_name_error_msg }}</p>
+      </div>
+      <div class="field-wrapper">
+        <div class="field website">
+          <input
+            type="text"
+            id="ContactForm-website"
+            class="field__input"
+            autocomplete="website"
+            name="contact[website]"
+            value="{% if form.website %}{{ form.website }}{% endif %}"
+            placeholder="{{ block.settings.website_label }}"
+          >
+          <label class="field__label" for="ContactForm-website">{{ block.settings.website_label }}</label>
+        </div>
+        <p class="error-msg" style="color: {{ block.settings.error_msg_color }}">{{ block.settings.website_error_msg }}</p>
+      </div>
     {%- if block.settings.child_step_id != blank and childBlocks != blank -%}
       {%- assign childIds = block.settings.child_step_id | split: '|' -%}
       {%- for childId in childIds -%}

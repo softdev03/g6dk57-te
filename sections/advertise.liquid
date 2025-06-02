@@ -6,6 +6,7 @@
      padding-top: {{ section.settings.desktop_padding_top }}px;
      padding-bottom: {{ section.settings.desktop_padding_bottom }}px;
 		 background-color: {{ section.settings.background_color }};
+     color: {{ section.settings.text_color }};
    }
    #shopify-section-{{ section.id }} .advertise-media video,#shopify-section-{{ section.id }} .advertise-media .main-image {
     border-radius: {{ section.settings.media_border_radius }}px;
@@ -49,7 +50,7 @@
    }
 {%- endstyle -%}
 <div class="shopify-section-advertise page-width {% if section.settings.image_right == true %} media-right {% endif %}" {% if section.settings.key != blank %} tab key="{{ section.settings.key }}" {% endif %}>
-  <div class="advertise-media {% if section.settings.media_sticky %} sticky {% endif %}">
+  <div class="advertise-media {% if section.settings.hide_media_on_mobile %} hide_on_mobile {% endif %}">
     {%- if section.settings.video != null or section.settings.video_url != blank -%}
       <video muted {% if section.settings.autoplay_video %}autoplay{% else %}controls{% endif %} playsinline {% if section.settings.loop_video %}loop{% endif %}>
       {%- for source in section.settings.video.sources -%}
@@ -90,8 +91,64 @@
       <div class="text">
         <p class="advertise-text">{{ section.settings.text }}</p></div>
     {%- endif -%}
-    {%- if section.settings.button_link != blank and section.settings.button_text != blank -%}
-      <a href="{{ section.settings.button_link }}" class="link">{{ section.settings.button_text }}</a>
+    {%- assign textItems = section.blocks |  where: 'type', 'text_item' |  map: 'settings' -%}
+    {%- if textItems.size > 0 -%}
+      <div class="text-item-list">
+        {%- for textItem in textItems -%}
+          {%- if textItem.icon != blank or textItem.text != blank -%}
+            <div class="text-item">
+              {%- if textItem.icon != blank -%}
+                <img src="{{ textItem.icon |  img_url: '30x' }}" alt="" width="30px" height="auto">
+              {%- endif -%}
+              {%- if textItem.text != blank -%}
+                <span>{{ textItem.text }}</span>
+              {%- endif -%}
+            </div>
+          {%- endif -%}
+        {%- endfor -%}
+      </div>
+    {%- endif -%}
+    <div class="link-list">
+      {%- if section.settings.button_link != blank and section.settings.button_text != blank -%}
+        <a href="{{ section.settings.button_link }}" class="link">{{ section.settings.button_text }}</a>
+      {%- endif -%}
+      {%- assign linkBlocks = section.blocks |  where: 'type', 'link' -%}
+      {%- for linkBlock in linkBlocks -%}
+        {%- if linkBlock.settings.link != blank and linkBlock.settings.link_text != blank -%}
+          <a href="{{ linkBlock.settings.link }}" class="link" id="link-{{ linkBlock.id }}">{{ linkBlock.settings.link_text }}</a>
+          {%- style -%}
+            #link-{{ linkBlock.id }} {
+              background-color: {{ linkBlock.settings.bg_color }};
+              color: {{ linkBlock.settings.txt_color }};
+              border: 1px solid {{ linkBlock.settings.border_color }};
+              border-radius: {{ linkBlock.settings.border_radius }}px;
+            }
+            #link-{{ linkBlock.id }}:hover {
+              background-color: {{ linkBlock.settings.bg_color_hover }};
+              color: {{ linkBlock.settings.txt_color_hover }};
+              border: 1px solid {{ linkBlock.settings.border_color_hover }};
+            }
+          {%- endstyle -%}
+        {%- endif -%}
+      {%- endfor -%}
+    </div>
+    {%- assign logos = section.blocks |  where: 'type', 'logo' |  map: 'settings' -%}
+    {%- if logos.size > 0 -%}
+      <div class="logo-list">
+        {%- for logo in logos -%}
+          {%- if logo.logo != blank -%}
+            {%- if logo.link != blank -%}
+              <a href="{{ logo.link }}" class="logo">
+                <img src="{{ logo.logo |  img_url: '300x' }}" alt="" width="300px" height="auto">
+              </a>
+            {%- else -%}
+              <div class="logo">
+                <img src="{{ logo.logo |  img_url: '300x' }}" alt="" width="300px" height="auto">
+              </div>
+            {%- endif -%}
+          {%- endif -%}
+        {%- endfor -%}
+      </div>
     {%- endif -%}
   </div>
 </div>
@@ -109,6 +166,12 @@
     {
       "type": "header",
       "content": "Viedo Settings"
+    },
+    {
+      "type": "checkbox",
+      "id": "hide_media_on_mobile",
+      "label": "Hide Media on Mobile",
+      "default": false
     },
     {
       "type": "video",
@@ -295,6 +358,12 @@
 			"default": "#fff"
 		},
     {
+      "type": "color",
+      "id": "text_color",
+      "label": "Text Color",
+      "default": "#000000"
+    },
+    {
       "type": "header",
       "content": "Padding Setting"
     },
@@ -337,6 +406,102 @@
       "unit": "px",
       "label": "Mobile Padding Bottom",
       "default": 0
+    }
+  ],
+  "blocks": [
+    {
+      "type": "text_item",
+      "name": "Text Item",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "icon",
+          "label": "Icon"
+        },
+        {
+          "type": "text",
+          "id": "text",
+          "label": "Text"
+        }
+      ]
+    },
+    {
+      "type": "logo",
+      "name": "Logo",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "logo",
+          "label": "Logo"
+        },
+        {
+          "type": "url",
+          "id": "link",
+          "label": "Link"
+        }
+      ]
+    },
+    {
+      "type": "link",
+      "name": "Link",
+      "settings": [
+        {
+          "type": "url",
+          "id": "link",
+          "label": "Link"
+        },
+        {
+          "type": "text",
+          "id": "link_text",
+          "label": "Link Text"
+        },
+        {
+          "type": "color",
+          "id": "bg_color",
+          "label": "Background Color",
+          "default": "#fff"
+        },
+        {
+          "type": "color",
+          "id": "txt_color",
+          "label": "Text Color",
+          "default": "#000000"
+        },
+        {
+          "type": "color",
+          "id": "border_color",
+          "label": "Border Color",
+          "default": "#000000"
+        },
+        {
+          "type": "color",
+          "id": "bg_color_hover",
+          "label": "Background Color when Hover",
+          "default": "#fff"
+        },
+        {
+          "type": "color",
+          "id": "txt_color_hover",
+          "label": "Text Color when Hover",
+          "default": "#000000"
+        },
+        {
+          "type": "color",
+          "id": "border_color_hover",
+          "label": "Border Color when Hover",
+          "default": "#000000"
+        },
+        {
+          "type": "range",
+          "id": "border_radius",
+          "min": 0,
+          "max": 100,
+          "step": 1,
+          "unit": "px",
+          "label": "Border Radius",
+          "default": 0
+        }
+      ]
     }
   ],
   "presets": [

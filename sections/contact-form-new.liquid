@@ -117,14 +117,16 @@
           }
         {%- endstyle -%}
       {%- endif -%}
-      <div class="progressbar show" style="background-color: {{ section.settings.progress_bar_bg_color }};">
-        {%- assign item_percent = 100.0 | divided_by: step_count -%}
-        <div
-          class="progress-track"
-          style="background-color: {{ section.settings.progress_bar_track_color }}; width:{{ item_percent }}%"
-          item-percent="{{ item_percent }}"
-        ></div>
-      </div>
+      {%- if section.settings.step_count > 2 -%}
+        <div class="progressbar show" style="background-color: {{ section.settings.progress_bar_bg_color }};">
+          {%- assign item_percent = 100.0 | divided_by: step_count -%}
+          <div
+            class="progress-track"
+            style="background-color: {{ section.settings.progress_bar_track_color }}; width:{{ item_percent }}%"
+            item-percent="{{ item_percent }}"
+          ></div>
+        </div>
+      {%- endif -%}
       {%- if section.settings.back_button_text != blank -%}
         <button class="back-step" style="color: {{ section.settings.back_button_color }}">
           {{ section.settings.back_button_text }}
@@ -383,6 +385,17 @@
           "default": "#000000"
         },
         {
+          "type": "checkbox",
+          "id": "use_full_name",
+          "label": "Use Full Name",
+          "default": true
+        },
+        {
+          "type": "text",
+          "id": "full_name_label",
+          "label": "Full Name Label"
+        },
+        {
           "type": "text",
           "id": "first_name_label",
           "label": "First Name Label"
@@ -409,6 +422,21 @@
         },
         {
           "type": "text",
+          "id": "company_name_label",
+          "label": "Company Name Label"
+        },
+        {
+          "type": "text",
+          "id": "website_label",
+          "label": "Website Label"
+        },
+        {
+          "type": "text",
+          "id": "full_name_error_msg",
+          "label": "Full Name Error Message"
+        },
+        {
+          "type": "text",
           "id": "first_name_error_msg",
           "label": "First Name Error Message"
         },
@@ -431,6 +459,16 @@
           "type": "text",
           "id": "post_code_error_msg",
           "label": "Post Code Error Message"
+        },
+        {
+          "type": "text",
+          "id": "company_name_error_msg",
+          "label": "Company Name Error Message"
+        },
+        {
+          "type": "text",
+          "id": "website_error_msg",
+          "label": "Website Error Message"
         },
         {
           "type": "color",

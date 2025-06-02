@@ -1497,6 +1497,11 @@
         "info": "Use this value to show the second text on specific position(Scroll Top)"
       },
       {
+        "type": "number",
+        "id": "global_show_pos",
+        "label": "Show Pos"
+      },
+      {
         "type": "checkbox",
         "id": "global_is_bigger",
         "label": "When current scroll top is Bigger than specific pos",
