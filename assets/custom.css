@@ -138,6 +138,7 @@ img {
   position: relative;
   background-color: transparent;
   transition-timing-function: linear;
+  white-space: nowrap;
 }
 .enquire-link::after {
   content: '';

@@ -1,0 +1,186 @@
+{%- if form_settings -%}
+  {{ 'single-contact.css' |  asset_url |  stylesheet_tag }}
+  <div class="single-contact-form" id="{{ id }}">
+    {%- assign serviceItems = form_settings.service_items | split: '|' -%}
+    {%- unless hide_open_area -%}
+      <div class="open-area">
+        {%- if serviceItems.size > 0 -%}
+          <select class="service-items">
+            {%- for serviceItem in serviceItems -%}
+              <option value="{{ serviceItem }}">{{ serviceItem }}</option>
+            {%- endfor -%}
+          </select>
+        {%- endif -%}
+        {%- if form_settings.open_btn_text != blank -%}
+          <button class="open-form">{{ form_settings.open_btn_text }}</button>
+        {%- endif -%}
+      </div>
+    {%- endunless -%}
+    <div class="form-area">
+      {%- style -%}
+        #{{ id }} .field input, #{{ id }} select {
+          {%- assign rgb = form_settings.field_shadow_color |  color_to_rgb |  remove: 'rgb(' |  remove: ')' -%}
+          {%- unless rgb contains 'rgba' -%}
+            box-shadow: rgba({{ rgb }}, 0.2) 0px 0px 10px 0px;
+          {%- endunless -%}
+          background-color: {{ form_settings.field_bg_color }};
+          border: 1px solid {{ form_settings.field_border_color }};
+          color: {{ form_settings.field_txt_color }};
+          border-radius: {{ form_settings.field_border_radius }}px;
+        }
+        #{{ id }} .field input:hover, #{{ id }} .field select:hover {
+          background-color: {{ form_settings.field_bg_color_hover }};
+          border: 1px solid {{ form_settings.field_border_color_hover }};
+          color: {{ form_settings.field_txt_color_hover }};
+        }
+        #{{ id }} .field input:focus, #{{ id }} .field select:focus {
+          background-color: {{ form_settings.field_bg_color_focus }};
+          border: 1px solid {{ form_settings.field_border_color_focus }};
+          color: {{ form_settings.field_txt_color_focus }};
+        }
+        #{{ id }} .error-message {
+          color: {{ form_settings.error_msg_color }};
+        }
+        #{{ id }} button {
+          background-color: {{ form_settings.submit_bg_color }};
+          border: 1px solid {{ form_settings.submit_border_color }};
+          color: {{ form_settings.submit_txt_color }};
+          border-radius: {{ form_settings.submit_border_radius }}px;
+        }
+        #{{ id }} button:hover {
+          background-color: {{ form_settings.submit_bg_color_hover }};
+          border: 1px solid {{ form_settings.submit_border_color_hover }};
+          color: {{ form_settings.submit_txt_color_hover }};
+        }
+      {%- endstyle -%}
+      {%- if form_settings.heading != blank -%}
+        <h2 class="form-heading" style="color: {{ form_settings.heading_color }}">{{ form_settings.heading }}</h2>
+      {%- endif -%}
+      {%- form 'contact', id: 'ContactForm' -%}
+        {%- if form.posted_successfully? -%}
+          <h2 class="form-status form-status-list form__message" tabindex="-1" autofocus>
+            {{- 'icon-success.svg' | inline_asset_content -}}
+            {{ 'templates.contact.form.post_success' | t }}
+          </h2>
+        {%- elsif form.errors -%}
+          <div class="form__message">
+            <h2 class="form-status caption-large text-body" role="alert" tabindex="-1" autofocus>
+              {{- 'icon-error.svg' | inline_asset_content -}}
+              {{ 'templates.contact.form.error_heading' | t }}
+            </h2>
+          </div>
+          <ul class="form-status-list caption-large" role="list">
+            <li>
+              <a href="#ContactForm-email" class="link">
+                {{ form.errors.translated_fields.email | capitalize }}
+                {{ form.errors.messages.email }}
+              </a>
+            </li>
+          </ul>
+        {%- endif -%}
+        <div class="field">
+          <input
+            class="field__input"
+            autocomplete="name"
+            type="text"
+            id="ContactForm-name"
+            name="contact[{{ 'templates.contact.form.name' | t }}]"
+            value="{% if form.name %}{{ form.name }}{% elsif customer %}{{ customer.name }}{% endif %}"
+            placeholder="{{ form_settings.name_label }}"
+          >
+          <label class="field__label" for="ContactForm-name">{{ form_settings.name_label }}</label>
+          <span class="error-message">{{ form_settings.name_error_msg }}</span>
+        </div>
+        <div class="field phone">
+          <input
+            type="tel"
+            id="ContactForm-phone"
+            class="field__input"
+            autocomplete="tel"
+            name="contact[{{ 'templates.contact.form.phone' | t }}]"
+            pattern="[0-9\-]*"
+            value="{% if form.phone %}{{ form.phone }}{% elsif customer %}{{ customer.phone }}{% endif %}"
+            placeholder="{{ form_settings.phone_label }}"
+          >
+          <label class="field__label" for="ContactForm-phone">{{ form_settings.phone_label }}</label>
+          <span class="error-message">{{ form_settings.phone_error_msg }}</span>
+        </div>
+        <div class="field field--with-error email">
+          <input
+            autocomplete="email"
+            type="email"
+            id="ContactForm-email"
+            class="field__input"
+            name="contact[email]"
+            spellcheck="false"
+            autocapitalize="off"
+            value="{% if form.email %}{{ form.email }}{% elsif customer %}{{ customer.email }}{% endif %}"
+            aria-required="true"
+            {% if form.errors contains 'email' %}
+              aria-invalid="true"
+              aria-describedby="ContactForm-email-error"
+            {% endif %}
+            placeholder="{{ form_settings.email_label }}"
+          >
+          <label class="field__label" for="ContactForm-email">{{- form_settings.email_label }}</label>
+          <span class="error-message">{{ form_settings.email_error_msg }}</span>
+          {%- if form.errors contains 'email' -%}
+            <small class="contact__field-error" id="ContactForm-email-error">
+              <span class="visually-hidden">{{ 'accessibility.error' | t }}</span>
+              <span class="form__message">
+                <span class="svg-wrapper">
+                  {{- 'icon-error.svg' | inline_asset_content -}}
+                </span>
+                {{- form.errors.translated_fields.email | capitalize }}
+                {{ form.errors.messages.email -}}
+              </span>
+            </small>
+          {%- endif -%}
+        </div>
+        <div class="field website">
+          <input
+            class="field__input"
+            autocomplete="website"
+            type="text"
+            id="ContactForm-website"
+            name="contact[website]"
+            value="{% if form.website %}{{ form.website }}{% endif %}"
+            placeholder="{{ form_settings.website_label }}"
+          >
+          <label class="field__label" for="ContactForm-website">{{ form_settings.website_label }}</label>
+          <span class="error-message">{{ form_settings.website_error_msg }}</span>
+        </div>
+        <div class="field">
+          <input
+            class="field__input"
+            autocomplete="company"
+            type="text"
+            id="ContactForm-company"
+            name="contact[company]"
+            value="{% if form.company %}{{ form.company }}{% endif %}"
+            placeholder="{{ form_settings.company_label }}"
+          >
+          <label class="field__label" for="ContactForm-company">{{ form_settings.company_label }}</label>
+          <span class="error-message">{{ form_settings.company_error_msg }}</span>
+        </div>
+        {%- if serviceItems.size > 0 -%}
+          <div class="field">
+            <select
+              class="service-items"
+              class="field__input"
+              autocomplete="service"
+              id="ContactForm-service"
+              name="contact[service]"
+            >
+              {%- for serviceItem in serviceItems -%}
+                <option value="{{ serviceItem }}">{{ serviceItem }}</option>
+              {%- endfor -%}
+            </select>
+            <label class="field__label" for="ContactForm-service">{{ form_settings.service_label }}</label>
+          </div>
+        {%- endif -%}
+        <button type="submit">{{ form_settings.submit_text }}</button>
+      {%- endform -%}
+    </div>
+  </div>
+{%- endif -%}

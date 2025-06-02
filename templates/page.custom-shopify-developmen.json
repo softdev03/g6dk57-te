@@ -53,6 +53,46 @@
             "logo": "shopify://shop_images/shopify-icon.svg",
             "link": "#"
           }
+        },
+        "contact_form_Qn78PR": {
+          "type": "contact_form",
+          "settings": {
+            "heading": "Please enter your details",
+            "heading_color": "#000000",
+            "service_items": "I want a stunning website|I want a high converting eCommerce Store|I want to rank higher on Google|I want effective targeted ads|I want to generate leads from social media|I want to create Digital Strategy|I want more customer conversions (CRO)|I want to Integrate ERP/CRM with my site|I want to develop a mobile app|I want a custom Software",
+            "open_btn_text": "Get A Free Quote",
+            "submit_text": "Book a Free Consultation",
+            "name_label": "Full Name",
+            "phone_label": "Phone / Mobile Number",
+            "email_label": "Email Address",
+            "website_label": "Website URL",
+            "company_label": "Company Name",
+            "service_label": "Select",
+            "name_error_msg": "Please enter your name.",
+            "phone_error_msg": "Please enter your phone number.",
+            "email_error_msg": "Please enter your email address.",
+            "company_error_msg": "Please enter your company name.",
+            "website_error_msg": "Please enter a valid URL.",
+            "field_bg_color": "#ffffff",
+            "field_border_color": "rgba(0,0,0,0)",
+            "field_txt_color": "#000000",
+            "field_bg_color_hover": "#ffffff",
+            "field_border_color_hover": "rgba(0,0,0,0)",
+            "field_txt_color_hover": "#000000",
+            "field_bg_color_focus": "#ffffff",
+            "field_border_color_focus": "rgba(0,0,0,0)",
+            "field_txt_color_focus": "#000000",
+            "field_shadow_color": "#000000",
+            "error_msg_color": "#ff0000",
+            "submit_bg_color": "#212121",
+            "submit_border_color": "rgba(0,0,0,0)",
+            "submit_txt_color": "#ffffff",
+            "submit_bg_color_hover": "#000000",
+            "submit_border_color_hover": "rgba(0,0,0,0)",
+            "submit_txt_color_hover": "#ffffff",
+            "field_border_radius": 5,
+            "submit_border_radius": 5
+          }
         }
       },
       "block_order": [
@@ -61,7 +101,8 @@
         "text_item_WKrB3C",
         "text_item_nLepgj",
         "logo_Qfj7tA",
-        "logo_mN7Rmr"
+        "logo_mN7Rmr",
+        "contact_form_Qn78PR"
       ],
       "settings": {
         "key": "",
@@ -85,7 +126,7 @@
         "sub_heading": "Struggling with a slow or underperforming online store? As a certified Shopify Partner, we specialise in custom Shopify website development that loads faster, ranks higher, and turns more visitors into paying customers.",
         "text": "<p>Trusted by 100+ brands across Australia. Over 380 <strong>Shopify ecommerce websites</strong> delivered - built for speed, search, and scalable growth.</p>",
         "button_link": "tel:(02) 8088 0768",
-        "button_text": "Call (02) 8088 0768",
+        "button_text": "",
         "image_right": true,
         "text_align": "left",
         "background_color": "#ffffff",

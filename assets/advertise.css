@@ -218,3 +218,34 @@
     font-size: 16px;
   }
 }
+
+@media screen and (max-width: 1023px) {
+  .shopify-section-advertise .field {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 993px) {
+  .shopify-section-advertise .field {
+    width: calc(50% - 5px);
+  }
+}
+@media screen and (max-width: 600px) {
+  .shopify-section-advertise .field {
+    width: 100%;
+  }
+  .single-contact-form .form-area button {
+    width: 100%;
+  }
+}
+.shopify-section-advertise:has(.single-contact-form.show) .heading {
+  display: none;
+}
+.shopify-section-advertise:has(.single-contact-form.show) .sub-heading {
+  display: none;
+}
+.shopify-section-advertise:has(.single-contact-form.show) .text {
+  display: none;
+}
+.shopify-section-advertise:has(.single-contact-form.show) .text-item-list {
+  display: none;
+}

@@ -108,6 +108,9 @@
         {%- endfor -%}
       </div>
     {%- endif -%}
+    {%- assign contactForm = section.blocks |  where: 'type', 'contact_form' | map: 'settings' | first -%}
+    {%- assign form_id = section.id | append: '-single-contact-form' -%}
+    {%- render 'single-contact-form', form_settings: contactForm,id: form_id -%}
     <div class="link-list">
       {%- if section.settings.button_link != blank and section.settings.button_text != blank -%}
         <a href="{{ section.settings.button_link }}" class="link">{{ section.settings.button_text }}</a>
@@ -499,6 +502,233 @@
           "step": 1,
           "unit": "px",
           "label": "Border Radius",
+          "default": 0
+        }
+      ]
+    },
+    {
+      "type": "contact_form",
+      "name": "Contact Form",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "text",
+          "id": "heading",
+          "label": "Heading"
+        },
+        {
+          "type": "color",
+          "id": "heading_color",
+          "label": "Heading Color",
+          "default": "#000000"
+        },
+        {
+          "type": "text",
+          "id": "service_items",
+          "label": "Service Items",
+          "info": "Data Format: item1 | item2| ..."
+        },
+        {
+          "type": "text",
+          "id": "open_btn_text",
+          "label": "Open Button Text"
+        },
+        {
+          "type": "text",
+          "id": "submit_text",
+          "label": "Submit Text"
+        },
+        {
+          "type": "header",
+          "content": "Label Settings"
+        },
+        {
+          "type": "text",
+          "id": "name_label",
+          "label": "Name Label"
+        },
+        {
+          "type": "text",
+          "id": "phone_label",
+          "label": "Phone Label"
+        },
+        {
+          "type": "text",
+          "id": "email_label",
+          "label": "Email Label"
+        },
+        {
+          "type": "text",
+          "id": "website_label",
+          "label": "Website Label"
+        },
+        {
+          "type": "text",
+          "id": "company_label",
+          "label": "Company Label"
+        },
+        {
+          "type": "text",
+          "id": "service_label",
+          "label": "Service Label"
+        },
+        {
+          "type": "header",
+          "content": "Error Message Settings"
+        },
+        {
+          "type": "text",
+          "id": "name_error_msg",
+          "label": "Name Error Message"
+        },
+        {
+          "type": "text",
+          "id": "phone_error_msg",
+          "label": "Phone Error Message"
+        },
+        {
+          "type": "text",
+          "id": "email_error_msg",
+          "label": "Email Error Message"
+        },
+        {
+          "type": "text",
+          "id": "company_error_msg",
+          "label": "Company Error Message"
+        },
+        {
+          "type": "text",
+          "id": "website_error_msg",
+          "label": "Website Error Message"
+        },
+        {
+          "type": "header",
+          "content": "Color Settings"
+        },
+        {
+          "type": "color",
+          "id": "field_bg_color",
+          "label": "Field Background Color",
+          "default": "#fff"
+        },
+        {
+          "type": "color",
+          "id": "field_border_color",
+          "label": "Field Border Color",
+          "default": "#000000"
+        },
+        {
+          "type": "color",
+          "id": "field_txt_color",
+          "label": "Field Text Color",
+          "default": "#000000"
+        },
+        {
+          "type": "color",
+          "id": "field_bg_color_hover",
+          "label": "Field Background Color when Hover",
+          "default": "#fff"
+        },
+        {
+          "type": "color",
+          "id": "field_border_color_hover",
+          "label": "Field Border Color when Hover",
+          "default": "#000000"
+        },
+        {
+          "type": "color",
+          "id": "field_txt_color_hover",
+          "label": "Field Text Color when Hover",
+          "default": "#000000"
+        },
+        {
+          "type": "color",
+          "id": "field_bg_color_focus",
+          "label": "Field Background Color when Focus",
+          "default": "#fff"
+        },
+        {
+          "type": "color",
+          "id": "field_border_color_focus",
+          "label": "Field Border Color when Focus",
+          "default": "#000000"
+        },
+        {
+          "type": "color",
+          "id": "field_txt_color_focus",
+          "label": "Field Text Color when Focus",
+          "default": "#000000"
+        },
+        {
+          "type": "color",
+          "id": "field_shadow_color",
+          "label": "Field Shadow Color",
+          "default": "#000000"
+        },
+        {
+          "type": "color",
+          "id": "error_msg_color",
+          "label": "Error Message Color",
+          "default": "#f00"
+        },
+        {
+          "type": "color",
+          "id": "submit_bg_color",
+          "label": "Submit Background Color",
+          "default": "#fff"
+        },
+        {
+          "type": "color",
+          "id": "submit_border_color",
+          "label": "Submit Border Color",
+          "default": "#000000"
+        },
+        {
+          "type": "color",
+          "id": "submit_txt_color",
+          "label": "Submit Text Color",
+          "default": "#000000"
+        },
+        {
+          "type": "color",
+          "id": "submit_bg_color_hover",
+          "label": "Submit Background Color when Hover",
+          "default": "#fff"
+        },
+        {
+          "type": "color",
+          "id": "submit_border_color_hover",
+          "label": "Submit Border Color when Hover",
+          "default": "#000000"
+        },
+        {
+          "type": "color",
+          "id": "submit_txt_color_hover",
+          "label": "Submit Text Color when Hover",
+          "default": "#000000"
+        },
+        {
+          "type": "header",
+          "content": "Border Radius Settings"
+        },
+        {
+          "type": "range",
+          "id": "field_border_radius",
+          "min": 0,
+          "max": 100,
+          "step": 1,
+          "unit": "px",
+          "label": "Field Border Radius",
+          "default": 0
+        },
+        {
+          "type": "range",
+          "id": "submit_border_radius",
+          "min": 0,
+          "max": 100,
+          "step": 1,
+          "unit": "px",
+          "label": "Submit Border Radius",
           "default": 0
         }
       ]
