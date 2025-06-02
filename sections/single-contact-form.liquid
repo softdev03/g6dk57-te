@@ -1,0 +1,286 @@
+{{ 'single-contact-form.css' |  asset_url |  stylesheet_tag }}
+{%- style -%}
+  #shopify-section-{{ section.id }} {
+    padding-top: {{ section.settings.desktop_padding_top }}px;
+    padding-bottom: {{ section.settings.desktop_padding_bottom }}px;
+  }
+  @media screen and (max-width: 749px) {
+  #shopify-section-{{ section.id }} {
+  	padding-top: {{ section.settings.mobile_padding_top }}px;
+  	padding-bottom: {{ section.settings.mobile_padding_bottom }}px;
+  }
+  }
+{%- endstyle -%}
+<div class="shopify-section-sscf page-width">
+	{%- assign form_id = section.id | append: '-single-contact-form' -%}
+  {%- render 'single-contact-form', form_settings: section.settings,id: form_id,hide_open_area: true -%}
+</div>
+{% schema %}
+{
+  "name": "Single Step Contact Form",
+  "tag": "section",
+  "class": "shopify-section--sscf",
+  "settings": [
+    {
+      "type": "color",
+      "id": "bg_color",
+      "label": "Background Color",
+      "default": "#fff"
+    },
+    {
+      "type": "text",
+      "id": "service_items",
+      "label": "Service Items",
+      "info": "Data Format: item1 | item2| ..."
+    },
+    {
+      "type": "text",
+      "id": "submit_text",
+      "label": "Submit Text"
+    },
+    {
+      "type": "header",
+      "content": "Label Settings"
+    },
+    {
+      "type": "text",
+      "id": "name_label",
+      "label": "Name Label"
+    },
+    {
+      "type": "text",
+      "id": "phone_label",
+      "label": "Phone Label"
+    },
+    {
+      "type": "text",
+      "id": "email_label",
+      "label": "Email Label"
+    },
+    {
+      "type": "text",
+      "id": "website_label",
+      "label": "Website Label"
+    },
+    {
+      "type": "text",
+      "id": "company_label",
+      "label": "Company Label"
+    },
+    {
+      "type": "text",
+      "id": "service_label",
+      "label": "Service Label"
+    },
+    {
+      "type": "header",
+      "content": "Error Message Settings"
+    },
+    {
+      "type": "text",
+      "id": "name_error_msg",
+      "label": "Name Error Message"
+    },
+    {
+      "type": "text",
+      "id": "phone_error_msg",
+      "label": "Phone Error Message"
+    },
+    {
+      "type": "text",
+      "id": "email_error_msg",
+      "label": "Email Error Message"
+    },
+    {
+      "type": "text",
+      "id": "company_error_msg",
+      "label": "Company Error Message"
+    },
+    {
+      "type": "text",
+      "id": "website_error_msg",
+      "label": "Website Error Message"
+    },
+    {
+      "type": "header",
+      "content": "Color Settings"
+    },
+    {
+      "type": "color",
+      "id": "field_bg_color",
+      "label": "Field Background Color",
+      "default": "#fff"
+    },
+    {
+      "type": "color",
+      "id": "field_border_color",
+      "label": "Field Border Color",
+      "default": "#000000"
+    },
+    {
+      "type": "color",
+      "id": "field_txt_color",
+      "label": "Field Text Color",
+      "default": "#000000"
+    },
+    {
+      "type": "color",
+      "id": "field_bg_color_hover",
+      "label": "Field Background Color when Hover",
+      "default": "#fff"
+    },
+    {
+      "type": "color",
+      "id": "field_border_color_hover",
+      "label": "Field Border Color when Hover",
+      "default": "#000000"
+    },
+    {
+      "type": "color",
+      "id": "field_txt_color_hover",
+      "label": "Field Text Color when Hover",
+      "default": "#000000"
+    },
+    {
+      "type": "color",
+      "id": "field_bg_color_focus",
+      "label": "Field Background Color when Focus",
+      "default": "#fff"
+    },
+    {
+      "type": "color",
+      "id": "field_border_color_focus",
+      "label": "Field Border Color when Focus",
+      "default": "#000000"
+    },
+    {
+      "type": "color",
+      "id": "field_txt_color_focus",
+      "label": "Field Text Color when Focus",
+      "default": "#000000"
+    },
+    {
+      "type": "color",
+      "id": "field_shadow_color",
+      "label": "Field Shadow Color",
+      "default": "#000000"
+    },
+    {
+      "type": "color",
+      "id": "error_msg_color",
+      "label": "Error Message Color",
+      "default": "#f00"
+    },
+    {
+      "type": "color",
+      "id": "submit_bg_color",
+      "label": "Submit Background Color",
+      "default": "#fff"
+    },
+    {
+      "type": "color",
+      "id": "submit_border_color",
+      "label": "Submit Border Color",
+      "default": "#000000"
+    },
+    {
+      "type": "color",
+      "id": "submit_txt_color",
+      "label": "Submit Text Color",
+      "default": "#000000"
+    },
+    {
+      "type": "color",
+      "id": "submit_bg_color_hover",
+      "label": "Submit Background Color when Hover",
+      "default": "#fff"
+    },
+    {
+      "type": "color",
+      "id": "submit_border_color_hover",
+      "label": "Submit Border Color when Hover",
+      "default": "#000000"
+    },
+    {
+      "type": "color",
+      "id": "submit_txt_color_hover",
+      "label": "Submit Text Color when Hover",
+      "default": "#000000"
+    },
+    {
+      "type": "header",
+      "content": "Border Radius Settings"
+    },
+    {
+      "type": "range",
+      "id": "field_border_radius",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "label": "Field Border Radius",
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "submit_border_radius",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "label": "Submit Border Radius",
+      "default": 0
+    },
+    {
+      "type": "header",
+      "content": "Padding Settings"
+    },
+    {
+      "type": "range",
+      "id": "desktop_padding_top",
+      "min": 0,
+      "max": 200,
+      "step": 2,
+      "unit": "px",
+      "label": "Desktop Padding Top",
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "desktop_padding_bottom",
+      "min": 0,
+      "max": 200,
+      "step": 2,
+      "unit": "px",
+      "label": "Desktop Padding Bottom",
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "mobile_padding_top",
+      "min": 0,
+      "max": 200,
+      "step": 2,
+      "unit": "px",
+      "label": "Mobile Padding Top",
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "mobile_padding_bottom",
+      "min": 0,
+      "max": 200,
+      "step": 2,
+      "unit": "px",
+      "label": "Mobile Padding Bottom",
+      "default": 0
+    }
+  ],
+  "presets": [
+    {
+      "name": "Single Step Contact Form",
+      "settings": {}
+    }
+  ]
+}
+{% endschema %}

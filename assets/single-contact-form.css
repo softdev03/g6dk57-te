@@ -1,0 +1,12 @@
+.shopify-section-sscf .form-area button {
+  margin: 0px auto;
+  min-width: 300px;
+}
+@media screen and (max-width: 600px) {
+  .shopify-section-sscf .form-area button {
+    width: 100%;
+  }
+  .shopify-section-sscf .single-contact-form .field {
+    width: 100%;
+  }
+}

@@ -90,6 +90,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
   const scoreSections = document.querySelectorAll('.shopify-section-slg');
   scoreSections.forEach(scoreSection => {
+    if(scoreSection.classList.contains('not-necessary')) {
+      return;
+    }
     const scoreItems = scoreSection.querySelectorAll('.score-item .score-value');
     const scoreValues = {};
     const scoreTimer = {};

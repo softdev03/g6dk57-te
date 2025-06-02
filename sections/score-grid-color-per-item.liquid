@@ -1,0 +1,272 @@
+{{ 'score-grid.css' | asset_url | stylesheet_tag }}
+{%- style -%}
+  #shopify-section-{{ section.id }} {
+  	padding-top: {{ section.settings.desktop_padding_top }}px;
+  	padding-bottom: {{ section.settings.desktop_padding_bottom }}px;
+  	background-color: {{ section.settings.bg_color }};
+  }
+   {%- assign breakpoints = section.blocks |  where: 'type', 'breakpoint' |  map: 'settings' |  reverse -%}
+   {%- for breakpoint in breakpoints -%}
+     {% if breakpoint.max_width > 0 %}@media screen and (max-width: {{ breakpoint.max_width }}px) { {% endif %}
+       #shopify-section-{{ section.id }} .shopify-section-slg {
+         row-gap: {{ breakpoint.row_gap }}px;
+         column-gap: {{ breakpoint.col_gap }}px;
+       }
+       #shopify-section-{{ section.id }} .score-item {
+         border-radius: {{ breakpoint.card_border_radius }}px;
+         {%- assign gapCount = breakpoint.item_count |  minus: 1 -%}
+         {%- assign gapWidth = gapCount |  times: breakpoint.col_gap -%}
+         width: calc((100% - {{ gapWidth }}px) / {{ breakpoint.item_count }});
+         row-gap: {{ breakpoint.card_row_gap }}px;
+       }
+       #shopify-section-{{ section.id }} .score-value {
+         font-size: {{ breakpoint.score_font_size }}px;
+       }
+       #shopify-section-{{ section.id }} .score-text {
+         font-size: {{ breakpoint.score_text_font_size }}px;
+       }
+     {% if breakpoint.max_width > 0 %} } {% endif %}
+   {%- endfor -%}
+  @media screen and (max-width: 749px) {
+  	#shopify-section-{{ section.id }} {
+  		padding-top: {{ section.settings.mobile_padding_top }}px;
+  		padding-bottom: {{ section.settings.mobile_padding_bottom }}px;
+  	}
+  }
+{%- endstyle -%}
+<div class="shopify-section-slg page-width {% if section.settings.not_necessary %} not-necessary {% endif %}">
+  {%- assign scoreBlocks = section.blocks | where: 'type', 'score_item' | map: 'settings' -%}
+  {%- for scoreItem in scoreBlocks -%}
+    <div class="score-item" id="score-{{ forloop.index }}">
+      <h2
+        class="score-value"
+        id="{{ section.id }}-{{ forloop.index }}"
+        target="{{ scoreItem.score }}"
+        prefix="{{ scoreItem.prefix_text }}"
+        suffix="{{ scoreItem.suffix_text }}"
+      >
+        {%- if section.settings.not_necessary -%}
+          {{ scoreItem.prefix_text }}{{ scoreItem.score }}{{ scoreItem.suffix_text }}
+        {%- else -%}
+          {{ scoreItem.prefix_text }}0{{ scoreItem.suffix_text }}
+        {%- endif -%}
+      </h2>
+      <p class="score-text">{{ scoreItem.score_text }}</p>
+    </div>
+    {%- style -%}
+      #score-{{ forloop.index }} {
+        border: 1px solid {{ scoreItem.card_border_color }};
+        background-color: {{ scoreItem.card_bg_color }};
+      }
+      #score-{{ forloop.index }} .score-value {
+        color: {{ scoreItem.score_color }};
+      }
+      #score-{{ forloop.index }} .score-text {
+        color: {{ scoreItem.score_text_color }};
+      }
+    {%- endstyle -%}
+  {%- endfor -%}
+</div>
+{% schema %}
+{
+  "name": "Score Grid/Color by Items",
+  "tag": "section",
+  "class": "shopify-section--score-grid",
+  "settings": [
+    {
+      "type": "color",
+      "id": "bg_color",
+      "label": "Background Color",
+      "default": "#fff"
+    },
+    {
+      "type": "checkbox",
+      "id": "not_necessary",
+      "label": "Not Necessary to Animate",
+      "default": false
+    },
+    {
+      "type": "header",
+      "content": "Padding Settings"
+    },
+    {
+      "type": "range",
+      "id": "desktop_padding_top",
+      "min": 0,
+      "max": 200,
+      "step": 2,
+      "unit": "px",
+      "label": "Desktop Padding Top",
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "desktop_padding_bottom",
+      "min": 0,
+      "max": 200,
+      "step": 2,
+      "unit": "px",
+      "label": "Desktop Padding Bottom",
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "mobile_padding_top",
+      "min": 0,
+      "max": 200,
+      "step": 2,
+      "unit": "px",
+      "label": "Mobile Padding Top",
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "mobile_padding_bottom",
+      "min": 0,
+      "max": 200,
+      "step": 2,
+      "unit": "px",
+      "label": "Mobile Padding Bottom",
+      "default": 0
+    }
+  ],
+  "blocks": [
+    {
+      "type": "score_item",
+      "name": "Score Item",
+      "settings": [
+        {
+          "type": "number",
+          "id": "score",
+          "label": "Score"
+        },
+        {
+          "type": "text",
+          "id": "prefix_text",
+          "label": "Prefix Text"
+        },
+        {
+          "type": "text",
+          "id": "suffix_text",
+          "label": "Suffix Text"
+        },
+        {
+          "type": "text",
+          "id": "score_text",
+          "label": "Score Text"
+        },
+        {
+          "type": "color",
+          "id": "card_bg_color",
+          "label": "Card Background Color",
+          "default": "#fff"
+        },
+        {
+          "type": "color",
+          "id": "card_border_color",
+          "label": "Card Border Color",
+          "default": "#000000"
+        },
+        {
+          "type": "color",
+          "id": "score_color",
+          "label": "Score Value Color",
+          "default": "#000000"
+        },
+        {
+          "type": "color",
+          "id": "score_text_color",
+          "label": "Score Text Color",
+          "default": "#000000"
+        }
+      ]
+    },
+    {
+      "type": "breakpoint",
+      "name": "Breakpoint",
+      "settings": [
+        {
+          "type": "number",
+          "id": "max_width",
+          "label": "Max Width"
+        },
+        {
+          "type": "range",
+          "id": "card_border_radius",
+          "min": 0,
+          "max": 100,
+          "step": 1,
+          "unit": "px",
+          "label": "Card Border Radius",
+          "default": 0
+        },
+        {
+          "type": "range",
+          "id": "card_row_gap",
+          "min": 0,
+          "max": 100,
+          "step": 1,
+          "unit": "px",
+          "label": "Card Row Gap",
+          "default": 20
+        },
+        {
+          "type": "range",
+          "id": "item_count",
+          "min": 2,
+          "max": 30,
+          "step": 1,
+          "label": "Item Count",
+          "default": 2
+        },
+        {
+          "type": "range",
+          "id": "row_gap",
+          "min": 0,
+          "max": 100,
+          "step": 1,
+          "unit": "px",
+          "label": "Row Gap",
+          "default": 0
+        },
+        {
+          "type": "range",
+          "id": "col_gap",
+          "min": 0,
+          "max": 100,
+          "step": 1,
+          "unit": "px",
+          "label": "Column Gap",
+          "default": 0
+        },
+        {
+          "type": "range",
+          "id": "score_font_size",
+          "min": 10,
+          "max": 100,
+          "step": 1,
+          "unit": "px",
+          "label": "Score Font Size",
+          "default": 10
+        },
+        {
+          "type": "range",
+          "id": "score_text_font_size",
+          "min": 10,
+          "max": 100,
+          "step": 1,
+          "unit": "px",
+          "label": "Score Text Font Size",
+          "default": 10
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Score Grid/Color by Items",
+      "settings": {}
+    }
+  ]
+}
+{% endschema %}

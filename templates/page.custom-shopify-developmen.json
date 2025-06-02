@@ -343,7 +343,10 @@
             "desktop_max_width": 1440,
             "mobile_max_width": 1440,
             "desktop_color": "#000000",
-            "mobile_color": "#121212"
+            "mobile_color": "#121212",
+            "highlight_text": "",
+            "desktop_highlight_text_color": "#000000",
+            "mobile_highlight_text_color": "#000000"
           }
         },
         "text_VfFdk4": {
@@ -367,7 +370,10 @@
             "desktop_max_width": 1000,
             "mobile_max_width": 1000,
             "desktop_color": "#000000",
-            "mobile_color": "#000000"
+            "mobile_color": "#000000",
+            "highlight_text": "",
+            "desktop_highlight_text_color": "#000000",
+            "mobile_highlight_text_color": "#000000"
           }
         }
       },
@@ -656,6 +662,234 @@
         "mobile_padding_bottom": 40
       }
     },
+    "text_list_WmcAaw": {
+      "type": "text-list",
+      "blocks": {
+        "text_GrUnU3": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Build your website with an expert Shopify development agency. [highlight]</p>",
+            "desktop_margin": 40,
+            "mobile_margin": 32,
+            "desktop_align": "center",
+            "mobile_align": "center",
+            "desktop_font_size": 48,
+            "mobile_font_size": 32,
+            "desktop_font_weight": "600",
+            "mobile_font_weight": "600",
+            "desktop_line_height": 1.2,
+            "mobile_line_height": 1.2,
+            "desktop_letter_spacing": 1,
+            "mobile_letter_spacing": 1,
+            "desktop_text_transform": "none",
+            "mobile_text_transform": "default",
+            "desktop_max_width": 1000,
+            "mobile_max_width": 1000,
+            "desktop_color": "#000000",
+            "mobile_color": "#000000",
+            "highlight_text": "Request a Free Proposal.",
+            "desktop_highlight_text_color": "#fdd328",
+            "mobile_highlight_text_color": "#fdd328"
+          }
+        },
+        "text_tEi8yb": {
+          "type": "text",
+          "settings": {
+            "text": "<p>23 Digital is a premier full-service Shopify web design and [highlight], specialising in Shopify website design and Shopify Plus web development. Renowned for developing award-winning shopping experiences that customers adore, our expertise in Shopify web development and our status as a Shopify Plus Partner set us apart in the digital landscape. Whether you’re launching a new store or scaling an existing one, 23 Digital is dedicated to crafting bespoke Shopify Website Design solutions that drive success and captivate your audience.<br/><br/></p>",
+            "desktop_margin": 0,
+            "mobile_margin": 0,
+            "desktop_align": "center",
+            "mobile_align": "center",
+            "desktop_font_size": 18,
+            "mobile_font_size": 24,
+            "desktop_font_weight": "400",
+            "mobile_font_weight": "400",
+            "desktop_line_height": 1.2,
+            "mobile_line_height": 1.2,
+            "desktop_letter_spacing": 1,
+            "mobile_letter_spacing": 1,
+            "desktop_text_transform": "none",
+            "mobile_text_transform": "default",
+            "desktop_max_width": 1000,
+            "mobile_max_width": 1000,
+            "desktop_color": "#000000",
+            "mobile_color": "#000000",
+            "highlight_text": "Shopify SEO agency",
+            "desktop_highlight_text_color": "#feda15",
+            "mobile_highlight_text_color": "#feda15"
+          }
+        }
+      },
+      "block_order": [
+        "text_GrUnU3",
+        "text_tEi8yb"
+      ],
+      "name": "Text List",
+      "settings": {
+        "bg_color": "#ffffff",
+        "desktop_padding_top": 0,
+        "desktop_padding_bottom": 0,
+        "mobile_padding_top": 0,
+        "mobile_padding_bottom": 0
+      }
+    },
+    "single_contact_form_qh4DAq": {
+      "type": "single-contact-form",
+      "name": "Single Step Contact Form",
+      "settings": {
+        "bg_color": "#ffffff",
+        "service_items": "I want a stunning website|I want a high converting eCommerce Store|I want to rank higher on Google|I want effective targeted ads|I want to generate leads from social media|I want to create Digital Strategy|I want more customer conversions (CRO)|I want to Integrate ERP/CRM with my site|I want to develop a mobile app|I want a custom Software",
+        "submit_text": "Book a Free Consultation",
+        "name_label": "Full Name",
+        "phone_label": "Phone / Mobile Number",
+        "email_label": "Email Address",
+        "website_label": "Website URL",
+        "company_label": "Company Name",
+        "service_label": "Select",
+        "name_error_msg": "Please enter your name.",
+        "phone_error_msg": "Please enter your phone number.",
+        "email_error_msg": "Please enter your email address.",
+        "company_error_msg": "Please enter your company name.",
+        "website_error_msg": "Please enter a valid URL.",
+        "field_bg_color": "#ffffff",
+        "field_border_color": "rgba(0,0,0,0)",
+        "field_txt_color": "#000000",
+        "field_bg_color_hover": "#ffffff",
+        "field_border_color_hover": "rgba(0,0,0,0)",
+        "field_txt_color_hover": "#000000",
+        "field_bg_color_focus": "#ffffff",
+        "field_border_color_focus": "rgba(0,0,0,0)",
+        "field_txt_color_focus": "#000000",
+        "field_shadow_color": "#000000",
+        "error_msg_color": "#ff0000",
+        "submit_bg_color": "#212121",
+        "submit_border_color": "rgba(0,0,0,0)",
+        "submit_txt_color": "#ffffff",
+        "submit_bg_color_hover": "#000000",
+        "submit_border_color_hover": "rgba(0,0,0,0)",
+        "submit_txt_color_hover": "#ffffff",
+        "field_border_radius": 5,
+        "submit_border_radius": 5,
+        "desktop_padding_top": 60,
+        "desktop_padding_bottom": 60,
+        "mobile_padding_top": 40,
+        "mobile_padding_bottom": 40
+      }
+    },
+    "score_grid_color_per_item_xNwfjd": {
+      "type": "score-grid-color-per-item",
+      "blocks": {
+        "score_item_WCqi8c": {
+          "type": "score_item",
+          "settings": {
+            "score": 1100,
+            "prefix_text": "",
+            "suffix_text": "+",
+            "score_text": "Marketing Campaigns",
+            "card_bg_color": "#ffffff",
+            "card_border_color": "rgba(0,0,0,0)",
+            "score_color": "#ffa1ea",
+            "score_text_color": "#000000"
+          }
+        },
+        "score_item_7hy8Je": {
+          "type": "score_item",
+          "settings": {
+            "score": 1500,
+            "prefix_text": "",
+            "suffix_text": "+",
+            "score_text": "Website Projects",
+            "card_bg_color": "#ffffff",
+            "card_border_color": "rgba(0,0,0,0)",
+            "score_color": "#ada1ff",
+            "score_text_color": "#000000"
+          }
+        },
+        "score_item_3TyeGN": {
+          "type": "score_item",
+          "settings": {
+            "score": 2500,
+            "prefix_text": "",
+            "suffix_text": "+",
+            "score_text": "Happy Clients",
+            "card_bg_color": "#ffffff",
+            "card_border_color": "rgba(0,0,0,0)",
+            "score_color": "#a1d2ff",
+            "score_text_color": "#000000"
+          }
+        },
+        "score_item_NfiTcD": {
+          "type": "score_item",
+          "settings": {
+            "score": 184,
+            "prefix_text": "",
+            "suffix_text": "",
+            "score_text": "Employees",
+            "card_bg_color": "#ffffff",
+            "card_border_color": "rgba(0,0,0,0)",
+            "score_color": "#a1ffe6",
+            "score_text_color": "#000000"
+          }
+        },
+        "breakpoint_FABAnM": {
+          "type": "breakpoint",
+          "settings": {
+            "max_width": 749,
+            "card_border_radius": 12,
+            "card_row_gap": 10,
+            "item_count": 2,
+            "row_gap": 20,
+            "col_gap": 10,
+            "score_font_size": 21,
+            "score_text_font_size": 16
+          }
+        },
+        "breakpoint_CY8wLb": {
+          "type": "breakpoint",
+          "settings": {
+            "max_width": 1023,
+            "card_border_radius": 15,
+            "card_row_gap": 15,
+            "item_count": 3,
+            "row_gap": 25,
+            "col_gap": 20,
+            "score_font_size": 36,
+            "score_text_font_size": 18
+          }
+        },
+        "breakpoint_nd4Pit": {
+          "type": "breakpoint",
+          "settings": {
+            "max_width": 0,
+            "card_border_radius": 15,
+            "card_row_gap": 20,
+            "item_count": 4,
+            "row_gap": 25,
+            "col_gap": 30,
+            "score_font_size": 50,
+            "score_text_font_size": 20
+          }
+        }
+      },
+      "block_order": [
+        "score_item_WCqi8c",
+        "score_item_7hy8Je",
+        "score_item_3TyeGN",
+        "score_item_NfiTcD",
+        "breakpoint_FABAnM",
+        "breakpoint_CY8wLb",
+        "breakpoint_nd4Pit"
+      ],
+      "name": "Score Grid/Color by Items",
+      "settings": {
+        "bg_color": "#ffffff",
+        "not_necessary": true,
+        "desktop_padding_top": 20,
+        "desktop_padding_bottom": 60,
+        "mobile_padding_top": 16,
+        "mobile_padding_bottom": 40
+      }
+    },
     "text_list_zidnT7": {
       "type": "text-list",
       "blocks": {
@@ -680,7 +914,10 @@
             "desktop_max_width": 1000,
             "mobile_max_width": 1000,
             "desktop_color": "#121212",
-            "mobile_color": "#121212"
+            "mobile_color": "#121212",
+            "highlight_text": "",
+            "desktop_highlight_text_color": "#000000",
+            "mobile_highlight_text_color": "#000000"
           }
         },
         "text_MBaFDg": {
@@ -704,7 +941,10 @@
             "desktop_max_width": 1000,
             "mobile_max_width": 1000,
             "desktop_color": "#fdd328",
-            "mobile_color": "#fdd328"
+            "mobile_color": "#fdd328",
+            "highlight_text": "",
+            "desktop_highlight_text_color": "#000000",
+            "mobile_highlight_text_color": "#000000"
           }
         }
       },
@@ -855,7 +1095,10 @@
             "desktop_max_width": 1000,
             "mobile_max_width": 1000,
             "desktop_color": "#000000",
-            "mobile_color": "#000000"
+            "mobile_color": "#000000",
+            "highlight_text": "",
+            "desktop_highlight_text_color": "#000000",
+            "mobile_highlight_text_color": "#000000"
           }
         },
         "text_eBjNbe": {
@@ -879,7 +1122,10 @@
             "desktop_max_width": 1440,
             "mobile_max_width": 1440,
             "desktop_color": "#000000",
-            "mobile_color": "#000000"
+            "mobile_color": "#000000",
+            "highlight_text": "",
+            "desktop_highlight_text_color": "#000000",
+            "mobile_highlight_text_color": "#000000"
           }
         }
       },
@@ -895,10 +1141,10 @@
         "mobile_padding_bottom": 20
       }
     },
-    "score_grid_9YtCmi": {
+    "score_grid_y7U8qQ": {
       "type": "score-grid",
       "blocks": {
-        "score_item_9aiWT6": {
+        "score_item_V3ktCp": {
           "type": "score_item",
           "settings": {
             "score": 35,
@@ -907,7 +1153,7 @@
             "score_text": "Revenue Generated"
           }
         },
-        "score_item_AL4qTU": {
+        "score_item_Nif4hJ": {
           "type": "score_item",
           "settings": {
             "score": 45000,
@@ -916,7 +1162,7 @@
             "score_text": "Sales Generated"
           }
         },
-        "score_item_G4tQdr": {
+        "score_item_YErmQy": {
           "type": "score_item",
           "settings": {
             "score": 700,
@@ -925,7 +1171,7 @@
             "score_text": "Leads Generated"
           }
         },
-        "score_item_McyEJk": {
+        "score_item_AFe9Vy": {
           "type": "score_item",
           "settings": {
             "score": 1,
@@ -934,7 +1180,7 @@
             "score_text": "Ads Spend"
           }
         },
-        "score_item_iy6RJH": {
+        "score_item_tCEWQy": {
           "type": "score_item",
           "settings": {
             "score": 100,
@@ -943,7 +1189,7 @@
             "score_text": "Clients Engage"
           }
         },
-        "score_item_3LtFYk": {
+        "score_item_DNUATp": {
           "type": "score_item",
           "settings": {
             "score": 10,
@@ -952,7 +1198,7 @@
             "score_text": "Team Members"
           }
         },
-        "score_item_cnFxqH": {
+        "score_item_mgCdkQ": {
           "type": "score_item",
           "settings": {
             "score": 5,
@@ -961,7 +1207,7 @@
             "score_text": "Years of Experience"
           }
         },
-        "score_item_g64MTa": {
+        "score_item_REJFpc": {
           "type": "score_item",
           "settings": {
             "score": 3,
@@ -970,7 +1216,7 @@
             "score_text": "Years of Business"
           }
         },
-        "breakpoint_9KHkF3": {
+        "breakpoint_FABAnM": {
           "type": "breakpoint",
           "settings": {
             "max_width": 749,
@@ -983,7 +1229,7 @@
             "score_text_font_size": 16
           }
         },
-        "breakpoint_LxiYGi": {
+        "breakpoint_CY8wLb": {
           "type": "breakpoint",
           "settings": {
             "max_width": 1023,
@@ -996,7 +1242,7 @@
             "score_text_font_size": 18
           }
         },
-        "breakpoint_apF6AV": {
+        "breakpoint_nd4Pit": {
           "type": "breakpoint",
           "settings": {
             "max_width": 0,
@@ -1011,20 +1257,21 @@
         }
       },
       "block_order": [
-        "score_item_9aiWT6",
-        "score_item_AL4qTU",
-        "score_item_G4tQdr",
-        "score_item_McyEJk",
-        "score_item_iy6RJH",
-        "score_item_3LtFYk",
-        "score_item_cnFxqH",
-        "score_item_g64MTa",
-        "breakpoint_9KHkF3",
-        "breakpoint_LxiYGi",
-        "breakpoint_apF6AV"
+        "score_item_V3ktCp",
+        "score_item_Nif4hJ",
+        "score_item_YErmQy",
+        "score_item_AFe9Vy",
+        "score_item_tCEWQy",
+        "score_item_DNUATp",
+        "score_item_mgCdkQ",
+        "score_item_REJFpc",
+        "breakpoint_FABAnM",
+        "breakpoint_CY8wLb",
+        "breakpoint_nd4Pit"
       ],
       "settings": {
         "bg_color": "#ffffff",
+        "not_necessary": false,
         "card_bg_color": "#ffffff",
         "card_border_color": "#e5e5e5",
         "score_color": "#fdd328",
@@ -1810,10 +2057,13 @@
     "text_list_MNPzdp",
     "multi_image_list_slider_zE97CJ",
     "advertise_HPp6jH",
+    "text_list_WmcAaw",
+    "single_contact_form_qh4DAq",
+    "score_grid_color_per_item_xNwfjd",
     "text_list_zidnT7",
     "custom_review_new_Bp63JF",
     "text_list_VeQkgV",
-    "score_grid_9YtCmi",
+    "score_grid_y7U8qQ",
     "faq_cYAhKJ",
     "marketing_focus_zYMyt8",
     "phone_ring_MzFcJr",

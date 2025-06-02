@@ -14,7 +14,13 @@
 <div class="shopify-section-text-list page-width">
   {%- if section.blocks.size > 0 -%}
     {%- for block in section.blocks -%}
-      <div class="text-item text" id="text-{{ block.id }}">{{ block.settings.text }}</div>
+      {%- if block.settings.highlight_text != blank -%}
+        {%- assign replace_text = "<span class='highlight'>" |  append: block.settings.highlight_text |  append: '</span>' -%}
+        {%- assign text = block.settings.text |  replace: '[highlight]', replace_text -%}
+        <div class="text-item text" id="text-{{ block.id }}">{{ text }}</div>
+      {%- else -%}
+        <div class="text-item text" id="text-{{ block.id }}">{{ block.settings.text |  replace: '[highlight]', '' }}</div>
+      {%- endif -%}
       {%- style -%}
         @media screen and (min-width: 750px) {
           #text-{{ block.id }} {
@@ -38,6 +44,9 @@
             {%- endcase -%}
           }
         }
+        #text-{{ block.id }} .highlight {
+          color: {{ block.settings.desktop_highlight_text_color }};
+        }
         @media screen and (max-width: 749px) {
           #text-{{ block.id }} {
             font-size: {{ block.settings.mobile_font_size }}px;
@@ -58,6 +67,9 @@
               {%- else -%}
                 margin-right: auto;
             {%- endcase -%}
+          }
+          #text-{{ block.id }} .highlight {
+            color: {{ block.settings.mobile_highlight_text_color }};
           }
         }
       {%- endstyle -%}
@@ -129,7 +141,8 @@
         {
           "type": "richtext",
           "id": "text",
-          "label": "Text"
+          "label": "Text",
+          "info": "Use [highlight] to show a text with other color"
         },
         {
           "type": "range",
@@ -401,6 +414,23 @@
           "type": "color",
           "id": "mobile_color",
           "label": "Mobile Color",
+          "default": "#000000"
+        },
+        {
+          "type": "text",
+          "id": "highlight_text",
+          "label": "Hightlight Text"
+        },
+        {
+          "type": "color",
+          "id": "desktop_highlight_text_color",
+          "label": "Desktop Highlight Text Color",
+          "default": "#000000"
+        },
+        {
+          "type": "color",
+          "id": "mobile_highlight_text_color",
+          "label": "Mobile Highlight Text Color",
           "default": "#000000"
         },
       ]

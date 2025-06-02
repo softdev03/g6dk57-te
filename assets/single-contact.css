@@ -35,12 +35,12 @@
 }
 .single-contact-form .service-items+.field__label {
   opacity: 0;
-  transition: all .3s;
-  transition-timing-function: linear;
 }
 .single-contact-form .field__label {
   top: 50%;
   transform: translateY(-50%);
+  transition: all .1s;
+  transition-timing-function: linear;
 }
 .single-contact-form input:focus+.field__label {
   transform: translateY(0px);

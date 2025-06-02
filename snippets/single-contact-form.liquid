@@ -1,5 +1,41 @@
 {%- if form_settings -%}
   {{ 'single-contact.css' |  asset_url |  stylesheet_tag }}
+  {%- style -%}
+    #{{ id }} .field input, #{{ id }} select {
+      {%- assign rgb = form_settings.field_shadow_color |  color_to_rgb |  remove: 'rgb(' |  remove: ')' -%}
+      {%- unless rgb contains 'rgba' -%}
+        box-shadow: rgba({{ rgb }}, 0.2) 0px 0px 10px 0px;
+      {%- endunless -%}
+      background-color: {{ form_settings.field_bg_color }};
+      border: 1px solid {{ form_settings.field_border_color }};
+      color: {{ form_settings.field_txt_color }};
+      border-radius: {{ form_settings.field_border_radius }}px;
+    }
+    #{{ id }} .field input:hover, #{{ id }} .field select:hover {
+      background-color: {{ form_settings.field_bg_color_hover }};
+      border: 1px solid {{ form_settings.field_border_color_hover }};
+      color: {{ form_settings.field_txt_color_hover }};
+    }
+    #{{ id }} .field input:focus, #{{ id }} .field select:focus {
+      background-color: {{ form_settings.field_bg_color_focus }};
+      border: 1px solid {{ form_settings.field_border_color_focus }};
+      color: {{ form_settings.field_txt_color_focus }};
+    }
+    #{{ id }} .error-message {
+      color: {{ form_settings.error_msg_color }};
+    }
+    #{{ id }} button {
+      background-color: {{ form_settings.submit_bg_color }};
+      border: 1px solid {{ form_settings.submit_border_color }};
+      color: {{ form_settings.submit_txt_color }};
+      border-radius: {{ form_settings.submit_border_radius }}px;
+    }
+    #{{ id }} button:hover {
+      background-color: {{ form_settings.submit_bg_color_hover }};
+      border: 1px solid {{ form_settings.submit_border_color_hover }};
+      color: {{ form_settings.submit_txt_color_hover }};
+    }
+  {%- endstyle -%}
   <div class="single-contact-form" id="{{ id }}">
     {%- assign serviceItems = form_settings.service_items | split: '|' -%}
     {%- unless hide_open_area -%}
@@ -17,42 +53,6 @@
       </div>
     {%- endunless -%}
     <div class="form-area">
-      {%- style -%}
-        #{{ id }} .field input, #{{ id }} select {
-          {%- assign rgb = form_settings.field_shadow_color |  color_to_rgb |  remove: 'rgb(' |  remove: ')' -%}
-          {%- unless rgb contains 'rgba' -%}
-            box-shadow: rgba({{ rgb }}, 0.2) 0px 0px 10px 0px;
-          {%- endunless -%}
-          background-color: {{ form_settings.field_bg_color }};
-          border: 1px solid {{ form_settings.field_border_color }};
-          color: {{ form_settings.field_txt_color }};
-          border-radius: {{ form_settings.field_border_radius }}px;
-        }
-        #{{ id }} .field input:hover, #{{ id }} .field select:hover {
-          background-color: {{ form_settings.field_bg_color_hover }};
-          border: 1px solid {{ form_settings.field_border_color_hover }};
-          color: {{ form_settings.field_txt_color_hover }};
-        }
-        #{{ id }} .field input:focus, #{{ id }} .field select:focus {
-          background-color: {{ form_settings.field_bg_color_focus }};
-          border: 1px solid {{ form_settings.field_border_color_focus }};
-          color: {{ form_settings.field_txt_color_focus }};
-        }
-        #{{ id }} .error-message {
-          color: {{ form_settings.error_msg_color }};
-        }
-        #{{ id }} button {
-          background-color: {{ form_settings.submit_bg_color }};
-          border: 1px solid {{ form_settings.submit_border_color }};
-          color: {{ form_settings.submit_txt_color }};
-          border-radius: {{ form_settings.submit_border_radius }}px;
-        }
-        #{{ id }} button:hover {
-          background-color: {{ form_settings.submit_bg_color_hover }};
-          border: 1px solid {{ form_settings.submit_border_color_hover }};
-          color: {{ form_settings.submit_txt_color_hover }};
-        }
-      {%- endstyle -%}
       {%- if form_settings.heading != blank -%}
         <h2 class="form-heading" style="color: {{ form_settings.heading_color }}">{{ form_settings.heading }}</h2>
       {%- endif -%}
