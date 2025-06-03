@@ -97,6 +97,7 @@
         "icon_with_text_HiU4UF"
       ],
       "settings": {
+        "hero_section": false,
         "heading": "",
         "button_text": "",
         "button_link": "",
@@ -120,7 +121,16 @@
       "type": "advertise",
       "custom_css": [],
       "settings": {
+        "hero_section": true,
         "key": "",
+        "badge_text": "",
+        "badge_bg_color": "#ffffff",
+        "badge_txt_color": "#000000",
+        "badge_border_radius": 0,
+        "hide_badge_on_mobile": false,
+        "hide_subheading_on_mobile": false,
+        "hide_text_on_mobile": false,
+        "hide_media_on_mobile": false,
         "loop_video": true,
         "autoplay_video": true,
         "main_image": "shopify://shop_images/9158264f569b0ba69761e856037de151.png",
@@ -144,6 +154,7 @@
         "image_right": true,
         "text_align": "left",
         "background_color": "#ffffff",
+        "text_color": "#000000",
         "desktop_padding_top": 70,
         "desktop_padding_bottom": 70,
         "mobile_padding_top": 50,
@@ -201,6 +212,7 @@
         "icon_with_text_Q8raKD"
       ],
       "settings": {
+        "hero_section": false,
         "heading": "Trusted By Top Brands",
         "button_text": "",
         "button_link": "",
@@ -224,7 +236,16 @@
       "type": "advertise",
       "custom_css": [],
       "settings": {
+        "hero_section": false,
         "key": "",
+        "badge_text": "",
+        "badge_bg_color": "#ffffff",
+        "badge_txt_color": "#000000",
+        "badge_border_radius": 0,
+        "hide_badge_on_mobile": false,
+        "hide_subheading_on_mobile": false,
+        "hide_text_on_mobile": false,
+        "hide_media_on_mobile": false,
         "loop_video": true,
         "autoplay_video": true,
         "main_image": "shopify://shop_images/Artboard_3_copy-100.jpg",
@@ -249,6 +270,7 @@
         "image_right": false,
         "text_align": "left",
         "background_color": "#ffffff",
+        "text_color": "#000000",
         "desktop_padding_top": 80,
         "desktop_padding_bottom": 80,
         "mobile_padding_top": 60,
@@ -308,6 +330,7 @@
       ],
       "disabled": true,
       "settings": {
+        "hero_section": false,
         "heading": "Our Clients Love Us—See Their Reviews",
         "desktop_padding_top": 80,
         "desktop_padding_bottom": 80,
@@ -366,6 +389,7 @@
         "icon_with_text_D3B9MH"
       ],
       "settings": {
+        "hero_section": false,
         "heading": "",
         "button_text": "",
         "button_link": "",
@@ -679,7 +703,7 @@
         "text_7drPy4": {
           "type": "text",
           "settings": {
-            "text": "<h1>Sign up to An Agency today</h1>"
+            "text": "<h2>Sign up to An Agency today</h2>"
           }
         },
         "button_BngqAq": {
@@ -726,7 +750,16 @@
       "type": "advertise",
       "custom_css": [],
       "settings": {
+        "hero_section": false,
         "key": "",
+        "badge_text": "",
+        "badge_bg_color": "#ffffff",
+        "badge_txt_color": "#000000",
+        "badge_border_radius": 0,
+        "hide_badge_on_mobile": false,
+        "hide_subheading_on_mobile": false,
+        "hide_text_on_mobile": false,
+        "hide_media_on_mobile": false,
         "loop_video": true,
         "autoplay_video": true,
         "main_image": "shopify://shop_images/2e5877eca35c499b4057cf3e49e166c6.png",
@@ -751,6 +784,7 @@
         "image_right": false,
         "text_align": "left",
         "background_color": "#ffffff",
+        "text_color": "#000000",
         "desktop_padding_top": 80,
         "desktop_padding_bottom": 80,
         "mobile_padding_top": 60,
@@ -868,7 +902,16 @@
       "type": "advertise",
       "custom_css": [],
       "settings": {
+        "hero_section": false,
         "key": "",
+        "badge_text": "",
+        "badge_bg_color": "#ffffff",
+        "badge_txt_color": "#000000",
+        "badge_border_radius": 0,
+        "hide_badge_on_mobile": false,
+        "hide_subheading_on_mobile": false,
+        "hide_text_on_mobile": false,
+        "hide_media_on_mobile": false,
         "loop_video": true,
         "autoplay_video": true,
         "main_image": "shopify://shop_images/HomePage_newleads.jpg",
@@ -893,6 +936,7 @@
         "image_right": true,
         "text_align": "left",
         "background_color": "#ffffff",
+        "text_color": "#000000",
         "desktop_padding_top": 80,
         "desktop_padding_bottom": 80,
         "mobile_padding_top": 50,
@@ -989,7 +1033,16 @@
     "advertise_FfNzr9": {
       "type": "advertise",
       "settings": {
+        "hero_section": false,
         "key": "",
+        "badge_text": "",
+        "badge_bg_color": "#ffffff",
+        "badge_txt_color": "#000000",
+        "badge_border_radius": 0,
+        "hide_badge_on_mobile": false,
+        "hide_subheading_on_mobile": false,
+        "hide_text_on_mobile": false,
+        "hide_media_on_mobile": false,
         "loop_video": true,
         "autoplay_video": true,
         "main_image": "shopify://shop_images/01.jpg",
@@ -1014,6 +1067,7 @@
         "image_right": true,
         "text_align": "left",
         "background_color": "#ffffff",
+        "text_color": "#000000",
         "desktop_padding_top": 80,
         "desktop_padding_bottom": 80,
         "mobile_padding_top": 50,
@@ -1024,7 +1078,16 @@
       "type": "advertise",
       "custom_css": [],
       "settings": {
+        "hero_section": false,
         "key": "",
+        "badge_text": "",
+        "badge_bg_color": "#ffffff",
+        "badge_txt_color": "#000000",
+        "badge_border_radius": 0,
+        "hide_badge_on_mobile": false,
+        "hide_subheading_on_mobile": false,
+        "hide_text_on_mobile": false,
+        "hide_media_on_mobile": false,
         "loop_video": true,
         "autoplay_video": true,
         "main_image": "shopify://shop_images/HomePage_eight83_plumbing.jpg",
@@ -1049,6 +1112,7 @@
         "image_right": false,
         "text_align": "left",
         "background_color": "#ffffff",
+        "text_color": "#000000",
         "desktop_padding_top": 80,
         "desktop_padding_bottom": 80,
         "mobile_padding_top": 50,
@@ -1242,6 +1306,7 @@
         "faq_item_6cYkYY"
       ],
       "settings": {
+        "hero_section": false,
         "heading": "20 Questions Aussie Businesses Keep Asking Us",
         "bg_color": "#f9f9f9",
         "max_width": 800,

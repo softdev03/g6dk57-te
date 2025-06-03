@@ -13,6 +13,7 @@
       "type": "results-guaranteed",
       "name": "Results Guaranteed",
       "settings": {
+        "hero_section": true,
         "main_heading": "Launch | Marketing Package",
         "sub_heading": "(Single-Platform Ads Management)",
         "description": "Small businesses, startups, or local service providers who want to start advertising with one ad platform and a modest ad budget.",

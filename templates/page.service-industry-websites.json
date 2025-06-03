@@ -12,6 +12,7 @@
     "advertise_xMT9mA": {
       "type": "advertise",
       "settings": {
+        "hero_section": true,
         "key": "",
         "video": "shopify://files/videos/videoplayback (1).mp4",
         "loop_video": true,
@@ -936,7 +937,7 @@
         "mobile_bottom": -30,
         "heading": "Here’s how we turn browsers into booked jobs, without wasting your time or budget:",
         "sub_heading": "",
-        "text": "<h1>Step 1: Strategy & Planning</h1><p>We dig deep into your service, location, and ideal customers to map the site around what people actually search for.</p><p></p><p></p>",
+        "text": "<h2>Step 1: Strategy & Planning</h2><p>We dig deep into your service, location, and ideal customers to map the site around what people actually search for.</p><p></p><p></p>",
         "button_link": "",
         "button_text": "",
         "image_right": false,

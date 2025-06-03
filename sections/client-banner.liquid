@@ -3,6 +3,12 @@
   "name": "Client Banner",
   "settings": [
     {
+      "type": "checkbox",
+      "id": "hero_section",
+      "label": "Hero Section",
+      "default": false
+    },
+    {
       "type": "text",
       "id": "title_client",
       "label": "Title",
@@ -66,7 +72,13 @@
 
     <!-- Right Side (Text) -->
     <div class="hero-text_client">
-      <h1>{{ section.settings.title_client }}</h1>
+      {%- if section.settings.title_client != blank -%}
+        {%- if section.settings.hero_section -%}
+          <h1>{{ section.settings.title_client }}</h1>
+        {%- else -%}
+          <h2>{{ section.settings.title_client }}</h2>
+        {%- endif -%}
+      {%- endif -%}
       <div class="hero-description_client">{{ section.settings.description_client }}</div>
       <p class="hero-description-1_client">Let's face it.</p>
       <p class="hero-description-2_client">

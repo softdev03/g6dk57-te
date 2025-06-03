@@ -631,6 +631,7 @@
         "filter_item_iNz9YM"
       ],
       "settings": {
+        "hero_section": true,
         "bg_color": "#f9f9f9",
         "heading": "What We’ve Built",
         "heading_color": "#0b0a33",

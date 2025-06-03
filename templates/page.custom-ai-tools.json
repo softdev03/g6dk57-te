@@ -164,6 +164,7 @@
         "form_item_VfcRAb"
       ],
       "settings": {
+        "hero_section": true,
         "heading": "Our Web Development Services",
         "text": "<p>Our Web Development Services</p>",
         "form_heading": "All great things start with the first step!",

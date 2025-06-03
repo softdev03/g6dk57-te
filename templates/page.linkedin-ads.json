@@ -12,6 +12,7 @@
     "advertise_xMT9mA": {
       "type": "advertise",
       "settings": {
+        "hero_section": true,
         "key": "",
         "loop_video": true,
         "autoplay_video": true,

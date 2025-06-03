@@ -34,7 +34,11 @@
 {%- endstyle -%}
 <div class="shopify-section-iwt-list page-width {% if section.settings.show_on_desktop %} desktop {% endif %} {% if section.settings.show_on_mobile %} mobile {% endif %}">
   {%- if section.settings.heading != blank -%}
-    <h1 class="heading">{{ section.settings.heading }}</h1>
+    {%- if section.settings.hero_section -%}
+      <h1 class="heading">{{ section.settings.heading }}</h1>
+    {%- else -%}
+      <h2 class="heading">{{ section.settings.heading }}</h2>
+    {%- endif -%}
   {%- endif -%}
   {%- if section.blocks.size > 0 -%}
     <div class="icon-with-text-list">
@@ -70,6 +74,12 @@
   "tag": "section",
   "class": "shopify-section--iwt-list",
   "settings": [
+    {
+      "type": "checkbox",
+      "id": "hero_section",
+      "label": "Hero Section",
+      "default": false
+    },
     {
       "type": "text",
       "id": "heading",

@@ -13,6 +13,7 @@
       "type": "results-guaranteed",
       "name": "Results Guaranteed",
       "settings": {
+        "hero_section": true,
         "main_heading": "Enterprise | Service Web Package",
         "sub_heading": "(Advanced Business Website)",
         "description": "Mid-sized to large businesses, franchises, or service providers that require a premium website with advanced features, CRM integration, custom lead generation tools, and a robust online presence to scale their operations.",

@@ -216,6 +216,7 @@
         "free_ai_tool_PhGJEW"
       ],
       "settings": {
+        "hero_section": true,
         "heading": "Transform your Content with AI-Powered Writing Tools",
         "text": "<p>Rise above the ordinary, deliver extraordinary content, and discover the art of effortless writing with our AI-powered writing tools.</p>",
         "desktop_padding_top": 80,

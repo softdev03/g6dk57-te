@@ -81,7 +81,11 @@
 {%- assign unique_page_data = page.metafields.custom.ai_tool.value -%}
 <div class="shopify-section-ai-tools page-width" tool-name="{{ unique_page_data.tool_name }}">
   {%- if page.title != blank -%}
-    <h1 class="heading" style="color: {{ section.settings.heading_color }}">{{ page.title }}</h1>
+    {%- if section.settings.hero_section -%}
+      <h1 class="heading" style="color: {{ section.settings.heading_color }}">{{ page.title }}</h1>
+    {%- else -%}
+      <h2 class="heading" style="color: {{ section.settings.heading_color }}">{{ page.title }}</h2>
+    {%- endif -%}
   {%- endif -%}
   {%- if unique_page_data.sub_heading -%}
     <h2 class="sub-heading" style="color: {{ section.settings.sub_heading_color }}">
@@ -175,6 +179,12 @@
   "tag": "section",
   "class": "shopify-section--ai-tool",
   "settings": [
+    {
+      "type": "checkbox",
+      "id": "hero_section",
+      "label": "Hero Section",
+      "default": false
+    },
     {
       "type": "text",
       "id": "language_heading",

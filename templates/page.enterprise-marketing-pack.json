@@ -13,6 +13,7 @@
       "type": "results-guaranteed",
       "name": "Results Guaranteed",
       "settings": {
+        "hero_section": true,
         "main_heading": "Enterprise | Marketing Package",
         "sub_heading": "(Full-Service Ads Management)",
         "description": "Businesses with high advertising budgets (A$20K+/month) or those requiring complex, multi-channel campaigns across Google, Facebook, TikTok, YouTube, LinkedIn and more.Perfect for companies wanting an extension of their marketing team without paying bloated agency overheads.",

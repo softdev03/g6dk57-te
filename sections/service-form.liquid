@@ -19,13 +19,23 @@
 <div class="shopify-section-service-form page-width">
   <div class="text-content">
     <div class="main-content">
-      <h1 class="heading m-0">
-        {%- if section.settings.heading != blank -%}
-          {{ section.settings.heading }}
-        {%- else -%}
-          Heading
-        {%- endif -%}
-      </h1>
+      {%- if section.settings.hero_section -%}
+        <h1 class="heading m-0">
+          {%- if section.settings.heading != blank -%}
+            {{ section.settings.heading }}
+          {%- else -%}
+            Heading
+          {%- endif -%}
+        </h1>
+      {%- else -%}
+        <h2 class="heading m-0">
+          {%- if section.settings.heading != blank -%}
+            {{ section.settings.heading }}
+          {%- else -%}
+            Heading
+          {%- endif -%}
+        </h2>
+      {%- endif -%}
       <div class="text">
         {%- if section.settings.text != blank -%}
           {{ section.settings.text }}
@@ -97,7 +107,7 @@
   </div>
   {%- form 'contact', id: 'ContactForm', class: 'service-form' -%}
     {%- if section.settings.form_heading != blank -%}
-      <h1 class="form-heading sub-heading m-0">{{ section.settings.form_heading }}</h1>
+      <h2 class="form-heading sub-heading m-0">{{ section.settings.form_heading }}</h2>
     {%- endif -%}
     {%- if form.posted_successfully? -%}
       <h2 class="form-status form-status-list form__message" tabindex="-1" autofocus>
@@ -248,6 +258,12 @@
   "tag": "section",
   "class": "shopify-section--service-form",
   "settings": [
+    {
+      "type": "checkbox",
+      "id": "hero_section",
+      "label": "Hero Section",
+      "default": false
+    },
     {
       "type": "text",
       "id": "heading",

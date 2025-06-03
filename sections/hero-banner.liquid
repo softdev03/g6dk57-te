@@ -3,6 +3,12 @@
   "name": "Hero Banner",
   "settings": [
     {
+      "type": "checkbox",
+      "id": "hero_section",
+      "label": "Hero Section",
+      "default": false
+    },
+    {
       "type": "text",
       "id": "title",
       "label": "Title",
@@ -56,7 +62,13 @@
 <section class="hero-section">
   <div class="hero-container">
     <div class="hero-text">
-      <h1>{{ section.settings.title }}</h1>
+      {%- if section.settings.title != blank -%}
+        {%- if section.settings.hero_section -%}
+          <h1>{{ section.settings.title }}</h1>
+        {%- else -%}
+          <h2>{{ section.settings.title }}</h2>
+        {%- endif -%}
+      {%- endif -%}
       <div class="hero-description">
         {{ section.settings.description }}
       </div>

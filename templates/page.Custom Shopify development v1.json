@@ -13,7 +13,16 @@
       "type": "advertise",
       "name": "New Video Section",
       "settings": {
+        "hero_section": true,
         "key": "",
+        "badge_text": "",
+        "badge_bg_color": "#ffffff",
+        "badge_txt_color": "#000000",
+        "badge_border_radius": 0,
+        "hide_badge_on_mobile": false,
+        "hide_subheading_on_mobile": false,
+        "hide_text_on_mobile": false,
+        "hide_media_on_mobile": false,
         "video": "shopify://files/videos/633c71cb149483075b8995e9_Shopify (1)-transcode.mp4",
         "loop_video": true,
         "autoplay_video": true,
@@ -37,6 +46,7 @@
         "image_right": false,
         "text_align": "left",
         "background_color": "#ffffff",
+        "text_color": "#000000",
         "desktop_padding_top": 60,
         "desktop_padding_bottom": 60,
         "mobile_padding_top": 40,
@@ -47,6 +57,14 @@
       "type": "advertise",
       "settings": {
         "key": "",
+        "badge_text": "",
+        "badge_bg_color": "#ffffff",
+        "badge_txt_color": "#000000",
+        "badge_border_radius": 0,
+        "hide_badge_on_mobile": false,
+        "hide_subheading_on_mobile": false,
+        "hide_text_on_mobile": false,
+        "hide_media_on_mobile": false,
         "loop_video": true,
         "autoplay_video": true,
         "main_image": "shopify://shop_images/AnAgencyServiceWebsite01.png",
@@ -70,6 +88,7 @@
         "image_right": true,
         "text_align": "left",
         "background_color": "#ffffff",
+        "text_color": "#000000",
         "desktop_padding_top": 60,
         "desktop_padding_bottom": 60,
         "mobile_padding_top": 40,
@@ -381,7 +400,10 @@
             "desktop_max_width": 1440,
             "mobile_max_width": 1440,
             "desktop_color": "#000000",
-            "mobile_color": "#121212"
+            "mobile_color": "#121212",
+            "highlight_text": "",
+            "desktop_highlight_text_color": "#000000",
+            "mobile_highlight_text_color": "#000000"
           }
         },
         "text_VfFdk4": {
@@ -405,7 +427,10 @@
             "desktop_max_width": 1000,
             "mobile_max_width": 1000,
             "desktop_color": "#000000",
-            "mobile_color": "#000000"
+            "mobile_color": "#000000",
+            "highlight_text": "",
+            "desktop_highlight_text_color": "#000000",
+            "mobile_highlight_text_color": "#000000"
           }
         }
       },
@@ -689,7 +714,10 @@
             "desktop_max_width": 1000,
             "mobile_max_width": 1000,
             "desktop_color": "#000000",
-            "mobile_color": "#000000"
+            "mobile_color": "#000000",
+            "highlight_text": "",
+            "desktop_highlight_text_color": "#000000",
+            "mobile_highlight_text_color": "#000000"
           }
         },
         "text_eBjNbe": {
@@ -713,7 +741,10 @@
             "desktop_max_width": 1440,
             "mobile_max_width": 1440,
             "desktop_color": "#000000",
-            "mobile_color": "#000000"
+            "mobile_color": "#000000",
+            "highlight_text": "",
+            "desktop_highlight_text_color": "#000000",
+            "mobile_highlight_text_color": "#000000"
           }
         }
       },
@@ -869,6 +900,7 @@
       "name": "Score Grid",
       "settings": {
         "bg_color": "#ffffff",
+        "not_necessary": false,
         "card_bg_color": "#ffffff",
         "card_border_color": "#e5e5e5",
         "score_color": "#fdd328",
@@ -903,7 +935,10 @@
             "desktop_max_width": 1000,
             "mobile_max_width": 1000,
             "desktop_color": "#121212",
-            "mobile_color": "#121212"
+            "mobile_color": "#121212",
+            "highlight_text": "",
+            "desktop_highlight_text_color": "#000000",
+            "mobile_highlight_text_color": "#000000"
           }
         },
         "text_MBaFDg": {
@@ -927,7 +962,10 @@
             "desktop_max_width": 1000,
             "mobile_max_width": 1000,
             "desktop_color": "#fdd328",
-            "mobile_color": "#fdd328"
+            "mobile_color": "#fdd328",
+            "highlight_text": "",
+            "desktop_highlight_text_color": "#000000",
+            "mobile_highlight_text_color": "#000000"
           }
         }
       },
@@ -1243,6 +1281,14 @@
       "type": "advertise",
       "settings": {
         "key": "",
+        "badge_text": "",
+        "badge_bg_color": "#ffffff",
+        "badge_txt_color": "#000000",
+        "badge_border_radius": 0,
+        "hide_badge_on_mobile": false,
+        "hide_subheading_on_mobile": false,
+        "hide_text_on_mobile": false,
+        "hide_media_on_mobile": false,
         "loop_video": true,
         "autoplay_video": true,
         "main_image": "shopify://shop_images/AnAgencyShopifyWebsite05.png",
@@ -1266,6 +1312,7 @@
         "image_right": false,
         "text_align": "left",
         "background_color": "#fbfbfb",
+        "text_color": "#000000",
         "desktop_padding_top": 60,
         "desktop_padding_bottom": 60,
         "mobile_padding_top": 40,
@@ -1276,6 +1323,14 @@
       "type": "advertise",
       "settings": {
         "key": "",
+        "badge_text": "",
+        "badge_bg_color": "#ffffff",
+        "badge_txt_color": "#000000",
+        "badge_border_radius": 0,
+        "hide_badge_on_mobile": false,
+        "hide_subheading_on_mobile": false,
+        "hide_text_on_mobile": false,
+        "hide_media_on_mobile": false,
         "loop_video": true,
         "autoplay_video": true,
         "main_image": "shopify://shop_images/AnAgencyShopifyWebsite07.png",
@@ -1299,6 +1354,7 @@
         "image_right": true,
         "text_align": "left",
         "background_color": "#ffffff",
+        "text_color": "#000000",
         "desktop_padding_top": 60,
         "desktop_padding_bottom": 60,
         "mobile_padding_top": 40,
@@ -1309,6 +1365,14 @@
       "type": "advertise",
       "settings": {
         "key": "",
+        "badge_text": "",
+        "badge_bg_color": "#ffffff",
+        "badge_txt_color": "#000000",
+        "badge_border_radius": 0,
+        "hide_badge_on_mobile": false,
+        "hide_subheading_on_mobile": false,
+        "hide_text_on_mobile": false,
+        "hide_media_on_mobile": false,
         "loop_video": true,
         "autoplay_video": true,
         "main_image": "shopify://shop_images/AnAgencyShopifyWebsite08.png",
@@ -1332,6 +1396,7 @@
         "image_right": false,
         "text_align": "left",
         "background_color": "#fbfbfb",
+        "text_color": "#000000",
         "desktop_padding_top": 60,
         "desktop_padding_bottom": 60,
         "mobile_padding_top": 40,
@@ -1342,6 +1407,14 @@
       "type": "advertise",
       "settings": {
         "key": "",
+        "badge_text": "",
+        "badge_bg_color": "#ffffff",
+        "badge_txt_color": "#000000",
+        "badge_border_radius": 0,
+        "hide_badge_on_mobile": false,
+        "hide_subheading_on_mobile": false,
+        "hide_text_on_mobile": false,
+        "hide_media_on_mobile": false,
         "loop_video": true,
         "autoplay_video": true,
         "main_image": "shopify://shop_images/AnAgencyShopifyWebsite10.png",
@@ -1365,6 +1438,7 @@
         "image_right": true,
         "text_align": "left",
         "background_color": "#ffffff",
+        "text_color": "#000000",
         "desktop_padding_top": 60,
         "desktop_padding_bottom": 60,
         "mobile_padding_top": 40,
@@ -1375,6 +1449,14 @@
       "type": "advertise",
       "settings": {
         "key": "",
+        "badge_text": "",
+        "badge_bg_color": "#ffffff",
+        "badge_txt_color": "#000000",
+        "badge_border_radius": 0,
+        "hide_badge_on_mobile": false,
+        "hide_subheading_on_mobile": false,
+        "hide_text_on_mobile": false,
+        "hide_media_on_mobile": false,
         "loop_video": true,
         "autoplay_video": true,
         "main_image": "shopify://shop_images/AnAgencyShopifyWebsite09.png",
@@ -1398,6 +1480,7 @@
         "image_right": false,
         "text_align": "left",
         "background_color": "#ffffff",
+        "text_color": "#000000",
         "desktop_padding_top": 60,
         "desktop_padding_bottom": 60,
         "mobile_padding_top": 40,
@@ -1458,6 +1541,14 @@
       "type": "advertise",
       "settings": {
         "key": "",
+        "badge_text": "",
+        "badge_bg_color": "#ffffff",
+        "badge_txt_color": "#000000",
+        "badge_border_radius": 0,
+        "hide_badge_on_mobile": false,
+        "hide_subheading_on_mobile": false,
+        "hide_text_on_mobile": false,
+        "hide_media_on_mobile": false,
         "loop_video": true,
         "autoplay_video": true,
         "main_image": "shopify://shop_images/GoogleAds_09.jpg",
@@ -1482,6 +1573,7 @@
         "image_right": true,
         "text_align": "left",
         "background_color": "#ffffff",
+        "text_color": "#000000",
         "desktop_padding_top": 60,
         "desktop_padding_bottom": 60,
         "mobile_padding_top": 40,

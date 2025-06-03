@@ -12,13 +12,23 @@
   }
 {%- endstyle -%}
 <div class="shopify-sectin-iwt-list page-width">
-  <h1 class="heading m-0">
-    {%- if section.settings.heading != blank -%}
-      {{ section.settings.heading }}
-    {%- else -%}
-      Heading
-    {%- endif -%}
-  </h1>
+  {%- if section.settings.hero_section -%}
+    <h1 class="heading m-0">
+      {%- if section.settings.heading != blank -%}
+        {{ section.settings.heading }}
+      {%- else -%}
+        Heading
+      {%- endif -%}
+    </h1>
+  {%- else -%}
+    <h2 class="heading m-0">
+      {%- if section.settings.heading != blank -%}
+        {{ section.settings.heading }}
+      {%- else -%}
+        Heading
+      {%- endif -%}
+    </h2>
+  {%- endif -%}
   <div class="text">
     {%- if section.settings.text != blank -%}
       {{ section.settings.text }}
@@ -35,7 +45,7 @@
               <img src="{{ block.settings.image |  img_url: '500x' }}" alt="" width="500px" height="auto">
             </div>
             {%- if block.settings.heading != blank -%}
-              <h1 class="sub-heading m-0">{{ block.settings.heading }}</h1>
+              <h2 class="sub-heading m-0">{{ block.settings.heading }}</h2>
             {%- endif -%}
             {%- if block.settings.text != blank -%}
               <div class="text item-text">{{ block.settings.text }}</div>
@@ -49,7 +59,7 @@
           <div class="image lh-0">
             {{ 'img.svg' | inline_asset_content }}
           </div>
-          <h1 class="sub-heading m-0">Heading-{{ i }}</h1>
+          <h3 class="sub-heading m-0">Heading-{{ i }}</h3>
           <div class="text item-text">Text-{{ i }}</div>
         </div>
       {%- endfor -%}
@@ -62,6 +72,12 @@
   "tag": "section",
   "class": "shopify-section--image-with-text-list",
   "settings": [
+    {
+      "type": "checkbox",
+      "id": "hero_section",
+      "label": "Hero Section",
+      "default": false
+    },
     {
       "type": "text",
       "id": "heading",

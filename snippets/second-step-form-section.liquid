@@ -7,7 +7,7 @@
 {%- endif -%}
   <div class="step-content {% if is_independent == false %} non-independent {% endif %}" id="form-part-{{ block.id }}">
     {%- if block.settings.heading != blank -%}
-      <h1 class="part-heading" style="color: {{ block.settings.heading_color }}">{{ block.settings.heading }}</h1>
+      <h2 class="part-heading" style="color: {{ block.settings.heading_color }}">{{ block.settings.heading }}</h2>
     {%- endif -%}
     {%- if block.settings.description != blank -%}
       <p class="part-description" style="color: {{ block.settings.description_color }}">{{ block.settings.description }}</p>

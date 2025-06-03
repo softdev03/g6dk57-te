@@ -12,6 +12,7 @@
     "advertise_xMT9mA": {
       "type": "advertise",
       "settings": {
+        "hero_section": true,
         "video": "shopify://files/videos/polo-shirt-video-featuring-a-happy-woman-posing-in-an-office-7346v (1) (2).mp4",
         "loop_video": true,
         "autoplay_video": true,

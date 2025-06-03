@@ -13,6 +13,7 @@
       "type": "results-guaranteed",
       "name": "Results Guaranteed",
       "settings": {
+        "hero_section": true,
         "main_heading": "Growth | Shopify Store Package",
         "sub_heading": "(Advanced Online Store)",
         "description": "Ideal for: Growing eCommerce brands, established retailers moving to Shopify, or businesses expecting rapid growth who need a more tailored and powerful Shopify experience.",

@@ -218,6 +218,7 @@
         "free_ai_tool_PhGJEW"
       ],
       "settings": {
+        "hero_section": true,
         "heading": "Everything We Do. Built In-House. No Guesswork.",
         "text": "<p>Full-stack digital delivery across websites, ads, and brand. Built to convert, priced to move, backed by real support.</p>",
         "desktop_padding_top": 80,

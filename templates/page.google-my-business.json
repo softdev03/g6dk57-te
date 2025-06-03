@@ -12,6 +12,7 @@
     "advertise_xMT9mA": {
       "type": "advertise",
       "settings": {
+        "hero_section": true,
         "loop_video": true,
         "autoplay_video": true,
         "main_image": "shopify://shop_images/AnAgencyGMB02_2db7c19e-c027-4dac-86a5-2c5fcdac324e.png",

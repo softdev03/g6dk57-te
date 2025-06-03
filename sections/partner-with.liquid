@@ -20,7 +20,11 @@
 {%- endstyle -%}
 <div class="shopify-section-partner-with page-width">
   {%- if section.settings.heading -%}
-    <h1 class="heading m-0">{{ section.settings.heading }}</h1>
+    {%- if section.settings.hero_section -%}
+      <h1 class="heading m-0">{{ section.settings.heading }}</h1>
+    {%- else -%}
+      <h2 class="heading m-0">{{ section.settings.heading }}</h2>
+    {%- endif -%}
   {%- endif -%}
   {%- if section.blocks.size > 0 -%}
     <div class="partner-items-wrapper">
@@ -46,6 +50,12 @@
   "tag": "section",
   "class": "shopify-section--partner-with",
   "settings": [
+    {
+      "type": "checkbox",
+      "id": "hero_section",
+      "label": "Hero Section",
+      "default": false
+    },
     {
       "type": "text",
       "id": "heading",

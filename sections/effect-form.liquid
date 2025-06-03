@@ -26,11 +26,20 @@
   <div class="card-main-content">
     {%- if section.settings.first_heading != blank or section.settings.second_heading != blank -%}
       <div class="heading-wrapper">
+        {%- if section.settings.hero_section -%}
+          {%- if section.settings.first_heading != blank -%}
+            <h1 class="heading first m-0 effect">{{ section.settings.first_heading }}</h1>
+          {%- endif -%}
+          {%- if section.settings.second_heading != blank -%}
+            <h1 class="heading second m-0 effect">{{ section.settings.second_heading }}</h1>
+          {%- endif -%}
+        {%- else -%}
         {%- if section.settings.first_heading != blank -%}
-          <h1 class="heading first m-0 effect">{{ section.settings.first_heading }}</h1>
-        {%- endif -%}
-        {%- if section.settings.second_heading != blank -%}
-          <h1 class="heading second m-0 effect">{{ section.settings.second_heading }}</h1>
+            <h2 class="heading first m-0 effect">{{ section.settings.first_heading }}</h2>
+          {%- endif -%}
+          {%- if section.settings.second_heading != blank -%}
+            <h2 class="heading second m-0 effect">{{ section.settings.second_heading }}</h2>
+          {%- endif -%}
         {%- endif -%}
       </div>
     {%- endif -%}
@@ -163,6 +172,12 @@
   "tag": "section",
   "class": "shopify-section--effect-form",
   "settings": [
+    {
+      "type": "checkbox",
+      "id": "hero_section",
+      "label": "Hero Section",
+      "default": false
+    },
     {
       "type": "text",
       "id": "first_heading",

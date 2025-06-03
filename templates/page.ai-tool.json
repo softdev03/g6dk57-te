@@ -38,6 +38,7 @@
         "language_87QmRX"
       ],
       "settings": {
+        "hero_section": true,
         "language_heading": "Output in",
         "default_language": "English",
         "tone_heading": "Tone",

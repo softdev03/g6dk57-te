@@ -13,6 +13,7 @@
       "type": "results-guaranteed",
       "name": "Results Guaranteed",
       "settings": {
+        "hero_section": true,
         "main_heading": "Launch | Service Web Package",
         "sub_heading": "(Starter Business Website)",
         "description": "Ideal for: Solo entrepreneurs, tradespeople, and small service businesses needing a professional web presence at an accessible cost.",

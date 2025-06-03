@@ -13,7 +13,11 @@
 {%- endstyle -%}
 <div class="shopify-section-about-card-list page-width">
   {%- if section.settings.heading != blank -%}
-    <h1 class="heading m-0">{{ section.settings.heading }}</h1>
+    {%- if section.settings.hero_section -%}
+      <h1 class="heading m-0">{{ section.settings.heading }}</h1>
+    {%- else -%}
+      <h2 class="heading m-0">{{ section.settings.heading }}</h2>
+    {%- endif -%}
   {%- endif -%}
   {%- if section.blocks.size > 0 -%}
     <div class="card-list">
@@ -43,6 +47,12 @@
   "tag": "section",
   "class": "shopify-section--about-card-list",
   "settings": [
+    {
+      "type": "checkbox",
+      "id": "hero_section",
+      "label": "Hero Section",
+      "default": false
+    },
     {
       "type": "text",
       "id": "heading",

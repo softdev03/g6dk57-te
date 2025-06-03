@@ -12,6 +12,7 @@
     "advertise_xMT9mA": {
       "type": "advertise",
       "settings": {
+        "hero_section": true,
         "loop_video": true,
         "autoplay_video": true,
         "main_image": "shopify://shop_images/AnAgency_BingAds02_3b733850-48fa-48b7-b733-1595ae9058e8.png",

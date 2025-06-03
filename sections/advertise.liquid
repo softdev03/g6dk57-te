@@ -90,7 +90,11 @@
       <span class="badge {% if section.settings.hide_badge_on_mobile %} hide_on_mobile {% endif %}">{{ section.settings.badge_text }}</span>
     {%- endif -%}
     {%- if section.settings.heading != blank -%}
-      <h1 class="heading m-0">{{ section.settings.heading }}</h1>
+      {%- if section.settings.hero_section -%}
+        <h1 class="heading m-0">{{ section.settings.heading }}</h1>
+      {%- else -%}
+        <h2 class="heading m-0">{{ section.settings.heading }}</h2>
+      {%- endif -%}
     {%- endif -%}
     {%- if section.settings.sub_heading != blank -%}
       <h2 class="sub-heading m-0 {% if section.settings.hide_subheading_on_mobile %} hide_on_mobile {% endif %}">{{ section.settings.sub_heading }}</h2>
@@ -169,6 +173,12 @@
   "tag": "section",
   "class": "shopify-section--advertise",
   "settings": [
+    {
+      "type": "checkbox",
+      "id": "hero_section",
+      "label": "Hero Section",
+      "default": false
+    },
     {
       "type": "text",
       "id": "key",

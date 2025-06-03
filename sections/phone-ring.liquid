@@ -16,10 +16,18 @@
     {%- if section.settings.heading_1 != blank or section.settings.heading_2 != blank -%}
       <div class="heading-wrapper">
       {%- if section.settings.heading_1 != blank -%}
-        <h1 class="heading first m-0">{{ section.settings.heading_1 }}</h1>
+        {%- if section.settings.hero_section -%}
+          <h1 class="heading first m-0">{{ section.settings.heading_1 }}</h1>
+        {%- else -%}
+          <h2 class="heading first m-0">{{ section.settings.heading_1 }}</h2>
+        {%- endif -%}
       {%- endif -%}
       {%- if section.settings.heading_2 != blank -%}
-        <h1 class="heading second m-0">{{ section.settings.heading_2 }}</h1>
+        {%- if section.settings.hero_section -%}
+          <h1 class="heading second m-0">{{ section.settings.heading_2 }}</h1>
+        {%- else -%}
+          <h2 class="heading second m-0">{{ section.settings.heading_2 }}</h2>
+        {%- endif -%}
       {%- endif -%}
     </div>
     {%- endif -%}
@@ -55,6 +63,12 @@
   "tag": "section",
   "class": "shopify-section--phone-ring",
   "settings": [
+    {
+      "type": "checkbox",
+      "id": "hero_section",
+      "label": "Hero Section",
+      "default": false
+    },
     {
       "type": "text",
       "id": "key",

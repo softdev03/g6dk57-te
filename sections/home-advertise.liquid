@@ -30,7 +30,11 @@
       </div>
     {%- endif -%}
     {%- if section.settings.heading != blank -%}
-      <h1 class="heading m-0">{{ section.settings.heading }}</h1>
+      {%- if section.settings.hero_section -%}
+        <h1 class="heading m-0">{{ section.settings.heading }}</h1>
+      {%- else -%}
+        <h2 class="heading m-0">{{ section.settings.heading }}</h2>
+      {%- endif -%}
     {%- endif -%}
     {%- if section.settings.text != blank -%}
       <p class="text m-0">{{ section.settings.text }}</p>
@@ -46,6 +50,12 @@
   "tag": "section",
   "class": "shopify-section--home-advertise",
   "settings": [
+    {
+      "type": "checkbox",
+      "id": "hero_section",
+      "label": "Hero Section",
+      "default": false
+    },
     {
       "type": "text",
       "id": "heading",

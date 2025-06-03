@@ -12,6 +12,7 @@
     "advertise_xMT9mA": {
       "type": "advertise",
       "settings": {
+        "hero_section": true,
         "key": "",
         "hide_media_on_mobile": false,
         "video": "shopify://files/videos/633c6c591c72ed63908cfe38_Gads (1).mp4",

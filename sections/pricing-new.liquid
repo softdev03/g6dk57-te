@@ -67,7 +67,11 @@
 {%- endstyle -%}
 <div class="shopify-section-pricing-new page-width">
   {%- if section.settings.heading != blank -%}
-    <h1 class="heading">{{ section.settings.heading }}</h1>
+    {%- if section.settings.hero_section -%}
+      <h1 class="heading">{{ section.settings.heading }}</h1>
+    {%- else -%}
+      <h2 class="heading">{{ section.settings.heading }}</h2>
+    {%- endif -%}
   {%- endif -%}
   {%- if section.settings.text -%}
     <p class="sub-heading">{{ section.settings.text }}</p>
@@ -218,6 +222,12 @@
   "tag": "section",
   "class": "shopify-section--pricing-new",
   "settings": [
+    {
+      "type": "checkbox",
+      "id": "hero_section",
+      "label": "Hero Section",
+      "default": false
+    },
     {
       "type": "color",
       "id": "bg_color",

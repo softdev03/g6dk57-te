@@ -12,6 +12,7 @@
     "advertise_xMT9mA": {
       "type": "advertise",
       "settings": {
+        "hero_section": true,
         "key": "",
         "loop_video": true,
         "autoplay_video": true,
@@ -902,7 +903,7 @@
         "mobile_bottom": -30,
         "heading": "How We Build Websites That Generate Leads",
         "sub_heading": "",
-        "text": "<h1>Step 1: Strategy & Planning</h1><p>We deep-dive into your business, your competition, and your ideal customers, so we can build a website designed specifically to attract quality enquiries.</p><p></p>",
+        "text": "<h2>Step 1: Strategy & Planning</h2><p>We deep-dive into your business, your competition, and your ideal customers, so we can build a website designed specifically to attract quality enquiries.</p><p></p>",
         "button_link": "",
         "button_text": "",
         "image_right": false,

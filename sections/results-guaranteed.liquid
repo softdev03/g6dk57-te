@@ -3,6 +3,12 @@
   "name": "Results Section",
   "settings": [
     {
+      "type": "checkbox",
+      "id": "hero_section",
+      "label": "Hero Section",
+      "default": false
+    },
+    {
       "type": "image_picker",
       "id": "logo_image",
       "label": "Logo Image"
@@ -116,10 +122,15 @@
         >
       </div>
     {% endif %}
-    
-    <h2 class="rg-main-heading">
-      {{ section.settings.main_heading }}
-    </h2>
+    {%- if section.settings.hero_section -%}
+      <h1 class="rg-main-heading">
+        {{ section.settings.main_heading }}
+      </h1>
+    {%- else -%}
+      <h2 class="rg-main-heading">
+        {{ section.settings.main_heading }}
+      </h2>
+    {%- endif -%}
     
     {% if section.settings.sub_heading != blank %}
       <p class="rg-sub-heading">

@@ -72,6 +72,7 @@
         "text_GFR7gM"
       ],
       "settings": {
+        "hero_section": true,
         "bg_color": "#ffffff",
         "desktop_padding_top": 60,
         "desktop_padding_bottom": 40,

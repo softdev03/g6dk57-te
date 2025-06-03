@@ -12,6 +12,7 @@
     "advertise_xMT9mA": {
       "type": "advertise",
       "settings": {
+        "hero_section": true,
         "main_image": "shopify://shop_images/seo-for-trades.webp",
         "secondary_image": "shopify://shop_images/get-found-on-the-web-right.svg",
         "secondary_image_roate_angle": 8,

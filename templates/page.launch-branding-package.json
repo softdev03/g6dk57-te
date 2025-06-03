@@ -13,6 +13,7 @@
       "type": "results-guaranteed",
       "name": "Results Guaranteed",
       "settings": {
+        "hero_section": true,
         "main_heading": "Launch | Branding Package",
         "sub_heading": "(Basic Brand Identity)",
         "description": "Startups, sole traders, and small businesses creating their first brand identity or refreshing an old logo without diving deep into full brand strategy.",

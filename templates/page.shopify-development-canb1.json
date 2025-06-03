@@ -13,6 +13,7 @@
       "type": "advertise",
       "name": "New Video Section",
       "settings": {
+        "hero_section": true,
         "key": "",
         "video": "shopify://files/videos/633c71cb149483075b8995e9_Shopify (1)-transcode.mp4",
         "loop_video": true,
@@ -1000,7 +1001,7 @@
         "mobile_bottom": -30,
         "heading": "How We Build Your Shopify Store",
         "sub_heading": "",
-        "text": "<h1>Step 1: Strategy & Planning</h1><p>We dive into your business, products, and audience. No guesswork, just a clear roadmap for a high-converting online store.</p><h3></h3><p></p>",
+        "text": "<h2>Step 1: Strategy & Planning</h2><p>We dive into your business, products, and audience. No guesswork, just a clear roadmap for a high-converting online store.</p><h3></h3><p></p>",
         "button_link": "#",
         "button_text": "",
         "image_right": false,

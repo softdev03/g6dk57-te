@@ -73,7 +73,11 @@
 {%- endstyle -%}
 <div class="shopify-section-our-work page-width">
 	{% if section.settings.heading != blank %}
-		<h1 class="heading" style="color: {{ section.settings.heading_color }}">{{ section.settings.heading }}</h1>
+    {%- if section.settings.hero_section -%}
+      <h1 class="heading" style="color: {{ section.settings.heading_color }}">{{ section.settings.heading }}</h1>
+    {%- else -%}
+      <h2 class="heading" style="color: {{ section.settings.heading_color }}">{{ section.settings.heading }}</h2>
+    {%- endif -%}
 	{% endif %}
 	{% if section.settings.description != blank %}
 		<p class="description" style="color: {{ section.settings.description_color }}">{{ section.settings.description }}</p>
@@ -165,6 +169,12 @@
   "tag": "section",
   "class": "shopify-section--our-work",
   "settings": [
+    {
+      "type": "checkbox",
+      "id": "hero_section",
+      "label": "Hero Section",
+      "default": false
+    },
     {
       "type": "color",
       "id": "bg_color",

@@ -13,6 +13,7 @@
       "type": "results-guaranteed",
       "name": "Results Guaranteed",
       "settings": {
+        "hero_section": true,
         "main_heading": "Launch | Shopify Store Package",
         "sub_heading": "(Basic Ecommerce Setup)",
         "description": "Ideal for: New or small businesses launching their first online store on Shopify.",

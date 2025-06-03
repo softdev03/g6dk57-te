@@ -277,6 +277,7 @@
         "step_ANT8Xk"
       ],
       "settings": {
+        "hero_section": true,
         "bg_color": "#ffffff",
         "heading": "Let’s Talk About Your Shopify Store",
         "heading_color": "#0b0a33",

@@ -13,6 +13,7 @@
       "type": "results-guaranteed",
       "name": "Results Guaranteed",
       "settings": {
+        "hero_section": true,
         "main_heading": "Enterprise | Shopify Store Package",
         "sub_heading": "(Custom & Scalable)",
         "description": "Ideal for: High-volume or complex eCommerce businesses needing a truly bespoke Shopify solution, or those replatforming from another system with large inventories.",

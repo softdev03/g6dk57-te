@@ -106,6 +106,7 @@
       ],
       "settings": {
         "key": "",
+        "hero_section": true,
         "badge_text": "Shopify Web Design",
         "badge_bg_color": "#212121",
         "badge_txt_color": "#ffffff",
@@ -1916,7 +1917,7 @@
         "mobile_bottom": -30,
         "heading": "We Don’t Just Build Pretty Shopify Sites, We Build for Performance",
         "sub_heading": "Here’s how our Shopify store development process works, without wasting your time or budget:",
-        "text": "<h1>Step 1: Strategy & Planning</h1><p>We define your goals, map out the ideal user journey, and create a structure tailored to your product range and audience.</p><h3></h3><h3></h3><p></p>",
+        "text": "<h2>Step 1: Strategy & Planning</h2><p>We define your goals, map out the ideal user journey, and create a structure tailored to your product range and audience.</p><h3></h3><h3></h3><p></p>",
         "button_link": "#",
         "button_text": "",
         "image_right": false,
