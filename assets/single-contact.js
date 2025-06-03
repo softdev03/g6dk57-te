@@ -4,6 +4,7 @@ document.addEventListener('DOMContentLoaded',()=>{
     const openForm = form.querySelector('.open-form');
     const submitButton = form.querySelector('.form-area button');
     const serviceItemsList = form.querySelectorAll('.service-items');
+    const closeIcon = form.querySelector('.form-heading img');
     openForm?.addEventListener('click',(e)=>{
       form.classList.add('show');
     });
@@ -19,6 +20,9 @@ document.addEventListener('DOMContentLoaded',()=>{
       if(!hasError) {
         form.querySelector('form').submit();
       }
+    });
+    closeIcon?.addEventListener('click',()=>{
+      form.classList.remove('show');
     });
     serviceItemsList.forEach(serviceItemList=>{
       serviceItemList.addEventListener('change',()=>{

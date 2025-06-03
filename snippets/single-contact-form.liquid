@@ -54,7 +54,12 @@
     {%- endunless -%}
     <div class="form-area">
       {%- if form_settings.heading != blank -%}
-        <h2 class="form-heading" style="color: {{ form_settings.heading_color }}">{{ form_settings.heading }}</h2>
+        <h2 class="form-heading" style="color: {{ form_settings.heading_color }}">
+          {{ form_settings.heading }}
+          {%- if form_settings.close_icon != blank -%}
+            <img src="{{ form_settings.close_icon |  img_url: '20x' }}" alt="" width="20px" height="auto" />
+          {%- endif -%}
+        </h2>
       {%- endif -%}
       {%- form 'contact', id: 'ContactForm' -%}
         <div class="form-state">

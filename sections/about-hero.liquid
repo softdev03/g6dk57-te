@@ -11,7 +11,7 @@
   	}
   }
 {%- endstyle -%}
-<div class="shopify-section-about-hero page-width">
+<div class="shopify-section-about-hero page-width" {% if section.settings.section_id != blank %} id="{{ section.settings.section_id }}" {% endif %}>
 	<div class="text-content">
 		{%- if section.settings.heading != blank -%}
       {%- if section.settings.hero_section -%}
@@ -38,6 +38,11 @@
   "tag": "section",
   "class": "shopify-section--about-hero",
   "settings": [
+    {
+      "type": "text",
+      "id": "section_id",
+      "label": "Section Id"
+    },
     {
       "type": "checkbox",
       "id": "hero_section",

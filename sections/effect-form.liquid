@@ -22,7 +22,7 @@
       }
    }
 {%- endstyle -%}
-<div class="shopify-section-effect-form page-width">
+<div class="shopify-section-effect-form page-width" {% if section.settings.section_id != blank %} id="{{ section.settings.section_id }}" {% endif %}>
   <div class="card-main-content">
     {%- if section.settings.first_heading != blank or section.settings.second_heading != blank -%}
       <div class="heading-wrapper">
@@ -172,6 +172,11 @@
   "tag": "section",
   "class": "shopify-section--effect-form",
   "settings": [
+    {
+      "type": "text",
+      "id": "section_id",
+      "label": "Section Id"
+    },
     {
       "type": "checkbox",
       "id": "hero_section",

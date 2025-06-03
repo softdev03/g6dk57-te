@@ -316,12 +316,16 @@
       <a href="tel:{{ section.settings.phone_number }}" class="phone-number">{{ section.settings.phone_number_button_text }}</a>
     {%- endif -%} -->
     {%- if section.settings.enquire_link != blank and section.settings.enquire_link_text != blank -%}
-      <a href="{{ section.settings.enquire_link }}" class="enquire-link" replace-pos="{{ section.settings.second_text_pos |  default : 100 }}" {% if section.settings.is_bigger %} is_bigger {% endif %}>
+      <div class="enquire-link" replace-pos="{{ section.settings.second_text_pos |  default : 100 }}" {% if section.settings.is_bigger %} is_bigger {% endif %}>
+        {%- if section.settings.enquire_link != blank -%}
+          <a href="{{ section.settings.enquire_link }}" class="first-text">{{ section.settings.enquire_link_text }}</a>
+        {%- else -%}
           <span class="first-text">{{ section.settings.enquire_link_text }}</span>
-          {%- if section.settings.enquire_link_second_text != blank -%}
-            <span class="second-text">{{ section.settings.enquire_link_second_text }}</span>
-          {%- endif -%}
-      </a>
+        {%- endif -%}
+        {%- if section.settings.enquire_link_second_text != blank -%}
+          <span class="second-text">{{ section.settings.enquire_link_second_text }}</span>
+        {%- endif -%}
+      </div>
     {%- endif -%}
   </header>
 

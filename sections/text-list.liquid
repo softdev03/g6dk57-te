@@ -11,7 +11,7 @@
     }
   }
 {%- endstyle -%}
-<div class="shopify-section-text-list page-width">
+<div class="shopify-section-text-list page-width" {% if section.settings.section_id != blank %} id="{{ section.settings.section_id }}" {% endif %}>
   {%- if section.blocks.size > 0 -%}
     {%- for block in section.blocks -%}
       {%- if block.settings.highlight_text != blank -%}
@@ -90,6 +90,11 @@
   "tag": "section",
   "class": "shopify-section--text-list",
   "settings": [
+    {
+      "type": "text",
+      "id": "section_id",
+      "label": "Section Id"
+    },
     {
       "type": "color",
       "id": "bg_color",

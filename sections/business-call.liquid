@@ -18,7 +18,7 @@
     }
   }
 {%- endstyle -%}
-<div class="shopify-section-business-call page-width">
+<div class="shopify-section-business-call page-width" {% if section.settings.section_id != blank %} id="{{ section.settings.section_id }}" {% endif %}>
   <div class="text-content">
     {%- if section.settings.heading_1 != blnak -%}
       <h1 class="heading first-heading m-0">{{ section.settings.heading_1 }}</h1>
@@ -54,6 +54,11 @@
   "tag": "section",
   "class": "shopify-section--business-call",
   "settings": [
+    {
+      "type": "text",
+      "id": "section_id",
+      "label": "Section Id"
+    },
     {
       "type": "image_picker",
       "id": "bg_image",

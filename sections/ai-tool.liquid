@@ -79,7 +79,7 @@
    }
 {%- endstyle -%}
 {%- assign unique_page_data = page.metafields.custom.ai_tool.value -%}
-<div class="shopify-section-ai-tools page-width" tool-name="{{ unique_page_data.tool_name }}">
+<div class="shopify-section-ai-tools page-width" tool-name="{{ unique_page_data.tool_name }}" {% if section.settings.section_id != blank %} id="{{ section.settings.section_id }}" {% endif %}>
   {%- if page.title != blank -%}
     {%- if section.settings.hero_section -%}
       <h1 class="heading" style="color: {{ section.settings.heading_color }}">{{ page.title }}</h1>
@@ -179,6 +179,11 @@
   "tag": "section",
   "class": "shopify-section--ai-tool",
   "settings": [
+    {
+      "type": "text",
+      "id": "section_id",
+      "label": "Section Id"
+    },
     {
       "type": "checkbox",
       "id": "hero_section",

@@ -11,7 +11,7 @@
       }
   }
 {%- endstyle -%}
-<div class="shopify-section-about-card-list page-width">
+<div class="shopify-section-about-card-list page-width" {% if section.settings.section_id != blank %} id="{{ section.settings.section_id }}" {% endif %}>
   {%- if section.settings.heading != blank -%}
     {%- if section.settings.hero_section -%}
       <h1 class="heading m-0">{{ section.settings.heading }}</h1>
@@ -47,6 +47,11 @@
   "tag": "section",
   "class": "shopify-section--about-card-list",
   "settings": [
+    {
+      "type": "text",
+      "id": "section_id",
+      "label": "Section Id"
+    },
     {
       "type": "checkbox",
       "id": "hero_section",

@@ -13,7 +13,7 @@
     }
   }
 {%- endstyle -%}
-<div class="shopify-section-abn page-width">
+<div class="shopify-section-abn page-width" {% if section.settings.section_id != blank %} id="{{ section.settings.section_id }}" {% endif %}>
   <p class="own-text">{{ section.settings.own_text }}</p>
   <div class="trust">
     <p class="trust-text">{{ section.settings.trust_text }}</p>
@@ -26,6 +26,11 @@
   "tag": "section",
   "class": "shopify-section--announcement-bar",
   "settings": [
+    {
+      "type": "text",
+      "id": "section_id",
+      "label": "Section Id"
+    },
     {
       "type": "text",
       "id": "own_text",

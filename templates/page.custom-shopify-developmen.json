@@ -59,6 +59,7 @@
           "settings": {
             "heading": "Please enter your details",
             "heading_color": "#000000",
+            "close_icon": "shopify://shop_images/close-icon.png",
             "service_items": "I want a stunning website|I want a high converting eCommerce Store|I want to rank higher on Google|I want effective targeted ads|I want to generate leads from social media|I want to create Digital Strategy|I want more customer conversions (CRO)|I want to Integrate ERP/CRM with my site|I want to develop a mobile app|I want a custom Software",
             "open_btn_text": "Get A Free Quote",
             "submit_text": "Book a Free Consultation",
@@ -105,6 +106,7 @@
         "contact_form_Qn78PR"
       ],
       "settings": {
+        "section_id": "shopify-development-hero",
         "hero_section": true,
         "key": "",
         "badge_text": "Shopify Web Design",
@@ -112,8 +114,8 @@
         "badge_txt_color": "#ffffff",
         "badge_border_radius": 100,
         "hide_badge_on_mobile": true,
-        "hide_subheading_on_mobile": false,
-        "hide_text_on_mobile": false,
+        "hide_subheading_on_mobile": true,
+        "hide_text_on_mobile": true,
         "hide_media_on_mobile": true,
         "loop_video": true,
         "autoplay_video": true,
@@ -136,7 +138,8 @@
         "button_link": "tel:(02) 8088 0768",
         "button_text": "",
         "image_right": true,
-        "text_align": "left",
+        "desktop_text_align": "left",
+        "mobile_text_align": "center",
         "background_color": "#ffffff",
         "text_color": "#000000",
         "desktop_padding_top": 60,
@@ -304,6 +307,7 @@
         "breakpoint_gR6QyE"
       ],
       "settings": {
+        "section_id": "",
         "hero_section": false,
         "bg_color": "#ffffff",
         "heading": "Trusted by Australian Brands for []",
@@ -391,6 +395,7 @@
         "text_VfFdk4"
       ],
       "settings": {
+        "section_id": "",
         "bg_color": "#ffffff",
         "desktop_padding_top": 60,
         "desktop_padding_bottom": 40,
@@ -621,6 +626,7 @@
         "breakpoint_c6QjXi"
       ],
       "settings": {
+        "section_id": "",
         "bg_color": "#ffffff",
         "image_item_border_radius": 4,
         "loadmore_btn_text": "Load More",
@@ -639,11 +645,12 @@
     "advertise_HPp6jH": {
       "type": "advertise",
       "settings": {
+        "section_id": "",
         "hero_section": false,
         "key": "",
         "badge_text": "",
-        "badge_bg_color": "#ffffff",
-        "badge_txt_color": "#000000",
+        "badge_bg_color": "#252525",
+        "badge_txt_color": "#ffffff",
         "badge_border_radius": 0,
         "hide_badge_on_mobile": false,
         "hide_subheading_on_mobile": false,
@@ -670,7 +677,8 @@
         "button_link": "shopify://pages/pricing",
         "button_text": "See What’s Included",
         "image_right": true,
-        "text_align": "left",
+        "desktop_text_align": "left",
+        "mobile_text_align": "left",
         "background_color": "#ffffff",
         "text_color": "#000000",
         "desktop_padding_top": 60,
@@ -691,7 +699,7 @@
             "desktop_align": "center",
             "mobile_align": "center",
             "desktop_font_size": 48,
-            "mobile_font_size": 32,
+            "mobile_font_size": 20,
             "desktop_font_weight": "600",
             "mobile_font_weight": "600",
             "desktop_line_height": 1.2,
@@ -712,13 +720,13 @@
         "text_tEi8yb": {
           "type": "text",
           "settings": {
-            "text": "<p>23 Digital is a premier full-service Shopify web design and [highlight], specialising in Shopify website design and Shopify Plus web development. Renowned for developing award-winning shopping experiences that customers adore, our expertise in Shopify web development and our status as a Shopify Plus Partner set us apart in the digital landscape. Whether you’re launching a new store or scaling an existing one, 23 Digital is dedicated to crafting bespoke Shopify Website Design solutions that drive success and captivate your audience.<br/><br/></p>",
+            "text": "<p>An Agency is a premier full-service Shopify web design and [highlight], specialising in Shopify website design and Shopify Plus web development. Renowned for developing award-winning shopping experiences that customers adore, our expertise in Shopify web development and our status as a Shopify Plus Partner set us apart in the digital landscape. Whether you’re launching a new store or scaling an existing one, 23 Digital is dedicated to crafting bespoke Shopify Website Design solutions that drive success and captivate your audience.<br/><br/></p>",
             "desktop_margin": 0,
             "mobile_margin": 0,
             "desktop_align": "center",
             "mobile_align": "center",
             "desktop_font_size": 18,
-            "mobile_font_size": 24,
+            "mobile_font_size": 15,
             "desktop_font_weight": "400",
             "mobile_font_weight": "400",
             "desktop_line_height": 1.2,
@@ -743,6 +751,7 @@
       ],
       "name": "Text List",
       "settings": {
+        "section_id": "",
         "bg_color": "#ffffff",
         "desktop_padding_top": 0,
         "desktop_padding_bottom": 0,
@@ -754,6 +763,7 @@
       "type": "single-contact-form",
       "name": "Single Step Contact Form",
       "settings": {
+        "section_id": "",
         "bg_color": "#ffffff",
         "service_items": "I want a stunning website|I want a high converting eCommerce Store|I want to rank higher on Google|I want effective targeted ads|I want to generate leads from social media|I want to create Digital Strategy|I want more customer conversions (CRO)|I want to Integrate ERP/CRM with my site|I want to develop a mobile app|I want a custom Software",
         "submit_text": "Book a Free Consultation",
@@ -899,6 +909,7 @@
       ],
       "name": "Score Grid/Color by Items",
       "settings": {
+        "section_id": "",
         "bg_color": "#ffffff",
         "not_necessary": true,
         "desktop_padding_top": 20,
@@ -971,6 +982,7 @@
       ],
       "disabled": true,
       "settings": {
+        "section_id": "",
         "bg_color": "#ffffff",
         "desktop_padding_top": 60,
         "desktop_padding_bottom": 40,
@@ -1231,6 +1243,7 @@
         "text_MBaFDg"
       ],
       "settings": {
+        "section_id": "",
         "bg_color": "#ffffff",
         "desktop_padding_top": 60,
         "desktop_padding_bottom": 40,
@@ -1319,6 +1332,9 @@
         "breakpoint_PMwB3w"
       ],
       "settings": {
+        "section_id": "",
+        "init_show_count": 8,
+        "increase_count": 4,
         "bg_color": "#ffffff",
         "card_bg_color": "#ffffff",
         "card_text_color": "#000000",
@@ -1334,8 +1350,9 @@
         "read_more_btn_text_shown": "Hide",
         "read_more_btn_color": "#000000",
         "read_more_btn_color_hover": "#787878",
-        "link_btn_text": "FIND MORE OUT",
+        "link_btn_text": "Load More",
         "link": "shopify://pages/contact",
+        "use_this_for_load_more": true,
         "link_btn_bg_color": "#121212",
         "link_btn_text_color": "#ffffff",
         "link_btn_bg_color_hover": "#fdd328",
@@ -1412,6 +1429,7 @@
         "text_eBjNbe"
       ],
       "settings": {
+        "section_id": "",
         "bg_color": "#ffffff",
         "desktop_padding_top": 60,
         "desktop_padding_bottom": 40,
@@ -1548,6 +1566,7 @@
         "breakpoint_nd4Pit"
       ],
       "settings": {
+        "section_id": "",
         "bg_color": "#ffffff",
         "not_necessary": false,
         "card_bg_color": "#ffffff",
@@ -1867,6 +1886,7 @@
         "faq_item_ifVb4t"
       ],
       "settings": {
+        "section_id": "",
         "hero_section": false,
         "heading": "Frequently Asked Questions",
         "bg_color": "#fbfbfb",
@@ -1895,6 +1915,7 @@
     "advertise_PAQGf7": {
       "type": "advertise",
       "settings": {
+        "section_id": "",
         "hero_section": false,
         "key": "",
         "badge_text": "",
@@ -1926,7 +1947,8 @@
         "button_link": "#",
         "button_text": "",
         "image_right": false,
-        "text_align": "left",
+        "desktop_text_align": "left",
+        "mobile_text_align": "center",
         "background_color": "#fbfbfb",
         "text_color": "#000000",
         "desktop_padding_top": 60,
@@ -1938,6 +1960,7 @@
     "advertise_DnFdqE": {
       "type": "advertise",
       "settings": {
+        "section_id": "",
         "hero_section": false,
         "key": "",
         "badge_text": "",
@@ -1969,7 +1992,8 @@
         "button_link": "",
         "button_text": "",
         "image_right": true,
-        "text_align": "left",
+        "desktop_text_align": "left",
+        "mobile_text_align": "center",
         "background_color": "#ffffff",
         "text_color": "#000000",
         "desktop_padding_top": 60,
@@ -1981,6 +2005,7 @@
     "advertise_JebRqW": {
       "type": "advertise",
       "settings": {
+        "section_id": "",
         "hero_section": false,
         "key": "",
         "badge_text": "",
@@ -2012,7 +2037,8 @@
         "button_link": "shopify://pages/contact",
         "button_text": "Get Your Shopify Store Built →",
         "image_right": false,
-        "text_align": "left",
+        "desktop_text_align": "left",
+        "mobile_text_align": "center",
         "background_color": "#fbfbfb",
         "text_color": "#000000",
         "desktop_padding_top": 60,
@@ -2024,6 +2050,7 @@
     "advertise_KLNL33": {
       "type": "advertise",
       "settings": {
+        "section_id": "",
         "hero_section": false,
         "key": "",
         "badge_text": "",
@@ -2051,11 +2078,13 @@
         "mobile_bottom": -30,
         "heading": "What You Really Get From Our Shopify Builds",
         "sub_heading": "More than just a nice-looking homepage, here’s what’s really included when you work with us on a custom Shopify website.",
-        "text": "<ul><li>A Shopify store designed to sell — fast</li><li>Strategic layout based on real buyer psychology</li><li>Mobile-first design with conversion in mind</li><li>On-page SEO, tracking, and key app integrations</li><li>Product, collection, cart, and checkout setup</li><li>Post-launch support and training so you’re not left guessing</li></ul><p></p><p><br/></p>",
+        "text": "<ul><li>A Shopify store designed to sell — fast</li><li>Strategic layout based on real buyer psychology</li><li>Mobile-first design with conversion in mind</li><li>On-page SEO, tracking, and key app integrations</li><li>Product, collection, cart, and checkout setup</li><li>Post-launch support and training so you’re not left guessing</li></ul>",
+        "list_icon": "shopify://shop_images/checkmark.png",
         "button_link": "shopify://pages/contact",
         "button_text": "Show Me the Shopify Results →",
         "image_right": true,
-        "text_align": "left",
+        "desktop_text_align": "left",
+        "mobile_text_align": "left",
         "background_color": "#ffffff",
         "text_color": "#000000",
         "desktop_padding_top": 60,

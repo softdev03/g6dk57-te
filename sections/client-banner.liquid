@@ -3,6 +3,11 @@
   "name": "Client Banner",
   "settings": [
     {
+      "type": "text",
+      "id": "section_id",
+      "label": "Section Id"
+    },
+    {
       "type": "checkbox",
       "id": "hero_section",
       "label": "Hero Section",
@@ -58,7 +63,7 @@
 
 <link rel="stylesheet" href="{{ 'client-banner.css' | asset_url }}">
 
-<section class="hero-section_client">
+<section class="hero-section_client" {% if section.settings.section_id != blank %} id="{{ section.settings.section_id }}" {% endif %}>
   <div class="hero-container_client">
     
     <!-- Left Side (Image) -->

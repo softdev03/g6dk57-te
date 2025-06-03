@@ -4,6 +4,11 @@
   "settings": [
     {
       "type": "text",
+      "id": "section_id",
+      "label": "Section Id"
+    },
+    {
+      "type": "text",
       "id": "key",
       "label": "Key"
     },
@@ -126,7 +131,7 @@
       }
   }
 {%- endstyle -%}
-<section class="benefits-section page-width" {% if section.settings.key != blank %} tab key="{{ section.settings.key }}" {% endif %}>
+<section class="benefits-section page-width" {% if section.settings.key != blank %} tab key="{{ section.settings.key }}" {% endif %} {% if section.settings.section_id != blank %} id="{{ section.settings.section_id }}" {% endif %}>
   <div class="benefits-container">
     {% for block in section.blocks %}
       <div class="benefit-card">

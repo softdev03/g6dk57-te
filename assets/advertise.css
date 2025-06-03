@@ -50,14 +50,6 @@
   row-gap: 30px;
 }
 
-.shopify-section-advertise .text-content.align-center {
-  text-align: center;
-}
-
-.shopify-section-advertise .text-content.align-right {
-  text-align: right;
-}
-
 .shopify-section-advertise .heading {
   line-height: 1.2;
   color: inherit;
@@ -78,7 +70,24 @@
   line-height: 2.5;
   color: black;
 }
-
+.shopify-section-advertise .text.has-icons ul {
+  padding: 0px;
+  list-style: none;
+}
+.shopify-section-advertise .text.has-icons li {
+  padding-left: 22px;
+  position: relative;
+}
+.shopify-section-advertise .text.has-icons li::before {
+  content: '';
+  width: 15px;
+  height: 15px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+  left: 0px;
+  top: 3px;
+}
 .shopify-section-advertise .text p {
   margin: 0px;
   line-height: 2;
@@ -108,6 +117,7 @@
   column-gap: 60px;
   flex-wrap: wrap;
   row-gap: 20px;
+  width: 100%;
 }
 .shopify-section-advertise .logo {
   line-height: 1;
@@ -119,6 +129,7 @@
   flex-wrap: wrap;
   row-gap: 15px;
   column-gap: 50px;
+  width: 100%;
 }
 .shopify-section-advertise .link-list:empty {
   display: none;
@@ -164,15 +175,10 @@
   .shopify-section-advertise .advertise-media,
   .shopify-section-advertise .text-content {
     width: 100%;
-    text-align: center;
   }
 
   .shopify-section-advertise .advertise-media video {
     max-width: 500px;
-  }
-
-  .shopify-section-advertise .text-content {
-    align-items: center;
   }
 }
 
@@ -212,7 +218,7 @@
   }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 424px) {
   .shopify-section-advertise .link {
     width: 100%;
     padding: 12px;
@@ -235,6 +241,32 @@
 @media screen and (max-width: 993px) {
   .shopify-section-advertise .field {
     width: calc(50% - 5px);
+  }
+}
+@media screen and (min-width: 750px) {
+  .shopify-section-advertise .text-content.desktop-align-left {
+    align-items: flex-start;
+  }
+  .shopify-section-advertise .text-content.desktop-align-center {
+    text-align: center;
+    align-items: center;
+  }
+  .shopify-section-advertise .text-content.desktop-align-right {
+    text-align: right;
+    align-items: flex-end;
+  }
+}
+@media screen and (max-width: 749px) {
+  .shopify-section-advertise .text-content.mobile-align-left {
+    align-items: flex-start;
+  }
+  .shopify-section-advertise .text-content.mobile-align-center {
+    text-align: center;
+    align-items: center;
+  }
+  .shopify-section-advertise .text-content.mobile-align-right {
+    text-align: right;
+    align-items: flex-end;
   }
 }
 @media screen and (max-width: 600px) {

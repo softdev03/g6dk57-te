@@ -34,7 +34,7 @@
   	}
   }
 {%- endstyle -%}
-<div class="shopify-section-slg page-width {% if section.settings.not_necessary %} not-necessary {% endif %}">
+<div class="shopify-section-slg page-width {% if section.settings.not_necessary %} not-necessary {% endif %}" {% if section.settings.section_id != blank %} id="{{ section.settings.section_id }}" {% endif %}>
   {%- assign scoreBlocks = section.blocks | where: 'type', 'score_item' | map: 'settings' -%}
   {%- for scoreItem in scoreBlocks -%}
     <div class="score-item" id="score-{{ forloop.index }}">
@@ -73,6 +73,11 @@
   "tag": "section",
   "class": "shopify-section--score-grid",
   "settings": [
+    {
+      "type": "text",
+      "id": "section_id",
+      "label": "Section Id"
+    },
     {
       "type": "color",
       "id": "bg_color",

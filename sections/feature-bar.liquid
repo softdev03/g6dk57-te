@@ -3,6 +3,11 @@
   "name": "Feature Bar",
   "settings": [
     {
+      "type": "text",
+      "id": "section_id",
+      "label": "Section Id"
+    },
+    {
       "type": "color",
       "id": "bg_color",
       "label": "Background Color",
@@ -80,7 +85,7 @@
 
 <link rel="stylesheet" href="{{ 'custom-feature.css' | asset_url }}">
 
-<section class="feature-bar">
+<section class="feature-bar" {% if section.settings.section_id != blank %} id="{{ section.settings.section_id }}" {% endif %}>
   <div class="feature-container">
     <div class="feature-item">
       <img src="{{ 'warranty.svg' | asset_url }}" alt="Warranty" width="100%" height="100%">

@@ -14,7 +14,7 @@
     }
   }
 {%- endstyle -%}
-<div class="color-{{ section.settings.color_scheme }} gradient page-width">
+<div class="color-{{ section.settings.color_scheme }} gradient page-width" {% if section.settings.section_id != blank %} id="{{ section.settings.section_id }}" {% endif %}>
   <div class="section-{{ section.id }}-padding">
     {{ section.settings.custom_liquid }}
   </div>
@@ -26,6 +26,11 @@
   "tag": "section",
   "class": "section",
   "settings": [
+    {
+      "type": "text",
+      "id": "section_id",
+      "label": "Section Id"
+    },
     {
       "type": "color",
       "id": "bg_color",

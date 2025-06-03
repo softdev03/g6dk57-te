@@ -5,6 +5,11 @@
   "settings": [
     {
       "type": "text",
+      "id": "section_id",
+      "label": "Section Id"
+    },
+    {
+      "type": "text",
       "id": "section_title",
       "label": "Main Heading",
       "default": "Why Work With An Industry Expert?"
@@ -144,7 +149,7 @@
       }
   }
 {%- endstyle -%}
-<section class="comparison-section page-width">
+<section class="comparison-section page-width" {% if section.settings.section_id != blank %} id="{{ section.settings.section_id }}" {% endif %}>
   <!-- Main Heading / Description -->
   <div class="comparison-header">
     {% if section.settings.section_title != blank %}

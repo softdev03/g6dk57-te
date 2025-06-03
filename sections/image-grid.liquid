@@ -45,23 +45,28 @@
        }
    }
 {%- endstyle -%}
-<div class="shopify-section-image-grid page-width">
+<div
+  class="shopify-section-image-grid page-width"
+  {% if section.settings.section_id != ' blank' %}
+    id="{{ section.settings.section_id }}"
+  {% endif %}
+>
   {%- if section.settings.heading != blank -%}
-  {%- if section.settings.hero_section -%}
-    <h1 class="heading">
-      {%- if section.settings.secondary_heading != blank -%}
-        {%- assign secondary = '<span>' | append: section.settings.secondary_heading | append: '</span>' -%}
-        {{ section.settings.heading | replace: '[]', secondary }}
-      {%- endif -%}      
-    </h1>
-  {%- else -%}
-    <h2 class="heading">
-      {%- if section.settings.secondary_heading != blank -%}
-        {%- assign secondary = '<span>' | append: section.settings.secondary_heading | append: '</span>' -%}
-        {{ section.settings.heading | replace: '[]', secondary }}
-      {%- endif -%}      
-    </h2>
-  {%- endif -%}
+    {%- if section.settings.hero_section -%}
+      <h1 class="heading">
+        {%- if section.settings.secondary_heading != blank -%}
+          {%- assign secondary = '<span>' | append: section.settings.secondary_heading | append: '</span>' -%}
+          {{ section.settings.heading | replace: '[]', secondary }}
+        {%- endif -%}
+      </h1>
+    {%- else -%}
+      <h2 class="heading">
+        {%- if section.settings.secondary_heading != blank -%}
+          {%- assign secondary = '<span>' | append: section.settings.secondary_heading | append: '</span>' -%}
+          {{ section.settings.heading | replace: '[]', secondary }}
+        {%- endif -%}
+      </h2>
+    {%- endif -%}
   {%- endif -%}
   {%- if section.settings.description != blank -%}
     <p class="description">{{ section.settings.description }}</p>
@@ -100,7 +105,12 @@
   "tag": "section",
   "class": "shopify-section--image-grid",
   "settings": [
-  {
+    {
+      "type": "text",
+      "id": "section_id",
+      "label": "Section Id"
+    },
+    {
       "type": "checkbox",
       "id": "hero_section",
       "label": "Hero Section",

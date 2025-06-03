@@ -17,6 +17,11 @@
     background-color: {{ section.settings.badge_bg_color }};
     color: {{ section.settings.badge_txt_color }};
    }
+   {%- if section.settings.list_icon != blank -%}
+    #shopify-section-{{ section.id }} .text li::before {
+      background-image: url('{{ section.settings.list_icon |  img_url: '30x' }}');
+    }
+   {%- endif -%}
 	 @media screen and (min-width: 750px) {
 		#shopify-section-{{ section.id }} .secondary-image {
 			{%- if section.settings.desktop_left != -1 -%}
@@ -54,7 +59,7 @@
   	}
    }
 {%- endstyle -%}
-<div class="shopify-section-advertise page-width {% if section.settings.image_right == true %} media-right {% endif %}" {% if section.settings.key != blank %} tab key="{{ section.settings.key }}" {% endif %}>
+<div class="shopify-section-advertise page-width {% if section.settings.image_right == true %} media-right {% endif %}" {% if section.settings.key != blank %} tab key="{{ section.settings.key }}" {% endif %} {% if section.settings.section_id != blank %} id="{{ section.settings.section_id }}" {% endif %}>
   <div class="advertise-media {% if section.settings.hide_media_on_mobile %} hide_on_mobile {% endif %}">
     {%- if section.settings.video != null or section.settings.video_url != blank -%}
       <video muted {% if section.settings.autoplay_video %}autoplay{% else %}controls{% endif %} playsinline {% if section.settings.loop_video %}loop{% endif %}>
@@ -85,7 +90,7 @@
       {%- endif -%}
     {%- endif -%}
   </div>
-  <div class="text-content align-{{ section.settings.text_align }}">
+  <div class="text-content desktop-align-{{ section.settings.desktop_text_align }} mobile-align-{{ section.settings.mobile_text_align }}">
     {%- if section.settings.badge_text != blank -%}
       <span class="badge {% if section.settings.hide_badge_on_mobile %} hide_on_mobile {% endif %}">{{ section.settings.badge_text }}</span>
     {%- endif -%}
@@ -100,8 +105,9 @@
       <h2 class="sub-heading m-0 {% if section.settings.hide_subheading_on_mobile %} hide_on_mobile {% endif %}">{{ section.settings.sub_heading }}</h2>
     {%- endif -%}
     {%- if section.settings.text != blank -%}
-      <div class="text {% if section.settings.hide_text_on_mobile %} hide_on_mobile {% endif %}">
-        <p class="advertise-text">{{ section.settings.text }}</p></div>
+      <div class="text {% if section.settings.list_icon != blank %} has-icons {% endif %}{% if section.settings.hide_text_on_mobile %} hide_on_mobile {% endif %}">
+        <p class="advertise-text">{{ section.settings.text }}</p>
+      </div>
     {%- endif -%}
     {%- assign textItems = section.blocks |  where: 'type', 'text_item' |  map: 'settings' -%}
     {%- if textItems.size > 0 -%}
@@ -173,6 +179,11 @@
   "tag": "section",
   "class": "shopify-section--advertise",
   "settings": [
+    {
+      "type": "text",
+      "id": "section_id",
+      "label": "Section Id"
+    },
     {
       "type": "checkbox",
       "id": "hero_section",
@@ -382,6 +393,11 @@
       "label": "Text"
     },
     {
+      "type": "image_picker",
+      "id": "list_icon",
+      "label": "List Icon"
+    },
+    {
       "type": "url",
       "id": "button_link",
       "label": "Button Link"
@@ -399,8 +415,8 @@
 		},
 		{
 			"type": "select",
-			"id": "text_align",
-			"label": "Text Align",
+			"id": "desktop_text_align",
+			"label": "Desktop Text Align",
 			"options": [
 				{
 					"value": "left",
@@ -416,6 +432,26 @@
 				}
 			],
 			"default": "left"
+		},
+    {
+			"type": "select",
+			"id": "mobile_text_align",
+			"label": "Mobile Text Align",
+			"options": [
+				{
+					"value": "left",
+					"label": "Left"
+				},
+				{
+					"value": "center",
+					"label": "Center"
+				},
+				{
+					"value": "right",
+					"label": "Right"
+				}
+			],
+			"default": "center"
 		},
 		{
 			"type": "color",
@@ -584,6 +620,11 @@
           "id": "heading_color",
           "label": "Heading Color",
           "default": "#000000"
+        },
+        {
+          "type": "image_picker",
+          "id": "close_icon",
+          "label": "Close Icon"
         },
         {
           "type": "text",

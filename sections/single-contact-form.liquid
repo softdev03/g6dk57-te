@@ -11,7 +11,7 @@
   }
   }
 {%- endstyle -%}
-<div class="shopify-section-sscf page-width">
+<div class="shopify-section-sscf page-width" {% if section.settings.section_id != blank %} id="{{ section.settings.section_id }}" {% endif %}>
 	{%- assign form_id = section.id | append: '-single-contact-form' -%}
   {%- render 'single-contact-form', form_settings: section.settings,id: form_id,hide_open_area: true -%}
 </div>
@@ -21,6 +21,11 @@
   "tag": "section",
   "class": "shopify-section--sscf",
   "settings": [
+    {
+      "type": "text",
+      "id": "section_id",
+      "label": "Section Id"
+    },
     {
       "type": "color",
       "id": "bg_color",

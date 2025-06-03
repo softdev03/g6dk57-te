@@ -199,32 +199,50 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   });
 
-  const customReviewItems = document.querySelectorAll('.shopify-section-csn .review-item');
-  customReviewItems.forEach(customReviewItem => {
-    const reviewContentWrapper = customReviewItem.querySelector('.review-content-wrapper');
-    const reviewContent = reviewContentWrapper.querySelector('.review-content');
-    customReviewItem.querySelectorAll('.read-more').forEach(readMoreButton => {
-      readMoreButton.addEventListener('click', (e) => {
-        if (e.target.classList.contains('to-hide')) {
-          reviewContentWrapper.classList.remove('show-all');
-          reviewContent.style.maxHeight = '';
+  const customReviewSections = document.querySelectorAll('.shopify-section-csn');
+  customReviewSections.forEach(customReviewSection => {
+    const customReviewItemWrapper = customReviewSection.querySelector('.review-items');
+    const loadMoreButton = customReviewSection.querySelector('.link.load-more');
+    const customReviewItems = customReviewSection.querySelectorAll('.review-item');
+    const increaseCount = parseInt(customReviewItemWrapper.getAttribute('increase-count')) || 4;
+    customReviewItems.forEach(customReviewItem => {
+      const reviewContentWrapper = customReviewItem.querySelector('.review-content-wrapper');
+      const reviewContent = reviewContentWrapper.querySelector('.review-content');
+      customReviewItem.querySelectorAll('.read-more').forEach(readMoreButton => {
+        readMoreButton.addEventListener('click', (e) => {
+          if (e.target.classList.contains('to-hide')) {
+            reviewContentWrapper.classList.remove('show-all');
+            reviewContent.style.maxHeight = '';
+          } else {
+            reviewContentWrapper.classList.add('show-all');
+            reviewContent.style.maxHeight = `${reviewContent.scrollHeight}px`;
+          }
+        });
+      });
+      const checkHeight = () => {
+        const maxHeight = parseInt(reviewContent.getAttribute('max-height'));
+        if (maxHeight > reviewContent.scrollHeight) {
+          reviewContentWrapper.classList.add('no-need-read-more');
         } else {
-          reviewContentWrapper.classList.add('show-all');
-          reviewContent.style.maxHeight = `${reviewContent.scrollHeight}px`;
+          reviewContentWrapper.classList.remove('no-need-read-more');
         }
+      }
+      checkHeight();
+      window.addEventListener('resize', () => {
+        checkHeight();
       });
     });
-    const checkHeight = () => {
-      const maxHeight = parseInt(reviewContent.getAttribute('max-height'));
-      if (maxHeight > reviewContent.scrollHeight) {
-        reviewContentWrapper.classList.add('no-need-read-more');
-      } else {
-        reviewContentWrapper.classList.remove('no-need-read-more');
+    loadMoreButton.addEventListener('click',()=>{
+      const hiddenItems = customReviewItemWrapper.querySelectorAll('.review-item:not(.show)');
+      for (const [index,hiddenItem] of hiddenItems.entries()) {
+        if(index >= increaseCount) {
+          break;
+        }
+        hiddenItem.classList.add('show');
       }
-    }
-    checkHeight();
-    window.addEventListener('resize', () => {
-      checkHeight();
+      if(hiddenItems.length <= increaseCount) {
+        loadMoreButton.remove();
+      }
     });
   });
   const globalEnquireLink = document.querySelector('.global-enquire-link');
@@ -265,7 +283,7 @@ const replaceSecondText = () => {
   for (const enquireLinkPos of enquireLinkPosList) {
     enquireLinkPos.el.classList.toggle('state-sticky', enquireLinkPos.isBigger?window.scrollY >= enquireLinkPos.pos:window.scrollY <= enquireLinkPos.pos);
     if(contactModal) {
-      enquireLinkPos.el.addEventListener('click',(e)=>{
+      enquireLinkPos.el.querySelector('span')?.addEventListener('click',(e)=>{
         if(enquireLinkPos.el.classList.contains('state-sticky')) {
           e.preventDefault();
           contactModal.classList.add('show');

@@ -17,6 +17,9 @@
   transition: all .3s;
   height: min-content;
 }
+.shopify-section-csn .review-item:not(.show) {
+  display: none;
+}
 .shopify-section-csn .review-item:hover {
   transform: translateY(-10px);
 }
