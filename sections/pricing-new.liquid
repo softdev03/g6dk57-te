@@ -208,6 +208,9 @@
         <div class="swiper-button-next swiper-arrow"></div>
       </div>
     {%- endif -%}
+    {% unless tabItems.size > 0 %}
+      {%  break  %}
+    {% endunless %}
   {%- endfor -%}
   {%- assign breakpoints = section.blocks |  where: 'type', 'breakpoint' |  map: 'settings' -%}
   <div class="breakpoints hidden">

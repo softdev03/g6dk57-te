@@ -1,546 +1,557 @@
 .shopify-section-cfn {
-	display: flex;
-	justify-content: space-between;
-	flex-wrap: wrap;
-	row-gap: 75px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  row-gap: 75px;
 }
 
 .shopify-section-cfn .text-content {
-	width: calc(50% - 45px);
-	display: flex;
-	flex-direction: column;
-	row-gap: 30px;
+  width: calc(50% - 45px);
+  display: flex;
+  flex-direction: column;
+  row-gap: 30px;
 }
 
 .shopify-section .heading {
-	margin: 0px;
+  margin: 0px;
 }
 
 .shopify-section-cfn .description {
-	font-size: 18px;
+  font-size: 18px;
 }
 
 .shopify-section-cfn .description p {
-	margin: 0px;
+  margin: 0px;
 }
 
 .shopify-section-cfn .description a {
-	color: inherit;
+  color: inherit;
 }
 
 .form-content-card {
-	width: calc(50% - 45px);
-	position: relative;
-	padding: 80px 50px 40px;
+  width: calc(50% - 45px);
+  position: relative;
+  padding: 80px 50px 40px;
 }
 
 .form-content-card .logo {
-	position: absolute;
-	width: 120px;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	top: 0px;
+  position: absolute;
+  width: 120px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  top: 0px;
 }
 
 .form-content-card .form-main-heading {
-	margin: 0px;
-	font-size: 25px;
-	text-align: center;
+  margin: 0px;
+  font-size: 25px;
+  text-align: center;
 }
 
 .form-content-card .form-main-description {
-	margin-top: 0px;
-	font-size: 15px;
-	margin-bottom: 40px;
-	text-align: center;
+  margin-top: 0px;
+  font-size: 15px;
+  margin-bottom: 40px;
+  text-align: center;
 }
 
 .form-content-card .next-step {
-	margin-top: 50px;
-	width: 100%;
-	border: none;
-	padding: 10px;
-	font-size: 14px;
-	font-weight: 500;
-	cursor: pointer;
+  margin-top: 50px;
+  width: 100%;
+  border: none;
+  padding: 10px;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
 }
 .form-content-card .next-step:not(.show) {
-	display: none;
+  display: none;
 }
 
 .form-content-card .progressbar {
-	margin: 30px 0px;
-	border-radius: 2px;
-	overflow: hidden;
+  margin: 30px 0px;
+  border-radius: 2px;
+  overflow: hidden;
 }
 .form-content-card .progressbar:not(.show) {
-	display: none;
+  display: none;
 }
 
 .form-content-card .progress-track {
-	height: 4px;
-	display: block;
-	width: 10%;
-	transition: all .3s;
+  height: 4px;
+  display: block;
+  width: 10%;
+  transition: all .3s;
 }
 
 .form-content-card .back-step {
-	border: none;
-	background: none;
-	text-align: left;
-	cursor: pointer;
+  border: none;
+  background: none;
+  text-align: left;
+  cursor: pointer;
 }
 
 .form-content-card .back-step:not(.show) {
-	display: none;
+  display: none;
 }
 
 .form-content-card .steps {
-	display: flex;
-	justify-content: space-between;
-	flex-wrap: wrap;
-	row-gap: 10px;
-	margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  row-gap: 10px;
+  margin-top: 30px;
 }
 
 .form-content-card .step-item {
-	font-size: 13px;
-	display: flex;
-	flex-direction: column;
-	row-gap: 12px;
-	width: calc(50% - 10px);
-	height: fit-content;
-	border-radius: 8px;
-	padding: 12px 14px;
+  font-size: 13px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 12px;
+  width: calc(50% - 10px);
+  height: fit-content;
+  border-radius: 8px;
+  padding: 12px 14px;
 }
 
 .form-content-card .step-item .title {
-	margin: 0px;
-	display: flex;
-	align-items: center;
-	column-gap: 10px;
+  margin: 0px;
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
 }
 
 .form-content-card .step-item .title span {
-	width: 30px;
-	height: 30px;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	border-radius: 100px;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100px;
 }
 
 .form-content-card .step-item .title p {
-	margin: 0px;
-	line-height: 1.2;
+  margin: 0px;
+  line-height: 1.2;
 }
 
 .form-content-card .step-item .description {
-	text-align: left;
-	margin: 0px;
-	font-size: inherit;
-	line-height: 1.2;
+  text-align: left;
+  margin: 0px;
+  font-size: inherit;
+  line-height: 1.2;
 }
 
 .form-content-card .form-step-section.form-main .step-content:not(.non-independent) {
-	display: flex;
-	flex-direction: column;
-	row-gap: 30px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 30px;
 }
 
 .form-content-card .form-step-section {
-	text-align: center;
+  text-align: center;
 }
 
 .form-content-card .form-step-section:not(.show) {
-	display: none;
+  display: none;
 }
 
 .form-content-card .name-field {
-	display: flex;
-	justify-content: space-between;
-	flex-wrap: wrap;
-	row-gap: 30px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  row-gap: 30px;
 }
 
 .form-content-card .name-field .field-wrapper {
-	width: calc(50% - 10px);
+  width: calc(50% - 10px);
 }
 
 .form-content-card .field-wrapper:not(.show):has(.field.secondary) {
-	display: none;
+  display: none;
 }
 .form-content-card .field-wrapper.show:has(.field.secondary) {
-	margin-top: 20px;
+  margin-top: 20px;
 }
 .form-content-card .field {
-	position: relative;
+  position: relative;
 }
 
 .form-content-card .error-msg {
-	margin-bottom: 0px;
-	margin-top: 3px;
-	font-size: 10px;
-	line-height: 1.5;
-	text-align: left;
-	letter-spacing: 0px;
+  margin-bottom: 0px;
+  margin-top: 3px;
+  font-size: 10px;
+  line-height: 1.5;
+  text-align: left;
+  letter-spacing: 0px;
 }
 
 .form-content-card .form-step-section:not(.check-form) .field-wrapper:not(.error) .error-msg {
-	display: none;
+  display: none;
 }
 .form-content-card .form-step-section.check-form:not(.error) .error-msg {
-	display: none;
+  display: none;
 }
 
 .form-content-card .field input {
-	border: none;
-	margin: 0px;
-	height: unset;
-	color: inherit;
+  border: none;
+  margin: 0px;
+  height: unset;
+  color: inherit;
 }
 
 .form-content-card .field.phone input {
-	padding-left: 50px;
+  padding-left: 50px;
 }
 
 .form-content-card .field::before,
 .form-content-card .field::after {
-	width: 0%;
-	height: 2px;
-	bottom: 0px;
-	left: 50%;
-	top: unset;
-	transform: translateX(-50%);
-	transition: all .2s;
-	box-shadow: none;
-	border: none;
-	z-index: 10;
+  width: 0%;
+  height: 2px;
+  bottom: 0px;
+  left: 50%;
+  top: unset;
+  transform: translateX(-50%);
+  transition: all .2s;
+  box-shadow: none;
+  border: none;
+  z-index: 10;
 }
 
 .form-content-card .field:has(input:focus)::before {
-	display: block;
-	width: 100%;
+  display: block;
+  width: 100%;
 }
 
 .form-content-card .field-wrapper.error .field:after {
-	width: 100%;
+  width: 100%;
 }
 
 .form-content-card .field-wrapper .field:hover::before,
 .form-content-card .field-wrapper .field:hover::after {
-	box-shadow: none;
+  box-shadow: none;
 }
 
 .form-content-card .field label {
-	transform: translateY(-50%);
-	top: 50%;
-	font-size: 14px;
-	color: inherit;
-	letter-spacing: 0px;
-	transition-duration: .2s;
+  transform: translateY(-50%);
+  top: 50%;
+  font-size: 14px;
+  color: inherit;
+  letter-spacing: 0px;
+  transition-duration: .2s;
 }
 .field__input:not(:placeholder-shown)~.field__label {
-	transform: unset;
+  transform: unset;
 }
 .form-content-card .field.phone label {
-	left: 50px;
+  left: 50px;
 }
 
 .form-content-card .field:has(input:focus) label {
-	transform: translateY(0px);
+  transform: translateY(0px);
 }
 
 .form-content-card .country-phone-numbers {
-	position: absolute;
-	width: 400px;
-	background-color: white;
-	z-index: 100;
-	box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.2);
-	max-height: 200px;
-	overflow: auto;
-	top: calc(100% + 10px);
+  position: absolute;
+  width: 400px;
+  background-color: white;
+  z-index: 100;
+  box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.2);
+  max-height: 200px;
+  overflow: auto;
+  top: calc(100% + 10px);
 }
 
 .form-content-card .country-phone-numbers:not(.open) {
-	display: none;
+  display: none;
 }
 
 .form-content-card .country-list {
-	padding: 5px 0px;
+  padding: 5px 0px;
 }
 
 .form-content-card .country-list.split {
-	border-bottom: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
 }
 
 .form-content-card .country-item {
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	padding: 5px 10px;
-	cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 10px;
+  cursor: pointer;
 }
 
 .form-content-card .country-item:hover {
-	background-color: #f1f1f1;
+  background-color: #f1f1f1;
 }
 
 .form-content-card .country-item.selected {
-	background-color: #f1f1f1;
+  background-color: #f1f1f1;
 }
 
 .form-content-card .country-name {
-	display: flex;
-	align-items: center;
-	font-size: 15px;
-	line-height: 1;
-	column-gap: 6px;
-	text-align: left;
+  display: flex;
+  align-items: center;
+  font-size: 15px;
+  line-height: 1;
+  column-gap: 6px;
+  text-align: left;
 }
 
 .form-content-card .country-name img {
-	width: 25px;
-	height: 18px;
-	object-fit: contain;
+  width: 25px;
+  height: 18px;
+  object-fit: contain;
 }
 
 .form-content-card .phone-number-prefix {
-	margin: 0px;
-	font-size: 15px;
-	line-height: 1;
-	color: #909090;
+  margin: 0px;
+  font-size: 15px;
+  line-height: 1;
+  color: #909090;
 }
 
 .form-content-card .selected-country {
-	position: absolute;
-	line-height: 0;
-	bottom: 12px;
-	left: 10px;
-	display: flex;
-	align-items: center;
-	column-gap: 5px;
-	cursor: pointer;
+  position: absolute;
+  line-height: 0;
+  bottom: 12px;
+  left: 10px;
+  display: flex;
+  align-items: center;
+  column-gap: 5px;
+  cursor: pointer;
 }
 .form-content-card .selected-country:has(.no-image) {
-	display: none;
+  display: none;
 }
 .form-content-card .selected-country img {
-	width: 20px;
-	height: 15px;
-	object-fit: contain;
+  width: 20px;
+  height: 15px;
+  object-fit: contain;
 }
 
 .form-content-card .selected-country .arrow {
-	display: block;
-	width: 0px;
-	height: 0px;
-	border: 4px solid transparent;
-	border-top-color: black;
-	margin: 0px;
+  display: block;
+  width: 0px;
+  height: 0px;
+  border: 4px solid transparent;
+  border-top-color: black;
+  margin: 0px;
 }
 
 .form-content-card .selected-country.open .arrow {
-	border-bottom-color: black;
-	border-top-color: transparent;
+  border-bottom-color: black;
+  border-top-color: transparent;
 }
 
 .form-content-card .part-heading {
-	font-size: 21px;
-	margin-top: 0px;
-	margin-bottom: 16px;
+  font-size: 21px;
+  margin-top: 0px;
+  margin-bottom: 16px;
 }
 .form-content-card .non-independent .part-heading {
-	font-size: 18px;
-	margin-bottom: 10px;
+  font-size: 18px;
+  margin-bottom: 10px;
 }
 .form-content-card .form-step-section:not(:has(.part-description)) .part-heading {
-	margin-bottom: 30px;
+  margin-bottom: 30px;
 }
 .form-content-card .form-step-section:not(:has(.part-description)) .non-independent .part-heading {
-	margin-bottom: 15px;
+  margin-bottom: 15px;
 }
 .form-content-card .part-description {
-	font-size: 14px;
-	margin-top: 0px;
-	line-height: 1.2;
-	margin-bottom: 30px;
+  font-size: 14px;
+  margin-top: 0px;
+  line-height: 1.2;
+  margin-bottom: 30px;
 }
 .form-content-card .non-independent .part-description {
-	font-size: 13px;
-	margin-bottom: 20px;
+  font-size: 13px;
+  margin-bottom: 20px;
 }
 .form-content-card .check-field {
-	text-align: left;
-	font-size: 14px;
-	display: flex;
-	align-items: center;
-	column-gap: 10px;
-	padding: 15px 20px;
-	cursor: pointer;
+  text-align: left;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+  padding: 15px 20px;
+  cursor: pointer;
 }
 
 .form-content-card .check-field:not(:first-child) {
-	margin-top: -1px;
+  margin-top: -1px;
 }
 .form-content-card .check-field label {
-	display: block;
-	width: 100%;
+  display: block;
+  width: 100%;
 }
 .form-content-card .check-field span {
-	appearance: none;
-	-webkit-appearance: none;
-	min-width: 15px;
-	max-width: 15px;
-	height: 15px;
-	border: 1px solid transparent;
-	background-clip: content-box;
-	margin: 0px;
-  	padding: 3px;
+  appearance: none;
+  -webkit-appearance: none;
+  min-width: 15px;
+  max-width: 15px;
+  height: 15px;
+  border: 1px solid transparent;
+  background-clip: content-box;
+  margin: 0px;
+    padding: 3px;
 }
 
 .form-content-card .dropdown {
-	position: absolute;
-	width: 100%;
-	left: 0px;
-	top: 0px;
-	z-index: 100;
-	text-align: left;
-	max-height: 200px;
-	overflow: auto;
+  position: absolute;
+  width: 100%;
+  left: 0px;
+  top: 0px;
+  z-index: 100;
+  text-align: left;
+  max-height: 200px;
+  overflow: auto;
 }
 .form-content-card .dropdown:not(.show) {
-	display: none;
+  display: none;
 }
 .form-content-card .dropdown-item {
-	padding: 5px 10px;
-	cursor: pointer;
+  padding: 5px 10px;
+  cursor: pointer;
 }
 .form-content-card .dropdown-item input {
-	display: none;
+  display: none;
 }
 .form-content-card .dropdown-item label {
-	font-size: 16px;
-	font-weight: 500;
-	width: 100%;
-	display: block;
-	transform: none;
+  font-size: 16px;
+  font-weight: 500;
+  width: 100%;
+  display: block;
+  transform: none;
 }
 
 @media screen and (max-width: 1023px) {
-	.shopify-section-cfn .text-content {
-		width: 100%;
-	}
-	.shopify-section-cfn .description {
-		font-size: 16px;
-	}
-	.form-content-card {
-		padding: 60px 30px 20px;
-		width: 100%;
-	}
-	.form-content-card .logo {
-		width: 80px;
-	}
+  .shopify-section-cfn .text-content {
+    width: 100%;
+  }
+  .shopify-section-cfn .description {
+    font-size: 16px;
+  }
+  .form-content-card {
+    padding: 60px 30px 20px;
+    width: 100%;
+  }
+  .form-content-card .logo {
+    width: 80px;
+  }
 }
 @media screen and (max-width: 749px) {
-	.form-content-card {
-		padding: 60px 15px 20px;
-	}
-	.form-content-card .form-main-heading {
-		font-size: 20px;
-	}
-	.form-content-card .form-main-description {
-		font-size: 14px;
-		margin-bottom: 30px;
-	}
-	.form-content-card .form-step-section.form-main .step-content {
-		row-gap: 25px;
-	}
-	.form-content-card .name-field .field-wrapper {
-		width: calc(50% - 5px);
-	}
-	.shopify-section .step-item {
-		width: 100%;
-	}
-	.form-content-card .next-step {
-		margin-top: 30px;
-	}
-	.form-content-card .progressbar {
-		margin: 25px 0px;
-	}
+  .form-content-card {
+    padding: 60px 15px 20px;
+  }
+  .form-content-card .form-main-heading {
+    font-size: 20px;
+  }
+  .form-content-card .form-main-description {
+    font-size: 14px;
+    margin-bottom: 30px;
+  }
+  .form-content-card .form-step-section.form-main .step-content {
+    row-gap: 25px;
+  }
+  .form-content-card .name-field .field-wrapper {
+    width: calc(50% - 5px);
+  }
+  .shopify-section .step-item {
+    width: 100%;
+  }
+  .form-content-card .next-step {
+    margin-top: 30px;
+  }
+  .form-content-card .progressbar {
+    margin: 25px 0px;
+  }
 
-	.form-content-card .part-heading {
-		font-size: 18px;
-	}
-	.form-content-card .part-description {
-		font-size: 13px;
-	}
+  .form-content-card .part-heading {
+    font-size: 18px;
+  }
+  .form-content-card .part-description {
+    font-size: 13px;
+  }
 }
 
 .contact-form-modal {
-	position: fixed;
-	left: 0px;
-	top: 0px;
-	width: 100%;
-	z-index: 10000;
-	backdrop-filter: blur(3px);
-	background-color: rgba(0, 0, 0, 0.3);
-	transition: all .3s;
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  z-index: 10000;
+  backdrop-filter: blur(3px);
+  background-color: rgba(0, 0, 0, 0.3);
+  transition: all .3s;
 }
 .contact-form-modal:not(.show) {
-	opacity: 0;
-	pointer-events: none;
+  opacity: 0;
+  pointer-events: none;
 }
 .modal-content {
-	width: 100%;
-	min-height: 100vh;
-	max-height: 100vh;
-	overflow: auto;
-	padding: 20px 0px;
+  width: 100%;
+  min-height: 100vh;
+  max-height: 100vh;
+  overflow: auto;
+  padding: 20px 0px;
 }
 .contact-form-modal .form-content-card {
-	margin: 50px auto 0px;
-	max-width: 600px;
+  margin: 50px auto 0px;
+  max-width: 600px;
+}
+.contact-form-modal .step-content {
+  flex-direction: row !important;
+  flex-wrap: wrap;
+  justify-content: space-between ;
+}
+.contact-form-modal .step-content .field-wrapper {
+  width: calc(50% - 10px);
+}
+.contact-form-modal .step-content .step-content .field-wrapper {
+  width: 100%;
 }
 .contact-form-stickty-button {
-	position: fixed;
-	width: 60px;
-	height: 60px;
-	padding: 15px;
-	cursor: pointer;
-	right: 20px;
-	bottom: 20px;
-	z-index: 100000;
-	transition: all .3s;
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  padding: 15px;
+  cursor: pointer;
+  right: 20px;
+  bottom: 20px;
+  z-index: 100000;
+  transition: all .3s;
 }
 .contact-form-stickty-button:not(.opened) img:last-child:not(:first-child) {
-	display: none;
+  display: none;
 }
 .contact-form-stickty-button.opened img:first-child:not(:last-child) {
-	display: none;
+  display: none;
 }
 .contact-form-stickty-button:not(.show) {
-	display: none;
+  display: none;
 }
 @media screen and (max-width: 1023px) {
-	.modal-content {
-		padding: 20px 40px;
-	}
-	.contact-form-stickty-button {
-		width: 50px;
+  .modal-content {
+    padding: 20px 40px;
+  }
+  .contact-form-stickty-button {
+    width: 50px;
     height: 50px;
     padding: 12px;
     right: 10px;
     bottom: 10px;
-	}
+  }
 }
 @media screen and (max-width: 749px) {
-	.modal-content {
-		padding: 20px 30px;
-	}
+  .modal-content {
+    padding: 20px 30px;
+  }
 }
 @media screen and (max-width: 424px) {
-	.modal-content {
-		padding: 15px 10px;
-	}
+  .modal-content {
+    padding: 15px 10px;
+  }
 }

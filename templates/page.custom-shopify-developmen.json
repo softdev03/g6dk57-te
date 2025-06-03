@@ -252,9 +252,9 @@
         "breakpoint_dFNEn7": {
           "type": "breakpoint",
           "settings": {
-            "max_width": 424,
+            "max_width": 374,
             "item_count": 2,
-            "col_gap": 20,
+            "col_gap": 45,
             "row_gap": 30
           }
         },
@@ -263,7 +263,7 @@
           "settings": {
             "max_width": 749,
             "item_count": 3,
-            "col_gap": 20,
+            "col_gap": 54,
             "row_gap": 30
           }
         },
@@ -272,7 +272,7 @@
           "settings": {
             "max_width": 1023,
             "item_count": 4,
-            "col_gap": 20,
+            "col_gap": 60,
             "row_gap": 30
           }
         },
@@ -281,7 +281,7 @@
           "settings": {
             "max_width": 0,
             "item_count": 7,
-            "col_gap": 15,
+            "col_gap": 75,
             "row_gap": 30
           }
         }
@@ -1149,7 +1149,6 @@
         "breakpoint_XLhMfg",
         "breakpoint_JR7YcG"
       ],
-      "disabled": true,
       "settings": {
         "hero_section": false,
         "bg_color": "#ffffff",
