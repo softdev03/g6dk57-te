@@ -108,7 +108,7 @@
             "field_border_color_focus": "#feda15",
             "field_border_color_error": "#ff4e4e",
             "box_shadow_color": "#000000",
-            "place_holder_text": "Select",
+            "place_holder_text": "Select your service.",
             "dropdown_bg_color": "#ffffff",
             "dropdown_item_bg_color": "#ffffff",
             "dropdown_item_bg_color_hover": "#f5f5f5",
@@ -116,7 +116,7 @@
             "dropdown_item_color": "#000000",
             "dropdown_item_color_hover": "#000000",
             "dropdown_item_color_selected": "#000000",
-            "error_msg": "",
+            "error_msg": "Please select your service.",
             "error_msg_color": "#ff0000",
             "text_for_secondary": "",
             "secondary_field_name": "",
@@ -439,6 +439,7 @@
       ],
       "disabled": true,
       "settings": {
+        "hero_section": false,
         "heading": "Get In Touch",
         "text": "<p>Have a question before you ditch your old Agency? Feel free to reach out to us for any reason — we’re here to help!</p>",
         "form_heading": "We would love to hear from you!",
@@ -517,6 +518,7 @@
         "faq_item_eVtz8i"
       ],
       "settings": {
+        "hero_section": false,
         "heading": "Frequently Asked Questions",
         "bg_color": "#f9f9f9",
         "max_width": 800,
