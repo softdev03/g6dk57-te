@@ -205,6 +205,20 @@ document.addEventListener('DOMContentLoaded', () => {
     const loadMoreButton = customReviewSection.querySelector('.link.load-more');
     const customReviewItems = customReviewSection.querySelectorAll('.review-item');
     const increaseCount = parseInt(customReviewItemWrapper.getAttribute('increase-count')) || 4;
+    const reviewContentList = [];
+    const checkHeight = ({reviewContentWrapper,reviewContent}) => {
+      if(reviewContent instanceof HTMLElement) {
+        const reviewContentWrapperOther = reviewContentWrapper || reviewContent.closest('.review-content-wrapper');
+        if(reviewContentWrapperOther) {
+          const maxHeight = parseInt(reviewContent.getAttribute('max-height'));
+          if (maxHeight > reviewContent.scrollHeight) {
+            reviewContentWrapperOther.classList.add('no-need-read-more');
+          } else {
+            reviewContentWrapperOther.classList.remove('no-need-read-more');
+          }
+        }
+      }
+    }
     customReviewItems.forEach(customReviewItem => {
       const reviewContentWrapper = customReviewItem.querySelector('.review-content-wrapper');
       const reviewContent = reviewContentWrapper.querySelector('.review-content');
@@ -219,18 +233,8 @@ document.addEventListener('DOMContentLoaded', () => {
           }
         });
       });
-      const checkHeight = () => {
-        const maxHeight = parseInt(reviewContent.getAttribute('max-height'));
-        if (maxHeight > reviewContent.scrollHeight) {
-          reviewContentWrapper.classList.add('no-need-read-more');
-        } else {
-          reviewContentWrapper.classList.remove('no-need-read-more');
-        }
-      }
-      checkHeight();
-      window.addEventListener('resize', () => {
-        checkHeight();
-      });
+      reviewContentList.push(reviewContent);
+      checkHeight({reviewContentWrapper,reviewContent});
     });
     loadMoreButton.addEventListener('click',()=>{
       const hiddenItems = customReviewItemWrapper.querySelectorAll('.review-item:not(.show)');
@@ -239,9 +243,15 @@ document.addEventListener('DOMContentLoaded', () => {
           break;
         }
         hiddenItem.classList.add('show');
+        checkHeight({reviewContent: hiddenItem.querySelector('.review-content')})
       }
       if(hiddenItems.length <= increaseCount) {
         loadMoreButton.remove();
+      }
+    });
+    window.addEventListener('resize', () => {
+      for (const reviewContent of reviewContentList) {
+        checkHeight({reviewContent});
       }
     });
   });
