@@ -15,7 +15,7 @@
         "text_Ln9QYL": {
           "type": "text",
           "settings": {
-            "text": "<p>Clear Pricing. Real Value. No Surprises</p><h3></h3>",
+            "text": "<h1>Clear Pricing. Real Value. No Surprises</h1>",
             "desktop_margin": 20,
             "mobile_margin": 12,
             "desktop_align": "center",
@@ -72,7 +72,6 @@
         "text_GFR7gM"
       ],
       "settings": {
-        "hero_section": true,
         "bg_color": "#ffffff",
         "desktop_padding_top": 60,
         "desktop_padding_bottom": 40,
@@ -118,6 +117,7 @@
           "settings": {
             "handle_number": 1,
             "id": "shopify-lanuch",
+            "content_align": "center",
             "icon": "shopify://shop_images/logo_8676fd03-d3d9-496f-bc2c-f1b1a9fd3c18.svg",
             "heading": "Starter",
             "sub_heading": "Ready-Made Shopify Store",
@@ -151,6 +151,7 @@
           "settings": {
             "handle_number": 1,
             "id": "shopify-lanuch",
+            "content_align": "center",
             "icon": "shopify://shop_images/logo_8676fd03-d3d9-496f-bc2c-f1b1a9fd3c18.svg",
             "heading": "Standard",
             "sub_heading": "Shopify Design & Development",
@@ -184,6 +185,7 @@
           "settings": {
             "handle_number": 1,
             "id": "shopify-growth",
+            "content_align": "center",
             "icon": "shopify://shop_images/logo_8676fd03-d3d9-496f-bc2c-f1b1a9fd3c18.svg",
             "heading": "Growth",
             "sub_heading": "Shopify Design & Development",
@@ -217,6 +219,7 @@
           "settings": {
             "handle_number": 1,
             "id": "shopify-enterprise",
+            "content_align": "center",
             "icon": "shopify://shop_images/logo_8676fd03-d3d9-496f-bc2c-f1b1a9fd3c18.svg",
             "heading": "Advanced/Custom",
             "sub_heading": "Custom Shopify Plus Store with Support",
@@ -250,6 +253,7 @@
           "settings": {
             "handle_number": 2,
             "id": "service-lanuch",
+            "content_align": "center",
             "icon": "shopify://shop_images/logo-variation-3.png",
             "heading": "Launch",
             "sub_heading": "Service Website Design & Build",
@@ -283,6 +287,7 @@
           "settings": {
             "handle_number": 2,
             "id": "service-lanuch",
+            "content_align": "center",
             "icon": "shopify://shop_images/logo-variation-3.png",
             "heading": "Growth",
             "sub_heading": "Service Website Design & Build",
@@ -316,6 +321,7 @@
           "settings": {
             "handle_number": 2,
             "id": "service-enterprise",
+            "content_align": "center",
             "icon": "shopify://shop_images/logo-variation-3.png",
             "heading": "Enterprise",
             "sub_heading": "Advanced Build for Service Businesses",
@@ -349,6 +355,7 @@
           "settings": {
             "handle_number": 3,
             "id": "marketing-launch",
+            "content_align": "center",
             "icon": "shopify://shop_images/logo-variation-3.png",
             "heading": "Launch",
             "sub_heading": "Run your first profitable ad campaigns without the guesswork.",
@@ -382,6 +389,7 @@
           "settings": {
             "handle_number": 3,
             "id": "marketing-growth",
+            "content_align": "center",
             "icon": "shopify://shop_images/logo-variation-3.png",
             "heading": "Growth",
             "sub_heading": "Scale your brand across two major platforms with smarter strategies.",
@@ -415,6 +423,7 @@
           "settings": {
             "handle_number": 3,
             "id": "marketing-enterprise",
+            "content_align": "center",
             "icon": "shopify://shop_images/logo-variation-3.png",
             "heading": "Enterprise",
             "sub_heading": "Dominate your industry with full-funnel, multi-channel ad campaigns.",
@@ -448,6 +457,7 @@
           "settings": {
             "handle_number": 4,
             "id": "brand-launch",
+            "content_align": "center",
             "icon": "shopify://shop_images/logo-variation-3.png",
             "heading": "Launch",
             "sub_heading": "Branding Package",
@@ -481,6 +491,7 @@
           "settings": {
             "handle_number": 4,
             "id": "brand-growth",
+            "content_align": "center",
             "icon": "shopify://shop_images/logo-variation-3.png",
             "heading": "Growth",
             "sub_heading": "Branding Package",
@@ -514,6 +525,7 @@
           "settings": {
             "handle_number": 4,
             "id": "brand-enterprise",
+            "content_align": "center",
             "icon": "shopify://shop_images/logo-variation-3.png",
             "heading": "Enterprise",
             "sub_heading": "Branding Package",
@@ -607,6 +619,7 @@
         "breakpoint_JR7YcG"
       ],
       "settings": {
+        "hero_section": false,
         "bg_color": "#ffffff",
         "tab_bg_color": "#000000",
         "tab_text_color": "#ffffff",

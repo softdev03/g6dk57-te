@@ -44,6 +44,14 @@
             {%- endcase -%}
           }
         }
+        #text-{{ block.id }} h1,#text-{{ block.id }}  h2,#text-{{ block.id }} h3,#text-{{ block.id }} h4,#text-{{ block.id }} h5,#text-{{ block.id }} h6 {
+          font-size: inherit;
+          margin: 0px;
+          font-weight: inherit;
+          color: inherit;
+          letter-spacing: inherit;
+          line-height: inherit;
+        }
         #text-{{ block.id }} .highlight {
           color: {{ block.settings.desktop_highlight_text_color }};
         }

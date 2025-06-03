@@ -745,7 +745,7 @@
         "shadow_y": 0,
         "shadow_blur": 10,
         "shadow_spread": 0,
-        "max_height": 196,
+        "max_height": 40,
         "read_more_btn_text": "Read",
         "read_more_btn_text_shown": "Hide",
         "read_more_btn_color": "#000000",

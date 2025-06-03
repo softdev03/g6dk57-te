@@ -105,8 +105,8 @@
         "contact_form_Qn78PR"
       ],
       "settings": {
-        "key": "",
         "hero_section": true,
+        "key": "",
         "badge_text": "Shopify Web Design",
         "badge_bg_color": "#212121",
         "badge_txt_color": "#ffffff",
@@ -304,6 +304,7 @@
         "breakpoint_gR6QyE"
       ],
       "settings": {
+        "hero_section": false,
         "bg_color": "#ffffff",
         "heading": "Trusted by Australian Brands for []",
         "secondary_heading": "Shopify Website Development",
@@ -638,6 +639,7 @@
     "advertise_HPp6jH": {
       "type": "advertise",
       "settings": {
+        "hero_section": false,
         "key": "",
         "badge_text": "",
         "badge_bg_color": "#ffffff",
@@ -1029,7 +1031,7 @@
             "main_content": "<p>from [price]+ GST / once-off</p><p></p><p>For brands ready to scale with more products and SEO built-in.<br/></p>",
             "secondary_content": "<p><strong>What’s included</strong></p><p>Shopify theme tailored to your brand</p><ul><li>Homepage design</li><li>Up to 15 collections or categories</li><li>Up to 200 products</li><li>Up to 8 content pages</li><li>Shopify payment / PayPal setup</li><li>Newsletter signup and social media links</li><li>Up to 3 blog index and article pages</li><li>Personalised admin guide</li><li>SEO titles & descriptions*</li><li>Post-launch training call</li><li>Conversion tracking setup</li><li>Dedicated project manager</li><li><strong>2 x post launch training sessions</strong></li><li><strong>30 days post launch support</strong></li><li><em>Custom design or animations</em></li><li><em>Advanced app integration (3+ apps)</em></li><li><em>Shopify Plus support</em></li></ul><p>*Products to be supplied by client in CSV format</p>",
             "secondary_list_item_icon": "shopify://shop_images/checkmark.png",
-            "badge_text": "RECOMMENDED",
+            "badge_text": "",
             "price": 4800,
             "enable_tip": false,
             "use_icon_for_mark": true,
@@ -1137,6 +1139,7 @@
       ],
       "disabled": true,
       "settings": {
+        "hero_section": false,
         "bg_color": "#ffffff",
         "tab_bg_color": "#000000",
         "tab_text_color": "#ffffff",
@@ -1864,6 +1867,7 @@
         "faq_item_ifVb4t"
       ],
       "settings": {
+        "hero_section": false,
         "heading": "Frequently Asked Questions",
         "bg_color": "#fbfbfb",
         "max_width": 684,
@@ -1891,6 +1895,7 @@
     "advertise_PAQGf7": {
       "type": "advertise",
       "settings": {
+        "hero_section": false,
         "key": "",
         "badge_text": "",
         "badge_bg_color": "#ffffff",
@@ -1933,6 +1938,7 @@
     "advertise_DnFdqE": {
       "type": "advertise",
       "settings": {
+        "hero_section": false,
         "key": "",
         "badge_text": "",
         "badge_bg_color": "#ffffff",
@@ -1975,6 +1981,7 @@
     "advertise_JebRqW": {
       "type": "advertise",
       "settings": {
+        "hero_section": false,
         "key": "",
         "badge_text": "",
         "badge_bg_color": "#ffffff",
@@ -2017,6 +2024,7 @@
     "advertise_KLNL33": {
       "type": "advertise",
       "settings": {
+        "hero_section": false,
         "key": "",
         "badge_text": "",
         "badge_bg_color": "#ffffff",
@@ -2135,6 +2143,7 @@
         "tradies_item_tDB4YR"
       ],
       "settings": {
+        "hero_section": false,
         "heading": "Who’s This For?",
         "text": "If you’re serious about growing your eCommerce business, you need a store that’s built right.",
         "desktop_padding_top": 60,
@@ -2198,6 +2207,7 @@
         "partner_item_nMMzBY"
       ],
       "settings": {
+        "hero_section": false,
         "heading": "Partnered With",
         "bg_color": "#ffffff",
         "desktop_card_border_radius": 10,

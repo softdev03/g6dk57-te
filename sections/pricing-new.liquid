@@ -90,7 +90,7 @@
   {%- endif -%}
   {%- for i in (1..10) -%}
     {%- assign subPricingItems = pricingItems | where: 'handle_number', i -%}
-    {%- if tabItems.size > 0 -%}
+    {%- if tabItems.size == 0 -%}
       {%- assign subPricingItems = pricingItems -%}
     {%- endif -%}
     {%- if subPricingItems.size > 0 -%}
