@@ -43,15 +43,15 @@
         "logo_Qfj7tA": {
           "type": "logo",
           "settings": {
-            "logo": "shopify://shop_images/04.png",
+            "logo": "shopify://shop_images/shopify-partner-logo.jpg",
             "link": ""
           }
         },
         "logo_mN7Rmr": {
           "type": "logo",
           "settings": {
-            "logo": "shopify://shop_images/shopify-icon.svg",
-            "link": "#"
+            "logo": "shopify://shop_images/logo_shopify-plus-partner_500x150_2759d9a1-bdaa-4d53-86cb-9fb78e8cfcfd.webp",
+            "link": ""
           }
         },
         "contact_form_Qn78PR": {
@@ -112,8 +112,8 @@
         "badge_txt_color": "#ffffff",
         "badge_border_radius": 100,
         "hide_badge_on_mobile": true,
-        "hide_subheading_on_mobile": true,
-        "hide_text_on_mobile": true,
+        "hide_subheading_on_mobile": false,
+        "hide_text_on_mobile": false,
         "hide_media_on_mobile": true,
         "loop_video": true,
         "autoplay_video": true,
