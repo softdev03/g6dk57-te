@@ -293,13 +293,10 @@ const replaceSecondText = () => {
   for (const enquireLinkPos of enquireLinkPosList) {
     enquireLinkPos.el.classList.toggle('state-sticky', enquireLinkPos.isBigger?window.scrollY >= enquireLinkPos.pos:window.scrollY <= enquireLinkPos.pos);
     if(contactModal) {
-      enquireLinkPos.el.querySelectorAll('span').forEach(span=>{
-        span.addEventListener('click',(e)=>{
-          if(enquireLinkPos.el.classList.contains('state-sticky')) {
-            e.preventDefault();
-            contactModal.classList.add('show');
-          }
-        });
+      enquireLinkPos.el.addEventListener('click',()=>{
+        if(enquireLinkPos.el.classList.contains('state-sticky')) {
+          contactModal.classList.add('show');
+        }
       });
     }
   }
