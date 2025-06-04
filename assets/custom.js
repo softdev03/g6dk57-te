@@ -236,7 +236,7 @@ document.addEventListener('DOMContentLoaded', () => {
       reviewContentList.push(reviewContent);
       checkHeight({reviewContentWrapper,reviewContent});
     });
-    loadMoreButton.addEventListener('click',()=>{
+    loadMoreButton?.addEventListener('click',()=>{
       const hiddenItems = customReviewItemWrapper.querySelectorAll('.review-item:not(.show)');
       for (const [index,hiddenItem] of hiddenItems.entries()) {
         if(index >= increaseCount) {

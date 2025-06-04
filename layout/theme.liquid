@@ -482,8 +482,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         {%- else -%}
           <span class="first-text">{{ settings.global_enquire_link_text }}</span>
         {%- endif -%}
-        {%- if settings.global_enquire_link_second_text != blank -%}
-          <span class="second-text">{{ settings.global_enquire_link_second_text }}</span>
+        {%- if settings.desktop_global_enquire_link_second_text != blank -%}
+          <span class="desktop second-text">{{ settings.desktop_global_enquire_link_second_text }}</span>
+        {%- endif -%}
+        {%- if settings.mobile_global_enquire_link_second_text != blank -%}
+          <span class="mobile second-text">{{ settings.mobile_global_enquire_link_second_text }}</span>
         {%- endif -%}
       </div>
     {%- endif -%}

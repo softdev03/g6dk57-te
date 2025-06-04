@@ -163,17 +163,27 @@ img {
   color: inherit;
   text-decoration: none;
 }
-.enquire-link.state-sticky .first-text {
+.enquire-link.state-sticky:has(.second-text) .first-text {
   display: none;
 }
 .enquire-link:not(.state-sticky) .second-text {
   display: none;
 }
+@media screen and (min-width: 750px) {
+  .enquire-link .second-text.mobile {
+    display: none;
+  }
+}
+@media screen and (max-width: 749px) {
+  .enquire-link .second-text.desktop {
+    display: none;
+  }
+}
 .global-enquire-link {
   position: fixed;
   right: 20px;
   bottom: -100px;
-  z-index: 1000000;
+  z-index: 1;
 }
 .global-enquire-link.show {
   bottom: 20px;

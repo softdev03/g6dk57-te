@@ -322,8 +322,11 @@
         {%- else -%}
           <span class="first-text">{{ section.settings.enquire_link_text }}</span>
         {%- endif -%}
-        {%- if section.settings.enquire_link_second_text != blank -%}
-          <span class="second-text">{{ section.settings.enquire_link_second_text }}</span>
+        {%- if section.settings.desktop_enquire_link_second_text != blank -%}
+          <span class="second-text desktop">{{ section.settings.desktop_enquire_link_second_text }}</span>
+        {%- endif -%}
+        {%- if section.settings.mobile_enquire_link_second_text != blank -%}
+          <span class="second-text mobile">{{ section.settings.mobile_enquire_link_second_text }}</span>
         {%- endif -%}
       </div>
     {%- endif -%}
@@ -623,8 +626,13 @@
     },
     {
       "type": "text",
-      "id": "enquire_link_second_text",
-      "label": "Enquire Link Second Text"
+      "id": "desktop_enquire_link_second_text",
+      "label": "Desktop Enquire Link Second Text"
+    },
+    {
+      "type": "text",
+      "id": "mobile_enquire_link_second_text",
+      "label": "Mobile Enquire Link Second Text"
     },
     {
       "type": "number",
