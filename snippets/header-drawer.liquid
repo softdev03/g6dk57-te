@@ -373,9 +373,9 @@
                 {%- endif -%}
               </ul>
             {% endcomment %}
-            {%- if section.settings.enquire_link != blank and section.settings.enquire_link_text != blank -%}
+            {% comment %} {%- if section.settings.enquire_link != blank and section.settings.enquire_link_text != blank -%}
               <a href="{{ section.settings.enquire_link }}" class="enquire-link">{{ section.settings.enquire_link_text }}</a>
-            {%- endif -%}
+            {%- endif -%} {% endcomment %}
           </div>
         </div>
       </div>

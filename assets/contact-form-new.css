@@ -145,7 +145,6 @@
 .form-content-card .form-step-section.form-main .step-content:not(.non-independent) {
   display: flex;
   flex-direction: column;
-  row-gap: 30px;
 }
 
 .form-content-card .form-step-section {
@@ -482,7 +481,7 @@
   left: 0px;
   top: 0px;
   width: 100%;
-  z-index: 10000;
+  z-index: 10000000;
   backdrop-filter: blur(3px);
   background-color: rgba(0, 0, 0, 0.3);
   transition: all .3s;
@@ -508,6 +507,9 @@
   justify-content: space-between ;
 }
 .contact-form-modal .step-content .field-wrapper {
+  width: calc(50% - 10px);
+}
+.contact-form-modal .step-content .step-content {
   width: calc(50% - 10px);
 }
 .contact-form-modal .step-content .step-content .field-wrapper {
@@ -548,6 +550,14 @@
 @media screen and (max-width: 749px) {
   .modal-content {
     padding: 20px 30px;
+  }
+}
+@media screen and (max-width: 512px) {
+  .contact-form-modal .step-content .field-wrapper {
+    width: 100%;
+  }
+  .contact-form-modal .step-content .step-content {
+    width: 100%;
   }
 }
 @media screen and (max-width: 424px) {

@@ -120,17 +120,21 @@ details:has(.header__menu-item:hover) .header__submenu {
   }
 }
 @media screen and (max-width: 989px) {
-  .header .enquire-link {
-    display: none;
-  }
   .header .menu-drawer .enquire-link {
     display: block;
   }
   .header-wrapper .header {
-    grid-template-columns: 1fr auto 1fr;
+    grid-template-columns: auto 1fr auto;
   }
 }
-
+@media screen and (max-width: 512px) {
+  .header .enquire-link {
+    font-size: 12px;
+    white-space: normal;
+    line-height: 1.2;
+    padding: 10px 15px;
+  }
+}
 details.mega-menu {
   position: relative;
 }
