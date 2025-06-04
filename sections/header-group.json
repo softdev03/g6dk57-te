@@ -14,6 +14,7 @@
     "announcement_bar_new_6eRUkr": {
       "type": "announcement-bar-new",
       "settings": {
+        "section_id": "",
         "own_text": "Australian Owned & Operated · Shopify Experts for Aussie Businesses",
         "trust_text": "Trusted by 380+ Brands",
         "trust_img": "shopify://shop_images/review-stars-new_c29b87db-b7be-4045-88d6-6ed0253b3672.svg",
@@ -169,7 +170,10 @@
         "text_color": "#121212",
         "enquire_link": "tel:(02) 8088 0768",
         "enquire_link_text": "Call (02) 8088 0768",
-        "enquire_link_second_text": "Send me a Proposal",
+        "desktop_enquire_link_second_text": "Get Free Proposal",
+        "mobile_enquire_link_second_text": "Free Proposal",
+        "second_text_pos": 100,
+        "is_bigger": true,
         "enquire_link_color": "header-enquire-button",
         "enable_country_selector": false,
         "enable_language_selector": false,

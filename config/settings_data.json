@@ -133,6 +133,8 @@
     "global_enquire_link_text": "Call (02) 8088 0768",
     "global_second_text_pos": 0,
     "global_enquire_link_color": "global-enquire-button",
+    "desktop_global_enquire_link_second_text": "Get Free Proposal",
+    "mobile_global_enquire_link_second_text": "Free Proposal",
     "sticky_btn_icon": "shopify://shop_images/rocket_5680648a-6c2e-46c0-b3a4-5a08858140c4.svg",
     "sticky_btn_icon_opened": "shopify://shop_images/rocket.svg",
     "sticky_btn_bg_color": "#121212",
