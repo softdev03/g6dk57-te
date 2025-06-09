@@ -12,8 +12,17 @@
     "advertise_xMT9mA": {
       "type": "advertise",
       "settings": {
+        "section_id": "",
         "hero_section": true,
         "key": "",
+        "badge_text": "",
+        "badge_bg_color": "#ffffff",
+        "badge_txt_color": "#000000",
+        "badge_border_radius": 0,
+        "hide_badge_on_mobile": false,
+        "hide_subheading_on_mobile": false,
+        "hide_text_on_mobile": false,
+        "hide_media_on_mobile": false,
         "loop_video": true,
         "autoplay_video": true,
         "main_image": "shopify://shop_images/AnAgencyServiceWebsite01.png",
@@ -36,7 +45,10 @@
         "button_link": "shopify://pages/contact",
         "button_text": "Get a Shopify Migration Quote",
         "image_right": true,
+        "desktop_text_align": "left",
+        "mobile_text_align": "center",
         "background_color": "#ffffff",
+        "text_color": "#000000",
         "desktop_padding_top": 60,
         "desktop_padding_bottom": 60,
         "mobile_padding_top": 40,
@@ -46,7 +58,17 @@
     "advertise_HPp6jH": {
       "type": "advertise",
       "settings": {
+        "section_id": "",
+        "hero_section": false,
         "key": "",
+        "badge_text": "",
+        "badge_bg_color": "#ffffff",
+        "badge_txt_color": "#000000",
+        "badge_border_radius": 0,
+        "hide_badge_on_mobile": false,
+        "hide_subheading_on_mobile": false,
+        "hide_text_on_mobile": false,
+        "hide_media_on_mobile": false,
         "loop_video": true,
         "autoplay_video": true,
         "main_image": "shopify://shop_images/AnAencyContent03.png",
@@ -68,7 +90,10 @@
         "button_link": "shopify://pages/contact",
         "button_text": "Speak To Our Team",
         "image_right": false,
+        "desktop_text_align": "left",
+        "mobile_text_align": "center",
         "background_color": "#ffffff",
+        "text_color": "#000000",
         "desktop_padding_top": 60,
         "desktop_padding_bottom": 60,
         "mobile_padding_top": 40,
@@ -78,7 +103,17 @@
     "advertise_KLNL33": {
       "type": "advertise",
       "settings": {
+        "section_id": "",
+        "hero_section": false,
         "key": "",
+        "badge_text": "",
+        "badge_bg_color": "#ffffff",
+        "badge_txt_color": "#000000",
+        "badge_border_radius": 0,
+        "hide_badge_on_mobile": false,
+        "hide_subheading_on_mobile": false,
+        "hide_text_on_mobile": false,
+        "hide_media_on_mobile": false,
         "loop_video": true,
         "autoplay_video": true,
         "main_image": "shopify://shop_images/AnAgencyShopifyWebsite10.png",
@@ -100,7 +135,10 @@
         "button_link": "shopify://pages/contact",
         "button_text": "Get My Shopify Migration Breakdown",
         "image_right": true,
+        "desktop_text_align": "left",
+        "mobile_text_align": "center",
         "background_color": "#ffffff",
+        "text_color": "#000000",
         "desktop_padding_top": 60,
         "desktop_padding_bottom": 60,
         "mobile_padding_top": 40,
@@ -110,7 +148,17 @@
     "advertise_6VLxp7": {
       "type": "advertise",
       "settings": {
+        "section_id": "",
+        "hero_section": false,
         "key": "",
+        "badge_text": "",
+        "badge_bg_color": "#ffffff",
+        "badge_txt_color": "#000000",
+        "badge_border_radius": 0,
+        "hide_badge_on_mobile": false,
+        "hide_subheading_on_mobile": false,
+        "hide_text_on_mobile": false,
+        "hide_media_on_mobile": false,
         "loop_video": true,
         "autoplay_video": true,
         "main_image": "shopify://shop_images/GoogleAds_09.jpg",
@@ -133,7 +181,10 @@
         "button_link": "shopify://pages/contact",
         "button_text": "Get My Shopify Migration Breakdown",
         "image_right": false,
+        "desktop_text_align": "left",
+        "mobile_text_align": "center",
         "background_color": "#ffffff",
+        "text_color": "#000000",
         "desktop_padding_top": 60,
         "desktop_padding_bottom": 60,
         "mobile_padding_top": 40,
@@ -164,7 +215,10 @@
             "desktop_max_width": 1440,
             "mobile_max_width": 1440,
             "desktop_color": "#000000",
-            "mobile_color": "#121212"
+            "mobile_color": "#121212",
+            "highlight_text": "",
+            "desktop_highlight_text_color": "#000000",
+            "mobile_highlight_text_color": "#000000"
           }
         },
         "text_VfFdk4": {
@@ -188,7 +242,10 @@
             "desktop_max_width": 1000,
             "mobile_max_width": 1000,
             "desktop_color": "#000000",
-            "mobile_color": "#000000"
+            "mobile_color": "#000000",
+            "highlight_text": "",
+            "desktop_highlight_text_color": "#000000",
+            "mobile_highlight_text_color": "#000000"
           }
         }
       },
@@ -197,6 +254,7 @@
         "text_VfFdk4"
       ],
       "settings": {
+        "section_id": "",
         "bg_color": "#ffffff",
         "desktop_padding_top": 60,
         "desktop_padding_bottom": 40,
@@ -427,6 +485,7 @@
         "breakpoint_c6QjXi"
       ],
       "settings": {
+        "section_id": "",
         "bg_color": "#ffffff",
         "image_item_border_radius": 4,
         "loadmore_btn_text": "See More Projects",
@@ -445,7 +504,17 @@
     "advertise_PAQGf7": {
       "type": "advertise",
       "settings": {
+        "section_id": "",
+        "hero_section": false,
         "key": "",
+        "badge_text": "",
+        "badge_bg_color": "#ffffff",
+        "badge_txt_color": "#000000",
+        "badge_border_radius": 0,
+        "hide_badge_on_mobile": false,
+        "hide_subheading_on_mobile": false,
+        "hide_text_on_mobile": false,
+        "hide_media_on_mobile": false,
         "loop_video": true,
         "autoplay_video": true,
         "main_image": "shopify://shop_images/AnAgencyShopifyWebsite05.png",
@@ -467,7 +536,10 @@
         "button_link": "#",
         "button_text": "",
         "image_right": false,
+        "desktop_text_align": "left",
+        "mobile_text_align": "center",
         "background_color": "#fbfbfb",
+        "text_color": "#000000",
         "desktop_padding_top": 60,
         "desktop_padding_bottom": 60,
         "mobile_padding_top": 40,
@@ -477,7 +549,17 @@
     "advertise_DnFdqE": {
       "type": "advertise",
       "settings": {
+        "section_id": "",
+        "hero_section": false,
         "key": "",
+        "badge_text": "",
+        "badge_bg_color": "#ffffff",
+        "badge_txt_color": "#000000",
+        "badge_border_radius": 0,
+        "hide_badge_on_mobile": false,
+        "hide_subheading_on_mobile": false,
+        "hide_text_on_mobile": false,
+        "hide_media_on_mobile": false,
         "loop_video": true,
         "autoplay_video": true,
         "main_image": "shopify://shop_images/AnAgencyShopifyWebsite07.png",
@@ -499,7 +581,10 @@
         "button_link": "",
         "button_text": "",
         "image_right": true,
+        "desktop_text_align": "left",
+        "mobile_text_align": "center",
         "background_color": "#ffffff",
+        "text_color": "#000000",
         "desktop_padding_top": 60,
         "desktop_padding_bottom": 60,
         "mobile_padding_top": 40,
@@ -509,7 +594,17 @@
     "advertise_JebRqW": {
       "type": "advertise",
       "settings": {
+        "section_id": "",
+        "hero_section": false,
         "key": "",
+        "badge_text": "",
+        "badge_bg_color": "#ffffff",
+        "badge_txt_color": "#000000",
+        "badge_border_radius": 0,
+        "hide_badge_on_mobile": false,
+        "hide_subheading_on_mobile": false,
+        "hide_text_on_mobile": false,
+        "hide_media_on_mobile": false,
         "loop_video": true,
         "autoplay_video": true,
         "main_image": "shopify://shop_images/AnAgencyShopifyWebsite08.png",
@@ -531,7 +626,10 @@
         "button_link": "shopify://pages/contact",
         "button_text": "Show Me the Process",
         "image_right": false,
+        "desktop_text_align": "left",
+        "mobile_text_align": "center",
         "background_color": "#fbfbfb",
+        "text_color": "#000000",
         "desktop_padding_top": 60,
         "desktop_padding_bottom": 60,
         "mobile_padding_top": 40,
@@ -541,14 +639,15 @@
     "phone_ring_MzFcJr": {
       "type": "phone-ring",
       "settings": {
+        "hero_section": false,
         "key": "",
         "image": "shopify://shop_images/GoogleAds_08.jpg",
         "heading_1": "Who We Help Migrate to Shopify",
         "heading_2": "(and Why They Call Us First)",
         "sub_heading": "We help eCommerce brands migrate to Shopify or Shopify Plus from WooCommerce, Magento, BigCommerce, Squarespace, WordPress, and more. Whether you're rebuilding a legacy store or switching from a fragile setup, we make it seamless.",
         "text": "Based in Sydney, Melbourne, Adelaide, Brisbane or remote — we work Australia-wide.",
-        "phone_button_text": "0499226600",
-        "phone_number": "0499226600",
+        "phone_button_text": "(02) 8088 0768",
+        "phone_number": "(02) 8088 0768",
         "enquire_button_text": "See Our Work",
         "enquire_button_link": "shopify://pages/our-work",
         "image_right": true,
@@ -718,6 +817,8 @@
         "breakpoint_gR6QyE"
       ],
       "settings": {
+        "section_id": "",
+        "hero_section": false,
         "bg_color": "#ffffff",
         "heading": "BIG OR SMALL, []",
         "secondary_heading": "FAST GROWTH",
@@ -765,7 +866,10 @@
             "desktop_max_width": 1000,
             "mobile_max_width": 1000,
             "desktop_color": "#121212",
-            "mobile_color": "#121212"
+            "mobile_color": "#121212",
+            "highlight_text": "",
+            "desktop_highlight_text_color": "#000000",
+            "mobile_highlight_text_color": "#000000"
           }
         },
         "text_MBaFDg": {
@@ -789,7 +893,10 @@
             "desktop_max_width": 1000,
             "mobile_max_width": 1000,
             "desktop_color": "#fdd328",
-            "mobile_color": "#fdd328"
+            "mobile_color": "#fdd328",
+            "highlight_text": "",
+            "desktop_highlight_text_color": "#000000",
+            "mobile_highlight_text_color": "#000000"
           }
         }
       },
@@ -798,6 +905,7 @@
         "text_MBaFDg"
       ],
       "settings": {
+        "section_id": "",
         "bg_color": "#ffffff",
         "desktop_padding_top": 60,
         "desktop_padding_bottom": 40,
@@ -886,6 +994,9 @@
         "breakpoint_PMwB3w"
       ],
       "settings": {
+        "section_id": "",
+        "init_show_count": 100,
+        "increase_count": 4,
         "bg_color": "#ffffff",
         "card_bg_color": "#ffffff",
         "card_text_color": "#000000",
@@ -903,6 +1014,7 @@
         "read_more_btn_color_hover": "#787878",
         "link_btn_text": "FIND MORE OUT",
         "link": "shopify://pages/contact",
+        "use_this_for_load_more": false,
         "link_btn_bg_color": "#121212",
         "link_btn_text_color": "#ffffff",
         "link_btn_bg_color_hover": "#fdd328",
@@ -940,7 +1052,10 @@
             "desktop_max_width": 1000,
             "mobile_max_width": 1000,
             "desktop_color": "#000000",
-            "mobile_color": "#000000"
+            "mobile_color": "#000000",
+            "highlight_text": "",
+            "desktop_highlight_text_color": "#000000",
+            "mobile_highlight_text_color": "#000000"
           }
         },
         "text_eBjNbe": {
@@ -964,7 +1079,10 @@
             "desktop_max_width": 1440,
             "mobile_max_width": 1440,
             "desktop_color": "#000000",
-            "mobile_color": "#000000"
+            "mobile_color": "#000000",
+            "highlight_text": "",
+            "desktop_highlight_text_color": "#000000",
+            "mobile_highlight_text_color": "#000000"
           }
         }
       },
@@ -973,6 +1091,7 @@
         "text_eBjNbe"
       ],
       "settings": {
+        "section_id": "",
         "bg_color": "#ffffff",
         "desktop_padding_top": 60,
         "desktop_padding_bottom": 40,
@@ -1109,7 +1228,9 @@
         "breakpoint_apF6AV"
       ],
       "settings": {
+        "section_id": "",
         "bg_color": "#ffffff",
+        "not_necessary": false,
         "card_bg_color": "#ffffff",
         "card_border_color": "#e5e5e5",
         "score_color": "#fdd328",
@@ -1123,7 +1244,17 @@
     "advertise_qQYPyj": {
       "type": "advertise",
       "settings": {
+        "section_id": "",
+        "hero_section": false,
         "key": "",
+        "badge_text": "",
+        "badge_bg_color": "#ffffff",
+        "badge_txt_color": "#000000",
+        "badge_border_radius": 0,
+        "hide_badge_on_mobile": false,
+        "hide_subheading_on_mobile": false,
+        "hide_text_on_mobile": false,
+        "hide_media_on_mobile": false,
         "loop_video": true,
         "autoplay_video": true,
         "main_image": "shopify://shop_images/AnAgencyShopifyWebsite09.png",
@@ -1145,7 +1276,10 @@
         "button_link": "shopify://pages/contact",
         "button_text": "Let’s Talk Shopify →",
         "image_right": false,
+        "desktop_text_align": "left",
+        "mobile_text_align": "center",
         "background_color": "#ffffff",
+        "text_color": "#000000",
         "desktop_padding_top": 60,
         "desktop_padding_bottom": 60,
         "mobile_padding_top": 40,
@@ -1249,6 +1383,8 @@
         "faq_item_pGAqqF"
       ],
       "settings": {
+        "section_id": "",
+        "hero_section": false,
         "heading": "Shopify Migration FAQ",
         "bg_color": "#fbfbfb",
         "max_width": 684,
@@ -1299,6 +1435,7 @@
       ],
       "disabled": true,
       "settings": {
+        "hero_section": false,
         "heading": "Who’s This For?",
         "text": "<p>Who’s This For?If you’re serious about growing your eCommerce business, you need a store that’s built right.</p>",
         "trust_image": "shopify://shop_images/review-bar-green.svg",
@@ -1311,7 +1448,17 @@
     "advertise_fqXC4G": {
       "type": "advertise",
       "settings": {
+        "section_id": "",
+        "hero_section": false,
         "key": "",
+        "badge_text": "",
+        "badge_bg_color": "#ffffff",
+        "badge_txt_color": "#000000",
+        "badge_border_radius": 0,
+        "hide_badge_on_mobile": false,
+        "hide_subheading_on_mobile": false,
+        "hide_text_on_mobile": false,
+        "hide_media_on_mobile": false,
         "loop_video": true,
         "autoplay_video": true,
         "main_image": "shopify://shop_images/GoogleAds_09.jpg",
@@ -1334,7 +1481,10 @@
         "button_link": "shopify://pages/contact",
         "button_text": "Book a Free Chat →",
         "image_right": false,
+        "desktop_text_align": "left",
+        "mobile_text_align": "center",
         "background_color": "#ffffff",
+        "text_color": "#000000",
         "desktop_padding_top": 60,
         "desktop_padding_bottom": 60,
         "mobile_padding_top": 40,
@@ -1421,6 +1571,7 @@
       ],
       "disabled": true,
       "settings": {
+        "hero_section": false,
         "heading": "Who’s This For?",
         "text": "If you’re serious about growing your eCommerce business, you need a store that’s built right.",
         "desktop_padding_top": 60,
@@ -1499,6 +1650,7 @@
         "partner_item_nMMzBY"
       ],
       "settings": {
+        "hero_section": false,
         "heading": "Partnered With",
         "bg_color": "#ffffff",
         "desktop_card_border_radius": 10,

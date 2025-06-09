@@ -72,6 +72,7 @@
         "text_GFR7gM"
       ],
       "settings": {
+        "section_id": "",
         "bg_color": "#ffffff",
         "desktop_padding_top": 60,
         "desktop_padding_bottom": 40,
@@ -113,20 +114,19 @@
         "pricing_item_NwxXbd": {
           "type": "pricing_item",
           "name": "Shopify Pricing Item",
-          "disabled": true,
           "settings": {
             "handle_number": 1,
             "id": "shopify-lanuch",
             "content_align": "center",
             "icon": "shopify://shop_images/logo_8676fd03-d3d9-496f-bc2c-f1b1a9fd3c18.svg",
             "heading": "Starter",
-            "sub_heading": "Ready-Made Shopify Store",
+            "sub_heading": "Launch-Ready Shopify Store",
             "link_text": "Enquire Now",
             "link": "shopify://pages/contact",
-            "main_content": "<p>from [price]+ GST / once-off</p><p></p><p>Perfect for launching a dropshipping store without the heavy investment.</p>",
-            "secondary_content": "<p><strong>What’s included</strong></p><p></p><ul><li>Shopify theme setup</li><li>Custom font-based logo</li><li>Up to 3 product collections + 1 New Arrivals collection</li><li>4 homepage sections</li><li>3 blog posts for enriched SEO</li><li>About Us, Contact Us (with form), and 4 policy pages</li><li>Newsletter subscription section</li><li>Supplier connection with premium Australian dropship network</li><li>50 high-demand products added</li><li>Basic branding & marketing material</li><li>Free business startup checklist</li><li><strong>30 days of email support</strong></li></ul>",
+            "main_content": "<p>from [price]+ GST / once-off</p><p></p><p>For product-based businesses launching on a lean budget, get online fast with a clean, conversion-ready store.</p>",
+            "secondary_content": "<p><strong>What’s included</strong></p><p></p><ul><li>Shopify store setup using a free Shopify theme</li><li>Basic homepage design using client assets</li><li>Up to 10 products uploaded (via CSV or Google Sheet)</li><li>Up to 2 content pages (About, Contact, etc.)</li><li>Shopify Payments / PayPal integration</li><li>Branded navigation + footer</li><li>Mobile responsiveness</li><li>Social links + legal footer pages</li><li>5-day turnaround</li><li>1x post-launch training video call</li><li><em>Premium themes</em></li><li><em>SEO/meta tags</em></li><li><em>Custom design, animations, or CRO strategy</em></li><li><em>Blog setup or advanced apps</em></li><li><em>Ongoing support or project management<br/></em></li></ul><p>Ideal for:</p><p>Startups validating product-market fit, influencers launching a brand, or anyone needing a lean launchpad store.</p>",
             "badge_text": "",
-            "price": 3500,
+            "price": 950,
             "enable_tip": false,
             "use_icon_for_mark": false,
             "tip_position": "main_content",
@@ -159,7 +159,7 @@
             "link": "shopify://pages/launch-shopify-store-package-basic-ecommerce-setup",
             "main_content": "<p>from [price]+ GST / once-off</p><p></p><p>Perfect for new stores that just need to get moving.<br/></p>",
             "secondary_content": "<p><strong>What’s included</strong></p><p></p><ul><li>Shopify theme tailored to your branding</li><li>Homepage design</li><li>Up to 10 collections or categories</li><li>Up to 100 products</li><li>Up to 5 content pages</li><li>Shopify payment / PayPal setup</li><li><strong>1 x post launch training session</strong></li><li><strong>10 days post launch support</strong></li><li>Newsletter signup and social media links</li><li>Up to 3 blog index and article pages</li><li>Personalised admin guide</li><li>3-month post-launch support for minor updates and bug fixes.</li><li><em>SEO product titles & descriptions</em></li><li><em>Conversion tracking setup</em></li><li><em>Dedicated project manager</em></li></ul>",
-            "badge_text": "",
+            "badge_text": "POPULAR",
             "price": 2800,
             "enable_tip": false,
             "use_icon_for_mark": false,
@@ -683,7 +683,7 @@
           "settings": {
             "heading": "Why This Isn’t “Cheap” – And Shouldn’t Be",
             "icon": "none",
-            "row_content": "<p>Anyone can build a Shopify site. Not everyone builds one that converts, scales, and gets results. When you work with us, you’re paying for experience, conversion know-how, and a process that works.</p><p>A $3,500 build with us will often outperform a $10,000 overseas site that looks pretty but fails to bring in sales. Why? Because we <strong>know</strong> what works — and we don’t cut corners.</p>",
+            "row_content": "<p>Anyone can build a Shopify site. Not everyone builds one that converts, scales, and gets results. When you work with us, you’re paying for experience, conversion know-how, and a process that works.</p><p>A $2,800 build with us will often outperform a $10,000 overseas site that looks pretty but fails to bring in sales. Why? Because we <strong>know</strong> what works and we don’t cut corners.</p>",
             "page": ""
           }
         }
@@ -696,6 +696,7 @@
       ],
       "name": "Shopify Collapsible content",
       "settings": {
+        "section_id": "",
         "key": "1",
         "caption": "",
         "heading": "<strong>What’s Actually Included in Our Shopify Builds</strong>",
@@ -795,6 +796,7 @@
       ],
       "name": "Service Collapsible content",
       "settings": {
+        "section_id": "",
         "key": "2",
         "caption": "",
         "heading": "<strong>What’s Included in a Proper Service-Based Website Build?</strong>",
@@ -934,6 +936,7 @@
       ],
       "name": "Marketing Collapsible content",
       "settings": {
+        "section_id": "",
         "key": "3",
         "caption": "",
         "heading": "<strong>Everything You Need to Know About Paid Ads Management</strong>",
@@ -1029,6 +1032,7 @@
       ],
       "disabled": true,
       "settings": {
+        "section_id": "",
         "bg_color": "#ffffff",
         "desktop_padding_top": 80,
         "desktop_padding_bottom": 80,
@@ -1144,6 +1148,7 @@
       ],
       "name": "Branding Collapsible content",
       "settings": {
+        "section_id": "",
         "key": "4",
         "caption": "",
         "heading": "<strong>Everything You Need to Know About Branding With Us</strong>",

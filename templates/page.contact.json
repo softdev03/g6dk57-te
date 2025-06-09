@@ -277,6 +277,7 @@
         "step_ANT8Xk"
       ],
       "settings": {
+        "section_id": "",
         "hero_section": true,
         "bg_color": "#ffffff",
         "heading": "Let’s Talk About Your Shopify Store",
@@ -308,6 +309,7 @@
       "type": "contact-form",
       "disabled": true,
       "settings": {
+        "section_id": "",
         "heading": "",
         "heading_size": "h1",
         "color_scheme": "scheme-1",
@@ -472,7 +474,7 @@
           "type": "faq_item",
           "settings": {
             "question": "How much does it cost to build a Shopify online store?",
-            "answer": "<p>At An Agency the cost of a build depends on many requirements, complexity of functionality, third party connectivity, number of products, pages and so forth. It’s best to give us a call on 0499226600 to discuss and we will personalise your quote.</p>",
+            "answer": "<p>At An Agency the cost of a build depends on many requirements, complexity of functionality, third party connectivity, number of products, pages and so forth. It’s best to give us a call on <a href=\"tel:(02) 8088 0768\" title=\"tel:(02) 8088 0768\">(02) 8088 0768</a> to discuss and we will personalise your quote.</p>",
             "icon": "shopify://shop_images/yellow-arrow_20x_9de1d67f-fe5a-4db9-abf5-77376876a87b.svg"
           }
         },
@@ -518,6 +520,7 @@
         "faq_item_eVtz8i"
       ],
       "settings": {
+        "section_id": "",
         "hero_section": false,
         "heading": "Frequently Asked Questions",
         "bg_color": "#f9f9f9",

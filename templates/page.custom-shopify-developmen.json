@@ -16,28 +16,28 @@
           "type": "text_item",
           "settings": {
             "icon": "shopify://shop_images/checkmark.png",
-            "text": "ROI-Focused Design"
+            "text": "Shopify website experts"
           }
         },
         "text_item_UbP4mn": {
           "type": "text_item",
           "settings": {
             "icon": "shopify://shop_images/checkmark.png",
-            "text": "Shopify Plus & B2B Experts"
+            "text": "Mobile-first Shopify design"
           }
         },
         "text_item_WKrB3C": {
           "type": "text_item",
           "settings": {
             "icon": "shopify://shop_images/checkmark.png",
-            "text": "Performance & Speed"
+            "text": "Conversion-ready Shopify stores"
           }
         },
         "text_item_nLepgj": {
           "type": "text_item",
           "settings": {
             "icon": "shopify://shop_images/checkmark.png",
-            "text": "200+ Stores Delivered"
+            "text": "Trusted by 380+ brands"
           }
         },
         "logo_Qfj7tA": {
@@ -60,7 +60,7 @@
             "heading": "Please enter your details",
             "heading_color": "#000000",
             "close_icon": "shopify://shop_images/close-icon.png",
-            "service_items": "I want a stunning website|I want a high converting eCommerce Store|I want to rank higher on Google|I want effective targeted ads|I want to generate leads from social media|I want to create Digital Strategy|I want more customer conversions (CRO)|I want to Integrate ERP/CRM with my site|I want to develop a mobile app|I want a custom Software",
+            "service_items": "I want a stunning Shopify website | I want a high-converting Shopify store | I want custom Shopify website design | I want to build a Shopify Plus store | I want to migrate to Shopify | I want to hire a Shopify developer | I want help from a Shopify expert | I want Shopify SEO and Google Ads | I want to integrate apps with my Shopify store | I want Shopify CRO and performance upgrades | I want ongoing Shopify support and updates",
             "open_btn_text": "Get A Free Quote",
             "submit_text": "Book a Free Consultation",
             "name_label": "Full Name",
@@ -109,11 +109,11 @@
         "section_id": "shopify-development-hero",
         "hero_section": true,
         "key": "",
-        "badge_text": "Shopify Web Design",
+        "badge_text": "Shopify Website Designers",
         "badge_bg_color": "#212121",
         "badge_txt_color": "#ffffff",
-        "badge_border_radius": 100,
-        "hide_badge_on_mobile": true,
+        "badge_border_radius": 4,
+        "hide_badge_on_mobile": false,
         "hide_subheading_on_mobile": true,
         "hide_text_on_mobile": true,
         "hide_media_on_mobile": true,
@@ -132,9 +132,9 @@
         "mobile_top": -1,
         "mobile_right": -1,
         "mobile_bottom": -26,
-        "heading": "High-Converting, Lightning-Fast Shopify Web Design that Drive Sales.",
+        "heading": "Shopify Website Design Services That Convert",
         "sub_heading": "",
-        "text": "<p>Are you struggling with a slow or underperforming store? As a certified <strong>Shopify Plus Development Partner</strong>, we build bespoke Shopify website designs that load faster, rank higher, and convert more visitors into customers.</p>",
+        "text": "<p>Looking for a Shopify web designer or full Shopify design agency? Our affordable Shopify website design services are built to launch fast, look beautiful, and convert more customers.</p><p></p>",
         "button_link": "tel:(02) 8088 0768",
         "button_text": "",
         "image_right": true,
@@ -310,15 +310,15 @@
         "section_id": "",
         "hero_section": false,
         "bg_color": "#ffffff",
-        "heading": "Trusted by Australian Brands for []",
-        "secondary_heading": "Shopify Website Development",
+        "heading": "Trusted by Australian Brands for Shopify []",
+        "secondary_heading": "Website Design & Development",
         "description": "We’ve delivered over 380 custom Shopify websites for ecommerce brands across Australia. From store launches to full Shopify store development projects, our experience spans fashion, fitness, homewares, trades, and more.",
         "heading_color": "#121212",
         "secondary_heading_color": "#fdd328",
         "description_color": "#000000",
         "text_max_width": 1000,
         "link_btn_text": "See Our Work",
-        "link": "shopify://pages/our-work",
+        "link": "#see-our-work",
         "link_btn_bg_color": "#121212",
         "link_btn_text_color": "#ffffff",
         "link_btn_bg_color_hover": "#fdd328",
@@ -338,7 +338,7 @@
         "text_E46V74": {
           "type": "text",
           "settings": {
-            "text": "<p>Custom Shopify Websites for Australian Brands</p>",
+            "text": "<p>Custom Shopify Website Design for Australian Brands</p><p></p>",
             "desktop_margin": 20,
             "mobile_margin": 12,
             "desktop_align": "center",
@@ -365,7 +365,7 @@
         "text_VfFdk4": {
           "type": "text",
           "settings": {
-            "text": "<p>An Agency has successfully delivered over 380 custom Shopify websites across Australia, backed by years of hands-on experience in ecommerce and store development. As a certified Shopify Plus Partner, we specialise in building high-performing Shopify ecommerce websites tailored for growth, speed, and conversion.</p><h5></h5>",
+            "text": "<p>Our Shopify website designers and Shopify web developers have created high-converting stores for brands across beauty, fashion, health, and food. Whether you're starting or scaling, we’ll build your Shopify store with speed, care, and results in mind.</p>",
             "desktop_margin": 0,
             "mobile_margin": 0,
             "desktop_align": "center",
@@ -626,10 +626,10 @@
         "breakpoint_c6QjXi"
       ],
       "settings": {
-        "section_id": "",
+        "section_id": "see-our-work",
         "bg_color": "#ffffff",
         "image_item_border_radius": 4,
-        "loadmore_btn_text": "Load More",
+        "loadmore_btn_text": "View More Shopify Store Designs",
         "loadmore_btn_bg_color": "#000000",
         "loadmore_btn_text_color": "#ffffff",
         "loadmore_btn_bg_color_hover": "#fdd328",
@@ -671,10 +671,10 @@
         "mobile_top": -1,
         "mobile_right": -1,
         "mobile_bottom": -26,
-        "heading": "What Does a Custom Shopify Website Cost?",
-        "sub_heading": "Transparent pricing, clear deliverables, and no hidden surprises.",
-        "text": "<p>Every Shopify project is different,  but we’ve developed structured packages that suit most businesses. Whether you need a fast standard build or a fully custom Shopify Plus store, here’s what to expect.</p><ul><li>From $2,800 <strong>(Standard Build)</strong></li><li>From $4,800 <strong>(Growth Package)</strong></li><li>From $7,500+ <strong>(Advanced/Custom)</strong></li></ul><p><strong>Not sure which package fits?</strong><br/>📞 Call <a href=\"tel:(02) 8088 0768 \" title=\"tel:(02) 8088 0768 \">(02) 8088 0768 </a></p>",
-        "button_link": "shopify://pages/pricing",
+        "heading": "Shopify Website Design & Development Pricing",
+        "sub_heading": "Transparent Shopify pricing with clear deliverables - no hidden surprises.",
+        "text": "<p>Every Shopify project is different, but our structured Shopify website design services are built to suit most businesses. Whether you’re after a fast, affordable Shopify website or a fully custom Shopify Plus store, here’s what to expect.</p><ul><li>From $950 <strong>Starter Shopify Website</strong></li><li>From $2,800 <strong>Standard Shopify Website Design</strong></li><li>From $4,800 <strong>Growth Shopify Store Package</strong></li><li>From $7,500+ <strong>Advanced Shopify Plus Development</strong></li></ul><p><strong>Not sure which package fits?</strong><br/>📞 Call <a href=\"tel:(02) 8088 0768 \" title=\"tel:(02) 8088 0768 \">(02) 8088 0768 </a></p>",
+        "button_link": "#pricing-table",
         "button_text": "See What’s Included",
         "image_right": true,
         "desktop_text_align": "left",
@@ -684,237 +684,6 @@
         "desktop_padding_top": 60,
         "desktop_padding_bottom": 60,
         "mobile_padding_top": 40,
-        "mobile_padding_bottom": 40
-      }
-    },
-    "text_list_WmcAaw": {
-      "type": "text-list",
-      "blocks": {
-        "text_GrUnU3": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Build your website with an expert Shopify development agency. [highlight]</p>",
-            "desktop_margin": 40,
-            "mobile_margin": 32,
-            "desktop_align": "center",
-            "mobile_align": "center",
-            "desktop_font_size": 48,
-            "mobile_font_size": 20,
-            "desktop_font_weight": "600",
-            "mobile_font_weight": "600",
-            "desktop_line_height": 1.2,
-            "mobile_line_height": 1.2,
-            "desktop_letter_spacing": 1,
-            "mobile_letter_spacing": 1,
-            "desktop_text_transform": "none",
-            "mobile_text_transform": "default",
-            "desktop_max_width": 1000,
-            "mobile_max_width": 1000,
-            "desktop_color": "#000000",
-            "mobile_color": "#000000",
-            "highlight_text": "Request a Free Proposal.",
-            "desktop_highlight_text_color": "#fdd328",
-            "mobile_highlight_text_color": "#fdd328"
-          }
-        },
-        "text_tEi8yb": {
-          "type": "text",
-          "settings": {
-            "text": "<p>An Agency is a premier full-service Shopify web design and [highlight], specialising in Shopify website design and Shopify Plus web development. Renowned for developing award-winning shopping experiences that customers adore, our expertise in Shopify web development and our status as a Shopify Plus Partner set us apart in the digital landscape. Whether you’re launching a new store or scaling an existing one, 23 Digital is dedicated to crafting bespoke Shopify Website Design solutions that drive success and captivate your audience.<br/><br/></p>",
-            "desktop_margin": 0,
-            "mobile_margin": 0,
-            "desktop_align": "center",
-            "mobile_align": "center",
-            "desktop_font_size": 18,
-            "mobile_font_size": 15,
-            "desktop_font_weight": "400",
-            "mobile_font_weight": "400",
-            "desktop_line_height": 1.2,
-            "mobile_line_height": 1.2,
-            "desktop_letter_spacing": 1,
-            "mobile_letter_spacing": 1,
-            "desktop_text_transform": "none",
-            "mobile_text_transform": "default",
-            "desktop_max_width": 1000,
-            "mobile_max_width": 1000,
-            "desktop_color": "#000000",
-            "mobile_color": "#000000",
-            "highlight_text": "Shopify SEO agency",
-            "desktop_highlight_text_color": "#feda15",
-            "mobile_highlight_text_color": "#feda15"
-          }
-        }
-      },
-      "block_order": [
-        "text_GrUnU3",
-        "text_tEi8yb"
-      ],
-      "name": "Text List",
-      "settings": {
-        "section_id": "",
-        "bg_color": "#ffffff",
-        "desktop_padding_top": 0,
-        "desktop_padding_bottom": 0,
-        "mobile_padding_top": 0,
-        "mobile_padding_bottom": 0
-      }
-    },
-    "single_contact_form_qh4DAq": {
-      "type": "single-contact-form",
-      "name": "Single Step Contact Form",
-      "settings": {
-        "section_id": "",
-        "bg_color": "#ffffff",
-        "service_items": "I want a stunning website|I want a high converting eCommerce Store|I want to rank higher on Google|I want effective targeted ads|I want to generate leads from social media|I want to create Digital Strategy|I want more customer conversions (CRO)|I want to Integrate ERP/CRM with my site|I want to develop a mobile app|I want a custom Software",
-        "submit_text": "Book a Free Consultation",
-        "name_label": "Full Name",
-        "phone_label": "Phone / Mobile Number",
-        "email_label": "Email Address",
-        "website_label": "Website URL",
-        "company_label": "Company Name",
-        "service_label": "Select your service.",
-        "name_error_msg": "Please enter your name.",
-        "phone_error_msg": "Please enter your phone number.",
-        "email_error_msg": "Please enter your email address.",
-        "company_error_msg": "Please enter your company name.",
-        "website_error_msg": "Please enter a valid URL.",
-        "field_bg_color": "#ffffff",
-        "field_border_color": "rgba(0,0,0,0)",
-        "field_txt_color": "#000000",
-        "field_bg_color_hover": "#ffffff",
-        "field_border_color_hover": "rgba(0,0,0,0)",
-        "field_txt_color_hover": "#000000",
-        "field_bg_color_focus": "#ffffff",
-        "field_border_color_focus": "rgba(0,0,0,0)",
-        "field_txt_color_focus": "#000000",
-        "field_shadow_color": "#000000",
-        "error_msg_color": "#ff0000",
-        "submit_bg_color": "#212121",
-        "submit_border_color": "rgba(0,0,0,0)",
-        "submit_txt_color": "#ffffff",
-        "submit_bg_color_hover": "#000000",
-        "submit_border_color_hover": "rgba(0,0,0,0)",
-        "submit_txt_color_hover": "#ffffff",
-        "field_border_radius": 5,
-        "submit_border_radius": 5,
-        "desktop_padding_top": 60,
-        "desktop_padding_bottom": 60,
-        "mobile_padding_top": 40,
-        "mobile_padding_bottom": 40
-      }
-    },
-    "score_grid_color_per_item_xNwfjd": {
-      "type": "score-grid-color-per-item",
-      "blocks": {
-        "score_item_WCqi8c": {
-          "type": "score_item",
-          "settings": {
-            "score": 1100,
-            "prefix_text": "",
-            "suffix_text": "+",
-            "score_text": "Marketing Campaigns",
-            "card_bg_color": "#ffffff",
-            "card_border_color": "rgba(0,0,0,0)",
-            "score_color": "#ffa1ea",
-            "score_text_color": "#000000"
-          }
-        },
-        "score_item_7hy8Je": {
-          "type": "score_item",
-          "settings": {
-            "score": 1500,
-            "prefix_text": "",
-            "suffix_text": "+",
-            "score_text": "Website Projects",
-            "card_bg_color": "#ffffff",
-            "card_border_color": "rgba(0,0,0,0)",
-            "score_color": "#ada1ff",
-            "score_text_color": "#000000"
-          }
-        },
-        "score_item_3TyeGN": {
-          "type": "score_item",
-          "settings": {
-            "score": 2500,
-            "prefix_text": "",
-            "suffix_text": "+",
-            "score_text": "Happy Clients",
-            "card_bg_color": "#ffffff",
-            "card_border_color": "rgba(0,0,0,0)",
-            "score_color": "#a1d2ff",
-            "score_text_color": "#000000"
-          }
-        },
-        "score_item_NfiTcD": {
-          "type": "score_item",
-          "settings": {
-            "score": 184,
-            "prefix_text": "",
-            "suffix_text": "",
-            "score_text": "Employees",
-            "card_bg_color": "#ffffff",
-            "card_border_color": "rgba(0,0,0,0)",
-            "score_color": "#a1ffe6",
-            "score_text_color": "#000000"
-          }
-        },
-        "breakpoint_FABAnM": {
-          "type": "breakpoint",
-          "settings": {
-            "max_width": 749,
-            "card_border_radius": 12,
-            "card_row_gap": 10,
-            "item_count": 2,
-            "row_gap": 20,
-            "col_gap": 10,
-            "score_font_size": 21,
-            "score_text_font_size": 16
-          }
-        },
-        "breakpoint_CY8wLb": {
-          "type": "breakpoint",
-          "settings": {
-            "max_width": 1023,
-            "card_border_radius": 15,
-            "card_row_gap": 15,
-            "item_count": 3,
-            "row_gap": 25,
-            "col_gap": 20,
-            "score_font_size": 36,
-            "score_text_font_size": 18
-          }
-        },
-        "breakpoint_nd4Pit": {
-          "type": "breakpoint",
-          "settings": {
-            "max_width": 0,
-            "card_border_radius": 15,
-            "card_row_gap": 20,
-            "item_count": 4,
-            "row_gap": 25,
-            "col_gap": 30,
-            "score_font_size": 50,
-            "score_text_font_size": 20
-          }
-        }
-      },
-      "block_order": [
-        "score_item_WCqi8c",
-        "score_item_7hy8Je",
-        "score_item_3TyeGN",
-        "score_item_NfiTcD",
-        "breakpoint_FABAnM",
-        "breakpoint_CY8wLb",
-        "breakpoint_nd4Pit"
-      ],
-      "name": "Score Grid/Color by Items",
-      "settings": {
-        "section_id": "",
-        "bg_color": "#ffffff",
-        "not_necessary": true,
-        "desktop_padding_top": 20,
-        "desktop_padding_bottom": 60,
-        "mobile_padding_top": 16,
         "mobile_padding_bottom": 40
       }
     },
@@ -951,7 +720,7 @@
         "text_GFR7gM": {
           "type": "text",
           "settings": {
-            "text": "<p>We believe in upfront pricing that respects your time and budget. No vague quotes, no hidden fees, no games. Just premium websites, marketing, and branding services built properly, by a team that actually cares about your business.</p>",
+            "text": "<p>Recognised as one of the <strong>best Shopify design agencies</strong> for brands that want real performance — not just pretty websites.</p>",
             "desktop_margin": 0,
             "mobile_margin": 0,
             "desktop_align": "center",
@@ -980,9 +749,8 @@
         "text_Ln9QYL",
         "text_GFR7gM"
       ],
-      "disabled": true,
       "settings": {
-        "section_id": "",
+        "section_id": "pricing-table",
         "bg_color": "#ffffff",
         "desktop_padding_top": 60,
         "desktop_padding_bottom": 40,
@@ -1001,12 +769,47 @@
             "id": "shopify-lanuch",
             "content_align": "left",
             "icon": "shopify://shop_images/logo_8676fd03-d3d9-496f-bc2c-f1b1a9fd3c18.svg",
+            "heading": "Starter",
+            "sub_heading": "Launch-Ready Shopify Store",
+            "link_text": "",
+            "link": "",
+            "main_content": "<p>from [price]+ GST / once-off</p><p></p><p>For product-based businesses launching on a lean budget, get online fast with a clean, conversion-ready store.<br/></p>",
+            "secondary_content": "<p><strong>What’s included</strong></p><p></p><ul><li>Shopify store setup using a free Shopify theme</li><li>Basic homepage design using client assets</li><li>Up to 10 products uploaded (via CSV or Google Sheet)</li><li>Up to 2 content pages (About, Contact, etc.)</li><li>Shopify Payments / PayPal integration</li><li>Branded navigation + footer</li><li>Mobile responsiveness</li><li>Social links + legal footer pages</li><li>5-day turnaround</li><li>1x post-launch training video call</li></ul><p><em>Premium themes</em></p><p><em>SEO/meta tags</em></p><p><em>Custom design, animations, or CRO strategy</em></p><p><em>Blog setup or advanced apps</em></p><p><em>Ongoing support or project management<br/></em></p><p>Ideal for:</p><p>Startups validating product-market fit, influencers launching a brand, or anyone needing a lean launchpad store.</p>",
+            "secondary_list_item_icon": "shopify://shop_images/checkmark.png",
+            "badge_text": "",
+            "price": 950,
+            "enable_tip": false,
+            "use_icon_for_mark": false,
+            "tip_position": "main_content",
+            "mark_text": "",
+            "tip_text": "",
+            "tip_text_align": "center",
+            "mark_bg_color": "#f3f3f3",
+            "mark_bg_color_hover": "#d8d8d8",
+            "mark_text_color": "#000000",
+            "mark_text_color_hover": "#000000",
+            "tip_bg_color": "#ffffff",
+            "tip_shadow_color": "#000000",
+            "tip_text_color": "#000000",
+            "tip_shadow_opacity": 0.5,
+            "mark_border_radius": 100,
+            "tip_border_radius": 5
+          }
+        },
+        "pricing_item_PbM4UN": {
+          "type": "pricing_item",
+          "name": "Shopify Pricing Item",
+          "settings": {
+            "handle_number": 1,
+            "id": "shopify-lanuch",
+            "content_align": "left",
+            "icon": "shopify://shop_images/logo_8676fd03-d3d9-496f-bc2c-f1b1a9fd3c18.svg",
             "heading": "Standard",
             "sub_heading": "Shopify Design & Development",
-            "link_text": "Learn More",
-            "link": "shopify://pages/launch-shopify-store-package-basic-ecommerce-setup",
+            "link_text": "",
+            "link": "",
             "main_content": "<p>from [price]+ GST / once-off</p><p></p><p>Perfect for new stores that just need to get moving.<br/></p>",
-            "secondary_content": "<p><strong>What’s included</strong></p><ul><li>Shopify theme tailored to your branding</li><li>Homepage design</li><li>Up to 10 collections or categories</li><li>Up to 100 products</li><li>Up to 5 content pages</li><li>Shopify payment / PayPal setup</li><li><strong>1 x post launch training session</strong></li><li><strong>10 days post launch support</strong></li><li>Newsletter signup and social media links</li><li>Up to 3 blog index and article pages</li><li>Personalised admin guide</li><li>3-month post-launch support for minor updates and bug fixes.</li><li><em>SEO product titles & descriptions</em></li><li><em>Conversion tracking setup</em></li><li><em>Dedicated project manager</em></li></ul>",
+            "secondary_content": "<p><strong>What’s included</strong></p><ul><li>Shopify theme tailored to your branding</li><li>Homepage design</li><li>Up to 10 collections or categories</li><li>Up to 100 products</li><li>Up to 5 content pages</li><li>Shopify payment / PayPal setup</li><li><strong>1 x post launch training session</strong></li><li><strong>10 days post launch support</strong></li><li>Newsletter signup and social media links</li><li>Up to 3 blog index and article pages</li><li>Personalised admin guide</li><li>3-month post-launch support for minor updates and bug fixes.</li></ul><p><em>SEO product titles & descriptions</em></p><p><em>Conversion tracking setup</em></p><p><em>Dedicated project manager</em></p>",
             "secondary_list_item_icon": "shopify://shop_images/checkmark.png",
             "badge_text": "",
             "price": 2800,
@@ -1038,10 +841,10 @@
             "icon": "shopify://shop_images/logo_8676fd03-d3d9-496f-bc2c-f1b1a9fd3c18.svg",
             "heading": "Growth",
             "sub_heading": "Shopify Design & Development",
-            "link_text": "Learn More",
-            "link": "shopify://pages/growth-shopify-store-package-advanced-online-store",
+            "link_text": "",
+            "link": "",
             "main_content": "<p>from [price]+ GST / once-off</p><p></p><p>For brands ready to scale with more products and SEO built-in.<br/></p>",
-            "secondary_content": "<p><strong>What’s included</strong></p><p>Shopify theme tailored to your brand</p><ul><li>Homepage design</li><li>Up to 15 collections or categories</li><li>Up to 200 products</li><li>Up to 8 content pages</li><li>Shopify payment / PayPal setup</li><li>Newsletter signup and social media links</li><li>Up to 3 blog index and article pages</li><li>Personalised admin guide</li><li>SEO titles & descriptions*</li><li>Post-launch training call</li><li>Conversion tracking setup</li><li>Dedicated project manager</li><li><strong>2 x post launch training sessions</strong></li><li><strong>30 days post launch support</strong></li><li><em>Custom design or animations</em></li><li><em>Advanced app integration (3+ apps)</em></li><li><em>Shopify Plus support</em></li></ul><p>*Products to be supplied by client in CSV format</p>",
+            "secondary_content": "<p><strong>What’s included</strong></p><p>Shopify theme tailored to your brand</p><ul><li>Homepage design</li><li>Up to 15 collections or categories</li><li>Up to 200 products</li><li>Up to 8 content pages</li><li>Shopify payment / PayPal setup</li><li>Newsletter signup and social media links</li><li>Up to 3 blog index and article pages</li><li>Personalised admin guide</li><li>SEO titles & descriptions*</li><li>Post-launch training call</li><li>Conversion tracking setup</li><li>Dedicated project manager</li><li><strong>2 x post launch training sessions</strong></li><li><strong>30 days post launch support</strong></li></ul><p><em>Custom design or animations</em></p><p><em>Advanced app integration (3+ apps)</em></p><p><em>Shopify Plus support</em></p><p>*Products to be supplied by client in CSV format</p>",
             "secondary_list_item_icon": "shopify://shop_images/checkmark.png",
             "badge_text": "",
             "price": 4800,
@@ -1073,8 +876,8 @@
             "icon": "shopify://shop_images/logo_8676fd03-d3d9-496f-bc2c-f1b1a9fd3c18.svg",
             "heading": "Advanced/Custom",
             "sub_heading": "Custom Shopify Plus Store with Support",
-            "link_text": "Learn More",
-            "link": "shopify://pages/enterprise-shopify-store-package-custom-scalable",
+            "link_text": "",
+            "link": "",
             "main_content": "<p>from [price] + GST / once-off</p><p></p><p>High-converting, brand-led builds for serious eCommerce growth.<br/></p>",
             "secondary_content": "<p><strong>What’s included</strong></p><ul><li>Customised Premium Shopify theme OR bespoke design</li><li>Homepage design with custom UI/UX</li><li>Unlimited collections</li><li>Unlimited products</li><li>Unlimited content pages</li><li>Shopify payment / PayPal setup</li><li>Newsletter signup and social media links</li><li>Blog setup & styling</li><li>Personalised admin guide</li><li>SEO titles & descriptions</li><li>Post-launch training (3 sessions)</li><li>Conversion tracking (GA4, Meta Pixel, etc)</li><li>Dedicated project manager</li><li>Custom animations & effects</li><li>Advanced app integration (up to 5)</li><li>Shopify Plus migration</li><li>Theme warranty (1 year)</li><li>Priority build timeline</li><li>Ongoing support option</li><li>Product import assistance (over 1,000 SKUs may be quoted)</li><li>Copywriting for all pages (available as add-on)</li><li><strong>3 x post launch training sessions</strong></li><li><strong>60 days post support</strong></li></ul><p>* Products to be supplied by client in CSV format</p>",
             "secondary_list_item_icon": "shopify://shop_images/checkmark.png",
@@ -1141,6 +944,7 @@
       },
       "block_order": [
         "pricing_item_YheRDG",
+        "pricing_item_PbM4UN",
         "pricing_item_ezdbcT",
         "pricing_item_N4xReh",
         "breakpoint_GYdq76",
@@ -1176,7 +980,478 @@
         "desktop_padding_top": 20,
         "desktop_padding_bottom": 0,
         "mobile_padding_top": 12,
-        "mobile_padding_bottom": 50
+        "mobile_padding_bottom": 0
+      }
+    },
+    "text_list_WmcAaw": {
+      "type": "text-list",
+      "blocks": {
+        "text_GrUnU3": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Build your website with an expert Shopify development agency. [highlight]</p>",
+            "desktop_margin": 40,
+            "mobile_margin": 32,
+            "desktop_align": "center",
+            "mobile_align": "center",
+            "desktop_font_size": 48,
+            "mobile_font_size": 20,
+            "desktop_font_weight": "600",
+            "mobile_font_weight": "600",
+            "desktop_line_height": 1.2,
+            "mobile_line_height": 1.2,
+            "desktop_letter_spacing": 1,
+            "mobile_letter_spacing": 1,
+            "desktop_text_transform": "none",
+            "mobile_text_transform": "default",
+            "desktop_max_width": 1000,
+            "mobile_max_width": 1000,
+            "desktop_color": "#000000",
+            "mobile_color": "#000000",
+            "highlight_text": "Request a Free Proposal.",
+            "desktop_highlight_text_color": "#fdd328",
+            "mobile_highlight_text_color": "#fdd328"
+          }
+        },
+        "text_tEi8yb": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Want to work with a trusted Shopify website agency? Our Shopify web designers, developers, and strategists are ready to scope your project and send you a free proposal.</p><p></p>",
+            "desktop_margin": 0,
+            "mobile_margin": 0,
+            "desktop_align": "center",
+            "mobile_align": "center",
+            "desktop_font_size": 18,
+            "mobile_font_size": 15,
+            "desktop_font_weight": "400",
+            "mobile_font_weight": "400",
+            "desktop_line_height": 1.2,
+            "mobile_line_height": 1.2,
+            "desktop_letter_spacing": 1,
+            "mobile_letter_spacing": 1,
+            "desktop_text_transform": "none",
+            "mobile_text_transform": "default",
+            "desktop_max_width": 1000,
+            "mobile_max_width": 1000,
+            "desktop_color": "#000000",
+            "mobile_color": "#000000",
+            "highlight_text": "Shopify SEO agency",
+            "desktop_highlight_text_color": "#feda15",
+            "mobile_highlight_text_color": "#feda15"
+          }
+        }
+      },
+      "block_order": [
+        "text_GrUnU3",
+        "text_tEi8yb"
+      ],
+      "name": "Text List",
+      "settings": {
+        "section_id": "contact-us",
+        "bg_color": "#ffffff",
+        "desktop_padding_top": 0,
+        "desktop_padding_bottom": 0,
+        "mobile_padding_top": 0,
+        "mobile_padding_bottom": 0
+      }
+    },
+    "single_contact_form_qh4DAq": {
+      "type": "single-contact-form",
+      "name": "Single Step Contact Form",
+      "settings": {
+        "section_id": "",
+        "bg_color": "#ffffff",
+        "service_items": "I want a stunning Shopify website | I want a high-converting Shopify store | I want custom Shopify website design | I want to build a Shopify Plus store | I want to migrate to Shopify | I want to hire a Shopify developer | I want help from a Shopify expert | I want Shopify SEO and Google Ads | I want to integrate apps with my Shopify store | I want Shopify CRO and performance upgrades | I want ongoing Shopify support and updates",
+        "submit_text": "Get My Free Shopify Proposal",
+        "name_label": "Full Name",
+        "phone_label": "Phone / Mobile Number",
+        "email_label": "Email Address",
+        "website_label": "Website URL",
+        "company_label": "Company Name",
+        "service_label": "Select your service.",
+        "name_error_msg": "Please enter your name.",
+        "phone_error_msg": "Please enter your phone number.",
+        "email_error_msg": "Please enter your email address.",
+        "company_error_msg": "Please enter your company name.",
+        "website_error_msg": "Please enter a valid URL.",
+        "field_bg_color": "#ffffff",
+        "field_border_color": "rgba(0,0,0,0)",
+        "field_txt_color": "#000000",
+        "field_bg_color_hover": "#ffffff",
+        "field_border_color_hover": "rgba(0,0,0,0)",
+        "field_txt_color_hover": "#000000",
+        "field_bg_color_focus": "#ffffff",
+        "field_border_color_focus": "rgba(0,0,0,0)",
+        "field_txt_color_focus": "#000000",
+        "field_shadow_color": "#000000",
+        "error_msg_color": "#ff0000",
+        "submit_bg_color": "#212121",
+        "submit_border_color": "rgba(0,0,0,0)",
+        "submit_txt_color": "#ffffff",
+        "submit_bg_color_hover": "#000000",
+        "submit_border_color_hover": "rgba(0,0,0,0)",
+        "submit_txt_color_hover": "#ffffff",
+        "field_border_radius": 5,
+        "submit_border_radius": 5,
+        "desktop_padding_top": 60,
+        "desktop_padding_bottom": 60,
+        "mobile_padding_top": 40,
+        "mobile_padding_bottom": 40
+      }
+    },
+    "text_list_E7YGKE": {
+      "type": "text-list",
+      "blocks": {
+        "text_AK9CDq": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Why We're Australia's Go-To Shopify</p><p>[highlight]</p>",
+            "desktop_margin": 40,
+            "mobile_margin": 32,
+            "desktop_align": "center",
+            "mobile_align": "center",
+            "desktop_font_size": 48,
+            "mobile_font_size": 20,
+            "desktop_font_weight": "600",
+            "mobile_font_weight": "600",
+            "desktop_line_height": 1.2,
+            "mobile_line_height": 1.2,
+            "desktop_letter_spacing": 1,
+            "mobile_letter_spacing": 1,
+            "desktop_text_transform": "none",
+            "mobile_text_transform": "default",
+            "desktop_max_width": 1000,
+            "mobile_max_width": 1000,
+            "desktop_color": "#000000",
+            "mobile_color": "#000000",
+            "highlight_text": "Design & Development Agency",
+            "desktop_highlight_text_color": "#fdd328",
+            "mobile_highlight_text_color": "#fdd328"
+          }
+        }
+      },
+      "block_order": [
+        "text_AK9CDq"
+      ],
+      "name": "Text List",
+      "settings": {
+        "section_id": "",
+        "bg_color": "#ffffff",
+        "desktop_padding_top": 0,
+        "desktop_padding_bottom": 0,
+        "mobile_padding_top": 0,
+        "mobile_padding_bottom": 0
+      }
+    },
+    "score_grid_color_per_item_xNwfjd": {
+      "type": "score-grid-color-per-item",
+      "blocks": {
+        "score_item_WCqi8c": {
+          "type": "score_item",
+          "settings": {
+            "score": 35,
+            "prefix_text": "$",
+            "suffix_text": "M+",
+            "score_text": "Revenue Generated",
+            "card_bg_color": "#ffffff",
+            "card_border_color": "rgba(0,0,0,0)",
+            "score_color": "#ffa1ea",
+            "score_text_color": "#000000"
+          }
+        },
+        "score_item_7hy8Je": {
+          "type": "score_item",
+          "settings": {
+            "score": 450,
+            "prefix_text": "",
+            "suffix_text": "k+",
+            "score_text": "Shopify Orders Generated",
+            "card_bg_color": "#ffffff",
+            "card_border_color": "rgba(0,0,0,0)",
+            "score_color": "#ada1ff",
+            "score_text_color": "#000000"
+          }
+        },
+        "score_item_3TyeGN": {
+          "type": "score_item",
+          "settings": {
+            "score": 380,
+            "prefix_text": "",
+            "suffix_text": "+",
+            "score_text": "Shopify Website Projects",
+            "card_bg_color": "#ffffff",
+            "card_border_color": "rgba(0,0,0,0)",
+            "score_color": "#a1d2ff",
+            "score_text_color": "#000000"
+          }
+        },
+        "score_item_NfiTcD": {
+          "type": "score_item",
+          "settings": {
+            "score": 100,
+            "prefix_text": "",
+            "suffix_text": "+",
+            "score_text": "Ongoing Shopify Clients",
+            "card_bg_color": "#ffffff",
+            "card_border_color": "rgba(0,0,0,0)",
+            "score_color": "#a1ffe6",
+            "score_text_color": "#000000"
+          }
+        },
+        "breakpoint_FABAnM": {
+          "type": "breakpoint",
+          "settings": {
+            "max_width": 749,
+            "card_border_radius": 12,
+            "card_row_gap": 10,
+            "item_count": 2,
+            "row_gap": 20,
+            "col_gap": 10,
+            "score_font_size": 21,
+            "score_text_font_size": 16
+          }
+        },
+        "breakpoint_CY8wLb": {
+          "type": "breakpoint",
+          "settings": {
+            "max_width": 1023,
+            "card_border_radius": 15,
+            "card_row_gap": 15,
+            "item_count": 3,
+            "row_gap": 25,
+            "col_gap": 20,
+            "score_font_size": 36,
+            "score_text_font_size": 18
+          }
+        },
+        "breakpoint_nd4Pit": {
+          "type": "breakpoint",
+          "settings": {
+            "max_width": 0,
+            "card_border_radius": 15,
+            "card_row_gap": 20,
+            "item_count": 4,
+            "row_gap": 25,
+            "col_gap": 30,
+            "score_font_size": 50,
+            "score_text_font_size": 20
+          }
+        }
+      },
+      "block_order": [
+        "score_item_WCqi8c",
+        "score_item_7hy8Je",
+        "score_item_3TyeGN",
+        "score_item_NfiTcD",
+        "breakpoint_FABAnM",
+        "breakpoint_CY8wLb",
+        "breakpoint_nd4Pit"
+      ],
+      "name": "Score Grid/Color by Items",
+      "settings": {
+        "section_id": "pricing",
+        "bg_color": "#ffffff",
+        "not_necessary": true,
+        "desktop_padding_top": 20,
+        "desktop_padding_bottom": 60,
+        "mobile_padding_top": 16,
+        "mobile_padding_bottom": 40
+      }
+    },
+    "marketing_focus_zYMyt8": {
+      "type": "marketing-focus",
+      "settings": {
+        "key": "",
+        "logo_image": "shopify://shop_images/04.jpg",
+        "headline": "We’re More Than a Shopify Design Agency, We Build for Sales",
+        "sub_text": "As a full-service Shopify website design company, we help brands turn browsers into buyers.",
+        "button_text": "Request a Quote",
+        "button_link": "#contact-us",
+        "desktop_padding_top": 40,
+        "desktop_padding_bottom": 40,
+        "mobile_padding_top": 30,
+        "mobile_padding_bottom": 30
+      }
+    },
+    "advertise_PAQGf7": {
+      "type": "advertise",
+      "settings": {
+        "section_id": "How-It-Works",
+        "hero_section": false,
+        "key": "",
+        "badge_text": "",
+        "badge_bg_color": "#ffffff",
+        "badge_txt_color": "#000000",
+        "badge_border_radius": 0,
+        "hide_badge_on_mobile": false,
+        "hide_subheading_on_mobile": false,
+        "hide_text_on_mobile": false,
+        "hide_media_on_mobile": false,
+        "loop_video": true,
+        "autoplay_video": true,
+        "main_image": "shopify://shop_images/AnAgencyShopifyWebsite05.png",
+        "media_border_radius": 0,
+        "media_border_width": 0,
+        "media_border_color": "#000000",
+        "secondary_image_roate_angle": -64,
+        "desktop_left": -80,
+        "desktop_top": -1,
+        "desktop_right": -1,
+        "desktop_bottom": 82,
+        "mobile_left": 0,
+        "mobile_top": -1,
+        "mobile_right": -1,
+        "mobile_bottom": -30,
+        "heading": "We’re a Shopify Design Agency That Builds for Performance",
+        "sub_heading": "From idea to launch, our Shopify web design agency focuses on conversions, speed, and SEO-ready builds.",
+        "text": "<h2>Step 1: Strategy & Planning</h2><p>We define your goals, map out the ideal user journey, and create a structure tailored to your product range and audience.</p><h3></h3><h3></h3><p></p>",
+        "button_link": "#",
+        "button_text": "",
+        "image_right": false,
+        "desktop_text_align": "left",
+        "mobile_text_align": "left",
+        "background_color": "#ffffff",
+        "text_color": "#000000",
+        "desktop_padding_top": 60,
+        "desktop_padding_bottom": 0,
+        "mobile_padding_top": 40,
+        "mobile_padding_bottom": 12
+      }
+    },
+    "advertise_DnFdqE": {
+      "type": "advertise",
+      "settings": {
+        "section_id": "",
+        "hero_section": false,
+        "key": "",
+        "badge_text": "",
+        "badge_bg_color": "#ffffff",
+        "badge_txt_color": "#000000",
+        "badge_border_radius": 0,
+        "hide_badge_on_mobile": false,
+        "hide_subheading_on_mobile": false,
+        "hide_text_on_mobile": false,
+        "hide_media_on_mobile": false,
+        "loop_video": true,
+        "autoplay_video": true,
+        "main_image": "shopify://shop_images/AnAgencyShopifyWebsite07.png",
+        "media_border_radius": 0,
+        "media_border_width": 0,
+        "media_border_color": "#000000",
+        "secondary_image_roate_angle": 12,
+        "desktop_left": -1,
+        "desktop_top": -1,
+        "desktop_right": -1,
+        "desktop_bottom": -1,
+        "mobile_left": -1,
+        "mobile_top": -1,
+        "mobile_right": -1,
+        "mobile_bottom": -1,
+        "heading": "Step 2: Shopify Store Design & Development",
+        "sub_heading": "",
+        "text": "<p>We develop your Shopify store using a mobile-first layout, smart UX, branded content blocks, and SEO best practices. Our team includes expert Shopify designers and a dedicated <strong>Shopify website developer</strong> to bring your store to life.</p><p></p><h3></h3>",
+        "button_link": "",
+        "button_text": "",
+        "image_right": true,
+        "desktop_text_align": "left",
+        "mobile_text_align": "left",
+        "background_color": "#ffffff",
+        "text_color": "#000000",
+        "desktop_padding_top": 0,
+        "desktop_padding_bottom": 2,
+        "mobile_padding_top": 0,
+        "mobile_padding_bottom": 0
+      }
+    },
+    "advertise_JebRqW": {
+      "type": "advertise",
+      "settings": {
+        "section_id": "#pricing-table",
+        "hero_section": false,
+        "key": "",
+        "badge_text": "",
+        "badge_bg_color": "#ffffff",
+        "badge_txt_color": "#000000",
+        "badge_border_radius": 0,
+        "hide_badge_on_mobile": false,
+        "hide_subheading_on_mobile": false,
+        "hide_text_on_mobile": false,
+        "hide_media_on_mobile": false,
+        "loop_video": true,
+        "autoplay_video": true,
+        "main_image": "shopify://shop_images/AnAgencyShopifyWebsite08.png",
+        "media_border_radius": 0,
+        "media_border_width": 0,
+        "media_border_color": "#000000",
+        "secondary_image_roate_angle": -52,
+        "desktop_left": -1,
+        "desktop_top": 160,
+        "desktop_right": -90,
+        "desktop_bottom": -1,
+        "mobile_left": -1,
+        "mobile_top": -25,
+        "mobile_right": 0,
+        "mobile_bottom": -1,
+        "heading": "Step 3: Launch & Grow With Your Shopify Website",
+        "sub_heading": "",
+        "text": "<p>Once your store is ready, we test it across devices, fix any issues, and hand it over fully operational - with training included.</p><p></p>",
+        "button_link": "#pricing-table",
+        "button_text": "Compare Our Packages",
+        "image_right": false,
+        "desktop_text_align": "left",
+        "mobile_text_align": "left",
+        "background_color": "#ffffff",
+        "text_color": "#000000",
+        "desktop_padding_top": 0,
+        "desktop_padding_bottom": 60,
+        "mobile_padding_top": 2,
+        "mobile_padding_bottom": 40
+      }
+    },
+    "advertise_KLNL33": {
+      "type": "advertise",
+      "settings": {
+        "section_id": "#see-our-work",
+        "hero_section": false,
+        "key": "",
+        "badge_text": "Whether you're working with a Shopify web developer or our full team, we keep performance, SEO, and UX front of mind.",
+        "badge_bg_color": "#ffffff",
+        "badge_txt_color": "#000000",
+        "badge_border_radius": 0,
+        "hide_badge_on_mobile": false,
+        "hide_subheading_on_mobile": false,
+        "hide_text_on_mobile": false,
+        "hide_media_on_mobile": false,
+        "loop_video": true,
+        "autoplay_video": true,
+        "main_image": "shopify://shop_images/AnAgencyShopifyWebsite09.png",
+        "media_border_radius": 0,
+        "media_border_width": 0,
+        "media_border_color": "#000000",
+        "secondary_image_roate_angle": 8,
+        "desktop_left": -80,
+        "desktop_top": -1,
+        "desktop_right": -1,
+        "desktop_bottom": 82,
+        "mobile_left": 0,
+        "mobile_top": -1,
+        "mobile_right": -1,
+        "mobile_bottom": -30,
+        "heading": "What You Really Get From Our Shopify Builds",
+        "sub_heading": "Our Shopify website designers build with speed, your brand identity, and future scalability in mind.",
+        "text": "<ul><li>A Shopify store designed to sell — fast</li><li>Strategic layout based on real buyer psychology</li><li>Mobile-first design with conversion in mind</li><li>On-page SEO, tracking, and key app integrations</li><li>Product, collection, cart, and checkout setup</li><li>Post-launch support and training so you’re not left guessing</li></ul>",
+        "list_icon": "shopify://shop_images/checkmark.png",
+        "button_link": "#see-our-work",
+        "button_text": "View Store Examples",
+        "image_right": true,
+        "desktop_text_align": "left",
+        "mobile_text_align": "left",
+        "background_color": "#ffffff",
+        "text_color": "#000000",
+        "desktop_padding_top": 60,
+        "desktop_padding_bottom": 60,
+        "mobile_padding_top": 40,
+        "mobile_padding_bottom": 40
       }
     },
     "text_list_zidnT7": {
@@ -1242,7 +1517,7 @@
         "text_MBaFDg"
       ],
       "settings": {
-        "section_id": "",
+        "section_id": "reviews",
         "bg_color": "#ffffff",
         "desktop_padding_top": 60,
         "desktop_padding_bottom": 40,
@@ -1371,7 +1646,7 @@
         "text_iELMnY": {
           "type": "text",
           "settings": {
-            "text": "<p>Why Businesses Choose An Agency for Shopify Development</p>",
+            "text": "<p>Why Brands Choose Our Shopify Website Development Team</p>",
             "desktop_margin": 40,
             "mobile_margin": 28,
             "desktop_align": "center",
@@ -1398,7 +1673,7 @@
         "text_eBjNbe": {
           "type": "text",
           "settings": {
-            "text": "<p>We build more than just Shopify websites, we deliver fast, scalable ecommerce stores designed to grow your business. With 380+ Shopify builds delivered and a proven track record across industries, we combine expert development, strategic thinking, and real performance data to get results.</p>",
+            "text": "<p>As a trusted <strong>Shopify development agency</strong>, we help brands launch and scale with expert design, strategy, and code.</p><p>We're not just another Shopify web development agency - we’re Shopify ecommerce experts focused on long-term growth.<br/><br/>We don’t just build Shopify websites, we create fast, scalable Shopify stores that are designed to convert. With over 380+ Shopify builds completed, we’ve helped brands across multiple industries launch online stores that don’t just look great, but sell better. Our team combines expert Shopify website design, advanced Shopify development, and data-backed strategy to deliver long-term ecommerce results.</p>",
             "desktop_margin": 0,
             "mobile_margin": 0,
             "desktop_align": "center",
@@ -1428,7 +1703,7 @@
         "text_eBjNbe"
       ],
       "settings": {
-        "section_id": "",
+        "section_id": "why-us",
         "bg_color": "#ffffff",
         "desktop_padding_top": 60,
         "desktop_padding_bottom": 40,
@@ -1584,8 +1859,40 @@
         "faq_item_rrnAHz": {
           "type": "faq_item",
           "settings": {
+            "question": "Can I work with a Shopify expert near me?",
+            "answer": "<p>Absolutely. While we’re based in Australia, we work with businesses across all regions, so if you’re searching for a Shopify expert near me, you’re in the right place. We offer virtual consults, localised support, and everything you need to build a high-performing Shopify store, no matter where you’re located.</p>",
+            "icon": "shopify://shop_images/plus_1.png"
+          }
+        },
+        "faq_item_Y6R7RQ": {
+          "type": "faq_item",
+          "settings": {
             "question": "How long does a Shopify website build take?",
             "answer": "<p>Most standard Shopify website builds are completed within <strong>2 to 4 weeks</strong>, depending on your scope. More advanced builds or migration projects may take slightly longer — but we’ll give you a clear timeline upfront and keep you updated throughout.</p>",
+            "icon": "shopify://shop_images/plus_1.png"
+          }
+        },
+        "faq_item_DqzNga": {
+          "type": "faq_item",
+          "settings": {
+            "question": "What do your Shopify website design services include?",
+            "answer": "<p>From design and development to testing and support, our Shopify website designers and developers handle it all.</p>",
+            "icon": "shopify://shop_images/plus_1.png"
+          }
+        },
+        "faq_item_X849dy": {
+          "type": "faq_item",
+          "settings": {
+            "question": "How do I hire a Shopify developer from your team?",
+            "answer": "<p>Just fill out the form above, and we’ll match you with a Shopify website developer for your scope.</p>",
+            "icon": "shopify://shop_images/plus_1.png"
+          }
+        },
+        "faq_item_AqURr4": {
+          "type": "faq_item",
+          "settings": {
+            "question": "Can I hire a Shopify developer for just part of my build?",
+            "answer": "<p>Absolutely. You can <strong>hire a Shopify developer</strong> for theme tweaks, backend features, or full-stack development. We’re flexible based on your project scope.</p>",
             "icon": "shopify://shop_images/plus_1.png"
           }
         },
@@ -1602,6 +1909,14 @@
           "settings": {
             "question": "Do you offer Shopify migration services?",
             "answer": "<p>Yes — we offer complete Shopify migration services from platforms like WooCommerce, BigCommerce, Squarespace, Wix, Magento, and more. We’ll transfer your products, pages, customers, and order history while preserving your SEO as much as possible.</p>",
+            "icon": "shopify://shop_images/plus_1.png"
+          }
+        },
+        "faq_item_GTUCWD": {
+          "type": "faq_item",
+          "settings": {
+            "question": "Do you offer Shopify Plus services?",
+            "answer": "<p>Yes, we’re a trusted <strong>Shopify Plus agency</strong> and work with scaling brands on advanced builds, app integrations, and automation.</p>",
             "icon": "shopify://shop_images/plus_1.png"
           }
         },
@@ -1658,15 +1973,6 @@
           "settings": {
             "question": "How much does a typical project cost?",
             "answer": "<p>Our Shopify website packages start from <strong>$2,800 AUD</strong> for a standard build and go up depending on the features and scale of your project. Most businesses fall between the <strong>$4,800 to $7,500+ range</strong>, depending on what’s needed. We provide fixed quotes — no hidden fees.</p>",
-            "icon": "shopify://shop_images/plus_1.png"
-          }
-        },
-        "faq_item_AqURr4": {
-          "type": "faq_item",
-          "disabled": true,
-          "settings": {
-            "question": "1. How do I choose the right Shopify theme for my store?",
-            "answer": "<p>Choosing a theme is exciting but can feel overwhelming with so many options. Start by listing the key features your store needs (for example, a large image slider, product filtering, or a certain layout). This helps you narrow down themes that fit your functionality requirements before getting swayed by just looks. Next, consider your brand style and choose a theme whose design vibe matches your products – many themes allow colour and font tweaks so you can align it with your branding. Don’t forget to check that the theme is mobile-responsive (most on the Shopify Theme Store are) and read reviews from other users to catch any quirks. If you're on a tight budget, Shopify offers a range of free themes that are quite polished, but paid themes often come with more built-in features and unique designs for a one-time fee.<br/><br/><strong>Feeling stuck choosing the perfect theme?</strong> Our team at An Agency can help you pick and even customise a Shopify theme that captures your brand’s personality and converts well – just reach out for a chat!</p><p></p>",
             "icon": "shopify://shop_images/plus_1.png"
           }
         },
@@ -1853,8 +2159,13 @@
       },
       "block_order": [
         "faq_item_rrnAHz",
+        "faq_item_Y6R7RQ",
+        "faq_item_DqzNga",
+        "faq_item_X849dy",
+        "faq_item_AqURr4",
         "faq_item_jUAU8Y",
         "faq_item_NqpYQ3",
+        "faq_item_GTUCWD",
         "faq_item_A8xCUf",
         "faq_item_EBRRFV",
         "faq_item_extCWL",
@@ -1862,7 +2173,6 @@
         "faq_item_aFE9Qt",
         "faq_item_GDwtCj",
         "faq_item_pUpfwB",
-        "faq_item_AqURr4",
         "faq_item_VCqCaj",
         "faq_item_AdgFRX",
         "faq_item_E6VP9h",
@@ -1885,207 +2195,11 @@
         "faq_item_ifVb4t"
       ],
       "settings": {
-        "section_id": "",
+        "section_id": "faq",
         "hero_section": false,
         "heading": "Frequently Asked Questions",
         "bg_color": "#fbfbfb",
         "max_width": 684,
-        "desktop_padding_top": 60,
-        "desktop_padding_bottom": 60,
-        "mobile_padding_top": 40,
-        "mobile_padding_bottom": 40
-      }
-    },
-    "marketing_focus_zYMyt8": {
-      "type": "marketing-focus",
-      "settings": {
-        "key": "",
-        "logo_image": "shopify://shop_images/04.jpg",
-        "headline": "We Know Shopify & Sales Funnels (Inside Out)",
-        "sub_text": "Your store should be converting. We’ll fix the funnel, speed things up, and bring in better customers.",
-        "button_text": "Request a Quote",
-        "button_link": "shopify://pages/contact",
-        "desktop_padding_top": 40,
-        "desktop_padding_bottom": 40,
-        "mobile_padding_top": 30,
-        "mobile_padding_bottom": 30
-      }
-    },
-    "advertise_PAQGf7": {
-      "type": "advertise",
-      "settings": {
-        "section_id": "",
-        "hero_section": false,
-        "key": "",
-        "badge_text": "",
-        "badge_bg_color": "#ffffff",
-        "badge_txt_color": "#000000",
-        "badge_border_radius": 0,
-        "hide_badge_on_mobile": false,
-        "hide_subheading_on_mobile": false,
-        "hide_text_on_mobile": false,
-        "hide_media_on_mobile": false,
-        "loop_video": true,
-        "autoplay_video": true,
-        "main_image": "shopify://shop_images/AnAgencyShopifyWebsite05.png",
-        "media_border_radius": 0,
-        "media_border_width": 0,
-        "media_border_color": "#000000",
-        "secondary_image_roate_angle": -64,
-        "desktop_left": -80,
-        "desktop_top": -1,
-        "desktop_right": -1,
-        "desktop_bottom": 82,
-        "mobile_left": 0,
-        "mobile_top": -1,
-        "mobile_right": -1,
-        "mobile_bottom": -30,
-        "heading": "We Don’t Just Build Pretty Shopify Sites, We Build for Performance",
-        "sub_heading": "Here’s how our Shopify store development process works, without wasting your time or budget:",
-        "text": "<h2>Step 1: Strategy & Planning</h2><p>We define your goals, map out the ideal user journey, and create a structure tailored to your product range and audience.</p><h3></h3><h3></h3><p></p>",
-        "button_link": "#",
-        "button_text": "",
-        "image_right": false,
-        "desktop_text_align": "left",
-        "mobile_text_align": "left",
-        "background_color": "#fbfbfb",
-        "text_color": "#000000",
-        "desktop_padding_top": 60,
-        "desktop_padding_bottom": 60,
-        "mobile_padding_top": 40,
-        "mobile_padding_bottom": 40
-      }
-    },
-    "advertise_DnFdqE": {
-      "type": "advertise",
-      "settings": {
-        "section_id": "",
-        "hero_section": false,
-        "key": "",
-        "badge_text": "",
-        "badge_bg_color": "#ffffff",
-        "badge_txt_color": "#000000",
-        "badge_border_radius": 0,
-        "hide_badge_on_mobile": false,
-        "hide_subheading_on_mobile": false,
-        "hide_text_on_mobile": false,
-        "hide_media_on_mobile": false,
-        "loop_video": true,
-        "autoplay_video": true,
-        "main_image": "shopify://shop_images/AnAgencyShopifyWebsite07.png",
-        "media_border_radius": 0,
-        "media_border_width": 0,
-        "media_border_color": "#000000",
-        "secondary_image_roate_angle": 12,
-        "desktop_left": -1,
-        "desktop_top": -1,
-        "desktop_right": -1,
-        "desktop_bottom": -1,
-        "mobile_left": -1,
-        "mobile_top": -1,
-        "mobile_right": -1,
-        "mobile_bottom": -1,
-        "heading": "Step 2: Design & Development",
-        "sub_heading": "",
-        "text": "<p>We develop your Shopify store using a mobile-first layout, smart UX, branded content blocks, and SEO best practices.</p><h3></h3>",
-        "button_link": "",
-        "button_text": "",
-        "image_right": true,
-        "desktop_text_align": "left",
-        "mobile_text_align": "left",
-        "background_color": "#ffffff",
-        "text_color": "#000000",
-        "desktop_padding_top": 60,
-        "desktop_padding_bottom": 60,
-        "mobile_padding_top": 40,
-        "mobile_padding_bottom": 40
-      }
-    },
-    "advertise_JebRqW": {
-      "type": "advertise",
-      "settings": {
-        "section_id": "",
-        "hero_section": false,
-        "key": "",
-        "badge_text": "",
-        "badge_bg_color": "#ffffff",
-        "badge_txt_color": "#000000",
-        "badge_border_radius": 0,
-        "hide_badge_on_mobile": false,
-        "hide_subheading_on_mobile": false,
-        "hide_text_on_mobile": false,
-        "hide_media_on_mobile": false,
-        "loop_video": true,
-        "autoplay_video": true,
-        "main_image": "shopify://shop_images/AnAgencyShopifyWebsite08.png",
-        "media_border_radius": 0,
-        "media_border_width": 0,
-        "media_border_color": "#000000",
-        "secondary_image_roate_angle": -52,
-        "desktop_left": -1,
-        "desktop_top": 160,
-        "desktop_right": -90,
-        "desktop_bottom": -1,
-        "mobile_left": -1,
-        "mobile_top": -25,
-        "mobile_right": 0,
-        "mobile_bottom": -1,
-        "heading": "Step 3: Testing & Launch",
-        "sub_heading": "",
-        "text": "<p>Once your store is ready, we test it across devices, fix any issues, and hand it over fully operational — with training included.</p><p></p>",
-        "button_link": "shopify://pages/contact",
-        "button_text": "Get Your Shopify Store Built →",
-        "image_right": false,
-        "desktop_text_align": "left",
-        "mobile_text_align": "left",
-        "background_color": "#fbfbfb",
-        "text_color": "#000000",
-        "desktop_padding_top": 60,
-        "desktop_padding_bottom": 60,
-        "mobile_padding_top": 40,
-        "mobile_padding_bottom": 40
-      }
-    },
-    "advertise_KLNL33": {
-      "type": "advertise",
-      "settings": {
-        "section_id": "",
-        "hero_section": false,
-        "key": "",
-        "badge_text": "",
-        "badge_bg_color": "#ffffff",
-        "badge_txt_color": "#000000",
-        "badge_border_radius": 0,
-        "hide_badge_on_mobile": false,
-        "hide_subheading_on_mobile": false,
-        "hide_text_on_mobile": false,
-        "hide_media_on_mobile": false,
-        "loop_video": true,
-        "autoplay_video": true,
-        "main_image": "shopify://shop_images/AnAgencyShopifyWebsite09.png",
-        "media_border_radius": 0,
-        "media_border_width": 0,
-        "media_border_color": "#000000",
-        "secondary_image_roate_angle": 8,
-        "desktop_left": -80,
-        "desktop_top": -1,
-        "desktop_right": -1,
-        "desktop_bottom": 82,
-        "mobile_left": 0,
-        "mobile_top": -1,
-        "mobile_right": -1,
-        "mobile_bottom": -30,
-        "heading": "What You Really Get From Our Shopify Builds",
-        "sub_heading": "More than just a nice-looking homepage, here’s what’s really included when you work with us on a custom Shopify website.",
-        "text": "<ul><li>A Shopify store designed to sell — fast</li><li>Strategic layout based on real buyer psychology</li><li>Mobile-first design with conversion in mind</li><li>On-page SEO, tracking, and key app integrations</li><li>Product, collection, cart, and checkout setup</li><li>Post-launch support and training so you’re not left guessing</li></ul>",
-        "list_icon": "shopify://shop_images/checkmark.png",
-        "button_link": "shopify://pages/contact",
-        "button_text": "Show Me the Shopify Results →",
-        "image_right": true,
-        "desktop_text_align": "left",
-        "mobile_text_align": "left",
-        "background_color": "#ffffff",
-        "text_color": "#000000",
         "desktop_padding_top": 60,
         "desktop_padding_bottom": 60,
         "mobile_padding_top": 40,
@@ -2172,8 +2286,8 @@
       ],
       "settings": {
         "hero_section": false,
-        "heading": "Who’s This For?",
-        "text": "If you’re serious about growing your eCommerce business, you need a store that’s built right.",
+        "heading": "Shopify Website Design Clients We've Helped Grow",
+        "text": "From startup launches to 7-figure ecommerce brands, we’ve helped businesses grow with expert Shopify website design, development, and support.",
         "desktop_padding_top": 60,
         "desktop_padding_bottom": 60,
         "mobile_padding_top": 40,
@@ -2245,6 +2359,18 @@
         "mobile_padding_top": 30,
         "mobile_padding_bottom": 30
       }
+    },
+    "custom_liquid_F84iy7": {
+      "type": "custom-liquid",
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "section_id": "",
+        "bg_color": "#fff",
+        "custom_liquid": "<div style=\"font-size: 11px; color: #999; padding: 20px 0; text-align: center;\">\n  <p>\n    An Agency is a full-service <strong>Shopify website design company</strong>, <strong>web design company</strong>, and <strong>Shopify web development agency</strong>, offering <strong>custom Shopify website design services</strong>, store builds, theme customisation, and expert <strong>Shopify developers</strong> for Australian and global clients.  \n    We're also a <strong>Shopify Plus agency</strong> and trusted <strong>Shopify development agency</strong> for brands that want to scale fast.  \n    Whether you need a <strong>Shopify web developer</strong>, a <strong>Shopify website developer</strong>, or want to <strong>hire a Shopify developer</strong> to build or optimise your store, we’re here to help.  \n    Recognised as one of the <strong>best Shopify design agencies</strong> and a proven <strong>website development company</strong>, we bring strategy, performance, and reliability to every project.  \n    If you're searching for a <strong>Shopify expert near me</strong>, our remote-first team is ready to support you wherever you're based.\n  </p>\n</div>",
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
     }
   },
   "order": [
@@ -2253,22 +2379,24 @@
     "text_list_MNPzdp",
     "multi_image_list_slider_zE97CJ",
     "advertise_HPp6jH",
-    "text_list_WmcAaw",
-    "single_contact_form_qh4DAq",
-    "score_grid_color_per_item_xNwfjd",
     "text_list_Gj8YAb",
     "pricing_new_3erV7g",
-    "text_list_zidnT7",
-    "custom_review_new_Bp63JF",
-    "text_list_VeQkgV",
-    "score_grid_y7U8qQ",
-    "faq_cYAhKJ",
+    "text_list_WmcAaw",
+    "single_contact_form_qh4DAq",
+    "text_list_E7YGKE",
+    "score_grid_color_per_item_xNwfjd",
     "marketing_focus_zYMyt8",
     "advertise_PAQGf7",
     "advertise_DnFdqE",
     "advertise_JebRqW",
     "advertise_KLNL33",
+    "text_list_zidnT7",
+    "custom_review_new_Bp63JF",
+    "text_list_VeQkgV",
+    "score_grid_y7U8qQ",
+    "faq_cYAhKJ",
     "tradies_D9qHzj",
-    "partner_with_U86NgH"
+    "partner_with_U86NgH",
+    "custom_liquid_F84iy7"
   ]
 }

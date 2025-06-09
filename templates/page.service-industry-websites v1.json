@@ -9,11 +9,87 @@
  */
 {
   "sections": {
+    "advertise_6VLxp7": {
+      "type": "advertise",
+      "settings": {
+        "section_id": "",
+        "hero_section": false,
+        "key": "",
+        "badge_text": "",
+        "badge_bg_color": "#ffffff",
+        "badge_txt_color": "#000000",
+        "badge_border_radius": 0,
+        "hide_badge_on_mobile": false,
+        "hide_subheading_on_mobile": false,
+        "hide_text_on_mobile": false,
+        "hide_media_on_mobile": false,
+        "loop_video": true,
+        "autoplay_video": true,
+        "main_image": "shopify://shop_images/AnAgencyInstagramAds04.png",
+        "media_border_radius": 0,
+        "media_border_width": 0,
+        "media_border_color": "#000000",
+        "secondary_image_roate_angle": -52,
+        "desktop_left": -1,
+        "desktop_top": 160,
+        "desktop_right": -90,
+        "desktop_bottom": -1,
+        "mobile_left": -1,
+        "mobile_top": -25,
+        "mobile_right": 0,
+        "mobile_bottom": -1,
+        "heading": "Let’s Build a Website That Works for You",
+        "sub_heading": "A lead-generating website is one of the best investments you can make in your service business.",
+        "text": "<p>Let’s build a site that <strong>gets you found, brings in calls, and grows your business</strong>. We’re a performance-led <strong>website design agency</strong> trusted by service businesses across Australia.</p><p></p>",
+        "button_link": "shopify://pages/contact",
+        "button_text": "Book a Free Chat →",
+        "image_right": true,
+        "desktop_text_align": "left",
+        "mobile_text_align": "center",
+        "background_color": "#ffffff",
+        "text_color": "#000000",
+        "desktop_padding_top": 60,
+        "desktop_padding_bottom": 60,
+        "mobile_padding_top": 40,
+        "mobile_padding_bottom": 40
+      }
+    },
+    "phone_ring_MzFcJr": {
+      "type": "phone-ring",
+      "settings": {
+        "hero_section": false,
+        "key": "",
+        "image": "shopify://shop_images/GoogleAds_10.jpg",
+        "heading_1": "Your Website Should Be",
+        "heading_2": "Your Best Salesperson",
+        "sub_heading": "No one has time to chase leads all day. Your website should be doing the heavy lifting for you, 24/7.",
+        "text": "Our websites come with clear, obvious calls-to-action so customers never need to hunt around. We optimise your site so when people Google \"best [your service] near me,\" you’re right at the top. Plus, with 70% of searches happening on mobile, your website will load fast and look perfect on any device, because slow sites lose leads. That’s why smart tradies and business owners choose a proven web design agency.",
+        "phone_button_text": "Call Us On (02) 8088 0768",
+        "phone_number": "(02) 8088 0768",
+        "enquire_button_text": "See Our Work",
+        "enquire_button_link": "shopify://pages/our-work",
+        "image_right": false,
+        "text_align": "left",
+        "desktop_padding_top": 100,
+        "desktop_padding_bottom": 100,
+        "mobile_padding_top": 60,
+        "mobile_padding_bottom": 40
+      }
+    },
     "advertise_xMT9mA": {
       "type": "advertise",
       "settings": {
+        "section_id": "",
         "hero_section": true,
         "key": "",
+        "badge_text": "",
+        "badge_bg_color": "#ffffff",
+        "badge_txt_color": "#000000",
+        "badge_border_radius": 0,
+        "hide_badge_on_mobile": false,
+        "hide_subheading_on_mobile": false,
+        "hide_text_on_mobile": false,
+        "hide_media_on_mobile": false,
         "loop_video": true,
         "autoplay_video": true,
         "main_image": "shopify://shop_images/AnAgencyServiceWebsite02.png",
@@ -31,35 +107,17 @@
         "mobile_bottom": -26,
         "heading": "Get a Website That Actually Brings in Leads",
         "sub_heading": "Service Websites Built for Real Results",
-        "text": "<p>If your website isn't driving enquiries, it's wasting your time. At An Agency, we build service-based websites designed specifically to turn browsers into bookings, fast, clear, and with zero fluff.</p><p>Whether you're a plumber, electrician, concreter, builder, or any other trade pro, your site should bring in steady, quality leads without you lifting a finger. We craft sites that answer customer questions, build trust, and make it easy for them to contact you immediately.</p><p>Every website we deliver is purpose-built for lead-gen, not just good looks. We make sure it's fully SEO-optimised, has built-in quote forms, instant booking options, and click-to-call buttons, so leads become customers, quicker.</p>",
+        "text": "<p>If your website isn't driving enquiries, it's wasting your time. At An Agency, we build service-based websites designed specifically to turn browsers into bookings, fast, clear, and with zero fluff.</p><p>Whether you're a plumber, electrician, concreter, builder, or any other trade pro, your site should bring in steady, quality leads without you lifting a finger. We craft sites that answer customer questions, build trust, and make it easy for them to contact you immediately.</p><p>Every website we deliver is purpose-built for lead-gen, not just good looks. We make sure it's fully SEO-optimised, has built-in quote forms, instant booking options, and click-to-call buttons, so leads become customers, quicker. As a results-driven <strong>website development company</strong>, we don’t just design, we build tools that book jobs.</p>",
         "button_link": "shopify://pages/contact",
         "button_text": "Book a Free Chat →",
-        "image_right": false,
+        "image_right": true,
+        "desktop_text_align": "left",
+        "mobile_text_align": "center",
         "background_color": "#ffffff",
+        "text_color": "#000000",
         "desktop_padding_top": 60,
         "desktop_padding_bottom": 60,
         "mobile_padding_top": 40,
-        "mobile_padding_bottom": 40
-      }
-    },
-    "phone_ring_MzFcJr": {
-      "type": "phone-ring",
-      "settings": {
-        "key": "",
-        "image": "shopify://shop_images/GoogleAds_10.jpg",
-        "heading_1": "Your Website Should Be",
-        "heading_2": "Your Best Salesperson",
-        "sub_heading": "No one has time to chase leads all day. Your website should be doing the heavy lifting for you, 24/7.",
-        "text": "Our websites come with clear, obvious calls-to-action so customers never need to hunt around. We optimise your site so when people Google \"best [your service] near me,\" you’re right at the top. Plus, with 70% of searches happening on mobile, your website will load fast and look perfect on any device—because slow sites lose leads.",
-        "phone_button_text": "Call Us On 0499226600",
-        "phone_number": "0499226600",
-        "enquire_button_text": "See Our Work",
-        "enquire_button_link": "shopify://pages/our-work",
-        "image_right": true,
-        "text_align": "left",
-        "desktop_padding_top": 100,
-        "desktop_padding_bottom": 100,
-        "mobile_padding_top": 60,
         "mobile_padding_bottom": 40
       }
     },
@@ -87,13 +145,16 @@
             "desktop_max_width": 1440,
             "mobile_max_width": 1440,
             "desktop_color": "#000000",
-            "mobile_color": "#121212"
+            "mobile_color": "#121212",
+            "highlight_text": "",
+            "desktop_highlight_text_color": "#000000",
+            "mobile_highlight_text_color": "#000000"
           }
         },
         "text_VfFdk4": {
           "type": "text",
           "settings": {
-            "text": "<p>Explore a curated selection of Service websites we've built on Shopify  - each designed to convert visitors into customers, drive leads, bookings, and support real business growth. These sites aren’t just pretty; they’re built for online success from day one.</p>",
+            "text": "<p>As a trusted <strong>web design company</strong>, we’ve helped over 700 service businesses build websites that drive real leads and growth.</p>",
             "desktop_margin": 0,
             "mobile_margin": 0,
             "desktop_align": "center",
@@ -111,7 +172,10 @@
             "desktop_max_width": 1000,
             "mobile_max_width": 1000,
             "desktop_color": "#000000",
-            "mobile_color": "#000000"
+            "mobile_color": "#000000",
+            "highlight_text": "",
+            "desktop_highlight_text_color": "#000000",
+            "mobile_highlight_text_color": "#000000"
           }
         }
       },
@@ -121,6 +185,7 @@
       ],
       "name": "Text List",
       "settings": {
+        "section_id": "",
         "bg_color": "#ffffff",
         "desktop_padding_top": 60,
         "desktop_padding_bottom": 40,
@@ -292,6 +357,7 @@
       ],
       "name": "Multi Image List Slider",
       "settings": {
+        "section_id": "",
         "bg_color": "#ffffff",
         "image_item_border_radius": 4,
         "loadmore_btn_text": "Load More",
@@ -331,7 +397,10 @@
             "desktop_max_width": 1000,
             "mobile_max_width": 1000,
             "desktop_color": "#000000",
-            "mobile_color": "#000000"
+            "mobile_color": "#000000",
+            "highlight_text": "",
+            "desktop_highlight_text_color": "#000000",
+            "mobile_highlight_text_color": "#000000"
           }
         },
         "text_eBjNbe": {
@@ -355,7 +424,10 @@
             "desktop_max_width": 1440,
             "mobile_max_width": 1440,
             "desktop_color": "#000000",
-            "mobile_color": "#000000"
+            "mobile_color": "#000000",
+            "highlight_text": "",
+            "desktop_highlight_text_color": "#000000",
+            "mobile_highlight_text_color": "#000000"
           }
         }
       },
@@ -365,6 +437,7 @@
       ],
       "name": "Text List",
       "settings": {
+        "section_id": "",
         "bg_color": "#ffffff",
         "desktop_padding_top": 60,
         "desktop_padding_bottom": 40,
@@ -510,7 +583,9 @@
       ],
       "name": "Score Grid",
       "settings": {
+        "section_id": "",
         "bg_color": "#ffffff",
+        "not_necessary": false,
         "card_bg_color": "#ffffff",
         "card_border_color": "#e5e5e5",
         "score_color": "#fdd328",
@@ -545,7 +620,10 @@
             "desktop_max_width": 1000,
             "mobile_max_width": 1000,
             "desktop_color": "#121212",
-            "mobile_color": "#121212"
+            "mobile_color": "#121212",
+            "highlight_text": "",
+            "desktop_highlight_text_color": "#000000",
+            "mobile_highlight_text_color": "#000000"
           }
         },
         "text_MBaFDg": {
@@ -569,7 +647,10 @@
             "desktop_max_width": 1000,
             "mobile_max_width": 1000,
             "desktop_color": "#fdd328",
-            "mobile_color": "#fdd328"
+            "mobile_color": "#fdd328",
+            "highlight_text": "",
+            "desktop_highlight_text_color": "#000000",
+            "mobile_highlight_text_color": "#000000"
           }
         }
       },
@@ -579,6 +660,7 @@
       ],
       "name": "Text List",
       "settings": {
+        "section_id": "",
         "bg_color": "#ffffff",
         "desktop_padding_top": 60,
         "desktop_padding_bottom": 40,
@@ -668,6 +750,9 @@
       ],
       "name": "Custom Review(new)",
       "settings": {
+        "section_id": "",
+        "init_show_count": 100,
+        "increase_count": 4,
         "bg_color": "#ffffff",
         "card_bg_color": "#ffffff",
         "card_text_color": "#000000",
@@ -685,6 +770,7 @@
         "read_more_btn_color_hover": "#787878",
         "link_btn_text": "FIND MORE OUT",
         "link": "shopify://pages/contact",
+        "use_this_for_load_more": false,
         "link_btn_bg_color": "#121212",
         "link_btn_text_color": "#ffffff",
         "link_btn_bg_color_hover": "#fdd328",
@@ -858,6 +944,8 @@
       ],
       "name": "Image Grid",
       "settings": {
+        "section_id": "",
+        "hero_section": false,
         "bg_color": "#ffffff",
         "heading": "BIG OR SMALL, []",
         "secondary_heading": "FAST GROWTH",
@@ -884,7 +972,17 @@
     "advertise_PAQGf7": {
       "type": "advertise",
       "settings": {
+        "section_id": "",
+        "hero_section": false,
         "key": "",
+        "badge_text": "",
+        "badge_bg_color": "#ffffff",
+        "badge_txt_color": "#000000",
+        "badge_border_radius": 0,
+        "hide_badge_on_mobile": false,
+        "hide_subheading_on_mobile": false,
+        "hide_text_on_mobile": false,
+        "hide_media_on_mobile": false,
         "loop_video": true,
         "autoplay_video": true,
         "main_image": "shopify://shop_images/AnAgencyServiceWebsite03.png",
@@ -906,7 +1004,10 @@
         "button_link": "",
         "button_text": "",
         "image_right": false,
+        "desktop_text_align": "left",
+        "mobile_text_align": "center",
         "background_color": "#fbfbfb",
+        "text_color": "#000000",
         "desktop_padding_top": 60,
         "desktop_padding_bottom": 60,
         "mobile_padding_top": 40,
@@ -916,7 +1017,17 @@
     "advertise_DnFdqE": {
       "type": "advertise",
       "settings": {
+        "section_id": "",
+        "hero_section": false,
         "key": "",
+        "badge_text": "",
+        "badge_bg_color": "#ffffff",
+        "badge_txt_color": "#000000",
+        "badge_border_radius": 0,
+        "hide_badge_on_mobile": false,
+        "hide_subheading_on_mobile": false,
+        "hide_text_on_mobile": false,
+        "hide_media_on_mobile": false,
         "loop_video": true,
         "autoplay_video": true,
         "main_image": "shopify://shop_images/AnAgencyServiceWebsite04.png",
@@ -938,7 +1049,10 @@
         "button_link": "",
         "button_text": "",
         "image_right": true,
+        "desktop_text_align": "left",
+        "mobile_text_align": "center",
         "background_color": "#ffffff",
+        "text_color": "#000000",
         "desktop_padding_top": 60,
         "desktop_padding_bottom": 60,
         "mobile_padding_top": 40,
@@ -948,7 +1062,17 @@
     "advertise_JebRqW": {
       "type": "advertise",
       "settings": {
+        "section_id": "",
+        "hero_section": false,
         "key": "",
+        "badge_text": "",
+        "badge_bg_color": "#ffffff",
+        "badge_txt_color": "#000000",
+        "badge_border_radius": 0,
+        "hide_badge_on_mobile": false,
+        "hide_subheading_on_mobile": false,
+        "hide_text_on_mobile": false,
+        "hide_media_on_mobile": false,
         "loop_video": true,
         "autoplay_video": true,
         "main_image": "shopify://shop_images/AnAgencyServiceWebsite05.png",
@@ -970,7 +1094,10 @@
         "button_link": "shopify://pages/contact",
         "button_text": "Get a Website That Gets You More Jobs →",
         "image_right": false,
+        "desktop_text_align": "left",
+        "mobile_text_align": "center",
         "background_color": "#fbfbfb",
+        "text_color": "#000000",
         "desktop_padding_top": 60,
         "desktop_padding_bottom": 60,
         "mobile_padding_top": 40,
@@ -980,7 +1107,17 @@
     "advertise_KLNL33": {
       "type": "advertise",
       "settings": {
+        "section_id": "",
+        "hero_section": false,
         "key": "",
+        "badge_text": "",
+        "badge_bg_color": "#ffffff",
+        "badge_txt_color": "#000000",
+        "badge_border_radius": 0,
+        "hide_badge_on_mobile": false,
+        "hide_subheading_on_mobile": false,
+        "hide_text_on_mobile": false,
+        "hide_media_on_mobile": false,
         "loop_video": true,
         "autoplay_video": true,
         "main_image": "shopify://shop_images/AnAgencyServiceWebsite06.png",
@@ -999,11 +1136,14 @@
         "mobile_bottom": -30,
         "heading": "What's Included in Your Custom-Built Service Website?",
         "sub_heading": "",
-        "text": "<p><strong>Lead-Driven Design. </strong>Your website isn't just there to look pretty, it's built to bring in calls, quotes, and bookings around the clock.</p><p><strong>Local SEO Optimisation. </strong>We make sure your business is found by local customers exactly when they're ready to buy. No more missed opportunities on Google.</p><p><strong>Easy Booking & Quote Forms. </strong>Customers should be able to contact you quickly and effortlessly, whether they prefer to call, request quotes, or book online, your site will make it simple.</p><p><strong>Fast, Mobile-Friendly & Secure. </strong>If your site is slow, clunky, or insecure, you're losing business. We ensure every site loads lightning-fast, looks perfect on mobile, and keeps customer data safe.</p>",
+        "text": "<p><strong>Lead-Driven Design. </strong>Your website isn't just there to look pretty, it's built to bring in calls, quotes, and bookings around the clock.</p><p><strong>Local SEO Optimisation. </strong>We make sure your business is found by local customers exactly when they're ready to buy. No more missed opportunities on Google.</p><p><strong>Easy Booking & Quote Forms. </strong>Customers should be able to contact you quickly and effortlessly, whether they prefer to call, request quotes, or book online, your site will make it simple.</p><p><strong>Fast, Mobile-Friendly & Secure. </strong>If your site is slow, clunky, or insecure, you're losing business. We ensure every site loads lightning-fast, looks perfect on mobile, and keeps customer data safe. Unlike a typical <strong>web design company</strong>, we don’t just tick boxes - we focus on outcomes.</p>",
         "button_link": "shopify://pages/contact",
         "button_text": "Get a Custom Service Website →",
         "image_right": false,
+        "desktop_text_align": "left",
+        "mobile_text_align": "center",
         "background_color": "#ffffff",
+        "text_color": "#000000",
         "desktop_padding_top": 60,
         "desktop_padding_bottom": 60,
         "mobile_padding_top": 40,
@@ -1013,7 +1153,17 @@
     "advertise_qQYPyj": {
       "type": "advertise",
       "settings": {
+        "section_id": "",
+        "hero_section": false,
         "key": "",
+        "badge_text": "",
+        "badge_bg_color": "#ffffff",
+        "badge_txt_color": "#000000",
+        "badge_border_radius": 0,
+        "hide_badge_on_mobile": false,
+        "hide_subheading_on_mobile": false,
+        "hide_text_on_mobile": false,
+        "hide_media_on_mobile": false,
         "loop_video": true,
         "autoplay_video": true,
         "main_image": "shopify://shop_images/AnAgencyServiceWebsite07.png",
@@ -1030,12 +1180,15 @@
         "mobile_right": 0,
         "mobile_bottom": -1,
         "heading": "Why Aussie Businesses Choose An Agency",
-        "sub_heading": "Real Experience, Real Results",
+        "sub_heading": "We’re a no-nonsense web design agency that understands what service businesses actually need online.",
         "text": "<p><strong>We know what works.</strong> We've built websites that consistently generate leads across every trade and service, plumbers, electricians, builders, finance, legal, and more.<br/><br/><strong>Zero Jargon, Maximum Impact. </strong>We don't confuse you with tech speak. Simple designs, clear messaging, and easy navigation are our trademark, because that’s what converts.</p><p><strong>Complete Done-For-You Service. </strong>From strategy and design to launch and ongoing SEO, we handle all the heavy lifting, so you can focus on running your business.</p><p><strong>Websites That Actually Convert. </strong>Our websites aren't just digital brochures, they’re active sales machines designed to generate calls, quotes, and real bookings.</p><p>💬 <em>“An Agency built us a site that doubled our inbound calls within 3 months. Best investment we’ve made.”</em> – <em>Happy Service Business Owner</em></p>",
         "button_link": "shopify://pages/contact",
         "button_text": "Let’s Talk Websites →",
         "image_right": true,
+        "desktop_text_align": "left",
+        "mobile_text_align": "center",
         "background_color": "#ffffff",
+        "text_color": "#000000",
         "desktop_padding_top": 60,
         "desktop_padding_bottom": 60,
         "mobile_padding_top": 40,
@@ -1083,6 +1236,7 @@
       ],
       "disabled": true,
       "settings": {
+        "hero_section": false,
         "heading": "Who’s This For?",
         "text": "<p>Who’s This For?If you’re serious about growing your eCommerce business, you need a store that’s built right.</p>",
         "trust_image": "shopify://shop_images/review-bar-green.svg",
@@ -1174,6 +1328,7 @@
         "tradies_item_tDB4YR"
       ],
       "settings": {
+        "hero_section": false,
         "heading": "Who’s This For?",
         "text": "If your business relies on calls, bookings, and leads, you need a website that’s actually built to convert.",
         "desktop_padding_top": 60,
@@ -1225,41 +1380,11 @@
         "faq_item_akFz96"
       ],
       "settings": {
+        "section_id": "",
+        "hero_section": false,
         "heading": "Frequently Asked Questions",
         "bg_color": "#ffffff",
         "max_width": 684,
-        "desktop_padding_top": 60,
-        "desktop_padding_bottom": 60,
-        "mobile_padding_top": 40,
-        "mobile_padding_bottom": 40
-      }
-    },
-    "advertise_6VLxp7": {
-      "type": "advertise",
-      "settings": {
-        "key": "",
-        "loop_video": true,
-        "autoplay_video": true,
-        "main_image": "shopify://shop_images/AnAgencyInstagramAds04.png",
-        "media_border_radius": 0,
-        "media_border_width": 0,
-        "media_border_color": "#000000",
-        "secondary_image_roate_angle": -52,
-        "desktop_left": -1,
-        "desktop_top": 160,
-        "desktop_right": -90,
-        "desktop_bottom": -1,
-        "mobile_left": -1,
-        "mobile_top": -25,
-        "mobile_right": 0,
-        "mobile_bottom": -1,
-        "heading": "Let’s Build a Website That Works for You",
-        "sub_heading": "A lead-generating website is one of the best investments you can make in your service business.",
-        "text": "<p>Let’s build a site that <strong>gets you found, brings in calls, and grows your business</strong>.</p><p></p>",
-        "button_link": "shopify://pages/contact",
-        "button_text": "Book a Free Chat →",
-        "image_right": true,
-        "background_color": "#ffffff",
         "desktop_padding_top": 60,
         "desktop_padding_bottom": 60,
         "mobile_padding_top": 40,
@@ -1321,6 +1446,7 @@
         "partner_item_nMMzBY"
       ],
       "settings": {
+        "hero_section": false,
         "heading": "Partnered With",
         "bg_color": "#ffffff",
         "desktop_card_border_radius": 10,
@@ -1338,7 +1464,7 @@
         "key": "",
         "logo_image": "shopify://shop_images/04.jpg",
         "headline": "We Build Websites That Bring You Jobs",
-        "sub_text": "From design to launch, we create lead-generating machines tailored to your trade.",
+        "sub_text": "Get started with a web design company that builds for leads, not just clicks.",
         "button_text": "Request a Quote",
         "button_link": "shopify://pages/contact",
         "desktop_padding_top": 40,
@@ -1349,8 +1475,9 @@
     }
   },
   "order": [
-    "advertise_xMT9mA",
+    "advertise_6VLxp7",
     "phone_ring_MzFcJr",
+    "advertise_xMT9mA",
     "text_list_MNPzdp",
     "multi_image_list_slider_zE97CJ",
     "text_list_VeQkgV",
@@ -1366,7 +1493,6 @@
     "trust_Q37M3R",
     "tradies_D9qHzj",
     "faq_cYAhKJ",
-    "advertise_6VLxp7",
     "partner_with_U86NgH",
     "marketing_focus_fcpHTK"
   ]

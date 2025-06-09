@@ -12,8 +12,17 @@
     "advertise_xMT9mA": {
       "type": "advertise",
       "settings": {
+        "section_id": "",
         "hero_section": true,
         "key": "",
+        "badge_text": "",
+        "badge_bg_color": "#ffffff",
+        "badge_txt_color": "#000000",
+        "badge_border_radius": 0,
+        "hide_badge_on_mobile": false,
+        "hide_subheading_on_mobile": false,
+        "hide_text_on_mobile": false,
+        "hide_media_on_mobile": false,
         "loop_video": true,
         "autoplay_video": true,
         "main_image": "shopify://shop_images/AnAgencyLinkedInAds02.png",
@@ -36,7 +45,10 @@
         "button_link": "shopify://pages/contact",
         "button_text": "Speak To Our Team",
         "image_right": false,
+        "desktop_text_align": "left",
+        "mobile_text_align": "center",
         "background_color": "#ffffff",
+        "text_color": "#000000",
         "desktop_padding_top": 60,
         "desktop_padding_bottom": 60,
         "mobile_padding_top": 40,
@@ -46,14 +58,15 @@
     "phone_ring_MzFcJr": {
       "type": "phone-ring",
       "settings": {
+        "hero_section": false,
         "key": "",
         "image": "shopify://shop_images/AnAgencyLinkedInAds03.png",
         "heading_1": "We Make LinkedIn",
         "heading_2": "Work for You.",
         "sub_heading": "For B2B brands that want more than just impressions",
         "text": "For business owners who need real action and proven know-how, not endless plans and empty promises.And for companies looking for solid growth instead of uncertain results.If you're serious about digital marketing that really works for your trade business, let's have a chat.",
-        "phone_button_text": "0499226600",
-        "phone_number": "0499226600",
+        "phone_button_text": "(02) 8088 0768",
+        "phone_number": "(02) 8088 0768",
         "enquire_button_text": "Enquire Now",
         "enquire_button_link": "shopify://pages/contact",
         "image_right": true,
@@ -67,7 +80,17 @@
     "advertise_KLNL33": {
       "type": "advertise",
       "settings": {
+        "section_id": "",
+        "hero_section": false,
         "key": "",
+        "badge_text": "",
+        "badge_bg_color": "#ffffff",
+        "badge_txt_color": "#000000",
+        "badge_border_radius": 0,
+        "hide_badge_on_mobile": false,
+        "hide_subheading_on_mobile": false,
+        "hide_text_on_mobile": false,
+        "hide_media_on_mobile": false,
         "loop_video": true,
         "autoplay_video": true,
         "main_image": "shopify://shop_images/AnAgencyLinkedInAds04.png",
@@ -89,7 +112,10 @@
         "button_link": "shopify://pages/contact",
         "button_text": "Help Grow My Business",
         "image_right": false,
+        "desktop_text_align": "left",
+        "mobile_text_align": "center",
         "background_color": "#ffffff",
+        "text_color": "#000000",
         "desktop_padding_top": 60,
         "desktop_padding_bottom": 60,
         "mobile_padding_top": 40,
@@ -100,7 +126,17 @@
       "type": "advertise",
       "disabled": true,
       "settings": {
+        "section_id": "",
+        "hero_section": false,
         "key": "",
+        "badge_text": "",
+        "badge_bg_color": "#ffffff",
+        "badge_txt_color": "#000000",
+        "badge_border_radius": 0,
+        "hide_badge_on_mobile": false,
+        "hide_subheading_on_mobile": false,
+        "hide_text_on_mobile": false,
+        "hide_media_on_mobile": false,
         "loop_video": true,
         "autoplay_video": true,
         "main_image": "shopify://shop_images/google-ads-for-tradies-australia.webp",
@@ -123,7 +159,10 @@
         "button_link": "shopify://pages/contact",
         "button_text": "Help Grow My Business",
         "image_right": true,
+        "desktop_text_align": "left",
+        "mobile_text_align": "center",
         "background_color": "#ffffff",
+        "text_color": "#000000",
         "desktop_padding_top": 60,
         "desktop_padding_bottom": 60,
         "mobile_padding_top": 40,
@@ -154,7 +193,10 @@
             "desktop_max_width": 1440,
             "mobile_max_width": 1440,
             "desktop_color": "#000000",
-            "mobile_color": "#121212"
+            "mobile_color": "#121212",
+            "highlight_text": "",
+            "desktop_highlight_text_color": "#000000",
+            "mobile_highlight_text_color": "#000000"
           }
         },
         "text_VfFdk4": {
@@ -178,7 +220,10 @@
             "desktop_max_width": 1000,
             "mobile_max_width": 1000,
             "desktop_color": "#000000",
-            "mobile_color": "#000000"
+            "mobile_color": "#000000",
+            "highlight_text": "",
+            "desktop_highlight_text_color": "#000000",
+            "mobile_highlight_text_color": "#000000"
           }
         }
       },
@@ -189,6 +234,7 @@
       "disabled": true,
       "name": "Text List",
       "settings": {
+        "section_id": "",
         "bg_color": "#ffffff",
         "desktop_padding_top": 60,
         "desktop_padding_bottom": 40,
@@ -288,7 +334,9 @@
             "min_width": 0,
             "item_count": 1,
             "gap": 10,
-            "image_aspect_ratio": 1.1
+            "row_gap": 20,
+            "image_aspect_ratio": 1.1,
+            "animation_time": 8
           }
         },
         "breakpoint_z7gNKm": {
@@ -298,7 +346,9 @@
             "min_width": 425,
             "item_count": 1,
             "gap": 10,
-            "image_aspect_ratio": 0.8
+            "row_gap": 20,
+            "image_aspect_ratio": 0.8,
+            "animation_time": 8
           }
         },
         "breakpoint_6GLPLD": {
@@ -309,7 +359,9 @@
             "min_width": 0,
             "item_count": 1,
             "gap": 10,
-            "image_aspect_ratio": 1
+            "row_gap": 20,
+            "image_aspect_ratio": 1,
+            "animation_time": 8
           }
         },
         "breakpoint_Cfnixa": {
@@ -318,7 +370,9 @@
             "min_width": 750,
             "item_count": 2,
             "gap": 15,
-            "image_aspect_ratio": 0.5
+            "row_gap": 20,
+            "image_aspect_ratio": 0.5,
+            "animation_time": 8
           }
         },
         "breakpoint_nEkwH8": {
@@ -328,7 +382,9 @@
             "min_width": 1024,
             "item_count": 4,
             "gap": 20,
-            "image_aspect_ratio": 0.5
+            "row_gap": 20,
+            "image_aspect_ratio": 0.5,
+            "animation_time": 8
           }
         },
         "breakpoint_Dakag9": {
@@ -338,7 +394,9 @@
             "min_width": 1280,
             "item_count": 4,
             "gap": 24,
-            "image_aspect_ratio": 0.5
+            "row_gap": 20,
+            "image_aspect_ratio": 0.5,
+            "animation_time": 8
           }
         },
         "breakpoint_c6QjXi": {
@@ -349,7 +407,9 @@
             "min_width": 1366,
             "item_count": 4,
             "gap": 30,
-            "image_aspect_ratio": 0.5
+            "row_gap": 20,
+            "image_aspect_ratio": 0.5,
+            "animation_time": 8
           }
         }
       },
@@ -376,6 +436,7 @@
       "disabled": true,
       "name": "Multi Image List Slider",
       "settings": {
+        "section_id": "",
         "bg_color": "#ffffff",
         "image_item_border_radius": 4,
         "loadmore_btn_text": "Load More",
@@ -384,6 +445,7 @@
         "loadmore_btn_bg_color_hover": "#000000",
         "loadmore_btn_text_color_hover": "#fafafa",
         "loadmore_btn_border_radius": 7,
+        "max_count_per_view": 4,
         "desktop_padding_top": 0,
         "desktop_padding_bottom": 60,
         "mobile_padding_top": 0,
@@ -414,7 +476,10 @@
             "desktop_max_width": 1000,
             "mobile_max_width": 1000,
             "desktop_color": "#000000",
-            "mobile_color": "#000000"
+            "mobile_color": "#000000",
+            "highlight_text": "",
+            "desktop_highlight_text_color": "#000000",
+            "mobile_highlight_text_color": "#000000"
           }
         },
         "text_eBjNbe": {
@@ -438,7 +503,10 @@
             "desktop_max_width": 1440,
             "mobile_max_width": 1440,
             "desktop_color": "#000000",
-            "mobile_color": "#000000"
+            "mobile_color": "#000000",
+            "highlight_text": "",
+            "desktop_highlight_text_color": "#000000",
+            "mobile_highlight_text_color": "#000000"
           }
         }
       },
@@ -449,6 +517,7 @@
       "disabled": true,
       "name": "Text List",
       "settings": {
+        "section_id": "",
         "bg_color": "#ffffff",
         "desktop_padding_top": 60,
         "desktop_padding_bottom": 40,
@@ -595,7 +664,9 @@
       "disabled": true,
       "name": "Score Grid",
       "settings": {
+        "section_id": "",
         "bg_color": "#ffffff",
+        "not_necessary": false,
         "card_bg_color": "#ffffff",
         "card_border_color": "#e5e5e5",
         "score_color": "#fdd328",
@@ -630,7 +701,10 @@
             "desktop_max_width": 1000,
             "mobile_max_width": 1000,
             "desktop_color": "#121212",
-            "mobile_color": "#121212"
+            "mobile_color": "#121212",
+            "highlight_text": "",
+            "desktop_highlight_text_color": "#000000",
+            "mobile_highlight_text_color": "#000000"
           }
         },
         "text_MBaFDg": {
@@ -654,7 +728,10 @@
             "desktop_max_width": 1000,
             "mobile_max_width": 1000,
             "desktop_color": "#fdd328",
-            "mobile_color": "#fdd328"
+            "mobile_color": "#fdd328",
+            "highlight_text": "",
+            "desktop_highlight_text_color": "#000000",
+            "mobile_highlight_text_color": "#000000"
           }
         }
       },
@@ -665,6 +742,7 @@
       "disabled": true,
       "name": "Text List",
       "settings": {
+        "section_id": "",
         "bg_color": "#ffffff",
         "desktop_padding_top": 60,
         "desktop_padding_bottom": 40,
@@ -755,6 +833,9 @@
       "disabled": true,
       "name": "Custom Review(new)",
       "settings": {
+        "section_id": "",
+        "init_show_count": 100,
+        "increase_count": 4,
         "bg_color": "#ffffff",
         "card_bg_color": "#ffffff",
         "card_text_color": "#000000",
@@ -772,6 +853,7 @@
         "read_more_btn_color_hover": "#787878",
         "link_btn_text": "FIND MORE OUT",
         "link": "shopify://pages/contact",
+        "use_this_for_load_more": false,
         "link_btn_bg_color": "#121212",
         "link_btn_text_color": "#ffffff",
         "link_btn_bg_color_hover": "#fdd328",
@@ -946,6 +1028,8 @@
       "disabled": true,
       "name": "Image Grid",
       "settings": {
+        "section_id": "",
+        "hero_section": false,
         "bg_color": "#ffffff",
         "heading": "BIG OR SMALL, []",
         "secondary_heading": "FAST GROWTH",
@@ -1009,6 +1093,7 @@
         "trust_item_JfVUzV"
       ],
       "settings": {
+        "hero_section": false,
         "heading": "Why LinkedIn Ads with An Agency Just Work",
         "text": "<p>We don’t just run ads. We build strategic LinkedIn campaigns that cut through the corporate noise and actually reach the people who matter. CEOs, marketing managers, procurement leads, decision-makers. Whether you're after high-value B2B leads, partnership opportunities, or talent, our campaigns are built to connect you with the right professionals at the right time, with none of the fluff and all of the intent.</p>",
         "trust_image": "shopify://shop_images/Artboard_13.png",
@@ -1022,7 +1107,17 @@
       "type": "advertise",
       "disabled": true,
       "settings": {
+        "section_id": "",
+        "hero_section": false,
         "key": "",
+        "badge_text": "",
+        "badge_bg_color": "#ffffff",
+        "badge_txt_color": "#000000",
+        "badge_border_radius": 0,
+        "hide_badge_on_mobile": false,
+        "hide_subheading_on_mobile": false,
+        "hide_text_on_mobile": false,
+        "hide_media_on_mobile": false,
         "loop_video": true,
         "autoplay_video": true,
         "main_image": "shopify://shop_images/website-design-and-dev-for-tradies.png",
@@ -1045,7 +1140,10 @@
         "button_link": "#",
         "button_text": "Help Grow My Business",
         "image_right": false,
+        "desktop_text_align": "left",
+        "mobile_text_align": "center",
         "background_color": "#aeddf9",
+        "text_color": "#000000",
         "desktop_padding_top": 60,
         "desktop_padding_bottom": 60,
         "mobile_padding_top": 40,
@@ -1056,7 +1154,17 @@
       "type": "advertise",
       "disabled": true,
       "settings": {
+        "section_id": "",
+        "hero_section": false,
         "key": "",
+        "badge_text": "",
+        "badge_bg_color": "#ffffff",
+        "badge_txt_color": "#000000",
+        "badge_border_radius": 0,
+        "hide_badge_on_mobile": false,
+        "hide_subheading_on_mobile": false,
+        "hide_text_on_mobile": false,
+        "hide_media_on_mobile": false,
         "loop_video": true,
         "autoplay_video": true,
         "main_image": "shopify://shop_images/Web-Designs-for-trades.png",
@@ -1078,7 +1186,10 @@
         "button_link": "#",
         "button_text": "Help Grow My Business",
         "image_right": true,
+        "desktop_text_align": "left",
+        "mobile_text_align": "center",
         "background_color": "#aeddf9",
+        "text_color": "#000000",
         "desktop_padding_top": 60,
         "desktop_padding_bottom": 60,
         "mobile_padding_top": 40,
@@ -1089,7 +1200,17 @@
       "type": "advertise",
       "disabled": true,
       "settings": {
+        "section_id": "",
+        "hero_section": false,
         "key": "",
+        "badge_text": "",
+        "badge_bg_color": "#ffffff",
+        "badge_txt_color": "#000000",
+        "badge_border_radius": 0,
+        "hide_badge_on_mobile": false,
+        "hide_subheading_on_mobile": false,
+        "hide_text_on_mobile": false,
+        "hide_media_on_mobile": false,
         "loop_video": true,
         "autoplay_video": true,
         "main_image": "shopify://shop_images/email-marketing-for-tradies-edm.webp",
@@ -1112,7 +1233,10 @@
         "button_link": "#",
         "button_text": "Get More High-Quality Leads",
         "image_right": true,
+        "desktop_text_align": "left",
+        "mobile_text_align": "center",
         "background_color": "#aeddf9",
+        "text_color": "#000000",
         "desktop_padding_top": 60,
         "desktop_padding_bottom": 60,
         "mobile_padding_top": 40,
@@ -1201,6 +1325,7 @@
         "tradies_item_tDB4YR"
       ],
       "settings": {
+        "hero_section": false,
         "heading": "Tradies we work with",
         "text": "Looking for an affordable and effective web design service for your trade business in Australia? We’ve got you.",
         "desktop_padding_top": 60,
@@ -1306,6 +1431,8 @@
         "faq_item_Fbaqnw"
       ],
       "settings": {
+        "section_id": "",
+        "hero_section": false,
         "heading": "LinkedIn Ads FAQs",
         "bg_color": "#f9f9f9",
         "max_width": 684,
@@ -1370,6 +1497,7 @@
         "partner_item_nMMzBY"
       ],
       "settings": {
+        "hero_section": false,
         "heading": "Partnered With",
         "bg_color": "#ffffff",
         "desktop_card_border_radius": 10,

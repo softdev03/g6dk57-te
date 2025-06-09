@@ -1,0 +1,2383 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "advertise_xMT9mA": {
+      "type": "advertise",
+      "blocks": {
+        "text_item_ccrpGF": {
+          "type": "text_item",
+          "settings": {
+            "icon": "shopify://shop_images/checkmark.png",
+            "text": "Certified Shopify Partners with Real E-commerce Experience"
+          }
+        },
+        "text_item_UbP4mn": {
+          "type": "text_item",
+          "settings": {
+            "icon": "shopify://shop_images/checkmark.png",
+            "text": "100% Guaranteed Conversion Rate Improvements"
+          }
+        },
+        "text_item_WKrB3C": {
+          "type": "text_item",
+          "settings": {
+            "icon": "shopify://shop_images/checkmark.png",
+            "text": "Built & Sold Multiple 6 & 7-Figure Brands"
+          }
+        },
+        "text_item_nLepgj": {
+          "type": "text_item",
+          "settings": {
+            "icon": "shopify://shop_images/checkmark.png",
+            "text": "Risk-Free - You Don't Pay Unless We Deliver Results"
+          }
+        },
+        "logo_Qfj7tA": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/shopify-partner-logo.jpg",
+            "link": ""
+          }
+        },
+        "logo_mN7Rmr": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/logo_shopify-plus-partner_500x150_2759d9a1-bdaa-4d53-86cb-9fb78e8cfcfd.webp",
+            "link": ""
+          }
+        },
+        "contact_form_Qn78PR": {
+          "type": "contact_form",
+          "settings": {
+            "heading": "Please enter your details",
+            "heading_color": "#000000",
+            "close_icon": "shopify://shop_images/close-icon.png",
+            "service_items": "My conversion rates are too low | My website looks unprofessional | My checkout is losing customers | My site loads too slowly | My mobile experience needs help | My product pages don't convert | I need better SEO and Google Ads | My store needs a complete makeover | I want ongoing CRO optimisation | I need expert Shopify consultation | I want to maximise my revenue potential",
+            "open_btn_text": "Get My Free CRO Audit",
+            "submit_text": "Get My Free CRO Audit",
+            "name_label": "Full Name",
+            "phone_label": "Phone / Mobile Number",
+            "email_label": "Email Address",
+            "website_label": "Website URL",
+            "company_label": "Company Name",
+            "service_label": "Select your service.",
+            "name_error_msg": "Please enter your name.",
+            "phone_error_msg": "Please enter your phone number.",
+            "email_error_msg": "Please enter your email address.",
+            "company_error_msg": "Please enter your company name.",
+            "website_error_msg": "Please enter a valid URL.",
+            "field_bg_color": "#ffffff",
+            "field_border_color": "rgba(0,0,0,0)",
+            "field_txt_color": "#000000",
+            "field_bg_color_hover": "#ffffff",
+            "field_border_color_hover": "rgba(0,0,0,0)",
+            "field_txt_color_hover": "#000000",
+            "field_bg_color_focus": "#ffffff",
+            "field_border_color_focus": "rgba(0,0,0,0)",
+            "field_txt_color_focus": "#000000",
+            "field_shadow_color": "#000000",
+            "error_msg_color": "#ff0000",
+            "submit_bg_color": "#212121",
+            "submit_border_color": "rgba(0,0,0,0)",
+            "submit_txt_color": "#ffffff",
+            "submit_bg_color_hover": "#000000",
+            "submit_border_color_hover": "rgba(0,0,0,0)",
+            "submit_txt_color_hover": "#ffffff",
+            "field_border_radius": 5,
+            "submit_border_radius": 5
+          }
+        }
+      },
+      "block_order": [
+        "text_item_ccrpGF",
+        "text_item_UbP4mn",
+        "text_item_WKrB3C",
+        "text_item_nLepgj",
+        "logo_Qfj7tA",
+        "logo_mN7Rmr",
+        "contact_form_Qn78PR"
+      ],
+      "settings": {
+        "section_id": "shopify-development-hero",
+        "hero_section": true,
+        "key": "",
+        "badge_text": "Conversion Rate Optimisation",
+        "badge_bg_color": "#212121",
+        "badge_txt_color": "#ffffff",
+        "badge_border_radius": 4,
+        "hide_badge_on_mobile": false,
+        "hide_subheading_on_mobile": true,
+        "hide_text_on_mobile": true,
+        "hide_media_on_mobile": true,
+        "loop_video": true,
+        "autoplay_video": true,
+        "main_image": "shopify://shop_images/AnAgencyServiceWebsite01.png",
+        "media_border_radius": 18,
+        "media_border_width": 1,
+        "media_border_color": "#cccccc",
+        "secondary_image_roate_angle": 8,
+        "desktop_left": -150,
+        "desktop_top": -1,
+        "desktop_right": -1,
+        "desktop_bottom": 20,
+        "mobile_left": 0,
+        "mobile_top": -1,
+        "mobile_right": -1,
+        "mobile_bottom": -26,
+        "heading": "Stop Losing Money to Poor Conversion Rates",
+        "sub_heading": "We're Ex-Ecommerce Owners Who Built & Sold Multiple Brands. Now We Guarantee to Increase Your Shopify Store Conversions or You Don't Pay.",
+        "text": "<p></p><p></p>",
+        "button_link": "tel:(02) 8088 0768",
+        "button_text": "",
+        "image_right": true,
+        "desktop_text_align": "left",
+        "mobile_text_align": "left",
+        "background_color": "#ffffff",
+        "text_color": "#000000",
+        "desktop_padding_top": 60,
+        "desktop_padding_bottom": 60,
+        "mobile_padding_top": 40,
+        "mobile_padding_bottom": 40
+      }
+    },
+    "image_grid_nwzeK8": {
+      "type": "image-grid",
+      "blocks": {
+        "image_item_X8aLT8": {
+          "type": "image_item",
+          "settings": {
+            "image": "shopify://shop_images/AnAgencyLogo33.png",
+            "image_link": ""
+          }
+        },
+        "image_item_E7tdwn": {
+          "type": "image_item",
+          "settings": {
+            "image": "shopify://shop_images/AnAgencyLogo32.png",
+            "image_link": ""
+          }
+        },
+        "image_item_XrF97F": {
+          "type": "image_item",
+          "settings": {
+            "image": "shopify://shop_images/AnAgencyLogo31.png",
+            "image_link": ""
+          }
+        },
+        "image_item_HbWH99": {
+          "type": "image_item",
+          "settings": {
+            "image": "shopify://shop_images/AnAgencyLogo26.png",
+            "image_link": ""
+          }
+        },
+        "image_item_LahhGQ": {
+          "type": "image_item",
+          "settings": {
+            "image": "shopify://shop_images/AnAgencyLogo25.png",
+            "image_link": ""
+          }
+        },
+        "image_item_wNCbDW": {
+          "type": "image_item",
+          "settings": {
+            "image": "shopify://shop_images/AnAgencyLogo05.png",
+            "image_link": ""
+          }
+        },
+        "image_item_7BDKct": {
+          "type": "image_item",
+          "settings": {
+            "image": "shopify://shop_images/AnAgencyLogo13.png",
+            "image_link": ""
+          }
+        },
+        "image_item_gXHNNK": {
+          "type": "image_item",
+          "settings": {
+            "image": "shopify://shop_images/AnAgencyLogo09.png",
+            "image_link": ""
+          }
+        },
+        "image_item_kXtPQK": {
+          "type": "image_item",
+          "settings": {
+            "image": "shopify://shop_images/AnAgencyLogo01_cacc2b53-0ea7-4c89-9cd0-7f63dcb4a332.png",
+            "image_link": ""
+          }
+        },
+        "image_item_iyKmJG": {
+          "type": "image_item",
+          "settings": {
+            "image": "shopify://shop_images/AnAgencyLogo03_67acb1a7-d90a-4fa6-a71c-943adf740064.png",
+            "image_link": ""
+          }
+        },
+        "image_item_nyVFY8": {
+          "type": "image_item",
+          "settings": {
+            "image": "shopify://shop_images/AnAgencyLogo04.png",
+            "image_link": ""
+          }
+        },
+        "image_item_K3VhpK": {
+          "type": "image_item",
+          "settings": {
+            "image": "shopify://shop_images/AnAgencyLogo06.png",
+            "image_link": ""
+          }
+        },
+        "image_item_YrNLWe": {
+          "type": "image_item",
+          "settings": {
+            "image": "shopify://shop_images/AnAgencyLogo07.png",
+            "image_link": ""
+          }
+        },
+        "image_item_YrcBwG": {
+          "type": "image_item",
+          "settings": {
+            "image": "shopify://shop_images/AnAgencyLogo08.png",
+            "image_link": "#"
+          }
+        },
+        "breakpoint_dFNEn7": {
+          "type": "breakpoint",
+          "settings": {
+            "max_width": 374,
+            "item_count": 2,
+            "col_gap": 45,
+            "row_gap": 0
+          }
+        },
+        "breakpoint_xbeKnL": {
+          "type": "breakpoint",
+          "settings": {
+            "max_width": 749,
+            "item_count": 3,
+            "col_gap": 54,
+            "row_gap": 0
+          }
+        },
+        "breakpoint_qrBQVN": {
+          "type": "breakpoint",
+          "settings": {
+            "max_width": 1023,
+            "item_count": 4,
+            "col_gap": 60,
+            "row_gap": 0
+          }
+        },
+        "breakpoint_gR6QyE": {
+          "type": "breakpoint",
+          "settings": {
+            "max_width": 0,
+            "item_count": 7,
+            "col_gap": 75,
+            "row_gap": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_item_X8aLT8",
+        "image_item_E7tdwn",
+        "image_item_XrF97F",
+        "image_item_HbWH99",
+        "image_item_LahhGQ",
+        "image_item_wNCbDW",
+        "image_item_7BDKct",
+        "image_item_gXHNNK",
+        "image_item_kXtPQK",
+        "image_item_iyKmJG",
+        "image_item_nyVFY8",
+        "image_item_K3VhpK",
+        "image_item_YrNLWe",
+        "image_item_YrcBwG",
+        "breakpoint_dFNEn7",
+        "breakpoint_xbeKnL",
+        "breakpoint_qrBQVN",
+        "breakpoint_gR6QyE"
+      ],
+      "disabled": true,
+      "settings": {
+        "section_id": "",
+        "hero_section": false,
+        "bg_color": "#ffffff",
+        "heading": "Trusted by Australian Brands for Shopify []",
+        "secondary_heading": "Website Design & Development",
+        "description": "We’ve delivered over 380 custom Shopify websites for ecommerce brands across Australia. From store launches to full Shopify store development projects, our experience spans fashion, fitness, homewares, trades, and more.",
+        "heading_color": "#121212",
+        "secondary_heading_color": "#fdd328",
+        "description_color": "#000000",
+        "text_max_width": 1000,
+        "link_btn_text": "See Our Work",
+        "link": "#see-our-work",
+        "link_btn_bg_color": "#121212",
+        "link_btn_text_color": "#ffffff",
+        "link_btn_bg_color_hover": "#fdd328",
+        "link_btn_text_color_hover": "#121212",
+        "link_btn_border_radius": 100,
+        "link_btn_icon": "shopify://shop_images/rocket_5680648a-6c2e-46c0-b3a4-5a08858140c4.svg",
+        "link_btn_icon_hover": "shopify://shop_images/rocket.svg",
+        "desktop_padding_top": 80,
+        "desktop_padding_bottom": 80,
+        "mobile_padding_top": 50,
+        "mobile_padding_bottom": 50
+      }
+    },
+    "text_list_MNPzdp": {
+      "type": "text-list",
+      "blocks": {
+        "text_E46V74": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Custom Shopify Website Design for Australian Brands</p><p></p>",
+            "desktop_margin": 20,
+            "mobile_margin": 12,
+            "desktop_align": "center",
+            "mobile_align": "center",
+            "desktop_font_size": 50,
+            "mobile_font_size": 22,
+            "desktop_font_weight": "700",
+            "mobile_font_weight": "700",
+            "desktop_line_height": 1.2,
+            "mobile_line_height": 1.2,
+            "desktop_letter_spacing": 1,
+            "mobile_letter_spacing": 1,
+            "desktop_text_transform": "none",
+            "mobile_text_transform": "default",
+            "desktop_max_width": 1440,
+            "mobile_max_width": 1440,
+            "desktop_color": "#000000",
+            "mobile_color": "#121212",
+            "highlight_text": "",
+            "desktop_highlight_text_color": "#000000",
+            "mobile_highlight_text_color": "#000000"
+          }
+        },
+        "text_VfFdk4": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Our Shopify website designers and Shopify web developers have created high-converting stores for brands across beauty, fashion, health, and food. Whether you're starting or scaling, we’ll build your Shopify store with speed, care, and results in mind.</p>",
+            "desktop_margin": 0,
+            "mobile_margin": 0,
+            "desktop_align": "center",
+            "mobile_align": "center",
+            "desktop_font_size": 18,
+            "mobile_font_size": 16,
+            "desktop_font_weight": "400",
+            "mobile_font_weight": "400",
+            "desktop_line_height": 1.2,
+            "mobile_line_height": 1.2,
+            "desktop_letter_spacing": 1,
+            "mobile_letter_spacing": 1,
+            "desktop_text_transform": "none",
+            "mobile_text_transform": "default",
+            "desktop_max_width": 1000,
+            "mobile_max_width": 1000,
+            "desktop_color": "#000000",
+            "mobile_color": "#000000",
+            "highlight_text": "",
+            "desktop_highlight_text_color": "#000000",
+            "mobile_highlight_text_color": "#000000"
+          }
+        }
+      },
+      "block_order": [
+        "text_E46V74",
+        "text_VfFdk4"
+      ],
+      "disabled": true,
+      "settings": {
+        "section_id": "",
+        "bg_color": "#ffffff",
+        "desktop_padding_top": 60,
+        "desktop_padding_bottom": 40,
+        "mobile_padding_top": 40,
+        "mobile_padding_bottom": 30
+      }
+    },
+    "multi_image_list_slider_zE97CJ": {
+      "type": "multi--image-list-grid",
+      "blocks": {
+        "image_list_eckyx9": {
+          "type": "image_list",
+          "settings": {
+            "image": "shopify://shop_images/playfulpets-au-_2.png",
+            "link": ""
+          }
+        },
+        "image_list_aryFcW": {
+          "type": "image_list",
+          "settings": {
+            "image": "shopify://shop_images/casalorena-au-2025-05-09-22_33_31.png",
+            "link": ""
+          }
+        },
+        "image_list_Tf6Y3A": {
+          "type": "image_list",
+          "settings": {
+            "image": "shopify://shop_images/purelyhome-au-2025-05-09-22_30_47_1.png",
+            "link": ""
+          }
+        },
+        "image_list_gAnDFy": {
+          "type": "image_list",
+          "settings": {
+            "image": "shopify://shop_images/screencapture-247gardenshop-au-2025-04-14-22_27_03.png",
+            "link": ""
+          }
+        },
+        "image_list_9nixiB": {
+          "type": "image_list",
+          "settings": {
+            "image": "shopify://shop_images/Crawfordbathroom01.png",
+            "link": ""
+          }
+        },
+        "image_list_KyXhW8": {
+          "type": "image_list",
+          "settings": {
+            "image": "shopify://shop_images/bbta-au.png",
+            "link": ""
+          }
+        },
+        "image_list_M3gBpQ": {
+          "type": "image_list",
+          "settings": {
+            "image": "shopify://shop_images/planetplay-au-2025-05-09-22_38_50.jpg",
+            "link": ""
+          }
+        },
+        "image_list_wbgVNK": {
+          "type": "image_list",
+          "settings": {
+            "image": "shopify://shop_images/smeatonbathrooms_com_au__9495d37a1a71.png",
+            "link": ""
+          }
+        },
+        "image_list_idVJ4F": {
+          "type": "image_list",
+          "settings": {
+            "image": "shopify://shop_images/beachsacsecurity-au-2025-05-09-22_37_15.jpg",
+            "link": ""
+          }
+        },
+        "image_list_WkXEAK": {
+          "type": "image_list",
+          "settings": {
+            "image": "shopify://shop_images/smeatonbathrooms_com_au___ab_0__fd_0__sc_1_preview_7b17f175a299.png",
+            "link": ""
+          }
+        },
+        "image_list_CMmVq9": {
+          "type": "image_list",
+          "settings": {
+            "image": "shopify://shop_images/babiesandpets-co-nz-2025-05-09-22_31_58.jpg",
+            "link": ""
+          }
+        },
+        "image_list_qzyWFW": {
+          "type": "image_list",
+          "settings": {
+            "image": "shopify://shop_images/cozyzone-au-2025-05-09-22_32_43.jpg",
+            "link": ""
+          }
+        },
+        "image_list_Lp63CK": {
+          "type": "image_list",
+          "settings": {
+            "image": "shopify://shop_images/completelifestore-au-2025-05-09-22_36_04.jpg",
+            "link": ""
+          }
+        },
+        "image_list_FchFzB": {
+          "type": "image_list",
+          "settings": {
+            "image": "shopify://shop_images/kiddokingdom-au-2025-05-09-22_36_43.jpg",
+            "link": ""
+          }
+        },
+        "image_list_UcjKzB": {
+          "type": "image_list",
+          "settings": {
+            "image": "shopify://shop_images/ozstylz-au-2025-05-09-22_35_09.jpg",
+            "link": ""
+          }
+        },
+        "image_list_yBBhQj": {
+          "type": "image_list",
+          "settings": {
+            "image": "shopify://shop_images/theresonlyone-au-2025-05-09-22_34_10.jpg",
+            "link": ""
+          }
+        },
+        "breakpoint_46mjpr": {
+          "type": "breakpoint",
+          "settings": {
+            "min_width": 0,
+            "item_count": 1,
+            "gap": 10,
+            "row_gap": 20,
+            "image_aspect_ratio": 1.1,
+            "animation_time": 8
+          }
+        },
+        "breakpoint_z7gNKm": {
+          "type": "breakpoint",
+          "disabled": true,
+          "settings": {
+            "min_width": 425,
+            "item_count": 1,
+            "gap": 10,
+            "row_gap": 20,
+            "image_aspect_ratio": 0.8,
+            "animation_time": 8
+          }
+        },
+        "breakpoint_6GLPLD": {
+          "type": "breakpoint",
+          "disabled": true,
+          "settings": {
+            "min_width": 0,
+            "item_count": 1,
+            "gap": 10,
+            "row_gap": 20,
+            "image_aspect_ratio": 1,
+            "animation_time": 8
+          }
+        },
+        "breakpoint_Cfnixa": {
+          "type": "breakpoint",
+          "settings": {
+            "min_width": 750,
+            "item_count": 2,
+            "gap": 15,
+            "row_gap": 20,
+            "image_aspect_ratio": 0.5,
+            "animation_time": 8
+          }
+        },
+        "breakpoint_nEkwH8": {
+          "type": "breakpoint",
+          "settings": {
+            "min_width": 1024,
+            "item_count": 4,
+            "gap": 20,
+            "row_gap": 20,
+            "image_aspect_ratio": 0.5,
+            "animation_time": 8
+          }
+        },
+        "breakpoint_Dakag9": {
+          "type": "breakpoint",
+          "disabled": true,
+          "settings": {
+            "min_width": 1280,
+            "item_count": 4,
+            "gap": 24,
+            "row_gap": 20,
+            "image_aspect_ratio": 0.5,
+            "animation_time": 8
+          }
+        },
+        "breakpoint_c6QjXi": {
+          "type": "breakpoint",
+          "disabled": true,
+          "settings": {
+            "min_width": 1366,
+            "item_count": 4,
+            "gap": 30,
+            "row_gap": 20,
+            "image_aspect_ratio": 0.5,
+            "animation_time": 8
+          }
+        }
+      },
+      "block_order": [
+        "image_list_eckyx9",
+        "image_list_aryFcW",
+        "image_list_Tf6Y3A",
+        "image_list_gAnDFy",
+        "image_list_9nixiB",
+        "image_list_KyXhW8",
+        "image_list_M3gBpQ",
+        "image_list_wbgVNK",
+        "image_list_idVJ4F",
+        "image_list_WkXEAK",
+        "image_list_CMmVq9",
+        "image_list_qzyWFW",
+        "image_list_Lp63CK",
+        "image_list_FchFzB",
+        "image_list_UcjKzB",
+        "image_list_yBBhQj",
+        "breakpoint_46mjpr",
+        "breakpoint_z7gNKm",
+        "breakpoint_6GLPLD",
+        "breakpoint_Cfnixa",
+        "breakpoint_nEkwH8",
+        "breakpoint_Dakag9",
+        "breakpoint_c6QjXi"
+      ],
+      "disabled": true,
+      "settings": {
+        "section_id": "see-our-work",
+        "bg_color": "#ffffff",
+        "image_item_border_radius": 4,
+        "loadmore_btn_text": "View More Shopify Store Designs",
+        "loadmore_btn_bg_color": "#000000",
+        "loadmore_btn_text_color": "#ffffff",
+        "loadmore_btn_bg_color_hover": "#fdd328",
+        "loadmore_btn_text_color_hover": "#000000",
+        "loadmore_btn_border_radius": 7,
+        "max_count_per_view": 4,
+        "desktop_padding_top": 0,
+        "desktop_padding_bottom": 60,
+        "mobile_padding_top": 0,
+        "mobile_padding_bottom": 40
+      }
+    },
+    "advertise_HPp6jH": {
+      "type": "advertise",
+      "settings": {
+        "section_id": "",
+        "hero_section": false,
+        "key": "",
+        "badge_text": "",
+        "badge_bg_color": "#252525",
+        "badge_txt_color": "#ffffff",
+        "badge_border_radius": 0,
+        "hide_badge_on_mobile": false,
+        "hide_subheading_on_mobile": false,
+        "hide_text_on_mobile": false,
+        "hide_media_on_mobile": false,
+        "loop_video": true,
+        "autoplay_video": true,
+        "main_image": "shopify://shop_images/9158264f569b0ba69761e856037de151.png",
+        "media_border_radius": 0,
+        "media_border_width": 0,
+        "media_border_color": "#000000",
+        "secondary_image_roate_angle": 8,
+        "desktop_left": -150,
+        "desktop_top": -1,
+        "desktop_right": -1,
+        "desktop_bottom": 20,
+        "mobile_left": 0,
+        "mobile_top": -1,
+        "mobile_right": -1,
+        "mobile_bottom": -26,
+        "heading": "What's Killing Your Conversions?",
+        "sub_heading": "Is Your Website Bleeding Money? Here's Why Customers Leave Without Buying:",
+        "text": "<p><strong>Conversion Killers We Fix:</strong></p><p><strong>Confusing Navigation & Poor User Experience</strong><br/>Your customers can't find what they're looking for. Complex menus, broken search functions, and confusing product categories create frustration that sends visitors straight to your competitors.</p><p><strong>Unprofessional Design That Screams \"Amateur\"</strong><br/>Outdated design, poor color choices, and inconsistent branding destroy trust instantly. If your site looks unprofessional, customers assume your products are too.</p><p><strong>Slow Loading Times</strong><br/>Every second counts. Studies show 40% of visitors abandon sites that take more than 3 seconds to load. Your slow site is literally pushing money out the door.</p><p><strong>Weak Product Pages That Don't Sell</strong><br/>Poor product descriptions, low-quality images, missing reviews, and unclear pricing create doubt. Customers need confidence to buy - your product pages should eliminate every objection.</p><p><strong>Complicated Checkout Process</strong><br/>Hidden fees, too many form fields, limited payment options, and security concerns during checkout cause massive cart abandonment. Most customers are ready to buy until your checkout stops them.</p><p><strong>Mobile Experience That Frustrates</strong><br/>Over 60% of ecommerce traffic comes from mobile devices. If your site doesn't work flawlessly on phones and tablets, you're losing the majority of potential customers.</p><p><strong>Missing Trust Signals</strong><br/>No customer reviews, missing security badges, unclear return policies, and no social proof create fear. Customers won't buy from stores they don't trust.</p><p><strong>Poor Copy That Doesn't Convert</strong><br/>Generic product descriptions, weak headlines, and copy that doesn't address customer pain points fail to create the emotional connection needed for sales.</p>",
+        "button_link": "",
+        "button_text": "",
+        "image_right": true,
+        "desktop_text_align": "left",
+        "mobile_text_align": "left",
+        "background_color": "#ffffff",
+        "text_color": "#000000",
+        "desktop_padding_top": 60,
+        "desktop_padding_bottom": 60,
+        "mobile_padding_top": 40,
+        "mobile_padding_bottom": 40
+      }
+    },
+    "advertise_GJgkaY": {
+      "type": "advertise",
+      "settings": {
+        "section_id": "",
+        "hero_section": false,
+        "key": "",
+        "badge_text": "",
+        "badge_bg_color": "#252525",
+        "badge_txt_color": "#ffffff",
+        "badge_border_radius": 0,
+        "hide_badge_on_mobile": false,
+        "hide_subheading_on_mobile": false,
+        "hide_text_on_mobile": false,
+        "hide_media_on_mobile": false,
+        "loop_video": true,
+        "autoplay_video": true,
+        "main_image": "shopify://shop_images/9158264f569b0ba69761e856037de151.png",
+        "media_border_radius": 0,
+        "media_border_width": 0,
+        "media_border_color": "#000000",
+        "secondary_image_roate_angle": 8,
+        "desktop_left": -150,
+        "desktop_top": -1,
+        "desktop_right": -1,
+        "desktop_bottom": 20,
+        "mobile_left": 0,
+        "mobile_top": -1,
+        "mobile_right": -1,
+        "mobile_bottom": -26,
+        "heading": "We Fix Every Conversion Barrier (Because We've Been In Your Shoes)",
+        "sub_heading": "Unlike typical agencies, we're former ecommerce business owners who built multiple 6 and 7-figure brands from scratch. We've experienced every challenge you're facing and solved them in our own businesses before selling them for substantial profits.",
+        "text": "<p><strong>Our Proven CRO Process:</strong></p><p><strong>1. Deep Conversion Audit</strong><br/>We analyse every element of your customer journey using advanced heat mapping, user session recordings, and conversion funnel analysis to identify exactly where you're losing sales.</p><p><strong>2. Strategic Optimisation Plan</strong><br/>Based on our findings, we create a prioritised action plan targeting the highest-impact improvements first - the changes that will drive immediate results.</p><p><strong>3. Professional Implementation</strong><br/>Our certified Shopify developers implement every optimisation using conversion-proven design principles and best practices we've perfected across dozens of successful stores.</p><p><strong>4. Continuous Testing & Refinement</strong><br/>We A/B test every change to ensure maximum impact, constantly refining and improving performance based on real data from your actual customers.</p>",
+        "button_link": "",
+        "button_text": "",
+        "image_right": false,
+        "desktop_text_align": "left",
+        "mobile_text_align": "left",
+        "background_color": "#ffffff",
+        "text_color": "#000000",
+        "desktop_padding_top": 60,
+        "desktop_padding_bottom": 60,
+        "mobile_padding_top": 40,
+        "mobile_padding_bottom": 40
+      }
+    },
+    "results_guaranteed_UNpbbP": {
+      "type": "results-guaranteed",
+      "name": "Results Guaranteed",
+      "settings": {
+        "hero_section": false,
+        "logo_image": "shopify://shop_images/05.jpg",
+        "main_heading": "100% Risk-Free Guarantee",
+        "sub_heading": "",
+        "description": "We're so confident in our ability to increase your conversions that we offer an unprecedented guarantee: If we don't improve your conversion rate within 60 days, you don't pay a single dollar.This isn't just confidence - it's proof. We've never had to honor this guarantee because our system works every single time.",
+        "button_text": "",
+        "button_link": "",
+        "desktop_padding_top": 0,
+        "desktop_padding_bottom": 10,
+        "mobile_padding_top": 0,
+        "mobile_padding_bottom": 10
+      }
+    },
+    "text_list_zidnT7": {
+      "type": "text-list",
+      "blocks": {
+        "text_MTAixR": {
+          "type": "text",
+          "settings": {
+            "text": "",
+            "desktop_margin": 20,
+            "mobile_margin": 16,
+            "desktop_align": "center",
+            "mobile_align": "center",
+            "desktop_font_size": 18,
+            "mobile_font_size": 16,
+            "desktop_font_weight": "600",
+            "mobile_font_weight": "600",
+            "desktop_line_height": 1.2,
+            "mobile_line_height": 1.2,
+            "desktop_letter_spacing": 1,
+            "mobile_letter_spacing": 1,
+            "desktop_text_transform": "uppercase",
+            "mobile_text_transform": "upper",
+            "desktop_max_width": 1000,
+            "mobile_max_width": 1000,
+            "desktop_color": "#121212",
+            "mobile_color": "#121212",
+            "highlight_text": "",
+            "desktop_highlight_text_color": "#000000",
+            "mobile_highlight_text_color": "#000000"
+          }
+        },
+        "text_MBaFDg": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Real Results From Real Businesses</p>",
+            "desktop_margin": 0,
+            "mobile_margin": 0,
+            "desktop_align": "center",
+            "mobile_align": "center",
+            "desktop_font_size": 50,
+            "mobile_font_size": 22,
+            "desktop_font_weight": "600",
+            "mobile_font_weight": "600",
+            "desktop_line_height": 1.2,
+            "mobile_line_height": 1.2,
+            "desktop_letter_spacing": 1,
+            "mobile_letter_spacing": 1,
+            "desktop_text_transform": "capitalize",
+            "mobile_text_transform": "capitalize",
+            "desktop_max_width": 1000,
+            "mobile_max_width": 1000,
+            "desktop_color": "#121212",
+            "mobile_color": "#121212",
+            "highlight_text": "",
+            "desktop_highlight_text_color": "#000000",
+            "mobile_highlight_text_color": "#000000"
+          }
+        }
+      },
+      "block_order": [
+        "text_MTAixR",
+        "text_MBaFDg"
+      ],
+      "settings": {
+        "section_id": "reviews",
+        "bg_color": "#ffffff",
+        "desktop_padding_top": 60,
+        "desktop_padding_bottom": 40,
+        "mobile_padding_top": 40,
+        "mobile_padding_bottom": 30
+      }
+    },
+    "custom_review_new_Bp63JF": {
+      "type": "custom-review-new",
+      "blocks": {
+        "review_items_RkQRAL": {
+          "type": "review_items",
+          "settings": {
+            "review_items": [
+              "sarah-m-fashion-retailer",
+              "mike-t-electronics-store",
+              "lisa-k-home-goods",
+              "daniel-p-subscription-box-service"
+            ]
+          }
+        },
+        "breakpoint_UMRkMy": {
+          "type": "breakpoint",
+          "settings": {
+            "max_width": 424,
+            "item_count": 1,
+            "col_gap": 0,
+            "row_gap": 20,
+            "card_border_radius": 10
+          }
+        },
+        "breakpoint_XhjNYe": {
+          "type": "breakpoint",
+          "settings": {
+            "max_width": 749,
+            "item_count": 2,
+            "col_gap": 15,
+            "row_gap": 20,
+            "card_border_radius": 10
+          }
+        },
+        "breakpoint_ExWjai": {
+          "type": "breakpoint",
+          "settings": {
+            "max_width": 900,
+            "item_count": 3,
+            "col_gap": 15,
+            "row_gap": 20,
+            "card_border_radius": 10
+          }
+        },
+        "breakpoint_PMwB3w": {
+          "type": "breakpoint",
+          "settings": {
+            "max_width": 0,
+            "item_count": 4,
+            "col_gap": 20,
+            "row_gap": 25,
+            "card_border_radius": 10
+          }
+        }
+      },
+      "block_order": [
+        "review_items_RkQRAL",
+        "breakpoint_UMRkMy",
+        "breakpoint_XhjNYe",
+        "breakpoint_ExWjai",
+        "breakpoint_PMwB3w"
+      ],
+      "settings": {
+        "section_id": "",
+        "init_show_count": 4,
+        "increase_count": 2,
+        "bg_color": "#ffffff",
+        "card_bg_color": "#ffffff",
+        "card_text_color": "#000000",
+        "card_border_color": "rgba(0,0,0,0)",
+        "card_shadow_color": "#000000",
+        "card_shadow_opacity": 28,
+        "shadow_x": 0,
+        "shadow_y": 0,
+        "shadow_blur": 10,
+        "shadow_spread": 0,
+        "max_height": 40,
+        "read_more_btn_text": "Read",
+        "read_more_btn_text_shown": "Hide",
+        "read_more_btn_color": "#000000",
+        "read_more_btn_color_hover": "#787878",
+        "link_btn_text": "",
+        "link": "",
+        "use_this_for_load_more": true,
+        "link_btn_bg_color": "#121212",
+        "link_btn_text_color": "#ffffff",
+        "link_btn_bg_color_hover": "#fdd328",
+        "link_btn_text_color_hover": "#121212",
+        "link_btn_border_radius": 100,
+        "link_btn_icon": "shopify://shop_images/rocket_5680648a-6c2e-46c0-b3a4-5a08858140c4.svg",
+        "link_btn_icon_hover": "shopify://shop_images/rocket.svg",
+        "desktop_padding_top": 0,
+        "desktop_padding_bottom": 60,
+        "mobile_padding_top": 0,
+        "mobile_padding_bottom": 40
+      }
+    },
+    "text_list_Gj8YAb": {
+      "type": "text-list",
+      "blocks": {
+        "text_Ln9QYL": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Choose From Our Shopify Web Design Packages</p>",
+            "desktop_margin": 32,
+            "mobile_margin": 20,
+            "desktop_align": "center",
+            "mobile_align": "center",
+            "desktop_font_size": 40,
+            "mobile_font_size": 28,
+            "desktop_font_weight": "600",
+            "mobile_font_weight": "600",
+            "desktop_line_height": 1.2,
+            "mobile_line_height": 1.2,
+            "desktop_letter_spacing": 1,
+            "mobile_letter_spacing": 1,
+            "desktop_text_transform": "none",
+            "mobile_text_transform": "default",
+            "desktop_max_width": 600,
+            "mobile_max_width": 600,
+            "desktop_color": "#000000",
+            "mobile_color": "#000000",
+            "highlight_text": "",
+            "desktop_highlight_text_color": "#000000",
+            "mobile_highlight_text_color": "#000000"
+          }
+        },
+        "text_GFR7gM": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Recognised as one of the <strong>best Shopify design agencies</strong> for brands that want real performance — not just pretty websites.</p>",
+            "desktop_margin": 0,
+            "mobile_margin": 0,
+            "desktop_align": "center",
+            "mobile_align": "center",
+            "desktop_font_size": 24,
+            "mobile_font_size": 18,
+            "desktop_font_weight": "400",
+            "mobile_font_weight": "400",
+            "desktop_line_height": 1.2,
+            "mobile_line_height": 1.2,
+            "desktop_letter_spacing": 1,
+            "mobile_letter_spacing": 1,
+            "desktop_text_transform": "none",
+            "mobile_text_transform": "default",
+            "desktop_max_width": 1000,
+            "mobile_max_width": 1000,
+            "desktop_color": "#000000",
+            "mobile_color": "#000000",
+            "highlight_text": "",
+            "desktop_highlight_text_color": "#000000",
+            "mobile_highlight_text_color": "#000000"
+          }
+        }
+      },
+      "block_order": [
+        "text_Ln9QYL",
+        "text_GFR7gM"
+      ],
+      "disabled": true,
+      "settings": {
+        "section_id": "pricing-table",
+        "bg_color": "#ffffff",
+        "desktop_padding_top": 60,
+        "desktop_padding_bottom": 40,
+        "mobile_padding_top": 30,
+        "mobile_padding_bottom": 20
+      }
+    },
+    "pricing_new_3erV7g": {
+      "type": "pricing-new",
+      "blocks": {
+        "pricing_item_YheRDG": {
+          "type": "pricing_item",
+          "name": "Shopify Pricing Item",
+          "settings": {
+            "handle_number": 1,
+            "id": "shopify-lanuch",
+            "content_align": "left",
+            "icon": "shopify://shop_images/logo_8676fd03-d3d9-496f-bc2c-f1b1a9fd3c18.svg",
+            "heading": "Starter",
+            "sub_heading": "Launch-Ready Shopify Store",
+            "link_text": "",
+            "link": "",
+            "main_content": "<p>from [price]+ GST / once-off</p><p></p><p>For product-based businesses launching on a lean budget, get online fast with a clean, conversion-ready store.<br/></p>",
+            "secondary_content": "<p><strong>What’s included</strong></p><p></p><ul><li>Shopify store setup using a free Shopify theme</li><li>Basic homepage design using client assets</li><li>Up to 10 products uploaded (via CSV or Google Sheet)</li><li>Up to 2 content pages (About, Contact, etc.)</li><li>Shopify Payments / PayPal integration</li><li>Branded navigation + footer</li><li>Mobile responsiveness</li><li>Social links + legal footer pages</li><li>5-day turnaround</li><li>1x post-launch training video call</li></ul><p><em>Premium themes</em></p><p><em>SEO/meta tags</em></p><p><em>Custom design, animations, or CRO strategy</em></p><p><em>Blog setup or advanced apps</em></p><p><em>Ongoing support or project management<br/></em></p><p>Ideal for:</p><p>Startups validating product-market fit, influencers launching a brand, or anyone needing a lean launchpad store.</p>",
+            "secondary_list_item_icon": "shopify://shop_images/checkmark.png",
+            "badge_text": "",
+            "price": 950,
+            "enable_tip": false,
+            "use_icon_for_mark": false,
+            "tip_position": "main_content",
+            "mark_text": "",
+            "tip_text": "",
+            "tip_text_align": "center",
+            "mark_bg_color": "#f3f3f3",
+            "mark_bg_color_hover": "#d8d8d8",
+            "mark_text_color": "#000000",
+            "mark_text_color_hover": "#000000",
+            "tip_bg_color": "#ffffff",
+            "tip_shadow_color": "#000000",
+            "tip_text_color": "#000000",
+            "tip_shadow_opacity": 0.5,
+            "mark_border_radius": 100,
+            "tip_border_radius": 5
+          }
+        },
+        "pricing_item_PbM4UN": {
+          "type": "pricing_item",
+          "name": "Shopify Pricing Item",
+          "settings": {
+            "handle_number": 1,
+            "id": "shopify-lanuch",
+            "content_align": "left",
+            "icon": "shopify://shop_images/logo_8676fd03-d3d9-496f-bc2c-f1b1a9fd3c18.svg",
+            "heading": "Standard",
+            "sub_heading": "Shopify Design & Development",
+            "link_text": "",
+            "link": "",
+            "main_content": "<p>from [price]+ GST / once-off</p><p></p><p>Perfect for new stores that just need to get moving.<br/></p>",
+            "secondary_content": "<p><strong>What’s included</strong></p><ul><li>Shopify theme tailored to your branding</li><li>Homepage design</li><li>Up to 10 collections or categories</li><li>Up to 100 products</li><li>Up to 5 content pages</li><li>Shopify payment / PayPal setup</li><li><strong>1 x post launch training session</strong></li><li><strong>10 days post launch support</strong></li><li>Newsletter signup and social media links</li><li>Up to 3 blog index and article pages</li><li>Personalised admin guide</li><li>3-month post-launch support for minor updates and bug fixes.</li></ul><p><em>SEO product titles & descriptions</em></p><p><em>Conversion tracking setup</em></p><p><em>Dedicated project manager</em></p>",
+            "secondary_list_item_icon": "shopify://shop_images/checkmark.png",
+            "badge_text": "",
+            "price": 2800,
+            "enable_tip": false,
+            "use_icon_for_mark": false,
+            "tip_position": "main_content",
+            "mark_text": "",
+            "tip_text": "",
+            "tip_text_align": "center",
+            "mark_bg_color": "#f3f3f3",
+            "mark_bg_color_hover": "#d8d8d8",
+            "mark_text_color": "#000000",
+            "mark_text_color_hover": "#000000",
+            "tip_bg_color": "#ffffff",
+            "tip_shadow_color": "#000000",
+            "tip_text_color": "#000000",
+            "tip_shadow_opacity": 0.5,
+            "mark_border_radius": 100,
+            "tip_border_radius": 5
+          }
+        },
+        "pricing_item_ezdbcT": {
+          "type": "pricing_item",
+          "name": "Shopify Pricing Item",
+          "settings": {
+            "handle_number": 1,
+            "id": "shopify-growth",
+            "content_align": "left",
+            "icon": "shopify://shop_images/logo_8676fd03-d3d9-496f-bc2c-f1b1a9fd3c18.svg",
+            "heading": "Growth",
+            "sub_heading": "Shopify Design & Development",
+            "link_text": "",
+            "link": "",
+            "main_content": "<p>from [price]+ GST / once-off</p><p></p><p>For brands ready to scale with more products and SEO built-in.<br/></p>",
+            "secondary_content": "<p><strong>What’s included</strong></p><p>Shopify theme tailored to your brand</p><ul><li>Homepage design</li><li>Up to 15 collections or categories</li><li>Up to 200 products</li><li>Up to 8 content pages</li><li>Shopify payment / PayPal setup</li><li>Newsletter signup and social media links</li><li>Up to 3 blog index and article pages</li><li>Personalised admin guide</li><li>SEO titles & descriptions*</li><li>Post-launch training call</li><li>Conversion tracking setup</li><li>Dedicated project manager</li><li><strong>2 x post launch training sessions</strong></li><li><strong>30 days post launch support</strong></li></ul><p><em>Custom design or animations</em></p><p><em>Advanced app integration (3+ apps)</em></p><p><em>Shopify Plus support</em></p><p>*Products to be supplied by client in CSV format</p>",
+            "secondary_list_item_icon": "shopify://shop_images/checkmark.png",
+            "badge_text": "",
+            "price": 4800,
+            "enable_tip": false,
+            "use_icon_for_mark": true,
+            "tip_position": "main_content",
+            "mark_text": "",
+            "tip_text": "",
+            "tip_text_align": "left",
+            "mark_bg_color": "#ffffff",
+            "mark_bg_color_hover": "#000000",
+            "mark_text_color": "#000000",
+            "mark_text_color_hover": "#000000",
+            "tip_bg_color": "#ffffff",
+            "tip_shadow_color": "#000000",
+            "tip_text_color": "#000000",
+            "tip_shadow_opacity": 0.5,
+            "mark_border_radius": 0,
+            "tip_border_radius": 0
+          }
+        },
+        "pricing_item_N4xReh": {
+          "type": "pricing_item",
+          "name": "Shopify Pricing Item",
+          "settings": {
+            "handle_number": 1,
+            "id": "shopify-enterprise",
+            "content_align": "left",
+            "icon": "shopify://shop_images/logo_8676fd03-d3d9-496f-bc2c-f1b1a9fd3c18.svg",
+            "heading": "Advanced/Custom",
+            "sub_heading": "Custom Shopify Plus Store with Support",
+            "link_text": "",
+            "link": "",
+            "main_content": "<p>from [price] + GST / once-off</p><p></p><p>High-converting, brand-led builds for serious eCommerce growth.<br/></p>",
+            "secondary_content": "<p><strong>What’s included</strong></p><ul><li>Customised Premium Shopify theme OR bespoke design</li><li>Homepage design with custom UI/UX</li><li>Unlimited collections</li><li>Unlimited products</li><li>Unlimited content pages</li><li>Shopify payment / PayPal setup</li><li>Newsletter signup and social media links</li><li>Blog setup & styling</li><li>Personalised admin guide</li><li>SEO titles & descriptions</li><li>Post-launch training (3 sessions)</li><li>Conversion tracking (GA4, Meta Pixel, etc)</li><li>Dedicated project manager</li><li>Custom animations & effects</li><li>Advanced app integration (up to 5)</li><li>Shopify Plus migration</li><li>Theme warranty (1 year)</li><li>Priority build timeline</li><li>Ongoing support option</li><li>Product import assistance (over 1,000 SKUs may be quoted)</li><li>Copywriting for all pages (available as add-on)</li><li><strong>3 x post launch training sessions</strong></li><li><strong>60 days post support</strong></li></ul><p>* Products to be supplied by client in CSV format</p>",
+            "secondary_list_item_icon": "shopify://shop_images/checkmark.png",
+            "badge_text": "",
+            "price": 7500,
+            "enable_tip": false,
+            "use_icon_for_mark": true,
+            "tip_position": "main_content",
+            "mark_text": "",
+            "tip_text": "",
+            "tip_text_align": "left",
+            "mark_bg_color": "#ffffff",
+            "mark_bg_color_hover": "#000000",
+            "mark_text_color": "#000000",
+            "mark_text_color_hover": "#000000",
+            "tip_bg_color": "#ffffff",
+            "tip_shadow_color": "#000000",
+            "tip_text_color": "#000000",
+            "tip_shadow_opacity": 0.5,
+            "mark_border_radius": 0,
+            "tip_border_radius": 0
+          }
+        },
+        "breakpoint_GYdq76": {
+          "type": "breakpoint",
+          "settings": {
+            "min_width": 0,
+            "item_count": 1,
+            "gap": 10
+          }
+        },
+        "breakpoint_axwF7a": {
+          "type": "breakpoint",
+          "settings": {
+            "min_width": 425,
+            "item_count": 1,
+            "gap": 10
+          }
+        },
+        "breakpoint_TLpDfh": {
+          "type": "breakpoint",
+          "settings": {
+            "min_width": 768,
+            "item_count": 2,
+            "gap": 10
+          }
+        },
+        "breakpoint_XLhMfg": {
+          "type": "breakpoint",
+          "settings": {
+            "min_width": 900,
+            "item_count": 2.5,
+            "gap": 10
+          }
+        },
+        "breakpoint_JR7YcG": {
+          "type": "breakpoint",
+          "settings": {
+            "min_width": 1024,
+            "item_count": 3,
+            "gap": 10
+          }
+        }
+      },
+      "block_order": [
+        "pricing_item_YheRDG",
+        "pricing_item_PbM4UN",
+        "pricing_item_ezdbcT",
+        "pricing_item_N4xReh",
+        "breakpoint_GYdq76",
+        "breakpoint_axwF7a",
+        "breakpoint_TLpDfh",
+        "breakpoint_XLhMfg",
+        "breakpoint_JR7YcG"
+      ],
+      "disabled": true,
+      "settings": {
+        "hero_section": false,
+        "bg_color": "#ffffff",
+        "tab_bg_color": "#000000",
+        "tab_text_color": "#ffffff",
+        "tab_bg_color_selected": "#fdd328",
+        "tab_text_color_selected": "#000000",
+        "card_bg_color": "#ffffff",
+        "card_border_radius": 6,
+        "card_border_color": "#121212",
+        "card_heading_color": "#000000",
+        "card_text_color": "#1e1e1e",
+        "card_old_text_color": "#686868",
+        "card_link_bg_color": "#121212",
+        "card_link_text_color": "#ffffff",
+        "card_link_bg_color_hover": "#fdd317",
+        "card_link_text_color_hover": "#121212",
+        "badge_bg_color": "#fdd328",
+        "badge_text_color": "#121212",
+        "arrow_btn_bg_color": "#3d3d3d",
+        "arrow_btn_txt_color": "#ffffff",
+        "arrow_btn_bg_color_hover": "#000000",
+        "arrow_btn_txt_color_hover": "#ffffff",
+        "arrow_btn_border_radius": 100,
+        "desktop_padding_top": 20,
+        "desktop_padding_bottom": 0,
+        "mobile_padding_top": 12,
+        "mobile_padding_bottom": 0
+      }
+    },
+    "text_list_WmcAaw": {
+      "type": "text-list",
+      "blocks": {
+        "text_GrUnU3": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Ready to Transform Your Shopify Store Into a [highlight]</p>",
+            "desktop_margin": 40,
+            "mobile_margin": 32,
+            "desktop_align": "center",
+            "mobile_align": "center",
+            "desktop_font_size": 48,
+            "mobile_font_size": 20,
+            "desktop_font_weight": "600",
+            "mobile_font_weight": "600",
+            "desktop_line_height": 1.2,
+            "mobile_line_height": 1.2,
+            "desktop_letter_spacing": 1,
+            "mobile_letter_spacing": 1,
+            "desktop_text_transform": "none",
+            "mobile_text_transform": "default",
+            "desktop_max_width": 1000,
+            "mobile_max_width": 1000,
+            "desktop_color": "#000000",
+            "mobile_color": "#000000",
+            "highlight_text": "Revenue Machine?",
+            "desktop_highlight_text_color": "#fdd328",
+            "mobile_highlight_text_color": "#fdd328"
+          }
+        },
+        "text_tEi8yb": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Tell us about your biggest challenge and we'll create a custom strategy to fix what's costing you sales. Get your free conversion audit and discover exactly how much money you're leaving on the table every day.</p><p></p>",
+            "desktop_margin": 0,
+            "mobile_margin": 0,
+            "desktop_align": "center",
+            "mobile_align": "center",
+            "desktop_font_size": 18,
+            "mobile_font_size": 15,
+            "desktop_font_weight": "400",
+            "mobile_font_weight": "400",
+            "desktop_line_height": 1.2,
+            "mobile_line_height": 1.2,
+            "desktop_letter_spacing": 1,
+            "mobile_letter_spacing": 1,
+            "desktop_text_transform": "none",
+            "mobile_text_transform": "default",
+            "desktop_max_width": 1000,
+            "mobile_max_width": 1000,
+            "desktop_color": "#000000",
+            "mobile_color": "#000000",
+            "highlight_text": "Shopify SEO agency",
+            "desktop_highlight_text_color": "#feda15",
+            "mobile_highlight_text_color": "#feda15"
+          }
+        }
+      },
+      "block_order": [
+        "text_GrUnU3",
+        "text_tEi8yb"
+      ],
+      "name": "Text List",
+      "settings": {
+        "section_id": "contact-us",
+        "bg_color": "#ffffff",
+        "desktop_padding_top": 0,
+        "desktop_padding_bottom": 0,
+        "mobile_padding_top": 0,
+        "mobile_padding_bottom": 0
+      }
+    },
+    "single_contact_form_qh4DAq": {
+      "type": "single-contact-form",
+      "name": "Single Step Contact Form",
+      "settings": {
+        "section_id": "",
+        "bg_color": "#ffffff",
+        "service_items": "My conversion rates are too low | My website looks unprofessional and outdated | My checkout process is losing customers | My site is too slow and frustrating | My mobile experience is terrible | My product pages aren't selling | I'm not ranking on Google | My Google Ads aren't converting | I need ongoing CRO and performance help | I want a complete Shopify store transformation | I need expert Shopify consulting and strategy",
+        "submit_text": "Get My Free Conversion Audit",
+        "name_label": "Full Name",
+        "phone_label": "Phone / Mobile Number",
+        "email_label": "Email Address",
+        "website_label": "Website URL",
+        "company_label": "Company Name",
+        "service_label": "Select your service.",
+        "name_error_msg": "Please enter your name.",
+        "phone_error_msg": "Please enter your phone number.",
+        "email_error_msg": "Please enter your email address.",
+        "company_error_msg": "Please enter your company name.",
+        "website_error_msg": "Please enter a valid URL.",
+        "field_bg_color": "#ffffff",
+        "field_border_color": "rgba(0,0,0,0)",
+        "field_txt_color": "#000000",
+        "field_bg_color_hover": "#ffffff",
+        "field_border_color_hover": "rgba(0,0,0,0)",
+        "field_txt_color_hover": "#000000",
+        "field_bg_color_focus": "#ffffff",
+        "field_border_color_focus": "rgba(0,0,0,0)",
+        "field_txt_color_focus": "#000000",
+        "field_shadow_color": "#000000",
+        "error_msg_color": "#ff0000",
+        "submit_bg_color": "#212121",
+        "submit_border_color": "rgba(0,0,0,0)",
+        "submit_txt_color": "#ffffff",
+        "submit_bg_color_hover": "#000000",
+        "submit_border_color_hover": "rgba(0,0,0,0)",
+        "submit_txt_color_hover": "#ffffff",
+        "field_border_radius": 5,
+        "submit_border_radius": 5,
+        "desktop_padding_top": 60,
+        "desktop_padding_bottom": 60,
+        "mobile_padding_top": 40,
+        "mobile_padding_bottom": 40
+      }
+    },
+    "text_list_E7YGKE": {
+      "type": "text-list",
+      "blocks": {
+        "text_AK9CDq": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Why We're Australia's Go-To Shopify</p><p>[highlight]</p>",
+            "desktop_margin": 40,
+            "mobile_margin": 32,
+            "desktop_align": "center",
+            "mobile_align": "center",
+            "desktop_font_size": 48,
+            "mobile_font_size": 20,
+            "desktop_font_weight": "600",
+            "mobile_font_weight": "600",
+            "desktop_line_height": 1.2,
+            "mobile_line_height": 1.2,
+            "desktop_letter_spacing": 1,
+            "mobile_letter_spacing": 1,
+            "desktop_text_transform": "none",
+            "mobile_text_transform": "default",
+            "desktop_max_width": 1000,
+            "mobile_max_width": 1000,
+            "desktop_color": "#000000",
+            "mobile_color": "#000000",
+            "highlight_text": "Design & Development Agency",
+            "desktop_highlight_text_color": "#fdd328",
+            "mobile_highlight_text_color": "#fdd328"
+          }
+        }
+      },
+      "block_order": [
+        "text_AK9CDq"
+      ],
+      "disabled": true,
+      "name": "Text List",
+      "settings": {
+        "section_id": "",
+        "bg_color": "#ffffff",
+        "desktop_padding_top": 0,
+        "desktop_padding_bottom": 0,
+        "mobile_padding_top": 0,
+        "mobile_padding_bottom": 0
+      }
+    },
+    "score_grid_color_per_item_xNwfjd": {
+      "type": "score-grid-color-per-item",
+      "blocks": {
+        "score_item_WCqi8c": {
+          "type": "score_item",
+          "settings": {
+            "score": 35,
+            "prefix_text": "$",
+            "suffix_text": "M+",
+            "score_text": "Revenue Generated",
+            "card_bg_color": "#ffffff",
+            "card_border_color": "rgba(0,0,0,0)",
+            "score_color": "#ffa1ea",
+            "score_text_color": "#000000"
+          }
+        },
+        "score_item_7hy8Je": {
+          "type": "score_item",
+          "settings": {
+            "score": 450,
+            "prefix_text": "",
+            "suffix_text": "k+",
+            "score_text": "Shopify Orders Generated",
+            "card_bg_color": "#ffffff",
+            "card_border_color": "rgba(0,0,0,0)",
+            "score_color": "#ada1ff",
+            "score_text_color": "#000000"
+          }
+        },
+        "score_item_3TyeGN": {
+          "type": "score_item",
+          "settings": {
+            "score": 380,
+            "prefix_text": "",
+            "suffix_text": "+",
+            "score_text": "Shopify Website Projects",
+            "card_bg_color": "#ffffff",
+            "card_border_color": "rgba(0,0,0,0)",
+            "score_color": "#a1d2ff",
+            "score_text_color": "#000000"
+          }
+        },
+        "score_item_NfiTcD": {
+          "type": "score_item",
+          "settings": {
+            "score": 100,
+            "prefix_text": "",
+            "suffix_text": "+",
+            "score_text": "Ongoing Shopify Clients",
+            "card_bg_color": "#ffffff",
+            "card_border_color": "rgba(0,0,0,0)",
+            "score_color": "#a1ffe6",
+            "score_text_color": "#000000"
+          }
+        },
+        "breakpoint_FABAnM": {
+          "type": "breakpoint",
+          "settings": {
+            "max_width": 749,
+            "card_border_radius": 12,
+            "card_row_gap": 10,
+            "item_count": 2,
+            "row_gap": 20,
+            "col_gap": 10,
+            "score_font_size": 21,
+            "score_text_font_size": 16
+          }
+        },
+        "breakpoint_CY8wLb": {
+          "type": "breakpoint",
+          "settings": {
+            "max_width": 1023,
+            "card_border_radius": 15,
+            "card_row_gap": 15,
+            "item_count": 3,
+            "row_gap": 25,
+            "col_gap": 20,
+            "score_font_size": 36,
+            "score_text_font_size": 18
+          }
+        },
+        "breakpoint_nd4Pit": {
+          "type": "breakpoint",
+          "settings": {
+            "max_width": 0,
+            "card_border_radius": 15,
+            "card_row_gap": 20,
+            "item_count": 4,
+            "row_gap": 25,
+            "col_gap": 30,
+            "score_font_size": 50,
+            "score_text_font_size": 20
+          }
+        }
+      },
+      "block_order": [
+        "score_item_WCqi8c",
+        "score_item_7hy8Je",
+        "score_item_3TyeGN",
+        "score_item_NfiTcD",
+        "breakpoint_FABAnM",
+        "breakpoint_CY8wLb",
+        "breakpoint_nd4Pit"
+      ],
+      "disabled": true,
+      "name": "Score Grid/Color by Items",
+      "settings": {
+        "section_id": "pricing",
+        "bg_color": "#ffffff",
+        "not_necessary": true,
+        "desktop_padding_top": 20,
+        "desktop_padding_bottom": 60,
+        "mobile_padding_top": 16,
+        "mobile_padding_bottom": 40
+      }
+    },
+    "marketing_focus_zYMyt8": {
+      "type": "marketing-focus",
+      "settings": {
+        "key": "",
+        "logo_image": "shopify://shop_images/04.jpg",
+        "headline": "Ready to Stop Losing Sales?",
+        "sub_text": "Get your free conversion rate audit and discover exactly what's costing you money right now.",
+        "button_text": "Get My Free CRO Audit Now",
+        "button_link": "#contact-us",
+        "desktop_padding_top": 40,
+        "desktop_padding_bottom": 40,
+        "mobile_padding_top": 30,
+        "mobile_padding_bottom": 30
+      }
+    },
+    "advertise_PAQGf7": {
+      "type": "advertise",
+      "disabled": true,
+      "settings": {
+        "section_id": "How-It-Works",
+        "hero_section": false,
+        "key": "",
+        "badge_text": "",
+        "badge_bg_color": "#ffffff",
+        "badge_txt_color": "#000000",
+        "badge_border_radius": 0,
+        "hide_badge_on_mobile": false,
+        "hide_subheading_on_mobile": false,
+        "hide_text_on_mobile": false,
+        "hide_media_on_mobile": false,
+        "loop_video": true,
+        "autoplay_video": true,
+        "main_image": "shopify://shop_images/AnAgencyShopifyWebsite05.png",
+        "media_border_radius": 0,
+        "media_border_width": 0,
+        "media_border_color": "#000000",
+        "secondary_image_roate_angle": -64,
+        "desktop_left": -80,
+        "desktop_top": -1,
+        "desktop_right": -1,
+        "desktop_bottom": 82,
+        "mobile_left": 0,
+        "mobile_top": -1,
+        "mobile_right": -1,
+        "mobile_bottom": -30,
+        "heading": "We’re a Shopify Design Agency That Builds for Performance",
+        "sub_heading": "From idea to launch, our Shopify web design agency focuses on conversions, speed, and SEO-ready builds.",
+        "text": "<h2>Step 1: Strategy & Planning</h2><p>We define your goals, map out the ideal user journey, and create a structure tailored to your product range and audience.</p><h3></h3><h3></h3><p></p>",
+        "button_link": "#",
+        "button_text": "",
+        "image_right": false,
+        "desktop_text_align": "left",
+        "mobile_text_align": "left",
+        "background_color": "#ffffff",
+        "text_color": "#000000",
+        "desktop_padding_top": 60,
+        "desktop_padding_bottom": 0,
+        "mobile_padding_top": 40,
+        "mobile_padding_bottom": 12
+      }
+    },
+    "advertise_DnFdqE": {
+      "type": "advertise",
+      "disabled": true,
+      "settings": {
+        "section_id": "",
+        "hero_section": false,
+        "key": "",
+        "badge_text": "",
+        "badge_bg_color": "#ffffff",
+        "badge_txt_color": "#000000",
+        "badge_border_radius": 0,
+        "hide_badge_on_mobile": false,
+        "hide_subheading_on_mobile": false,
+        "hide_text_on_mobile": false,
+        "hide_media_on_mobile": false,
+        "loop_video": true,
+        "autoplay_video": true,
+        "main_image": "shopify://shop_images/AnAgencyShopifyWebsite07.png",
+        "media_border_radius": 0,
+        "media_border_width": 0,
+        "media_border_color": "#000000",
+        "secondary_image_roate_angle": 12,
+        "desktop_left": -1,
+        "desktop_top": -1,
+        "desktop_right": -1,
+        "desktop_bottom": -1,
+        "mobile_left": -1,
+        "mobile_top": -1,
+        "mobile_right": -1,
+        "mobile_bottom": -1,
+        "heading": "Step 2: Shopify Store Design & Development",
+        "sub_heading": "",
+        "text": "<p>We develop your Shopify store using a mobile-first layout, smart UX, branded content blocks, and SEO best practices. Our team includes expert Shopify designers and a dedicated <strong>Shopify website developer</strong> to bring your store to life.</p><p></p><h3></h3>",
+        "button_link": "",
+        "button_text": "",
+        "image_right": true,
+        "desktop_text_align": "left",
+        "mobile_text_align": "left",
+        "background_color": "#ffffff",
+        "text_color": "#000000",
+        "desktop_padding_top": 0,
+        "desktop_padding_bottom": 2,
+        "mobile_padding_top": 0,
+        "mobile_padding_bottom": 0
+      }
+    },
+    "advertise_JebRqW": {
+      "type": "advertise",
+      "disabled": true,
+      "settings": {
+        "section_id": "#pricing-table",
+        "hero_section": false,
+        "key": "",
+        "badge_text": "",
+        "badge_bg_color": "#ffffff",
+        "badge_txt_color": "#000000",
+        "badge_border_radius": 0,
+        "hide_badge_on_mobile": false,
+        "hide_subheading_on_mobile": false,
+        "hide_text_on_mobile": false,
+        "hide_media_on_mobile": false,
+        "loop_video": true,
+        "autoplay_video": true,
+        "main_image": "shopify://shop_images/AnAgencyShopifyWebsite08.png",
+        "media_border_radius": 0,
+        "media_border_width": 0,
+        "media_border_color": "#000000",
+        "secondary_image_roate_angle": -52,
+        "desktop_left": -1,
+        "desktop_top": 160,
+        "desktop_right": -90,
+        "desktop_bottom": -1,
+        "mobile_left": -1,
+        "mobile_top": -25,
+        "mobile_right": 0,
+        "mobile_bottom": -1,
+        "heading": "Step 3: Launch & Grow With Your Shopify Website",
+        "sub_heading": "",
+        "text": "<p>Once your store is ready, we test it across devices, fix any issues, and hand it over fully operational - with training included.</p><p></p>",
+        "button_link": "#pricing-table",
+        "button_text": "Compare Our Packages",
+        "image_right": false,
+        "desktop_text_align": "left",
+        "mobile_text_align": "left",
+        "background_color": "#ffffff",
+        "text_color": "#000000",
+        "desktop_padding_top": 0,
+        "desktop_padding_bottom": 60,
+        "mobile_padding_top": 2,
+        "mobile_padding_bottom": 40
+      }
+    },
+    "advertise_KLNL33": {
+      "type": "advertise",
+      "disabled": true,
+      "settings": {
+        "section_id": "#see-our-work",
+        "hero_section": false,
+        "key": "",
+        "badge_text": "Whether you're working with a Shopify web developer or our full team, we keep performance, SEO, and UX front of mind.",
+        "badge_bg_color": "#ffffff",
+        "badge_txt_color": "#000000",
+        "badge_border_radius": 0,
+        "hide_badge_on_mobile": false,
+        "hide_subheading_on_mobile": false,
+        "hide_text_on_mobile": false,
+        "hide_media_on_mobile": false,
+        "loop_video": true,
+        "autoplay_video": true,
+        "main_image": "shopify://shop_images/AnAgencyShopifyWebsite09.png",
+        "media_border_radius": 0,
+        "media_border_width": 0,
+        "media_border_color": "#000000",
+        "secondary_image_roate_angle": 8,
+        "desktop_left": -80,
+        "desktop_top": -1,
+        "desktop_right": -1,
+        "desktop_bottom": 82,
+        "mobile_left": 0,
+        "mobile_top": -1,
+        "mobile_right": -1,
+        "mobile_bottom": -30,
+        "heading": "What You Really Get From Our Shopify Builds",
+        "sub_heading": "Our Shopify website designers build with speed, your brand identity, and future scalability in mind.",
+        "text": "<ul><li>A Shopify store designed to sell — fast</li><li>Strategic layout based on real buyer psychology</li><li>Mobile-first design with conversion in mind</li><li>On-page SEO, tracking, and key app integrations</li><li>Product, collection, cart, and checkout setup</li><li>Post-launch support and training so you’re not left guessing</li></ul>",
+        "list_icon": "shopify://shop_images/checkmark.png",
+        "button_link": "#see-our-work",
+        "button_text": "View Store Examples",
+        "image_right": true,
+        "desktop_text_align": "left",
+        "mobile_text_align": "left",
+        "background_color": "#ffffff",
+        "text_color": "#000000",
+        "desktop_padding_top": 60,
+        "desktop_padding_bottom": 60,
+        "mobile_padding_top": 40,
+        "mobile_padding_bottom": 40
+      }
+    },
+    "text_list_VeQkgV": {
+      "type": "text-list",
+      "blocks": {
+        "text_iELMnY": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Why Brands Choose Our Shopify Website Development Team</p>",
+            "desktop_margin": 40,
+            "mobile_margin": 28,
+            "desktop_align": "center",
+            "mobile_align": "center",
+            "desktop_font_size": 50,
+            "mobile_font_size": 22,
+            "desktop_font_weight": "600",
+            "mobile_font_weight": "600",
+            "desktop_line_height": 1.3,
+            "mobile_line_height": 1.2,
+            "desktop_letter_spacing": 0.3,
+            "mobile_letter_spacing": 0.7,
+            "desktop_text_transform": "none",
+            "mobile_text_transform": "default",
+            "desktop_max_width": 1000,
+            "mobile_max_width": 1000,
+            "desktop_color": "#000000",
+            "mobile_color": "#000000",
+            "highlight_text": "",
+            "desktop_highlight_text_color": "#000000",
+            "mobile_highlight_text_color": "#000000"
+          }
+        },
+        "text_eBjNbe": {
+          "type": "text",
+          "settings": {
+            "text": "<p>As a trusted <strong>Shopify development agency</strong>, we help brands launch and scale with expert design, strategy, and code.</p><p>We're not just another Shopify web development agency - we’re Shopify ecommerce experts focused on long-term growth.<br/><br/>We don’t just build Shopify websites, we create fast, scalable Shopify stores that are designed to convert. With over 380+ Shopify builds completed, we’ve helped brands across multiple industries launch online stores that don’t just look great, but sell better. Our team combines expert Shopify website design, advanced Shopify development, and data-backed strategy to deliver long-term ecommerce results.</p>",
+            "desktop_margin": 0,
+            "mobile_margin": 0,
+            "desktop_align": "center",
+            "mobile_align": "center",
+            "desktop_font_size": 18,
+            "mobile_font_size": 16,
+            "desktop_font_weight": "400",
+            "mobile_font_weight": "400",
+            "desktop_line_height": 1.3,
+            "mobile_line_height": 1.2,
+            "desktop_letter_spacing": 1,
+            "mobile_letter_spacing": 1,
+            "desktop_text_transform": "none",
+            "mobile_text_transform": "default",
+            "desktop_max_width": 1440,
+            "mobile_max_width": 1440,
+            "desktop_color": "#000000",
+            "mobile_color": "#000000",
+            "highlight_text": "",
+            "desktop_highlight_text_color": "#000000",
+            "mobile_highlight_text_color": "#000000"
+          }
+        }
+      },
+      "block_order": [
+        "text_iELMnY",
+        "text_eBjNbe"
+      ],
+      "disabled": true,
+      "settings": {
+        "section_id": "why-us",
+        "bg_color": "#ffffff",
+        "desktop_padding_top": 60,
+        "desktop_padding_bottom": 40,
+        "mobile_padding_top": 40,
+        "mobile_padding_bottom": 20
+      }
+    },
+    "score_grid_y7U8qQ": {
+      "type": "score-grid",
+      "blocks": {
+        "score_item_V3ktCp": {
+          "type": "score_item",
+          "settings": {
+            "score": 35,
+            "prefix_text": "$",
+            "suffix_text": "M+",
+            "score_text": "Revenue Generated"
+          }
+        },
+        "score_item_Nif4hJ": {
+          "type": "score_item",
+          "settings": {
+            "score": 45000,
+            "prefix_text": "",
+            "suffix_text": "+",
+            "score_text": "Sales Generated"
+          }
+        },
+        "score_item_YErmQy": {
+          "type": "score_item",
+          "settings": {
+            "score": 700,
+            "prefix_text": "",
+            "suffix_text": "+",
+            "score_text": "Leads Generated"
+          }
+        },
+        "score_item_AFe9Vy": {
+          "type": "score_item",
+          "settings": {
+            "score": 1,
+            "prefix_text": "$",
+            "suffix_text": "M+",
+            "score_text": "Ads Spend"
+          }
+        },
+        "score_item_tCEWQy": {
+          "type": "score_item",
+          "settings": {
+            "score": 100,
+            "prefix_text": "",
+            "suffix_text": "+",
+            "score_text": "Clients Engage"
+          }
+        },
+        "score_item_DNUATp": {
+          "type": "score_item",
+          "settings": {
+            "score": 10,
+            "prefix_text": "",
+            "suffix_text": "+",
+            "score_text": "Team Members"
+          }
+        },
+        "score_item_mgCdkQ": {
+          "type": "score_item",
+          "settings": {
+            "score": 5,
+            "prefix_text": "",
+            "suffix_text": "+",
+            "score_text": "Years of Experience"
+          }
+        },
+        "score_item_REJFpc": {
+          "type": "score_item",
+          "settings": {
+            "score": 3,
+            "prefix_text": "",
+            "suffix_text": "+",
+            "score_text": "Years of Business"
+          }
+        },
+        "breakpoint_FABAnM": {
+          "type": "breakpoint",
+          "settings": {
+            "max_width": 749,
+            "card_border_radius": 12,
+            "card_row_gap": 10,
+            "item_count": 2,
+            "row_gap": 20,
+            "col_gap": 10,
+            "score_font_size": 21,
+            "score_text_font_size": 16
+          }
+        },
+        "breakpoint_CY8wLb": {
+          "type": "breakpoint",
+          "settings": {
+            "max_width": 1023,
+            "card_border_radius": 15,
+            "card_row_gap": 15,
+            "item_count": 3,
+            "row_gap": 25,
+            "col_gap": 20,
+            "score_font_size": 36,
+            "score_text_font_size": 18
+          }
+        },
+        "breakpoint_nd4Pit": {
+          "type": "breakpoint",
+          "settings": {
+            "max_width": 0,
+            "card_border_radius": 15,
+            "card_row_gap": 20,
+            "item_count": 4,
+            "row_gap": 25,
+            "col_gap": 30,
+            "score_font_size": 50,
+            "score_text_font_size": 20
+          }
+        }
+      },
+      "block_order": [
+        "score_item_V3ktCp",
+        "score_item_Nif4hJ",
+        "score_item_YErmQy",
+        "score_item_AFe9Vy",
+        "score_item_tCEWQy",
+        "score_item_DNUATp",
+        "score_item_mgCdkQ",
+        "score_item_REJFpc",
+        "breakpoint_FABAnM",
+        "breakpoint_CY8wLb",
+        "breakpoint_nd4Pit"
+      ],
+      "disabled": true,
+      "settings": {
+        "section_id": "",
+        "bg_color": "#ffffff",
+        "not_necessary": false,
+        "card_bg_color": "#ffffff",
+        "card_border_color": "#e5e5e5",
+        "score_color": "#fdd328",
+        "score_text_color": "#000000",
+        "desktop_padding_top": 0,
+        "desktop_padding_bottom": 60,
+        "mobile_padding_top": 0,
+        "mobile_padding_bottom": 40
+      }
+    },
+    "faq_cYAhKJ": {
+      "type": "faq",
+      "blocks": {
+        "faq_item_rrnAHz": {
+          "type": "faq_item",
+          "settings": {
+            "question": "How quickly will I see results?",
+            "answer": "<p>Most clients see measurable improvements within 2-4 weeks, with substantial gains typically achieved within 60 days.</p>",
+            "icon": "shopify://shop_images/plus_1.png"
+          }
+        },
+        "faq_item_Y6R7RQ": {
+          "type": "faq_item",
+          "settings": {
+            "question": "Do you work with stores outside Shopify?",
+            "answer": "<p>While we specialise in Shopify as certified partners, our CRO expertise applies to all ecommerce platforms.</p>",
+            "icon": "shopify://shop_images/plus_1.png"
+          }
+        },
+        "faq_item_DqzNga": {
+          "type": "faq_item",
+          "settings": {
+            "question": "What if my traffic is low?",
+            "answer": "<p>We optimise for conversions regardless of traffic volume. Higher conversion rates make every visitor more valuable, and we can also advise on traffic generation strategies.</p>",
+            "icon": "shopify://shop_images/plus_1.png"
+          }
+        },
+        "faq_item_X849dy": {
+          "type": "faq_item",
+          "settings": {
+            "question": "How much does it cost?",
+            "answer": "<p>Investment varies based on store complexity and goals. All clients receive a custom proposal after their free audit.</p>",
+            "icon": "shopify://shop_images/plus_1.png"
+          }
+        },
+        "faq_item_AqURr4": {
+          "type": "faq_item",
+          "disabled": true,
+          "settings": {
+            "question": "Can I hire a Shopify developer for just part of my build?",
+            "answer": "<p>Absolutely. You can <strong>hire a Shopify developer</strong> for theme tweaks, backend features, or full-stack development. We’re flexible based on your project scope.</p>",
+            "icon": "shopify://shop_images/plus_1.png"
+          }
+        },
+        "faq_item_jUAU8Y": {
+          "type": "faq_item",
+          "disabled": true,
+          "settings": {
+            "question": "What’s included in your Shopify website packages?",
+            "answer": "<p>All our Shopify website development packages include:</p><ul><li>Homepage design + key internal pages</li><li>Product and collection setup</li><li>Basic SEO structure</li><li>Mobile optimisation</li><li>App integration and setup</li><li>Policies, cart, and checkout</li><li>Basic branding implementation</li><li>Optional blog or content sections<br/></li></ul><p>We also provide training and support post-launch to make sure you're confident using your store.</p>",
+            "icon": "shopify://shop_images/plus_1.png"
+          }
+        },
+        "faq_item_NqpYQ3": {
+          "type": "faq_item",
+          "disabled": true,
+          "settings": {
+            "question": "Do you offer Shopify migration services?",
+            "answer": "<p>Yes — we offer complete Shopify migration services from platforms like WooCommerce, BigCommerce, Squarespace, Wix, Magento, and more. We’ll transfer your products, pages, customers, and order history while preserving your SEO as much as possible.</p>",
+            "icon": "shopify://shop_images/plus_1.png"
+          }
+        },
+        "faq_item_GTUCWD": {
+          "type": "faq_item",
+          "disabled": true,
+          "settings": {
+            "question": "Do you offer Shopify Plus services?",
+            "answer": "<p>Yes, we’re a trusted <strong>Shopify Plus agency</strong> and work with scaling brands on advanced builds, app integrations, and automation.</p>",
+            "icon": "shopify://shop_images/plus_1.png"
+          }
+        },
+        "faq_item_A8xCUf": {
+          "type": "faq_item",
+          "disabled": true,
+          "settings": {
+            "question": "What platforms can you migrate from?",
+            "answer": "<p>We regularly migrate stores from:</p><ul><li>WooCommerce</li><li>Magento</li><li>BigCommerce</li><li>Squarespace</li><li>Wix</li><li>Neto</li><li>Custom-built platforms<br/></li></ul><p>Not sure if yours is supported? Get in touch and we’ll confirm.</p>",
+            "icon": "shopify://shop_images/plus_1.png"
+          }
+        },
+        "faq_item_EBRRFV": {
+          "type": "faq_item",
+          "disabled": true,
+          "settings": {
+            "question": "Are your stores built using custom code or themes?",
+            "answer": "<p>We use <strong>premium Shopify themes</strong> as a base and customise them with your branding, layout preferences, and features. For advanced stores, we can also implement <strong>custom-coded sections</strong> to give you greater flexibility without compromising performance.</p>",
+            "icon": "shopify://shop_images/plus_1.png"
+          }
+        },
+        "faq_item_extCWL": {
+          "type": "faq_item",
+          "disabled": true,
+          "settings": {
+            "question": "Will I own my Shopify store after it’s built?",
+            "answer": "<p>Yes — 100%. You’ll have full admin access, your own Shopify account, and complete ownership of your store, content, and code. We don’t hold anything hostage or lock you into long-term contracts.</p>",
+            "icon": "shopify://shop_images/plus_1.png"
+          }
+        },
+        "faq_item_8kjgcr": {
+          "type": "faq_item",
+          "disabled": true,
+          "settings": {
+            "question": "Do you offer post-launch support or training?",
+            "answer": "<p>Absolutely. Every Shopify store comes with <strong>30 days of post-launch support</strong>, including basic training on how to manage your products, orders, and pages. Ongoing support packages are also available if you need extra help as your store grows.</p>",
+            "icon": "shopify://shop_images/plus_1.png"
+          }
+        },
+        "faq_item_aFE9Qt": {
+          "type": "faq_item",
+          "disabled": true,
+          "settings": {
+            "question": "What’s the difference between your packages?",
+            "answer": "<p>Our packages are based on the size and complexity of your store:</p><ul><li><strong>Standard</strong> – ideal for lean setups and new businesses</li><li><strong>Growth</strong> – best for scaling brands that need custom features or content</li><li><strong>Advanced/Custom</strong> – tailored for businesses with complex needs, integrations, or Shopify Plus requirements<br/></li></ul><p>We’ll guide you to the right option based on your goals.</p>",
+            "icon": "shopify://shop_images/plus_1.png"
+          }
+        },
+        "faq_item_GDwtCj": {
+          "type": "faq_item",
+          "disabled": true,
+          "settings": {
+            "question": "Do you work with existing Shopify stores that need a redesign?",
+            "answer": "<p>Yes. Whether you want a visual refresh or a full rebuild, we can redesign your existing Shopify website to improve speed, layout, branding, and conversion performance.</p>",
+            "icon": "shopify://shop_images/plus_1.png"
+          }
+        },
+        "faq_item_pUpfwB": {
+          "type": "faq_item",
+          "disabled": true,
+          "settings": {
+            "question": "How much does a typical project cost?",
+            "answer": "<p>Our Shopify website packages start from <strong>$2,800 AUD</strong> for a standard build and go up depending on the features and scale of your project. Most businesses fall between the <strong>$4,800 to $7,500+ range</strong>, depending on what’s needed. We provide fixed quotes — no hidden fees.</p>",
+            "icon": "shopify://shop_images/plus_1.png"
+          }
+        },
+        "faq_item_VCqCaj": {
+          "type": "faq_item",
+          "disabled": true,
+          "settings": {
+            "question": "1. How do I choose the right Shopify theme for my store?",
+            "answer": "<p>Choosing a theme is exciting but can feel overwhelming with so many options. Start by listing the key features your store needs (for example, a large image slider, product filtering, or a certain layout). This helps you narrow down themes that fit your functionality requirements before getting swayed by just looks. Next, consider your brand style and choose a theme whose design vibe matches your products – many themes allow colour and font tweaks so you can align it with your branding. Don’t forget to check that the theme is mobile-responsive (most on the Shopify Theme Store are) and read reviews from other users to catch any quirks. If you're on a tight budget, Shopify offers a range of free themes that are quite polished, but paid themes often come with more built-in features and unique designs for a one-time fee.<br/><br/><strong>Feeling stuck choosing the perfect theme?</strong> Our team at An Agency can help you pick and even customise a Shopify theme that captures your brand’s personality and converts well – just reach out for a chat!</p><p></p>",
+            "icon": "shopify://shop_images/plus_1.png"
+          }
+        },
+        "faq_item_AdgFRX": {
+          "type": "faq_item",
+          "disabled": true,
+          "settings": {
+            "question": "2. How do I upload my products and organise them on Shopify?",
+            "answer": "<p>Getting your products into Shopify is straightforward. You can add products one by one in the Shopify admin, making sure to fill out titles, descriptions, prices, and upload clear photos. To save time, use Shopify’s bulk import tool with a CSV file if you have many products – this lets you upload multiple items in one go. Once products are in, organise them into collections (categories) so shoppers can easily browse by type or theme. For example, you might create collections for “New Arrivals” or “Sale” items in addition to product categories. Don’t forget to add tags to products too; tags help with filtering and search within your site. Taking a bit of time to structure your products now will pay off in a smoother shopping experience for your customers.<br/><br/><strong>If product entry or organisation feels tedious,</strong> let us handle the heavy lifting. An Agency can assist with bulk product uploads and creating a logical collection structure for your store – we’re here to help make your launch easier.</p><p></p>",
+            "icon": "shopify://shop_images/plus_1.png"
+          }
+        },
+        "faq_item_E6VP9h": {
+          "type": "faq_item",
+          "disabled": true,
+          "settings": {
+            "question": "3. What should I do to launch my Shopify store successfully?",
+            "answer": "<p>Launching your store is a big milestone! Before you go live, run through a pre-launch checklist to make sure everything is in tip-top shape. Here are some must-dos before the big launch:</p><ul><li>Attach your custom domain and confirm it loads your site correctly.</li><li>Test your payment gateway with a real or test order.</li><li>Double-check shipping rates.</li><li>Add essential pages: About, Contact, Shipping, Returns.</li><li>Check your mobile layout.</li></ul><p>Once everything looks good, disable the storefront password so the public can access your site. Consider a soft launch by sharing it with friends or on social media to gather initial feedback.<br/><br/><strong>Not sure if you’ve covered everything for launch?</strong> We’ve helped many Aussie entrepreneurs go live smoothly. The experts at An Agency can review your store and help with any last-minute tweaks – let’s get you set up for success.</p><p></p>",
+            "icon": "shopify://shop_images/plus_1.png"
+          }
+        },
+        "faq_item_QBr3LB": {
+          "type": "faq_item",
+          "disabled": true,
+          "settings": {
+            "question": "4. I’m getting traffic but no sales – what’s wrong?",
+            "answer": "<p>If you’re seeing visitors but few (or zero) sales, you’re not alone – this is a common early challenge. It often comes down to a few possible issues on your site. First, check your <strong>user experience</strong>: is it clear what to do when someone lands on your homepage? Next, consider <strong>trust and branding</strong> – does your site look professional and legit? Add customer reviews, an About Us page, and clear contact info to build credibility. Evaluate your <strong>audience targeting</strong> too: you might be attracting lots of visitors who aren’t actually interested in buying. Lastly, ensure there are no technical glitches (broken links, slow checkout, etc.) that could be blocking purchases.<br/><br/><strong>Converting visitors into customers can be tricky.</strong> If you’re scratching your head, An Agency can analyse your site and traffic to pinpoint what’s happening and help turn those browsers into buyers – let’s troubleshoot it together!</p>",
+            "icon": "shopify://shop_images/plus_1.png"
+          }
+        },
+        "faq_item_Ti7hUf": {
+          "type": "faq_item",
+          "disabled": true,
+          "settings": {
+            "question": "5. Why is my store’s bounce rate so high, and how do I fix it?",
+            "answer": "<p>A high bounce rate means people leave your site after viewing just one page. Several things might cause this. Slow loading pages are a big one. Other causes could be that visitors didn’t find what they expected or your site design wasn’t appealing or seemed confusing. To improve bounce rate, focus on speed, relevance of content, and mobile optimisation. Reduce pop-ups or intrusive ads. Improve your homepage headline and call-to-action so visitors quickly see value.<br/><br/><strong>Noticing a lot of one-and-done visitors?</strong> Our team at An Agency can audit your site’s speed and design to find quick wins that keep customers engaged. Reach out and we’ll help make sure more visitors stick around and explore.</p><h3></h3>",
+            "icon": "shopify://shop_images/plus_1.png"
+          }
+        },
+        "faq_item_tJxanT": {
+          "type": "faq_item",
+          "disabled": true,
+          "settings": {
+            "question": "6. How can I improve my conversion rate and get more sales?",
+            "answer": "<p>Start by simplifying the path to purchase. Make sure your navigation is intuitive, product categories make sense, and it’s easy to find what they want. Include reviews, highlight unique selling points, and offer fast checkout. Improve your product pages with better photos, clearer descriptions, and stronger CTAs. Consider trust elements like badges, guarantees, and clear shipping policies.<br/><br/><strong>If you’re struggling with low sales despite good traffic,</strong> let’s turn it around. An Agency specialises in conversion optimisation – from layout changes to messaging tweaks – and we’d love to help your store start winning more customers. Get in touch and let’s boost those numbers!</p>",
+            "icon": "shopify://shop_images/plus_1.png"
+          }
+        },
+        "faq_item_3rBLY7": {
+          "type": "faq_item",
+          "disabled": true,
+          "settings": {
+            "question": "7. How can I reduce cart abandonment in my store?",
+            "answer": "<p>Cart abandonment is super common. Tackle it with:</p><ul><li>Transparent shipping costs upfront.  </li><li>Short, frictionless checkout.  </li><li>Allowing guest checkout.  </li><li>Offering multiple payment options.  </li><li>Retargeting ads.  </li><li>Abandoned cart recovery emails</li></ul><p>These small improvements can save a significant portion of lost revenue.<br/><br/><strong>Fighting cart abandonment?</strong> Let An Agency streamline your checkout and set up reminders to win back those customers. We’re just a call away to help you recover those lost sales!</p>",
+            "icon": "shopify://shop_images/plus_1.png"
+          }
+        },
+        "faq_item_niNjJM": {
+          "type": "faq_item",
+          "disabled": true,
+          "settings": {
+            "question": "8. How can I improve my product photos and images?",
+            "answer": "<p>Use high-resolution, well-lit images from multiple angles. Show the product in use if possible. Keep backgrounds consistent. Compress images to ensure fast loading. Add zoom or 360° features if you can. Don’t forget alt-text for accessibility and SEO.<br/><br/><strong>Need your products to look their best?</strong> We can connect you with photographers or guide your DIY shoots. An Agency is all about making your products shine.</p>",
+            "icon": "shopify://shop_images/plus_1.png"
+          }
+        },
+        "faq_item_PYrdjE": {
+          "type": "faq_item",
+          "disabled": true,
+          "settings": {
+            "question": "9. What should I include in my product descriptions to boost sales?",
+            "answer": "<p>Inform and persuade. List the features, but also focus on benefits. Match the tone to your brand. Use short paragraphs and bullet points for clarity. Incorporate relevant SEO keywords, but write for humans.<br/><br/><strong>Not sure if your descriptions are hitting the mark?</strong> Our copywriting pros at An Agency can craft product descriptions that drive conversions and match your voice.</p>",
+            "icon": "shopify://shop_images/plus_1.png"
+          }
+        },
+        "faq_item_pGAqqF": {
+          "type": "faq_item",
+          "disabled": true,
+          "settings": {
+            "question": "10. How can I make my product pages more trustworthy?",
+            "answer": "<p>Trust comes from reviews, clear contact info, professional design, secure checkout badges, and well-written content. Make sure policies (like returns) are easy to find and product details are accurate.<br/><br/><strong>Want your store to feel more credible?</strong> We’ll help you implement trust signals and polish your site so customers feel confident buying.</p>",
+            "icon": "shopify://shop_images/plus_1.png"
+          }
+        },
+        "faq_item_TbpCDe": {
+          "type": "faq_item",
+          "disabled": true,
+          "settings": {
+            "question": "11. What apps should I install on my Shopify store?",
+            "answer": "<p>The right apps depend on your goals, but here are essentials most stores should consider:</p><ul><li><strong>Email marketing</strong> (like Klaviyo or Omnisend) to build customer lists and automate flows</li><li><strong>Reviews</strong> (like Judge.me or Loox) to build trust</li><li><strong>Upsell/Cross-sell</strong> tools (like ReConvert or Frequently Bought Together)</li><li><strong>SEO</strong> tools (like Smart SEO)</li><li><strong>Analytics</strong> (like Lucky Orange for heatmaps and session recordings)<br/> Be careful not to overload your store with too many apps – it can slow down performance. Focus on quality, not quantity.<br/> </li></ul><p><strong>Not sure which apps are worth it?</strong> An Agency can help you choose and install the best tools for growth, without killing your page speed.</p>",
+            "icon": "shopify://shop_images/plus_1.png"
+          }
+        },
+        "faq_item_dHFxLR": {
+          "type": "faq_item",
+          "disabled": true,
+          "settings": {
+            "question": "12. How do I handle shipping properly on Shopify?",
+            "answer": "<p>Set clear shipping rates based on weight, price, or zones. Offer free shipping thresholds to encourage higher order values. Make sure your product weights are accurate, and if using real-time carrier rates, double check how they’re calculated. Display estimated delivery times and shipping policies clearly at checkout.<br/><br/><strong>Need help setting up smarter shipping rules?</strong> We’ve helped Shopify stores create streamlined shipping strategies that don’t confuse customers or cost a fortune – let’s get yours sorted.</p>",
+            "icon": "shopify://shop_images/plus_1.png"
+          }
+        },
+        "faq_item_EL4jbW": {
+          "type": "faq_item",
+          "disabled": true,
+          "settings": {
+            "question": "13. How should I handle returns and refunds in my store?",
+            "answer": "<p>First, have a clear and visible return policy that builds trust without scaring off buyers. Make the process easy to understand and implement a system (like ReturnGo or a simple contact form) for processing returns. Include details like time frames, conditions, and whether returns are free. Automate emails where possible.<br/><br/><strong>Worried your return setup might be hurting conversions?</strong> We can review your store policies and design a returns process that gives your customers confidence without creating a logistical mess.</p>",
+            "icon": "shopify://shop_images/plus_1.png"
+          }
+        },
+        "faq_item_bKtX9w": {
+          "type": "faq_item",
+          "disabled": true,
+          "settings": {
+            "question": "14. What are the best ways to drive traffic to my Shopify store?",
+            "answer": "<p>Great product and store? Awesome. But now you need eyeballs. Start with:</p><ul><li><strong>Google Ads</strong>: Targets high-intent buyers already searching.</li><li><strong>Meta Ads</strong>: Great for visual products and retargeting.</li><li><strong>TikTok or YouTube</strong>: If you’ve got a younger or visual audience.</li><li><strong>Influencer marketing</strong>: Partner with micro-influencers.</li><li><strong>Email marketing</strong>: Get more out of your current traffic.</li><li><strong>SEO</strong>: Long-term traffic and visibility.<br/> </li></ul><p><strong>Want a complete traffic plan?</strong> We’ll build a strategy around your product, audience, and budget to get you real visitors who convert.<br/></p>",
+            "icon": "shopify://shop_images/plus_1.png"
+          }
+        },
+        "faq_item_aq98UV": {
+          "type": "faq_item",
+          "disabled": true,
+          "settings": {
+            "question": "15. How do I optimise my store for mobile shoppers?",
+            "answer": "<p>Mobile-first design is non-negotiable. Ensure your theme is responsive, fonts are readable, buttons are large enough to tap, and checkout is smooth. Test everything on real phones – not just the Shopify preview. Compress images, remove popups that don’t work on mobile, and simplify your menus.<br/><br/><strong>If your mobile site isn’t converting,</strong> you’re losing sales. We can audit and redesign your mobile experience to make every tap count – reach out.</p>",
+            "icon": "shopify://shop_images/plus_1.png"
+          }
+        },
+        "faq_item_carKeQ": {
+          "type": "faq_item",
+          "disabled": true,
+          "settings": {
+            "question": "16. What should I include on my homepage to make a good first impression?",
+            "answer": "<p>Start with a clear headline about what you sell, followed by a strong value proposition (what makes your product or store different). Use quality imagery, a clean layout, clear navigation, and include sections like:</p><ul><li>Featured products or categories</li><li>Customer reviews</li><li>Trust badges</li><li>A simple offer or free shipping bar Don’t clutter it. Keep it focused and conversion-oriented.<br/></li></ul><p><strong><br/>Not sure your homepage is doing its job?</strong> Let’s polish it up and make it work harder – we’re just a call away.</p>",
+            "icon": "shopify://shop_images/plus_1.png"
+          }
+        },
+        "faq_item_hbCmxw": {
+          "type": "faq_item",
+          "disabled": true,
+          "settings": {
+            "question": "17. How do I get my products to show up in Google Shopping?",
+            "answer": "<p>You’ll need to connect your Shopify store to <strong>Google Merchant Center</strong>, submit a product feed, and make sure your products meet Google’s requirements (like accurate pricing, availability, and policies). From there, you can run Google Shopping campaigns through <strong>Google Ads</strong>.<br/><br/><strong>Want to get your products showing up when customers search?</strong> An Agency can handle the entire Shopping Ads setup for you – start showing up in search results today.</p><h3></h3>",
+            "icon": "shopify://shop_images/plus_1.png"
+          }
+        },
+        "faq_item_zeMyrc": {
+          "type": "faq_item",
+          "disabled": true,
+          "settings": {
+            "question": "18. How do I manage inventory efficiently on Shopify?",
+            "answer": "<p>Shopify’s built-in tools let you track inventory automatically, but make sure you’ve set proper stock levels, variants, and alerts. Use bulk editing for large catalogues. If you’re selling across platforms (like Amazon or eBay), consider inventory sync tools like Stocky, Multi-Channel Fulfilment, or connected apps.<br/><br/><strong>Need help managing stock without chaos?</strong> We’ll help you streamline your setup and avoid overselling or missing orders.</p>",
+            "icon": "shopify://shop_images/plus_1.png"
+          }
+        },
+        "faq_item_Jg9Kht": {
+          "type": "faq_item",
+          "disabled": true,
+          "settings": {
+            "question": "19. How do I recover lost sales from abandoned carts?",
+            "answer": "<p>Use Shopify’s built-in abandoned cart recovery email – customise it with urgency and incentives. For better results, integrate a full email flow via Klaviyo or similar. Consider adding retargeting ads via Facebook or Google that show products people left behind.<br/><br/><strong>Let us set up an automated recovery system</strong> that brings those lost customers back and converts them the second time around.</p>",
+            "icon": "shopify://shop_images/plus_1.png"
+          }
+        },
+        "faq_item_ifVb4t": {
+          "type": "faq_item",
+          "disabled": true,
+          "settings": {
+            "question": "20. When should I consider upgrading to Shopify Plus?",
+            "answer": "<p>If you’re generating consistent revenue (typically $1M+ annually), need advanced automations (like Shopify Flow), custom checkout features, or want lower transaction fees at scale – it might be time. Shopify Plus also offers better support and API access for custom builds.<br/><br/><strong>Not sure if Plus is worth it yet?</strong> We’ll walk you through the pros and cons for your business and help with migrations if it’s the right move.</p>",
+            "icon": "shopify://shop_images/plus_1.png"
+          }
+        }
+      },
+      "block_order": [
+        "faq_item_rrnAHz",
+        "faq_item_Y6R7RQ",
+        "faq_item_DqzNga",
+        "faq_item_X849dy",
+        "faq_item_AqURr4",
+        "faq_item_jUAU8Y",
+        "faq_item_NqpYQ3",
+        "faq_item_GTUCWD",
+        "faq_item_A8xCUf",
+        "faq_item_EBRRFV",
+        "faq_item_extCWL",
+        "faq_item_8kjgcr",
+        "faq_item_aFE9Qt",
+        "faq_item_GDwtCj",
+        "faq_item_pUpfwB",
+        "faq_item_VCqCaj",
+        "faq_item_AdgFRX",
+        "faq_item_E6VP9h",
+        "faq_item_QBr3LB",
+        "faq_item_Ti7hUf",
+        "faq_item_tJxanT",
+        "faq_item_3rBLY7",
+        "faq_item_niNjJM",
+        "faq_item_PYrdjE",
+        "faq_item_pGAqqF",
+        "faq_item_TbpCDe",
+        "faq_item_dHFxLR",
+        "faq_item_EL4jbW",
+        "faq_item_bKtX9w",
+        "faq_item_aq98UV",
+        "faq_item_carKeQ",
+        "faq_item_hbCmxw",
+        "faq_item_zeMyrc",
+        "faq_item_Jg9Kht",
+        "faq_item_ifVb4t"
+      ],
+      "settings": {
+        "section_id": "faq",
+        "hero_section": false,
+        "heading": "Frequently Asked Questions",
+        "bg_color": "#fbfbfb",
+        "max_width": 684,
+        "desktop_padding_top": 60,
+        "desktop_padding_bottom": 60,
+        "mobile_padding_top": 40,
+        "mobile_padding_bottom": 40
+      }
+    },
+    "partner_with_U86NgH": {
+      "type": "partner-with",
+      "blocks": {
+        "partner_item_Am8rMX": {
+          "type": "partner_item",
+          "settings": {
+            "image": "shopify://shop_images/shopify-partner-logo.jpg",
+            "link": "#"
+          }
+        },
+        "partner_item_gQr6pr": {
+          "type": "partner_item",
+          "settings": {
+            "image": "shopify://shop_images/google_partner.png",
+            "link": ""
+          }
+        },
+        "partner_item_gizEVP": {
+          "type": "partner_item",
+          "settings": {
+            "image": "shopify://shop_images/tiktokpartners.webp",
+            "link": ""
+          }
+        },
+        "partner_item_peizWL": {
+          "type": "partner_item",
+          "settings": {
+            "image": "shopify://shop_images/servicem8-partner.webp",
+            "link": ""
+          }
+        },
+        "partner_item_ppj4Q9": {
+          "type": "partner_item",
+          "settings": {
+            "image": "shopify://shop_images/meta-for-business-partner.webp",
+            "link": ""
+          }
+        },
+        "partner_item_nMMzBY": {
+          "type": "partner_item",
+          "settings": {
+            "image": "shopify://shop_images/bingads.png",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "partner_item_Am8rMX",
+        "partner_item_gQr6pr",
+        "partner_item_gizEVP",
+        "partner_item_peizWL",
+        "partner_item_ppj4Q9",
+        "partner_item_nMMzBY"
+      ],
+      "settings": {
+        "hero_section": false,
+        "heading": "Partnered With",
+        "bg_color": "#ffffff",
+        "desktop_card_border_radius": 10,
+        "mobile_card_border_radius": 6,
+        "desktop_padding_top": 30,
+        "desktop_padding_bottom": 30,
+        "mobile_padding_top": 30,
+        "mobile_padding_bottom": 30
+      }
+    },
+    "custom_liquid_F84iy7": {
+      "type": "custom-liquid",
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "section_id": "",
+        "bg_color": "#ffffff",
+        "custom_liquid": "<div style=\"font-size: 11px; color: #999; padding: 20px 0; text-align: center;\">\n  <p>\n    We are <strong>shopify cro experts</strong> specialising in helping businesses <strong>increase shopify conversion rates</strong> through comprehensive <strong>shopify store optimisation</strong> and <strong>ecommerce optimisation services</strong>.\n    Our team addresses <strong>shopify store performance issues</strong> with proven strategies from our <strong>shopify partners conversion experts</strong> and <strong>certified shopify developers cro</strong> specialists.\n    If your <strong>shopify store not converting visitors</strong> or you're experiencing <strong>low conversion rates shopify</strong>, we transform situations where <strong>website visitors not buying</strong> into profitable customer relationships.\n    We prevent <strong>shopify store losing customers</strong> through strategic <strong>increase ecommerce sales conversion</strong> techniques and comprehensive <strong>ecommerce business growth optimisation</strong> solutions.\n    Our <strong>shopify store revenue optimisation</strong> services include <strong>professional shopify optimisation</strong> and <strong>shopify plus conversion optimisation</strong> for enterprise-level stores looking to maximise their online performance and profitability.\n  </p>\n</div>",
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    }
+  },
+  "order": [
+    "advertise_xMT9mA",
+    "image_grid_nwzeK8",
+    "text_list_MNPzdp",
+    "multi_image_list_slider_zE97CJ",
+    "advertise_HPp6jH",
+    "advertise_GJgkaY",
+    "results_guaranteed_UNpbbP",
+    "text_list_zidnT7",
+    "custom_review_new_Bp63JF",
+    "text_list_Gj8YAb",
+    "pricing_new_3erV7g",
+    "text_list_WmcAaw",
+    "single_contact_form_qh4DAq",
+    "text_list_E7YGKE",
+    "score_grid_color_per_item_xNwfjd",
+    "marketing_focus_zYMyt8",
+    "advertise_PAQGf7",
+    "advertise_DnFdqE",
+    "advertise_JebRqW",
+    "advertise_KLNL33",
+    "text_list_VeQkgV",
+    "score_grid_y7U8qQ",
+    "faq_cYAhKJ",
+    "partner_with_U86NgH",
+    "custom_liquid_F84iy7"
+  ]
+}

@@ -12,7 +12,17 @@
     "advertise_xMT9mA": {
       "type": "advertise",
       "settings": {
+        "section_id": "",
         "hero_section": true,
+        "key": "",
+        "badge_text": "",
+        "badge_bg_color": "#ffffff",
+        "badge_txt_color": "#000000",
+        "badge_border_radius": 0,
+        "hide_badge_on_mobile": false,
+        "hide_subheading_on_mobile": false,
+        "hide_text_on_mobile": false,
+        "hide_media_on_mobile": false,
         "loop_video": true,
         "autoplay_video": true,
         "main_image": "shopify://shop_images/omnisend-material.jpg",
@@ -34,7 +44,10 @@
         "button_link": "shopify://pages/contact",
         "button_text": "Let’s Fix Your Emails →",
         "image_right": false,
+        "desktop_text_align": "left",
+        "mobile_text_align": "center",
         "background_color": "#ffffff",
+        "text_color": "#000000",
         "desktop_padding_top": 60,
         "desktop_padding_bottom": 60,
         "mobile_padding_top": 40,
@@ -44,13 +57,15 @@
     "phone_ring_MzFcJr": {
       "type": "phone-ring",
       "settings": {
+        "hero_section": false,
+        "key": "",
         "image": "shopify://shop_images/AnAgencyEmail01.png",
         "heading_1": "We Don’t Just Send Emails.",
         "heading_2": "We Create Customer Journeys.",
         "sub_heading": "Because spray-and-pray emails don’t build loyalty or drive conversions.",
         "text": "Our flows are designed to nurture leads, bring old customers back, and turn one-time buyers into brand fans. Whether you’re on Shopify, Omnisend, Klaviyo, Mailchimp or something else — we’ve got your back.",
-        "phone_button_text": "0499226600",
-        "phone_number": "0499226600",
+        "phone_button_text": "(02) 8088 0768",
+        "phone_number": "(02) 8088 0768",
         "enquire_button_text": "Book an Email Audit",
         "enquire_button_link": "shopify://pages/contact",
         "image_right": true,
@@ -64,6 +79,17 @@
     "advertise_KLNL33": {
       "type": "advertise",
       "settings": {
+        "section_id": "",
+        "hero_section": false,
+        "key": "",
+        "badge_text": "",
+        "badge_bg_color": "#ffffff",
+        "badge_txt_color": "#000000",
+        "badge_border_radius": 0,
+        "hide_badge_on_mobile": false,
+        "hide_subheading_on_mobile": false,
+        "hide_text_on_mobile": false,
+        "hide_media_on_mobile": false,
         "loop_video": true,
         "autoplay_video": true,
         "main_image": "shopify://shop_images/pasted-image-0-7.webp",
@@ -85,7 +111,10 @@
         "button_link": "shopify://pages/contact",
         "button_text": "Get Better Email Flows →",
         "image_right": false,
+        "desktop_text_align": "left",
+        "mobile_text_align": "center",
         "background_color": "#ffffff",
+        "text_color": "#000000",
         "desktop_padding_top": 60,
         "desktop_padding_bottom": 60,
         "mobile_padding_top": 40,
@@ -95,6 +124,17 @@
     "advertise_qQYPyj": {
       "type": "advertise",
       "settings": {
+        "section_id": "",
+        "hero_section": false,
+        "key": "",
+        "badge_text": "",
+        "badge_bg_color": "#ffffff",
+        "badge_txt_color": "#000000",
+        "badge_border_radius": 0,
+        "hide_badge_on_mobile": false,
+        "hide_subheading_on_mobile": false,
+        "hide_text_on_mobile": false,
+        "hide_media_on_mobile": false,
         "loop_video": true,
         "autoplay_video": true,
         "main_image": "shopify://shop_images/pasted-image-0-6.png",
@@ -116,7 +156,10 @@
         "button_link": "shopify://pages/contact",
         "button_text": "Let’s Talk Email Strategy →",
         "image_right": true,
+        "desktop_text_align": "left",
+        "mobile_text_align": "center",
         "background_color": "#ffffff",
+        "text_color": "#000000",
         "desktop_padding_top": 60,
         "desktop_padding_bottom": 60,
         "mobile_padding_top": 40,
@@ -147,7 +190,10 @@
             "desktop_max_width": 1440,
             "mobile_max_width": 1440,
             "desktop_color": "#000000",
-            "mobile_color": "#121212"
+            "mobile_color": "#121212",
+            "highlight_text": "",
+            "desktop_highlight_text_color": "#000000",
+            "mobile_highlight_text_color": "#000000"
           }
         },
         "text_VfFdk4": {
@@ -171,7 +217,10 @@
             "desktop_max_width": 1000,
             "mobile_max_width": 1000,
             "desktop_color": "#000000",
-            "mobile_color": "#000000"
+            "mobile_color": "#000000",
+            "highlight_text": "",
+            "desktop_highlight_text_color": "#000000",
+            "mobile_highlight_text_color": "#000000"
           }
         }
       },
@@ -182,6 +231,7 @@
       "disabled": true,
       "name": "Text List",
       "settings": {
+        "section_id": "",
         "bg_color": "#ffffff",
         "desktop_padding_top": 60,
         "desktop_padding_bottom": 40,
@@ -281,7 +331,9 @@
             "min_width": 0,
             "item_count": 1,
             "gap": 10,
-            "image_aspect_ratio": 1.1
+            "row_gap": 20,
+            "image_aspect_ratio": 1.1,
+            "animation_time": 8
           }
         },
         "breakpoint_z7gNKm": {
@@ -291,7 +343,9 @@
             "min_width": 425,
             "item_count": 1,
             "gap": 10,
-            "image_aspect_ratio": 0.8
+            "row_gap": 20,
+            "image_aspect_ratio": 0.8,
+            "animation_time": 8
           }
         },
         "breakpoint_6GLPLD": {
@@ -302,7 +356,9 @@
             "min_width": 0,
             "item_count": 1,
             "gap": 10,
-            "image_aspect_ratio": 1
+            "row_gap": 20,
+            "image_aspect_ratio": 1,
+            "animation_time": 8
           }
         },
         "breakpoint_Cfnixa": {
@@ -311,7 +367,9 @@
             "min_width": 750,
             "item_count": 2,
             "gap": 15,
-            "image_aspect_ratio": 0.5
+            "row_gap": 20,
+            "image_aspect_ratio": 0.5,
+            "animation_time": 8
           }
         },
         "breakpoint_nEkwH8": {
@@ -321,7 +379,9 @@
             "min_width": 1024,
             "item_count": 4,
             "gap": 20,
-            "image_aspect_ratio": 0.5
+            "row_gap": 20,
+            "image_aspect_ratio": 0.5,
+            "animation_time": 8
           }
         },
         "breakpoint_Dakag9": {
@@ -331,7 +391,9 @@
             "min_width": 1280,
             "item_count": 4,
             "gap": 24,
-            "image_aspect_ratio": 0.5
+            "row_gap": 20,
+            "image_aspect_ratio": 0.5,
+            "animation_time": 8
           }
         },
         "breakpoint_c6QjXi": {
@@ -342,7 +404,9 @@
             "min_width": 1366,
             "item_count": 4,
             "gap": 30,
-            "image_aspect_ratio": 0.5
+            "row_gap": 20,
+            "image_aspect_ratio": 0.5,
+            "animation_time": 8
           }
         }
       },
@@ -369,6 +433,7 @@
       "disabled": true,
       "name": "Multi Image List Slider",
       "settings": {
+        "section_id": "",
         "bg_color": "#ffffff",
         "image_item_border_radius": 4,
         "loadmore_btn_text": "Load More",
@@ -377,6 +442,7 @@
         "loadmore_btn_bg_color_hover": "#000000",
         "loadmore_btn_text_color_hover": "#fafafa",
         "loadmore_btn_border_radius": 7,
+        "max_count_per_view": 4,
         "desktop_padding_top": 0,
         "desktop_padding_bottom": 60,
         "mobile_padding_top": 0,
@@ -407,7 +473,10 @@
             "desktop_max_width": 1000,
             "mobile_max_width": 1000,
             "desktop_color": "#000000",
-            "mobile_color": "#000000"
+            "mobile_color": "#000000",
+            "highlight_text": "",
+            "desktop_highlight_text_color": "#000000",
+            "mobile_highlight_text_color": "#000000"
           }
         },
         "text_eBjNbe": {
@@ -431,7 +500,10 @@
             "desktop_max_width": 1440,
             "mobile_max_width": 1440,
             "desktop_color": "#000000",
-            "mobile_color": "#000000"
+            "mobile_color": "#000000",
+            "highlight_text": "",
+            "desktop_highlight_text_color": "#000000",
+            "mobile_highlight_text_color": "#000000"
           }
         }
       },
@@ -442,6 +514,7 @@
       "disabled": true,
       "name": "Text List",
       "settings": {
+        "section_id": "",
         "bg_color": "#ffffff",
         "desktop_padding_top": 60,
         "desktop_padding_bottom": 40,
@@ -588,7 +661,9 @@
       "disabled": true,
       "name": "Score Grid",
       "settings": {
+        "section_id": "",
         "bg_color": "#ffffff",
+        "not_necessary": false,
         "card_bg_color": "#ffffff",
         "card_border_color": "#e5e5e5",
         "score_color": "#fdd328",
@@ -623,7 +698,10 @@
             "desktop_max_width": 1000,
             "mobile_max_width": 1000,
             "desktop_color": "#121212",
-            "mobile_color": "#121212"
+            "mobile_color": "#121212",
+            "highlight_text": "",
+            "desktop_highlight_text_color": "#000000",
+            "mobile_highlight_text_color": "#000000"
           }
         },
         "text_MBaFDg": {
@@ -647,7 +725,10 @@
             "desktop_max_width": 1000,
             "mobile_max_width": 1000,
             "desktop_color": "#fdd328",
-            "mobile_color": "#fdd328"
+            "mobile_color": "#fdd328",
+            "highlight_text": "",
+            "desktop_highlight_text_color": "#000000",
+            "mobile_highlight_text_color": "#000000"
           }
         }
       },
@@ -658,6 +739,7 @@
       "disabled": true,
       "name": "Text List",
       "settings": {
+        "section_id": "",
         "bg_color": "#ffffff",
         "desktop_padding_top": 60,
         "desktop_padding_bottom": 40,
@@ -748,6 +830,9 @@
       "disabled": true,
       "name": "Custom Review(new)",
       "settings": {
+        "section_id": "",
+        "init_show_count": 100,
+        "increase_count": 4,
         "bg_color": "#ffffff",
         "card_bg_color": "#ffffff",
         "card_text_color": "#000000",
@@ -765,6 +850,7 @@
         "read_more_btn_color_hover": "#787878",
         "link_btn_text": "FIND MORE OUT",
         "link": "shopify://pages/contact",
+        "use_this_for_load_more": false,
         "link_btn_bg_color": "#121212",
         "link_btn_text_color": "#ffffff",
         "link_btn_bg_color_hover": "#fdd328",
@@ -939,6 +1025,8 @@
       "disabled": true,
       "name": "Image Grid",
       "settings": {
+        "section_id": "",
+        "hero_section": false,
         "bg_color": "#ffffff",
         "heading": "BIG OR SMALL, []",
         "secondary_heading": "FAST GROWTH",
@@ -1006,6 +1094,7 @@
       ],
       "disabled": true,
       "settings": {
+        "hero_section": false,
         "heading": "An Agency: An Australian Web Design Company You Can Trust",
         "text": "<p>With so many website developers and designers out there, you might ask, why us? Maybe you could even build it yourself. But let’s be honest—that’s probably the last thing you want to do. Even those DIY website builders miss the mark on the technical details, not to mention understanding the unique needs of the trades industry.</p><p>That’s where An Agency comes in. We know what it takes to create a website that not only looks great but also works for tradies. We get the trade business and the hard work you put in every day. No need to be modest about it—here’s what sets us apart.</p>",
         "trust_image": "shopify://shop_images/review-bar-green.svg",
@@ -1019,6 +1108,17 @@
       "type": "advertise",
       "disabled": true,
       "settings": {
+        "section_id": "",
+        "hero_section": false,
+        "key": "",
+        "badge_text": "",
+        "badge_bg_color": "#ffffff",
+        "badge_txt_color": "#000000",
+        "badge_border_radius": 0,
+        "hide_badge_on_mobile": false,
+        "hide_subheading_on_mobile": false,
+        "hide_text_on_mobile": false,
+        "hide_media_on_mobile": false,
         "loop_video": true,
         "autoplay_video": true,
         "main_image": "shopify://shop_images/website-design-and-dev-for-tradies.png",
@@ -1041,7 +1141,10 @@
         "button_link": "#",
         "button_text": "Help Grow My Business",
         "image_right": false,
+        "desktop_text_align": "left",
+        "mobile_text_align": "center",
         "background_color": "#aeddf9",
+        "text_color": "#000000",
         "desktop_padding_top": 60,
         "desktop_padding_bottom": 60,
         "mobile_padding_top": 40,
@@ -1052,6 +1155,17 @@
       "type": "advertise",
       "disabled": true,
       "settings": {
+        "section_id": "",
+        "hero_section": false,
+        "key": "",
+        "badge_text": "",
+        "badge_bg_color": "#ffffff",
+        "badge_txt_color": "#000000",
+        "badge_border_radius": 0,
+        "hide_badge_on_mobile": false,
+        "hide_subheading_on_mobile": false,
+        "hide_text_on_mobile": false,
+        "hide_media_on_mobile": false,
         "loop_video": true,
         "autoplay_video": true,
         "main_image": "shopify://shop_images/Web-Designs-for-trades.png",
@@ -1073,7 +1187,10 @@
         "button_link": "#",
         "button_text": "Help Grow My Business",
         "image_right": true,
+        "desktop_text_align": "left",
+        "mobile_text_align": "center",
         "background_color": "#aeddf9",
+        "text_color": "#000000",
         "desktop_padding_top": 60,
         "desktop_padding_bottom": 60,
         "mobile_padding_top": 40,
@@ -1084,6 +1201,17 @@
       "type": "advertise",
       "disabled": true,
       "settings": {
+        "section_id": "",
+        "hero_section": false,
+        "key": "",
+        "badge_text": "",
+        "badge_bg_color": "#ffffff",
+        "badge_txt_color": "#000000",
+        "badge_border_radius": 0,
+        "hide_badge_on_mobile": false,
+        "hide_subheading_on_mobile": false,
+        "hide_text_on_mobile": false,
+        "hide_media_on_mobile": false,
         "loop_video": true,
         "autoplay_video": true,
         "main_image": "shopify://shop_images/email-marketing-for-tradies-edm.webp",
@@ -1106,7 +1234,10 @@
         "button_link": "#",
         "button_text": "Get More High-Quality Leads",
         "image_right": true,
+        "desktop_text_align": "left",
+        "mobile_text_align": "center",
         "background_color": "#aeddf9",
+        "text_color": "#000000",
         "desktop_padding_top": 60,
         "desktop_padding_bottom": 60,
         "mobile_padding_top": 40,
@@ -1193,6 +1324,7 @@
       ],
       "disabled": true,
       "settings": {
+        "hero_section": false,
         "heading": "Tradies we work with",
         "text": "Looking for an affordable and effective web design service for your trade business in Australia? We’ve got you.",
         "desktop_padding_top": 60,
@@ -1299,6 +1431,8 @@
       ],
       "disabled": true,
       "settings": {
+        "section_id": "",
+        "hero_section": false,
         "heading": "Frequently Asked Questions",
         "bg_color": "#f9f9f9",
         "max_width": 684,
@@ -1363,6 +1497,7 @@
         "partner_item_nMMzBY"
       ],
       "settings": {
+        "hero_section": false,
         "heading": "Partnered With",
         "bg_color": "#ffffff",
         "desktop_card_border_radius": 10,
@@ -1377,6 +1512,7 @@
       "type": "marketing-focus",
       "name": "Marketing Focus Section",
       "settings": {
+        "key": "",
         "logo_image": "shopify://shop_images/04.jpg",
         "headline": "Email Isn’t Dead. It’s Just Done Badly.",
         "sub_text": "We’ll turn your emails into a reliable source of revenue, retention, and customer loyalty.",
