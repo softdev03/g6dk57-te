@@ -646,7 +646,77 @@
       }
     },
     "advertise_HPp6jH": {
-      "type": "advertise",
+      "type": "advertise-update",
+      "blocks": {
+        "media_zbf7UV": {
+          "type": "media",
+          "settings": {
+            "hide_media_on_mobile": false,
+            "loop_video": true,
+            "autoplay_video": true,
+            "main_image": "shopify://shop_images/9158264f569b0ba69761e856037de151.png",
+            "media_border_radius": 0,
+            "media_border_width": 0,
+            "media_border_color": "#000000",
+            "secondary_image_roate_angle": 12,
+            "desktop_left": -1,
+            "desktop_top": -1,
+            "desktop_right": -1,
+            "desktop_bottom": -1,
+            "mobile_left": -1,
+            "mobile_top": -1,
+            "mobile_right": -1,
+            "mobile_bottom": -1
+          }
+        },
+        "media_Jx6YiU": {
+          "type": "media",
+          "settings": {
+            "hide_media_on_mobile": true,
+            "loop_video": true,
+            "autoplay_video": true,
+            "main_image": "shopify://shop_images/9158264f569b0ba69761e856037de151.png",
+            "media_border_radius": 0,
+            "media_border_width": 0,
+            "media_border_color": "#000000",
+            "secondary_image_roate_angle": 12,
+            "desktop_left": -1,
+            "desktop_top": -1,
+            "desktop_right": -1,
+            "desktop_bottom": -1,
+            "mobile_left": -1,
+            "mobile_top": -1,
+            "mobile_right": -1,
+            "mobile_bottom": -1
+          }
+        },
+        "media_b9UwWW": {
+          "type": "media",
+          "settings": {
+            "hide_media_on_mobile": true,
+            "loop_video": true,
+            "autoplay_video": true,
+            "main_image": "shopify://shop_images/9158264f569b0ba69761e856037de151.png",
+            "media_border_radius": 0,
+            "media_border_width": 0,
+            "media_border_color": "#000000",
+            "secondary_image_roate_angle": 12,
+            "desktop_left": -1,
+            "desktop_top": -1,
+            "desktop_right": -1,
+            "desktop_bottom": -1,
+            "mobile_left": -1,
+            "mobile_top": -1,
+            "mobile_right": -1,
+            "mobile_bottom": -1
+          }
+        }
+      },
+      "block_order": [
+        "media_zbf7UV",
+        "media_Jx6YiU",
+        "media_b9UwWW"
+      ],
       "settings": {
         "section_id": "",
         "hero_section": false,
@@ -658,22 +728,6 @@
         "hide_badge_on_mobile": false,
         "hide_subheading_on_mobile": false,
         "hide_text_on_mobile": false,
-        "hide_media_on_mobile": false,
-        "loop_video": true,
-        "autoplay_video": true,
-        "main_image": "shopify://shop_images/9158264f569b0ba69761e856037de151.png",
-        "media_border_radius": 0,
-        "media_border_width": 0,
-        "media_border_color": "#000000",
-        "secondary_image_roate_angle": 8,
-        "desktop_left": -150,
-        "desktop_top": -1,
-        "desktop_right": -1,
-        "desktop_bottom": 20,
-        "mobile_left": 0,
-        "mobile_top": -1,
-        "mobile_right": -1,
-        "mobile_bottom": -26,
         "heading": "What's Killing Your Conversions?",
         "sub_heading": "Is Your Website Bleeding Money? Here's Why Customers Leave Without Buying:",
         "text": "<p><strong>Conversion Killers We Fix:</strong></p><p><strong>Confusing Navigation & Poor User Experience</strong><br/>Your customers can't find what they're looking for. Complex menus, broken search functions, and confusing product categories create frustration that sends visitors straight to your competitors.</p><p><strong>Unprofessional Design That Screams \"Amateur\"</strong><br/>Outdated design, poor color choices, and inconsistent branding destroy trust instantly. If your site looks unprofessional, customers assume your products are too.</p><p><strong>Slow Loading Times</strong><br/>Every second counts. Studies show 40% of visitors abandon sites that take more than 3 seconds to load. Your slow site is literally pushing money out the door.</p><p><strong>Weak Product Pages That Don't Sell</strong><br/>Poor product descriptions, low-quality images, missing reviews, and unclear pricing create doubt. Customers need confidence to buy - your product pages should eliminate every objection.</p><p><strong>Complicated Checkout Process</strong><br/>Hidden fees, too many form fields, limited payment options, and security concerns during checkout cause massive cart abandonment. Most customers are ready to buy until your checkout stops them.</p><p><strong>Mobile Experience That Frustrates</strong><br/>Over 60% of ecommerce traffic comes from mobile devices. If your site doesn't work flawlessly on phones and tablets, you're losing the majority of potential customers.</p><p><strong>Missing Trust Signals</strong><br/>No customer reviews, missing security badges, unclear return policies, and no social proof create fear. Customers won't buy from stores they don't trust.</p><p><strong>Poor Copy That Doesn't Convert</strong><br/>Generic product descriptions, weak headlines, and copy that doesn't address customer pain points fail to create the emotional connection needed for sales.</p>",
@@ -691,7 +745,77 @@
       }
     },
     "advertise_GJgkaY": {
-      "type": "advertise",
+      "type": "advertise-update",
+      "blocks": {
+        "media_8E3UnY": {
+          "type": "media",
+          "settings": {
+            "hide_media_on_mobile": false,
+            "loop_video": true,
+            "autoplay_video": true,
+            "main_image": "shopify://shop_images/9158264f569b0ba69761e856037de151.png",
+            "media_border_radius": 0,
+            "media_border_width": 0,
+            "media_border_color": "#000000",
+            "secondary_image_roate_angle": 12,
+            "desktop_left": -1,
+            "desktop_top": -1,
+            "desktop_right": -1,
+            "desktop_bottom": -1,
+            "mobile_left": -1,
+            "mobile_top": -1,
+            "mobile_right": -1,
+            "mobile_bottom": -1
+          }
+        },
+        "media_ewhtW3": {
+          "type": "media",
+          "settings": {
+            "hide_media_on_mobile": true,
+            "loop_video": true,
+            "autoplay_video": true,
+            "main_image": "shopify://shop_images/9158264f569b0ba69761e856037de151.png",
+            "media_border_radius": 0,
+            "media_border_width": 0,
+            "media_border_color": "#000000",
+            "secondary_image_roate_angle": 12,
+            "desktop_left": -1,
+            "desktop_top": -1,
+            "desktop_right": -1,
+            "desktop_bottom": -1,
+            "mobile_left": -1,
+            "mobile_top": -1,
+            "mobile_right": -1,
+            "mobile_bottom": -1
+          }
+        },
+        "media_gqpKGt": {
+          "type": "media",
+          "settings": {
+            "hide_media_on_mobile": false,
+            "loop_video": true,
+            "autoplay_video": true,
+            "main_image": "shopify://shop_images/9158264f569b0ba69761e856037de151.png",
+            "media_border_radius": 0,
+            "media_border_width": 0,
+            "media_border_color": "#000000",
+            "secondary_image_roate_angle": 12,
+            "desktop_left": -1,
+            "desktop_top": -1,
+            "desktop_right": -1,
+            "desktop_bottom": -1,
+            "mobile_left": -1,
+            "mobile_top": -1,
+            "mobile_right": -1,
+            "mobile_bottom": -1
+          }
+        }
+      },
+      "block_order": [
+        "media_8E3UnY",
+        "media_ewhtW3",
+        "media_gqpKGt"
+      ],
       "settings": {
         "section_id": "",
         "hero_section": false,
@@ -703,22 +827,6 @@
         "hide_badge_on_mobile": false,
         "hide_subheading_on_mobile": false,
         "hide_text_on_mobile": false,
-        "hide_media_on_mobile": false,
-        "loop_video": true,
-        "autoplay_video": true,
-        "main_image": "shopify://shop_images/9158264f569b0ba69761e856037de151.png",
-        "media_border_radius": 0,
-        "media_border_width": 0,
-        "media_border_color": "#000000",
-        "secondary_image_roate_angle": 8,
-        "desktop_left": -150,
-        "desktop_top": -1,
-        "desktop_right": -1,
-        "desktop_bottom": 20,
-        "mobile_left": 0,
-        "mobile_top": -1,
-        "mobile_right": -1,
-        "mobile_bottom": -26,
         "heading": "We Fix Every Conversion Barrier (Because We've Been In Your Shoes)",
         "sub_heading": "Unlike typical agencies, we're former ecommerce business owners who built multiple 6 and 7-figure brands from scratch. We've experienced every challenge you're facing and solved them in our own businesses before selling them for substantial profits.",
         "text": "<p><strong>Our Proven CRO Process:</strong></p><p><strong>1. Deep Conversion Audit</strong><br/>We analyse every element of your customer journey using advanced heat mapping, user session recordings, and conversion funnel analysis to identify exactly where you're losing sales.</p><p><strong>2. Strategic Optimisation Plan</strong><br/>Based on our findings, we create a prioritised action plan targeting the highest-impact improvements first - the changes that will drive immediate results.</p><p><strong>3. Professional Implementation</strong><br/>Our certified Shopify developers implement every optimisation using conversion-proven design principles and best practices we've perfected across dozens of successful stores.</p><p><strong>4. Continuous Testing & Refinement</strong><br/>We A/B test every change to ensure maximum impact, constantly refining and improving performance based on real data from your actual customers.</p>",
